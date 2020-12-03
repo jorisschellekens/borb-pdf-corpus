@@ -1,0 +1,32 @@
+                           Call for Papers: 38th Internaitonal Symposium on Combusiton 
+                           Released: 3 April 2019 
+                           The 38th Internaitonal Symposium on Combusiton will convene at the Adelaide Conveniton Centre, Adelaide,   
+                           Australia from Sunday, 12 July through Friday, 17 July 2020. Scienitsts, engineers, and others interested in  
+                           combusiton are invited to attend and paritcipate in this biennial world congress of The Combusiton Insittute. 
+                           Symposium Agenda 
+                           The technical program will consist of contributed papers and Work-in-Progress Poster (WiPP) sessions.  
+                           Invited lectures, topical reviews, and special industry perspecitves will be presented by eminent specialists. 
+                           Technical Program Co-Chairs  
+                           Tim Lieuwen, Georgia Insittute of Technology, USA     Fei Qi, Shanghai Jiao Tong University, China  
+                           Colloquia Descripitons 
+                           A total of 13 colloquium categories will be addressed at the 38th Internaitonal Symposium on Combusiton. Authors 
+                           must indicate a choice of colloquium with their submissions.  
+                           GAS-PHASE REACTION KINETICS including the kineitcs of hydrocarbons and oxygenated fuels, formaiton of gaseous 
+                           pollutants, elementary reacitons, mechanism generaiton, reduciton and uncertainty quanitifcaiton.  
+                           Michael P. Burke, Columbia University, United States; Guillaume Dayma, Université d'Orléans—CNRS/ICARE, France; 
+                           Perrine Pepiot, Cornell University, United States; Raghu Sivaramakrishnan, Argonne Naitonal Laboratory, United 
+                           States; Bin Yang, Tsinghua University, China; Judit Zádor, Sandia Naitonal Laboratories, United States. 
+                           SOOT, NANOMATERIALS, AND LARGE MOLECULES including the formaiton, growth, and destruciton of soot, PAHs, 
+                           carbon nanostructures, and other nanoscale materials. Per-Erik Bengtsson, Lund University, Sweden; Yuyang Li, 
+                           Shanghai Jiao Tong University, China; Michael E. Mueller, Princeton University, United States; William Roberts, King 
+                           Abdullah University of Science and Technology, Saudi Arabia; Xiaoqing You, Tsinghua University, China. 
+                           DIAGNOSTICS including the development and applicaiton of diagnositc techniques and sensors for the 
+                           understanding and control of combusiton and reacitng lfow phenomena. Aamir Farooq, King Abdullah University of 
+                           Science and Technology, Saudi Arabia; Tina Kasper, University of Duisburg-Essen, Germany; Jeffrey A. Sutton, Ohio 
+                           State University, United States; Wolfgang Meier, Deutsches Zentrum für Lutf- und Raumfahrt e.V., Germany. 
+                           LAMINAR FLAMES including their igniiton, structure, propagaiton, exitnciton, stabilizaiton, dynamics, and 
+                           instabiliites. Zheng Chen, Peking University, China; Christos E. Frouzakis, ETH Zürich, Switzerland; Fabien Halter, 
+                           Université d'Orléans—CNRS/ICARE, France; Zuohua Huang, Xi'an Jiaotong University, China; Jeong Park, Pukyong 
+                           Naitonal University, Republic of Korea; Eric L. Petersen, Texas A&M University, United States; Bruno Renou, CORIA, 
+                           INSA Rouen Normandie, France. 
+  

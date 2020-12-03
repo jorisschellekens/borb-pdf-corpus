@@ -1,0 +1,469 @@
+                      Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+           Try to pick a                  RULES OF THUMB FOR WRITING 
+           catchy title! 
+                                                                                               1 
+                                                    RESEARCH ARTICLES
+                       
+                                                                        A                     B
+                                                    Tomislav Hengl , Michael Gould  
+                              A
+                               International Institute of Geo-Information Science and Earth Observation (ITC), P.O. Box 6, 7500 
+                                                    AA Enschede, Netherlands, hengl@itc.nl 
+                                  BMichael Gould Associates, Apeldoornseweg 21, 6814 BG Arnhem, Netherlands 
+                                                        mike.gould@mgassoc.demon.nl 
+                                                   Web: http://www.itc.nl/personal/hengl/RT/  
+                                                                            
+                       
+                       
+                                                                     Abstract 
+                       
+                             The paper provides 'rules of thumb' for writing research articles (RA) and 
+                                                                                                                           abstract should 
+                             getting them published. These were discussed during the "Scientific writing 
+                             course" organized for ITC PhD students by Cressie Communication Services.  be short but 
+                                                                                                                           give the overall 
+                             Important aspects of macro and sub-structure of a paper were selected 
+                                                                                                                           idea: 
+                             through group discussions. The substructure and functions of different 
+                                                                                                                           what was done, 
+                             sections of RAs are described. Results of previous investigations and 
+                                                                                                                           what was found 
+                                                                                                                           and what are the 
+                             interviews among journal editors were used to summarize what makes a good 
+                             RA. It was concluded that clear, logical, coherent, focused, good argument and main conclusions
+                             well-structured writing gets the paper published and read. Some important 
+                             rules of the thumb selected were: “Adjust your writing to the audience and 
+                             purpose”, “Avoid redundancy and unnecessary explanations” and “Write like 
+                             you speak and then revise”. 
+                                                                                                    when selecting KWs, 
+                            Keywords: Research article, rules of thumb, structure, publishing.      imagine you are 
+                                                                                               
+                                                                                                    searching for your 
+                                                                                                    article in some 
+                                                                                                    database 
+                                                              I. INTRODUCTION 
+                      A scientific or research article or paper is a technical (or essayistic?) document that 
+                      describes a significant experimental, theoretical or observational extension of current 
+                      knowledge, or advances in the practical application of known principles (O'Conner and 
+                      Woodford, 1976). It is important to emphasize that a research article (further referred as 
+      MOVE 1:         RA) should report on research findings that are not only sound (valid) and previously 
+      Introduce  unpublished (original), but also add some new understanding, observation, proofs, i.e. 
+      the topic       potentially important information (Gordon, 1983). Unlike a novel, newspaper article or 
+                      an essay, a RA has a required structure and style, which is by international consensus 
+      and             known as "Introduction Methods Results and Discussion" or IMRaD. However, a RA is 
+      emphasize       not only a technically rigid document, but also a subjective intellectual product that 
+      why is it       unavoidably reflects personal opinions and beliefs. Therefore, it requires good skills in 
+      important! 
+                      both structuring and phrasing the discoveries and thoughts. These skills are acquired 
+                      through experience, but can also be taught.  
+                       
+     MOVE 2:          Many books have been written on general guidelines and rules to help scientists write 
+     Relate to        RAs (Day, 1994; Trelease, 1958). These days, many scientific societies and groups 
+     current          write quite detailed publications and style manuals to help both authors and publishers 
+     knowledge:  to get along; see for example the CBE's style manual (1994) or the ACA-CSA-SSSA's 
+                                                                                 
+                      1
+                       You are free to distribute this document, or use it in class, as long as you give credit to the source and you don't use it for any 
+                      commercial purposes. In Enschede, September 2002. 
+                                                                         1 
+                   Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+                   manual (1998). What used to be short guides for writing a RA has been extended to the 
+                   level of meso and micro-elements of the paper. Various authors have investigated the 
+    "What's been  principles of creating a good title (Ackles, 1996), writing a good abstract or introduction 
+    done" and      (McPhee, 2001; Swales, 1981). Some go to the level of the micro-structure of RA Bring the 
+                   (sentences) and provide a framework for a logical structure between the words (Gopen 
+    "What need's                                                                                                GAP  
+    to be done?"   and Swan, 1990; Kirman, 1992). However, writing a RA is still a "monkey-puzzle tree", 
+                   especially if you are a non-native English speaker (further referred to as L2). What 
+                   makes a good paper and which rules of thumb are the most important for these 
+                   researchers?  
+    MOVE 3:         
+    Introduce      Following this question, we tried to formulate some rule of thumbs for easier writing (or 
+                                                                                                                Objective 
+    your work      better to say publishing) of RAs. These rules gathered from discussions during the 
+    Give the       "Scientific writing for non-native English speakers" course, but also come from our 
+    purpose and  personal experiences with scientific writing. The main idea was to summarize main 
+    main           conclusions from these discussions and bring them all together in a form of a paper.  
+    objective       
+                    
+                                                     II. METHODOLOGY 
+                   The Scientific writing course, organized annually for ITC PhD students, was held in 
+                                         th               th
+                   period from March 8 until April 26 2002. There were nine students, who followed 
+                   five full-day classes. This gave enough time to do numerous home-works and 
+                                                                                                               Object of 
+    Describe       assignments. The classes were organised in a way that participants worked in groups or 
+    Experimental                                                                                               the study 
+                   individually and discussed the most important issues, first among themselves and then 
+    set-up         as a whole group. The following topics were discussed in more detail (in chronological 
+                   order): standard structure or elements of an RA, macro, meso and micro levels of a RA, 
+                   general problems with readability and communication, functions and content of 
+                   Introduction, Methods, Results and Discussion section, writing successful abstracts and 
+                   principles of submitting and publishing a RA. The participants were from eight 
+                                                                                                               Establish 
+                   countries (L2) and four continents, which was a ground for discussion of cultural-
+                                                                                                               an author's 
+                   academic differences (Prince et al., 1999). The working material and facilities were 
+                                                                                                               'voice' 
+                   organized by Ian Cressie (Cressie, 2002), while most of the classes were lead by 
+    Explain used  Michael Gould, documentation consultant and advisory editor. Participants generated 
+    techniques     some graphs and flow diagrams manually (Fig. 1), which we then modified and 
+                   transferred to a manuscript form.  
+                    
+                                                                                      
+                         Fig. 1. Photo from the Scientific writing class at ITC. Discussion about the "Discussion" section. 
+                                                               2 
+                       Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+                       The basic concept of the course is that the students should learn from the real examples 
+                       and on their own mistakes. In most of the cases, participants were analysing and 
+                       correcting each-others work. In other cases, participants were making comments on 
+                       examples prepared by Ian Cressie. Typical exercise was, for example: a short RA is 
+                       given to students who have to write a missing abstract respecting the rules and functions 
+                       of an abstract. 
+                                                                                                                                           RA is like a 
+                                                                                                                                           cook-book! 
+                       Most of the rules mentioned in this article were agreed by the majority of participants. 
+                                                                                                                                           Be specific 
+                       We have also used results of previous investigations and inquiries of journal editors to 
+                                                                                                                                           and provide 
+                       support general conclusions. Nevertheless, some of the statements and principles reflect 
+                                                                                                                                           all 
+                       personal views and opinions and should not be confused with the cited literature. The 
+                                                                                                                                           necessary 
+                       listed rules and tips given here apply primarily to application-based sciences and RAs 
+                       intended for publication in such journals.                                                                          detail 
+                        
+                        
+                                                                       III. RESULTS 
+                       RA structure and style 
+                       A RA was first divided in number of article sections (futher reffered to as RAS) and 
+       Give            elements (RAE). Participants agreed that the main article sections that are inevitable in 
+       summary  any modern journal are, in this order: Title, Authors, Abstract, Introduction (I), 
+       results         Methodology (M), Results (R), Conclusions and Discussion (D) and References. These 
+                       are the core body of RA. Additional listed RAS's were: Author-paper documentation, 
+                       Keywords, Acknowledgements, Abbreviations and Appendices. The RAEs listed were: 
+                       tables, figures (graphs, maps, diagrams, sketches etc.), equations, citations and footnotes 
+                       and comments. The RAEs can come in different places in the RA, however tables and 
+                       figures are more usual in Results section and equations and citations in Methodology 
+                       and Introduction. All these RAS's and RAEs have their function and required style and 
+                       should form a coherent unity. The functions of main RAS's and discussed rules of 
+                       thumb are given in Table 2.  
+                        
+                       Participants agreed that some RA, even with good data and interesting results, will be 
+                                                                                                                                           Focus:
+                       rejected if the style and format of the paper are not tailored for the audience. This agrees 
+                                                                                                                                           put more 
+                       with the results of investigations among 116 editors (Gosden, 1992; Fig. 1), who 
+       Compare  identified following most frequent causes to reject an L2 author: unclear text, incoherent  focus on 
+       results                                                                                                                             what 
+                       development of the topic in paragraphs and incorrect use of grammar. In addition, the 
+                                                                                                                                           should be
+                                                                                                                                                         
+                       participants analysed an exemplary flawed paper by unknown author and decided to 
+                                                                                                                                           emphasized 
+                       reject it after some discussion. The list of reasons for rejection can be seen in Table 1. 
+                        
+                               Table 1. Most important reasons for rejection of a RA.  
+                                    Aspect  Reason for rejection 
+                                     Topic  irrelevant topic or topic of local interest only 
+                                  Newness  papers offers nothing new 
+                                     Focus  topic, objectives and conclusions are not connected  
+                           Methodological  unclear and misleading argumentation; 
+                                      steps   weak methodology or results 
+                                      Style   unclear, unfocused and incoherent text 
+                              Data Quality    flawed design; insignificant sample number; preliminary findings only 
+                        
+                        
+                                                                               3 
+                                    Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+                                                Table 2. Research Article Sections (RAS), main functions, preferred style and related rules of thumb.  
+                                      RAS                         Main functions                                   Preferred style                              Rules of thumb 
+                                      Title                       - indicates     content and m       ain          - short and simple (7-10                     - avoid complex grammar; 
+                                                                  discoveries;                                     words);                                      - make it catchy       ! 
+                                                                  - attracts    the reader's     attention;        - purpos ive (aim s at specific              - avoid redundancy           ("An 
+                                                                                                                   audience);                                   investigation of... ", "The analy            sis 
+                                                                                                                                                                of... ", "Effect of... ", "Influence 
+                                                                                                                                                                of...", "New m       ethod...); 
+                                                                                                                                                                 
+                                      Abstract                    - reflects the main '       story' of the        - past (perfect) tense and                   - avoid introducing the topic; 
+                                                                  RA;                                              passive voice(!)                             - explain: what was done, what 
+                                                                  - calls attention but avoids                     - short and concise                          was found and what are the main 
+                                                                  extra explanations        ;                      sentences ;                                  conclusions; 
+                                                                                                                   - no citations, tables,                      - bring summary          'numbers' ; 
+                                                                                                                   equations, graphs etc.                        
+                                      Introduction                - introduces the topic and                       - simple tense for reffering                 - use the    state-of-the-art      references; 
+                                                                  defines the terminology           ;              to established knowledge or                  - follow the logical m         oves; 
+                                                                  - relates to the existing                        past tense for literature                    - define y    our terminology         to avoid 
+                                                                  research;                                        review;                                      confusion; 
+                                                                  - indicated the focus         of the              
+                                                                  paper and research objectives; 
+                                                                   
+                                      Methodology  - provides enough detail for                                    - past tense but active                      - mention every        thing y ou did that 
+                                                                  competent res       earchers  to repeat          voice(!);                                    can make importance to the results; 
+                                                                  the experim      ent;                            - correct and internationally                - don' t cover y     our traces ("som        e 
+                                                                  - who, what, when,          where,  how          recognised sty       le and format           data was ignored"), establish an 
+                                                                  and why ?                                        (units, variables, m        aterials         authors voice ("we decided to 
+                                                                                                                   etc.);                                       ignored this data"); 
+                                                                                                                                                                - if a technique is fam        iliar,  only use 
+                                                                                                                                                                its name (don'       t re-explain); 
+                                                                                                                                                                - use simple(st) exam ple to explain 
+                                                                                                                                                                complex methodology              ; 
+                                                                                                                                                                 
+                                      Results                     - gives summary          results in              - past tense;                                - present sum       mary data related to 
+                                                                  graphics and numbers;                            - use tables and graphs and                  the RA objectives and not all 
+                                                                  - compares different                             other illustrations;                         research res ults; 
+                                                                  'treatm ents';                                                                                - give more emphasise on what 
+                                                                  - gives quantified proofs                                                                     should be emphasised - call 
+                                                                  (statistical tests);                                                                          attention to the m       ost significant 
+                                                                                                                                                                findings; 
+                                                                                                                                                                - make clear separation between 
+                                                                                                                                                                yours and others work; 
+                                                                                                                                                                 
+                                      Conclusions                 - ans wers research                              - sim ple or present tense                   - do not recapitulate res         ults but 
+                                      and                         questions/objectives;                            (past tense if it is related to              make statements; 
+                                      Discussion                  - explains discrepancies and                     results);                                    - make strong statements (avoid "It 
+                                                                  unexpected findings;                             - allows scientific                          may be concluded... " s           tyle); 
+                                                                  - states importance of                           speculations (if necessary           );      - do not hide unexpected results - 
+                                                                  discoveries and future                                                                        they can be the m         ost important; 
+                                                                  implications; 
+                                      References                  - gives list of related literature               - depends on journal but                     - alway s cite the m       ost acces sible 
+                                                                  and information sources;                         authors /editors , year and                  references; 
+                                                                                                                   title m ust be included;                     - cite prim    ary source rather than 
+                                                                                                                                                                review papers; 
+                                     
+                                    RA sub-structure  
+                                    Participants also discovered that all RAS's can be separated in subsections or signposts, 
+                                    which can be arbitrary, but improve the structure of a RA. The recognized subsections 
+                                    were: research topic and definitions, research objectives (questions), methodological 
+                                    techniques, experimental set-up, object of the study (e.g. study area), main discoveries 
+                                    (analysed data), answers on research questions, explanation of the conclusions and 
+                                    further research and implications. The main RAS's are listed in a flow chart, showing 
+                                    main relations between different sections (Fig. 2). Fig. 3 shows the substructure of 
+                                    Introduction and Discussion RAS as the most important RAS's.  
+                                                                                                                           4 
+                Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+                 
+                         INTRODUCTION
+                                                           TITLE
+                              TOPIC AND DEFINITIONS
+                                FOCUS (THE GAP)          AUTHOR(S)
+                                  OBJECTIVES
+                                                         ABSTRACT
+                         METHODOLOGY
+                                  TECHNIQUES             KEY WORDS
+                               EXPERIMENTAL SET-UP
+                                OBJECT OF STUDY         ABBREVATIONS
+                            RESULTS                   ACKNOWLEDGMENTS
+                                MAIN DISCOVERIES
+                             SUMMARY COMPARISSONS       REFERENCES
+                        CONCLUSIONS &
+                          DISCUSSION                     APPENDIX
+                                   ANSWERS
+                                 EXPLANATIONS
+                              FURTHER IMPLICATIONS                    
+                     Fig. 2. Flow diagram: research article sections (shaded) and subsections, and their main relations. 
+                 
+                       INTRODUCTION            DISCUSSION
+                       INTRODUCE THE TOPIC     ANSWER RESEARCH
+                                                  QUESTIONS
+                        RELATE TO CURRENT     SUPPORT AND DEFEND
+                           KNOWLEDGE         ANSWERS WITH RESULTS
+                        INDICATE THE GAP          EXPLAIN:
+                                             - Conflicting results you got
+                                               - Unexpected findings
+                                             - Discrepancies with other
+                                                   research
+                       INTRODUCE YOUR WORK
+                                               STATE LIMITATIONS
+                         STATE RESEARCH          OF THE STUDY
+                         QUESTIONS AND
+                           OBJECTIVES          STATE IMPORTANCE
+                                                 OF FINDINGS
+                                              ESTABLISH NEWNESS
+                                              ANNOUNCE FURTHER
+                                                  RESEARCH       
+                     Fig. 3. Flow diagram: logical framework for RA sub-sections of Introduction and Discussion agreed by most of 
+                            the participants. 
+                 
+                                                     5 
+                 Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+                  
+                                      IV.  CONCLUSIONS AND DISCUSSION 
+                 What is the purpose of a RA and what makes it a good one, and who decides that it is a 
+                 good RA? Are there rules for easier writing? If the main function of a RA is to transfer a 
+    Answer       new knowledge on a research topic, then a good paper is the one that is clear, coherent, 
+    research     focused, well argued and uses language that does not have ambiguous or equivoque 
+    questions    meaning. However, it is not only the message that is important. The RA must have a 
+                 well-defined structure and function in serve like a cook-book, so the others can 
+    Give         reproduce and repeat explained experiments.  
+    summary      There are some rules that can make the writing and publishing of RAs 'easier'. Here, we 
+    conclusions  summarised some 'golden' rules that should always be in the mind of an inexperienced 
+                 researcher (Table 3). We put all these together to make a final list of some 40 logical 
+                 steps, which can be find in the Appendix. 
+                  
+                      Table 3. Selected golden rules for easier publishing. 
+                  NAME GOLDEN RULE 
+                  TAKE A READER'S VIEW       Write for your audience not for yourself. 
+                  TELL A STORY               Direct your RA but keep a clear focus in the paper and present only 
+                                             results that relate to it. 
+                  BE YOURSELF                Write like you speak and then revise and polish. 
+                  MAKE IT SIMPLE             Use simple(st) examples to explain complex methodology. 
+                  MAKE IT CONCRETE           Use concrete words and strong verbs, avoid noun clusters (more 
+                                             than three words), abstract and ambiguous words. 
+                  MAKE IT SHORT              Avoid redundancy, repetition and over-explanation of familiar 
+                                             techniques and terminology. 
+                  TAKE RESPONSIBILITY        Make a clear distinction between your work and that of others. 
+                  MAKE STRONG                "We concluded... " instead of "It may be concluded... "  
+                  STATEMENTS 
+                  BE SELF-CRITICAL           Consider uncertainty of conclusions and their implications and 
+                                             acknowledge the work of others. 
+                  
+                 Although, it was assumed that the 'thicker' articles with wider range of vocabulary is 
+   Unexpected  preferable in the editors hands, the editors (and probably the readers) prefer simple, 
+   findings      clear and coherent writing, rather than a fancy or complex, pseudo-scientific style. Also 
+                 Funkhouser and Maccoby (1971) showed that the information gain is especially 
+                 enhanced by the “use of examples", i.e. it helps a lot to use some non-science material, 
+                 such as everyday life parallels, historical points, etc. On the other hand, some sections, 
+                 such as Introduction and Discussion, have to intrigue readers and attract interest and 
+                 should therefore not be over-simplified. For example, a mysterious title can catch 
+                 readers' attention and will be easily remembered (e.g.: T.Y. Li and J. Yorke named their 
+                 famous paper on chaos: "The period three means chaos"). Some sections require more 
+                 skill and are more important. It is approximated that from all published journal RAs in 
+                 the world, only less than 5% are read in detail. However, more than 50% of abstracts are 
+                 read and so the quality of an abstracts is much more important (Gordon, 1983). 
+                 Therefore, the abstract should present the 'story' of the RA in miniature and should be 
+                 readable standalone.  
+                                                          6 
+                  Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+                   
+                   
+                  The sub-structure of an Introduction was first described by Swales (1981) with so called 
+                  "four moves". These latter on become three, the so-called CaRS model (Create-A-
+   Establish      Research-Space) that are: establish a research "territory", establish a research "niche" 
+   newness        and occupy the niche (Swales and Feak, 1994). In this case, participants concluded that 
+                  especially the meso-structure of the Introduction and Discussion RAS should follow 
+                  some logical flow of 'moves' (Fig. 2 & 3). The more structured and more exact is the 
+                  paper, the easier it will get published. Each of RA elements has to fulfil its function in 
+                  order to achieve this goal. 
+                   
+                  However, this is not the whole story. A RA has to aim at specific audience/Journal, has 
+   Explain dis-   to be novel and of high interest. Finally, one thing should be uppermost in researchers' 
+   crepancies                                                                                              A GOOD 
+                  minds: a good article is not only an article that has been published in a top journal - it is 
+                                                                                                           ARTICLE IS 
+                  the reaction it causes that makes the difference. Therefore, a good article is the one that 
+                                                                                                           THE ONE 
+                                                                                                           THAT IS 
+                  is read and cited (Publish or Perish!). In some cases, even a good paper will get rejected 
+                                                                                                           READ AND 
+                  by the editors, i.e. journal. Unfortunately, sometimes the reasons can be subjective 
+                              rd                                                                           CITED! 
+                  (maybe 1/3  of all cases). Editors are often biased, they prefer one or other approach, 
+                  academic level, gender... nation. These problems and issues such as fraud, plagiarism 
+                  and ethics (Rossiter, 2001) were not discussed in this article but they certainly need 
+                  attention. 
+                   
+                  The searching, input and formatting of references, has been lately largely improved by 
+     Further      the help of so called "information management tools" (Endnote, ProCite etc.). In 
+     research     addition, the role of companies involved in 'sorting' and 'filtering', such as Institute for 
+     and          Scientific Information (ISI), will increase. In future, we can expect more structured 
+     implications guidelines for writing a RA (templates?). The RA will also probably support multimedia 
+                  (animations, sound recordings), which will improve communication between the 
+                  readers/users and authors. These innovations will inevitably require require some new 
+                  rules of thumb.  
+                   
+                  Acknowledgements 
+                  We would like to thank Ian Cressie for their course and materials, which are of high importance for L2 
+                  PhD students. We also thank PhD student Jose L.C. Santos and Dr. David G. Rossiter for reading the text 
+                  and giving us suggestions.  
+                   
+                   
+                   
+                                                     V. REFERENCES 
+                  Ackles, N., 1996. Naming a paper, ESL Center, University of Washington, Washington. 
+                  ASA-CSA-SSSA, 1998. Publications Handbook and Style Manual. http:// www.asa-cssa-sssa.org/style98/, 
+                          145 pp. 
+                  Council of Biology Editors (CBE) (Editor), 1994. Scientific style and format. Cambridge University 
+                          Press, Cambridge, 825 pp. 
+                  Cressie, I., 2002. Writing & Editing Course, Lecture notes for ITC students. Enschede, pp. 120. 
+                  Day, R.A. (Editor), 1994. How to write and publish a scientific paper. Oryx Pr., Phoenix, 223 pp. 
+                  Funkhouser, G. R. and Maccoby, N., 1971. Communicating Specialized Science Information to a Lay 
+                          Audience. The Journal of Communication, 21: 58. 
+                  Gopen, G.D. and Swan, J.A., 1990. The Science of Scientific Writing. American Scientist, 78: 550-558. 
+                  Gordon, M., 1983. Running a refeering system. Primary Communications Research Centre, Leicester. 
+                  Gosden, H., 1992. Research Writing and NNSs: From the Editors. Journal of Second Language Writing, 
+                          1(2): 123-139. 
+                                                             7 
+           Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+           Kirman, J., 1992. Good style: writing for science and technology. E. & F.N. Spon, London, 221 pp. 
+           McPhee, L., 2001. Teaching the Research Article Introduction, First EATAW Conference: Teaching 
+                Academic Writing Across Europe, Groningen. 
+           O'Conner, M. and Woodford, F.P., 1976. Writing scientific papers in English. Elsevier, Amsterdam, 108 
+                pp. 
+           Prince, A., Blicblau, A.S. and Soesatyo, B., 1999. Implicit actions and explicit outcomes: cultural-
+                academic interactions in writing journal research articles, AARE-NZARE.  Swinburne University 
+                of Technology, pp. 8. 
+           Rossiter, D.G., 2001. Preparation for MSc Thesis Research. ITC, Enschede, http://www.itc.nl/~rossiter/, 
+                pp. 28. 
+           Swales, J., 1981. Aspects of Article Introductions. ESP Research Report No.1, University of Aston, 
+                Aston, UK. 
+           Swales, J.M. and Feak, C., 1994. Academic Writing for Graduate Students. Ann Arbor, the University of 
+                Michigan Press. 
+           Trelease, S.F., 1958. How to write scientific and technical papers. Williams and Wilkens, Baltimore, 185 
+                pp. 
+            
+            
+            
+                                      8 
+                      Hengl, T. and Gould, M., 2002. Rules of thumb for writing research articles. 
+                       
+                                                                  VI. APPENDIX 
+                       
+                      STEP 1      Make a working title                                                                 Put it all 
+                      STEP 2      Introduce the topic and define terminology                                           together: 
+                      STEP 3      Emphasize why is the topic important                                                  
+        MAKE          STEP 4      Relate to current knowledge: what's been done                                        writing a RA in 
+        DRAFT         STEP 5      Indicate the gap: what need's to be done?                                             40 STEPS! 
+                      STEP 6      Pose research questions                                                               
+                      STEP 7      Give purpose and objectives 
+                      STEP 8      List methodological steps 
+                      STEP 9      Explain theory behind the methodology used 
+                      STEP 1 0    Describe experimental set-up 
+                      STEP 1 1    Describe object of the study (technical details) 
+                      STEP 1 2    Give summary results 
+                      STEP 1 3    Compare different results 
+                      STEP 1 4    Focus on main discoveries 
+                      STEP 1 5    Answer research questions (conclusions) 
+                      STEP 1 6    Support and defend answers 
+                      STEP 1 7    Explain conflicting results, unexpected findings and discrepancies with other 
+                                  research 
+                      STEP 1 8    State limitations of the study 
+                      STEP 1 9    State importance of findings 
+                      STEP 2 0    Establish newness 
+                      STEP 2 1    Announce further research 
+                      STEP 2 2    ABSTRACT: what was done, what was found and what are the main conclusions 
+                       
+                      STEP 2 3    Is the title clear and does it reflect the content and main findings? 
+        REVISE  STEP 2 4  Are key terms clear and familiar?  
+                      STEP 2 5    Are the objectives clear and relevant to the audience? 
+                      STEP 2 6    Are all variables, techniques and materials listed, explained and linked to existing 
+                                  knowledge - are the results reproducible? 
+                      STEP 2 7    Are all results and comparisons relevant to the posed questions/objectives? 
+                      STEP 2 8    Do some statements and findings repeat in the text, tables of figures? 
+                      STEP 2 9    Do the main conclusions reflect the posed questions? 
+                      STEP 3 0    Will the main findings be unacceptable by the scientific community? 
+                      STEP 3 1    Is the text coherent, clear and focused on a specific problem/topic? 
+                      STEP 3 2    Is the abstract readable standalone (does it reflects the main story)? 
+                       
+                      STEP 3 3    Are proper tenses and voices used (active and passive)? 
+                      STEP 3 4    Are all equations mathematically correct and explained in the text? 
+        POLISH        STEP 3 5    Are all abbreviations explained? 
+                      STEP 3 6    Reconsider (avoid) using of words "very", "better", "may", "appears", "more", 
+                                  "convinced", "impression" in the text. 
+                      STEP 3 7    Are all abbreviations, measurement units, variables and techniques internationally 
+                                  recognised (IS)?  
+                      STEP 3 8    Are all figures/tables relevant and of good quality? 
+                      STEP 3 9    Are all figures, tables and equations listed and mentioned in the text? 
+                      STEP 4 0    Are all references relevant, up to date and accessible? 
+                       
+                                                                           9 

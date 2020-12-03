@@ -1,0 +1,257 @@
+                                                   HowtoGetYourSIGGRAPHPaperRejected
+                                                                    Jim Kajiya, SIGGRAPH 93 Papers Chair
+                 1 Introduction                                                                 code, and feeding slides to your local photoﬁnisher. SIGGRAPH
+                                                                                                fever rises to absurd heights at the last week: “Let’s see I only have
+                 Everyone knows what acceptable SIGGRAPH papers look like:                      105hoursuntilthedeadline...” Youputeverythingtogether,accom-
+                 just look in the proceedings. When one only sees the accepted pa-              plishing superhuman tasks to make the Federal Express deadline at
+                 pers and not the rejected ones, it is easy to get the wrong impression         the very last minute. Your six copies are taken by the courier safely
+                 of what it is that SIGGRAPH likes and doesn’t like.                            to the papers chair, then you-and everyone around you-collapse.
+                 I’ve submitted a lot of papers that SIGGRAPH didn’t like, as well              The next day, as you and hundreds of other morlocks around the
+                 as a few they did. Also, I’ve been on the papers committee a few               world come out of sub-basements to blink at the ﬁrst natural sun-
+                 times and know what it is they look for. This note tells you some-             light you’ve seen in weeks, is deadline day. Fully 85% of the 200
+                 thing about what happens to your paper as it goes through the re-              or so SIGGRAPH submissions arrive at the papers chair doorstep.
+                 viewing process as well as what people discuss when they’re trying             Everyone else has worked until the last possible minute, too. The
+                 to decide whether to accept or reject your paper. I’ll try to tell you         papers chair and several dedicated assistants then spend their long
+                 everything I’ve learned about the SIGGRAPH secret: What SIG-                   all-nighter giving your paper a number, entering it into the database,
+                 GRAPHwants, and how you can give it to them so they’ll accept                  and typing and mailing a letter acknowledging receipt of your pa-
+                 your paper. I’ll also talk about some of the ﬂaws in the reviewing             per.
+                 process and how you can protect yourself against them. Finally, I
+                 wanttosharesomethoughtsonthepresentcourseandthefutureof                        Immediately after this, the papers chair, along with two or three
+                 technical papers for SIGGRAPH.                                                 others on the papers committee, sorts through all the papers and
+                                                                                                assigns your paper to the pile for a particular senior reviewer. The
+                 Before we do this, I would like to say why SIGGRAPH reviews are                papersprogramcommitteeismadeupof25orsooftheseseniorre-
+                 done the way they are. There are two reasons.                                  viewers. With the large number of papers, this partitioning process
+                                                                                                takes a full day.
+                 The ﬁrst reason is the principal feature of the SIGGRAPH confer-
+                 ence publication that makes it very attractive: speed. SIGGRAPH                One copy of your paper is retained by the papers chair. One copy
+                 is one of the few high-quality publications that can publish a paper           is mailed to the secondary reviewer, and four copies are mailed to
+                 in less than a year. In 10 weeks, SIGGRAPH can do what other                   the senior reviewer. Thus each reviewer receives a large Federal
+                 majorpublications take 10 months to do. In a fast-moving ﬁeld like             Express box of your papers and video tapes. This usually happens
+                 computer graphics, this is crucial.                                            a week after the deadline.
+                 The second reason is that SIGGRAPH has chosen a very differ-                   The senior reviewers receive a set of 14-18 papers. For half of
+                 ent quality strategy than most other conferences. While other con-             these they act as secondary reviewer and for half as senior reviewer.
+                 ferences will accept papers of incomplete work in progress, SIG-               As senior reviewers, they look at your paper and choose three ad-
+                 GRAPHhaschosentoshootforthehighestquality papers of com-                       ditional reviewers-at least two of whom are external to his or her
+                 plete results.  Because of this, 80% of submitted papers are re-               institution. The senior reviewer sends a list of these reviewers to
+                 jected. The MacArthur Foundation is more generous with its “ge-                the chair within two weeks.
+                 nius” awards than SIGGRAPH is with its papers. There are more
+                 MacArthur awards each year than SIGGRAPH technical papers.                     The reviewers then each receive a copy of your paper, slides, and
+                                                                                                video. The reviewer reads your paper, evaluates it, and ﬁlls out
+                 The emphasis on both speed and quality makes the reviewing pro-                the review form that eventually makes its way back to you. He or
+                 cess for SIGGRAPH very different from of a journal or another                  she may ﬁll out the hard copy or may email the review back to the
+                 conference. Thespeedandqualityemphasisalsoputsseverestrains                    senior reviewer. The reviewer has four weeks to do this.
+                 onthereviewingprocess. Inajournal, the reviewer and authors can
+                 haveadialogwhereshortcomingsandmisunderstandingscanbere-                       After the senior reviewer gets each review of your paper, a review
+                 solvedoveraleisurelypace. Also,eveniftherearesigniﬁcantﬂaws                    summaryismadeandascoreiscomputed. Copies are made of the
+                 in a paper for another conference, the chances are that strengths will         summaries and reviews. The originals are then Federal Expressed
+                 overcome the weaknesses in the judging. In SIGGRAPH, if the re-                to the chair.
+                 viewers misunderstand your paper, or if some ﬂaw in your paper is              The chair tabulates all the scores, sorts your paper according to
+                 found, you’re dead.                                                            score, records it in a database, and prints out a set of custom lists
+                 ThereviewingprocessforSIGGRAPHisfarfromperfect,although                        for each senior reviewer summarizing all the papers.
+                 most everyone is giving it their best effort. The very nature of the           Thefollowingweek,thepaperselectionmeetingoccurs. Thismeet-
+                 process is such that many reviewers will not be able to spend nearly           ing, where the fate of your paper is determined, lasts for two full
+                 enoughtimeweighingthenuancesofyourpaper. Thisissomething                       days. If your paper is on the very bottom or very top of the list, very
+                 for which you must compensate in order to be successful. But I’ll              little discussion is given to your paper (unless the senior reviewer
+                 get to that later. First, let’s talk about what happens to your paper.         wantsashortdiscussionbyfullcommittee). This no-discussion ac-
+                                                                                                ceptance/rejection eats away at the top and bottom of the list until
+                 2 Thereviewingprocess                                                          the density of discussion slows the process.
+                 How does your paper get accepted or rejected by SIGGRAPH?                      Then a “triage” session occurs. During this time, the senior and
+                 Let’s follow it through the entire process.                                    secondary reviewers, as well as others who might share expertise
+                                                                                                in the subject area, discuss your paper. They then decide to accept,
+                 First, you work for months, slaving away at equations, hacking                 reject, or discuss your paper. If they decide to accept or reject, your
+               paper will receive a short summary in full committee session. But       Theydiscussthequestionsinthereviewformyoureceivebackwith
+               let’s say they opt for discussion.                                      your paper.
+               Toward the latter part of the ﬁrst day, the triage session is over and  They discuss what the reviewers said in their answers and whether
+               the real work begins. About 60% of the papers could not be judged       they believed the reviewers. They talk about their personal answers
+               easily one way or the other. Yours is among them. So the entire         to the review form questions concerning your paper. They some-
+               committee discusses each paper and decides its fate. Often the dis-     times are absolutely positive, or other times may admit they’re un-
+               cussionispostponedwhilemorepeoplereadyourpaperanddiscuss                sure. Often times they want other committee members to read your
+               it with the other senior reviewers. These papers are then discussed,    paper and form an opinion. Several people who are intrigued may
+               often over dinner.                                                      volunteer and enter into a small separate discussion on the various
+                                                                                       points in your paper.
+               Theseconddayistakenupwithfullcommitteediscussionsofyour
+               paper. I’ve been in sessions when some papers have been discussed       Thequestionsonthereviewformchangeslightlyfromyeartoyear,
+               and then postponed and then discussed again for ﬁve or six times.       but the basic thrust remains the same. If you know the questions
+               There’salotofargument,someshouting,photosarepassedaround,               asked on this form, you’ll be able to predict what the discussion
+               and the slides are peered at. Usually the videotapes are viewed         topics will be in the committee meeting. Let’s look at the questions
+               during the breaks. For difﬁcult cases, summary letters are written      and see what kind of discussion goes with each.
+               to you that described the ﬁnal opinion of the committee. At the end
+               of the day, consensus has been achieved on all submissions, and            • Brieﬂy summarize the paper.
+               your paper is either accepted or rejected.                                   This question really is a sanity check to make sure the re-
+               After that, the disposition of each paper is double checked by the           viewer understood the paper. The most dangerous mistake
+               entire committee. All materials that go back to you are collected,           you can make when writing your paper is assuming that the
+               and all copies to be destroyed are collected. People say good bye            reviewer will understand the point of your paper. The com-
+               and rush off to the airport. Some stay to help the chair to group            plaint is often heard that the reviewer did not understand what
+               accepted papers into sessions for the conference, try to make up             anauthorwastryingtosay. Remember,SIGGRAPHoperates
+               some sort of silly theme for each session, and to assign session             under the twin constraints of speed and quality. If you have
+               chairs among the senior reviewers.                                           quality, but it can’t be recognized by reviewers who are in a
+                                                                                            hurry, you’ll get rejected.
+               The chair then takes the database and generates acceptance or re-
+               jection letters and packages it up with any additional material to be      • Whatdoesthis paper contribute to computer graphics?
+               sent back to you. You ﬁnd out whether your paper was accepted or
+               not in about 10 weeks’ time.                                                 This question often generates the most discussion. Is your pa-
+                                                                                            per a pioneering new direction? Or is it just a small delta over
+               If all this sounds like a scheme to exercise Federal Express, you’re         previous work? The collective memory and knowledge of the
+               right. SIGGRAPH’s Federal Express bills for this process run over            papers committee is truly awesome. Obscure work that has
+               $3,000. That doesn’t count your Federal Express bill, which in toto          appeared in a seemingly unrelated journal, or work embod-
+               probably matches this.                                                       ied in some commercial product is at the collective ﬁngertips
+                                                                                            of the committee. Nearly any facet of computer graphics, no
+               3 TheSIGGRAPHsecret                                                          matterhowsmall,seemstobeknownbysomeoneonthecom-
+                                                                                            mittee. Thus, your work is judged against a very rich context
+                                                                                            and history.
+               Just what is it they are discussing about your paper? Why are they
+               shouting?                                                                    Your paper will get rejected unless you make it very clear, up
+                                                                                            front, what you think your paper has contributed. If you don’t
+               The SIGGRAPH paper selection meeting is an intense experience                explicitly state the problem you’re solving, the context of your
+               that only a few dozen people have ever encountered. It is not co-            problem and solution, and how your paper differs (and im-
+               incidental that the same people who sit on the selection committee           proves upon) previous work, you’re trusting that the review-
+               will author many papers that appear in SIGGRAPH year after year.             ers will ﬁgure it out. Don’t try to make the reviewers dig it
+               This is not because they’re part of the “in” crowd whose papers are          out from inside your paper. Maybe they will, or maybe they
+               givenfavorabletreatment-Ihaven’tseenanythinglikethatthetimes                 won’t.
+               I’ve been on the committee. There are two real reasons. The ﬁrst is
+               that the program committee members are all accomplished authori-           • Is the paper stimulating?
+               ties in their respective ﬁelds-they tend to do good stuff. The second
+               reason, though, is due to their experience as a papers committee             Is your paper likely to create a new direction for research in
+               member. In this, they do have an advantage over you, an ordinary             computer graphics? Are people going to read your paper and
+               author, who hasn’t been among the chosen few.                                wanttoextendyourideas? Aretheygoingtoreadyoursystem
+                                                                                            paper and say “Yes! I’ve been wanting to implement some-
+               The advantage these people have is that they know what it takes to           thing like this, and now I know how.” Is your application pa-
+               get a SIGGRAPH paper accepted. They know what the reviewers                  pergoingtomakepeopletalkaboutyourgreatnewwaytouse
+               like and don’t like. They know what kinds of things get discussed            computer graphics? Will your algorithm be implemented by
+               in the selection meeting. In short, they know the secret of what             dozens of people to become a standard widget in the graphics
+               SIGGRAPHislookingfor.                                                        toolkit? Or is your paper a dead end? Is it just going to take
+                                                                                            up pages in SIGGRAPH, not be read or referenced, just drop
+               4 Reviewcriteria                                                             out of sight?
+                                                                                            Again, stating the problem and its context is important. But
+               Whatthe technical program committee talks about when they con-               whatyouwanttodohereistostatethe“implications”ofyour
+               sider your paper in their secret discussion is not really complicated.       solution. Sure it’s obvious....to you. But you run the risk of
+                     misunderstanding and rejection if you don’t spell it out ex-            things enough so that someone without a Ph.D. in mathemat-
+                     plicitly in your introduction.                                          ical physics would be able to do anything with it. Because
+                                                                                             of this, all the reviews are bad. Someone says that one of the
+                  • Is the paper of interest to the SIGGRAPH audience?                       authors is a responsible person and will probably rewrite the
+                     Does your paper solve a long-standing problem that people               paper into something decent. Someone else says that there’s
+                     want to know how to solve? Is your system or application in-            noguaranteethatanythingatallwillbechanged,thenthepro-
+                     teresting to a wide swath of the audience? Or is your paper so          ceedings will have this horrible paper in it: why not reject and
+                     narrow that only ten people at the conference will care about           wait till next year? Finally the committee votes, it passes by
+                     it? When you speak will the auditorium be packed, or will               a narrow margin. Thus the committee has decided to gamble
+                     everyone leave?                                                         on the authors to ﬁx the problems once they’re pointed out.
+                                                                                             Sometimes the gamble pays off; sometimes it doesn’t.
+                     Well, to get rejected, pick a subject no one cares about. But, if       Allthis brings up a phenomenonthathappensinsidethepaper
+                     your subject has less than obvious application to a wide range          selection meeting. Often a committee member may take up
+                     of graphics problems, you’d better ﬁgure out how to say it              the cause of getting your paper “in” and argue for acceptance
+                     convincingly in your introduction.                                      of your paper. Tom Sederberg, the SIGGRAPH 91 chair, has
+                  • Is the paper well written?                                               called the people who can ferret out the good features of your
+                                                                                             paper “paper champions.” On the other hand, there may be a
+                     Your ideas may be great, the problem of burning interest to a           committee member who is very articulate, forceful, and neg-
+                     lot of people, but your paper might be so poorly written that           ative, who argues against your paper. They look for and ﬁnd
+                     noonecouldﬁgureoutwhatyouweresaying. IfEnglishisn’t                     ﬂaws in your paper, they sway the committee to reject your
+                     your native tongue, you should be especially sensitive to this          paper. Ed Catmull, the SIGGRAPH 92 chair, has called these
+                     issue. Many otherwise good papers have ﬂoundered on an                  people “paper killers.”
+                     atrocious text. If you have a planned organization for your
+                     discussion and you not only stick to it, but tell your readers          One job of the papers chair is to see that the committee is
+                     over and over where you are in that organization, you’ll have           staffed with people who are paper champions. We want to
+                     a well written paper. Really, you don’t have to have a literary         avoid paper killers.
+                     masterpiece with sparkling prose.                                 So that’s it. That’s what goes on in the discussion. I must admit
+                  • Can an experienced practitioner in the ﬁeld duplicate the re-      that as a paper author I’ve been guilty of screwing up on almost all
+                     sults from the paper and the references?                          the points mentioned in the review criteria. My long string of pa-
+                                                                                       per rejects have been due to repeated deﬁciencies in not stating the
+                     This question often gets people shouting in the committee         problem or its context, not explaining why the subject is interest-
+                     meeting. Basically the question is about completeness. Your       ing, writing disorganized papers, and leaving out key points that I
+                     paper may be doing something very interesting, of obvious         thought were obvious. And just writing stuff that was plain hard to
+                     importance to graphics. But your paper leaves something out.      read, so that some of the reviewers just missed my point.
+                     Your description of what you’re doing is so sketchy and ab-
+                     breviated that no one will be able to do the same thing. The      5 Mistakes
+                     keypurposeofatechnicalorscientiﬁcpaperisthatitcontains
+                     enoughinformation so that an experienced practitioner, say, a
+                     graduate student in graphics, can reproduce the experiment.       Thecharacteristics that make SIGGRAPH so attractive - speed and
+                     If you’ve not explained enough about how you do things-even       high quality - also make SIGGRAPH an imperfect vehicle for tech-
+                     if you think it’s just obvious-then it’s quite likely your paper  nical dissemination of graphics ideas. The review process is far
+                     will be rejected.                                                 fromperfect. The chair needs to get your paper quickly distributed.
+                                                                                       The ﬁrst mistakes are made right there: among the 200 or so pa-
+                  • Should we accept this paper for SIGGRAPH 93? Why?                  pers, some are just sent to the wrong senior reviewer. The senior
+                                                                                       reviewer may not carefully read your paper and ask the wrong peo-
+                     This last question is the ﬁnal recommendation about accep-        ple to review it. Those people may not read your paper carefully,
+                     tance. This recommendation is tabulated to make a score for       they misunderstand it. Finally, you may have your paper attacked
+                     your paper that determines where in the sorted list your pa-      by a paper killer that the chair mistakenly appointed.
+                     per will ﬁnd itself. I used to think that if just one reviewer
+                     didn’t like the paper, you’d be dead.   But since I’ve been       How can you protect yourself against these mistakes? You must
+                     on the committee I’ve found that that’s not true at all. I’ve     makeyourpapereasytoread. You’vegottomakeiteasyforanyone
+                     seen some rejected papers that have had four “accept” recom-      to tell what your paper is about, what problem it solves, why the
+                     mendations and one “maybe.” This is because the committee         problem is interesting, what is really new in your paper (and what
+                     doesn’tblindlyfollowthescoresatall. Theyreallydiscussthe          isn’t), why it’s so neat. And you must do it up front. In other words,
+                     meritsofeachpaper. Apapermightbeasolidtechnicalpaper,             you must write a dynamite introduction. In your introduction you
+                     written by well-known names, but it might be boring. It might     can address most of the points we talked about in the last section.
+                     be just so small an advance over existing techniques that it’s    If you do it clearly and succinctly, you set the proper context for
+                     not very exciting. The committee has a detailed discussion        understandingtherestofyourpaper. Onlythenshouldyougoabout
+                     trying to isolate a new twist in the paper. The discussion goes   describing what you’ve done.
+                     back and forth about whether the new twist is obvious or not.
+                     Even though it gets favorable reviews, the committee decides      Another point is why rendering papers have an advantage in SIG-
+                     to reject.                                                        GRAPH.Ifyouhavegood-lookingpictures,you’vegotyourfootin
+                                                                                       the door. SIGGRAPH reviewers are like everyone else. They ﬁrst
+                     On the other hand, a paper might have a really neat new           look at the pictures in your paper. If your pictures are really good
+                     idea.  That idea may open up a whole new line of work.            looking, they’re going to go to some effort to ﬁnd out how you did
+                     But the paper is badly written, and it doesn’t really explain     them.
+                 You can use those pictures in another way. Ivan Sutherland once                ings look like? Then everyone will say, “See, SIGGRAPH only
+                 told me that Scientiﬁc American articles are constructed so that you           wants rendering.” But what really happened is that SIGGRAPH
+                 can get the point of the article just by reading the captions to the           “rejected” 127 rendering papers, and rejected only one systems pa-
+                 illustrations. Now, I’m not suggesting that you write a technical              per, and didn’t reject a single application paper!
+                 comicbook;butyoushouldtakealookatthoseSIGGRAPHpapers
+                 you were initially attracted to and see how they went about getting            7 Howcanpaperssessionsbeﬁxed?
+                 their point across.
+                 Unlessyouwriteaboutaverylimitedsubject,orunlessyourresults                     Is there a way to make a kinder, gentler SIGGRAPH? Can some-
+                 are technically incorrect, rejection has very little to do with the sub-       thing be done about the 80% rejection rate? Actually, something
+                 ject of your paper. It has a great deal to do with how you wrote               has been done about it. Several years ago, there was an institutional
+                 your paper. After all, if everyone misunderstood your paper, you               constraint on the papers session and proceedings to ﬁt in a single
+                 might consider that it might not be quite as clear as you thought.             track. Because of this, there was a limit on the maximum num-
+                 Reviewers are in a hurry: you have to get your paper just right or             ber of SIGGRAPH papers that would be accepted, no matter how
+                 you will suffer rejection. Rejection doesn’t come from the subject             many good papers there were. During those years, one thing that
+                 area, it really just comes from an imperfect understanding on both             was watched very closely was the number of papers that were ac-
+                 sides.                                                                         cepted as the paper selection meeting progressed. As the limit was
+                                                                                                approached, people tended to get a bit more critical of ﬂaws in the
+                 Butonthewhole,it’saverynoisyprocess. TheSIGGRAPHreview                         paper under discussion. Almost as a conﬁrmation of the policy, the
+                 is done quickly, by the best people the chair knows, and by the best           limit was never reached. Meanwhile, the number of SIGGRAPH
+                 people they know, with everyone earnestly committed to put out                 submissions (and rejections) steadily increased. Today, that con-
+                 the highest quality proceedings possible. Mistakes are sometimes               straint has been lifted. There is no longer any limit on the num-
+                 made.                                                                          ber of papers allowed. And pleasantly, I found that during the last
+                                                                                                meeting, concern about the number of accepted papers was not a
+                 6 WhatSIGGRAPHwants                                                            big issue. In SIGGRAPH ’92, no parallel sessions happened to be
+                                                                                                required. We’re still under the old limit. But now, the number of pa-
+                 Thereseemstobeanumberofprevalentmythsandmisunderstand-                         pers accepted is solely determined by the big issue. The big issue,
+                 ings about what it is that SIGGRAPH wants and doesn’t want for                 of course, is “Is it above the [quality] threshold?”
+                 its papers. Each year, the papers that appear in the proceedings ap-           It is foolish to capriciously tinker with the speed and the quality of
+                 pear to be more and more technical, about narrower and narrower                SIGGRAPH in the hopes one might ﬁx the serious positive feed-
+                 areas. I’ve spoken with many people who’ve been concerned about                back focus problem. Frankly, I’m afraid to make big, sweeping
+                 the path that the papers sessions for SIGGRAPH have taken.                     changes in a process that works well a lot of the time. However,
+                                                                                                you’ll note that this year there is a new class of papers: long papers.
+                 I fear that this trend is all too real. I’m very worried about it. I           Only systems and applications category papers will be admitted in
+                 believe that the papers sessions at SIGGRAPH are in trouble. Only              the long class. Andy van Dam has pointed out that the page limit
+                 about10%ofthetechnicalprogramregistrantsgotothepapersses-                      for regular papers favors research papers. A research paper can usu-
+                 sions. Sometimes fewer than 200 people are in attendance at a pa-              ally state the problem, its context, and the solution in a short space.
+                 per session. This tells me that very few people ﬁnd the SIGGRAPH               Asystem paper needs more pages to do this and it must also de-
+                 papers interesting anymore.                                                    scribe the experience that the builders have had with the system.
+                 Forsomeyears,peoplethoughtofthepaperssessionsasalmostex-                       Eight pages was just not enough room to write a decent system or
+                 clusively about rendering - SIGGRAPH as “SIGRay” or “SIGRa-                    application paper.
+                 diosity.” Or people have viewed the papers sessions as valid only              The root cause of the positive feedback loop, however, remains. It
+                 for those papers that have been about “pure” graphics. Almost ev-              is self- censure. People just won’t send in papers on subjects they
+                 eryone agrees that the papers are the exclusive domain of the aca-             think SIGGRAPH doesn’t want. I can understand this: even after
+                 demics, exploring esoteric and obscure corners of graphics.                    all my SIGGRAPHrejections, it still hurts.
+                 I believe that the reason for this alarming narrowing of SIGGRAPH              The entire reason I’ve written this document is to try to break the
+                 papers is a dangerous positive feedback loop. You see, people can’t            loop. I wanttocommunicatetoyou,andIwantyoutocommunicate
+                 see what papers are rejected. They can only see the papers that are            to your colleagues, that SIGGRAPHisinthebusinessofpublishing
+                 accepted. Thus when you look at a proceedings you see a certain                good technical work in graphics of “all” ﬂavors.
+                 set of papers and you say, “Ahh,...THAT’S the kind of thing that
+                 SIGGRAPHwants.” So, if you have an idea for a paper that isn’t                 SIGGRAPHreally does want papers about user interfaces, visual-
+                 like the kind that have been appearing in SIGGRAPH for the last                ization, graphics hardware, graphics software systems, interactive
+                 ten years or so, you wouldn’t send it in to SIGGRAPH. You say,                 techniques, displays, innovative applications, video games, com-
+                 THIS is not really what they want at SIGGRAPH anymore, they                    bined graphics and sound, hypermedia, virtual reality, typesetting,
+                 want THAT. If you are brave, do submit to SIGGRAPH, and your                   color, paint systems, image and video compression, image and
+                 paper becomes a casualty of the 80% rejection rate, you feel that              video processing, and how to make pictures that aren’t just pretty
+                 SIGGRAPHreallydoesn’twantyourtypeofpaperanymore. Thus                          but say something too.
+                 youdon’tsendanythingintoSIGGRAPHaboutthatsubjectagain.                         Sure it’s true that they’ve rejected papers in all these areas over and
+                 Well, the papers committee and the papers chair don’t really de-               over again. But, it’s also true that they’ve rejected 10 times as many
+                 termine what SIGGRAPH publishes. The authors who brave the                     papers on ray tracing. The narrowness of the technical focus of the
+                 SIGGRAPHreviewprocessaretherealcontrollersofwhatappears                        papers can be ﬁxed only if you and your colleagues send in quality
+                 in SIGGRAPH. The committee can only select among the papers                    papers about a wider range of subjects. My earnest hope is that
+                 that are submitted. Consider this: if there are 150 rendering papers           the SIGGRAPH93technicalpapers program will not just be about
+                 submitted, only two systems papers, one interactive techniques pa-             modeling, rendering, and animation.
+                 per, and no applications papers submitted, what will the proceed-

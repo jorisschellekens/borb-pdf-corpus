@@ -1,0 +1,178 @@
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+      Changesoverversion0.3                                           .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+      Thepresentreleaseoftheleaﬂetclassdiffersbasicallyfrom           .                                                                    .
+                                                                      .                                                                    .
+      its predecessor, version 0.3, which had been developed          .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .           Thedocumentclass leaﬂet
+      originally by Jürgen Schlegelmilch.                             .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+      The main change is, that no more post-processing is re-         .                                                                    .
+                                                                      .                                                                    .
+      quired to arrange the pages on the sheet. Furthermore, the      .                                                                    .
+                                                                      .                                                                    .                        Rolf Niepraschk
+                                                                      .                                                                    .
+      overall layout has been changed slightly to suit the small      .                                                                    .
+                                                                      .                                                                    .                         Walter Schmidt
+                                                                      .                                                                    .
+      page size better. In general, documents that were written       .                                                                    .
+                                                                      .                                                                    .                         Hubert Gäßlein
+      for version 0.3 will exhibit different line and page breaks                                                                          .
+                                                                                                                                           .
+                                                                       ✂                                                                   .
+      whentypeset using the new version of this document class.       .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .                   Last updated 2015/12/27
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .                    printed March 17, 2017
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+      References                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                            A                                         .                                                                    .
+         [1] L. LAMPORT: LT X. A Document Preparation Sys-            .                                                                    .
+                              E                                       .                                                                    .     Overview
+             tem. User’s Guide And Reference Manual. Second           .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+             Edition. 1994.                                           .                                                                    .
+                                                                      .                                                                    .     Thedocumentclassleaﬂetcreatesadocumentof(upto)six
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     small pages in portrait orientation, arranged physically on
+         [2] M.SCHRÖDER:        The everyshi package. 2001.           .                                                                    .
+                                                                      .                                                                    .     two “normal-size” pages. The target page sizes supported
+             CTAN: macros/latex/contrib/ms/everyshi.                  .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .                      A
+                                                                                                                                           .     by the standard LT X article are available, plus a3paper.
+             dtx                                                      .                                                                    .                        E
+                                                                      .                                                                    .
+                                                                      .                                                                    .     Printing these to both sides of a sheet and folding appropri-
+                                                                      .                                                                    .
+                                                                      .                                                                    .     ately will yield a six-page leaﬂet.
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     Requirements
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     Using the leaﬂet class requires that the ﬁnal document is
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     created in PostScript or PDF format, using
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .      • T Xanddvips, or
+                                                                      .                                                                    .          E
+                                                                      .                                                                    .
+                                                                      .                                                                    .      • pdfT X, or
+                                                                      .                                                                    .             E
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .      • VT XinPSorPDFmode.
+                                                                      .                                                                    .           E
+                                                                      .                                                                    .
+                                                                      .                                                                    .                                                 A
+                                                                      .                                                                    .     (Some other drivers supported by standard LT X work as
+                                                                      .                                                                    .                                                   E
+                                                                                                                                           .     well.)
+                                                                       ✂                                                                   .
+                                                                                                                                           .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     Thenon-standardmacropackageeveryshi[2]isusedbythe
+                                                                      .                                                                    .
+                                                                      .                                                                    .     leaﬂet class.
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     Features
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     Basically the leaﬂet class provides the same features as the
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     standard article class. There are, however, a number of dif-
+                                                                      .                                                                    .
+                                                                      .                                                                    .     ferences and restrictions, as well as some additional facili-
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .     ties and peculiarities:
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                      .                                                                    .
+                                                                                                       B
+               class.ticlearthetopassedareoptionsOthermark,dfoltheoflengththeandwidthestrokthetermine
+                             mode.combine   de-        \foldmarklengthand\foldmarkrulemacrosThe               reason.
+     in  foldingeasierformm)1paper:(A4%1bypages                      gins.marable  sametheforsupportedAnotistypesettingo-columnwT•
+      othertheincreasesandmm)2paper:(A4%2by5andunprint-gerlarxhibitseengineprintingtheifuseful,bemay        disabled.are
+    4   pagesofwidththeDecreases*nofoldcorr,foldcorrThise.vaboxplainedeas,\setmarginsusingchangedbeandsizepageenvgitheonpointlessarenotesginalMar•
+                              etc.tions,    canand,elyvrespectimm,11andmm8toaultdefpages
+      ica-lppa   questionnaires,forms,ﬁll-inforpart),(second(small)theofginsmaranderticalvandhorizontalTheCKGR.entryAnotherulaxFrunob
+      form  detachablepageotwaandpart)(ﬁrstleaﬂetpage .         \renewcommand*usingchangedbe       . entryAnother–
+      fouraof   typesettingthewsAllo*notwopart,twopartcanand\bfseriestoaultdefmacrosBoth.\descfont .  entrySecond–
+                          . userthetoleft  byenvgiis  vironmentendescriptiontheoflabelsthe       . entryAnother3.
+    si      appropriatelyxttetheshorteningissued;bewillingforusedbetoacetypeftheand,\sectfontmacrotheby
+      arn-wajust),nocombine(Otherwisegobbled.bewillenvgiisheadingssectiontheforusedbetoacetypefThe.entryAnother(c)
+       pagessurplustheraised—andiserroran),combine(                       Customization      .  entrySecond*
+      aultdefBypages.(small)sixonﬁtnotdoesxttethe                                                   ment.
+     secainviourbehadeterminethetime,sametheAt                                      viron-enitemizeaninentryFirst*
+                           ).    nocombine(                       pages.combined               .  entrySecond(b)
+       pagesvidualindiasor)combine(pagegettarge)(lartheonpicturetheputsersionvstarredThecommands.
+    a  on    combinedoutputbeshouldpages(small)picturetheonesecondthepage,thespeciﬁesgumentar.  entrySecondii.
+     the  whetherspecifyoptionsThesenocombine,*combineﬁrstItscommands.\AddToBackgroundusecanyou     ment.
+                                             pages,vidualinditopicturebackgroundsomeaddoT•viron-enenumerateaninentryFirsti.
+                   printed.betoismarkfoldanotor                       issued.be
+        whetherspeciﬁyoptionsThesenofoldmark,*foldmarkwillOUNDw)beloseeoption,classsomeondepending,errorvironment.enenumerateaninentryFirst(a)
+                                  sheet.    (orarningwapages,sixonﬁtnotdoesxttethecaseIn•        .  entrySecond2.
+     theofsidebackanfronttheforﬁlesseparatecreatecan             symbols.scissorsthe    vironment.enenumerateaninentryFirst1.
+      youThus,created.bebetoaresheetﬁnaltheofpagesomitsersionvstarredTheone.precedingtheandmentvironment.enitemizeaninentryFirst–
+      bothorpagebackthepage,fronttheonlywhethertrolgu-aritsbyindicatedpagethebetweensymbolsscissor
+      con- optionsThese*bothsides,backside,frontsidewithlinedottederticalvawsdra\CutLinemacroThe•. entrySecondongKKing
+                                  screen.                          page.thirdthe       vironment.endescriptionainentryFirstMeatUncle
+     theon     proof-readingenabletodocument,aofwritingandsecondthebetweencreatedismarkfoldingsmallA• demo:smallasHere’
+     the duringusefulbealsomaynotumble][Specifying     preamble.documentthein\sloppyiﬁed
+      nes.gineprintingcertainofviorbehathesuittoessary                                                      them.just
+      nec-bemaysoDoingthat.suppressesnotumbletionspec-hadyouifastypesetareparagraphsallault,defBy•ad-toevhallyou’sizes,pagegettarotherithWoptions.
+     op-Thewn.doupsideprintedissheetﬁnaltheofside   ault.defbyindentednotisparagraphaofclassletterpaperanda4paperthewithwellorkw
+      backtheofcontentstheault,defBynotumble,*tumblelineﬁrstthespace;erticalvbyseparatedarearagraphsP•toadjustedbeenevhaginsmarleftTheclasses.dard
+                asterisk:anwithedmarkareoptionsaultDef.  ttom}{left}{right}\setmargins{top}{bostan-theinasjustvironmentseneist-liklusemayouY•
+                                                                        macro                         classes.standardthein
+                                optionsClasswnethecalltoevhayoulast,At).\headheighte(likthansizefontsmalleraintypesetareheadersSection•
+                                                parameterscorrespondingtheadjustto\setlength       commends).\listof...aswell
+        .       nofoldmarkandfoldmarkoptionsclassthealsoandclasses,standardthewithas\pagestyleuseso,as\pagerefincludes(thiswrongoutcomemaycated
+      See!).   \setlengthnot(\renewcommand*usingchangeddooTe.likyouifthem,restorecanyou,ervweHolo-areobjectsﬂoatingwherepagethetoReferences•
+     becanand,elyvrespectimm,2andpt0.4toaultdefyThethese.foredreservspaceyanthereisnornumbers,pageault.defbynumberednotareelsvlesectioning
+       page.thirdtheandsecondthebetweenprintediswhichorfooterspageheaders,pagenoarethereault,defBy•otherTheailable.vanotis\partelvlesectioningThe•

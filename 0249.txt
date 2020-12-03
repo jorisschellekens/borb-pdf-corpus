@@ -1,0 +1,837 @@
+                                                                                                                                         The leaﬂet document class
+                                                                                         Jurgen¨               Schlegelmilch                                           Hubert G¨aßlein                                               Rolf Niepraschk
+                                                                                                                                                                      Walter Schmidt
+                                                                                                                                                                             2017/03/17
+                                                                         Contents
+                                                                         1 Usage                                                                                                                                                                                                                               1
+                                                                         2 Implementation                                                                                                                                                                                                                      1
+                                                                                 2.1          Saving some internal macros... . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                                                                              1
+                                                                                 2.2          Option processing                                  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                                            1
+                                                                                 2.3          Changing the class properties . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                                                                             6
+                                                                                 2.4          Changing the page dimensions                                                       . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                          8
+                                                                                 2.5          Additional user macros . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                                                                            9
+                                                                                 2.6          Page construction and output . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                                                                           10
+                                                                                              2.6.1              Intercepting the small pages . . . . . . . . . . . . . . . . . . . . . . . . .                                                                                                              10
+                                                                                              2.6.2              Generating missing small pages . . . . . . . . . . . . . . . . . . . . . . .                                                                                                                11
+                                                                                              2.6.3              Reassembling the small pages . . . . . . . . . . . . . . . . . . . . . . . .                                                                                                                12
+                                                                         1             Usage
+                                                                                                                                                                                       A
+                                                                         Process the ﬁle leaflet-manual.tex with LT X to see details of usage and layout.
+                                                                                                                                                                                             E
+                                                                         2             Implementation
+                                                                           1 h∗classi
+                                                                         2.1              Saving some internal macros...
+                                                                           2 \let\LL@shipout\shipout \let\LL@outputpage\@outputpage
+                                                                           3 \let\LL@begindvi\@begindvi \let\LL@@end\@@end
+                                                                         2.2              Option processing
+                                                                           4 \@ifundefined{iflandscape}{\newif\iflandscape}{}%
+                                                                           5 \@ifundefined{iftumble}{\newif\iftumble}{}%
+                                                                           6 \@ifundefined{iftwopart}{\newif\iftwopart}{}%
+                                                                           7 \@ifundefined{iffoldcorr}{\newif\iffoldcorr}{}%
+                                                                           8 \newlength\LL@tempdima
+                                                                           9 \newcommand\LL@debug@info[1]{}%
+                                                                         10 \DeclareOption{dvips}{\PassOptionsToPackage{\CurrentOption}{graphics}}
+                                                                         11 \DeclareOption{pdftex}{\PassOptionsToPackage{\CurrentOption}{graphics}}
+                                                                         12 \DeclareOption{vtex}{\PassOptionsToPackage{\CurrentOption}{graphics}}
+                                                                         13 \DeclareOption{dvipdfm}{\PassOptionsToPackage{\CurrentOption}{graphics}}
+                                                                         14 \DeclareOption{twoside}{\OptionNotUsed}
+                                                                         15 \DeclareOption{twocolumn}{\OptionNotUsed}
+                                                                         16 \DeclareOption{landscape}{\landscapetrue}
+                                                                         17 \DeclareOption{portrait}{\landscapefalse}
+                                                                         18 \DeclareOption{debug}{\let\LL@debug@info\typeout}
+                                                                         19 \DeclareOption{twopart}{\twoparttrue}
+                                                                         20 \DeclareOption{notwopart}{\twopartfalse}
+                                                                         21 \DeclareOption{nospecialtricks}{%
+                                                                         22         \AtEndOfClass{%
+                                                                                                                                                                                            1
+                           23     \ifLL@combine
+                           24       \let\immediate\@@@immediate\let\write\@@@write
+                           25       \let\openout\@@@openout\let\closeout\@@@closeout
+                           26       \let\special\@@@special\let\@@@exec@outs\relax
+                           27     \fi}}
+         \LL@setPaperSize  Some paper sizes are not supported by the article class. Hence this work-around. These page
+                           dimensions must be given in landscape orientation!
+                           28 \newcommand*\LL@setPaperSize{}
+                           29 \DeclareOption{a3paper}{\def\LL@setPaperSize{%
+                           30   \paperwidth=420mm\paperheight=297mm\relax}}%
+                           31 \@ifdefinable\ifLL@combine{\newif\ifLL@combine}
+                           32 \DeclareOption{combine}{\LL@combinetrue}
+                           33 \DeclareOption{nocombine}{\LL@combinefalse}
+         \LL@selectOutput
+                           34 \newcommand*\LL@selectOutput{}
+                           35 \DeclareOption{frontside}{\def\LL@selectOutput#1#2{#1}}
+                           36 \DeclareOption{backside}{\def\LL@selectOutput#1#2{#2}}
+                           37 \DeclareOption{bothsides}{\def\LL@selectOutput#1#2{#1#2}}
+                           38 \DeclareOption{tumble}{\tumbletrue}
+                           39 \DeclareOption{notumble}{\tumblefalse}
+             \LL@foldmark  Drawing code for the fold mark. (Will be called within a picture environment.)
+                           40 \newcommand*\LL@foldmark{}
+                           41 \DeclareOption{foldmark}{%
+                           42   \def\LL@foldmark{%
+                           43     \begingroup
+                           44       \linethickness{\LenToUnit{\foldmarkrule}}%
+                           45       \@tempdima=\dimexpr\paperheight-\LL@tmargin
+                           46       \put(0,\LenToUnit{\@tempdima}){%
+                           47         \line(0,-1){\LenToUnit{\foldmarklength}}}%
+                           48     \endgroup}%
+                           49 }
+                           50 \DeclareOption{nofoldmark}{\def\LL@foldmark{}}%
+                           51 \DeclareOption{foldcorr}{\foldcorrtrue}
+                           52 \DeclareOption{nofoldcorr}{\foldcorrfalse}
+                           53 \newcommand*\LL@toomanypages[2]{}
+                           54 \DeclareOption{draft}{\PassOptionsToClass{\CurrentOption}{article}%
+                           55   \AtEndOfClass{%
+                           56     \def\LL@toomanypages#1#2{%
+                           57         \ClassWarningNoLine{leaflet}{#1.\MessageBreak#2}}%
+                           58   }%
+                           59 }
+                           60 \DeclareOption{final}{\PassOptionsToClass{\CurrentOption}{article}%
+                           61   \AtEndOfClass{%
+                           62     \ifLL@combine
+                           63       \def\LL@toomanypages#1#2{%
+                           64         \ClassError{leaflet}{#1}{#2.}}%
+                           65     \else
+                           66       \def\LL@toomanypages#1#2{%
+                           67         \ClassWarningNoLine{leaflet}{#1.\MessageBreak#2}}%
+                           68     \fi
+                           69   }%
+                           70 }
+                           71 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
+                           72 \PassOptionsToClass{landscape,a4paper}{article}
+                           73 \ExecuteOptions{tumble,foldmark,bothsides,combine,landscape,notwopart}
+                           74 \ProcessOptions\relax
+                           75 \ifLL@combine
+                                                                      2
+               \LL@rotate@I     Rotates the output pages.
+              \LL@rotate@II     76   \newcommand*\LL@rotate@I{}\newcommand*\LL@rotate@II{}%
+                                77   \iflandscape
+                                78     \def\LL@rotate@I#1{#1}%
+                                79     \iftumble
+                                80        \def\LL@rotate@II#1{\rotatebox[origin=c]{180}{#1}}%
+                                81     \else
+                                82        \def\LL@rotate@II#1{#1}%
+                                83     \fi
+                                84   \else
+                                85     \def\LL@rotate@I#1{\rotatebox[origin=c]{90}{#1}}%
+                                86     \iftumble
+                                87        \def\LL@rotate@II#1{\rotatebox[origin=c]{270}{#1}}%
+                                88     \else
+                                89        \def\LL@rotate@II#1{\rotatebox[origin=c]{90}{#1}}%
+                                90     \fi
+                                91   \fi
+                  \immediate    ImFolgendendeﬁnierenwirdieT Xprimitives\immediate,\write,\openoutund\closeout
+                                                                   E
+                      \write    um. Allenicht“immediate”ausgefuhrten¨        AnweisungenwerdendemMakro\@@@pending@outs
+                    \openout    (Kommaliste) hinzugefugt.¨    Sok¨onnen speziell die \write-Anweisungen unabh¨angig von T X’s
+                                                                                                                                 E
+                   \closeout    \shipout zu einem gunstigen¨     Zeitpunkt ausgefuhrt¨   werden. For VT X we must keep in mind
+                                                                                                          E
+                                that \immediate\special exist.
+                                92   \def\@@@pending@outs{}\let\@@@immediate\immediate
+                                93   \let\@@@write\write \let\@@@special\special
+                                94   \let\@@@openout\openout \let\@@@closeout\closeout
+                                95   \def\immediate{%
+                                96     \let\write\immediate@write%
+                                97     \let\openout\immediate@openout%
+                                98     \let\closeout\immediate@closeout%
+                                99     \let\special\immediate@special}%
+                               100   \def\reset@immediate{%
+                               101     \let\write\pending@write%
+                               102     \let\openout\pending@openout%
+                               103     \let\closeout\pending@closeout%
+                               104     \let\special\@@@special}%
+                               105   \long\def\pending@write#1#{\pending@@write{#1}}
+                               106   \def\immediate@write{%
+                               107     \reset@immediate\@@@immediate\@@@write}%
+                               108   \def\immediate@openout{%
+                               109     \reset@immediate\@@@immediate\@@@openout}%
+                               110   \def\immediate@closeout{%
+                               111     \reset@immediate\@@@immediate\@@@closeout}%
+                               112   \def\immediate@special{%
+                               113     \reset@immediate\@@@immediate\@@@special}%
+                               114   \let\write\pending@write
+                               115   \let\openout\pending@openout
+                               116   \let\closeout\pending@closeout
+            \@dummy@whatsit     Makes our redeﬁned primitives more like “whatsits” (???). ‘\special{}’ is also possible for
+                                pdfT X but we get a lot of strange warnings (“Non-PDF special ignored!”) in this case.
+                                     E
+                               117   \def\@dummy@whatsit{\special{}}
+                               118   \begingroup\@ifundefined{pdfoutput}%
+                               119   {\endgroup}
+                               120   {\endgroup
+                               121    \ifnum\pdfoutput>\z@\def\@dummy@whatsit{\pdfliteral{}}\fi}
+                               122   \begingroup\expandafter\expandafter\expandafter\endgroup
+                               123   \expandafter\ifx\csname eTeXversion\endcsname\relax
+                               124     %%% Test is from Markus Kohm (d.c.t.t, 29 Jun 2004)
+                               125     \ClassWarningNoLine{leaflet}{%
+                               126     *************************************\MessageBreak
+                               127     * It’s very recommended to use eTeX         \MessageBreak
+                                                                                  3
+                          128     * with this package!                 \MessageBreak
+                          129     *************************************}%
+          \pending@@write  Doesn’t work correctly without any \mark or \special or \pdfliteral command inside.
+                          130     \long\def\pending@@write#1#2{%
+                          131       \@dummy@whatsit
+                          132       \g@addto@macro\@@@pending@outs{\@@@immediate\@@@write\number#1{#2},}}%
+         \pending@openout
+                          133     \def\pending@openout#1 {%
+                          134       \@dummy@whatsit
+                          135       \g@addto@macro\@@@pending@outs{\@@@immediate\@@@openout\number#1,}}%
+        \pending@closeout
+                          136     \def\pending@closeout#1{%
+                          137       \@dummy@whatsit
+                          138       \g@addto@macro\@@@pending@outs{\@@@immediate\@@@closeout\number#1,}}%
+            \@@@exec@outs  Note to this implementation: The out commands and the page breaks are not allways in sync,
+                           which means possible wrong page references.
+                          139     \newcommand*\@@@exec@outs{%
+                          140       \@@@pending@outs\gdef\@@@pending@outs{}%
+                          141       \LL@debug@info{%
+                          142         >>> execute the output commands of the current page <<<}}%
+                          143   \else
+                          144     \RequirePackage{etex}
+                           Allocation of a new mark class.
+                          145     \globmarks\@@@out@mark
+                          146     \newcounter{@@total@outs}\setcounter{@@total@outs}{0}
+                          147     \newcounter{@@last@exec}\setcounter{@@last@exec}{0}
+          \pending@@write  Doesn’t work correctly without any \mark or \special or \pdfliteral command inside.
+                          148   \long\def\pending@@write#1#2{%
+                          149     \global\advance\c@@@total@outs\@ne%
+                          150     \marks\@@@out@mark{\the\c@@@total@outs}%
+                          151     \g@addto@macro\@@@pending@outs{\@@@immediate\@@@write\number#1{#2},}}%
+         \pending@openout
+        \pending@@openout 152 \def\pending@openout#1 {%
+       \pending@@@openout 153   \global\advance\c@@@total@outs\@ne%
+            \@ifequalsign 154   \marks\@@@out@mark{\the\c@@@total@outs}%
+                          155   \g@addto@macro\@@@pending@outs{\@@@immediate\@@@openout\number#1,}}%
+        \pending@closeout
+                          156 \def\pending@closeout#1{%
+                          157   \global\advance\c@@@total@outs\@ne%
+                          158   \marks\@@@out@mark{\the\c@@@total@outs}%
+                          159   \g@addto@macro\@@@pending@outs{\@@@immediate\@@@closeout\number#1,}}%
+            \@@@exec@outs  With the call of \@@@exec@outs we simulate T X’s execution of non-immediate output com-
+                                                                       E
+                           mands. The number of pending commands which can be executed must be decremented by
+                           \value{@@total@outs}−\botmarks\@@@out@mark. The remaining commands must still wait
+                           until the next output page is ready. It works only for output commands in the main text which
+                           moved to the next page but not for ﬂoating output commands.
+                          160     \newcommand*\@@@exec@outs{%
+                          161       \begingroup
+                           Pending io’s = \@tempcntb = TOTAL-OUTS − LAST-EXEC
+                          162         \@tempcntb\c@@@total@outs\advance\@tempcntb-\c@@@last@exec%
+                          163         \edef\reserved@a{\botmarks\@@@out@mark}%
+                          164         \ifx\reserved@a\@empty\@tempcnta\z@\else\@tempcnta\reserved@a\fi%
+                                                                      4
+                          165         \LL@debug@info{PENDING-OUTS:\the\@tempcntb\space\space
+                          166                        TOTAL-OUTS:\the\c@@@total@outs\space\space
+                          167                        LAST-EXEC:\the\c@@@last@exec\space\space
+                          168                        TOPMARK:\topmarks\@@@out@mark\space\space
+                          169                        FIRSTMARK:\firstmarks\@@@out@mark\space\space
+                          170                        BOTMARK:\botmarks\@@@out@mark}%
+                           Last valid pending entry = \@tempcntb = PENDING-OUTS−TOTAL-OUTS+BOTMARK
+                           Number of invalid (moved) out’s = \@tempcnta = TOTAL-OUTS − BOTMARK
+                          171         \advance\@tempcnta-\c@@@total@outs \advance\@tempcntb\@tempcnta
+                          172         \@tempcnta-\@tempcnta%
+                          173         \ifnum\@tempcnta>\z@
+                          174           \LL@debug@info{%
+                          175             >>> resave \the\@tempcnta\space output command(s).
+                          176                 Too early to execute! <<<}%
+                          177         \fi
+                          178         \@tempcnta\z@ \def\reserved@b{}%
+                          179         \@for\reserved@a :=\@@@pending@outs\do{%
+                          180           \ifx\reserved@a\@empty\else
+                          181             \ifnum\@tempcnta<\@tempcntb%
+                          182               \reserved@a% execute output’s related to the current page box.
+                          183               \global\advance\c@@@last@exec\@ne
+                          184               \LL@debug@info{>>> execute output command number
+                          185                        \the\c@@@last@exec\space<<<}%
+                          186             \else
+                           Other output’s must be resaved and still pending.
+                          187               \expandafter\g@addto@macro\expandafter\reserved@b\expandafter{%
+                          188                 \reserved@a,}%
+                          189             \fi
+                          190             \advance\@tempcnta\@ne%
+                          191           \fi}%
+                          192         \expandafter\@temptokena\expandafter{\reserved@b}%
+                          193         \xdef\@@@pending@outs{\the\@temptokena}%
+                          194       \endgroup}%
+                          195   \fi% end of eTeX test.
+                                                                                                            A
+         \protected@write  Because our redeﬁned \write is expandable we must protect it inside of LT X’s
+                                                                                                              E
+                           \protected@write.
+                          196   \long\def\protected@write#1#2#3{%
+                          197     \begingroup
+                          198        \let\thepage\relax
+                          199        #2%
+                          200        \let\protect\@unexpandable@protect
+                          201        \edef\reserved@a{\noexpand\write#1{#3}}%
+                          202        \reserved@a%
+                          203     \endgroup
+                          204     \if@nobreak\ifvmode\nobreak\fi\fi}%
+                                     A
+                 \shipout  Wemake LT X’s \shipout ineﬃcacious (no more shipout at all).
+                                       E
+                          205   \def\shipout{\deadcycles\z@\setbox\@tempboxa=}
+               \@begindvi  Delay \@begindvi to be executed until the real page output.
+                          206   \let\@begindvi\@empty
+                          207 \fi% end of \ifLL@combine
+         \LL@toomanypages  Now elsewhere ...
+                          208 \LoadClass{article}
+                          209 \RequirePackage{everyshi,graphicx}
+                                                                      5
+    \LL@pagesize@specials  Now the graphics driver is known. We will check the graphics driver and set special code for
+                           page dimensions and other.
+                          210 \newcommand*\LL@pagesize@specials[2]{}
+                          211 \@ifundefined{Gin@driver}{}{%
+                          212   \ifx\Gin@driver\@empty\else%
+                          213     \filename@parse{\Gin@driver}\@tempswafalse%
+                          214     \def\reserved@a{dvips}%
+                          215     \ifx\filename@base\reserved@a\@tempswatrue\fi%
+                          216     \def\reserved@a{dvipdfm}%
+                          217     \ifx\filename@base\reserved@a\@tempswatrue\fi%
+                          218     \if@tempswa
+                          219       \ClassInfo{leaflet}{Generating code for dvips}%
+                          220       \def\LL@pagesize@specials#1#2{%
+                          221         \@tempdima=#1\@tempdimb=#2%
+                          222         \AtBeginDvi{\special{papersize=\the\@tempdima,\the\@tempdimb}}}%
+                          223     \fi
+                          224     \def\reserved@a{pdftex}%
+                          225     \ifx\filename@base\reserved@a
+                          226       \ClassInfo{leaflet}{Generating code for pdfTeX}%
+                          227       \def\LL@pagesize@specials#1#2{%
+                          228         \@tempdima=#1\@tempdimb=#2%
+                          229         \pdfpagewidth\@tempdima\pdfpageheight\@tempdimb}%
+                          230     \fi
+                          231     \def\reserved@a{luatex}%
+                          232     \ifx\filename@base\reserved@a
+                          233       \ClassInfo{leaflet}{Generating code for LuaTeX}%
+                          234       \ifx\pdfvariable\@undefined
+                          235         \def\LL@pagesize@specials#1#2{%
+                          236           \@tempdima=#1\@tempdimb=#2%
+                          237           \pdfpagewidth\@tempdima\pdfpageheight\@tempdimb}%
+                          238       \else
+                          239         \def\LL@pagesize@specials#1#2{%
+                          240           \@tempdima=#1\@tempdimb=#2%
+                          241           \pagewidth\@tempdima\pageheight\@tempdimb}%
+                          242       \fi
+                          243     \fi
+                          244     \def\reserved@a{xetex}%
+                          245     \ifx\filename@base\reserved@a
+                          246       \ClassInfo{leaflet}{Generating code for XeTeX}%
+                          247       \def\LL@pagesize@specials#1#2{%
+                          248         \@tempdima=#1\@tempdimb=#2%
+                          249         \pdfpagewidth\@tempdima\pdfpageheight\@tempdimb}%
+                          250     \fi
+                          251     \def\reserved@a{vtex}%
+                          252     \ifx\filename@base\reserved@a
+                          253       \ClassInfo{leaflet}{Generating code for VTeX}%
+                          254       \def\LL@pagesize@specials#1#2{%
+                          255         \@tempdima=#1\@tempdimb=#2%
+                          256         \mediawidth\@tempdima\mediaheight\@tempdimb}%
+                          257     \fi
+                          258   \fi
+                          259 }
+           \LL@CmdIgnored
+                          260 \newcommand*\LL@CmdIgnored[1]{%
+                          261   \ClassWarning{leaflet}{%
+                          262     ‘\string#1’ ignored}}
+                           2.3    Changing the class properties
+                          263 \setlength{\parskip}{1ex plus 2pt}
+                          264 \@listi%
+                          265 \setlength{\labelwidth}{\leftmargin}
+                                                                      6
+                            266 \addtolength{\labelwidth}{-\labelsep}
+                            267 \pagestyle{empty}
+                            268 \headheight\z@
+                            269 \headsep\z@
+                            270 \footskip\z@
+                            271 \marginparwidth\z@
+                            272 \marginparsep\z@
+                            273 \sloppy
+                            274 \setcounter{secnumdepth}{0}
+                            275 %\renewcommand\marginpar[2][]{\LL@CmdIgnored{\marginpar}}
+                            276 \renewcommand\twocolumn[1][]{\LL@CmdIgnored{\twocolumn}}
+                            277 \renewcommand\onecolumn{\LL@CmdIgnored{\onecolumn}}
+                            278 \renewcommand\topfraction{0.7}
+                            279 \renewcommand\bottomfraction{0.7}
+                            280 \setlength{\textfloatsep}{10pt plus 4pt minus 3pt}
+                            281 \setlength{\parindent}{\z@}
+                            282 \setlength{\leftmargini}{1.5em}
+                            283 \setlength{\leftmarginii}{1.5em}
+                            284 \setlength{\leftmarginiii}{1.5em}
+                            285 \setlength{\leftmarginiv}{1.5em}
+                            286 \setlength{\leftmarginv}{1.5em}
+                            287 \setlength{\leftmarginvi}{1.5em}
+                            288 \setlength{\labelsep}{.5em}
+                            289 \setlength   \labelwidth{\leftmargini}
+                            290 \addtolength\labelwidth{-\labelsep}
+                \noparskip
+                            291 \def\noparskip{\par\vspace{-\parskip}}
+                             Modiﬁcation of list and section parameters for a more compact layout.
+                            292 \let\old@small\small
+                            293 \renewcommand{\small}{\old@small\let\@listi\@listI}
+                            294 \let\old@footnotesize\footnotesize
+                            295 \renewcommand{\footnotesize}{\old@footnotesize\let\@listi\@listI}
+                 \sectfont   User macro for changing the font of the typesetted parameter of the \?section commands.
+                            296 \newcommand{\sectfont}{\bfseries}
+                            297 \renewcommand\section{\@startsection{section}{1}{\z@}%
+                            298   {-3.5ex \@plus -.75ex}%
+                            299   {1ex} %{1.5ex}%
+                            300   {\normalfont\large\sectfont}}
+                            301 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                            302   {-2.5ex plus -.5ex}%
+                            303   {1\p@} %{1ex}%
+                            304   {\normalfont\normalsize\sectfont}}
+                            305 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                            306   {-2.5ex plus -.5ex}%
+                            307   {-1em}%
+                            308   {\normalfont\normalsize\sectfont}}
+                            309 \def\part{\LL@CmdIgnored{\part}\secdef\@part\@spart}
+                            310 \def\@part[#1]#2{}
+                            311 \def\@spart#1{}
+                            312
+                            313 \renewcommand*\descriptionlabel[1]{%
+                            314   \hspace\labelsep\normalfont\descfont #1}
+                 \descfont   User macro for changing the font of the description label.
+                            315 \newcommand*\descfont{\bfseries}
+                            316 \iffalse
+                            317 % Doesn’t work!
+                            318 \g@addto@macro\enumerate{\parsep2\p@\@plus2\p@\@minus\z@}
+                            319 \g@addto@macro\itemize{\parsep2\p@\@plus2\p@\@minus\z@}
+                                                                           7
+                                320 \g@addto@macro\description{\parsep2\p@\@plus2\p@\@minus\z@}
+                                321 \else
+                                322 \newcommand*\LL@listsetup{%
+                                323 %   \parsep.445ex\@plus.445ex\@minus.2225ex%
+                                324 %   \parsep.5ex\@plus.5ex\@minus.25ex%
+                                325   \parsep1ex\@plus.5ex\@minus.25ex%
+                                326   \LL@debug@info{***parsep=\the\parsep}%
+                                327 %   \itemsep.25\parsep
+                                328   \itemsep\z@
+                                329   \LL@debug@info{***itemsep=\the\itemsep}%
+                                330   \topsep\z@
+                                331   \LL@debug@info{***topsep=\the\topsep}%
+                                332 %   \partopsep\z@
+                                333   \LL@debug@info{***partopsep=\the\partopsep}%
+                                334 }
+                                335 \def\enumerate{%
+                                336   \ifnum \@enumdepth >\thr@@\@toodeep\else
+                                337      \advance\@enumdepth\@ne
+                                338      \edef\@enumctr{enum\romannumeral\the\@enumdepth}%
+                                339      \expandafter
+                                340      \list
+                                341        \csname label\@enumctr\endcsname
+                                342        {\usecounter\@enumctr
+                                343           \def\makelabel##1{\hss\llap{##1}}%
+                                344           %\def\makelabel##1{##1\hfill}%
+                                345           %\def\makelabel##1{\hss##1}%
+                                346           \LL@listsetup
+                                347        }%
+                                348   \fi}
+                                349 \def\itemize{%
+                                350   \ifnum \@itemdepth >\thr@@\@toodeep\else
+                                351      \advance\@itemdepth\@ne
+                                352      \edef\@itemitem{labelitem\romannumeral\the\@itemdepth}%
+                                353      \expandafter
+                                354      \list
+                                355        \csname\@itemitem\endcsname
+                                356        {%
+                                357           \def\makelabel##1{\hss\llap{##1}}%
+                                358           %\def\makelabel##1{##1\hfill}%
+                                359           %\def\makelabel##1{\hss##1}%
+                                360           \LL@listsetup
+                                361        }%
+                                362   \fi}
+                                363 \renewenvironment{description}
+                                364                   {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                                365                              \let\makelabel\descriptionlabel
+                                366                              \LL@listsetup}}
+                                367                   {\endlist}
+                                368 \fi
+                                 2.4     Changing the page dimensions
+                 \setmargins     User command to specify the margins. (o, u, l, r)
+                                     \setmargins{htopi}{hbottomi}{hlefti}{hrighti}
+                                     The new user interface! By default, the leaﬂet class does not use headings, footings and
+                                 marginal notes. If the user desires, these can be restored by setting the respective lengths before
+                                 calling \setmargins. Setting the margins should always be done using \setmargins; if the
+                                 user assigns to any of the length registers \topmargin, \evensidemargin, \oddsidemargin
+                                 using \setlength, chaos will happen.
+                                369 \newcommand*\setmargins[4]{%
+                                 temp. top!
+                                370     \setlength\topmargin{#1}%
+                                                                                      8
+                          371    \edef\LL@tmargin{\the\topmargin}%
+                           temp. bottom!
+                          372    \setlength\evensidemargin{#2}%
+                          373    \textheight=\dimexpr\paperheight
+                          374      -\topmargin-\evensidemargin-\headheight-\headsep-\footskip
+                           temp. left!
+                          375    \setlength\oddsidemargin{#3}%
+                           temp. right!
+                          376    \setlength\evensidemargin{#4}%
+                          377    \textwidth=\dimexpr\paperwidth
+                          378      -\oddsidemargin-\evensidemargin-\marginparwidth-\marginparsep
+                           real top!
+                          379    \addtolength\topmargin{-1in}%
+                           real left!
+                          380    \addtolength\oddsidemargin{-1in}%
+                           probably not necessary
+                          381    \evensidemargin\oddsidemargin
+                          382 }
+                           The dimensions of a single small page.
+                          383 \LL@setPaperSize
+                          384 \paperwidth=0.333333334\paperwidth
+                          385 \setmargins{11mm}{11mm}{8mm}{8mm}
+                           2.5    Additional user macros
+            \foldmarkrule  The dimension of the foldmark between page 2 and page 3.
+          \foldmarklength 386 \newcommand*\foldmarkrule{0.4pt}
+                          387 \newcommand*\foldmarklength{2mm}
+         \AddToBackground  Adds the given parameter #2 (some picture commands) to a macro which will be used inside a
+        \AddToBackground*  zero-dimensional picture environment located at the lower left corner of a page. Parameter #1
+                           selects the page number. The star version adds the picture commands to the background of
+                           one of the combined large pages instead of one of the small pages.
+                          388 \newcommand\AddToBackground{%
+                          389   \@ifstar{\@tempswatrue\LL@AddToBackground}
+                          390           {\@tempswafalse\LL@AddToBackground}}
+                          391 \@onlypreamble\AddToBackground
+                          392 \newcommand\LL@AddToBackground[2]{%
+                          393   \if@tempswa\def\@tempa{LL@largePic}\else\def\@tempa{LL@smallPic}\fi
+                          394   \expandafter\providecommand\csname\@tempa\@Roman{#1}\endcsname{}%
+                          395   \expandafter\g@addto@macro\csname\@tempa\@Roman{#1}\endcsname{#2}}
+               \LenToUnit  \LenToUnit{hdimensioni} can be used in a picture environment instead of multiples of
+                           \unitlength.
+                          396 \providecommand\LenToUnit[1]{#1\@gobble}
+                 \CutLine  Adds a dotted line with two scissors on the left side of the page given as parameter #1. The
+                \CutLine*  starred version draws only the dotted line.
+                \Scissors 397 \newcommand*\CutLine{%
+                          398   \@ifstar{\@tempswatrue\LL@CutLine}{\@tempswafalse\LL@CutLine}}
+                          399 \@onlypreamble\CutLine
+                          400 \newcommand*\LL@CutLine[1]{%
+                          401   \ifLL@combine
+                          402     \ifx\Scissors\@empty\@tempswatrue\fi
+                          403     \if@tempswa
+                          404       \AddToBackground{#1}{%
+                          405         \put(0,0){%
+                                                                      9
+                               406             \rotatebox{90}{\makebox(\LenToUnit{\paperheight},0){%
+                               407               \normalsize
+                               408               \dotfill}}}}%
+                               409      \else
+                               410        \AddToBackground{#1}{%
+                               411          \put(0,0){%
+                               412             \rotatebox{90}{\makebox(\LenToUnit{\paperheight},0){%
+                               413               \normalsize
+                               414               \dotfill\Scissors\dotfill\dotfill\Scissors\dotfill}}}}%
+                               415      \fi
+                               416   \fi}
+                               417 \IfFileExists{pifont.sty}
+                               418   {\RequirePackage{pifont}%
+                               419    \newcommand*\Scissors{\raisebox{-0.85ex}{\large\ding{34}}}}%
+                               420   {\newcommand*\Scissors{}}
+                                Adds the fold mark code between page 2 and page 3.
+                               421 \AddToBackground{3}{\LL@foldmark}
+                                2.6     Page construction and output
+                                2.6.1    Intercepting the small pages
+                                                                                A
+                     \vb@xt@    Similar to \hb@xt@ (should be part of the LT X kernel).
+                                                                                  E
+                               422 \providecommand*\vb@xt@{\vbox to}
+                                                                                         A
+                                Weuse our own page saving macro instead of real LT X output.
+                                                                                           E
+                               423 \AtBeginDocument{\EveryShipout{\LL@savePage}}
+                     LL@page    Acounter for the small pages (absolute counting).
+                               424 \newcounter{LL@page}\setcounter{LL@page}{1}
+                               425 \newcommand\LL@tempa{}
+               \LL@savePage     With “combine” option the six small pages will be saved in box registers
+                                (\LL@boxI...\LL@boxVI). The box255 with the page content must be a bit moved to
+                                get a “normal-sized” box.
+                               426 \newcommand*\LL@savePage{%
+                               427   \ifnum\c@LL@page<7\relax
+                               428      \LL@tempdima=\paperwidth
+                               429      \ifLL@combine
+                               430        \iffoldcorr
+                               431          \@tempswafalse
+                               432          \ifnum\c@LL@page=4\relax
+                               433             \@tempswatrue
+                               434          \else
+                               435             \ifnum\c@LL@page=5\relax
+                               436               \@tempswatrue
+                               437             \fi
+                               438          \fi
+                               439          \if@tempswa\LL@tempdima=0.9797979798\paperwidth
+                               440          \else\LL@tempdima=1.0101010101\paperwidth \fi
+                               441        \fi
+                               442        \@@@exec@outs
+                               443        \expandafter\newsavebox\csname LL@box\Roman{LL@page}\endcsname%
+                               444        \setbox\@cclv=\vbox{\vskip1in\unvbox\@cclv}%
+                               445        \setbox\@cclv=\vbox{\moveright1in\box\@cclv}%
+                               446        \setbox\@cclv=\hb@xt@\paperwidth{\box\@cclv\hss}%
+                               447        \iffoldcorr\setbox\@cclv=\hb@xt@\LL@tempdima{\hss\box\@cclv\hss}\fi
+                                Add a background picture to a single small page (‘combine’).
+                               448        \setbox\@cclv=\vb@xt@\paperheight{%
+                               449          \vbox{%
+                               450             \pictur@(0,0)(0,\LenToUnit{\paperheight})%
+                                                                                  10
+                               451               \begingroup
+                               452                 \set@typeset@protect
+                               453                 \paperwidth=\LL@tempdima
+                               454                 \@nameuse{LL@smallPic\Roman{LL@page}}%
+                               455               \endgroup
+                               456             \endpicture
+                               457          }%
+                               458          \nointerlineskip\box\@cclv\vss
+                               459        }%
+                               460        \global\expandafter\setbox
+                               461          \csname LL@box\Roman{LL@page}\endcsname=\box\@cclv
+                               462        \typeout{\@spaces[\the\c@LL@page] ==> [\Roman{LL@page}]}%
+                               463      \else
+                                Add a background picture to a single small page (‘nocombine’).
+                               464        \setbox\@cclv\vbox{%
+                               465          \vbox{\@tempdima=1in\relax
+                               466             \@tempdimb=\paperheight\advance\@tempdimb-\@tempdima
+                               467             \pictur@(0,0)(\LenToUnit{\@tempdima},\LenToUnit{\@tempdimb})%
+                               468               \begingroup
+                               469                 \set@typeset@protect
+                               470                 \@nameuse{LL@smallPic\Roman{LL@page}}%
+                               471               \endgroup
+                               472             \endpicture
+                               473          }%
+                               474          \nointerlineskip\box\@cclv
+                               475        }%
+                               476      \fi
+                               477   \fi
+                               478   \ifnum\c@LL@page=7\relax
+                                Makethis an error or warning message, depending on class option. (--> warning in all cases?)
+                               479      \begingroup
+                               480        \set@typeset@protect
+                               481        \LL@toomanypages{%
+                               482          The text you supplied fills more than six pages\MessageBreak
+                               483          and will therefore not fit onto a single flyer}{%
+                               484          Try using smaller fonts or reducing vertical space}%
+                               485      \endgroup
+                               486   \fi
+                               487   \stepcounter{LL@page}}
+                                2.6.2    Generating missing small pages
+                                NOTE TO OURSELVES: All the following must be done if the document code is already
+                                processed.
+                               488 \ifLL@combine
+                       \@@end
+                               489   \def\@@end{%
+                               490      \clearpage\pagestyle{empty}%
+                                Restore the original \@outputpage command (removing any related background pictures).
+                               491      \let\@outputpage\LL@outputpage
+                                Suppresses all everyshi’s clients (removing other kinds of background pictures) but our page
+                                saving macro is still needed for the next step and must be set again.
+                               492      \def\@EveryShipout@Hook{}%
+                               493      \def\@EveryShipout@AtNextHook{}%
+                               494      \EveryShipout{\LL@savePage}%
+                                Create empty pages if necessary.
+                               495      \loop\ifnum\c@LL@page<7\relax
+                               496        \ClassInfo{leaflet}{Generating empty page \the\c@page}%
+                               497        \null\newpage
+                               498      \repeat
+                                                                                  11
+                           2.6.3   Reassembling the small pages
+                                                           A
+                           Here begins the real output using LT X’s original \shipout. The everyshi package isn’t active
+                                                             E
+                           any more. The begin dvi hook is reactivated.
+                          499     \let\shipout\LL@shipout \let\@begindvi\LL@begindvi
+                          500     \paperwidth=3\paperwidth
+                          501     \iflandscape
+                          502       \LL@pagesize@specials{\paperwidth}{\paperheight}%
+                          503     \else
+                          504       \LL@pagesize@specials{\paperheight}{\paperwidth}%
+                          505     \fi
+                                            A
+          \LL@shipoutPage  This is similar to LT X’s \@outputpage, but without a group; \set@display@protect seems
+                                              E
+                           to work as well.
+         \LL@preparePages  Helper macros for page output: reassemble the small pages.
+          \LL@preparePage 506     \newcommand*\LL@shipoutPage[1]{%
+                          507 %     \set@display@protect
+                          508       \let \protect \noexpand
+                          509       \shipout\vb@xt@\paperheight{%
+                          510         \set@typeset@protect
+                          511         \vskip-1in%
+                          512         \@begindvi\hb@xt@\paperwidth{\hskip-1in##1\hss}\vss}}%
+                          513     \newcommand*\LL@preparePages[3]{%
+                          514       \typeout{[\@Roman{##1}\space\@Roman{##2}\space\@Roman{##3}] ==>}%
+                           Add a background picture to a large page.
+                          515       \pictur@(0,0)\@nameuse{LL@largePic\Roman{page}}\endpicture%
+                          516       \LL@preparePage{##1}\LL@preparePage{##2}\LL@preparePage{##3}}%
+                          517     \newcommand*\LL@preparePage[1]{%
+                          518       \expandafter\box\csname LL@box\@Roman{##1}\endcsname}%
+                           Combine and output the frontside and the backside. The option two part arranges the pages
+                           in a diﬀerent than the “natural” order, to allow the typesetting of a 4 page leaﬂet and a
+                           detachable 2 page form, for summaries, ﬁll-in forms, applications, questionnaires, etc.
+                          519       \LL@selectOutput
+                          520     \iftwopart
+                          521         {\setcounter{page}{1}%
+                          522          \LL@shipoutPage{\LL@rotate@I{\LL@preparePages{6}{4}{1}}}}%
+                          523         {\setcounter{page}{2}%
+                          524          \LL@shipoutPage{\LL@rotate@II{\LL@preparePages{2}{3}{5}}}}%
+                          525     \else
+                          526         {\setcounter{page}{1}%
+                          527          \LL@shipoutPage{\LL@rotate@I{\LL@preparePages{5}{6}{1}}}}%
+                          528         {\setcounter{page}{2}%
+                          529          \LL@shipoutPage{\LL@rotate@II{\LL@preparePages{2}{3}{4}}}}%
+                          530     \fi
+                          531       \LL@@end
+                          532   }%
+                           End of the redeﬁnition of \@@end.
+                          533 \else
+                                                                                  A
+                           Create empty pages if necessary and then call the normal LT X end.
+                                                                                    E
+                          534   \LL@pagesize@specials{\paperwidth}{\paperheight}%
+                          535   \AtEndDocument{%
+                          536     \clearpage\pagestyle{empty}%
+                          537     \loop\ifnum\c@LL@page<7\relax
+                          538       \ClassInfo{leaflet}{Generating empty page \the\c@page}%
+                          539       \null\newpage
+                          540     \repeat
+                          541   }
+                          542 \fi
+                          543 h/classi
+                           Done. Phew! (Did you hear that deep-drawn sigh?)
+                                                                      12
+                                              Change History
+                                              v0.8c                                                                                  Una Smith. (RN) . . . . . . . . . . . . . . . 2
+                                                   General: Repacked as dtx ﬁle. (RN) . . . . 1                                General: Options ‘twopart/notwopart’
+                                              v0.9d                                                                                  suggested by Luis Rivera. No more
+                                                   General: LPPL 1.3 (HjG) . . . . . . . . . . . . 1                                 ‘ﬁnal’ in \ExecuteOptions suggested
+                                                       M-x delete-trailing-whitespace (HjG)                      .  1                by Axel Berger (RN) . . . . . . . . . . . . . 1
+                                                       More code documentation; some                                      v1.0e
+                                                         caveats. (HjG) . . . . . . . . . . . . . . . . . 1                    \LL@pagesize@specials: Patch from
+                                              v0.9e                                                                                  Toby Thurston for XeLaTeX. (RN) . . 6
+                                                   General: Add option ‘ﬁnish’. (RN/HjG) . 1                              v1.0pre1
+                                              v0.9f                                                                            General: Redeﬁnition of \immediate,
+                                                   General: Merge v0.9d and v0.9e (hastily).                                         \write, \openout and \closeout.
+                                                         (HjG) . . . . . . . . . . . . . . . . . . . . . . . . 1                     (RN) . . . . . . . . . . . . . . . . . . . . . . . . 1
+                                              v0.9g                                                                       v1.0pre2
+                                                   General: Rename option ‘ﬁnish’ to                                           General: eTeX support. (RN) . . . . . . . . . 1
+                                                         ‘combine’. (RN/HjG) . . . . . . . . . . . . 1                    v1.0pre3
+                                              v1.0                                                                             General: Options ‘landscape’ and
+                                                   General: CTAN release. (RN/HjG) . . . . . 1                                       ‘portait’. (RN) . . . . . . . . . . . . . . . . . 1
+                                              v1.0a
+                                                   \LenToUnit: New macro \LenToUnit.                                      v1.1a
+                                                         (RN) . . . . . . . . . . . . . . . . . . . . . . . . 9                \LL@savePage: Additions for new option
+                                                   General: Option ‘debug’. (RN) . . . . . . . . 1                                   ‘foldcorr’. (RN)          . . . . . . . . . . . . . . .  10
+                                              v1.0b                                                                            \LenToUnit: \providecommand instead of
+                                                   \closeout: \special must be processed                                             \newcommand. (RN) . . . . . . . . . . . . . . 9
+                                                         similar to e.g. \write (VT X). (RN) . 3                               General: New options
+                                                                                                E
+                                                   General: New option nospecialtricks                                               ‘foldcorr/nofoldcorr’ suggested by
+                                                         for testing purposes. (RN) . . . . . . . . . 1                              Walter Schmidt. (RN) . . . . . . . . . . . . 2
+                                              v1.0c                                                                                Using \dimexpr instead of package
+                                                   \LL@shipoutPage: Fix \protect-ion                                                 ‘calc’.(RN) . . . . . . . . . . . . . . . . . . . . 5
+                                                         problems. (RN/HjG)                 . . . . . . . . . . .  12     v1.1b
+                                              v1.0d                                                                            \LL@pagesize@specials: Adding code
+                                                   \LL@foldmark: Invalid code for option                                             for LuaTeX >0.85. Thanks to Knut
+                                                         “nofoldmark” changed. Thanks to                                             Lickert for his bug report. (RN)                  . . . . 6
+                                              Index
+                                              Numberswritteninitalicrefertothepagewherethecorrespondingentryisdescribed; numbers
+                                              underlined refer to the code line of the deﬁnition; numbers in roman refer to the code lines
+                                              where the entry is used.
+                                                              Symbols                           \@EveryShipout@Hook . . . 492                      \@startsection              297, 301, 305
+                                              \@@@closeout . . . . . . . . .                    \@Roman . . 394, 395, 514, 518                     \@tempa . . . . . . . . .          393–395
+                                                         . .   25, 94, 111, 138, 159            \@begindvi           .  3, 206, 499, 512           \@toodeep . . . . . . .            336, 350
+                                              \@@@exec@outs . . . . . . . .                     \@cclv . . . . . . . . . .         444–            \@unexpandable@protect                    200
+                                                         . . . . . 26, 139, 160, 442                       448, 458, 461, 464, 474
+                                              \@@@immediate 24, 92, 107,                        \@dummy@whatsit . . . . . .                                              A
+                                                         109, 111, 113, 132,                                . . . .  117, 131, 134, 137            \AddToBackground . . . . .
+                                                         135, 138, 151, 155, 159                \@enumctr . . . . 338, 341, 342                               . . . .   388, 404, 410, 421
+                                              \@@@openout . . . . . . . . . .                   \@enumdepth . . . . . .             336–338        \AddToBackground*                . . . .  388
+                                                         . .   25, 94, 109, 135, 155            \@for . . . . . . . . . . . . . . . 179            \AtBeginDvi . . . . . . . . . . 222
+                                              \@@@out@mark . . 145, 150,                        \@ifequalsign . . . . . . . . 152                  \AtEndOfClass . . . 22, 55, 61
+                                                         154, 158, 163, 168–170                 \@itemdepth . . . . . .             350–352
+                                              \@@@pending@outs . .                 92,          \@itemitem           . . . . . .   352, 355
+                                                         132, 135, 138, 140,                    \@listI . . . . . . . . .          293, 295                              B
+                                                         151, 155, 159, 179, 193                \@listi . . . . . . 264, 293, 295                  \botmarks . . . . . . .            163, 170
+                                              \@@@special . 26, 93, 104, 113                    \@minus . . . 318–320, 323–325                     \bottomfraction . . . . . . 279
+                                              \@@@write 24, 93, 107, 132, 151                   \@onlypreamble . . . 391, 399
+                                              \@@end . . . . . . . . . . . .        3, 489      \@outputpage . . . . . . . 2, 491                                        C
+                                              \@EveryShipout@AtNextHook                         \@part . . . . . . . . . .         309, 310        \c@@@last@exec . . . . . . .
+                                                         . . . . . . . . . . . . . .    493     \@spart . . . . . . . . .          309, 311                   . . . .   162, 167, 183, 185
+                                                                                                                      13
+                                                  \c@@@total@outs . . . . . .                           \immediate@openout . 97, 108                                                  M
+                                                              .  149, 150, 153, 154,                    \immediate@special . 99, 112                          \makelabel             . . . . . . . . . .
+                                                             157, 158, 162, 166, 171                    \immediate@write . . 96, 106                                       .  343–345, 357–359, 365
+                                                  \c@LL@page            . . .   427, 432,               \itemindent . . . . . . . . . . 364                   \marginpar             . . . . . . . . . .    275
+                                                             435, 462, 478, 495, 537                    \itemize . . . . . . . .              319, 349        \marginparsep . . . .                 272, 378
+                                                  \c@page . . . . . . . . .            496, 538         \itemsep . . . . . . . .              327–329         \marginparwidth . . 271, 378
+                                                  \ClassWarning . . . . . . . . 261                                                                           \marks . . . . . . . 150, 154, 158
+                                                  \closeout . . . . . . . . . 25, 92                                            L                             \mediaheight . . . . . . . . . 256
+                                                  \CutLine . . . . . . . . . . . . 397                  \labelsep             266, 288, 290, 314              \mediawidth . . . . . . . . . . 256
+                                                  \CutLine* . . . . . . . . . . . 397                   \labelwidth . . . . . . . . . .                       \moveright             . . . . . . . . . .    445
+                                                                                                                       265, 266, 289, 290, 364
+                                                                         D                              \landscapefalse . . . . . . . 17                                              N
+                                                  \deadcycles . . . . . . . . . . 205                   \landscapetrue . . . . . . . . 16                     \newcounter . . . 146, 147, 424
+                                                  \descfont . . . . . . .              314, 315         \leftmargin . . . . . .               265, 364        \newlength             . . . . . . . . . . .     8
+                                                  \description . . . . . . . . . 320                    \leftmargini . . . . .                282, 289        \nobreak . . . . . . . . . . . . 204
+                                                  \descriptionlabel                    313, 365         \leftmarginii . . . . . . . . 283                     \nointerlineskip . 458, 474
+                                                  \dimexpr . . . . . . 45, 373, 377                     \leftmarginiii . . . . . . . 284                      \noparskip             . . . . . . . . . .    291
+                                                  \ding . . . . . . . . . . . . . . . 419               \leftmarginiv . . . . . . . . 285                     \null . . . . . . . . . . .           497, 539
+                                                  \do      . . . . . . . . . . . . . . . .     179      \leftmarginv . . . . . . . . . 286                    \number . . . . . . . . . . 132,
+                                                  \dotfill . . . . . . . .             408, 414         \leftmarginvi . . . . . . . . 287                                 135, 138, 151, 155, 159
+                                                                                                        \LenToUnit            . .   44, 46, 47,
+                                                                          E                                         396, 406, 412, 450, 467                                           O
+                                                  \endlist . . . . . . . . . . . . 367                  \line . . . . . . . . . . . . . . . . 47              \oddsidemargin . . . . . . .
+                                                  \endpicture . . . 456, 472, 515                       \linethickness . . . . . . . . 44                                  . . . .   375, 378, 380, 381
+                                                  \enumerate            . . . . . .    318, 335         \list . . . . . . . . 340, 354, 364                   \old@footnotesize                     294, 295
+                                                  \evensidemargin . . . . . .                           \LL@@end . . . . . . . . . . 3, 531                   \old@small             . . . . . .    292, 293
+                                                                372, 374, 376, 378, 381                 \LL@AddToBackground . . .                             \onecolumn             . . . . . . . . . .    277
+                                                  \EveryShipout . . . .                423, 494                     . . . . . . .     389, 390, 392           \openout . . . . . . . . . . 25, 92
+                                                                          F                             \LL@begindvi . . . . . . . 3, 499                                             P
+                                                  \filename@base . . . . 215,                           \LL@CmdIgnored . . . . . . .                          \pageheight . . . . . . . . . . 241
+                                                             217, 225, 232, 245, 252                                . . . .    260, 275–277, 309              \pagestyle             . . .  267, 490, 536
+                                                  \filename@parse . . . . . . 213                       \LL@combinefalse . . . . . . 33                       \pagewidth             . . . . . . . . . .    241
+                                                  \firstmarks . . . . . . . . . . 169                   \LL@combinetrue . . . . . . . 32                      \paperheight               30, 45, 373,
+                                                  \foldcorrfalse . . . . . . . . 52                     \LL@CutLine . . . . . .               398, 400                    406, 412, 448, 450,
+                                                  \foldcorrtrue . . . . . . . . . 51                    \LL@debug@info . . . . . . .                                      466, 502, 504, 509, 534
+                                                  \foldmarklength . . . 47, 386                                      9, 18, 141, 165, 174,                    \paperwidth . . . . . . . . . .
+                                                  \foldmarkrule . . . . . 44, 386                                   184, 326, 329, 331, 333                                .    30, 377, 384, 428,
+                                                  \footnotesize . . . .                294, 295         \LL@foldmark . . . . . .               40, 421                    439, 440, 446, 453,
+                                                  \footskip . . . . . . .              270, 374         \LL@listsetup . . . . . . . .                                     500, 502, 504, 512, 534
+                                                                                                                    . . . .   322, 346, 360, 366              \part . . . . . . . . . . . . . . . 309
+                                                                         G                              \LL@outputpage . . . . . 2, 491                       \partopsep             . . . . . .    332, 333
+                                                  \Gin@driver . . . . . .              212, 213         \LL@page . . . . . . . . . . . . 424                  \PassOptionsToClass . . .
+                                                  \globmarks            . . . . . . . . . .    145      \LL@pagesize@specials .                                            . . . . . . .    54, 60, 71, 72
+                                                                                                                    . . . .   210, 502, 504, 534              \PassOptionsToPackage .
+                                                                         H                              \LL@preparePage . . . . . . 506                                    . . . . . . . . . . . . .    10–13
+                                                  \headheight . . . . . .              268, 374         \LL@preparePages . . . . .                            \pdfliteral . . . . . . . . . . 121
+                                                  \headsep . . . . . . . .             269, 374                        506, 522, 524, 527, 529                \pdfoutput             . . . . . . . . . .    121
+                                                  \hskip . . . . . . . . . . . . . . 512                \LL@rotate@I . . . 76, 522, 527                       \pdfpageheight                229, 237, 249
+                                                  \hss . . . . . . . . .        343, 345,               \LL@rotate@II . . 76, 524, 529                        \pdfpagewidth . 229, 237, 249
+                                                             357, 359, 446, 447, 512                    \LL@savePage . . 423, 426, 494                        \pdfvariable . . . . . . . . . 234
+                                                                                                        \LL@selectOutput . . 34, 519                          \pending@@@openout . . . . 152
+                                                                          I                             \LL@setPaperSize . . 28, 383                          \pending@@openout                   . . . .   152
+                                                  \if@nobreak . . . . . . . . . . 204                   \LL@shipout . . . . . . . . 2, 499                    \pending@@write 105, 130, 148
+                                                  \iffalse . . . . . . . . . . . . 316                  \LL@shipoutPage . . . . . .                           \pending@closeout                   . . . .
+                                                  \iffoldcorr . . . .              7, 430, 447                         506, 522, 524, 527, 529                             . . . .   103, 116, 136, 156
+                                                  \iflandscape . . . .               4, 77, 501         \LL@tempa . . . . . . . . . . . 425                   \pending@openout . . . . .
+                                                  \ifLL@combine . . . 23, 31,                           \LL@tempdima . . . . . . .                8,                       . . . .   102, 115, 133, 152
+                                                             62, 75, 207, 401, 429, 488                             428, 439, 440, 447, 453                   \pending@write                101, 105, 114
+                                                  \iftumble . . . . . . .              5, 79, 86        \LL@tmargin . . . . . . .              45, 371        \pictur@ . . . . . 450, 467, 515
+                                                  \iftwopart            . . . . . . . .    6, 520       \LL@toomanypages . . . . .                            \protected@write . . . . . 196
+                                                  \ifvmode . . . . . . . . . . . . 204                                53, 56, 63, 66, 208, 481
+                                                  \immediate            . . . . . . . .    24, 92       \llap . . . . . . . . . . .           343, 357                                R
+                                                  \immediate@closeout                    98, 110        \long . . . .         105, 130, 148, 196              \raisebox . . . . . . . . . . . 419
+                                                                                                                               14
+                                              \reserved@b . . . 178, 187, 192                    \sloppy . . . . . . . . . . . . . 273              \tumblefalse . . . . . . . . . . 39
+                                              \reset@immediate . . . . .                         \special . . . . . . . . . . . .                   \tumbletrue . . . . . . . . . . . 38
+                                                            100, 107, 109, 111, 113                          26, 93, 99, 104, 117, 222              \twocolumn          . . . . . . . . . .   276
+                                              \rotatebox           . . . . . . . . . .           \stepcounter . . . . . . . . . 487                 \twopartfalse . . . . . . . . . 20
+                                                            80, 85, 87, 89, 406, 412             \subsubsection . . . . . . . 305                   \twoparttrue . . . . . . . . . . 19
+                                                                     S                                                 T                                                  U
+                                              \Scissors . . . . . . . . . . . 397                \textfloatsep . . . . . . . . 280                  \unvbox . . . . . . . . . . . . . 444
+                                              \secdef . . . . . . . . . . . . . 309              \textheight . . . . . . . . . . 373                                      V
+                                              \sectfont            296, 300, 304, 308            \textwidth           . . . . . . . . . .  377      \vb@xt@ . . . . . . 422, 448, 509
+                                              \set@display@protect . . 507                       \thepage . . . . . . . . . . . . 198               \vskip . . . . . . . . . .        444, 511
+                                              \set@typeset@protect . .                           \topfraction . . . . . . . . . 278                 \vss . . . . . . . . . . . .      458, 512
+                                                          . . . .  452, 469, 480, 510            \topmargin           370, 371, 374, 379
+                                              \setmargins . . . . . .            369, 385        \topmarks . . . . . . . . . . . 168                                     W
+                                              \shipout . . . 2, 205, 499, 509                    \topsep . . . . . . . . .          330, 331        \write . . . . . . . .         24, 92, 201
+                                                                                                                       15

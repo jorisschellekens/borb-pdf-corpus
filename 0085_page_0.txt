@@ -1,0 +1,39 @@
+        Règlement général pour la protection du travail 
+        Titre II - Dispositions générales concernant l'hygiène du travail ainsi que la 
+        sécurité et la santé des travailleurs 
+        Chapitre I: Dispositions relatives à la sécurité des travailleurs 
+        Section V: Précautions contre les incendies, les explosions et les dégagements accidentels de 
+        gaz nocifs ou inflammables 
+        Article 52.1 - Généralités 
+        1.1. abrogé par A.R. du 28 mars 2014, art. 31 
+        1.2. Le degré de résistance au feu visé au présent règlement est défini dans la norme NBN 
+        713.020/1968 concernant la résistance au feu des éléments de construction. 
+        1.3. A la demande du bourgmestre ou du fonctionnaire compétent, l'employeur est tenu de produire la 
+        preuve que les dispositions des articles 52.3. et 52.7. sont observées en ce qui concerne le 
+        comportement au feu d'éléments de construction (colonnes et poutres de l'ossature, murs, cloisons, 
+        planchers, plafonds, faux-plafonds, escaliers, portes). 
+        S'il ne peut fournir cette preuve, il est tenu de donner par écrit et sous sa signature une description de 
+        la constitution de chacun des éléments de construction pour lesquels la preuve précitée ne (peut être 
+        fournie.) 
+        Article 52.2 - Classification 
+        Pour l'application des dispositions du présent article, les locaux sont classés en trois groupes: 
+        2.1. Le premier groupe comprend les locaux où sont soit utilisés journellement soit entreposés: 
+        2.1.1. des liquides inflammables dont le point d'éclair est inférieur ou égal à 21 ºC, en quantité 
+        supérieure ou égale à 50 l, excepté les liquides inflammables se trouvant dans les réservoirs 
+        d'alimentation de véhicules; 
+        2.1.2. des liquides inflammables dont le point d'éclair est supérieur à 21 ºC, mais ne dépasse pas 50 
+        ºC, en quantité supérieure ou égale à 500 l; 
+        2.1.3. des matières solides très inflammables ou des matières dégageant des gaz combustibles au 
+        contact de l'eau, en quantité supérieure ou égale à 50 kg, telle que le celluloïd, le carbure de calcium, 
+        le magnésium et le sodium; 
+        2.1.4. des gaz combustibles comprimés, liquéfiés ou dissous, en quantité supérieure ou égale à 300 l, 
+        ce volume étant la capacité en litres d'eau des récipients les contenant. 
+        Le premier groupe comprend également: 
+        2.1.5. les locaux où une atmosphère explosive est susceptible d'apparaître pendant le fonctionnement 
+        normal des installations; 
+        2.1.6. dans les magasins pour la vente au détail, des locaux de vente ainsi que les locaux y attenant 
+        et servant de dépôt de marchandises, dont la surface totale est égale ou supérieure à 2.000 m2, y 
+        compris la surface occupée par les comptoirs et autres meubles. 
+        2.2. Le deuxième groupe comprend les locaux où sont soit utilisés journellement soit entreposés: 
+        2.2.1. des liquides inflammables dont le point d'éclair est supérieur à 50 ºC, mais ne dépasse pas 100 
+        ºC, en quantité supérieure ou égale à 3.000 l; 

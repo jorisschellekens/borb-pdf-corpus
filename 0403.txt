@@ -1,0 +1,365 @@
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+      Concur Invoice Reference Guide 
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+                 Welcome to Concur Invoice                                           
+                 Concur Invoice is a system that enables you to create, submit, file, review, approve, and audit payment requests – 
+                 online. Concur Invoice is designed for simplicity and ease of use, but has robust back office processor and 
+                 analytics functionality that improves control and visibility. 
+                  
+                 Section 1: Log on to Concur Invoice 
+                  
+                   How to…                                                                         Additional Information 
+                   1.  Log into Concur using myNova.                                               Once logged into myNova, you can access the  
+                                                                                                   Concur link via the Work@VU tab.  
+                  
+                                                                                                                                                                              
+                                                                                                
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                                                                                                                                                                           2 
+                  
+                                                                                                   
+                    Section 2: Verifying and Submitting a Payment Request (Centralized 
+                    Process) 
+                     
+                    If your invoice is received directly by the Procurement Office (via Email or hardcopy) the Procurement Office 
+                    will process the invoice through our Electronic Invoice Capture System.  This system will complete the Invoice 
+                    detail and itemization Summary information with as much information as it can obtain from the invoice.  The 
+                    Procurement Office will then assign the invoice to the correct invoice owner. The Invoice Owner will review the 
+                    information, add additional information as required, and submit the request for department and University 
+                    approval. The owner can also forward it to another Invoice Owner if needed or send back to the Procurement 
+                    Office if changes are required.  Once the Invoice Owner submits the request, it will flow through the Index 
+                    Approval route for approval.   
+                                                                                                                                                                                               
+                      How to…                                                                                       Additional Information 
+                      1.  From the Invoice tab or Payment Requests, select                                          The Payment Request List displays your requests. From 
+                             My Requests.                                                                           the View dropdown menu, select the types of requests to 
+                                                                                                                    view. You might need to select All Requests to see the 
+                                                                                                                    current status of your request.  
+                                                                                                                    You will see request that you may have started or have 
+                                                                                                                    completed.  You will also see requests that have been 
+                                                                                                                    assigned to you.  These will all show up under 
+                                                                                                                    Unsubmitted Requests 
+                      2.  Find requests with a status of Not Submitted by                                           Payment requests with a status of Not Submitted are 
+                             selecting View, Unsubmitted Requests.                                                  ready for you to review and submit. 
+                      3.  Click the payment request to open it. Review the                                          The Invoice Details page appears. 
+                             payment request.  
+                              
+                     
+                     
+                     
+                                                                                                                                                                                                         3 
+                     
+                                                                      
+              Section 2: Verifying and Submitting a Payment Request (Centralized 
+              Process) (Continued)  
+               
+                                                                                                                                      
+              4.  Review the Vendor Name.                                       You have the ability to change the vendor by selecting the 
+                                                                                Change under Vendor Information on the left side of the 
+                                                                                screen 
+                                                                                 
+              5.  Click in the Request Type field and select from the           Options will be Athletic Officials, Dues/Subscriptions, 
+                   drop down menu Click                                         Honorarium,  Invoice Payment, Legal Fees, 
+                                                                                Maintenance/Service Contracts, Other, Registration, 
+                                                                                Reimbursement, Utilities.   
+                                                                                 
+                                                                                 
+                                                                                 
+              6.  In the Transaction Date Field, enter the current date          
+              7.  The Request Description Field is optional                      
+              8.  Review Invoice number.                                         
+              9.  Review Invoice date.                                           
+              10. Payment Terms are calculated automatically.                   Payment date cannot be changed – This is for viewing 
+                                                                                purposes only 
+              11. Index Number – Your default index number will                  
+                   appear here.  Confirm or change as required.                  
+              12. Review currency                                                
+              13. Confirm Dollar amount.                                         
+              14. Confirm Shipping amount.                                       
+                                                                                                                                            4 
+               
+             15. Confirm Tax amount.                                       
+             16. Enter comments if necessary.                             These comments will follow the invoice through the 
+                                                                          NOVApay system.  All approvers will see these 
+                                                                          comments.  
+             17. Enter Remittance Description                             **Allows you to communicate with the Procurement 
+                                                                          Office about any special handling, rushes, etc.  
+                                                                           
+             18. Enclosure Code                                           In most cases this field should be left blank.  If you need 
+                                                                          special handling of the check, please select the option 
+                                                                          here.  Please note that this may delay your payment do to 
+                                                                          additional Procurement Reviews.   
+                                                                           
+                                                                          **At the Bottom of the page, you will find the 
+             19. Click Save                                               itemization summary. Review line item information. 
+                                                                           
+                                                                           
+                                                                           
+                                                                          You are able to distribute line amounts in these fields – 
+             20. Each Line must be assigned an Expense Type. Click        click on Distribute By, Add, and enter distribution 
+                  on each line and assign the correct Expense Type.       amounts. 
+                  You may also edit line item description, change          
+                  index numbers, and dollar amount.                        
+                   
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                    
+             21. Click Submit Request.                                    Once the invoice is submitted it will go through Index 
+                                                                          level approval based on the amount of the invoice.   
+                                                                           
+                                                                          If there is a problem with the invoice, such as the invoice 
+                                                                          not belonging to you, or incorrect data that you cannot 
+                                                                          change, you can Unassign the invoice. This puts the 
+                                                                          invoice back in the Procurement Office’s queue. You will 
+                                                                          enter a comment explaining why you unassigned the 
+                                                                          invoice. For more information on unassigning invoices 
+                                                                           
+                                                                          If you need to Assign the invoice to another owner for 
+                                                                          review click on your name in the upper left corner next to 
+                                                                          Payment Request for and enter the name of the 
+                                                                          Villanova University individual that it should be sent to 
+                                                                          (last name first). Click Assign in the upper right hand 
+                                                                          corner.   
+              
+              
+              
+              
+              
+              
+                                                                                                                                  5 
+              
+                                                                                                   
+                    Section 3: Creating a Payment Request Using an Existing Vendor 
+                    You can quickly create a payment request for an existing vendor.  
+                      How to…                                                                                       Additional Information 
+                      1.     On the My Concur homepage, from the Invoice tab,                                       The Select Payment Request Options page appears.  
+                             select Create New Request. 
+                                                                                                                     
+                      2.     In the Vendor Name field, type the all or part of the                                  You can also search for vendors by their city, zip/postal 
+                             vendor name.                                                                           code, or Vendor Code. Searching by vendor name or code 
+                                                                                                                    will yield more specific results. 
+                      3.     Click Search.                                                                          The Search Results area displays all of the vendors that 
+                                                                                                                    match your search criteria. You can display all vendors by 
+                                                                                                                    leaving the search fields blank, and then clicking Search. 
+                                                                                                                    Recently viewed vendors appear automatically.   
+                     
+                                                                                                                                                                                                            
+                      4.     In the Search Results area, click the desired vendor.                                  **Be sure to select the vendor with the same address that 
+                                                                                                                    is stated on the invoice, there may be multiple addresses 
+                                                                                                                    for one vendor** 
+                      5.    On the Enter Invoice Details page, in the Request                                       The Enter Invoice Details page appears. You will see the 
+                            Name field, type the name Vendor Name.                                                  vendor details in the Vendor Information area. The request 
+                                                                                                                    name should always be the Vendor name.  
+                                                                                                                    Correct example: Philly Pretzel Factory                                                  
+                                                                                                                    Incorrect example: Invoice for Pretzel Delivery.  
+                                                                                                                     
+                      6.    Click in the Request Type field and select from the                                     Options will be Athletic Officials, Dues/Subscriptions, 
+                            drop down menu.                                                                         Honorarium,  Invoice Payment, Legal Fees, 
+                                                                                                                    Maintenance/Service Contracts, Other, Registration, 
+                                                                                                                    Reimbursement, Utilities.   
+                      7.    In the Transaction Date field, enter the current date.                                   
+                      8.    In the Request Description field is optional.                                            
+                      9.    In the Invoice Number field, enter the invoice                                          If there is No invoice number- use the date on the invoice 
+                            number that correlates to the current payment                                           Example : jan152015 
+                            request.  
+                      10. The Invoice Date should be the date that is stated on                                      
+                            the invoice.  
+                                                                                                                                                                                                         6 
+                     
+                                                                                                   
+                    Section 3: Creating a Payment Request Using an Existing Vendor 
+                    (Continued) 
+                     
+                      How to…                                                                                      Additional Information 
+                      11.  Payment terms are determined automatically and                                           
+                            cannot be changed.  
+                             
+                      12.  Index numbers can be changed.                                                           If you need to divide into multiple index numbers please 
+                                                                                                                   look at step 27a.  
+                      13.  You are able to make changes to Currency if                                              
+                            necessary.   
+                      14.  Total Invoice Amount- Enter the total amount of                                          
+                            the invoice. This includes shipping, taxes, etc.   
+                      15.  Shipping- If shipping/freight is broken down on the                                      
+                            invoice; include that amount in the designated field.  
+                      16.  Tax- If taxes apply; please include them in the                                          
+                            designated field. . 
+                      17.  If you want to communicate any specific                                                  
+                            information, place it in the Comments section. All 
+                            approvers will be able to see the comments 
+                            throughout the approval process.  
+                      18.  If there is any important information you would like                                    Remittance Description example: Send tax exempt form, 
+                            to communicate with the Procurement Department                                         Send check to ____ department, Send check to a specified 
+                            place that information in the Remittance                                               person.  
+                            Description field. .                                                                    
+                      19.  Enclosure Code- In most cases this field should be                                       
+                            left blank, if you require special handling of your 
+                            check please make your selection here.  
+                      20.  The field that asks for a PO Number should be left                                       
+                            blank.  
+                      21.   Click Save.                                                                             
+                      22.   At the bottom of the page, in the New Item section,                                    A list of expense types appears.  
+                            click in the blank field in the Expense Type column 
+                            header. 
+                      23.   Select the appropriate expense type.                                                    
+                                                                                                                                                                                                         7 
+                     
+                                                                        
+               Section 3: Creating a Payment Request Using an Existing Vendor 
+               (Continued) 
+                24.  In the Description field, enter a description of the           24A. Make any Index number changes if necessary.  
+                     expense.  
+                25.  In the Amount field, enter the amount of the                   When itemizing, the total of all itemizations must equal 
+                     invoice.                                                       zero. The system subtracts shipping and tax from the total 
+                                                                                    prior to itemization.  
+                26.  Click Save                                                      
+                27.  Repeat steps 22-26 for each itemization needed.                 
+                28.  Click Action at the top right above invoice header,             
+                     select Upload Image and choose invoice image 
+                     from your files.  
+                29.  Click Submit.                                                   
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                                                                                                                                                  8 
+                
+                                                                                                   
+                    Section 4: Creating a Payment Request Using an New Vendor 
+                     
+                      How to…                                                                                       Additional Information 
+                      1.     On the My Concur homepage, from the Invoice tab,                                       The Select Payment Request Options page appears.  
+                             select Create New Request. 
+                                                                                                                     
+                      2.     In the Vendor Name field, type the all or part of the                                  You want to confirm that the vendor has not been 
+                             vendor name.                                                                           previously entered into the system.  
+                      3.     Select Request New Vendor.                                                              
+                                                                                                                                                                                                             
+                      4.    Under Request New Vendor please fill in Vendor                                          
+                            Name, Address and as much information as you can 
+                            provide.   
+                      5.    Once you have input all necessary information                                           
+                            select Apply, which can be found in the bottom 
+                            right corner of the screen.  
+                      6.    Once you have selected Apply you will remain on                                         
+                            the same screen, from here look to the top right and 
+                            select the Actions drop down.  
+                      7.    Select Upload Image in order to upload all relevant                                     
+                            documents such as the vendor profile, W-9 and 
+                            insurance certificate.   
+                      8.    Click OK.                                                                              **Once you have completed all of the new Vendor 
+                                                                                                                   Information, you will notice that Unapproved appears in 
+                                                                                                                   red under the vendors name on the left side of the screen. 
+                                                                                                                   Unapproved simply means that it has not been entered into 
+                                                                                                                   the Banner Finance System yet. You may continue to submit 
+                                                                                                                   the invoice so it will follow all Index level approvals and is 
+                                                                                                                   ready for prompt payment upon Procurements approval of 
+                                                                                                                   the New Vendor. ** 
+                      9.    To complete the request please refer to Section 2,                                      
+                            Steps 4-21/  
+                     
+                     
+                     
+                                                                                                                                                                                                         9 
+                     
+                          
+     Section 4: Creating a Payment Request Using an New Vendor (Continued)  
+                                          
+      
+      
+      
+      
+      
+      
+      
+      
+      
+                                                   10 
+      
+                                                                                                   
+                    Section 5: Creating a Payment Request with a Purchase Order 
+                     
+                      How to…                                                                                       Additional Information 
+                      1.     On the My Concur homepage, from the Invoice tab,                                       The Select Payment Request Options page appears.  
+                             select Create New Request. 
+                      2.     Enter the Purchase Order Number in the designated                                      The Purchase Order Number should be located on the 
+                             field.                                                                                 invoice. If there is not a Purchase Order Number please 
+                                                                                                                    reference Section  
+                      3.     Once the Purchase Order Number is entered please                                       -Request Name: Vendor Name 
+                             fill out the header information, all required fields are                               -Transaction Date: Date of Service/Transaction 
+                             marked in red.                                                                         - Invoice Number 
+                                                                                                                    - Invoice Date: Date stated on invoice 
+                                                                                                                    -Total Invoice Amount: This includes shipping and tax      
+                                                                                                                    unless otherwise itemized on the invoice.  
+                                                                                                                    -PO Number: This will automatically populate 
+                                                                                                                     
+                      4.     Click Save.                                                                             
+                                                                                                                                                                                                            
+                      5.     Once you have clicked save, a new window will                                           
+                             open. Select Upload Image. 
+                      6.     Click Browse, Upload and Close.                                                         
+                      7.     Once the image is uploaded, look to the top left of the                           Y  
+                             page and select PO Matching Summary.  
+                      8.     There are two ways to move forward, one is that the                                    1. If the invoice is for the entire amount of the PO, simply 
+                             invoice is for the entire amount of the Purchase Order                                 select each line item and select Copy to Payment 
+                             and the other is entering a different amount against                                   Request.  Once you have completed this, click Submit 
+                             the Purchase Order.                                                                    Request.  
+                                                                                                                    2. If the amount differs from that of the PO, select the one 
+                                                                                                                    line item and Copy to Payment Request.  From here 
+                                                                                                                    select Edit Side-by-Side. This will present the payment 
+                                                                                                                    request alongside the PO. Select Next, this will allow you 
+                                                                                                                    to edit the dollar amount on the Payment Request. Once 
+                                                                                                                    you have made the necessary changes select Save.  
+                      9.     Click Submit Request.                                                                   
+                     
+                                                                                                                                                                                                       11 
+                     
+                          
+                                                     
+                                                   12 
+      

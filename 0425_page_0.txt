@@ -1,0 +1,32 @@
+                                               Interactive maps with Leaﬂet
+                                                                  Andrew Ba Tran
+                  Contents
+                      Putting a marker on a map . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        1
+                      How to put the map online . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       3
+                      Multiple locations from a csv . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     5
+                      Add a legend . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    9
+                  This is from the ﬁfth chapter of learn.r-journalism.com.
+                  Let’s start out creating a map the way most people have experienced it, with a location.
+                  Sometimes it’s necessary to zoom in or pan around a map for greater comprehension while exploring data
+                  spatially.
+                  The Leaﬂet R package was created by the folks behind RStudio to integrate with the popular opensource
+                  Javascript library.
+                  It’s great for journalists who have little knowledge of Javascript who want to make interesting interactives
+                  using R. And there is excellent documentation if you want to dig deeper into its functionality after this
+                  introduction.
+                  Essentially, this package lets you make maps with custom map tiles, markers, polygons, lines, popups, and
+                  geojson. Almost any maps you can make in Google Fusion Tables or Carto(DB), you can make in R using
+                  the Leaﬂet package.
+                  # Uncomment and run "install.packages" functions below if you have not yet installed these packages
+                  #install.packages("leaflet")
+                  # IF YOU GET AN ERROR BECAUSE THERE IS NO PACKAGE CALLED httpuv
+                  #install.packages("httpuv")
+                  #install.packages("leaflet")
+                  library(leaflet)
+                  #install.packages("dplyr")
+                  library(dplyr)
+                  Putting a marker on a map
+                  Let’s begin by ﬁnding a latitude and longitude to map.
+                  Go to Google Maps and search for any address.
+                  Right click on the map until you get this menu.
+                                                                            1

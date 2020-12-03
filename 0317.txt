@@ -1,0 +1,530 @@
+                 HT06, Tagging Paper, Taxonomy, Flickr, Academic Article, 
+                                                                                  ToRead 
+                                                                      1                      1                     1,2                    1,2
+                                          Cameron Marlow , Mor Naaman , danah boyd , Marc Davis  
+                                 1                                                                       2
+                                  Yahoo! Research Berkeley                                                UC Berkeley School of Information 
+                             1950 University Avenue, Suite 200                                                        102 South Hall 
+                                  Berkeley, CA 94704-1024                                                      Berkeley, CA 94720-4600 
+                                                           {cameronm, mor, danah, marcd}@yahoo-inc.com 
+                 ABSTRACT                                                                      (“tags”).  In  this  paper,  we  aim  to  articulate  a  framework  for 
+                 In  recent  years,  tagging  systems  have  become  increasingly              studies of such systems. 
+                 popular. These systems enable users to add keywords (i.e., “tags”)            One approach to tagging has emerged in “social bookmarking” 
+                 to  Internet  resources  (e.g.,  web  pages,  images,  videos)  without       tools where the act of tagging a resource is similar to categorizing 
+                 relying  on  a  controlled  vocabulary.    Tagging  systems  have  the        personal bookmarks. In this model, tags allow users to store and 
+                 potential to improve search, spam detection, reputation systems,              collect resources and retrieve them using the tags applied. Similar 
+                 and  personal  organization  while  introducing  new  modalities  of          keyword-based  systems  have  existed  in  web  browsers,  photo 
+                 social  communication  and  opportunities  for  data  mining.  This           repository applications, and other collection management systems 
+                 potential is largely due to the social structure that underlies many          for many years; however, these tools have recently increased in 
+                 of the current systems.                                                       popularity as elements of social interaction have been introduced, 
+                 Despite the rapid expansion of applications that support tagging of           connecting individual bookmarking activities to a rich network of 
+                 resources, tagging systems are still not well studied or understood.          shared tags, resources, and users.  
+                 In  this  paper,  we  provide  a  short  description  of  the  academic       Social tagging systems, as we refer to them, allow users to share 
+                 related  work  to  date.  We  offer  a  model  of  tagging  systems,          their tags for particular resources. In addition, each tag serves as a 
+                 specifically  in  the  context  of  web-based  systems,  to  help  us         link  to  additional  resources  tagged  the  same  way  by  others. 
+                 illustrate  the  possible  benefits  of  these  tools.  Since  many  such     Because of their lack of predefined taxonomic  structure, social 
+                 systems already exist, we provide a taxonomy of tagging systems               tagging systems rely on shared and emergent social structures and 
+                 to  help  inform  their  analysis  and  design,  and  thus  enable            behaviors, as well as related conceptual and linguistic structures 
+                 researchers to frame and compare evidence for the sustainability              of  the  user  community.  Based  on  this  observation,  the  popular 
+                 of such systems. We also provide a simple taxonomy of incentives              tags  in  social  tagging  systems  have  recently  been  termed 
+                 and  contribution  models  to  inform  potential  evaluative                  folksonomy  [22],  a  folk  taxonomy  of  important  and  emerging 
+                 frameworks.  While  this  work  does  not  present  comprehensive             concepts within the user group. 
+                 empirical  results,  we  present  a  preliminary  study  of  the  photo-      Social tagging systems may afford multiple added benefits. For 
+                 sharing and tagging system Flickr to demonstrate our model and                instance, a shared pool of tagged resources enhances the metadata 
+                 explore some of the issues in one sample system. This analysis                for  all  users,  potentially  distributing  the  workload  for  metadata 
+                 helps  us  outline  and  motivate  possible  future  directions  of           creation amongst many contributors. These systems may offer a 
+                 research in tagging systems.                                                  way to overcome the Vocabulary Problem – first articulated by 
+                 Categories and Subject Descriptors                                            George Furnas et al in [8] – where different users use different 
+                                                                                               terms to describe the same things (or actions). This disagreement 
+                 H.1.1 [Information Systems]: Models and Principles – Systems                  in vocabulary can lead to missed information or inefficient user 
+                 and Information Theory.                                                       interactions. The taxonomy of tagging systems articulated in this 
+                                                                                               paper,  and  the  results  of  our  preliminary  experiments  on  the 
+                 General Terms                                                                 relationship between tag overlap and social connection, both point 
+                 Algorithms, Design, Human Factors.                                            to the possibility that thoughtful sociotechnical design of tagging 
+                                                                                               systems may uncover ways to overcome the Vocabulary Problem 
+                 Keywords                                                                      without requiring either the rigidity and steep learning curve of 
+                                                                                               tightly  controlled vocabularies, or the computational complexity 
+                 Tagging  systems,  taxonomy,  folksonomy,  tagsonomy,  Flickr,                and relatively low success of purely automatic approaches to term 
+                 categorization,  classification,  social  networks,  social  software,        disambiguation. 
+                 models, incentives, research.                                                 Figure 1 shows a conceptual model for social tagging systems. In 
+                                                                                               this  model,  users  assign  tags  to  a  specific  resource;  tags  are 
+                 1.  INTRODUCTION                                                              represented  as  typed  edges  connecting  users  and  resources. 
+                 Web-based tagging systems such as Del.icio.us, Technorati and                 Resources may be also be connected to each other (e.g., as links 
+                 Flickr allow participants to annotate a particular resource, such as          between  web  pages)  and  users  may  be  associated  by  a  social 
+                 a  web page,  a blog post, an image,  a physical location, or  just           network, or sets of affiliations (e.g., users that work for the same 
+                 about any imaginable object with a freely chosen set of keywords              company).  
+                                                                                          observe  connections  between  users,  tags,  and  resources.  These 
+                                                                                          connections  define  an  implicit  relationship  between  resources 
+                                                                                          through the users that tag them; similarly, users are connected by 
+                                                                                          the resources they tag. 
+                                                                                          In order to better frame the space of social tagging systems, we 
+                                                                                          describe  two  organizational  taxonomies  for  social  tagging 
+                                                                                          systems, developed by analyzing and comparing the design and 
+                                                                                          features of many existing social tagging systems. The taxonomies 
+                                                                                          describe: 
+                                                                                          • System  design  and  attributes.  We  claim  that  the  place  of  a 
+                                                                                            tagging system in this taxonomy will greatly affect the nature 
+                                                                                            and  distribution  of  tags,  and  therefore  the  attributes  of  the 
+                                                                                            information collected by the system. 
+                                                                                          • User  incentives.  User  behaviors  are  largely  dictated  by  the 
+                                                                                            forms  of  contribution  allowed  and  the  personal  and  social 
+                                                                                            motivations  for  adding  input  to  the  system.  The  place  of  a 
+                                                                                            tagging  system  in  this  taxonomy  will  affect  its  overall 
+                                                                                            characteristics and benefits. 
+                             Figure 1. A model of tagging systems.                        To demonstrate how these classifications affect the properties of 
+                The three individual elements of the model depicted in Figure 1           tags and users, we will present a study of Flickr, one of the most 
+                have been studied independently in the past, usually in the context       popular  tagging  systems  on  the  web  today.  We  compare  our 
+                of web-based systems:                                                     findings  from  the  Flickr  study  to  the  work  of  Golder  and 
+                • Resources. The relationship between resources  and links is a           Huberman  [9]  on  Del.icio.us.  Flickr  and  Del.icio.us  are 
+                  well-researched  area.  Most  prominently,  PageRank  [18]  has         complementary examples of tagging-systems in our taxonomies;  
+                  made analysis of link structure on the web a household name.            we present initial evidence that the dynamics of these systems are 
+                                                                                          quite different. 
+                • Users.  Analysis  of  social  ties  and  social  networks  is  an 
+                  established subfield of sociology [25] and has received attention       To this  end,  the  next  section  provides  details  on  related  work, 
+                  from physicists, computer scientists, economists, and numerous          mostly concentrating on academic research work in related areas. 
+                  other areas of study.                                                   Section  3  briefly  outlines  a  number  of  current  tagging  systems 
+                                                                                          used  as  illustration  in  different  parts  of  this  paper.  Section  4 
+                • Tags.  Recently,  the  aggregation  and  semantic  aspects  of  tags    describes our taxonomies of tagging system design choices and 
+                  have been discussed and debated at length [16]. This discussion         incentives.  In Section 5 we present the results of our study of 
+                  has mainly focused on the quality of information produced by            tagging in Flickr, a photo-sharing tagging system. We present a 
+                  tagging   systems    and    the   possible   tradeoffs   between        summary and outline future directions of research in Section 6. 
+                  folksonomies and crafted ontologies [17, 20]. Furthermore, the 
+                  challenges  of  shared  vocabularies  for  description  have  been      2.  RELATED WORK 
+                  studied  in  the  information  science  and  library  science 
+                  communities for many years [8].                                         Despite a considerable amount of attention in academic circles, as 
+                                                                                          represented in various blog posts [17,20], little academic research 
+                Despite these individual  contributions  (which we will  revisit  in      work has been invested in tagging systems to date.  
+                more detail in Section 2), to fully understand tagging systems we 
+                believe  a  holistic  approach  is  necessary.  Walker  [24]  describes   Perhaps  the  most  significant  formal  study  of  tagging  systems 
+                tagging as “feral hypertext”, a structure out of control, where the       appears in the work of Golder and Huberman [9]. The authors 
+                same tag is assigned to different resources with different semantic       study  the  information  dynamics  in  “collaborative  tagging 
+                senses,  and  thus  associates  otherwise  unrelated  resources.          systems”–specifically, the Del.ic.ious system. The authors discuss 
+                However,  by  considering  the  entire  model,  computer  systems         the information dynamics in such a system, including how tags by 
+                could make inferences that “domesticate” (to use Walker’s terms)          individual users are used over time, and how tags for an individual 
+                these  “feral”  tags.  For  example,  tag  semantics  and  synonyms       resource (in the  case of Del.ic.ious, web resources) change—or 
+                could  potentially  be  inferred  by  analyzing  the  structure  of  the  more specifically, stabilize—over time. We refer to their findings 
+                social  network,  and  identifying  certain  portions  of  the  network   again in Section 5.  
+                that use certain tags for the same resource, or related resources,        Golder  and  Huberman  also  discuss  the  semantic  difficulties  of 
+                interchangeably. These tags may be synonymous.                            tagging systems. As they point out, polysemy (when a single word 
+                A unified user-tag-resource  approach might be useful for many            has  multiple  related  meanings)  and  synonymy  (when  different 
+                key web technologies, including: search and information retrieval;        words have the same meaning) in the tag database both hinder the 
+                information  organization,  discovery  and  communication;  spam          precision and recall of tagging systems. In addition, the different 
+                filtering;  reducing effects of  link spam,  and improving on trust       expertise and purposes of tagging participants may result in tags 
+                metrics;  identifying  trends  and  emerging  topics  globally  and       that  use  various  levels  of  abstraction  to  describe  a  resource:  a 
+                within communities; and locating experts and opinion leaders in           photo can be tagged at the  “basic level” of abstraction  [14]  as 
+                specific domains.                                                         “cat”  or  at  a  superordinate  level  as  “animal”  or  at  various 
+                                                                                          subordinate levels below the basic level as “Persian cat” or “Felis 
+                Variations in the model described in Figure 1 are possible. For           silvestris catus longhair Persian.”  
+                example, links between resources could be absent, and likewise 
+                for  users.  Nevertheless,  in  these  circumstances,  we  can  still 
+                 In [11], the authors of Connotea provide a hands-on description of              Like  tagging  systems,  collaborative  filtering  (CF)  is  concerned 
+                 tagging  systems.  The  study  includes  a  snapshot  of  the  tagging          with  the  relationships  between  people  and  resources,  and  the 
+                 systems available, as of early 2005, and a breakdown of the key                 extent to which these connections can be leveraged to help users 
+                 technologies  behind  these  systems  into  a  two-dimensional                  find new resources and people they would otherwise miss. Some 
+                 taxonomy.  The  first  two  facets  of  the  first  dimension  in  their        of these systems have leveraged user-contributed metadata in the 
+                 taxonomy  represent  the  identity  of  taggers:  “tag  user”  and              matching process, but this extra information is typically used as a 
+                 “content  creator”.  Both  facets  can  be  classified  in  a  second           filter  after  a  match  has  been  made  [15].  To  this  extent,  social 
+                 dimension as either “self” or “others”. Other categorizations that              tagging systems could be seen as complementary to CF, as tags 
+                 the authors offer divides the space of tagging systems according to             are the primary means of finding similar resources; people have 
+                 the “audience” (scholarly or general) and the “type of object store             stipulated that these two systems would marry well, feeding each 
+                 in the system” (URLs versus actual content). The same authors                   other with recommended content [21]. CF techniques have been 
+                 describe their own system—a social tagging system for academic                  studied extensively [3], and many are employed in popular tools, 
+                 articles—in a second article [12]; the technological and interaction            such as Amazon.com. 
+                 techniques  are  described  in  depth,  and  an  initial  study  of  tag        The research  related  to  tagging  systems  separately  covers  each 
+                 distribution is offered. The taxonomy we provide in Section 4 will              part  of  our  model—people,  resources,  tags  and  the  pairwise 
+                 expand upon the dimensions noted in their classifications.                      connections between them. To accurately describe the properties 
+                 Inherent in our model of tagging systems are connections or links               of systems including and connecting all of these components, we 
+                 between resources. As mentioned above, research on link-based                   have  integrated  and  extended  background  research  for  each  of 
+                 systems in the context of the web is hardly new [1]. Obviously,                 these  components,  spanning  the  fields  of  computer  science, 
+                 the PageRank algorithm [18] had a significant impact on the field               information  science,  and  social  networks.  Each  of  these 
+                 and on the way we use the web today, by supplying a mechanism                   components is necessary to understand the relationship between 
+                 to assess the importance of web pages. Lately, link analysis has                objects, the words that describe them, and the motivations people 
+                 been suggested to help fight web spam [10] by identifying trusted               have to do so. In the following section we will introduce a number 
+                 resources and propagating trust to resources that are linked from               of example tagging systems, followed by a descriptive taxonomy 
+                 trusted resources. In tagging systems, similar concepts can utilize             that shows how all of these pieces fit together in practice. 
+                 the information and trust in the social network and the links from 
+                 users  to  resources  (as  well  as  between  resources  as  before)  to        3.  EXAMPLE TAGGING SYSTEMS 
+                 reason about the importance and trust of users and resources.                   In  this  paper,  we  reference  numerous  tagging  systems  to  show 
+                 Perhaps  more  closely  related  to  our  tagging  system  model,               variations in architecture and incentives.  We do not analyze most 
+                 Kleinberg [13] suggested an algorithm to identify web pages that                of these potentially ephemeral sites in depth, although we provide 
+                 are “hubs” and nodes that are “authorities” in a linked graph of                references to them in order to ground the reader with examples.  
+                 resources, given a query term. In his model, Kleinberg views the                For the sake of legibility, here is a brief description of sites we 
+                 hubs and authorities as a bi-partite graph, similar to the way we               reference.  There are many other tagging systems in existence, but 
+                 depict users and resources in our model in Figure 1.  Taking the                we chose twelve that are representative of the diversity of those 
+                 same hubs and authorities approach an inch closer to our model,                 that are currently well used. 
+                 Chakrabarti et al [5] extended Kleinberg’s work to include anchor               • Del.icio.us  (http://del.icio.us):  a  “social  bookmarking  site,” 
+                 text. Anchor text, the text that appears around a link to a certain               allowing users to save and tag web pages and resources. 
+                 resource, can be considered to have a similar role to tags in our 
+                 model.  Traditionally,  the  anchor  text  is  associated  with  the            • Yahoo!  MyWeb2.0  (http://myweb.yahoo.com):  similar  to 
+                 resource the link is pointing to. The exact way the text is picked                Del.icio.us, but including a social network of contacts. 
+                 and associated with  the  resource  varies  between  systems.  Tags             • CiteULike (http://www.citeulike.org/):  a  site  allowing users  to 
+                 have the potential to increase comprehensiveness and accuracy of                  tag citations and references, e.g. academic papers or books. 
+                 anchor-text based methods by treating the user and the resource                 • Flickr  (http://www.flickr.com):    a  photo  sharing  system 
+                 separately in relevance metrics.                                                  allowing users to store and tag their personal photos, as well as 
+                 Also inherent in our model of tagging systems are relationships                   maintain a network of contacts and tag others photos. 
+                 between users,  a  form  typically  described  as  a  social  network.          • YouTube  (http://www.youtube.com):  a  video  sharing  system 
+                 While the social network literature related to tagging systems is                 allowing users to upload video content and describe it with tags. 
+                 too broad for the focus of this paper, we will summarize some of 
+                 the important contributions. Social networks can be used both as a              • ESP Game (http://www.espgame.org/) [23]: an internet game of 
+                 methodology for studying the social nature of tagging in these                    tagging where users are randomly paired with each other, and 
+                 systems, as well as a tool for systems to expose relationships to                 try  to  guess  tags  the  other  would  use  when presented with a 
+                 users. A number of measures are applicable to each of these tasks,                random photo. 
+                 both from systemic and user-based perspectives. Centrality is a                 •  Last.fm  (http://www.last.fm):  a  music  information  database 
+                 measure of how integral an individual is to a network [7], and can                allowing members to tag artists, albums, and songs 
+                 expose users whose social ties or tagging practices establish them 
+                 as  an  influencer  or  opinion  leader.  Structural  equivalence               • Yahoo!  Podcasts  (http://podcasts.yahoo.com/):  a  site  that 
+                 describes the similarity between two users based on the overlap in                indexes podcasts (regularly updated audio content), and allows 
+                 their  personal networks [4],  and can be used  to find analogous                 users to tag them. 
+                 users  within  the  system.  Partitioning  a  network  into  smaller            • Odeo  (http://www.odeo.com/):  another  podcast  information 
+                 structures can be helpful to both users and researchers; clustering               system supporting tagging and search. 
+                 addresses this problem by finding cohesive subgroups [25], while                • Technorati (http://www.technorati.com/): a  weblog  aggregator 
+                 blockmodeling finds groups of users with similar roles within the                 and search tool allowing blog authors to tag their posts.  
+                 network [26]. 
+                 • LiveJournal  (http://www.livejournal.com/):  a  weblog  and                       Yahoo! MyWeb2.0). The suggested tags may be based on 
+                   community website allowing users to tag their personal profile,                   existing  tags  by  the  same  user,  tags  assigned  to  the  same 
+                   along with individual blog posts                                                  resource by other users. Suggested tags can also be generated 
+                 • Upcoming  (http://upcoming.org/):  a  collaborative  events                       from or other sources of related tags such as automatically 
+                   database  where  users  can  enter  future  events  (e.g.,  concerts,             gathered  contextual  metadata,  or  machine-suggested  tag 
+                   exhibits, plays, etc.) and tag them.                                              synonyms. The implication of suggested tagging may be a 
+                                                                                                     quicker  convergence  to  a  folksonomy  (see  [9]).  In  other 
+                 4.  TAXONOMY OF TAGGING SYSTEMS                                                     words,  a  suggestive  system  may  help  consolidate  the  tag 
+                                                                                                     usage for  a resource, or  in the  system, much faster  than a 
+                 While we sometimes refer to social tagging systems as a coherent                    blind  tagging  system  would.  A  convergent  folksonomy  is 
+                 set  of  applications,  it  is  clear  that  differences  between  tagging          more likely to be generated when tagging is not blind. But it 
+                 systems have a significant amount of influence on resultant tags                    is  not  clear  that  consolidation  is  necessarily  a  good  thing; 
+                 and information dynamics.  It is also clear that the personal and                   arguably,  a  suggestive  model  may  be  applied  carefully  so 
+                 social incentives that prompt individuals to participate affect the                 that  the  agreement is not too widespread. As  for viewable 
+                 system itself in various ways.  We have developed two tagging                       tagging, implications may be overweighting certain tags that 
+                 taxonomies to analyze how 1) characteristics of system design and                   were associated with the resource first, even if they would 
+                 2)  user  incentives  and  motivations  may  influence  the  resultant              not have arisen otherwise. 
+                 tags in a tagging system.   
+                                                                                                •    Aggregation.  Another  related  feature  of  group  dynamics 
+                 Different designs and user incentives can have a major influence                    comes from the aggregation of tags around a given resource. 
+                 on  the  usefulness  of  information  for  various  purposes  and                   The system may allow for a multiplicity of tags for the same 
+                 applications, and in a reciprocal fashion, on how users appropriate                 resource which may result in duplicate tags from different 
+                 and utilize these systems. The design of the system may solicit                     users;  we  term  this  approach  the  bag-model  for  tag  entry 
+                 tagging  useful  for  discovery,  retrieval,  remembrance,  social                  (e.g., Del.icio.us). Alternatively, many systems ask the group 
+                 interaction, or possibly, all of the above.                                         to collectively tag an individual resource, thus denying any 
+                                                                                                     repetition; this interface we call a set-model approach for tag 
+                 4.1  System Design and Attributes                                                   input (e.g., YouTube, Flickr). In the case that a bag-model is 
+                 We describe some key dimensions of tagging systems’ design that                     being used, the system is afforded the ability to use aggregate 
+                 may have immediate and considerable effect on the content and                       statistics  for  a  given  resource  to  present  users  with  the 
+                 usefulness of tags generated by the system. For each dimension in                   collective  opinions  of  the  taggers;  for  instance,  the  tags 
+                 our taxonomy, we note the ways in which the location of a system                    around a popular link on Del.icio.us can be shown to the user 
+                 on this dimension may impact the behavior of the system. Some                       to help characterize the breadth of opinions of the taggers. 
+                 of these dimensions listed below interact; a decision along one of                  Furthermore, these data can be used to more accurately find 
+                 them may determine, or at least be correlated with, the system’s                    relationships  between  users,  tags,  and  resources  given  the 
+                 placement in another.                                                               added information of tag frequencies. 
+                 •    Tagging Rights. Possibly the most important characterization              •    Type  of  object.  The  type  of  resource  being  tagged  is  an 
+                      of  a  tagging  system  design  is  the  system’s  restriction  on             important  consideration.  Sample  objects  types  that  are 
+                      group tagging. A tagging system  can be restricted to self-                    prominent in today’s systems include, but are far from being 
+                      tagging,  where  users  only  tag  the  resources  they  created               restricted   to,  web  pages  (e.g.,  Del.icio.us,  Yahoo! 
+                      (e.g.,  Technorati)  or  allow  free-for-all  tagging,  where  any             MyWeb2.0), bibliographic  material  (e.g.,  CiteULike),  blog 
+                      user can tag any resource (e.g., Yahoo! Podcasts). This is not                 posts  (e.g.,  Technorati,  LiveJournal),  images  (e.g.,  Flickr, 
+                      the apparent dichotomy that it seems, as systems can allow                     ESP Game), users (e.g., LiveJournal), video (YouTube) and 
+                      varying  levels  of  compromise.  For  instance,  systems  can                 audio objects such as songs (e.g., Last.fm) or podcasts (e.g., 
+                      choose the resources users are to tag (such as images in the                   Yahoo! Podcasts, Odeo).  In reality, any object that can be 
+                      ESP Game) or specify different levels of permissions to tag                    virtually  represented  can  be  tagged  or  used  in  a  tagging 
+                      (as  with  the  friends,  family,  and  contact  distinctions  in              system. For example, systems exist that let users tag physical 
+                      Flickr).  Likewise, systems can determine who may remove a                     locations  or  events  (e.g.,  Upcoming).  The  implications  for 
+                      tag,  whether no one (e.g., Yahoo! Podcasts), anyone (e.g.,                    the  nature  of  the  resultant  tags  are  numerous;  a  trivial 
+                      Odeo), the tag creator (e.g., Last.fm) or the resource owner                   example is that we suspect tags given to textual resources 
+                      (e.g., Flickr). The implication for the nature of the tags that                may  differ  from  tags  for  resources/objects  with  no  such 
+                      emerge is that free-for-all systems are obviously broad, both                  textual representation, like images or audio, although this has 
+                      in the magnitude of the group of tags assigned to a resource,                  not yet been empirically tested. 
+                      and in the nature of the tags assigned. For instance, tags that           •    Source of material. Resources to be tagged can be supplied 
+                      are assigned to a photo may be radically divergent depending                   by  the  participants  (e.g.,  YouTube,  Flickr,  Technorati, 
+                      on whether the tagging is performed by the photographers,                      Upcoming), by the system (e.g., ESP Game, Last.fm, Yahoo! 
+                      their friends, or strangers looking at their photos.                           Podcasts), or, alternatively, a system can be open for tagging 
+                 •    Tagging Support. The mechanism of tag entry can have great                     of any web resource (e.g., Del.icio.us, Yahoo! MyWeb2.0). 
+                      impact on tagging system behavior. Observed systems fall                       Some systems restrict the source through architecture (e.g., 
+                      into three distinct categories: blind tagging, where a tagging                 Flickr), while others restrict the source solely through social 
+                      user cannot view tags assigned to the same resource by other                   norms (e.g., CiteULike).  
+                      users  while  tagging  (e.g.,  Del.icio.us);  viewable  tagging,          •    Resource connectivity. Resources in the system can be linked 
+                      where the user  can see the tags  already  associated  with  a                 to each other independent of the user tags. Connectivity can 
+                      resource  (e.g.,  Yahoo!  Podcasts);  and  suggestive  tagging,                be  roughly  categorized  as  linked,  grouped,  or  none.  For 
+                      where  the  system  suggests  possible  tags  to  the  user  (e.g., 
+                     example, web pages are connected by directed links; Flickr            by the norms of their friends and how they think that a particular 
+                     photos can be assigned to groups; and events in Upcoming              system fits into their use.  
+                     have  connections  based  on  the  time,  city  and  venue            Tagging can be a public and sociable activity, but not all tags 
+                     associated with the event. Implications for resultant tags and        emerge with an  intended audience. Many users begin  with  the 
+                     usefulness  may  include  convergence  on  similar  tags  for         conception that they are  tagging for themselves; some begin to 
+                     connected  resources,  especially  in  suggested  and  viewable       appreciate the sociable aspects over  time, while others have no 
+                     tagging support scenarios.                                            interest in that component. Since user incentives are influenced by 
+                •    Social  connectivity.  Some  systems  allow  users  within  the       the design of a given system, the motivations underlying tagging 
+                     system to be linked together. Like resource connectivity, the         vary both by people and by systems. 
+                     social connectivity could be defined as linked, grouped, or           Evaluating  these  practices  requires  an  understanding  of  why 
+                     none. Many other dimensions are present in social networks,           people  contribute  and  the  resulting  effects  on  output  and 
+                     for  example,  whether  links  are  typed  (like  in  Flickr’s        performance  of  the  tagging  system.  In  this  section  we  will 
+                     contacts/friends model) and whether links are directed, where         articulate the various incentives that can be outwardly observed in 
+                     a connection between users is not necessarily symmetric (in           current social tagging systems and show how they can influence 
+                     Flickr,  for  example,  none  of  the  link  types  is  symmetric).   the use and utility of tags.  
+                     Implications  of  social  connectivity  include,  possibly,  the 
+                     adoption of localized folksonomies based on social structure          The  motivations  to  tag  can  be  categorized  into  two  high-level 
+                     in the system.                                                        practices: organizational and social. The first arises from the use 
+                                                                                           of tagging as an alternative to structured filing; users motivated by 
+                  Table 1. Dimensions in the tagging system design taxonomy                this  task  may  attempt  to  develop  a  personal  standard  and  use 
+                                     and possible implications                             common  tags  created  by  others.  The  latter  expresses  the 
+                      Dimension      Main categories      Summary of Potential             communicative  nature  of  tagging,  wherein  users  attempt  to 
+                                                              implications                 express themselves, their opinions, and specific qualities of  the 
+                     Tagging         Self-tagging,       Nature and type of                resources through the tags they choose. 
+                     Rights          permission-         resultant tags; role of           Both  of  these  practices  differ  based  on  intended  audience  and 
+                                     based, Free-for-    tags in system                    future  expectation  of  use.  The  following  list  of  incentives 
+                                     all                                                   expresses the range of potential motivations that influence tagging 
+                     Tagging         Blind,              Convergence on                    behavior. They are not intended to be mutually exclusive; instead 
+                     Support         suggested,          folksonomy or                     we expect that most users are motivated by a number of them 
+                                     viewable            overweighting of tags             simultaneously. 
+                     Aggregation     Bag, set            Availability of                   •  Future retrieval: to mark items for personal retrieval of either 
+                     model                               aggregate statistics                 the individual resource or the resultant collection of clustered 
+                                                                                              resources (examples: tagging a group of papers on Del.icio.us 
+                     Object type     Textual, non-       Nature and type of                   in preparation for writing a book, tagging songs on Last.FM to 
+                                     textual             resultant tags                       create  an  adhoc  playlist,  tagging  Flickr  photos  `home’  to  be 
+                     Source of       User-               Different incentives,                able to find all photos taken at home later). These tags may also 
+                     material        contributed,        nature and type of                   be used to incite an activity or act as reminders to oneself or 
+                                     system, global      resultant tags                       others  (e.g.,  the  “to  read”  tag).  These  descriptive  tags  are 
+                                                                                              exceptionally helpful in providing metadata about objects that 
+                     Resource        Links, groups,      Convergence on                       have no other tags associated.  
+                     connectivity    none                similar tags for                  •  Contribution and sharing: to add to conceptual clusters for the 
+                                                         linked resources                     value of either known or unknown audiences. (Examples: tag 
+                     Social          Links, groups,      Convergence on                       vacation websites for a partner, contribute concert photos and 
+                     connectivity    none                localized folksonomy                 identifying tags to Flickr for anyone who attended the show). 
+                The design options taxonomy for tagging systems is summarized              •  Attract Attention: to get people to look at one’s own resource 
+                in Table 1, including a brief summary of the potential impact of              because  they  are  common  tags.  When  “tag  clouds”  or  other 
+                the design choices on the resultant tags and the type of benefits             such  lists  that  reflect  popularity  of  tags  are  visible  in  the 
+                that can be derived from the system.                                          system, users may be incentivized to contribute tags that might 
+                                                                                              affect that global view (and even to create spam tags.). 
+                4.2  User Incentives                                                       •  Play and Competition: to produce tags based on an internal or 
+                Incentives and motivations for users also play a significant role in          external set of rules. In some cases, the system devises the rules 
+                affecting the tags that emerge from social tagging systems. Users             such as the ESP Game’s incentive to tag what others might also 
+                are motivated both by personal needs and sociable interests. The              tag. In others, groups develop their own rules to engage in the 
+                motivations of some users stem from a prescribed purpose, while               system such as when groups seek out all items with a particular 
+                other users consciously repurpose available systems to meet their             feature and tag their existence. Some users take advantage of 
+                own  needs  or  desires,  and  still  others  seek  to  contribute  to  a     what is available and try to alter the system in the way they see 
+                collective process. A large part of the motivations and influences            fit.  Knowing  that  tags  appeared  in  a  tag  cloud  based  on  the 
+                of tagging system users is determined by the system design and                frequency of a given tag for a podcast, Odeo users attempted to 
+                the  method  by  which  they  are  exposed  to  inherent  tagging             construct sentences by adding and removing tags to change the 
+                practices.  While  tagging  has  the  potential  to  be  valuable  for        order of the tags in the interface. 
+                numerous applications, users can be unaware of or uninterested in 
+                the broader design motivations; they might instead be persuaded 
+                •  Self Presentation: to write a user’s own identity into the system       finally, the interface mostly affords for blind-tagging instead of 
+                   as  a  way of  leaving their mark on a particular  resource. (for       suggested-tagging. 
+                   example, the “seen live” tag in Last.FM marks an individual’s           These design decisions shape the incentive structures that drive 
+                   identity or personal relation to the resource.)                         people to tag resources. Since Del.icio.us is largely task-focused, 
+                •  Opinion Expression: to convey value judgments that they wish            namely  storing  bookmarks  for  future  retrieval,  organizational 
+                   to share with others (for example, the “elitist” tag in Yahoo!’s        motivations  are  most  dominant.  While  the  social  element  of 
+                   Podcast system is utilized by some users to convey an opinion.)         tagging  is  evident  from  the  leveraging  of  the  community 
+                This range of motivations in turn affects the types of tags that are       contribution, a lack of communication systems (e.g. messaging or 
+                produced  for  a  given  resource.  Golder  and  Huberman  have            explicit social networks) deemphasizes non-organizational social 
+                outlined  7  individual  types  of  tags  observed  in  their  study  of   incentives.  
+                Del.icio.us [9]. The first five types they mention roughly identify        Flickr users, on the other hand, are also likely to tag for their own 
+                properties of the objects, such as the source, attributes, category        retrieval,  but  coupled  with  an  abundance  of  communication 
+                membership or qualitative properties; these tags could arise from          mechanisms,  the  system  design  encourages  gaming  and 
+                organizational motivations, social ones, or both depending on the          exploration of tag use.  Users are primarily motivated by social 
+                perceived  audience.  The  sixth  tag  type,  self-reference  (e.g.,       incentives, including the opportunities to share and play. 
+                mystuff or mywork), reflects a probable intent to communicate this         In the following analysis we present a preliminary analysis of tag 
+                ownership to an outside audience, or alternatively to be used for          usage within Flickr. We have had the opportunity to work directly 
+                personal  organization.  The  final  type,  task-organization  (e.g.       with  a  subset  of  the  database  used  by  Flickr,  specifically 
+                toread or jobsearch) suggests an intent for personal organization.         information  about  photos,  tags,  and  the  explicit  social 
+                The  architecture  of  a  social  tagging  system  reflected  by  the      relationships between users (i.e., the “contact” network). Because 
+                taxonomy provided in Section 4.1 does not explicitly affect the            our focus is on the usage of tags, we have selected only those 
+                type of tag that users produce; instead, the design may influence          users who have utilized this feature (i.e., used at least one tag to 
+                the incentives that drive individuals to use the system. The types         describe a photo) and only those photos that have had at least one 
+                of tags observed can be seen as a resulting artifact of the different      tag  applied. Of  the millions of Flickr users, we have randomly 
+                forms of motivation expressed through the resulting interaction.           selected a set of 25,000 for our analysis of individual behaviors; 
+                                                                                           for  the  more  complicated  case  of  network  analysis,  we  have 
+                5.  Case Study: Flickr                                                     chosen a further subset of 2,500.  
+                Due to  their  popularity,  social  tagging  systems  have  grown  to      This study is only a preliminary look at the dynamics of the Flickr 
+                cover a wide range of resources and communities, spanning the              system and is meant to expose interesting trends and topics in the 
+                entire  range  of  incentives  described  in  the  previous  section.      Flickr  data.  These  topics  illustrate  various  aspects  of  tagging 
+                Instead of simply classifying a long list of potentially ephemeral         systems and their incentive structure, but we do not attempt to 
+                tools, we will give a complementary example to those provided in           prove or assert any general conclusions about all tagging systems. 
+                previous  work.  The  system  we  have  chosen  to  investigate  is 
+                Flickr, a popular photo-sharing site that considers tags as a core         5.1  Tag Usage 
+                element  to  the  sharing,  retrieval,  navigation,  and  discovery  of    Tags are not mandatory in the Flickr usage model. Within a social 
+                user-contributed  images.  Flickr  allows  users  to  upload  their        tagging system, tags are typically an optional feature in a larger 
+                personal photos to be stored online, but unlike other online photo         resource organization task. Like Del.icio.us, the Flickr interface 
+                tools,  Flickr  makes  these  photos  publicly  viewable  and  easily      prompts users for metadata about each resource identified: a title, 
+                discoverable  by  default.  This  design  decision,  along  with  the      a caption, and a list of tags. In the case of both systems, the tag 
+                emphasis on tagging, has allowed the site to expand quite rapidly          input  comes  third  in  the  input  interface,  but  also  differentiates 
+                over its short lifespan.                                                   them from other resource management tools.  
+                This  growth  has  in  part  been  due  to  the  wide  array  of  social   In addition to tagging one’s own photos, the Flickr system also 
+                interactions Flickr supports: in addition to uploading photos, users       allows users to tag their friends’ photos. However, this feature is 
+                can also create networks of friends, join groups, send messages to         not largely used; of the 58 million tags we have observed, only a 
+                other users, comment on photos, tag photos, choose their favorite          small subset are of this type; an overwhelming majority of tags 
+                photos, and so on. This abundance of communication tools and               are applied by the owners of photos. 
+                forms of social organization creates a highly interconnected media 
+                ecology that can lead users to distant people and places with only         Tag usage patterns vary quite drastically among Flickr users, and 
+                a  few  clicks.  Tags  are  an  important  part  of  this  environment,    as  expected, so does the adoption of tagging behavior. Figure 2 
+                where tags act as a primary navigational tool for finding similar          shows  the  cumulative  distribution  function  (CDF)  for  tag 
+                resources and people.                                                      vocabulary size across the set of users. The value at a given value 
+                                                                                           is the probability (Y-axis) that a random user has a set of distinct 
+                As  previously  noted,  the  most  extensive  analysis  of  a  tagging     tags (X-axis) that is larger than that collection size. For example, 
+                system  has  been  completed  on  data  collected  from  the  social       the probability that a Flickr user has more than 750 distinct tags is 
+                bookmarking  site  Del.icio.us  [9].  We  have  chosen  Flickr  to         roughly 0.1%. This distribution illustrates the fact that most users 
+                provide an alternate interpretation to the conclusions derived from        have very few distinct tags while  a  small  group  has  extremely 
+                this study. In nearly every category within our system taxonomy,           large sets of tags. 
+                Flickr occupies an alternative space from Del.icio.us: it contains 
+                user-contributed  resources  as  opposed  to  global;  tagging  rights     The relationship between tag usage and other types of input can 
+                are  restricted  to  self-tagging  (and  at  best  permission-based,       be a good indicator of how useful or important users believe tags 
+                although in practice self-tagging in most prevalent) instead of a          are  to  the  experience  of  using  the  system.  Within  Del.icio.us, 
+                free-for-all;  tags  are  aggregated  in  sets  instead  of  bags;  and    Golder  and  Huberman  found  that  there  was  not  a  strong 
+                                                                                           association  between  the  number  of  bookmarks  made  and  the 
+                number of tags used to annotate those bookmarks [9]. We studied             frequent taggers (greater than 100 tags). Each point on this graph 
+                three  activities  within  the  Flickr  environment:  the  number  of       shows the number of distinct tags (Y-axis) for a given user after 
+                uploaded  photos,  the  count  of  the  user’s  distinct  tags,  and  the   the given photo number (X-axis). It is apparent from this plot that 
+                number of contacts designated by the user. For example, a certain           a number of different behaviors emerge from this social tagging 
+                user can have 100 photos with a total of 200 distinct tags across           system. In some cases (such as user A in Figure 3), new tags are 
+                these photos, and be connected to 50 different contacts.                    added consistently as photos are uploaded, suggesting a supply of 
+                                                                                            fresh vocabulary and constant incentive for using tags. Sometimes 
+                                                                                            only a few tags are used initially with a sudden growth spurt later 
+                                                                                            on, suggesting that the user either discovered tags or found new 
+                                                                                            incentives for using them, as with user B. For many users, such as 
+                                                                                            those  with  few  distinct  tags  in  the  graph,  distinct  tag  growth 
+                                                                                            declines  over  time,  indicating  either  agreement  on  the  tag 
+                                                                                            vocabulary,  or  diminishing  returns  on  their  usage.  Despite  the 
+                                                                                            heavy usage of tags for each of the individuals whose tags are 
+                                                                                            depicted  in  the  figure,  a  number  of  classes  of  behavior  have 
+                                                                                            arisen, implying that the interaction between user, tag, and utility 
+                                                                                            is a varied one. 
+                                                                                   
+                      Figure 2. Distribution of distinct tag collections, represented as the 
+                                          probability that a r 
+                Table  2  shows  the  pair-wise  Pearson  correlation  [19]  between 
+                photo collection size, distinct tags and number of contacts across 
+                the set of users. We computed this correlation for a set of 25,000 
+                users  randomly  selected  from  our  dataset.  For  example,  the 
+                correlation between tags and photos is 0.518, suggesting a strong 
+                linear  relationship  between  these  variables,  i.e.  an  increase  in 
+                photo collection size implies an increase in the number of distinct 
+                tags. The strongest relationship between these three items (photos, 
+                distinct  tags,  and  contacts)  comes  between  photos  and  distinct                                                                             
+                tags, a likely relationship due to the fact that tagging ones’ own               Figure 3.  Number of distinct tags at given points  in 10 
+                photos  is  the  dominant  form  of  tags.  The  association  between                            random users’ collections 
+                contacts and photos is much weaker than the one between contacts 
+                and distinct tags, which might suggest that tagging is related to           Whereas Golder highlighted one form of tag vocabulary growth, 
+                social activity to some degree.                                             namely  growing  at  a  diminishing  rate  over  time,  the  graph 
+                                                                                            illustrates  two  additional use classes  each with  several possible 
+                                 Table 2. Flickr usage correlation                          explanations. Is the case of linear growth related to the type of 
+                                    Tags            Photos            Contacts              media being tagged, namely photos that are taken of constantly 
+                                                                                            evolving subject matter? Or does it evolve from a motivation to 
+                      Tags            1               .518               .386               continually attract new individuals to the users’ photos? Likewise, 
+                     Photos          .518              1                 .192               the  case  of  gradual  increase  could  reflect  a  change  in  personal 
+                                                                                            motivations  (e.g.,  a  need  to  start  organizing  photos  once  the 
+                    Contacts         .386             .192                1                 collection  grows  above  a  certain  size),  or  a  social  one  (e.g.,  a 
+                   * N = 25,000                                                             sudden realization  that  tags  can  bring  new  people  to  see  one’s 
+                   ** p < 0.001 for all values.                                             photos).  These  questions  could  be  answered  by  looking  at  the 
+                In addition to social implications, another feature of tags worth           relationship  between  the  growth  of  users’  tag  collections  and 
+                investigating is an individual’s use of tags over time. How does            various  forms  of  participation,  such  as  the  popularity  of  their  
+                the frequency of tags change as a user becomes acclimated to the            photos or their use of the social network system.  
+                system? Do her tags become a cohesive taxonomy over time, or 
+                do they continue to grow as her experiences change? In studying             5.2  Vocabulary Formation 
+                Del.icio.us,  Golder  and  Huberman  show  examples  as  to  how            All of the tagging systems we have mentioned in this paper are 
+                certain users’ sets of distinct tags continue to grow linearly as new       arguably social in nature; in some cases the social aspect comes 
+                resources are added. At the same time, they claim that the tags for         from leveraging the community’s collective intelligence, and in 
+                a  given  resource  tend  to  stabilize  after  only  a  few  users  have   others there is explicit social interaction around the use of tags. 
+                tagged it [9]. Since Flickr uses a set-model for representing tags,         Because  Flickr  allows  users  to  enumerate  social  networks  and 
+                we cannot reexamine the latter observation, but we can look at the          develop  communities  of  interest,  there  is  a  huge  potential  for 
+                growth of a user’s tags over time.                                          social influence in the development of tag vocabularies. 
+                Figure  3  shows  the  growth  of  distinct  tags  for  10  randomly        One feature of the contact network is a user’s ability to easily 
+                selected users over the course of uploaded photos. The users were           follow the photos being uploaded by their friends. This provides a 
+                selected as both frequent uploaders (greater than 100 photos) and           continuous awareness of the photographic activity of their Flickr 
+                                                                                            contacts,  and  by  transitivity,  a  constant  exposure  to  tagging 
+                practices.  Do  these  relationships  affect  the  formation  of  tag       we  attempt  to  compute  structural  isomorphism  and  the 
+                vocabularies,  or  are  individuals  guided  by  other  stimuli?  To        interactions between social structures and tagging structures (for 
+                expand on this question, we have randomly chosen 2500 users                 example, hubs, bridges, and diffusion) may prove exceptionally 
+                with a considerable number of tags (greater than 100) and paired            useful  in  explaining  the  formation,  efficacy,  and  dynamics  of 
+                them with two other individuals: one randomly chosen from the               social tagging systems.  
+                rest of the set, and the other from their list of contacts. From these      These  questions  call  for  a  much  deeper  investigation  of  this 
+                pairings  we  have  calculated  the  overlap  in  their  tag  sets;  the    phenomenon, a study that could answer many questions about the 
+                overlap is computed as A∩B/A∪B, where A and B are the                   relationship between people, communication, and the emergence 
+                sets of tags from our two users.                                            of common lects in social tagging systems. 
+                The results of this inquiry are depcited in Figure 4. This graph            6.  CONCLUSIONS 
+                shows two frequency distributions for the overlaps between sets 
+                of users: the overlap between the given user and another randomly           Social  tagging  systems  have  the  potential  to  improve  on 
+                chosen  one,  shown  with  a  dashed  blue  line,  and  the  overlap        traditional  solutions  to  many  well-studied  web  and  information 
+                between the same user and one of their contacts, shown with a               systems problems. Such problems include personalized or biased 
+                solid red line. The random users are much more likely to have a             link  analysis,  organizing information, identifying synonyms and 
+                smaller  overlap  in  common  tags,  while  contacts  are  more             homonyms,  building  networks  of  trust  to  combat  link  spam, 
+                distributed, and have a higher overall mean.                                monitoring trends and drift in information systems and more. The 
+                                                                                            prospects of reasoning about tags, users, and resources in unity are 
+                                                                                            encouraging. 
+                                                                                            In  order  to  study  these  systems, researchers  should observe the 
+                                                                                            system’s place within the taxonomy of architectures described in 
+                                                                                            Section 3.1. Studies  should also consider  the incentives driving 
+                                                                                            participation,  and  the  extent  to  which  the  system  supports  or 
+                                                                                            restrains these motivations. In studying Flickr, we showed that the 
+                                                                                            dynamics of interaction and participation are different than those 
+                                                                                            of  Del.icio.us.  Indeed,  Flickr  and  Del.icio.us  are  rather  distinct 
+                                                                                            when  positioning  them  in  the  dimensions  of  our  taxonomy. 
+                                                                                            Del.icio.us is a free-for-all, suggestive, bag-model (to mention just 
+                                                                                            three  key  dimensions)  system.  Del.icio.us  is  therefore  likely  to 
+                                                                                            generate a different use model and output than Flickr, a (mostly) 
+                                                                                            self-tagging, viewable, set-model system. Moreover, the incentive 
+                                                                                            models of Flickr and Del.icio.us are also substantially disparate, 
+                                                                                            suggesting even more expected differences in the systems’ output. 
+                  Figure 4. Vocabulary overlap distribution for random users                We  hope  that  system  designers  will  consider  these  design 
+                                       and contacts (n=2500)                                decisions in architecting their tagging systems. By laying out the 
+                This result, while still preliminary, shows a relationship between          implications of the choices in each dimension of our hierarchy, we 
+                social  affiliation  and  tag  vocabulary  formation  and  use  even        hope to assist planners as well as researchers and academics.  
+                though the photos may be of completely different subject matter.            Finally, by no means do we contend that the design taxonomy and 
+                This commonality could arise from similar descriptive tags (e.g.,           incentive  taxonomy  we  describe  are  complete.  New  uses  for 
+                bright, contrast, black and white, or other photo features), similar        tagging  systems  are  invented  every  day;  users  of  such  systems 
+                content (photos taken on the same vacation), or similar subjects            appropriate them with an ever-changing set of goals, motives, and 
+                (co-occurring  friends  and  family),  each  suggesting  different          aspirations. We hope that our taxonomy can serve as a foundation 
+                modes of diffusion.                                                         for researchers and enable a more complete understanding of the 
+                Other  likely  explanations  for  the  observed  correlation  between       constraints and affordances of tag-based information systems.  
+                social  connection  and  common tag usage may be found in the 
+                descriptive  categories  of  sociolinguistics  which  studies  how          7.  ACKNOWLEDGMENTS 
+                different geographic and social formations structure the coherence          The authors would like to thank the members of the Flickr team, 
+                and  diffusion  of  semantic  and  syntactic  structures  in  various       and the users of Flickr for providing us with fascinating data to 
+                ”lects”  within  a  larger  sociolinguistic  system.  Some  of  these       study. 
+                example lects  include:  dialect  (a  lect  used  by  a  geographically 
+                defined community); sociolect (a lect used by a socially defined            8.  REFERENCES 
+                community);  ethnolect  (a  lect  spoken  by  a  particular  ethnic         [1]  Baeza-Yates, R. and Ribeiro-Neto, B.. Modern Information 
+                group); ecolect (a lect spoken within a household or family); and                 Retrieval. Addison-Wesley, 1999. 
+                idiolect (a lect particular to a certain person). If we conceptualize 
+                social   tagging  systems  within  the  theoretical  frame  of              [2]  Brieger, R.L., 1991. Explorations in Structural Analysis: 
+                sociolinguistics, these and other “lects” seem especially applicable              Dual and Multiple Networks of Social Structure. New York: 
+                to  understanding  and  classifying  the  apparent  isomorphism                   Garland Press. 
+                between  social  and  linguistic  structures  we  observed  in  Flickr.     [3]  Breese, J.S., Heckermen, D. and Kadie, C.M. Empirical 
+                The structures, changes, and diffusion within and amongst various                 analysis of predictive algorithms for collaborative filtering. 
+                “lects” in social tagging systems will likely have similar patterns               Microsoft Research Technical Report, (MSR-TR-98-12), 
+                to those found in social network analyses and in sociolinguistic                  October 1998. 
+                language maps.  Considering these sociolinguistic categories as 
+                [4]  Burt, R. 1992. Structural Holes: The Social Structure of             [16] Mathes, A. Folksonomies – Cooperative Classification and 
+                     Competition. Cambridge, MA: Harvard University Press.                     Communication Through Shared Metadata. UIC Technical 
+                [5]  Chakrabarti, S., Dom, B., Raghavan, P., Rajagopalan, S.,                  Report, 2004. 
+                     Gibson, D., and Kleinberg, J. 1998. Automatic resource               [17] Merholz, P. Clay Shirky's Viewpoints are Overrated. 
+                     compilation by analyzing hyperlink structure and associated               http://www.peterme.com/archives/000558.html 
+                     text. In Proceedings of the Seventh international Conference         [18] Page, L., Brin, S., Motwani,R. and Winograd, T.. The 
+                     on World Wide Web 7 (Brisbane, Australia).                                PageRank citation ranking: Bringing order to the web. 
+                [6]  Coates, T. Two cultures of fauxonomies collide. June 4 2005.              Technical report, Stanford University, 1998. 
+                     http://www.plasticbag.org/archives/2005/06/two_cultures_of           [19] Rice, J.A., Mathematical statistics and data analysis. 
+                     _fauxonomies_collide.shtml                                                Belmont, CA: Duxbury Press (1995) 
+                [7]  Freeman, L. C. 1979. Centrality in Social Networks:                  [20] Shirky, C. Ontology is Overrated: Categories, Links, and 
+                     Conceptual Clarification. Social Networks. 1, 215-239                     Tags. http://shirky.com/writings/ontology_overrated.html  
+                [8]  Furnas, G. W., Landauer, T. K., Gomez, L. M., and Dumais,            [21] Udell, Jon. Collaborative filtering with Del.icio.us. June 23, 
+                     S. T. The vocabulary problem in human-system                              2005. http://weblog.infoworld.com/udell/2005/06/23.html 
+                     communication. Commun. ACM 30, 11 (1987). 
+                [9]  Golder, S., and Huberman, B. A. The Structure of                     [22] Vander Wal, T. Folksonomy Definition and Wikipedia. 
+                     Collaborative Tagging Systems. HP Labs technical report,                  November 2, 2005. 
+                     2005. Available from                                                      http://www.vanderwal.net/random/entrysel.php?blog=1750 
+                     http://www.hpl.hp.com/research/idl/papers/tags/                      [23] von Ahn, L. and Dabbish, L. 2004. Labeling images with a 
+                [10] Gyongi, Z., Garcia-Molina, H., Pederson, J. Combating spam                computer game. CHI 2004 (Vienna, Apr. 2004). ACM Press, 
+                     with trustrank. n Proceedings of the 30th International                   319-326.  
+                     Conference on Very Large Databases (VLDB), 2004.                     [24] Walker, J. Feral hypertext: when hypertext literature escapes 
+                [11] Hammond, T., Hannay, T., Lund, B. and Scott, J. Social                    control. In Proceedings of the Sixteenth ACM Conference on 
+                     Bookmarking Tools – A General Overview. D-Lib Magazine                    Hypertext and Hypermedia (Salzburg, Austria, Sept. 2005). 
+                     11, 4 (April 2005)                                                        HYPERTEXT '05. ACM Press, New York, NY, 46-53. 
+                [12] Hammond, T., Hannay, T., Lund, B. and Scott, J. Social               [25] Wasserman, S. and Faust, K.. Social Network Analysis: 
+                     Bookmarking Tools – A Case Study. D-Lib Magazine 11, 4                    Methods and Applications. Cambridge: Cambridge 
+                     (April 2005)                                                              University Press, 1994. 
+                [13] Kleinberg, J. M. 1998. Authoritative sources in a hyperlinked        [26]  White, H.C., Boorman, S.A., and Breiger, R.L. 1976. Social 
+                     environment. In Proceedings of the Ninth Annual ACM-                      structure from multiple networks: Blockmodels of roles and 
+                     SIAM Symposium on Discrete Algorithms (San Francisco,                     positions. American Journal of Sociology. 81, 730-779 
+                     1998).  
+                [14] Lakoff, G. Women, Fire and Dangerous Things. University 
+                     of Chicago Press, Chicago, 2005. 
+                [15] Malz, D. and Ehrlich, K. Pointing the way: Active 
+                     collaborative filtering. In the Proceedings of CHI 1995. 
+                                                                                        

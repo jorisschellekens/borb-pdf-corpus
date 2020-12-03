@@ -1,0 +1,1000 @@
+       
+       Guidance for Industry 
+                           
+        Safety Labeling Changes —
+              Implementation of  
+              Section 505(o)(4) of  
+                 the FD&C Act  
+                           
+       
+       
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                U.S. Department of Health and Human Services 
+                   Food and Drug Administration 
+               Center for Drug Evaluation and Research (CDER) 
+              Center for Biologics Evaluation and Research (CBER) 
+                           
+                        July 2013 
+                       Drug Safety 
+                           
+                           
+                   OMB Control Number 0910-0734 
+                    Expiration Date:  03/31/2016 
+                (Expiration date will be updated periodically.) 
+             See additional PRA statement in section VII of this guidance. 
+       
+           
+          Guidance for Industry 
+                                        
+            Safety Labeling Changes — 
+                     Implementation of  
+                 Section 505(o)(4) of the 
+                            FD&C Act  
+                                        
+                                        
+                              Additional copies are available from: 
+                                Office of Communications 
+                          Division of Drug Information, WO51, Room 2201 
+                                10903 New Hampshire Ave. 
+                               Silver Spring, MD  20993-0002  
+                            Phone:  301-796-3400; Fax:  301-847-8714 
+                                 druginfo@fda.hhs.gov 
+                 http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/default.htm 
+                                     and/or 
+                              Office of Communication, Outreach and  
+                                 Development, HFM-40  
+                           Center for Biologics Evaluation and Research 
+                                Food and Drug Administration 
+                           1401 Rockville Pike, Rockville, MD  20852-1448 
+                                  ocod@fda.hhs.gov 
+             http://www.fda.gov/BiologicsBloodVaccines/GuidanceComplianceRegulatoryInformation/Guidances/default.htm  
+                                                  
+                              (Phone) 800-835-4709 or 301-827-1800
+                                        
+                                        
+                                        
+                                        
+                                        
+                        U.S. Department of Health and Human Services 
+                             Food and Drug Administration 
+                       Center for Drug Evaluation and Research (CDER) 
+                     Center for Biologics Evaluation and Research (CBER) 
+                                         
+                                    July 2013 
+                                   Drug Safety 
+            
+           
+                       
+                                                                        TABLE OF CONTENTS 
+                       
+                       
+                       
+                      I.        INTRODUCTION............................................................................................................. 1 
+                      II.       BACKGROUND............................................................................................................... 2 
+                         A.     Past Practice...................................................................................................................................2 
+                         B.     New FDAAA Authorities and Requirements..............................................................................                         3
+                      III.      IMPLEMENTATION OF SAFETY LABELING CHANGES UNDER FDAAA......3 
+                         A.   What is New Safety Information?..................................................................................................                     3
+                             1. What Does New Safety Information Mean?...................................................................................                     3
+                             2. How Does FDA Learn About New Safety Information?..................................................................                       4
+                             3. How Will FDA Evaluate the New Safety Information?....................................................................                   4
+                         B.     What Types of Safety Labeling Changes Could Be Required Under Section 505(o)(4)? ........5
+                      IV.       PROCEDURES................................................................................................................. 6 
+                         A.     How Will FDA Notify Application Holder(s) of Required Safety Labeling Changes?............ 6
+                         B.     How Should Application Holders Respond to a Notification Letter?.......................................                                7
+                         C.     How Will FDA Review the Required Labeling Supplement or Rebuttal Statement?.............  8
+                             1. Meaning of Promptly Review and Act.............................................................................................                   8
+                                a.    Labeling Supplements...........................................................................................................                  ....8
+                                b.    Rebuttal Statements..................................................................................................................9 
+                             2.  Additional Information on Review Procedures..............................................................................                 10
+                                a.    30-Day Discussion Periods and Extensions............................................................................                10
+                                b.    Failure to Respond to a Notification Letter............................................................................             10
+                                c.    Labeling Change Notifications for ANDAs with a Marketed NDA RLD..............................                                 11
+                             3.  Additional Information on Review Procedures for Safety Labeling Changes that Affect More than 
+                             One Application..................................................................................................................................11
+                                                                                                                                                                 
+                         D.     How Will FDA Issue an Order for Labeling Changes?............................................................                        12
+                         E.     When Should New Labeling Be Available?...............................................................................                      13
+                         F.     Will Safety Labeling Changes Letters Be Disclosed?...............................................................                        13
+                      V.        DISPUTE RESOLUTION............................................................................................. 13 
+                      VI.       ENFORCING REQUIREMENTS FOR SAFETY LABELING CHANGES...........14 
+                      VII.     PAPERWORK REDUCTION ACT OF 1995.............................................................. 15  
+                      APPENDIX A:  EXAMPLES OF SOURCES OF NEW SAFETY INFORMATION.........16 
+                      GLOSSARY................................................................................................................................. 17 
+                       
+                                          Contains Nonbinding Recommendations* 
+                                               Guidance for Industry1 
+                                                                 
+                Safety Labeling Changes — Implemen tation of Section 505(o)(4) of 
+                                  the Federal Food, Drug, and Cosmetic Act  
+                                                                 
+                
+               This guidance represents the Food and Drug Administration’s (FDA’s) current thinking on this topic.  It 
+               does not create or confer any rights for or on any person and does not operate to bind FDA or the 
+               public.**  You can use an alternative approach if the approach satisfies the requirements of the applicable 
+               statutes and regulations. If you want to discuss an alternative approach, contact the FDA staff responsible 
+               for implementing this guidance.  If you cannot identify the appropriate FDA staff, call the appropriate 
+               number listed on the title page of this guidance.  
+                
+               ** Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 
+               CFR 314.70 and 601.12, it does have binding effect.  If you have any questions about the effect of any 
+               portion of this guidance, contact Kristen Everett, Center for Drug Evaluation and Research, Food and 
+               Drug Administration, 10903 New Hampshire Ave., Building 22, room 6484, Silver Spring, MD 20993. 
+                
+               I. INTRODUCTION  
+                
+               This guidance provides information on the implementation of section 505(o)(4) of the Federal 
+               Food, Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 355(o)(4)), which was added by section 
+               901 of the Food and Drug Administration Amendments Act of 2007 (FDAAA).  Section 
+               505(o)(4) authorizes FDA to require certain drug and biological product application holders to 
+               make safety-related labeling changes based on new safety information that becomes available 
+               after approval of the drug or biological product.     
+                
+               Section 505(o)(4) of the Act authorizes FDA to require safety labeling changes for the following 
+               products: 
+                      Prescription drug products with an approved new drug application (NDA) under section 
+                       505(b) of the Act  
+                      Biological products with an approved biologics license application (BLA) under section 
+                       351 of the Public Health Service Act (the PHS Act) (42 U.S.C. 262) 
+                      Prescription drug products with an approved abbreviated new drug application (ANDA) 
+                       under section 505(j) of the Act, if the NDA reference listed drug (RLD) is not currently 
+                       marketed   
+                    
+               The safety labeling changes provisions in section 505(o)(4) apply to the above-listed products, 
+               including products that are not marketed, unless approval of the NDA, BLA, or ANDA has been 
+               withdrawn in the Federal Register.   
+                                                                
+               1
+                 This guidance has been prepared by the FDAAA Title IX Working Group in the Center for Drug Evaluation and 
+               Research (CDER) and the Center for Biologics Evaluation and Research (CBER) at the Food and Drug 
+               Administration.  
+                
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               1 
+                                          Contains Nonbinding Recommendations* 
+                
+               Section 505(o)(4) does not apply to nonprescription (over-the-counter) drugs approved under an 
+               NDA or ANDA or to marketed unapproved drugs.2  
+                
+               This guidance does not address labeling supplements submitted voluntarily by an application 
+               holder.  Application holders may submit labeling supplements for review at any time and without 
+               prior notification to FDA. 
+                
+               FDA’s guidance documents, in general, do not establish legally enforceable responsibilities.  
+               Instead, guidances describe the Agency’s current thinking on a topic and should be viewed only 
+               as recommendations, unless specific regulatory or statutory requirements are cited.  The use of 
+               the word should in Agency guidances means that something is suggested or recommended, but 
+               not required. Insofar as this guidance adjusts reporting categories pursuant to section 506A of the 
+               FD&C Act and 21 CFR 314.70 and 601.12, it does have binding effect.  If you have any 
+               questions about the effect of any portion of this guidance, contact Kristen Everett, Center for 
+               Drug Evaluation and Research, Food and Drug Administration, 10903 New Hampshire Ave., 
+               Building 22, room 6484, Silver Spring, MD 20993. 
+                
+               II. BACKGROUND 
+                
+               Before the enactment of FDAAA, FDA had the ability to request safety-related changes to 
+               the labeling of approved drug products.  Upon the enactment of FDAAA, FDA received 
+               express authority to require safety labeling changes in certain circumstances as described 
+               in this guidance.  
+                
+               A. Past Practice 
+                
+               In the past, FDA requested that holders of applications for approved products make labeling 
+               changes related to safety to address serious risks.  FDA typically learned of the potential for such 
+               serious risks from a variety of sources, including FDA’s adverse events reporting systems (see 
+               list of sources in Appendix A).  In most cases, application holders responded to these requests for 
+               labeling changes by negotiating appropriate language with FDA staff to address the concerns and 
+               then submitting a supplement or amended supplement to obtain approval of the changes.  
+               Negotiations were often protracted, and FDA had few tools at its disposal to end negotiations and 
+               require the changes.   
+                
+               Before FDAAA, if the application holder did not respond to FDA’s request or did not agree with 
+               the requested labeling changes, FDA could take the following actions: 
+                
+                                                                
+               2
+                 Section 505(o)(4) of the FD&C Act does not apply to unapproved drugs, which do not, by definition, have 
+               approved labeling.  However, FDA may prioritize action against unapproved drugs for which safety issues have 
+               been identified.  When FDA becomes aware of the need for safety labeling changes that could affect unapproved 
+               drugs, the responsible review division in the Office of New Drugs (OND) will contact the Unapproved Drugs 
+               Coordinator in the Immediate Office, OND, and the Office of Unappr oved Drugs and Labeling Compliance 
+               (OUDLC) to initiate appropriate actions. 
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               2 
+                                          Contains Nonbinding Recommendations* 
+                  FDA could initiate proceedings to withdraw approval of the drug3 — an action not normally 
+                   desirable if some patients were benefitting from the drug despite its risks. 
+                  FDA could notify the public about the safety information through mechanisms such as Public 
+                   Health Advisories or notifications on the FDA web site describing the safety information and 
+                   the need for labeling changes.   
+                  If in FDA’s judgment the absence of the new safety information from the drug’s label 
+                   rendered the product misbranded, FDA could take appropriate enforcement action. 
+               Congress recognized the limitations of FDA’s authority in this area and, in FDAAA, gave FDA 
+               new authorities to require safety labeling changes in certain circumstances. 
+                
+               B.      New FDAAA Authorities and Requirements 
+                    
+               On September 27, 2007, the President signed FDAAA (Public Law 110-85).  Section 901 of 
+               Title IX of FDAAA amended the FD&C Act by adding new section 505(o).  Section 505(o)(4) 
+               authorizes FDA to require and, if necessary, order labeling changes if FDA becomes aware of 
+               new safety information that FDA believes should be included in the labeling of the drug.  Section 
+               505(o)(4) of the FD&C Act imposes time frames for application holders to submit and for FDA 
+               staff to review such changes, and gives FDA new enforcement tools to bring about timely and 
+               appropriate safety labeling changes.   
+                
+                               
+               III.    IMPLEMENTATION OF SAFETY LABELING CHANGES UNDER FDAAA 
+                
+               The following sections answer key questions about the implementation of the safety 
+               labeling changes provisions that were added to the FD&C Act by FDAAA. 
+                
+               A.      What is New Safety Information? 
+                
+                       1. What New Safety InformationDoes  Mean?  
+                
+               Section 505(o)(2)(C) of the FD&C Act states that, for the purposes of section 505(o), the phrase 
+               new safety information has the meaning given in section 505-1(b) of the FD&C Act (21 U.S.C. 
+               355-1(b)), which defines new safety information as “information derived from a clinical trial, an 
+               adverse event report, a postapproval study (including a study under section 505(o)(3)), peer-
+               reviewed biomedical literature, data derived from the postmarket risk identification and analysis 
+               system under section 505(k); or other scientific data deemed appropriate by [FDA]” about: 
+                
+                      “A serious risk or an unexpected serious risk associated with use of the drug that [FDA] 
+                       has become aware of (that may be based on a new analysis of existing information) 
+                       since the drug was approved, since the risk evaluation and mitigation strategy (REMS) 
+                       was required, or since the last assessment of the approved [REMS] for the drug” 
+                       (emphasis added), or 
+                                                                
+               3
+                 For the purposes of this guidance, all references to drugs mean human drugs, including biological products, 
+                                                                
+               regulated by CDER or CBER unless otherwise specified.
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               3 
+                                          Contains Nonbinding Recommendations* 
+                      “The effectiveness of the approved [REMS] for the drug obtained since the last 
+                       assessment of [the REMS].” 
+                    
+               The phrases serious risk and unexpected serious risk are also defined in section 505-1(b) of the 
+               FD&C Act and are included in the Glossary at the end of this guidance. 
+                
+               It is FDA’s view that the statutory definition of new safety information is broad to enable FDA to 
+               require application holders to add information about serious risks to the labeling of a drug when 
+               the Agency determines that such information should be included. 
+                
+                       2.     How Does FDA Learn About New Safety Information? 
+                 
+               FDA may learn about new safety information from many sources, including, but not limited to, 
+               those listed in Appendix A.  Once FDA has learned about the potential for new safety 
+               information, FDA may derive new safety information through various means, including, but not 
+               limited to, the following: 
+                
+                      A new analysis of existing information  
+                      An assessment of the risks and benefits of the drug as it pertains to a new use of the drug, 
+                       a new indication for the drug, or the use of the drug in a new population 
+                      Information on the effectiveness of a previously approved REMS obtained since the last 
+                       assessment of that REMS 
+                
+                       3.     How Will FDA Evaluate the New Safety Information? 
+                
+               FDA will form a multidisciplinary team to evaluate information that may be new safety 
+               information that should be incorporated into a drug’s labeling under section 505(o)(4).4  The 
+               composition of the team will vary depending on the nature of the safety concern.  Within the 
+               Center for Drug Evaluation and Research (CDER), the relevant review division(s) from Office of 
+               New Drugs will be included, and the Office of Surveillance and Epidemiology (OSE), the Office 
+               of Generic Drugs (OGD), the Unapproved Drugs Coordinator, and the Office of Unapproved 
+               Drugs and Labeling Compliance (OUDLC) may also be notified, as appropriate.  Within the 
+               Center for Biologic Evaluation and Research (CBER), staff in the appropriate product office, the 
+               Office of Biostatistics and Epidemiology, and others as warranted will work together.  The 
+               team’s discussions and evaluations of the new safety information may include, but are not 
+               limited to, presentations at internal FDA meetings, Drug Safety Oversight Board meetings, or 
+               Advisory Committee meetings.  More information about FDA’s policies and procedures for drug 
+               safety issues is available in several Manuals of Policies and Procedures (MAPPs). 5  Public 
+                                                                
+               4
+                 If the safety information is relevant to more than one drug, the multidisciplinary review team will identify the 
+               affected applications and include staff from all relevant review divisions and offices.  Review of new safety 
+               information that is relevant to more than one drug will follow the same procedures as for new safety information that 
+               is relevant only to an individual drug.  
+                
+               5
+                 See Manual of Policies and Procedures (MAPP) 6700.7, Safety Labeling Changes Under Section 505(o)(4) of the 
+               FD&C Act; MAPP 4121.2, Tracking of Significant Safety Issues in Marketed Drugs — Use of the DARRTS 
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               4 
+                                          Contains Nonbinding Recommendations* 
+                                                                                                  6
+               communication about drug safety issues is further described in a separate guidance.   
+                
+               B.      What Types of Safety Labeling Changes Could Be Required Under Section 
+                       505(o)(4)? 
+                
+               FDA expects that information that meets the standard of new safety information that should be 
+               included in labeling, thereby triggering safety labeling changes under section 505(o)(4),  
+               generally will include, but is not limited to, information that would be described in new or 
+               revised language in the following sections of the prescribing information:   
+                
+                             BOXED WARNINGS  
+                             CONTRAINDICATIONS 
+                             WARNINGS AND PRECAUTIONS 
+                             DRUG INTERACTIONS 
+                             ADVERSE REACTIONS  
+                
+               FDA expects that labeling changes that address new safety information about serious risks 
+               associated with a drug, including those that affect a class of drugs, will be required under the 
+               authority of section 505(o)(4) of the FD&C Act.   
+                
+               If certain changes to the prescribing information are required under section 505(o)(4), other 
+               changes to the product labeling, including changes to an existing Medication Guide or creation 
+               of a new Medication Guide, may also be required to ensure that all labeling for the product is 
+               consistent.  Medication Guides are part of the product labeling and are also potential elements of 
+               a REMS.   
+                
+               Changes to prescribing information required under section 505(o)(4) may necessitate changes to 
+               REMS documents and REMS materials.  When that is the case, these changes should be 
+               submitted as REMS modifications pursuant to section 505-1 of the FD&C Act. 
+                
+               FDA does not anticipate that all labeling changes that may be related to safety will be required 
+               and reviewed under section 505(o)(4) of the FD&C Act.  For other labeling changes, application 
+                                                                                                                                                                            
+               Tracked Safety Issue (TSI), and MAPP 6700.9, FDA Posting of Potential Signals of Serious Risks Identified by the 
+               Adverse Event Reporting System.  FDA MAPPs are available at 
+                                                    ces/OfficeofMedicalProductsandTobacco/CDER/ManualofPoliciesProce
+               http://www.fda.gov/AboutFDA/CentersOffi
+               dures/default.htm. 
+                
+               6
+                 See FDA guidance for industry on Drug Safety Information—FDA’s Communication to the Public.  
+               http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM072281.pdf.  
+               FDA guidances are available on FDA’s guidance web page at 
+               http://www.fda.gov/ForIndustry/FDABasicsforIndustry/ucm234622.htm.  
+                
+               We update guidance documents periodically.  To make sure you have the most recent version of a guidance, check 
+               the Guidances (Drug) Web page. 
+                 
+                
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               5 
+                                          Contains Nonbinding Recommendations* 
+               holders may continue to submit labeling supplements using standard procedures (See 21 CFR 
+               314.70 and 601.12).   
+                
+               FDA expects that information that results in  changes made only to the ADVERSE REACTIONS 
+               section, but does not warrant inclusion in other sections of labeling (such as WARNINGS AND 
+               PRECAUTIONS), would not normally trigger required safety labeling changes under section 
+               505(o)(4).  In addition, minor revisions to risk information that is already in the labeling (e.g., 
+               updating information about the well known risk of neutropenia  in the label of a cytotoxic 
+               chemotherapy drug or updating information about the well known risk of hypoglycemia for an 
+               antidiabetic agent) may not trigger required safety labeling changes under section 505(o)(4) in all 
+               circumstances.  FDA also anticipates that minor editorial changes to any part of the labeling 
+               would not trigger required safety labeling changes under section 505(o)(4).   
+                
+               IV. PROCEDURES 
+                
+               A.      How Will FDA Notify Application Holder(s) of Required Safety Labeling Changes? 
+                
+               Once FDA has determined that there is new safety information that should be included in 
+               labeling, FDA plans to send a safety labeling change notification letter (notification letter) to the 
+               application holder(s).  A holder of an approved NDA, BLA, or ANDA without a marketed NDA 
+               reference listed drug (RLD) will be notified and required to make the safety labeling changes, 
+               unless approval of the application has been formally withdrawn in a Federal Register notice.7  If 
+               the new safety information applies to more than one application holder, FDA plans to send a 
+               letter on the same day to each holder of an approved NDA, BLA, and/or ANDA without a 
+               marketed NDA RLD.   
+                
+               FDA will include the following information in the notification letter: 
+                         The source from which the new safety information was derived 
+                         A brief description of what the new safety information is about (a serious risk or an 
+                          unexpected serious risk associated with the use of the drug, or the effectiveness of the 
+                          REMS)   
+                         Proposed labeling changes 
+                         Instructions regarding the circumstances in which the application holder should 
+                          respond by submitting proposed labeling changes as a prior approval supplement8 or 
+                          as a changes-being-effected supplement9 
+                                                                
+               7
+                 Requirements under section 505(o)(4) apply to NDAs, BLAs, and ANDAs without a currently marketed reference 
+               listed drug approved under an NDA, including discontinued products, unless approval of an application has been 
+               withdrawn in the Federal Register.  Therefore, requirements described in a safety labeling change notification letter 
+               apply unless approval of the application has been withdrawn in the Federal Register. 
+                
+               8
+                 A prior approval supplement proposes changes that require supplement submission and approval prior to the 
+               distribution of the product with those changes. See 21 CFR 314.70(b) and 601.12(f)(1).   
+                
+               9
+                 A supplement - changes-being-effected (CBE-0) proposes changes that do not require FDA approval prior to 
+               distribution of the product; for such changes, the application holder may distribute the product with the changes 
+               upon FDA’s receipt of the supplement (see 21 CFR 314.70(c)(6) and 601.12(f)(2)).  
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               6 
+                                          Contains Nonbinding Recommendations* 
+                
+               B.      How Should Application Holders Respond to a Notification Letter? 
+                
+               Section 505(o)(4)(B)(i) and (ii) states that, after receiving notification of the required safety 
+               labeling changes, the application holder(s) must either: 
+                  
+                      submit a supplement with proposed labeling changes to reflect the new safety 
+                       information; or  
+                      notify FDA that it does not believe a labeling change is warranted and submit a statement 
+                       detailing the reasons why such a change is not warranted (a rebuttal statement).   
+                
+               If the application holder submits a supplement proposing labeling changes identical to those that 
+               FDA included in the notification letter, the application holder may submit a supplement - 
+               changes-being-effected (CBE-0).  In all other situations, the application holder(s) should submit 
+               a prior approval supplement to propose alternative labeling changes that reflect the new safety 
+               information.  As mentioned in section IV.A above, in the notification letter, FDA will provide 
+               instructions regarding the circumstances in which the application holder should submit a 
+               supplement - changes-being-effected (CBE-0) or a prior approval supplement. 
+                
+               It is FDA’s view that the labeling changes process under 21 CFR 314.70 and 601.12 continues to 
+               apply to application holders10 in situations in which the application holder becomes aware of 
+               newly acquired information, including in circumstances that meet the criteria for submission of a 
+                                                             11
+               supplement - changes-being-effected (CBE-0).  
+                
+               Following notification, the labeling supplement or rebuttal statement must be submitted within 
+               30 days (section 505(o)(4)(B)).  FDA has interpreted within 30 days to mean within 30 calendar 
+               days of the date that the notification letter is issued.  FDA will generally forward copies of safety 
+                                                                                                                                                                            
+                
+                
+               10 To implement the statutory prohibition against marketing a misbranded product, 21 CFR 201.57(c)(6) requires 
+               that prescription drug labeling be “revised to include a warning about a clinically significant hazard as soon as there 
+               is reasonable evidence of a causal association with a drug” (see also sections 502(a),(f),(j), and (n) of the FD&C 
+               Act).   
+                
+               Under existing FDA regulations, ANDA holders cannot make labeling changes through the formal supplement 
+               process under 21 CFR 314.70 in all circumstances in which NDA holders can because an ANDA’s labeling must be 
+               the same as the NDA RLD’s labeling (with some exceptions, as described in 21 CFR 314.94(a)(8)(iv)).  
+               Accordingly, the changes-being-effected supplement process under 21 CFR 314.70(c) is not expressly available to 
+               ANDA holders except to match the RLD labeling or to respond to FDA’s specific request to submit a labeling 
+               change under this provision. ANDA holders, however, are obligated to provide FDA with information about 
+               labeling concerns, including a concern that new information should be added to a product’s labeling.  See 57 FR 
+               17950, 17961 (April 28, 1992).  An ANDA holder may submit a prior approval supplement to request a change to 
+               product labeling, and “FDA will determine whether the labeling for the generic and [reference] listed drugs should 
+               be revised” (57 FR 17950, 17961).  ANDA holders also have a duty to inform FDA of certain adverse events in 
+               compliance with postmarket reporting requirements, to develop written procedures for the surveillance, receipt, 
+               evaluation, and reporting of postmarket adverse drug experiences and to annually report “information…that might 
+               affect the safety, effectiveness, or labeling of the drug product” (see 21 CFR 314.80, 314.81, and 314.98).   
+                 
+               11 See section 505(o)(4)(I) of the FD&C Act. 
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               7 
+                                          Contains Nonbinding Recommendations* 
+               labeling change letters (including notification letters and orders) by fax or e-mail so that they 
+               will be received on the date the document is issued.  
+                
+               An application holder’s prior approval supplement may contain proposed edits or 
+               counterproposals to the language recommended by FDA.  When FDA notifies an application 
+               holder that safety labeling changes are needed, FDA is aware of the new safety information that 
+               the changes are intended to address.  Therefore, application holders should provide explanations 
+               (often referred to as “annotated labeling”) only for counterproposals or proposed edits to the 
+                                                                        12
+               language recommended by FDA in the notification letter.    
+                
+               If FDA notifies an application holder that, under section 505(o)(4), a new Medication Guide 
+               must be created, the application holder must respond within 30 days, as required by section 
+               505(o)(4)(B).  FDA recognizes that if a new Medication Guide is required and a Medication 
+               Guide for the individual drug or its class does not already exist, it could be challenging to create 
+               a Medication Guide that adequately describes risks and benefits in patient friendly language 
+               within the submission timeframe (30 days) required under section 505(o)(4) of the FD&C Act.  
+               In addition, Medication Guide language is generally derived from approved prescribing 
+               information.  Therefore, FDA may consider a request from the application holder to extend the 
+               discussion period on a case-by-case basis.  
+                
+               C.      How Will FDA Review the Required Labeling Supplement or Rebuttal Statement? 
+                
+               Section 505(o)(4)(C) of the Act directs FDA to “promptly review and act upon” a safety labeling 
+               changes supplement or rebuttal statement responding to a notification letter.   
+                        
+                       1. Meaning Promptly Review and Act                      of 
+                
+               This section describes the process FDA intends to use to review labeling supplements and 
+               rebuttal statements, the actions that FDA will take, and the time frame in which FDA expects to 
+               take those actions.  
+                
+                       a. Labeling Supplements 
+                
+               When an application holder submits a labeling supplement, FDA’s review team will conduct a 
+               preliminary review of the supplement, consider whether the proposed language in the 
+               supplement can be approved or requires further discussion, and proceed as follows:   
+                
+                  If the proposed language can be approved without changes,13 FDA will approve the 
+                   supplement promptly and notify the application holder by sending a supplement approval 
+                                                                
+               12 Including the proposed text of the label as a clean copy and as a marked up or track changes version facilitates 
+               timely review and discussion of the counter proposed or edited language. 
+                
+               13 Language that can be approved without changes may include language that is identical to the language that FDA 
+               included in the notification letter, or language that differs from what was included in the notification letter. 
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               8 
+                                          Contains Nonbinding Recommendations* 
+                   letter.14  For supplements that propose acceptable wording, FDA’s goal is to take action 
+                   within 30 calendar days of receipt of the supplement.   
+                  If the proposed revised language cannot be approved without changes, the Agency will 
+                   initiate a discussion period to review and discuss the proposed revisions (section 
+                   505(o)(4)(C)).  The discussion period will begin on the date that FDA receives the 
+                   application holder’s submission and last no more than 30 calendar days (unless an extension 
+                   is warranted) (section 505(o)(4)(D)).  
+                  If the notification letter was issued for more than one application, and one or more 
+                   application holders in the class submit proposed language that differs from what FDA 
+                   included in the notification letter, FDA will inform all application holders that received a 
+                   notification letter that a discussion period will be initiated to review and consider alternative 
+                   wording that was submitted.  The discussion period will begin on the date that FDA receives 
+                   the application holder’s submission and last no more than 30 calendar days (unless an 
+                   extension is warranted) (section 505(o)(4)(D)). 
+                
+               Within 15 calendar days of the conclusion of the 30-day discussion period (and any extension 
+               period, if applicable), FDA will proceed as follows: 
+                
+                  If FDA and the application holder reach consensus on the proposed labeling, FDA will notify 
+                   the application holder by sending a supplement approval letter.  
+                  If FDA does not agree with the application holder’s proposed labeling changes and FDA and 
+                   the application holder cannot reach consensus, under section 505(o)(4)(E), FDA can order 
+                   the application holder to make the required labeling changes (see section IV.E for further 
+                   discussion of safety labeling changes orders).  
+                
+                       b. Rebuttal Statements 
+                
+               Similar to the process for supplements, when an applicant submits a rebuttal statement, FDA’s 
+               review team will conduct a preliminary review of the rebuttal statement, consider whether FDA 
+               accepts the application holder’s reasons why labeling changes are not warranted or whether the 
+               rebuttal statement requires further discussion, and proceed as follows:   
+                
+                  If FDA accepts the application holder’s reasons why labeling changes are not warranted, 
+                   FDA will promptly notify the application holder.  In such situations, FDA’s goal is to take 
+                   action within 30 calendar days of receipt of the rebuttal statement. 
+                  If FDA does not accept the application holder’s reasons why labeling changes are not 
+                   warranted, the Agency will initiate a discussion period (section 505(o)(4)(C)).  The 
+                   discussion period  would begin on the date that FDA receives the application holder’s 
+                   rebuttal statement and last no more than 30 calendar days (unless an extension is warranted) 
+                   (section 505(o)(4)(D)).  If the sponsor agrees to submit a labeling supplement during the 
+                                                                
+               14 Supplement approval letters for required safety labeling changes are posted on FDA’s web site, consistent with 
+               FDA’s policy for all approval letters. 
+                
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                               9 
+                                              Contains Nonbinding Recommendations* 
+                     discussion period, the supplement should be submitted before the end of the discussion 
+                     period (and any extension period, if applicable), and FDA will follow the procedure as 
+                     outlined above in IV.C.1.a. 
+                  
+                 Within 15 calendar days of the conclusion of the 30-day discussion period (and any extension 
+                 period, if applicable), FDA will proceed as follows: 
+                  
+                    If FDA and the application holder reach consensus on the reasons why labeling changes are 
+                     not needed, FDA will notify the application holder. 
+                    If FDA does not agree with the application holder’s rebuttal statement and FDA and the 
+                     application holder cannot reach consensus on the submission of a labeling supplement, under 
+                     section 505(o)(4)(E), FDA can order the application holder to make the required labeling 
+                     changes (see section IV.D for further discussion of safety labeling changes orders).  
+                  
+                         2.      Additional Information on Review Procedures 
+                  
+                 The following sections provide additional information on FDA’s review procedures for safety 
+                 labeling changes supplements or rebuttal statements responding to a notification letter.  
+                  
+                         a.      30-Day Discussion Periods and Extensions 
+                  
+                 As explained above in IV.C.1, if FDA does not agree with the wording in the submitted 
+                 supplement or the reasoning of the rebuttal statement, FDA must initiate discussions that do not 
+                 extend for more than 30 days after the receipt of the submission (section 505(o)(4)(C) and (D)).   
+                  
+                 Under section 505(o)(4)(D), FDA may extend the discussion period for more than 30 days, if 
+                 FDA determines that an extension of the discussion period is warranted.  FDA expects that an 
+                 extension of the discussion period (usually for another 30 days) will be warranted when a 30-day 
+                 discussion period may not suffice to adequately address all outstanding issues (e.g., the labeling 
+                 change involves a drug class or the supplement contains significantly revised language).  In such 
+                 cases, before the conclusion of the discussion period, FDA may notify the application holder in 
+                 writing that the 30-day discussion period has been extended and, when possible, briefly state the 
+                 reason(s) for the extension.  FDA’s reasons may include, but are not limited to, the need to 
+                 consider and discuss the application holder’s alternative language, consider additional 
+                 information, obtain consensus at a higher level within CDER or CBER or among involved 
+                 offices, or receive input from the Drug Safety Oversight Board or an Advisory Committee. 
+                      
+                 FDA does not anticipate more than one extension to the 30-day discussion period for most 
+                 labeling changes. 
+                  
+                         b.      Failure to Respond to a Notification Letter  
+                  
+                 If the application holder does not submit a labeling supplement or a rebuttal statement within 30 
+                 calendar days of the date of the notification letter, the application holder will be considered to 
+                  
+                 * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+                 314.70 and 601.12, it does have binding effect.   
+                                                                     10 
+                                                       Contains Nonbinding Recommendations* 
+                    have forfeited the review and discussion period, and FDA can issue an order directing that the 
+                    labeling be changed (see section IV.D for further discussion of safety labeling changes orders). 
+                          
+                             c.        Labeling Change Notifications for ANDAs with a Marketed NDA RLD 
+                     
+                    Holders of ANDAs with a marketed NDA RLD would usually be notified by OGD of the 
+                    required safety labeling changes after approval of the labeling supplement for the NDA RLD.  
+                    ANDA holders should submit the required labeling changes as a supplement- changes-being-
+                    effected (CBE-0) within 30 days of the date of the written notification from FDA. 
+                     
+                             3.        Additional Information on Review Procedures for Safety Labeling Changes that 
+                    Affect More than One Application 
+                     
+                             a.        Labeling Supplements, Rebuttal Statements, and Discussion Period(s) 
+                     
+                    For class labeling changes, it is FDA’s policy that labeling decisions should wait until all 
+                    supplements and rebuttal statements submitted within 30 days of notification have been 
+                    reviewed.  FDA intends to approve a labeling change common to all class members on the same 
+                    day unless there is a well-justified, scientific rationale to support different wording for different 
+                    drug labels.  To carefully review supplements and rebuttal statements from all application 
+                    holders and to consider the differences and commonalities between products, FDA anticipates 
+                    that a 30-day extension of the discussion period may be warranted. 
+                     
+                    To enable consensus on wording of the labeling change, FDA may propose to the application 
+                    holders specific language to include in the labeling during the discussion period.  If agreement is 
+                    reached, application holders should submit an amendment to their previously submitted 
+                    supplement, or submit supplement-changes-being-effected (CBE-0) if they previously submitted 
+                    a rebuttal statement, with the agreed-upon wording before the end of the discussion period. 
+                     
+                    If FDA does not agree with one or more application holder’s proposed labeling changes or 
+                    rebuttal statement, and FDA and the application holder(s) cannot reach agreement, under section 
+                    505(o)(4)(E), FDA can order the application holder(s) to make the required labeling changes (see 
+                    section IV.D for further discussion of safety labeling changes orders). 
+                     
+                    If FDA and the remaining application holders agree on the proposed labeling, FDA will notify 
+                    these application holders by sending supplement approval letters.  An order issued to one or 
+                    more application holder(s) will not delay approval of labeling changes for the rest of the class.   
+                     
+                    For class labeling changes, FDA will send approval letters or Order letters, as needed, to all 
+                    affected application holders of NDAs, BLAs, and ANDAs without a marketed NDA RLD, on the 
+                    same day. 
+                     
+                             b.        Failure to Respond to a Notification Letter 
+                     
+                    One or more application holders in a class may fail to respond to the notification letter within the 
+                    required 30-day time frame, or may fail to respond at all, while others submit labeling 
+                     
+                    * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+                    314.70 and 601.12, it does have binding effect.   
+                                                                                 11 
+                                          Contains Nonbinding Recommendations* 
+               supplements or rebuttal statements within the required 30-day time frame.  FDA will follow the 
+               processes described in IV. C.2.b. for the application holders who do not respond (or do not 
+               respond within the required time frame).  If one or more application holders in a class fail to 
+               respond (or fail to respond within the required time frame), it will not delay approval of required 
+               safety labeling changes for the other application holders in the class that respond within the 
+               required time frame. 
+                
+               D.      How Will FDA Issue an Order for Labeling Changes? 
+                    
+               If, at the conclusion of the 30-day discussion period (or extension, if applicable), FDA 
+               determines that the application holder’s proposed labeling changes do not adequately address the 
+               new safety information or finds unacceptable the application holder’s reasons why the labeling 
+               changes are not warranted, FDA can issue an order to change the product labeling (section 
+               505(o)(4)(E)).  FDA can also issue an order if a supplement or rebuttal statement is not 
+               submitted within 30 calendar days of the date of the notification letter.   
+                
+               FDA anticipates that orders for labeling changes will be rare and that such actions will first 
+               involve discussion with the appropriate CDER or CBER senior managers.   
+                  
+               Order letters will be issued within 15 calendar days of the conclusion of the 30-day discussion 
+               period (or extension, if applicable) (section 505(o)(4)(E)).  FDA plans to include the following in 
+               the order letters: 
+                
+                      Approval of any sections of labeling on which the application holder and FDA reached 
+                       agreement during the discussion period 
+                      A Complete Response action for the sections of labeling on which the application holder 
+                       and FDA could not agree during the discussion period  
+                      A brief explanation why the application holder’s proposed labeling changes or rebuttal do 
+                       not adequately address the new safety information 
+                      An order to submit a changes-being-effected supplement within 15 calendar days of the 
+                       date of the order for specified changes to the sections of labeling on which the application 
+                       holder and FDA cannot agree (FDA plans to include specific wording for these required 
+                       labeling changes in the order letter) 
+                      Brief instructions explaining that within 5 calendar days of the date of the order letter, 
+                       instead of submitting a changes-being-effected supplement, the application holder may 
+                       appeal the order, through FDA’s formal dispute resolution process as described in 21 
+                       CFR 10.75 and the guidance for industry on Formal Dispute Resolution: Appeals Above 
+                       the Division Level15 (section 505(o)(4)(F)) (see section V for further discussion of 
+                       dispute resolution procedures).   
+                
+               After the application holder submits the changes-being-effected supplement, FDA intends to 
+               promptly review the supplement, and if it addresses the new safety information adequately as 
+                                                                
+               15 This guidance is available on the Internet at 
+               http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/default.htm.  We update guidance documents 
+               periodically.  To make sure you have the most recent version of a guidance, check the Guidances (Drug) Web page. 
+                
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                              12 
+                                          Contains Nonbinding Recommendations* 
+               directed, FDA will approve the supplement, generally within 15 calendar days of receipt 
+               (section IV.D.1).   As with other approval letters, the document will be posted on the FDA Web 
+               site.  
+                
+               Under section 505(o)(4)(F), if the application holder neither submits a supplement within 15 
+               calendar days of the date of the order nor initiates dispute resolution within 5 calendar days of 
+               the date of the order, the application holder will be in violation of the statute.  This may result in 
+               enforcement actions, which are described in section VI. 
+                
+               E.      When Should New Labeling Be Available? 
+                
+               FDA expects that new approved labeling will be available on the application holder’s Web site 
+               within 10 calendar days of approval of the labeling supplement, or FDA’s receipt of a changes-
+               being-effected labeling supplement.  In addition, approved updates to labeling are posted on 
+                                16
+               FDA’s Web site.    
+                
+               FDA acknowledges that incorporating labeling changes into printed material included in drug 
+               shipments usually requires more time than incorporating changes to a Web site.  FDA intends to 
+               issue guidance outlining its expectations regarding time frames for the availability of labeling 
+               changes for printed package inserts, patient package inserts, and Medication Guides.  
+                
+               F.      Will Safety Labeling Changes Letters Be Disclosed? 
+                
+               Safety labeling changes notification letters that apply to more than one application will be posted 
+               on FDA’s Web site to provide rapid communication to the public of a serious safety risk. 
+               Notification letters that apply to a single application are considered confidential commercial 
+               information and are not posted; however, the resulting supplement is approved and posted.   
+                
+                                                                                          17
+               All safety labeling changes order letters may be posted on FDA’s Web site.  
+                
+               V.      DISPUTE RESOLUTION 
+                
+               An application holder may appeal an order to make a safety labeling change using the usual 
+               dispute resolution procedures (guidance for industry on Formal Dispute Resolution: Appeals 
+               Above the Division Level)18 (see section 505(o)(4)(F) of the Act).  The appeal should be 
+               submitted as correspondence to the NDA, BLA, or ANDA.   
+                
+               Under section 505(o)(4)(F), the application holder must make its appeal of the order within 5 
+               days of receiving that order.  FDA has interpreted “5 days” to mean “5 calendar days.”  Appeals 
+               received by FDA later than 5 calendar days after the date that the order letter was received will 
+                                                                
+               16 See http://www.accessdata.fda.gov/scripts/cder/drugsatfda/index.cfm. 
+                
+               17 Safety labeling changes order letters are available at: 
+                                                   marketDrugSafetyInformationforPatientsandProviders/ucm189280.htm. 
+               http://www.fda.gov/Drugs/DrugSafety/Post
+                
+               18  This guidance is available on the Internet at 
+               http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/default.htm. 
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                              13 
+                                          Contains Nonbinding Recommendations* 
+               not be entertained.  Similarly, for appeals to higher levels, such as the Center Director, 
+               application holders should appeal a written determination made by a previous level within 5 
+               calendar days of receiving that determination.  The dispute process will be considered to be 
+               concluded if an appeal of a written determination is not received within this time frame.  
+                    
+               At the conclusion of the dispute resolution process, if FDA determines that a labeling 
+               supplement is required, the labeling supplement must be submitted within 15 days of the date of 
+               that determination (section 505(o)(4)(G)).  FDA has interpreted “15 days” to mean “15 calendar 
+               days.”  If the labeling supplement is not submitted within 15 days, the application holder will be 
+               in violation of the statute.   
+                
+               VI.     ENFORCING REQUIREMENTS FOR SAFETY LABELING CHANGES 
+                
+               Section 902 of FDAAA gave FDA authority to enforce the section 505(o)(4) requirements for 
+               safety labeling changes.  If the responsible person19 or, when applicable, the holder of the 
+               approved application under section 505(j) neither submits a supplement within 15 calendar days 
+               of the date of a safety labeling change order nor initiates dispute resolution within 5 days, the 
+               responsible person or application holder will be in violation of section 505(o)(4) of the Act.  In 
+               addition, if at the conclusion of any dispute resolution process, the Secretary determines that a 
+               supplement must be submitted and such supplement is not submitted within 15 days of the date 
+               of the determination, the responsible person or application holder will be in violation of section 
+               505(o)(4) of the Act. 
+                
+               Enforcement action could include one or more of the following: 
+                
+               ●  Charges under section 505 of the FD&C Act.  A responsible person may not introduce or 
+                   deliver into interstate commerce the drug involved if the application holder is in violation of 
+                   section 505(o) safety labeling changes requirements (see section 505(o)(1) of the FD&C 
+                   Act).     
+                
+               ●  Misbranding charges.  A drug is misbranded under section 502(z) of the FD&C Act (21 
+                   U.S.C. 352(z)) if the application holder for that drug violates safety labeling change 
+                   requirements.  
+                
+               ●  Civil monetary penalties.  Under section 303(f)(4) of the FD&C Act (21 U.S.C. 
+                   333(f)(4)(A)), an application holder that violates safety labeling changes requirements may 
+                   be subject to civil monetary penalties of up to $250,000 per violation, but no more than $1 
+                   million for all violations adjudicated in a single proceeding.  These penalties increase if the 
+                   violation continues more than 30 days after FDA notifies the application holder of the 
+                   violation.  The penalties double for the following 30-day period and continue to double for 
+                   subsequent 30-day periods, up to $1 million per period and $10 million for all violations 
+                   adjudicated in a single proceeding.  In determining the amount of a civil penalty, FDA will 
+                   consider the applicant’s efforts to correct the violation (see section 303(f)(4)(B) of the FD&C 
+                   Act).   
+                
+                                                                
+               19 Defined at section 505(o)(2)(A) of the Act. 
+                
+               * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+               314.70 and 601.12, it does have binding effect.   
+                                                              14 
+                                Contains Nonbinding Recommendations* 
+            Such violations may also be subject to additional enforcement action, including but not limited 
+            to, seizure of the product and injunction. 
+             
+            VII.     PAPERWORK REDUCTION ACT OF 1995 
+             
+            This guidance contains information collection provisions that are subject to review by the Office 
+            of Management and Budget (OMB) under the Paperwork Reduction Act of 1995 (44 U.S.C. 
+            3501-3520).  The expiration date of the OMB control number will be updated periodically. 
+             
+            The time required to complete this information collection is estimated to average 4hours per 
+            response, including the time to review instructions, search existing data sources, gather the data 
+            needed, and complete and review the information collection.  Send comments regarding this 
+            burden estimate or suggestions for reducing this burden to:  
+              
+            The Office of New Drugs, Center for Drug Evaluation and Research, Food and Drug 
+            Administration, 10903 New Hampshire Ave., Bldg.22, Rm. 6303, Silver Spring, MD 20993-
+            0002. 
+             
+            This guidance also refers to previously approved collections of information found in FDA 
+            regulations. Specifically, the guidance describes: labeling supplements for NDAs, ANDAs, and 
+            BLAs submitted under 21 CFR 314.70, 314.71, 314.97 and 601.12; and the content and format 
+            of prescription drug labeling submitted under 21 CFR 201.56 and 201.57. These collections of 
+            information are subject to review by OMB under the Paperwork Reduction Act and are approved 
+            under OMB control numbers 0910-0001, 0910-0338, and 0910-0572.   Section V of the guidance 
+            refers to the guidance entitled “Formal Dispute Resolution:  Appeals Above the Division Level,” 
+            which describes collections of information approved under OMB control number 0910-0430.   
+             
+             An agency may not conduct or sponsor, and a person is not required to respond to, a 
+             collection of information unless it displays a currently valid OMB control number. The 
+             OMB control number for this information collection is 0910-0638 (expires 3/31/16).  
+              
+                                                                                  
+             
+            * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+            314.70 and 601.12, it does have binding effect.   
+                                               15 
+                                              Contains Nonbinding Recommendations* 
+                 APPENDIX A:  EXAMPLES OF SOURCES OF NEW SAFETY INFORMATION 
+                  
+                 FDA may learn of new safety information from various sources including, but not limited to: 
+                  
+                    Routine monitoring of Adverse Event Reporting System (AERS) or Vaccine Adverse Event 
+                     Reporting System (VAERS) in-boxes (by the CDER Office of Surveillance and 
+                     Epidemiology (OSE) or CBER Office of Biostatistics and Epidemiology (OBE) Safety 
+                     Evaluators)  
+                    Data mining of AERS or VAERS databases, either through routine practice or triggered by a 
+                     specific issue, by OSE and OBE  
+                    Systematic data mining of all division products  
+                    Safety-related data in a new drug application (NDA), biologics license application (BLA), 
+                     supplements, or investigational new drug application (IND)  
+                    FDA inspections and investigations, including postmarket adverse drug experience (ADE) 
+                     inspections 
+                    Reports received through established drug quality reporting systems 
+                    Medical literature submitted by application holders or external stakeholders or identified by 
+                     FDA staff  
+                    Submissions from an application holder, including but not limited to: 
+                     — Periodic safety reports, including periodic adverse drug experience reports (21 CFR 
+                         314.80(c)(2), 314.98(a)), periodic adverse experience reports (21 CFR 600.80(c)(2)), and 
+                         periodic safety update reports (PSURs) 
+                     — Reports of preclinical, toxicological, or pharmacokinetic studies, clinical trials, or 
+                         observational studies 
+                     — Studies and clinical trials that may or may not have been conducted as postmarket 
+                         requirements or commitments or with FDA’s knowledge 
+                     — REMS assessments as required under section 505-1 of the FD&C Act 
+                     — Field alert reports (FARs) as required under 21 CFR 314.81(b)(1) and 314.98(c) or 
+                         Postmarketing 15-day Alert reports as required under 21 CFR 314.80(c)(1), 314.98(a), 
+                         and 600.80(c)(1) 
+                     — Reports of fatalities related to blood collection or transfusion, as required under 21 CFR 
+                         606.170(b) 
+                     — Biological product deviation reports as required under 21 CFR 600.14 and 606.171 
+                     — Annual reports as required under 21 CFR 314.81(b)(2) and 314.98(c) 
+                    Communications with Centers for Disease Control and Prevention (CDC) about CDC’s 
+                     analysis of VAERS reports and the Vaccine Safety Datalink database  
+                    Communications with foreign regulatory authorities regarding postmarket analysis of adverse 
+                     reactions associated with drugs approved in their countries 
+                    Meta-analy
+                                 ses of safety information, or new analyses of previously submitted information 
+                  
+                 * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+                 314.70 and 601.12, it does have binding effect.   
+                                                                     16 
+                           Contains Nonbinding Recommendations* 
+                                    GLOSSARY 
+           
+           The following definitions of terms are from section 505-1(b) of the Federal Food, Drug, and 
+           Cosmetic Act (21 U.S.C. 355-1(b)). 
+            
+           New safety information with respect to a drug, means information derived from a clinical trial, 
+           an adverse event report, a post-approval study (including a study under section 505(o)(3)), or 
+           peer-reviewed biomedical literature; data derived from the postmarket risk identification and 
+           analysis system under section 505(k); or other scientific data deemed appropriate by the 
+           Secretary (of Health and Human Services) about —  
+               (A) a serious risk or unexpected serious risk associated with use of the drug that the 
+               Secretary has become aware of (that may be based on a new analysis of existing 
+               information) since the drug was approved, since the risk evaluation and mitigation 
+               strategy was required, or since the last assessment of the approved risk evaluation and 
+               mitigation strategy for the drug; or 
+               (B) the effectiveness of the approved risk evaluation and mitigation strategy for the drug 
+               obtained since the last assessment of such strategy. 
+           
+          Adverse drug experience means any adverse event associated with the use of a drug in humans, 
+          whether or not considered drug related, including— 
+               (A) an adverse event occurring in the course of the use of the drug in professional 
+               practice; 
+               (B) an adverse event occurring from an overdose of the drug, whether accidental or 
+               intentional; 
+               (C) an adverse event occurring from abuse of the drug; 
+               (D) an adverse event occurring from withdrawal of the drug; and 
+               (E) any failure of expected pharmacological action of the drug. 
+            
+           Serious adverse drug experience is an adverse drug experience that — 
+                (A) results in — 
+                   (i) death; 
+                   (ii) an adverse drug experience that places the patient at immediate risk of death 
+               from the adverse drug experience as it occurred (not including an adverse drug 
+               experience that might have caused death had it occurred in a more severe form); 
+                   (iii) inpatient hospitalization or prolongation of existing hospitalization; 
+                   (iv) a persistent or significant incapacity or substantial disruption of the ability to 
+               conduct normal life functions; or 
+                   (v) a congenital anomaly or birth defect; or  
+               (B) based on appropriate medical judgment, may jeopardize the patient and may require a 
+               medical or surgical intervention to prevent an outcome described under subparagraph 
+               (A).   
+                   
+           Serious risk means a risk of a serious adverse drug experience. 
+            
+           Signal of a serious risk means information related to a serious adverse drug experience 
+           associated with use of a drug and derived from — 
+           
+          * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+          314.70 and 601.12, it does have binding effect.   
+                                        17 
+                          Contains Nonbinding Recommendations* 
+              (A) a clinical trial; 
+              (B) adverse event reports; 
+              (C) a postapproval study, including a study under section 505(o)(3);  
+              (D) peer-reviewed biomedical literature; 
+              (E) data derived from the postmarket risk identification and analysis system under section 
+              505(k)(4); 
+              (F) other scientific data deemed appropriate by the Secretary. 
+           
+           Unexpected serious risk means a serious adverse drug experience that is not listed in the 
+           labeling of a drug, or that may be symptomatically or pathophysiologically related to an 
+           adverse drug experience identified in the labeling, but differs because of greater severity, 
+           specificity, or prevalence. 
+           
+           
+          * Insofar as this guidance adjusts reporting categories pursuant to section 506A of the FD&C Act and 21 CFR 
+          314.70 and 601.12, it does have binding effect.   
+                                      18 

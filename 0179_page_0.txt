@@ -1,0 +1,50 @@
+                          RobustRandomCutForestBasedAnomalyDetectionOnStreams
+               Sudipto Guha                                                                                      SUDIPT@OCIS.UPENN.EDU
+               University of Pennsylvania, Philadelphia, PA 19104.
+               NinaMishra                                                                                         NMISHRA@AMAZON.COM
+               Amazon,PaloAlto, CA94303.
+               GouravRoy                                                                                          GOURAVR@AMAZON.COM
+               Amazon,Bangalore, India 560055.
+               OkkeSchrijvers                                                                                   OKKES@CS.STANFORD.EDU
+               Stanford University, Palo Alto, CA 94305.
+                                         Abstract                                  a point is data dependent and corresponds to the external-
+                     In this paper we focus on the anomaly detection               ity imposed by the point in explaining the remainder of the
+                     problem for dynamic data streams through the                  data. Weextendthisnotionofexternalitytohandle“outlier
+                     lens of random cut forests. We investigate a ro-              masking” that often arises from duplicates and near dupli-
+                     bust random cut data structure that can be used               cate records. Note that the notion of model complexity has
+                     as a sketch or synopsis of the input stream. We               to be amenable to efﬁcient computation in dynamic data
+                     provide a plausible deﬁnition of non-parametric               streams. This relates question (1) to question (2) which we
+                     anomalies based on the inﬂuence of an unseen                  discuss in greater detail next. However it is worth noting
+                     point on the remainder of the data, i.e., the exter-          that anomaly detection is not well understood even in the
+                     nality imposed by that point. We show how the                 simpler context of static batch processing and (2) remains
+                     sketch can be efﬁciently updated in a dynamic                 relevant in the batch setting as well.
+                     data stream. We demonstrate the viability of the              For question (2), we explore a randomized approach, akin
+                     algorithm on publicly available real data.                    to (Liu et al., 2012), due in part to the practical success re-
+                                                                                   ported in (Emmott et al., 2013). Randomization is a pow-
+                                                                                   erful tool and known to be valuable in supervised learn-
+               1. Introduction                                                     ing (Breiman, 2001). But its technical exploration in the
+                                                                                   context of anomaly detection is not well-understood and
+               Anomaly detection is one of the cornerstone problems in             the samecommentappliestothealgorithmputforthin(Liu
+               data mining. Even though the problem has been well stud-            et al., 2012).   Moreover that algorithm has several lim-
+               ied over the last few decades, the emerging explosion of            itations as described in Section 4.1.       In particular, we
+               data from the internet of things and sensors leads us to re-        show that in the presence of irrelevant dimensions, cru-
+               consider the problem. In most of these contexts the data            cial anomalies are missed. In addition, it is unclear how
+               is streaming and well-understood prior models do not ex-            to extend this work to a stream. Prior work attempted so-
+               ist. Furthermore the input streams need not be append only,         lutions (Tanetal,.2011) that extend to streaming, however
+               there may be corrections, updates and a variety of other dy-        those were not found to be effective (Emmott et al., 2013).
+               namic changes. Two central questions in this regard are             To address these limitations, we put forward a sketch or
+               (1) how do we deﬁne anomalies? and (2) what data struc-             synopsis termed robust random cut forest (RRCF) formally
+               ture do we use to efﬁciently detect anomalies over dynamic          deﬁned as follows.
+               data streams? In this paper we initiate the formal study of         Denition 1 A robust random cut tree (RRCT) on point
+               both of these questions. For (1), we view the problem from          set S is generated as follows:
+               the perspective of model complexity and say that a point is
+                                                                                                                                             ℓi
+               an anomaly if the complexity of the model increases sub-              1. Choose a random dimension proportional to  ℓ ,
+               stantially with the inclusion of the point. The labeling of                                                                   j j
+                                                                                        where ℓ =max x −min                  x .
+                                                                                                i         x∈S i          x∈S i
+                                      rd                                             2. Choose X ∼Uniform[min             x , max       x ]
+               Proceedings of the 33     International Conference on Machine                       i                  x∈S i         x∈S i
+               Learning, New York, NY, USA, 2016. JMLR: W&CP volume                  3. Let S = {x|x ∈ S,x ≤ X } and S = S \S and
+               48. Copyright 2016 by the author(s).                                           1                 i      i        2           1
+                                                                                        recurse on S1 and S2.

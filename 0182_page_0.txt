@@ -1,0 +1,49 @@
+           
+           
+                                               Invoice Instructions 
+          NRG’s Suppliers are a critical link in our vision to build a more sustainable future. We are committed to 
+          paying our Suppliers accurately and on time, so we use scanners and optical character recognition to read 
+          invoices. Invoices from Suppliers that follow these instructions can be scanned, processed, and paid more 
+          efficiently. 
+                   Invoice Content Requirements 
+                                                  Suppliers must prepare invoices containing the following information 
+                                                  taken from Buyer’s Purchase Order: 
+                                                           Purchase Order number (Contact your NRG point of contact 
+                                                            if you have questions about the purchase order that you should 
+                                                            use on your invoices) 
+                                                           PO line item number 
+                      Purchase Order                       PO part number (if applicable) 
+                           Invoices                        Description of the product or service exactly as it appears on 
+                                                            the NRG PO 
+                                                           Unit of measure 
+                                                           Unit price 
+                                                           Item quantity 
+                                                           Total invoice value 
+                                                   
+                                                  Suppliers submitting invoices for goods or services that fall into one of 
+                                                  the exempted categories may invoice NRG without a valid NRG PO 
+                       Non-Purchase               number. 
+                      Order Invoices                       For non-PO invoices, Supplier must include the name and 
+                                                            email address for the NRG employee requesting the product 
+                                                            or service (e.g. John Smith, john.smith@nrg.com) 
+                                                   
+                                                           Suppliers shall prepare a separate invoice for each shipment or 
+                                                            service order. 
+                                                           The first page of the attachment should be the first page of the 
+                            General                         invoice. 
+                          Invoicing                        Suppliers shall also provide such evidence as the Buyer may 
+                          Guidelines                        reasonably require in support of the invoice. 
+                                                           No invoice shall be issued prior to completion of services or 
+                                                            shipment of products. 
+                                                  One and only one of the below methods for sending invoices should be 
+                                                  used. 
+                                                  Supplier’s invoice shall also include 
+                                                           Supplier’s phone number and remit-to address 
+                                                           Invoice number 
+                         All Invoices                      Date prepared 
+                                                           E-mail address where we can contact you if there are issues 
+                                                            with the invoice 
+                                                   
+           
+          Rev. 4/2015                                                                                                                                                 Page 1 of 2 
+           

@@ -1,0 +1,156 @@
+                                                                                          AP Detailed Procedure 
+                                                                       Matching an Invoice to a Purchase Order 
+                Matching an Invoice to a Purchase Order 
+                When you enter a supplier invoice for which a CUFS purchase order was raised, you should 
+                match it to the order to remove the commitment from your departmental accounts. 
+                 
+                Copies of certain invoices relating to grants will need to be sent on a weekly basis to the 
+                departments contact in the Research Operations Office with the RG number clearly marked 
+                on the invoice.  Departments will be advised as to which invoices they require copies off. 
+                Pre-requisites: 
+                       Your purchase order must have been generated on CUFS; 
+                       The purchase order must be approved and open; 
+                       The invoice must be for the same supplier and currency as the purchase order. 
+                 
+                 
+                    Transfer          Review how         Match to the       Check Assets         Validate 
+                   details from       the invoice is         PO             and Calculate 
+                  the invoice to       to be paid                                Tax 
+                   the system                             
+                                                                             
+                 
+                 
+                Step 1          Transfer invoice details to the system                                         
+                                                                                                            
+                 
+                a.    Create a batch using the standard                                                        
+                      batch naming convention 
+                       
+                b.    In the invoices window, the 
+                      invoice type stays as Standard. 
+                       
+                c.    Complete the PO number                The system will insert the details of the          
+                                                            relevant supplier from the purchase order.         
+                                                                                                               
+                                                                                                               
+                d.    Enter the following information       ~ invoice date 
+                      from the invoice:                     ~ invoice number                                        
+                                                            ~ total invoice amount 
+                                                            ~ total VAT Control Amount 
+                                                            ~ description 
+                                                             
+                e.    Leave the Match Action field as       Purchase Order                                     
+                      the default 
+                 
+                                                                                                               
+                 
+                Version1:0                                                                               Page 1 of 4 
+                                                                                         Detailed Procedure 
+                                                                   Matching an Invoice to a Purchase Order 
+                
+               Step 2         Review how the invoice will be paid
+                                                                                                      
+                
+               a.    Review how the invoice will be      ~Payment terms                                  
+                     paid:                               ~Payment methods 
+                                                         ~Pay Groups 
+                                                         ~Pay Alone check box 
+                                                          
+                                                                                                         
+               Step 3         Match to the Purchase Order
+                                                                                                      
+               a.    Click on the                                                                           
+                     Match button  
+                      
+                                       
+               b.    Ensure that the 
+                     PO number 
+                     appears in the 
+                     Num field. 
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+               c.    Click on Find                                                                          
+                
+               d.    The matching window will open.      This displays the item lines from the           
+                                                         purchase order. 
+                                                          
+               e.    Tick the Match box for each                                                         
+                     order line that you wish to match 
+                     to the invoice. 
+                      
+               f.    Compare against the invoice and     The default values are from the order.          
+                     amend if necessary:                                                                 
+                                                         To match correctly, the quantities and 
+                     ~Qty invoiced                       amounts must reflect what appears on the             
+                     ~Unit price                         invoice; therefore you may need to overtype 
+                                                         some of the fields here. 
+                                                          
+               Version1:0                                                                          Page 2 of 4 
+                                                                                                        Detailed Procedure 
+                                                                              Matching an Invoice to a Purchase Order 
+                   
+                                                                                                                                 
+                        Note:                                                                                             
+                                                                                                                          
+                        If Freight was missed off the original purchase order then you can tick the Freight/Misc 
+                        box, but only for one of the lines it relates to.  You can then prorate the freight once you            
+                        have completed the match process, which is covered later in the manual.                           
+                                                                        
+                  g.    Click the Match button.                    You will return to the invoice window ready            
+                                                                   for the next step. 
+                   
+                   
+                  Step 4           Review Lines, Check Assets and Calculate Tax
+                                                                                                                               
+                  a.      Click on the Lines tab, and the 
+                          system will have automatically 
+                          created the item/s for you, based 
+                          upon what was entered on the 
+                          purchase order, with the relevant 
+                          tax code and description. 
+                           
+                          It will not have calculated VAT. 
+                           
+                          Tick the Track As Asset box if an 
+                          item is a fixed asset. 
+                           
+                                                                                                                                     
+                  b.      If the item is a fixed asset, scroll        
+                          along to complete the relevant 
+                          fixed asset fields. 
+                           
+                           
+                           
+                                                                                                                               
+                                                                      
+                           
+                  Version1:0                                                                                        Page 3 of 4 
+                                                                                              Detailed Procedure 
+                                                                       Matching an Invoice to a Purchase Order 
+                c.      Save then click Calculate Tax.  If    If you fail to remember to click the Calculate     
+                        you want to see the account           Tax button your totals will not equal.  
+                        codes for the item line/s, click on 
+                        the All Distributions button.   
+                         
+                d.      Click on the General tab and                                                             
+                        check that the total figure isn’t in                                                   
+                        red!   
+                         
+                        If you have Calculated Tax and the totals still don’t agree then this could be due to:  
+                                                                                                                      
+                        ~the invoice relates to more than one order; 
+                        ~there is an item on the invoice that wasn’t on the order e.g. a delivery charge 
+                        ~there is a tax-rounding error 
+                        ~the wrong VAT rate was used on the order 
+                        ~some other mistake 
+                         
+                e.      Close the distributions window and validate the invoice in the normal way via            
+                        Actions … 1. 
+                 
+                Version1:0                                                                                Page 4 of 4 

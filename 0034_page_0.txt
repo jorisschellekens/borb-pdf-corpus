@@ -1,0 +1,41 @@
+                           Journal of Machine Learning Research 3 (2003) 993-1022                                          Submitted 2/02; Published 1/03
+                                                                  Latent Dirichlet Allocation
+                           DavidM.Blei                                                                                   BLEI@CS.BERKELEY.EDU
+                           Computer Science Division
+                           University of California
+                           Berkeley, CA 94720, USA
+                           AndrewY.Ng                                                                                    ANG@CS.STANFORD.EDU
+                           Computer Science Department
+                           Stanford University
+                           Stanford, CA 94305, USA
+                           Michael I. Jordan                                                                         JORDAN@CS.BERKELEY.EDU
+                           Computer Science Division and Department of Statistics
+                           University of California
+                           Berkeley, CA 94720, USA
+                           Editor: John Lafferty
+                                                                                   Abstract
+                                 Wedescribe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of
+                                discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each
+                                item of a collection is modeled as a ﬁnite mixture over an underlying set of topics. Each topic is, in
+                                turn, modeled as an inﬁnite mixture over an underlying set of topic probabilities. In the context of
+                                text modeling, the topic probabilities provide an explicit representation of a document. We present
+                                efﬁcient approximate inference techniques based on variational methods and an EM algorithm for
+                                empirical Bayes parameter estimation. We report results in document modeling, text classiﬁcation,
+                                and collaborative ﬁltering, comparing to a mixture of unigrams model and the probabilistic LSI
+                                model.
+                           1. Introduction
+                           In this paper we consider the problem of modeling text corpora and other collections of discrete
+                           data. The goal is to ﬁnd short descriptions of the members of a collection that enable efﬁcient
+                           processing of large collections while preserving the essential statistical relationships that are useful
+                           for basic tasks such as classiﬁcation, novelty detection, summarization, and similarity and relevance
+                           judgments.
+                                Signiﬁcant progress has been made on this problem by researchers in the ﬁeld of informa-
+                           tion retrieval (IR) (Baeza-Yates and Ribeiro-Neto, 1999). The basic methodology proposed by
+                           IR researchers for text corpora—a methodology successfully deployed in modern Internet search
+                           engines—reduces each document in the corpus to a vector of real numbers, each of which repre-
+                           sents ratios of counts. In the popular tf-idf scheme (Salton and McGill, 1983), a basic vocabulary
+                           of “words” or “terms” is chosen, and, for each document in the corpus, a count is formed of the
+                           number of occurrences of each word. After suitable normalization, this term frequency count is
+                           comparedtoaninversedocumentfrequencycount, which measures the number of occurrences of a
+                           c
+                           2003DavidM.Blei,AndrewY.NgandMichaelI.Jordan.

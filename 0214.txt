@@ -1,0 +1,250 @@
+                      SAFETYSENSE LEAFLET                                                 11 
+                                      INTERCEPTION PROCEDURES 
+          
+                                                                                                
+               1    INTRODUCTION 
+                     ROCEDURES 
+               2    P
+               3    INTERCEPTING AIRCRAFT SIGNALS AND YOUR RESPONSES 
+               4    SIGNALS INITIATED BY YOUR AIRCRAFT AND RESPONSES BY INTERCEPTING 
+                    AIRCRAFT 
+               5    C
+                     OMMUNICATION 
+                     FTER FLIGHT 
+               6    A
+          
+         1 INTRODUCTION                                      b)  Under Article 9 of the Convention 
+           a)  The Air Navigation Order 2009              on International Civil Aviation, each 
+         includes an item in Schedule 9  – contracting State reserves the right, 
+         ‘Documents to be carried’. This 
+         requires that on INTERNATIONAL                   for reasons of military necessity or 
+         flights ALL aircraft must carry a copy           public safety, to restrict or prohibit the 
+         of ‘Signals for Use in the Event of  aircraft from other States from flying 
+                                                          over certain areas of its territory. 
+         Interception’. These are detailed in 
+         the UK                                              c) The regulations of a State may 
+                  AIP ENR 1.12, and may also              prescribe the need to investigate the 
+         be used in the event of an aircraft 
+         straying towards a sensitive area                identity of aircraft. Accordingly, it may 
+         within UK airspace. This leaflet is              be necessary to lead an aircraft, of its 
+         intended to expand on the AIP and  own or another nation, which has 
+         may be carried by pilots whose                   been intercepted, away from a 
+         international flights require details of         particular area (such as a prohibited 
+         the Signals and Procedures.                      area) or the aircraft may for security 
+                                                          reasons be required to land at a 
+                                                          particular aerodrome. 
+         January 2013                                                             www.caa.co.uk/publications 
+             
+               d)  In order to reduce the possibility                             2 PROCEDURES 
+            of interception, pilots should adhere                                  
+            to flight plans and ATC procedu,r es                                  If you are iernctepted by another 
+            as well as maintaining a listening                                    aircraft you must immediately: 
+                                                                                    a)  follow the instruction given by 
+            watch on the appropriate ATC  the intercepting aircraft, 
+            frequency and selecting the interpreting and responding to 
+            appropriate transponder cod ewith                                             visual signals in accordance 
+            ALT if possible. If details of your flight                                    with paragraph 3; 
+            are in doubt, all possible efforts will 
+            be made to identify it through the                                      b)  notify, if possible, the 
+            appropriate Air Traffic Services Units.                                       appropriate Air Traffic Services 
+              e) If you see projectiles, showing on                                       Unit; 
+            bursting red and green lights or stars,                                 c)  attempt to establish radio 
+            being fired in your direction from the                                        communication with the 
+            ground, you are approaching 
+            restricted or prohibited airspace. Alter                                      intercepting aircraft or with the 
+            heading to avoid it, and contact an                                           appropriate intercept control 
+            ATC unit, as in paragraph 2(c) below.                                         unit, by making a general call 
+                                                                                          on the  emergency frequency 
+              f)    As interception of civil aircraft                                     121.50 MHz, giving your identity 
+            can be potentially hazardous, 
+                                                                                          and the nature of the flight. If no 
+            interception procedures will only be                                          contact has been established 
+            used as a last resort. If you are fired                                       and if UHF is fitted, repeat the 
+            upon, there is little advice that can be                                      call on the emergency 
+            offered!                                                                      frequency 243 MHz; and 
+              g)   The word ‘interception’ does  d)  select Mode A, code 7700 and 
+            not include the intercept and escort                                          Mode C  if equipped with a 
+            service provided on request to an                                             transponder, unless otherwise 
+            aircraft in distress in accordance with                                       instructed by the appropriate Air 
+            Search and Rescue procedures.                                                 Traffic Services Unit. 
+            However, the signals used by an 
+            assisting military aircraft are likely to   
+            be the same.                                                           
+              h)  Remember, the intercepting 
+            aircraft may not be able to fly as 
+            slowly as a low speed general 
+            aviation aircraft. 
+            SS11                                                            2                                                       January 2013 
+          
+         3  INTERCEPTING AIRCRAFT SIGNALS 
+             AND YOUR RESPONSES 
+                                                                
+           a)  ‘You have been intercepted,                     Note 1 – Meteorological conditions or 
+                follow me’                                       terrain may require the intercepting 
+           Day - the intercepting aircraft rocks                 aircraft to take up a position slightly 
+             its wings from a position slightly                  above and ahead of, and to the right 
+             above and ahead of, and normally                    of, your aircraft and to make the 
+             to the left of, your aircraft and,  subsequent turn to the right. 
+             after acknowledgement, makes a                    Note 2 – If your aircraft can’t keep 
+             slow level turn, normally to the left,              pace with the intercepting aircraft, 
+             onto the desired heading.                           he is expected to fly a series of 
+                                                                 racetrack patterns and to rock his 
+           Night      -    same, also flashes                    wings each time he passes your 
+             navigation lights at irregular                      aircraft. 
+             intervals. 
+            
+                                                                
+          
+                                                             
+         Your response to show you have                         
+         understood and will comply:                            
+                                                                
+         Aeroplanes:                                           Helicopters:  
+                                                                
+           Day  - rock your wings and follow                   Day or Night - rock your helicopter, 
+                 him.                                                     flash navigation (or landing) 
+                                                                          lights at irregular intervals 
+           Night  - same and in addition flash                            and follow him. 
+                 navigation lights at irregular   
+                 intervals.  
+          
+          
+                   Note: You must also try to communicate as in paragraph 2 above. 
+          
+                                       
+         SS11                                             3                                           January 2013 
+          
+         b)  ‘You may proceed’  
+           
+          Intercepting aircraft signals by day or night with an abrupt break away 
+          manoeuvre away from your aircraft consisting of a climbing turn of 90° or more 
+          without crossing the line of flight of your aircraft. 
+          
+                                                                                                   
+                                                        
+                                                        
+                                                        
+         Your response to show you have                    
+         understood and will comply:                       
+                                                           
+         Aeroplanes:                                      Helicopters:  
+                                                           
+         Day or Night - rock your wings.                  Day or Night - rock your helicopter.  
+                                                           
+                                                           
+          
+         SS11                                        4                                        January 2013 
+         
+        c)  ‘Land at this aerodrome’  
+                                                        
+        Day -  the intercepting aircraft signals       Night - same and, in addition, shows 
+          by circling the aerodrome, lowering            steady landing lights. 
+          his landing gear and -oflyvering              
+          runway in direction of landing, or if         
+                                                        
+          your aircraft is a helicopter he 
+          signals by over-flying the helicopter         
+          landing area.                                 
+                                                        
+         
+                                                        
+        Your response to show you have                  
+        understood and will comply:                     
+                                                        
+        Aeroplanes:                                    Helicopters:  
+                                                        
+        Day - lower landing gear (if possible),        Day or Night fol- lowing the 
+           following the intercepting aircraft            intercepting        aircraft and 
+           and, if after over-flying the runway           proceeding to land showing a 
+           you consider landing is safe,  steady landing light (if fitted).
+                                                                                          
+           proceed to land.                             
+                                                        
+        Night - same and, in addition, show             
+           steady landing lights (if fitted).           
+                                                        
+                                                        
+         
+                                                     
+        SS11                                       5                                     January 2013 
+          
+         4  SIGNALS INITIATED BY YOUR AIRCRAFT 
+            AND RESPONSES 
+         a)    ‘Aerodrome designated is inadequate for my aeroplane’ 
+          Day - raise landing gear (if possible), while passing over landing runway at a 
+            height exceeding 300 m (1,000 ft) but not exceeding 600 m (2,000 ft) above 
+            the aerodrome level, and continue to circle the aerodrome. 
+          Night - in addition, flash landing lights while passing over landing runway as 
+            above. If unable to flash landing lights, flash any other available lights. 
+         The intercepting aircraft responds to show he has understood. 
+          – If it is desired that you follow him to an alternate aerodrome, he will raise his 
+         landing gear and use the signals prescribed for intercepting aircraft in paragraph 
+         3(a). However, if he has understood and decides you may proceed, he will use 
+         the manoeuvre prescribed in paragraph 3(b). 
+           
+         b)  ‘I cannot comply’ 
+         Day or Night - switch all available lights on and off at regular intervals but in such 
+            a manner as to be distinct from flashing lights. 
+         The intercepting aircraft responds to show he has understood by using the 
+         manoeuvre at paragraph 3(b). 
+         c)  ‘I am in distress’ 
+         Day or Night - flash all available lights at irregular intervals. 
+         The intercepting aircraft responds to show he has understood by using the 
+         manoeuvre described in paragraph 3(b). 
+          
+          
+         SS11                                        6                                       January 2013 
+          
+         5 COMMUNICATION  
+          a)  If radio contact with the intercepting aircraft is established, but 
+         communication in a common language is not possible, you should attempt to 
+         convey essential information and acknowledgement of instructions by using the 
+         following phrases and pronunciations (ICAO Annex 2, Appendix 2 and 
+         Attachment A refer): 
+           
+         Phrase             Pronunciation        Meaning       
+         CALL SIGN          KOL SA- IN           My call sign is (call sign) 
+         WILCO              VILL- CO             Understood  - I will comply 
+         CAN NOT            KANN NOTT            Unable to comply 
+         REPEAT             REE- PEET            Repeat your instruction 
+         AM LOST            AM LOSST             Position unknown 
+         MAYDAY             MAYDAY               I am in distress 
+         HIJACK             HI-JACK              I have been hi-jacked 
+         LAND               LAAND                I request to land at 
+         (place name)       (place name)         (place name) 
+         DESCEND            DEE- SEND            I require descent 
+         b)  The following phrases should be used by the intercepting aircraft in the 
+         circumstances prescribed above: 
+         Phrase             Pronunciation        Meaning 
+         CALL SIGN          KOL SA- IN           What is your call sign? 
+         FOLLOW             FOL- LO              Follow me 
+         DESCEND            DEE- SEND            Descend for landing 
+         YOU LAND           YOU LAAND            Land at this aerodrome 
+         PROCEED            PRO- SEED            You may proceed 
+          c)  If any instructions received by radio from other sources conflict with those 
+         given by the intercepting aircraft’s visual signals or radio instructions, you must 
+         request immediate clarification while continuing to comply with the visual 
+         instructions. 
+          d)  Beware of making hand gestures, these could be misinterpreted! 
+           
+           
+         6 AFTER FLIGHT 
+         As interceptions are very rare, others may learn from your experience. Please tell 
+         the CAA’s Safety Data Department. 
+         SS11                                        7                                        January 2013 
+          
+         7 SUMMARY 
+          
+         ON ALL INTERNATIONAL FLIGHTS: 
+            1)  Keep the Interception Procedures easily available. 
+            2)  Follow your Flight Plan and ATC procedures, including transponder 
+                settings. 
+            3)  Obey warning signals. 
+          
+         IF INTERCEPTED: 
+            1)  Obey the interceptor. 
+            2)  Tell ATC then try to call the interceptor on 121.5 MHz. 
+            3)  Squawk 7700 with ALT unless an ATSU advises otherwise. 
+            4)  Consider your and your passengers’ safety at all times. 
+          
+         SS11                                        8                                       January 2013 

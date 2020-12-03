@@ -1,0 +1,40 @@
+                                DOESTHEINERTIAOFABODYDEPEND
+                                         UPONITSENERGY-CONTENT?
+                                                          ByA.EINSTEIN
+                                                          September 27, 1905
+                                  Theresults of the previous investigation lead to a very interesting conclusion,
+                              which is here to be deduced.
+                                  I based that investigation on the Maxwell-Hertz equations for empty space,
+                              together with the Maxwellian expression for the electromagnetic energy of space,
+                              and in addition the principle that:—
+                                  The laws by which the states of physical systems alter are independent of
+                              the alternative, to which of two systems of coordinates, in uniform motion of
+                              parallel translation relatively to each other, these alterations of state are referred
+                              (principle of relativity).
+                                  With these principles∗ as my basis I deduced inter alia the following result
+                              (§ 8):—
+                                  Let a system of plane waves of light, referred to the system of co-ordinates
+                              (x,y,z), possess the energy l; let the direction of the ray (the wave-normal)
+                              make an angle φ with the axis of x of the system. If we introduce a new system
+                              of co-ordinates (ξ,η,ζ) moving in uniform parallel translation with respect to
+                              the system (x,y,z), and having its origin of co-ordinates in motion along the
+                              axis of x with the velocity v, then this quantity of light—measured in the system
+                              (ξ,η,ζ)—possesses the energy
+                                                                   1−vcosφ
+                                                            l∗ = lp    c
+                                                                         2  2
+                                                                    1−v /c
+                              where c denotes the velocity of light. We shall make use of this result in what
+                              follows.
+                                  Let there be a stationary body in the system (x,y,z), and let its energy—
+                              referred to the system (x,y,z) be E . Let the energy of the body relative to the
+                                                                 0
+                              system (ξ,η,ζ) moving as above with the velocity v, be H0.
+                                  Let this body send out, in a direction making an angle φ with the axis
+                              of x, plane waves of light, of energy 1L measured relatively to (x,y,z), and
+                                                                    2
+                              simultaneously an equal quantity of light in the opposite direction. Meanwhile
+                              the body remains at rest with respect to the system (x,y,z). The principle of
+                                 ∗The principle of the constancy of the velocity of light is of course contained in Maxwell’s
+                              equations.
+                                                                    1

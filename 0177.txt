@@ -1,0 +1,648 @@
+                 TIPS ON WRITING A PHILOSOPHY PAPER 
+            
+                           Douglas W. Portmore 
+            
+           Copyright © 2001 (Revised 2012) by Douglas W. Portmore. Some Rights Reserved. This 
+           work is licensed under a Creative Commons License. See full licensing details here.  
+                                                            
+             
+           1. Constructing a Thesis Statement 
+           A thesis statement is that sentence or two that asserts your position on a given issue, 
+           specifically, the position that you will be arguing for in your paper. This thesis statement 
+           should appear somewhere in the introduction to your paper.  It can be the first sentence, 
+           although that’s often a rather simplistic and unexciting way to begin your paper. More 
+           often, then, a thesis statement should appear at or near the end of the first paragraph or 
+           two. 
+                The first step in developing a thesis (once you have decided on a topic) is to 
+           determine what your position is. To do this, you will need to thoroughly review all the 
+           relevant course materials. In most cases, you will have been presented with a number of 
+           arguments on both sides of the issue. Carefully analyze and evaluate all these 
+           arguments, taking notes as you do. In the process, you should develop your own take on 
+           the issue.  
+                It is imperative that you clearly define your thesis before you begin writing, for it is 
+           your thesis that will guide you throughout the entire writing process—everything you 
+           write should somehow contribute to its defense. This doesn’t mean that your thesis can’t 
+           be revised, narrowed, or refined during the writing process; it’s likely that it will need to 
+           be. The point is that you won’t even know where to start unless you have at least a 
+           working thesis to guide you. 
+                Your thesis should narrow the focus of your paper. Suppose you are asked to write 
+           on the mind-body problem. It’s important to realize that it won't be possible to address 
+           every important philosophical issue concerning such a broad topic in just one paper. 
+           You'll need to choose a thesis that narrows the focus to something more manageable. 
+           Don't be too ambitious here. You're not going to solve something like the mind-body 
+           problem in five, or even twenty, pages. Of course, it’s also important not to go too far in 
+           the opposite direction. Your thesis mustn’t be trivial. Instead, your thesis should make 
+           an interesting assertion, one over which reasonable people might disagree.   
+                Your thesis should be quite specific, thereby defining a sharp focus for your paper.  
+           Don’t make a claim such as “People should donate money to hunger-relief 
+           organizations.” This is vague. Are you saying that donating money to hunger-relief 
+           organizations is moral obligatory, or are you merely claiming that doing so would be 
+           supererogatory?  In either case, you should state your reasons for making the claim that 
+           you do, for your thesis should provide some hint as to what the main argument will be.  
+                To sum up, a thesis statement should: 
+                                   Be specific. 
+                                   Be narrow enough as to be practicably defended within the length 
+                                    parameters of the assignment. 
+                                   Make an interesting claim, one over which reasonable people might disagree. 
+                                   Provide some hint as to what the main line of argument will be. 
+                        
+                       The following are some DOs and DON’Ts. 
+                        
+                           Don’t have a thesis like this: 
+                            
+                             I will argue that act-utilitarianism is the most plausible moral theory around.  
+                        
+                                NOTE:  This is too ambitious.  There is no chance of adequately defending such a 
+                                claim in anything shorter than a series of books. To defend such a claim, you 
+                                would have to compare act-utilitarianism with Kantianism, rule-utilitarianism, 
+                                virtue ethics, moral relativism, moral subjectivism, divine command theory, etc. 
+                                and argue that act-utilitarianism does better than all the others in terms of our 
+                                standards for evaluating moral theories (i.e., consistency, determinacy, intuitive 
+                                appeal, internal support, etc.). A more sensible thesis would focus on defending 
+                                act-utilitarianism against certain specific objections or would argue that act-
+                                utilitarianism is more plausible than, say, Kantianism with respect to the 
+                                determinacy of its verdicts. 
+                        
+                             Death and suffering from a lack food, potable water, and basic healthcare is bad.   
+                        
+                                NOTE:  This is trivial; no reasonable person would disagree.   
+                        
+                             I will discuss objections to moral relativism.   
+                        
+                                NOTE:  It’s not enough to say that you will discuss a certain issue; you must state 
+                                your position on some issue.  
+                        
+                             I believe that the divine command theory is an implausible moral theory.   
+                        
+                                NOTE:  This statement merely reports what one believes; it doesn’t assert 
+                                anything about the plausibility of the divine command theory. A thesis statement 
+                                must make an assertion about the issue at hand, not about one’s beliefs 
+                                concerning that issue. 
+                         
+                             I will argue that abortion is wrong.   
+                        
+                                NOTE:  This statement isn’t specific enough. Your thesis should explain why, on 
+                                your view, abortion is wrong. 
+          
+            I will argue that donating our surplus income to hunger relief organizations 
+            would result in more deaths and more suffering.  
+          
+            NOTE:  The issue of whether or not donating our surplus income to hunger relief 
+            organizations would result in more deaths and more suffering is an empirical 
+            issue, not a philosophical issue. You must address some philosophical issue. Thus 
+            a more interesting thesis would address the following issue: If donating our 
+            surplus income would alleviate significant suffering and save lives, would we 
+            then be morally obligated to do so? 
+          
+         Do have a thesis like this: 
+          
+            I will argue that even if the fetus is a person with a right to life, abortion is, 
+            nevertheless, morally permissible in the case of rape, for the fetus has no right to 
+            use the woman's body without, at least, her tacit consent, and this is clearly 
+            absent where the woman is pregnant as a result of being raped.  
+          
+            NOTE:  The position you take doesn’t have to exhaust the topic. For instance, 
+            there’s nothing wrong with taking a stand on the morality of abortion in the case 
+            of rape while remaining neutral about other cases. 
+          
+            I will argue that Thomson's argument isn’t cogent. I will demonstrate that there 
+            are important differences between killing the violinist (in her Famous Violinist 
+            Example) and killing a fetus that has been conceived as a result of rape. These 
+            differences undermine her argument by analogy for the permissibility of 
+            abortion in the case of rape.  
+          
+            NOTE:  You don’t have to make any positive assertion. A thesis that asserts that 
+            some philosophical position is false or that some philosopher’s argument is 
+            unsound is an interesting and important thesis. 
+          
+            I will argue that Arthur's criticisms fail to undermine Singer's central thesis: that 
+            we are morally obligated to donate our surplus income to hunger-relief 
+            organizations. I will show that Singer can rebut Arthur’s objections by….  
+          
+            NOTE:  Even if you agree entirely with one of the philosophers that you’ve read, 
+            you can still have something original and important to say. For instance, you 
+            could show how that philosopher might rebut criticisms from another. 
+          
+            I will argue that Singer's thesis needs to be revised in light of Arthur's criticisms, 
+            but only slightly. I will propose the following revised version of Singer's thesis….  
+            And I will argue that this revised version of Singer’s thesis avoids Arthur's 
+            objections. Lastly, I will defend this revised thesis against other potential 
+            objections.  
+          
+            NOTE:  If you can’t see anyway to defend a thesis in its current form, you might 
+            suggest how that thesis could be revised so as to avoid the objections leveled by 
+            another. 
+          
+            I will argue that many of the objections that have been leveled against act-
+            utilitarianism can be met and that, on the whole, act-utilitarianism is a rather 
+            plausible theory. Nevertheless, I will admit that one serious objection remains, 
+            for which I can see no adequate response—namely, ….  However, this does not 
+            mean that we should reject the theory, for, as I will show, non-utilitarian theories 
+            face the following more serious objection... 
+          
+            NOTE:  Often times, you’ll find that all the alternative positions face some 
+            problem or another. In that case, you can still defend one position over its rivals 
+            by arguing that it faces fewer or less serious problems than the others do. Of 
+            course, you still need be upfront about the problems that your own favored 
+            position faces, and, in light of those potential problems, you may want to make 
+            your thesis somewhat tentative: “utilitarianism seems to be the most promising 
+            position” rather than “utilitarianism is correct.” 
+          
+          
+         2. The Introduction 
+         Get right down to business! Avoid inflated, rhetorical introductory remarks (commonly 
+         known as "fluff"). If, for instance, your paper is on abortion, you shouldn't waste limited 
+         space with some irrelevant and long-winded spiel about what an important and 
+         controversial issue abortion is. Nor should you start your paper off with a sentence like, 
+         “Down through the ages, mankind has pondered the problem of....” Nevertheless, you 
+         should motivate your paper, explaining what issue or problem that you will be 
+         addressing and why it’s important—just keep it brief. 
+              An introduction is best thought of as a reader's guide to your paper. It should help 
+         make it easier for the reader to follow and understand your paper. It should include an 
+         explicit statement of what it is that you will be arguing for (that is, your thesis), and 
+         define for the reader any terminology that’s needed to understand your thesis. The 
+         introduction should also map out the structure of your paper, explaining the order in 
+         which you will argue for various points and explaining how all those points come 
+         together in support of your thesis. To sum up, a good introduction should: (1) be 
+         concise, (2) contain a clear statement of your thesis, (3) introduce, very succinctly, your 
+         topic and explain why it is important, (4) indicate, very briefly, what the main line of 
+         argument will be, and (5) map out the overall structure of your paper.  
+          
+         Illustration:  
+            
+           The following are two examples of the type of introduction that I am looking for. The 
+           first is Mary Anne Warren's introduction to her paper "On the Moral and Legal Status of 
+           Abortion," The Monist 57 (January 1973)—reprinted in Tom L. Beauchamp and LeRoy 
+           Walters, eds., Contemporary Issues in Bioethics, 3rd ed. (Belmont, CA: Wadsworth, 1989), 
+           p. 211:  
+            
+             We will be concerned with both the moral status of abortion, which for our purposes we may 
+             define as the act which a woman performs in voluntarily terminating, or allowing another person 
+             to terminate, her pregnancy, and the legal status which is appropriate for this act. I will argue 
+             that, while it is not possible to produce a satisfactory defense of a woman's right to obtain an 
+             abortion without showing that a fetus is not a human being, in the morally relevant sense of that 
+             term, we ought not to conclude that the difficulties involved in determining whether or not a 
+             fetus is human make it impossible to produce any satisfactory solution to the problem of the 
+             moral status of abortion. For it is possible to show that, on the basis of intuitions which we may 
+             expect even the opponents of abortion to share, a fetus is not a person, and hence not the sort of 
+             entity to which it is proper to ascribe full moral rights.  
+            
+            
+           3. The Body 
+           The body of your paper should include: (1) an exposition of the views, concepts, and 
+           arguments to be discussed, (2) your own arguments in support of your thesis and 
+           claims, and (3) a consideration of objections and counterarguments along with your 
+           responses to them.  
+                Each body paragraph should present only a single idea or set of related ideas, and 
+           each should bring your reader one step closer to accepting your thesis and the cogency 
+           of your arguments. Because each body paragraph should play a part in the defense of 
+           your thesis, you should be mindful of the overall organization of your body paragraphs. 
+           A good way to test the strength of both your topic sentences and your argument as a 
+           whole is to construct an outline of your paper using only your paper’s thesis statement 
+           and the topic sentences contained in the body of your essay. This outline should contain 
+           the logical core of your paper's argument, and it should follow a clear logical pattern.  
+                The first step in writing an effective body paragraph is the construction of its topic 
+           sentence. Just as your thesis statement acts as the controlling idea behind your entire 
+           paper, a topic sentence acts as the controlling idea that binds together the sentences 
+           within a paragraph. The sentences within a paragraph should explain, develop, or 
+           support the idea/claim that was introduced in the topic sentence. (Although most 
+           paragraphs should have a topic sentence, not every paragraph needs one. For instance, a 
+           topic sentence won't be needed in a paragraph that continues to develop an idea that 
+           was introduced by the topic sentence of the previous paragraph. And although a topic 
+           sentence needn’t always appear as the first sentence in a paragraph, it is often most 
+           effective when it does.)  
+            
+            
+         4. The Conclusion 
+         The basic purpose of your conclusion is to restate your thesis and summarize your 
+         argument, but it should not just be a copy of your introduction. In your conclusion, you 
+         should make a final effort to convince the reader that you have both established your 
+         thesis and offered a cogent argument in its defense. The conclusion is also the place to 
+         discuss the implications and/or limitations of your argument. For instance, you might 
+         explain what the practical and/or theoretical implications of your argument are. You 
+         might also point to some questions that your argument raises or to some of the issues 
+         that your paper leaves unresolved. 
+          
+          
+         5. Making the Structure of Your Paper Perspicuous 
+         5.1 The structure of the paragraphs within your paper: A good paper will have a logical and 
+         perspicuous structure. You need to organize your points and arguments in a logical 
+         fashion and at the same time make that organization apparent to your reader. Each 
+         paragraph should have a clear place in the overall argument.  
+              The key to having your essay follow a logical structure is to make an outline before 
+         sitting down to write. It’s difficult to give any more specific advice, since the best logical 
+         structure for your essay will depend on the particularities of your argument. But there 
+         are two obvious points that you should be aware of: (1) make sure you explicate a view 
+         or argument, clearly and charitably, before criticizing it and (2) explain key terms, 
+         concepts, and examples before employing them.  
+              I cannot over emphasize how important it is to make the structure of your essay 
+         perspicuous to your reader; your reader shouldn't have to work to figure it out. So start 
+         with a good introduction, one that maps out the general structure of the essay, and then, 
+         in the body of your paper, employ transitional words and sentences to keep your reader 
+         on track.  
+          
+         Use transitional phrases, such as:  
+          
+         I will begin by...  
+         Before I say what is wrong with X's argument, I will first...  
+         At this point, we need to consider the following objection...  
+         In this section, I will...  
+         In the next section, I will...  
+         Having argued for the view that... , I now wish to consider rival views.  
+         Although I have shown..., I still need to prove...  
+         Next, I will offer support for what is perhaps my most controversial assumption, that...  
+         I have argued that..., but someone might object...  
+         Further support for this claim comes from...  
+                       
+                      These transitional phrases go a long way towards making the structure of your paper 
+                                                                                                    1
+                      perspicuous. To illustrate, consider the following paper fragment:   
+                                
+                               ...We've just seen how X says that P.  I will now present two arguments 
+                               that not-P.  
+                               My first argument is...  
+                               My second argument is...  
+                               X might respond to my arguments in several ways. For instance, he might 
+                               say that...  
+                               However, this response fails, because...  
+                               Another way that X might respond to my arguments is to claim that...  
+                               This response also fails, because...  
+                               So we have seen that none of the responses open to X succeed in 
+                               rebutting my argument. Hence, we should reject X's claim that P. 
+                       
+                      Notice how easy it is to identify and follow the structure of this paper. You want your 
+                      paper to be just as easy to follow.  
+                           You might also consider dividing your paper into sections (and possibly even 
+                      subsections), using informative headings to help guide your reader. This too can help 
+                      make the structure of your essay perspicuous.  
+                       
+                      Illustration:  
+                               I. Introduction  
+                               II. Singer's Argument for an Obligation to Assist  
+                               III. Why We Should Reject His Initial Assumption  
+                               IV.  How Singer Might Respond  
+                               V. Conclusion 
+                                
+                      5.2 The structure of the sentences within your paragraphs: Not only should the paragraphs 
+                      within an essay cohere, but so should the sentences within each paragraph. They should 
+                      flow smoothly from one to the next. There are a number of ways to achieve this: (1) 
+                      Repeat key words and phrases. It is important to be consistent when referring to key 
+                      concepts and theories. This consistency and repetition will help bind the paragraph 
+                      together. (2) Use pronouns to refer to what was mentioned earlier in the paragraph. If 
+                      you say “This is true because...,” the reader is forced to recall what “this” refers to. The 
+                      pronoun, thus, causes the reader to sum up, quickly and subconsciously, what was said 
+                      previously (what this is) before going on to the because clause. Of course, it is must 
+                      always be perfectly clear to what the pronoun refers. If the “this” is ambiguous such that 
+                      it could refer to either one of the two things that you mentioned in the previous 
+                                                                       
+                      1 I borrow this from James Pryor’s "Guidelines on Writing a Philosophy Paper." 
+                      sentence, then the reader will have to pause to figure out which it is, and that’s bad. (3) 
+                      Create parallel structures. Parallel structures are created by constructing two or more 
+                      phrases or sentences that have the same grammatical structure or use the same parts of 
+                      speech. Parallel structures help the reader see that the paragraph is giving a number of 
+                      illustrations of the same general idea. (4) Use transitional or bridging words to help the 
+                      reader follow the logical structure of the paragraph.  
+                       
+                      Here are some examples of such transitional words:  
+                          To show addition: and, also, besides, for one, in the first case, first, second, third, 
+                           finally  
+                          To offer support: because, since, for, given  
+                          To conclude: so, thus, therefore, hence, consequently, accordingly, it follows that, for 
+                           this reason, from this, as a result, it would seem then  
+                          To illustrate: e.g., for example, for instance, to illustrate, a case in point  
+                          To specify: i.e., that is, viz., namely, specifically  
+                          To intensify: moreover, furthermore, mainly, principally, above all, after all, what's 
+                           more, more importantly  
+                          To emphasize: certainly, indeed, in fact, of course  
+                          To compare: likewise, similarly, by the same reasoning  
+                          To contrast: yet, but, rather, still, although, while, nevertheless, regardless, despite, 
+                           even so, in spite of, however, whereas, even though, by contrast, on the one 
+                           hand...on the other hand...  
+                          To refocus: in any case, at any rate, in a word, in short, to sum up, to return  
+                          To indicate supposition: assume, suppose, let's assume, let's suppose  
+                          To concede a point: of course, doubtless, it cannot be denied, while recognizing, the 
+                           fact remains  
+                       
+                                                                            2
+                      Illustration: Look at the following paragraph:   
+                       
+                                  The ancient Egyptians were masters of preserving dead people's bodies by 
+                                  making mummies of them. Mummies several thousand years old have been 
+                                  discovered nearly intact. The skin, hair, teeth, fingernails and toenails, and facial 
+                                  features of the mummies were evident. It is possible to diagnose the disease they 
+                                  suffered in life, such as smallpox, arthritis, and nutritional deficiencies. The 
+                                  process was remarkably effective. Sometimes apparent were the fatal afflictions 
+                                  of the dead people: a middle-aged king died from a blow on the head, and polio 
+                                  killed a child king. Mummification consisted of removing the internal organs, 
+                                  applying natural preservatives inside and out, and then wrapping the body in 
+                                  layers of bandages.  
+                           
+                          Though weak, this paragraph is not a total washout. It starts with a topic sentence, and 
+                          the sentences that follow are clearly related to the topic sentence. In the language of 
+                          writing, the paragraph is unified (i.e., it contains no irrelevant details). However, the 
+                                                                       
+                      2 From Charles Darling, Guide to Grammar and Writing, at http://webster.commnet.edu/grammar/index.htm. 
+            paragraph is not coherent. The sentences are disconnected from each other, making it 
+            difficult for the reader to follow the writer's train of thought.  
+             
+            Below is the same paragraph revised for coherence. (Italics indicates pronouns and 
+            repeated key words, bold indicates transitional words, and underlining indicates parallel 
+            structures.)  
+             
+                The ancient Egyptians were masters of preserving dead people's bodies by 
+                making mummies of them. In short, mummification consisted of removing the 
+                internal organs, applying natural preservatives inside and out, and then 
+                wrapping the body in layers of bandages. And the process was remarkably 
+                effective. Indeed, mummies several thousand years old have been discovered 
+                nearly intact. Their skin, hair, teeth, fingernails and toenails, and facial features 
+                are still evident. Their diseases in life, such as smallpox, arthritis, and nutritional 
+                deficiencies, are still diagnosable. Even their fatal afflictions are still apparent: a 
+                middle-aged king died from a blow on the head; a child king died from polio. 
+                 
+           The paragraph is now much more coherent. The organization of the information and the 
+           links between the sentences help readers move easily from one sentence to the next. 
+           Notice how this writer uses a variety of coherence devices, sometimes in combination, to 
+           achieve overall paragraph coherence.  
+            
+            
+           6. Demonstrating Mastery of the Pertinent Philosophical Material 
+           A good philosophy paper will demonstrate mastery of the pertinent philosophical 
+           views, concepts, and arguments. To demonstrate mastery, you must do more than just 
+           regurgitate what you have memorized from the lectures and readings. Regurgitation 
+           doesn’t even demonstrate understanding let alone mastery. (This is why I suggest that 
+           you use quotes only sparingly, and that when you do use them you always explain what 
+           the quoted passage says in your own words—see the section entitled “Quoting” below.) 
+           Furthermore, there’s a difference between merely understanding a topic and mastering 
+           it. For you can understand some material without being able to convey that 
+           understanding to others. To have mastery is to have the ability to teach that material to 
+           others, to be able to explain the material articulately using your own words, 
+           descriptions, and examples, such that even someone with no prior knowledge or 
+           understanding of the material could understand it. Once you’ve mastered a topic, you 
+           should understand it well enough to go beyond what you have read about it. You 
+           should be able to present and defend your own views on the topic. The key, then, to 
+           demonstrating mastery is to show that you can explain things in an illuminating way, 
+           using your own words and using your own original examples and descriptions.  
+            
+            
+           7. Arguing for Your Position 
+           Writing a philosophy paper involves more than simply stating your opinions. You must 
+           support your views by presenting arguments in favor of them. You should also try to 
+         defend your views against potential criticisms. That is, try to anticipate what objections 
+         might be raised against your views and demonstrate both that you are aware of these 
+         possible objections and that you can respond to them—more on this later.  
+              A philosophy paper should be rationally persuasive. And if your arguments are to be 
+         persuasive, they must not rest upon unsupported, contentious claims. Instead they 
+         should ultimately rest upon assumptions that even a reasonable person of the opposing 
+         view would accept. So if, for instance, you want to argue that abortion is morally wrong, 
+         you shouldn't begin by assuming that the fetus has a right to life. Realize that such an 
+         argument would unlikely persuade anyone who is “pro-choice.” After all, the view that 
+         the fetus has a right to life from the moment of conception is precisely what most pro-
+         choice advocates would contest. Of course, you can argue that the fetus has a right to 
+         life; you just shouldn’t assume it.  
+              The point is to avoid making any assumptions that someone of the opposing view is 
+         sure to reject. You should think of your paper as an attempt to persuade someone of the 
+         opposing view, and if you are to have any chance of persuading such a person, you 
+         must first find some common ground from which to build your arguments. A good 
+         example of what I have in mind here is Judith Jarvis Thomson's arguments in “A 
+         Defense of Abortion.” In this paper, Thomson argues that abortion is morally 
+         permissible where the woman is pregnant as the result of being raped. Now what makes 
+         Thomson’s arguments so compelling is that they are based on assumptions that even the 
+         most extreme anti-abortionist (i.e., one who holds that abortion is always wrong) would 
+         likely accept.  
+              Thomson asks you to imagine waking up some morning to find yourself connected to 
+         an unconscious violinist suffering from a potentially fatal kidney ailment. Suppose that 
+         last night the Society of Music Lovers kidnapped you and, without your consent, 
+         surgically connected the violinist to your circulatory system in a desperate attempt to 
+         save his life. You now face the following choice. You can remain connected to the 
+         violinist for nine months by which time the violinist will be able to survive on his own, 
+         or you can unplug yourself from the violinist in which case the violinist will 
+         immediately die.  
+              Thomson assumes that in this situation you are under no obligation to remain 
+         connected to the violinist for the nine months. You may unplug yourself from the 
+         violinist even if this entails killing him. Now this assumption seems relatively 
+         uncontroversial; it is one that even a pro-lifer would likely accept. But from this 
+         seemingly benign assumption, Thomson is able to argue that abortion is sometimes 
+         permissible even if the fetus has a right to life, for the violinist surely has a right to life 
+         and yet it is permissible for you to kill him. And aborting a fetus whose existence is due 
+         to rape is, in all morally relevant respects, analogous to unplugging yourself from the 
+         violinist (or so Thomson argues). Thus Thomson concludes that it is permissible to have 
+         an abortion in certain circumstances (i.e., the case of rape) even if the fetus has a right to 
+         life from the moment of conception.  
+          
+          
+         8. Criticizing an Argument 
+         Don't treat the philosophers or views that you're discussing as if they were stupid. If 
+         they were stupid, we wouldn't be discussing them in the first place. So even if you are 
+         subsequently going to criticize an argument, state it first in a fair and sympathetic 
+         manner, making clear why a reasonable person might be led to think in such a way. In 
+         some cases, it may even be necessary to make charitable revisions to an argument. That 
+         is, sometimes an argument is flawed in a way that can be easily fixed. In that case, you 
+         should explain how the argument can be revised and then focus your criticisms on this 
+         stronger, revised version of the argument. For instance, consider the following objection 
+         against Thomson’s violinist example. Some people argue that Thomson's violinist 
+         example isn’t analogous to pregnancy because being hooked up to the violinist for nine 
+         months is a greater burden for the person kidnapped than pregnancy is for an expectant 
+         mother—at least, a pregnant woman can walk around and go places, whereas the person 
+         hooked up to the violinist is confined to a hospital bed. But it seems that Thomson could 
+         easily revise her analogy and still use it for the same effect. After all, even if we suppose 
+         that the violinist is very small and could be carried on one’s back for the nine months, it 
+         still seems permissible to disconnect yourself from him.  
+              The point is you don't want to take the weakest argument for an opposing view an 
+         attack that. Rather you want to think of the strongest possible argument for an opposing 
+         view and show that even that argument fails. Only then will you have convinced others 
+         that the opposing view is indefensible.  
+              It is important to keep in mind that it is never the case that the only problem with an 
+         argument is that its conclusion is false. If the conclusion is false, then either (a) one or 
+         more of its premises are false or (b) its reasoning is faulty such that the conclusion 
+         doesn’t follow from the premises. Thus, if you disagree with the conclusion of an 
+         argument, you must find fault with either its logic or with one of its premises, and you 
+         need to be explicit about which it is and why.  
+          
+          
+         9. Considering Potential Objections 
+         After offering reasons for accepting your thesis, you need to consider potential 
+         objections.  These objections come in two varieties, and you must consider both. First, 
+         there are objections to your argument, which can be directed against either your 
+         reasoning or your assumptions. Second there are objections to your thesis. The first sort 
+         of objection is directed against the reasons you give for your thesis, while the second 
+         sort is directed against the thesis itself.  
+              To deal with the first sort of objection, you will probably need to offer sub-arguments 
+         (i.e., arguments that defend certain steps or assumptions made in your main argument). 
+         But first you’ll need to ask yourself, to which of my assumptions and to which of the 
+         steps in my argument is someone of the opposing view likely to object. You'll need to 
+         offer counter arguments against such objections. Ultimately, the argumentative steps 
+         and assumptions you rely on should be acceptable to your opponent. This part of your 
+                     essay is absolutely essential. For if you fail to consider and rebut such objections, then 
+                     you will have failed to make a satisfactory positive case for your thesis.  
+                          The other type of objection is directed against your thesis/conclusion. You should ask 
+                     yourself the following questions: Does my conclusion have any controversial 
+                     implications? Can I think of any counter-examples to my conclusion? And, most 
+                     importantly, DON'T IGNORE YOUR OPPONENT'S COUNTERARGUMENTS. If you 
+                     make a claim that one of the philosophers we’ve discussed has argued against, you 
+                     absolutely must address that argument—see the section entitled “Criticizing an 
+                     Argument.” In other words, if your thesis is P and one of the philosophers we’ve 
+                     discussed has argued not-P, then you must show where that philosopher’s argument for 
+                     not-P goes wrong. If you don’t, you will receive a poor grade. Of course, if you don't 
+                     think that you can adequately rebut the argument, then you need to change your thesis 
+                     to something you can defend.  
+                      
+                      
+                     10. Your Audience  
+                     In your paper, you must demonstrate that you have mastery of the philosophical issues 
+                     and arguments that you are discussing.  The best way to go about doing this is by 
+                     pretending that you are writing, not for your instructor, but for someone who knows 
+                     absolutely nothing about philosophy or the course that you’re taking.  So, as James 
+                     Pryor puts it,  
+                      
+                          Pretend that your reader has not read the material you're discussing, and has not given the topic 
+                          much thought in advance. This will of course not be true. But if you write as if it were true, it will 
+                          force you to explain any technical terms, to illustrate strange or obscure distinctions, and to be as 
+                          explicit as possible when you summarize what some other philosopher said.  
+                                   In fact, you can profitably take this one step further and pretend that your reader is lazy, 
+                          stupid, and mean. He's lazy in that he doesn't want to figure out what your convoluted sentences 
+                          are supposed to mean, and he doesn't want to figure out what your argument is, if it's not already 
+                          obvious. He's stupid, so you have to explain everything you say to him in simple, bite-sized pieces 
+                          [while also illustrating your points with helpful examples]. And he's mean, so he's not going to 
+                          read your paper charitably. (For example, if something you say admits of more than one 
+                                                                                            3
+                          interpretation, he's going to assume you meant the less plausible thing.)  
+                            
+                           
+                     11. Writing Clearly and Precisely 
+                     Refrain from using stuffy words and long-winded sentences. Avoid pretentious prose 
+                     such as, “alas,” “deem,” “quest,” “ponder,” “propound,” etc. Being clear is far more 
+                     important than appearing to have a sophisticated writing style. Avoid using vocabulary 
+                     that you are unaccustomed to using in ordinary conversation. Too many students think 
+                     that being philosophical involves being convoluted and obscure. Quite the opposite, 
+                     simplicity and clarity are the ideals of philosophy.  
+                                                                      
+                     3 See his “Guidelines on Writing a Philosophy Paper.” 
+                              You should choose your words very carefully. Ask yourself: Does what I’ve written 
+                         precisely express the thoughts that I mean to convey? Do not leave something unclear 
+                         and just assume that your reader will be able to figure out what you mean. For instance, 
+                         don’t write something like “Abortion is the same thing as murder.” Abortion and 
+                         murder are not the same thing. If abortion and murder were the same thing, then one 
+                         could say that Jack the Ripper aborted many women. But, of course, this is absurd. Jack 
+                         the Ripper murdered many women but aborted none. Of course, most people would 
+                         understand that what you meant was that abortion is a form of murder. But whether or 
+                         not your reader is able to figure out what you meant is irrelevant, because either way it 
+                         is bad writing.  
+                              You will find that philosophers write with a degree of precision that goes well 
+                         beyond that which is customary in ordinary conversation, and I will expect the same 
+                         degree of precision in your essay. The best way to ensure that you write clearly is to 
+                         keep your prose simple and direct. Don’t try to make your writing “colorful.” For 
+                         instance, don’t use metaphors—just plainly say what it is you have to say. And avoid 
+                         overstating what you have to say. Overstatement is common in everyday conversation 
+                         but unacceptable in a philosophy paper. For instance, in conversation someone might 
+                         say, “Everyone in the tropics is so relaxed.” But, of course, not everyone living in the 
+                         tropics is relaxed. So be careful when using words like “every” and “all.”   
+                              And avoid the following pitfalls:  
+                          
+                             Bad Diction: This is where a word is used inappropriately.  
+                                  Example: "Rachels's argument is false." (Statements, claims, beliefs, etc. can all be 
+                                   true or false, but not arguments. Arguments are valid or invalid, sound or 
+                                   unsound, cogent or not cogent.)  
+                                  Example: "Utilitarianism believes that the right act is the one that produces the 
+                                   greatest happiness for the greatest number." (Utilitarianism is a view, not a 
+                                   conscious entity. Thus utilitarianism is incapable of the mental act of believing. So 
+                                   you must revise this sentence. In its place, you could say, "Utilitarians believe..." 
+                                   or "Utilitarianism is the view according to which...")  
+                             Vagueness: This is where one fails to express what s/he means precisely.  
+                                  Example: "Abortion is not the best solution to an unwanted pregnancy." (Does 
+                                   this mean that although you think that abortion is morally permissible, you 
+                                   believe that it would be preferable for women with unwanted pregnancies to 
+                                   carry them to term and put their unwanted children up for adoption? Or, does 
+                                   this mean that you simply think that abortion is morally wrong?)  
+                             Ambiguity: This is where one uses a word that can have more than one meaning but 
+                              fails to specify which meaning is intended.  
+                                  Example: "A fetus is an innocent human being." (By claiming that a fetus is 
+                                   human, are you merely claiming that it is a member of the species Homo sapiens? 
+                                   Or, are you claiming that it is human in the morally relevant sense of that term, 
+                                   the sense in which we think you and I are human but someone in a persistent 
+                                   vegetative state is not?)  
+                       
+                       
+                      12. Quoting  
+                      Do not rely on quotations as a means of making your points. You should, rather, explain 
+                      things using your own words. The ability to explain someone else's position using your 
+                      own words demonstrates to the reader that you have a clear understanding of that 
+                      person's viewpoint. You should also avoid close paraphrasing for the same reason.  
+                           Use quotations only in order to support a particular interpretation of a text. So don't 
+                      quote unless you intend to discuss the quoted passage and how it supports your 
+                      interpretation of the text. Perhaps the only other exception is where you want to quote 
+                      the precise definition of a word, as it is given by one of the philosophers that you're 
+                      discussing.  
+                       
+                       
+                      13. Plagiarism 
+                      "Plagiarism is the act of using another person's ideas or expressions in your writing 
+                      without acknowledging the source...to plagiarize is to give the impression that you have 
+                      written or thought something that you have in fact borrowed from someone else.... 
+                      Other forms of plagiarism include repeating someone else's particularly apt phrase 
+                      without appropriate acknowledgment, paraphrasing another person's argument as your 
+                                                                                                                4
+                      own, and presenting another's line of thinking as though it were your own."   
+                           If you are at all unclear about what counts as plagiarism, then you should see your 
+                      instructor because plagiarism often carries severe penalties, ranging from an F on the 
+                      assignment to expulsion from the university.  
+                        
+                      ACKNOWLEDGMENTS 
+                      I cannot claim credit for many of the ideas contained within this guide. Many of them 
+                      have come from the other guides that I've looked at—I've listed them below. I have also 
+                      borrowed from handouts used by colleagues at both the University of California, Santa 
+                      Barbara and the College of Charleston. I have tried to give credit where credit is due, but 
+                      I may have left some people out. My sincere apologies to those individuals and my 
+                      thanks to the authors of all those guides.  
+                         
+                      OTHER GUIDES TO WRITING PHILOSOPHY 
+                          A. P. Martinich, Philosophical Writing, 2nd ed. (Cambridge, MA: Blackwell, 1996). 
+                          Joel Feinberg and Russ Shafer-Landau, Doing Philosophy (Belmont, CA: Wadsworth, 
+                           2001).  
+                          Stephen M. Garrison, Anthony J. Graybosch, and Gregory M. Scott, The Philosophy 
+                           Student Writer's Manual (Englewood Cliffs, NJ: Prentice Hall, 1997).  
+                          P. Martinich, Philosophical Writing, 2nd ed. (Cambridge, MA: Blackwell, 1996).  
+                                                                       
+                      4 Joseph Gibaldi and Walter S. Achert, MLA Handbook for Writers of Research Papers, 3rd ed. (New York, NY: 
+                      The Modern Language Association, 1988), 21-25. 
+                             Jay F. Rosenberg, The Practice of Philosophy: A Handbook for Beginners, 3rd ed. 
+                              (Englewood Cliffs, NJ: Prentice Hall, 1995).  
+                             Zachery Seech, Writing Philosophy Papers, 3rd ed. (Belmont, CA: Wadsworth, 1997).  
+                             Colin Allen, "A Guide to Writing Philosophy Essays."  
+                              http://snaefell.tamu.edu/~colin/Phil416/writing.html.  
+                             Istvan Berkeley, "How to Write a Philosophy Paper."  
+                              http://www.cariboo.bc.ca/ae/php/phil/mclaughl/courses/howrit.htm.  
+                             Barry Brown, "How to Write an Essay in Bioethics."  
+                              http://www.chass.utoronto.ca:8080/philosophy/phlwrite/brown1.html.  
+                             Rich Cameron, "The Structure of a Typical Philosophy Paper." 
+                              http://www.colorado.edu/philosophy/fac/cameron/ethics1100/ho.rfww.html. 
+                             R. L. Franklin, "On Writing Philosophy Assignments."  
+                              http://www.lincoln.ac.nz/emd/staff/godlovs/tips/rlfessay.htm.  
+                             James Harold, "On Writing Philosophy Papers." 
+                              http://www.tc.umn.edu/~harol006/paper.html. 
+                             R. W. Hepburn, "Good and bad in philosophy essays." 
+                              http://www.arts.ed.ac.uk/philosophy/study_html/vade-mecum/sections/section4/4-
+                              1.htm. 
+                             Peter Lipton, "Writing Philosophy." 
+                              http://www.pitt.edu/~rclifton/WritingPhilosophy.html. 
+                             Geoffrey Payzant, "What does he want?"  
+                              http://www.chass.utoronto.ca:8080/philosophy/phlwrite/payzant.html.  
+                             James Pryor, "Guidelines on Writing a Philosophy Paper." 
+                              http://www.princeton.edu/~jimpryor/general/writing.html. 
+                             Evan Thompson and Duff Waring, "Essay Writing Handbook for Philosophy 
+                              Students."  
+                              http://www.yorku.ca/hjackman/Teaching/handbook.pdf.  
+                             Michael Tooley, "Writing a Good Ethics Essay." 
+                              http://spot.colorado.edu/~tooley/WritingEssays.html. 
+                             Ellen Watson, "A Guide for Writing Papers in Philosophy."  
+                              http://www.uq.oz.au/~pdgdunn/watessay.htm.  
+                             Martin Young, "Undergraduate Philosophical Writing."  
+                              http://eee.uci.edu/programs/philoswr/. 
+                             Rich Cameron, "The Structure of a Typical Philosophy Paper," at 
+                              http://www.colorado.edu/philosophy/fac/cameron/ethics1100/ho.rfww.html. 
+                             Adam Polak, "Essentials of Effective Persuasive Essays," at 
+                              http://spot.colorado.edu/~tooley/WritingEssays.html.  
+                             Charles Darling, Guide to Grammar and Writing, at 
+                              http://webster.commnet.edu/grammar/index.htm.  
+                             Martin Young, "Undergraduate Philosophical Writing," at 
+                              http://eee.uci.edu/programs/philoswr/.  
+                               

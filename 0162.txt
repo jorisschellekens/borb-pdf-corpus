@@ -1,0 +1,115 @@
+                           Call for Papers: 38th Internaitonal Symposium on Combusiton 
+                           Released: 3 April 2019 
+                           The 38th Internaitonal Symposium on Combusiton will convene at the Adelaide Conveniton Centre, Adelaide,   
+                           Australia from Sunday, 12 July through Friday, 17 July 2020. Scienitsts, engineers, and others interested in  
+                           combusiton are invited to attend and paritcipate in this biennial world congress of The Combusiton Insittute. 
+                           Symposium Agenda 
+                           The technical program will consist of contributed papers and Work-in-Progress Poster (WiPP) sessions.  
+                           Invited lectures, topical reviews, and special industry perspecitves will be presented by eminent specialists. 
+                           Technical Program Co-Chairs  
+                           Tim Lieuwen, Georgia Insittute of Technology, USA     Fei Qi, Shanghai Jiao Tong University, China  
+                           Colloquia Descripitons 
+                           A total of 13 colloquium categories will be addressed at the 38th Internaitonal Symposium on Combusiton. Authors 
+                           must indicate a choice of colloquium with their submissions.  
+                           GAS-PHASE REACTION KINETICS including the kineitcs of hydrocarbons and oxygenated fuels, formaiton of gaseous 
+                           pollutants, elementary reacitons, mechanism generaiton, reduciton and uncertainty quanitifcaiton.  
+                           Michael P. Burke, Columbia University, United States; Guillaume Dayma, Université d'Orléans—CNRS/ICARE, France; 
+                           Perrine Pepiot, Cornell University, United States; Raghu Sivaramakrishnan, Argonne Naitonal Laboratory, United 
+                           States; Bin Yang, Tsinghua University, China; Judit Zádor, Sandia Naitonal Laboratories, United States. 
+                           SOOT, NANOMATERIALS, AND LARGE MOLECULES including the formaiton, growth, and destruciton of soot, PAHs, 
+                           carbon nanostructures, and other nanoscale materials. Per-Erik Bengtsson, Lund University, Sweden; Yuyang Li, 
+                           Shanghai Jiao Tong University, China; Michael E. Mueller, Princeton University, United States; William Roberts, King 
+                           Abdullah University of Science and Technology, Saudi Arabia; Xiaoqing You, Tsinghua University, China. 
+                           DIAGNOSTICS including the development and applicaiton of diagnositc techniques and sensors for the 
+                           understanding and control of combusiton and reacitng lfow phenomena. Aamir Farooq, King Abdullah University of 
+                           Science and Technology, Saudi Arabia; Tina Kasper, University of Duisburg-Essen, Germany; Jeffrey A. Sutton, Ohio 
+                           State University, United States; Wolfgang Meier, Deutsches Zentrum für Lutf- und Raumfahrt e.V., Germany. 
+                           LAMINAR FLAMES including their igniiton, structure, propagaiton, exitnciton, stabilizaiton, dynamics, and 
+                           instabiliites. Zheng Chen, Peking University, China; Christos E. Frouzakis, ETH Zürich, Switzerland; Fabien Halter, 
+                           Université d'Orléans—CNRS/ICARE, France; Zuohua Huang, Xi'an Jiaotong University, China; Jeong Park, Pukyong 
+                           Naitonal University, Republic of Korea; Eric L. Petersen, Texas A&M University, United States; Bruno Renou, CORIA, 
+                           INSA Rouen Normandie, France. 
+  
+                       Call for Papers: 38th Internaitonal Symposium on Combusiton 
+                       Colloquia Descripitons (conitnued) 
+                       TURBULENT FLAMES including their igniiton, structure, propagaiton, exitnciton, stabilizaiton, dynamics, and 
+                       instabiliites. Bénédicte Cuenot, CERFACS, France; Evatt R. Hawkes, University of New South Wales, Sydney, Australia; 
+                       Akihiro Hayakawa, Tohoku University, Japan; Santosh Hemchandra, Indian Insittute of Science, Bangalaore, India; 
+                       Nicolas Noiray, ETH Zürich, Switzerland; Adam Steinberg, Georgia Insittute of Technology, United States; Yue Yang, 
+                       Peking University, China. 
+                       SPRAY, DROPLET, AND SUPERCRITICAL COMBUSTION including atomizaiton, combusiton of droplets, sprays, and 
+                       supercriitcal lfuids. Matthias Ihme, Stanford University, United States; S. Alex Schumaker, Air Force Research 
+                       Laboratory, United States; Laurent Selle, Insittut de Mécanique des Fluides de Toulouse, France; Stefan Will,  
+                       Friedrich-Alexander-University Erlangen-Nürnberg, Germany. 
+                       DETONATIONS, EXPLOSIONS, AND SUPERSONIC COMBUSTION including lfame acceleraiton, DDT, and pulse-
+                       detonaiton-, constant volume combusiton-, and scramjet-engines. Kareem Ahmed, University of Central Florida, 
+                       United States; Klaus Hannemann, German Aerospace Center, Germany; Jiro Kasahara, Nagoya University, Japan;  
+                       Keith R. McManus, GE Research, United States; Alexei Poludnenko, Texas A&M University, United States. 
+                       SOLID FUEL COMBUSTION including fundamental aspects related to pyrolysis, oxidaiton, gasiifcaiton, and ash 
+                       formaiton from coal, biomass, and wastes, as well as combusiton of propellants and metals. Satya R. Chakravarthy, 
+                       NCCRD, IIT Madras, India; Osvalda Senneca, Isittuto di Ricerche sulla Combusitone del Consiglio Nazionale delle 
+                       Ricerche, Italy; James C. Sutherland, The University of Utah, United States; Hiroaki Watanabe, Kyushu University, 
+                       Japan; Hongwei Wu, Curitn University, Australia; Hong Yao, Huazhong University of Science and Technology, China.  
+                       FIRE RESEARCH including fundamental aspects of igniiton, burning, spread and suppression of ifre, as well as 
+                       applicaitons to building ifre and urban/wildland ifre safety. Simo Hositkka, Aalto University, Finland; Longhua Hu, 
+                       University of Science and Technology of China, China; Samuel L. Manzello, Naitonal Insittute of Standards and 
+                       Technology, Japan; Bart Merci, Ghent University—UGent, Belgium; Yuji Nakamura, Toyohashi University of 
+                       Technology, Japan; Stanislav I. Stoliarov, University of Maryland, United States; Dong Zeng, FM Global, United States. 
+                       STATIONARY COMBUSTION SYSTEMS AND LOW CARBON COMBUSTION TECHNOLOGIES including combusiton in 
+                       staitonary power generaiton, lfuidized beds, incineraiton, uitlity boilers, industrial applicaitons, NO  and SO  
+                                                                                                         x      x
+                       reduciton, MILD combusiton, oxy-fuel combusiton, chemical looping, and CO  capture. James Dawson, NTNU, 
+                                                                                      2
+                       Norway; Chrisitan Hasse, Technische Universität Darmstadt, Germany; N. Swaminathan, Cambridge University, United 
+                       Kingdom; Paul Papas, United Technologies Research Center, United States; Sang Hee Won, University of South 
+                       Carolina, United States; Hai Zhang, Tsinghua University, China. 
+                       RECIPROCATING INTERNAL COMBUSTION ENGINES including device-speciifc aspects of fuels research, emissions, 
+                       direct injeciton, and combusiton dynamics (e.g. igniiton, quenching). André L. Boehman, University of Michigan, 
+                       United States; Sebasitan Kaiser, University of Duisburg-Essen, Germany; Magin Lapuerta, University of Casitlla-La 
+                       Mancha, Spain; Yi Yang, University of Melbourne, Australia; Mingfa Yao, Tianjin University, China. 
+                       GAS TURBINE AND ROCKET ENGINE COMBUSTION including propulsion and power generaiton, as well as device-
+                       speciifc aspects of fuels research, emissions, stability, and combusiton dynamics (e.g. igniiton, quenching, 
+                       thermoacousitcs). Mirko Bothien, Ansaldo Energia, Switzerland; Benjamin Emerson, Georgia Insittute of Technology, 
+                       United States; Robert Gordon, The University of Melbourne, Australia; Malissa Lighftoot, Air Force Research 
+                       Laboratory, United States; Jacqueline O'Connor, Pennsylvania State University, United States; William Proscia,  
+                       Pratt & Whitney, United States. 
+                       NEW CONCEPTS including assisted combusiton (plasmas, electric and magneitc ifelds), catalysis, fuel synthesis and 
+                       transformaiton, micro-channel reactors, integrated process intensiifcaiton, fuel cells, and electrolysis.               
+                       Joseph K. Lekfowitz, Technion – Israel Insittute of Technology, Israel; John Mantzaras, Paul Scherrer Insittute, 
+                       Switzerland; Li Qiao, Purdue University, United States; Wenitng Sun, Georgia Insittute of Technology, United States; 
+                       Stephen D. Tse, Rutgers University, United States. 
+  
+            Call for Papers: 38th Internaitonal Symposium on Combusiton 
+            Seleciton of Papers for Presentaiton and Publicaiton 
+            The seleciton of papers is based on the quality and scienitifc rigor of the submissions evaluated in a peer-review 
+            process. Authors are highly encouraged to provide assessment of experimental/numerical uncertainty and its 
+            impact on the interpretaiton of results and conclusions. The Colloquium Co-Chairs (CCCs) will solicit and evaluate 
+            written reviews in their topic area. The reviews will be sent to authors, a rebuttal will be requested, and when 
+            necessary, examined by the original reviewers. Based on this, CCCs will recommend papers for presentaiton to assist 
+            the Program Co-Chairs (PCCs) in the assembly of the ifnal symposium program. All accepted papers will be arranged 
+            into parallel sessions for oral presentaiton. Publicaiton in the Proceedings of The Combusiton Insittute is determined 
+            by the Proceedings editorial board, and is not guaranteed based on symposium presentaiton seleciton. Evaluaiton of 
+            manuscripts for publicaiton begins with reviewing the decisions of the CCCs and PCCs. Authors of papers considered 
+            for publicaiton will be requested to submit a revision, which will be reviewed by the editorial board, potenitally 
+            consulitng addiitonal reviewers. Addiitonal revisions may be requested during the process. Final publicaiton decisions 
+            will then be made.  
+            Instrucitons to Authors of Contributed Papers 
+            Please read the instrucitons on the submission site carefully before submiittng a paper. 
+            07 November 2019: Due date is 23:59 Paciifc Standard Time (GMT-8hrs) for receipt of completed paper. 
+            Week of 2 March 2020: Authors noitifed of acceptance for presentaiton at the symposium. 
+            For instrucitons on submission of papers, visit The Combusiton Insittute website: CombusitonInsittute.org. 
+            Work-in-Progress Posters (WiPPs) 
+            To provide a forum for presentaiton and discussion of work in progress, poster sessions will be scheduled to run 
+            concurrently with contributed oral sessions. Presentaiton in Work-in-Progress Poster (WiPP) sessions will be 
+            determined on the basis of a one-page abstract. A full-length paper is not required. The posters presented in WiPP 
+            sessions will not be published in the Proceedings of The Combusiton Insittute. The sessions will be organized by the 
+            WiPP Co-Chairs: Nicole J. Labbe, University of Colorado Boulder, United States; Zeynep Serinyel, Université d'Orléans, 
+            France; Zhen-Yu Tian, Chinese Academy of Sciences, China. 
+            Deadline for WiPP Submissions: 
+            15 April 2020: Due date is 23:59 Paciifc Standard Time (GMT-8 hrs) for receipt of abstracts.  
+            22 April 2020: Authors noitifed of decision for Work-in-Progress Posters. 
+            Carefully follow all WiPP instrucitons on The Combusiton Insittute website: CombusitonInsittute.org. 
+            Registraiton, Locaiton, and Accommodaitons 
+            For more informaiton about symposium registraiton, local arrangements and attracitons, and travel accommodaitons, 
+            visit the symposium website: CombusitonSymposia.org. 
+  

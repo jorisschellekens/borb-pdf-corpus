@@ -1,0 +1,844 @@
+                                              
+                                              
+            GLOBAL INCOME INEQUALITY BY THE NUMBERS:  IN HISTORY AND NOW 
+                                              
+                                     --AN OVERVIEW-- 
+          
+          
+          
+                                      Branko Milanovic1 
+          
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+         JEL classification: D31. 
+         Key words: globalization, global inequality, citizenship premium. 
+         Number of words: about 8,700. 
+         Sector board: social protection. 
+                                                          
+         1 Branko Milanovic is Lead economist, Development Research Group, Poverty and Inequality Unit (Email: 
+         bmilanovic@worldbank.org). The paper was first presented at the Conference on Global Justice held at the Libera 
+         Universita Internazionale degli Studi Sociali (LUISS) in Rome on June 6-9, 2012. It is written as part of the KCP-
+         funded project “Changeable inequalities: facts, perceptions and policies” TF012968. The interpretations and 
+         conclusions of this paper are entirely mine. They do not necessarily represent the views of the World Bank and its 
+         affiliated organizations, or those of the governments they represent. 
+          
+             
+                    When we think of income inequality, our first reaction is to think of it within the borders of 
+            a country. This is quite understandable for a world where the nastateti ison- very important in 
+            determining one’s income level, access to a number of benefits, from pensions to free health care, 
+            and where by far the dominant way in which political life is organized is at the level of a country. 
+            However, in the era of globalization another way to look at inequality between individuals is to go  
+            beyond the confines of a nation-state, and to look at inequality between all individuals in the world. 
+            Once we do so, many of the things about inequalities in general that we believe or that we think we 
+            know change; it is   like going from a two-dimensional flat world to a three-dimensional one.  
+                    As the  world becomes more integrated het  global dimension of  inequality likis ely to 
+            become increasingly relevant. This is for at least two reasons: because of much greater movement 
+            of factors of production across borders, and because of greater influence of other people’s 
+            (foreigners’) standard of living and way of life on one’s perceived income position and aspirations. 
+            Greater  movement of capital, goods, technology and ideas from one end of the globeto a  nother 
+            implies greater connectivity with people who are not one’s compatriots, and greater dependence on 
+            other nations for geneiron ofat       one’s  income.   Movements of labor which illu  thstris ate
+            interdependence in a most obvious fashion are still less important than movements of capital, but 
+            they are increasing. The knowledge of how other people live and how m umchoney they make 
+            influences  strongly our perception of  own income and position in the income pyramid. An 
+            imaginary community of world citizens is thus gradually built. And once this is done, comparisons 
+            of actual incomes and welfare between different members of that imaginary community acquire 
+            importance. This is why global inequality, even if not as relevant and importafontr an         average 
+            individual as inequality within her political community (nation state) will gain in importance. Once 
+            we compare ourselves with people from other parts of the world, we are indeed interested in global 
+            income distribution.  Global inequality  begins to matter.  
+                     
+                                                              2 
+             
+           1. Three concepts of inequality and how they evolved over the past sixty years 
+           When we talk about inequality that transcends national borders, we really often have in mind 
+       not one but three different conc—eevptsen when we are not fully aware of it. I am going to 
+       articulate  these three concepts.  
+           The first concept of  inequality (let’s call it Inequality 1) is focused on inequalitby etween 
+       nations of the world. It is an inequalitys tatistic calculated across GDPs or mean incomes obtained 
+       from household surveys of all countries in the world, without population-weighting.  
+            
+                      Figure 1 Three concepts of inequality defined 
+                              Concept 1 inequality
+                                       Concept 2 inequality
+                   Concept 3 (global) inequality
+                                                       
+        
+        
+           To show how this is done, considethr e three individuals in the top row oFf igure 1: the 
+       height of each person represents the GDP or mean income of his  or her  country. Somebody from a 
+       poor country would be represented as a short person, somebody from a middle-income country as a 
+       person of medium height, and somebody from a rich country as a very tall person. When we 
+       calculate this concept of inequality, we take all countries with their mean incomes –we have some 
+                                  3 
+        
+                                                                                                   2
+            150 countries  in the world with such da-  antad calculate the Gini coeffici.en tChina and 
+            Luxembourg  have the same importance, because we do not take populasitizones   into account. 
+            Every country counts the same, somewhat like in the UN General Assembly.   
+                    Consider now the second row of the figure which would help us define Concept 2 inequality 
+            or Inequality 2. There, individuals  from poor countries are all equally short as befoarnd te  hose 
+            from rich countries all equally tall, but the difference lies in the fact that countries’ population sizes 
+            are now taken into account.  We do exactly the same as we did in  Inequality 1, but now China and 
+            Luxemburg (or any other country) enter the calculation with their populations. In Figure 1, the poor 
+            country is the most populous (5 individua outls  of total of 10 displayheerd et), and the middle-
+            income country, the least populous (2 individuals).   Introducing population is very important.  As 
+            we shall see in the next section, during the past 25 years, the movements in Concept 1 and Concept 
+            2 inequalities were very differen. t Recall, however, that in both cases the calculation takes into 
+            account not actual incomes of individuals, but country averages.  
+                      Inequality 3 is  the  global inequality, which is the most important concept for those 
+            interested in the world as composed  of individuals, not nations. Unlike the first two concepts,th  is 
+            one is individual-based: each person, regardless of her country, enters in the calculation with her 
+            actual income. In Figure 1, this is represented by the different heights of individuals who belong to 
+            the same country. Not all Americans have the average income of the United States, nor do all 
+            Chinese have the average income of China. And indeed in Figure 1, the poorest person  is from   the 
+            middle-income country, while her compatriot is the second richest (the second tallest) in our group 
+            of ten individuals.  
+                    But moving from Concept 2 to Concept 3 inequalityi s not easy. The chief difficulty comes 
+            from the fact that to calculate the latter we need access to household surveys with data on individual 
+                                                             
+            2
+              Gini coefficient is a statistical measure of inequality  which takes  its  name from the Italian statistician and economist 
+            Corrado Gini. The Gini index is the most frequently used measure of inequality, ranging from 0 –w  hen everybody has 
+            the same income - to 1, or 100 (expressed as a percentage or an index), when one person gets the entire income of a city 
+            (province, nation, world)—whatever is the relevant population over which we calculate inequality.  
+                                                             4 
+             
+             incomes or consumption. They have to be measured usgin the same or similar methodology,  and 
+             need to include as many countries of the world as possible. Perhaps at least 120-130 surveys are 
+             needed in order to cover more than 90 percent of the world populationa nd account for 95 or more 
+             percent of world income.3 Ideally of course we would like to have surveys from all the countries in 
+             the world. This is a very hard requirement. There are still quite a few countries, mostly in Africa, 
+             where household surveys are not regularly conduct aednd where methodologies change, rather 
+             brusquely, from one survey to another, thus rendering comparisons difficult.  
+                    Because  the  calculation  of  global  inequality  relies on household s,  wure vecanysnot  
+             calculate Inequality 3 with much precision for the period  before the  mid- or late-1980s. There are 
+             simply no household surveys available for too many parts of the world. The first available Chinese 
+             household surveys are from 1982, the first usablseu rveys from the former SovietUn         ion are from 
+             1988, and for many Sub-Saharan African countries, the earliest household surveys date from the 
+             mid-1980s. Thus, for the past, we have to rely on much more ten datativta,e where countries’ 
+             income distributions are onlya pproximated, using various more or less reliable methodsTh. is is 
+                                                                                                        th
+             particularly so if we wish to study global inequality in the lo-rnun, cg    overing the 19  century as 
+             well—a topic which I will discuss in Section 3 below. 
+                    Figure 2 displays the movements of the three types of inequalitiesaf ter the Second World 
+             War. The Gini coefficient is on the vertical axis.  Inequality 1 was stable   from 1960 to 1980. This 
+             means that there was no systematically faster or slower growth of  poor or rich countries. Neither 
+             were poor catching on with the rich, nor were the two groupsg rowing further apart. Divergence 
+             started  only  at the beginning of globalization, around 1980, and went on until the turn of the 
+             century. These  two decades were very bad as far as  convergence, or catching up by poor countries, 
+             is concerned: rich countries grew, on average, faster than poor countries.  However China and India, 
+                                                              
+             3
+              The coverage is always greater for total world income than population because countries that do not have household 
+             surveys are generally poor countries whose importance in global output is small.  
+                                                                5 
+              
+      which are the huge success cases of that period and the two most populous countries in the world,  
+      do not enter into calculation of Inequality 1 with greater weights than any other country.  
+       
+                 Figure 2. International and global inequality, 1952-2011: 
+                     “The mother of all inequality disputes” 
+              75
+              .
+                                      Concept 3
+              65        Concept 2
+             t.
+             en
+             i
+             ic
+             f
+             f
+             oe
+             i c
+             in
+             G55           Concept 1
+              .
+              45
+              .
+              1950  1960 1970  1980 1990  2000 2010
+                               year
+                                                    
+          Let  us now  considerf urther  Figure 2.  Why is it   called  “the mother of all inequality 
+      disputes”? To see what the dispute is about, consider the difference in the movements ofI nequality 
+      1 and Inequality 2. While the first, as we just saw, ro sdeuring the globalization era, the second 
+      declined, at times even dramatically.  Measured by Inequality 2, the world has certainly become a 
+      much better (“more convergent” or more equal) place precisely during the same period. Thus, those 
+      who desire to emphasize the unevenness ofob gall ization tend to focus on growing inter-country 
+      gaps, not takin ginto account sizes of population, and prIneeqfeur ality 1. Those who, on the 
+      contrary, wish to focus on positive aspects of globalization tend to favor Concept 2, and to point to 
+      the indubitable successes of China and India. In effect, to grasp intuitively why and how Concept 2 
+      inequality declined, we need just to recall that in these calculations, China counts a lot because of 
+      its large population size. And China, starting in the 1980s from an extremely low level of income, 
+                              6 
+       
+            has during the past three decades grown very fast, converging on the rich world. Until recently, it 
+            was China alone that had been preventing  a rise in global inequality as measured by Concept 2. But 
+            now it has “support” from India which is also  registering high rates of growth, and  is also starting 
+            from a very low baseline.  High rates of growth of these two countries arthuse   the major factor 
+            underlying the downward trend of Inequality 2.   
+                   Inequality 3 can be calculated, as mentioned before, only from the mid-1980s because we do 
+            not have household surveys going   further back in time.  Figure 2 shows thatI nequality 3 is higher 
+            than Inequality 2. This is true by definition because iIn nequality 3 people enter the calculations 
+            with their actual incomes, not with country average. s A quick glance at Figure 1 showsth  at the 
+            variability of  heights  is greater in th  theird  row than in the second. Averaging-outred  uces 
+            measured inequality.  
+                   To calculate “true” global inequality or Concept 3 inequalit,y we have to adjust people’s 
+            incomes with the  price levels they face and which, of course, differ between countries.  We are 
+            interested in real welfare of people and those living in “cheaper” countries will get a boost in their 
+            incomes compared to what they make in nominal dollar terms. The currency we use is international 
+            (or “PPP” for purchasing power parity) dollar wwhiitchh, i    n prniciple, one can buy the same 
+            amount of goods and services in any country of the world. Indeed, if we were not to adjust for the 
+            differences in price levels, and were to use nominal dollars, globainel  quality would have been 
+            even higher. This is because price levels tend to be lower in poorer countries, and income of people 
+            living in poorer countries thus gets a significant “boost” when we use PPP dollars. 
+                   Often, a key issue of concern regarding global inequality is not only its level, but its trend: 
+            has it been going up or down tdurhe ignglo balization  era? Global inequality is calculated at 
+            approximately five-year intervals, from 1988 (the first dot on the left) to 2008 (the dot on the right). 
+            If we compare this last dot  with a couple of dots for the earlier years, we see something that may be  
+            historically important: perhapsf or the first time since the Industrial Revolution, there may ba e  
+                                                            7 
+             
+                                         4
+            decline in global inequality. Between 2002 and 2008, global Gini decreased by 1.4 poie nts. W
+            must not rush to conclude  that what we see in the most recent years represents a real or irreversible 
+            decline, or a new trend, since we do not know if the decline of global inequality will continue in the 
+            next decades. It is so far just a tiny drop, a kink in the tren, bd ut is indeed a hopeful sign. For the 
+            first time in almost two hundred years—after  a long period during which global inequality rose and 
+            then reached a very high plateau—it may be setting onto a downward path.   
+                     The main reason for this break int he previous trend is what also underlies the decrease in 
+            Concept 2 inequality: fast growth of relatively poor and very populous countries, most notabl  y
+            China and India. Their growth, reflected in the rising real incomes of their populations, has not only 
+            curbed the rise in  global  inequality, but  pushed it slightly down. China’s and India’s roles stand in 
+            marked contrast to the two other factors that influence global inequality and which have both been 
+            clearly pro-inequality. The first is the  divergence of countries’ mean incomes which lasted from 
+            around 1980 to 2000; the second were  rising within-national inequalities in many countrie. sThe 
+            catching-up of poor and large countries has been the sole factor offsettin thgese upward pressures. 
+            But it has been such a strong factor that it has either kept global inequality from rising or, more 
+            recently with the acceleration of Indian growth, reduced it.  
+                    What can we saya bout the level of global inequality? What does the Gini of about 70, 
+            which is the value of global inequali ty(see Figure 2), mean? One way to look at it is to take the 
+            whole income of the world and divide it into two halve: sthe richest 8% will take one-half and the 
+            other 92% of the population  will take another half. So, it is a 928 w- orld. Applying the same type 
+            of division to the US income, the numbers are 78 and 22. Or using Germany, the numbersar  e 71 
+            and 29. Another way to look at it is to compare what percentage of world population, ranked from 
+            the poorest to the richest, is needed to get to the cumulative one-fifths of global income.  Three-
+                                                             
+            4
+              Our knowledge of the long-run evolution of global inequality is indeed very tentative, as far as its exact levels are 
+                                                                     th
+            concerned, but very clear as far as broad tendencies since the mid-19  century: the Industrial Revolution, by creating a 
+            massive divergence between the rich Western countries and the rest of the world, has pushed global inequality up (see 
+            also Section 3 below).   
+                                                             8 
+             
+                                                                                         th
+            quarters of  (the poorer) world population are needed to get to the first 1/5 of total income, but 
+            only 1.7% of those at the top suffice to  get to the last one-fifth.   
+                   Global inequality is much greater than inequality within any individual country. In Figure 3, 
+            global Gini of 70 is shown togetwheithr   the  Ginis for several countries. Global inequality is 
+            substantially  greater than inequality in Brazil, a country that is often held, despite tenhet r  ec
+            improvements under the Lula presidency, as an exemplar of excessive inequality. And it is almost 
+            twice as great as inequality in the United States.5 
+                        Figure 3. Global Gini coefficient compared to the Ginis of selected countries 
+                           .7                                                           World
+                                                                                  Brazil
+                           .6
+                           .5
+                          
+                           .4                                                          USA
+                           .3                                                          Sweden
+                           .2
+                                 1970            1980            1990            2000           2010
+                                                               year
+                                                                                                        
+                   How confident are we that these nums betrruly  reflect  what is happening  to  inequality 
+            among world citizens?  The  global inequality numbers come from calculations done across 
+            representative national surveys which monitor incomes or consumption of households. About 120 
+            such surveys stand behind each of the six dots shown in Figures 2 and 3. These 120 surveys include 
+            actual incomes or consumption levels for about 10 million people in the world. This is about 1.5% 
+            of the current  world population, not a negligible numberip, ale, snd iuffn pricientlyi nc
+                                                             
+            5
+              The vertical axis in Figure 3 shows Gini coefficient in its “natural” values, i.e., not in percentages. Thus a Gini of 0.7 
+            displayed there is the same as a Gini of 70. For simplicity, we use the second approach throughout the paper.  
+                                                             9 
+             
+             representative for the world as a whole even if  recently there has been an apparent greater 
+             reluctance of the rich to participate in nationahousl    ehold surveys. This in turn likely imparta s 
+             downward bias to national and perhaps to global inequality estimates.6   
+                     Table 1 shows  the coverage of world population bhousy         ehold surveys. The second row 
+             from the bottom shows the overall coverage which was in all years but one greater than  90%. This 
+             is quite good, but should not make us forget that the countries that are omitted because they do not 
+             conduct household surveys are not a random draw from among all countries in the world but are all 
+             poor countries such as Afghanistan, Sudan, Congo, Somalia, Eri, treeatc.    This is reflected in 
+             substantially lower population and income coverage of Africa. While the population coverage of 
+             other continents never falls below 92 percent, African coverage at its peak is 78 perce nt(see Table 
+             1). And, in a worrisome development, the number and availability of household surveys in Africa is 
+             currently less than five or ten years ago. If we could include all of the omitted countries, obagl l 
+             inequality would increase. In other words, what we calculate here, the Gini of about 70, is a lower 
+             bound to global inequality, simply because we do not have data from many of the poorest countries. 
+             Thus both the decreasing participation of rich individuals in nationasurvel  ys, and the fact that 
+             countries that do not have surveys are overwhelmingly poor, bias the global inequality numbers 
+             down.  
+                                                              
+             6
+               The effects of non-participation in surveys on measured inequality is by definition difficult to estimate since income of  
+             people who refuse to participate is not known. It is only indirectly (e.g., by looking at the geographical distributions of 
+             refusals as in Korinek, Mistiaen and Ravallion, 2005) that we can conclude that it is the rich who comply less. The 
+             difficulty of figuring out the effects of rich’s non-participation exists despite the intuition that it must underestimate 
+             actual inequality. In a model proposed by Angus Deaton (2005), where compliance decreases with income following a 
+             Pareto-like function, standard deviation of income  distribution does not change and inequality, by most measures, is 
+             unaffected. However, with different non-compliance functions, inequality may indeed be underestimated. 
+                                                                10 
+              
+                   
+                   
+                      Table 1. Population coverage by household surveys, 1988-2008 (in percent) 
+                                                         
+                                       1988      1993     1998      2002     2005     2008 
+           Africa                        48       76       67        77       78        75 
+           Asia                          93       95       94        96       94        98 
+           Latin America and the         87       92       93        96       96        95 
+           Caribbean 
+           Post-communist countries      99       95       100       97       93        92 
+           Rich world (Western           92       95       97        99       99        97 
+           Europe, North America 
+           and Oceania) 
+           World                         87       92       92        94       93        94 
+                                                                                          
+           Number of countries with     103      122       124      122       122      116 
+           household surveys 
+           Note: Post-communist countries include Eastern European countries (many of which are members of the EU), and 
+           former Soviet republics. This is not an ideal classification, and in the future it may have to be changed. 
+                                                       11 
+            
+         
+            2. From the fall of the Berlin Wall to the global financial crisis: Who won and who lost 
+            It is generally thought that there are two groups who are the big winners of the past two 
+        decades of globalization:  first, the very rich, those at the top of national and global income 
+        distributions, and second, the middle classes of emerging market economies, in particular China, 
+        India, Indonesia and Brazil. Is this true? Figure 4 provides an answer by showing the change in real 
+        income (measured in constant international or PPP dollars) between 1988 and 2008 at various 
+        percentiles of the global income distribution.  
+            What parts of the global income distribution registered the largest gains between 1988 and 
+        2008? As the figure shows, it is indeed among the very top of the global income distribution and 
+        among the “emerging global middle class”, which includes more than a third of  world population, 
+        that we find most significant increases in per capita income. The top 1% has seen its real income 
+        rise by more than 60% over those two decades.  The largest increases however were registered 
+        around the median: 80% real increase at the median itself and some 70% around it. It is there, 
+                 th   th
+        between the 50  and 60  percentile of  the global income distribution that we find some 200 million 
+        Chinese,  90 million Indians, and about 30 million people each from Indonesia, Brazil and Egypt.  
+        These two groups—the global top 1%  and the middle classes of the emerging market economies— 
+        are indeed the main winners of globalization. 
+            The surprise is that those at the bottom third of the global income distribution have also 
+        made significant gains, with real incomes rising between more than 40% and almost 70%. The only 
+        exception is the poorest 5% of the population whose real incomes have remained the same. It is this 
+        income increase at the bottom of the global pyramid that has allowed the proportion of what the 
+        World Bank calls the absolute poor (people whose per capita income is less than 1.25 PPP dollars 
+        per day) to go down from 44% to 23% over approximately the same 20 years. 
+                                     12 
+         
+                      Figure 4. Change in real income between 1988 and 2008 at various percentiles of global  
+                                   income distribution (calculated in 2005 international dollars) 
+                                                                                                              
+            Note: The vertical axis shows the percentage change in real income, measured in constant international dollars. The 
+            horizontal axis shows the percentile position in the global income distribution. The percentile positions run from 5 to 
+                                                                                                    th     th
+            95, in increments of five, while the top 5% are divided into two groups: the top 1%, and those between 95   and 99  
+            percentiles. 
+                     
+                     
+                    But the biggest losers (other than the very poorest 5%), or at least the “non-winners,” of 
+                                                    th       th
+            globalization were those between the 75   and 90   percentiles of  the global income distribution 
+            whose real income gains were essentially nil. These people, who  may be called a global upper-
+            middle class, include many from former Communist countries and Latin America, as well as those 
+            citizens of rich countries whose incomes stagnated.   
+                    Global income distribution has thus changed in a remarkable way. It was probably the 
+            profoundest global  reshuffle of people’s economic positions since the Industrial revolution. 
+            Broadly speaking, the bottom third, with the exception of the very poorest, became significantly 
+            better-off, and many of the  people there escaped absolute poverty. The middle third or more 
+            became much richer, seeing their real incomes rise by approximately 3% per capita annually.  
+             
+                                                             13 
+             
+            The most interesting developments, though, happened among the top quartile: the top 1%, 
+        and somewhat less so the top 5%, gained significantly, while the next 20%  either gained very little 
+        or faced stagnant real incomes. This created polarization among the richest quartile of world 
+        population, allowing the top 1% to pull ahead of the other rich and to reaffirm in fact -- and even 
+        more so in public perception -- its preponderant role as winners of globalization.  
+            Who are the people in the global top 1%? Despite its name, it is a less “exclusive” club than 
+        the US top 1 percent: the global top 1% consists of more than 60 million people, the US top 1% of 
+        only 3 million. Thus, among the global top percent, we find the richest 12 percent of Americans 
+        (more than 30 million people) and between 3 and 6 percent of  the richest Britons, Japanese, 
+        Germans, and French. It is a “club” still overwhelmingly composed of the “old rich” world of  
+        western Europe, northern America and Japan. The richest 1% of the embattled Euro countries of 
+        Italy, Spain, Portugal and Greece are all part of the global top 1 percentile. However, the richest 1% 
+        of Brazilians, Russians and South Africans belong there, too.  
+            To which countries and income groups do the winners and losers belong? Consider the 
+        people in the median of their national income distributions in 1988 and 2008. In 1988, a person with 
+        a median income in China was richer than only 10% of world population. Twenty years later, a 
+        person at that same position within Chinese income distribution, was richer than more than one- 
+        half of world  population. Thus, he or she leapfrogged over more than 40% of people in the world. 
+        For India, the improvement was more modest, but still remarkable. A person with a median income 
+                       th                 th
+        went from being at the 10   percentile globally to the 27 . A person at the same income position in 
+                        th   th
+        Indonesia went from the 25   to 39   global percentile. A person with the median income in Brazil 
+                                      th
+        gained as well. She went from being around the 40   percentile of  the global income distribution to 
+               th
+        about the 66  percentile. Meanwhile, the position of large European countries and the United States 
+        remained about the same, with median income recipients there in the 80s and 90s of global 
+        percentiles. But if the economic crisis that currently affects these countries persists, we should not 
+        be surprised to find the median individual in the “rich world” becoming globally somewhat poorer. 
+                                     14 
+         
+            So who lost between 1988 and 2008? Mostly people in Africa, some in Latin America and 
+                                                   nd     th
+        post-Communist countries. The average Kenyan went down from the 22   to the 12  percentile 
+                                 th   th
+        globally, the average Nigerian from the 16  to 13  percentile. A different way to see this is to look 
+        at how far behind the global median was an average African in 1988 and twenty years later.  
+        In 1988, an African with the median income of the continent had an income equal to two-thirds of 
+        the global median. In 2008, that proportion had declined to less than one-half. The position of a 
+                                                      th
+        median-income person in post-Communist countries slid from around the 75  global percentile to 
+           rd
+        the 73 . The relative declines of Africa, and Eastern Europe and the former Soviet Union confirm 
+        the failure of these two parts of the world to adjust well to globalization, at least up to the early 
+        years of the 21st century. Their improved more recent performance is still too fragile to have been 
+        reflected in the data. 
+            The Lorenz curves, which plot the percentage of cumulative income (running from 1 to 100) 
+        on the vertical axis against the percentage of cumulative population (running also from 1 to 100) on 
+        the horizontal axis, for 1988 and 2008 intersect in an almost textbook-like fashion (see Figure 5).  
+        Neither distribution is Lorenz-dominant. The gains at below and around the median make the 
+                                                    th
+        Lorenz curve for 2008 lie above the one for 1988 all the way up to the 80  percentile. For example, 
+        the bottom two-thirds of  world population received 12.7 percent of world income in 2008 as 
+        against 9.3 percent in 1998. But the stagnation or decline in real income of the global upper middle 
+        class, and big gains realized by the top 1%, reverse the position of the Lorenz curves for the last 
+        one-fifth of the distribution. Here, the top 1% in 2008 receives almost 15 percent of global income 
+        vs. 11½ twenty years earlier.  
+                                     15 
+         
+               Figure 5. Lorenz curves for global income distributions in 1988 and 2008 
+                                                          
+      Note: The Lorenz curve shows on the horizontal axis, the cumulative percentage of population, ranked from the poorest 
+      to the richest percentile, and on the vertical axis, the cumulative percentage of total income received by such population 
+      percentiles. If, for a given value of x, y is greater, it means that the bottom x percent of population receives a greater 
+      share of total income.   
+           
+          The bottom line is that these results show a remarkable change in the underlying global 
+      income distribution. We now live in a world with a bulge around the median with significantly 
+      rising incomes for the entire second third (or more) of the global income distribution. That is the 
+      new aspiring global middle class. We also see growing wealth and probably power of those at the 
+      very top and, remarkably, stagnant incomes for both the people just below the “enchanted” richest 1 
+      or 5 percent, and those poorest in the world. 
+                              16 
+       
+              
+                    3. Global inequality over the long-run: From proletarians to migrants   
+                    I will now look at  global inequality over the long sweep of historIt iy. s here that we can 
+             establish an important finding, which goes, I think, into some core issues of political philosophy 
+             and economics.  
+                    Let us try to do for the entire period since the Industrial Revolution the same type of global 
+             inequality calculations which we have just shown for thel ast 20 years. We ask, “what was global 
+                                                       th
+             inequality  then—say, around the mid-19  century?” It is a question impossible to answer with any 
+             precision,  because we do not have household survey sor any other reliable  sources of income data 
+             for these time. Ns onetheless, some important    attempts to estimate it have been made before, 
+             notably by François Bourguignon and Christian Morrisson (2002), who were the first to take such a 
+             long-run view. They used income levels (GDP per capita) from Angus Maddison’s database (2004; 
+             2007),  and some of tiher own (necessarily often shaky) estimates of income distributions for 
+             different parts of the worl, td o create global income distributions for eleven benchmark years 
+             spanning the period 1820-1992.   heTy did the best one could  do with the available data —and  
+             their results have been corroborated, to the extent that it is possible to corroborate something as 
+             tentative, by several later authors (Van Zanden,  Baten, Foldvari and van Leeuwen 2010; Milanovic, 
+             2011). The basic story that emerges from  these calculationsof  income inequality  in  far-away 
+             times is that since the Industrial Revolution, which launched a score of European countries and their 
+                                                                                                                  th
+             overseas off-shoots onto a path of faster growth, globali nequality kept on rising untilth  e mid-20  
+             century.  There was  a p erofio md ore than a centur yof  steady increase in  global  inequality, 
+                                                                                                                  st
+             followed by perhaps fifty years (between the end of the Second World War and the turn of the 21 
+             century) when global inequality remained on a high plateau, changin gvery little. We saw this in  
+             Figure 2 where the six dots are all within several Gini points of each other, t, whaitthi in ones     -
+                                                                                             st
+             standard error of the calculated Gini coefficien. tsIt is only in the early 21 century that global 
+             inequality might have commenced its downward course. If indeed this happe tnso pass, global 
+                                                               17 
+              
+              inequality would have charted a gigantic inverted U-shaped curve and perhaps in some fifty years—
+              if the emerging market economies continue to grow faster than the rich world—we might be back to 
+              the state of affairs that existed around the time of the Industrial Revolution. 
+                       But, for now, we are still very far from it. And perhaps nothing shows it better than Figure 6. 
+              There  the height of theb ar represents the Theil coefficient of global inequality  in two baseline 
+                                         7
+              years: 1870 and 2000. The height of the bar is much greater  now, meaning that global inequality 
+              today is greater than in 1870, which of course is not a surprise. 8 
+                                                           Figure 6. A Non-Marxian world: 
+                                                                                           th
+                            Level and composition of global inequality in the 19  century and around year 2000 
+                                                            (measured by the Theil index) 
+                                                                               
+              Note: I use Theil mean log deviation because it is exactly decomposable (as between “class” and “location”) and               
+              because the importance of each component does not depend on the rest of the decomposition. Anand and Segal (2008) 
+              in their review of global inequality studies suggest that it is the most appropriate inequality index for this kind of 
+              decomposition.   
+               
+                                                               
+              7
+                Theil coefficient, named after the Dutch econometrician Henri Theil, is another way to measure inequality. It is not as 
+              popular, nor is its meaning as intuitive, as Gini, but in this case, when we have to decompose inequality into two 
+              components, Theil coefficient is preferable to Gini whose decomposition is not “exact”. That is, with the Gini there is a 
+              residual terms whose interpretation is not always clear.  
+               
+              8
+                The results would have been the same with the Gini. 
+                                                                         18 
+               
+                     What is less obvious and less well known is that thshae res of the two factors determining 
+             global inequality have changed in a remarkable fashion. Global inequality can be decomposed into 
+             two parts. The first part is due to differences in incomes within nations, which means thatht at part 
+             of total inequality is due to income differences between rich and poorA  mericans, rich and poor 
+             Chinese, rich and poor  Egyptians and so on for all countries in the world.  f Ione adds up all of 
+             these within-national inequalities, one gets their aggregate contribution to global inequality. This is 
+             what I call the “class” component to global inequality because it accounts for (the sum) of income 
+             inequalities between different “income classes” within countries. The second component, which I 
+             call the “location” component,  refers  to the differences between mean incomes of all the countries 
+             in the world. So there, one act  ually asks “how much are the gaps in average incomes between 
+             England and China, between the Netherlands and India, between the United States and Mexico and 
+             so on influencing  global inequality?”  It is the sum of inter-country differences in mean incomes. In 
+             technical terms the first part “cl- ass”  –  is  also  called “within inequality”, the second pa–rt 
+             “location”- is called “between inequality”. 
+                     Figure  6  plots these two parts, class and location, for the years 1870        and 2000.  Around 
+             1870, class explained more than 2/3 of global  inequality. And  now?T he proportions have exactly 
+             flipped: more  than 2/3 of tota linequality  is due to location. The implication of this overwhelming 
+             importance of location, or which is the same, citizenship (i.e., being a member of a rich or po or
+             country), for our lifetime incomes can be also very well captured by another exercise. We divide the 
+             population of each country into 100 income percentiles, ranked from the lowest to the richest. Now, 
+             if we run a regression with income levels of these percentiles (for 120 countries, this gives  12,000 
+             observations) as the dependent variable, and on the other side of the regression, use as the only  
+             explanatory variable  the mean income of the countryw  here each percentile comes fro,  m we 
+             explain  between  more than one-half of variability  in  individual  incomes.  This is a  remarkable 
+             achievement for a single explanatory variablDe. ifferently put, more than fifty percnte of one’s 
+             income depends on the average  income of the country where a person lives or was born (the two 
+                                                                  19 
+              
+     things being, for 97% of world population, the same). This githeve is mportance of the location 
+     element today.  There are of course other factors that  matter for one’s income, from gender and 
+     parental education which are, from an individual point of view externally given circumstances, to 
+     factors like own education, effort and luck that are not. They all  influence our income level. But the 
+     remarkable thing is that a very large chunk  of our income will be determined by only one variable, 
+     citizenship, that we, generally, acquire at birtIh. t is almost the same as saying, thaIt if kno w 
+     nothing about any given individual in the world, I can, with a reasonably good confidence, predict 
+     her income just from the knowledge of  her citizenship.   
+        As stated in the title of Figure 6, we live today in a non-Marxian world. Karl Marx could 
+     indeed eloquently write in 1867 in “Das Kapital”, or earlier in “The Manifetso”  about proletarians 
+     in different parts of the world—peasants in India,  wrsor iken England, France or German—y  
+     sharing the same political interests. They were invariably poor and, what is important, they were all 
+     about equally poor, ekin gout a barel yabove-subsistence existence, regardless of the countr yin 
+     which they lived. There was not much of a difference in their material positionsne c. Oould  
+     imagine and promote   proletarian solidarit, yand consequently—because equally poor people of 
+     different nations faced equally rich people each in their own nation—a generalized class conflict .
+     This was the idea behind Trotsky’s “permanent revolution”. There were no national contradictions, 
+     just a worldwide class contradiction.   
+        But if the  world’s actual situation is such that the greatest disparities are due to  the income 
+     gaps  between nations, then  proletarian solidarity does not  make much sense. Indeed income levels 
+     of poor individuals in poor countries are much lower than incom leveels of poor people  in rich 
+     countries. Those who are considered nationally poor in the United States or the European Union 
+     have incomes which are many times greater than the incomes of the poorpe  ople in poor countries 
+     and moreover often greater than the incomes of the middle class in poor countries. And if that gap is 
+     so wide, then one  cannot expect any kind of coalition between these income-heterogeneous groups 
+     of nationally poor peopl, oer at least not ancyo alition based on the similarit yof their material 
+                         20 
+      
+              positions and near-identity of their economici nterests. Proletarian solidarity is then simply dead 
+              because there is no longer  such a thing as the global proletariat. This is  why ours is  adistinctly 
+              non-Marxian world. But what kind of the world is it? To this question I turn next.  
+                        
+                       4. Gaps between country incomes today   
+                       In Milanovic (2012), I have argued that a proper analysis of global inequality today requires 
+              an empirical and  mental shift  from concerns with class to concerns with location, in other words, a 
+              movement “from proletarians to migran”.ts This was  meant to summarize a macro-development  
+              that has taken place over the last two centuriesIf t. he main determinant of one’s income  is now 
+              location, who are the underdogs? People who live in poor countries. And what do underdogs want 
+              to do? They want to become richer at home, or failing that, to migrate to richer places.  
+                       Figure 7. Different countries and income classes in global income distribution, 2005 
+                                 00
+                                 1
+                              n  90   United States
+                              io
+                              ut 80
+                              ib
+                              r
+                              t
+                              is 70
+                               d
+                              e          Russia
+                              om 60
+                              c                                                  China
+                              in 50
+                              d 
+                              l             Brazil                                                         India
+                              or
+                               w 40
+                              of
+                              e 
+                              il 30
+                              nt
+                              e
+                              c  20
+                              er
+                              p
+                                 10
+                                 1
+                                    1                5                    10                    15                   20
+                                                                      country ventile
+              Note: The line drawn at y=60 shows the global position of the poorest 5% of  the US population.                
+               
+               
+                                                                         21 
+               
+                    To illustrate the difference in the economic positions of people from different countries, we 
+            resort to the same exercise as was sketched above:I  di    vide the populations of a  lclountries into 
+            groups of 5% (called ventiles, since there are 20 such groups in a population) running from the 
+            poorest to the richest. This is shown on the horizontal a xoisf Figure 7: the poorest ventile in any 
+            country will be at x=1.  Consider for example the poorest 5% of people in the United States. I put 
+            them all together, and calculate their average income; I then do the same for the next 5%, then for 
+            the next 5% --all the way to the very top, richest ventile. The poorest 5% of Americans are making 
+            around $3,000-4,000 per capita per year. How do they compare  with the rest of the world? In what 
+            percentile of the global income distribution would they be? This is shown on the vertical axis. We 
+            can start  with intuition: poor Americans are unlikely to be amotnheg  poorest people globally 
+            speaking, because their incomes are not that low. For example, we know that some 20 percent of 
+            global population live at less than 1 international dollar per day, while the US poverty line  (below 
+            which, in principle, nobody in the United States should fall) is  13 dollars per day. Thus, intuitively 
+            and based on such very limited evidence, we can already expect the poorAmeresitcan           s  to be 
+            relatively high up in the globainl come distribution. Indeed,  as shown by the graph, the poorest 
+                                    th
+            Americans are at the 60  percentile of world income distribution. This means that they have higher 
+            annual income than 60% of the world population.  As one  moves higher up, obviously each richer 
+            ventile of Americans will stand even higher in the world income distribution,  ithw the richest 5% 
+            of Americans belonging to the global top 1 percent.  (Witha m    ore detailed and finer partitioning it 
+            can be shown that the top 11 percent of Americans are all part of the highest global percentile, as 
+            we saw in Section 2.). 
+                    How does the same thing look for a country like India? The very top of the income 
+            distribution in India overlaps with the very bottom of the income distribution in the Utedni States. 
+            Clearly, there are millionaires in India as well as other people who are quite rich, and the same 
+            graph with percentiles (rather than  ventiles) would have shown  the top end of India’s income 
+                                                                                                               th
+            distribution  to be a little bit higher, but even in that case  it would not go  past the globa   l 80
+                                                             22 
+             
+             percentile. So these rich Indian, as  s a group, barely match the average income of  middl-cleass 
+             Americans. Note that these are indeed very large groups of peopl eand that the averages may 
+             conceal some very high individual incomes: if I use ventiles, each Indian ventile consists of some 
+             60 million people, if I use percentile each percentile is 12 million people. The latter figure is equal 
+             to the population of the municipality of Mumbai.B  ut the key  point is that although there are in 
+             India some very rich, and even some extravagantly rich people, the nirumbers are not statistically 
+             significant, and  the number of people who  have the standard of living of  the American middle 
+             class is still very limited.  
+                    Consider the same graph for China. China dominates India throughout the whole income 
+             distribution (people at a given percentile level of Chinese distribution always have higher income 
+             than people at that same percentileof   India’s income distribution), and the Chinese top ventile  
+                                  th
+             attains almost the 80  percentile of  the world’s income distribution. If  we  used percentiles, the top 
+             1% of  the Chinese would be better-off than 93% of world population. 
+                    Consider now Brazil.N  ot surprisingly, Brazil  mimics the wor. Tld he poorest people in 
+             Brazil  are at the bottom of the global income distribution, among the poorest people in the world, 
+                                                                                                         th         th
+             while its fairly large middle clas se njoys income levels that place it between the 70        and  80  
+             percentiles in the world.  At the very top,  the richest Brazilians  are part of the top one or two 
+             global percentiles.   
+                                                                23 
+              
+                            Figure 8. Italy and the rest of the world 
+                     00
+                     1
+                    n90 Germany
+                    io
+                    ut80
+                    ib
+                    r
+                    t
+                    is70  Italy
+                     d
+                    e                      Albania
+                    om60
+                    c                                 Cote d'Ivoire
+                    in50
+                    d 
+                    l
+                    or      Argentina
+                     w40
+                    of
+                    e 
+                    il30
+                    nt
+                    e
+                    c20
+                    er
+                    p
+                     10
+                     1
+                      1       5         10        15        20
+                                      country ventile
+                                                                
+            Figure 8, displayed in the exactly the same fashion as Figure 7, is dedicated to Ital buty   
+        could have done for any important migrationr-eceiving country: United States, Germany, France or 
+        Spain. In  the Figure, Italy’s  distribution is compared with that of the world, and then with the 
+        distributions of the  countries  providing  the bulk of immigrantst oin Italy.  First, where is Italy, 
+                                                     th
+        compared to the rest of the world? Its poorest people are just below the 60 global percentile; it is, 
+        as we just saw ,approximately the same percentile where the poorest Americans are. As we move 
+        toward the richer Italian ventiles, their global position (obviously)i mproves, and the richest 5% of 
+        Italians are at the top of the world, that is, among the top global percentile.  
+            Compare now Italy with a few other countries, Germany for example.  What stands out is 
+        the very high income level of the bottom ventiles for Germany. The same would be tru ife instead 
+        of  Germany,  we used Denmark, Norway or other Nordic countries. The people at the bottom of the 
+                                              th 
+        income distributions in those countries are around thepe 80rcentile of the world income 
+                                           th
+        distribution  or highe.r The poorest Danes are at the 9 0percentile while in the countries like 
+                                     24 
+         
+                                                          th
+        Mozambique and Uganda not even the top ventile reaches further than the 65 percentile. The 
+        poorest Danes (as a group) are richer than the richest Ugandan (as a group).   
+            To zero in on the importance of citizenship and consequently migrat istion, i useful to 
+        compare the data  for Italy with those for the countries wher emost of migrants into Italy come 
+        from. This is  because the major implication of a world where location matters is that migration can 
+        significantly  increase a person’s  income. The way to improve one’s standard of living is simply to 
+        move  to a richer country. In Albania, about 30% of the population  have incomes that are below the 
+        poverty  threshold in Italy, and obviously these peopl, eeven if they were to become the poorest 
+        people in Italy  after migration, would still improve their real income.  The same is true for 
+        Argentina: a very high percentage –about a quarter of the population—have  incomes that are below 
+        the Italian de facto poverty threshold.  And finally consider the Ivory Coast, as a representative of 
+        African countries.  Ther, e  a staggering 80% of the population belivlowe   the Italian poverty 
+        threshold.  So if these 80% of Ivoirians were to move to Italy, they would all become better o—ff
+        even if they were just to join the poorest Italians. 
+             
+            5. Concluding remarks: Philosophical reflections and political implications. 
+            I want to conclude with two points which I think can be derived from what I discussed so 
+        far.  
+            The first one is an issue fo rpol  itical philosophy. If most of global inequality is due to 
+        differences in location, can we treat locatio, nand thus citizenship, as a ren ot r a premium (or 
+        observely, as a penalty)?  Is citizenship—belonging to a given country, most often through birth—
+        something that  gives us by itself the right to greater income? Is there a difference in our view of the 
+        matter if we take a global, as opposed to national perspective? I s there a contradiction between the 
+        two?  
+            Within a single country, society tries in principle to limit the advantages acthcrat ue to 
+        people born in rich familie. Ts his includes    having  access to better education and health, to 
+                                     25 
+         
+        powerful friends and  private information, and of course to greater wealth.  Society tries to limit 
+        these inherited advantages by either taxing wealth or b ymaking education, health etc. available to 
+        all, regardless of their income level. But what is the case i n the “global world”? The situation is, at 
+        one level, very similar. There are rich countries that have accumulated lots of wealth, and transmit 
+        that wealth, along with  many other advantages, to the next generations of their citizens. This is 
+        why, for example, the poorest Americans  are relatively well-off by world standards. They are lucky 
+        to have been born in the country that is rich (or has becomech r;i  the case was differentw  ith the 
+                         th
+        poorest Americans in the 17  century).  And there are also people from poor countries who do not 
+        have  wealth, and advantages and opportunitie sit confers. But—and this is in stark  difference to 
+        the within-country case —this is considered unobjectionable, or rather it is not questionedw hether 
+        one  may keep on benefiting from something that the previous generations have created, and she has 
+        simply inherited by virtue of birth. In one case, we frown upon the transmission of  famil-yacquired 
+        wealth to offsprings if two different individuals belong to the same nation. nI the other case, we 
+        take it as normal that there is a transmission of collectively acquired wealth over generations within 
+        the same nation, and if two individuals belong to two different nations, we do not even think, much  
+        less question, such acquired differences in wealth, income and global social position.  
+            Now, in political philosophy, there are good arguments to go on with that approach, as we 
+        implicitly do today, and there are also good arguments to disapprove of it. It is hard to decide which 
+        way is right. But what we can do is to put that argument on the table, open it for discussion.  
+            The second implication of all of this has to do,of  course, with the issue of migration. If   
+        citizenship explains 50 percent or more of variability in global incomes, then there are three ways in 
+        which  global inequality can be reduced. Global inequality may be reduced by high growth rates of 
+        poor countries. This requires an acceleration of income growth of poor countries, and of course  
+        continued high rates of growth of India, China, Indonesia, etc.  The second way is to introduce 
+        global redistributive schemes although it is very difficult to see  how  that could happen. Currently, 
+        development assistance is a little over 100 billion a year. This is  just five  times more than the 
+                                     26 
+         
+        bonus Goldman Sachs paid itself during onecr isis year.  So we are not really talking about very 
+        much money that the rich countries are willing to spend to help poor countries. But the willingness 
+        to help poor countries is now, with the ongoing economic crisis in the West, probably reaching its 
+        nadir. The third way in which global inequality and poverty can be reduced is through migration. 
+        Migration  is likely to  become one of the keyem prsobl—or solutions, depending on one’s  
+                     st
+        viewpoint— of the 21  century. To give just one stark example: if you classify countries, by their 
+        GDP per capita level, into four“wo  rlds”, going from the rich world of advanced nations, with 
+        GDPs per capita of over $20,000 per year, to the poorest, fourth, world with incomes under $1,000 
+        per year, there are 7 points in the world where  rich and poor  countries are geographically closest to 
+        each other, whether it is because they share a border, or because  the sea distance between them is 
+        minimal.  You would not be surprised to find out that atll hese 7 points have mines, boat patrol, s
+        walls and fences to prevent free movement of people. The rich world is fencing itself in, or fencing 
+        others out. But  the  pressures of migration arre emaining strong, despite the current crisis, simply 
+        because the differences in income levels are so huge.  
+            I conclude with something that resembles as l ogan: either poor countries will become 
+        richer, or poor people will move to rich countries. Actually, these two developments can be seen as 
+        equivalent.  Development is about people: either poor people have ways to b ecome richer where 
+        they are now, or they can become rich by moving somewhere else.  Looked from above, there is no 
+        real difference between the two options . From the point of view of real politics, there is a whole 
+        world of difference though.   
+                                     27 
+         
+       
+      REFERENCES: 
+       
+      Anand, Sudhir and Paul Segal, “What Do We Know about Global Income Inequality?, Journal of 
+      Economic Literature, No. 1, 2008, p. 85. 
+      Bourguignon, François and Christian Morrisson (2002), “The size distribution of income among 
+      world citizens, 1820-1990”, American Economic Review, September, pp. 727-744. 
+      Deaton, Angus (2005)  “Measuring poverty in a growing world”, Review of Economics and 
+      Statistics,  vol. 87, No. 1, pp. 1-19.  
+       
+      Korinek, Anton, Johan A. Mistiaen, and Martin Ravallion (2005), “Survey Nonresponse and the 
+      Distribution of Income”, World Bank Policy Research Working Paper 3543, March.   
+       
+      Maddison, Angus (2004), “World population, GDP and GDP per capita, 1-2000 AD”. Available at 
+      http://www.eco.rug.nl/~Maddison/.  
+       
+      Maddison, Angus (2007), Contours of the world economy, 1-2030: Essays in macro-economic 
+      history, Oxford: Oxford University Press. 
+       
+      Milanovic, Branko (2011), “Global inequality and the global inequality extraction ratio: the story of 
+      the past two centuries", Explorations in Economic History,  vol. 48,  November,  pp. 494-5 06. 
+       
+      Milanovic, Branko (2012), “Evolution of global inequality: from class to location, from proletarians 
+      to migrants”, Global Policy, vol. 3, No. 2, May .   
+       
+      Van Zanden, Jan Luiten, Joerg Baten, Peter Foldvari and Bas van Leeuwen (2010), “The Changing 
+      Shape of Global Inequality, 1820-2000”, typescript, December 2010.  
+       
+       
+       
+       
+                           28 
+       

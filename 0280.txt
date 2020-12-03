@@ -1,0 +1,924 @@
+            bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                 was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                         All rights reserved. No reuse allowed without permission. 
+                                                                                                                  
+                  
+           1     Mitochondrial PE potentiates respiratory enzymes to amplify 
+           2     skeletal muscle aerobic capacity 
+           3                                                          
+                                     1,7,                      1-5,                   1-5                 2
+           4     Timothy D. Heden,     * Jordan M. Johnson,      * Patrick J. Ferrara,    Hiroaki Eshima,  Anthony R. 
+                              1-5                      1,3                    2,5                    1,3
+           5     P. Verkerke,  Edward J. Wentzler,  Piyarat Siripoksup,  Tara M. Narowski,  Chanel B. 
+                           1,3               1,6                  1,6,8               2,5                              6
+           6     Coleman,  Chien-Te Lin,  Terence E. Ryan,             Paul T. Reidy,    Lisandra E. de Castro Brás,  
+                                       9                    10                   11                2,11,12
+           7     Courtney M. Karner,  Charles F. Burant,  J. Alan Maschek,  James E. Cox,                Douglas G. 
+                          7                   13                  2,4,17                    1,14              2,12
+           8     Mashek,  Gabrielle Kardon,  Sihem Boudina,            Tonya N. Zeczycki,       Jared Rutter,     
+                                    1,14,15                16                       2,4,5,17                 1,3,6
+           9     Saame R. Shaikh,         Jean E. Vance,  Micah J. Drummond,              P. Darrell Neufer,     
+                                  1-6,17 
+          10     Katsuhiko Funai
+          11      
+                 1
+          12     East Carolina Diabetes & Obesity Institute, East Carolina University, Greenville, NC. 
+                 2
+          13     Diabetes & Metabolism Research Center, University of Utah, Salt Lake City, UT. 
+                 3
+          14     Department of Kinesiology, East Carolina University, Greenville, NC. 
+                 4
+          15     Department of Nutrition & Integrative Physiology, University of Utah, Salt Lake City, UT 
+                 5
+          16     Department of Physical Therapy & Athletic Training, University of Utah, Salt Lake City, UT 
+                 6
+          17     Department of Physiology, East Carolina University, Greenville, NC. 
+                 7
+          18     Department of Biochemistry, Molecular Biology, & Biophysics, University of Minnesota, 
+          19     Minneapolis, MN.   
+                 8
+          20     Department of Applied Physiology & Kinesiology, University of Florida, Gainesville, FL. 
+                 9
+          21     Department of Orthopaedic Surgery & Department of Cell Biology, Duke University School of 
+          22     Medicine, Durham, NC. 
+          23     10Michigan Regional Comprehensive Metabolomics Resource Core, University of Michigan, Ann 
+          24     Arbor, MI. 
+          25     11Metabolomics Core Research Facility, University of Utah, Salt Lake City, UT. 
+          26     12Department of Biochemistry, University of Utah, Salt Lake City, UT. 
+          bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+               was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                   All rights reserved. No reuse allowed without permission. 
+              13
+         27     Department of Human Genetics, University of Utah, Salt Lake City, UT. 
+              14
+         28     Department of Biochemistry & Molecular Biology, East Carolina University, Greenville, NC. 
+              15
+         29     Department of Nutrition, University of North Carolina, Chapel Hill, NC. 
+              16
+         30     Department of Medicine, University of Alberta, Edmonton, Alberta, Canada. 
+         31   17Molecular Medicine Program, University of Utah, Salt Lake City, UT. 
+         32   *These authors contributed equally. 
+         33    
+         34   Correspondence Author: 
+         35   Katsuhiko Funai, Ph.D.,  
+         36   Diabetes & Metabolism Research Center 
+         37   15 N 2030 E, Salt Lake City, UT 84112 
+         38   Phone: (801) 585-1781 
+         39   Fax: (801) 585-0701 
+         40   kfunai@utah.edu                             
+            bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                 was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                        All rights reserved. No reuse allowed without permission. 
+          41    Abstract 
+          42    Exercise capacity is a strong predictor of all-cause mortality. Skeletal muscle mitochondrial 
+          43    respiratory capacity, its biggest contributor, adapts robustly to changes in energy demands 
+          44    induced by contractile activity. While transcriptional regulation of mitochondrial enzymes has 
+          45    been extensively studied, there is limited information on how mitochondrial membrane lipids are 
+          46    regulated. Herein, we show that exercise training or muscle disuse alters mitochondrial 
+          47    membrane phospholipids including phosphatidylethanolamine (PE). Addition of PE promoted, 
+          48    whereas removal of PE diminished, mitochondrial respiratory capacity. Surprisingly, skeletal 
+          49    muscle-specific inhibition of mitochondrial-autonomous synthesis of PE caused a respiratory 
+          50    failure due to metabolic insults in the diaphragm muscle. While mitochondrial PE deficiency 
+          51    coincided with increased oxidative stress, neutralization of the latter did not rescue lethality. 
+          52    These findings highlight the previously underappreciated role of mitochondrial membrane 
+          53    phospholipids in dynamically controlling skeletal muscle energetics and function.   
+          54     
+          55                                    
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+         56    Introduction 
+         57    Low aerobic capacity is a stronger risk factor for all-cause mortality compared to other common 
+                                                                                1
+         58    risk factors such as hypertension, type 2 diabetes, and smoking.  Skeletal muscle mitochondrial 
+                                                                                     2
+         59    respiration is the largest contributor for whole-body aerobic capacity,  which in turn is influenced 
+         60    by mitochondrial density and activities of the electron transport system (ETS). Changes in 
+         61    physical activity robustly alters skeletal muscle mitochondrial content and maximal aerobic 
+                        3,4
+         62    capacity.   Such proliferation or diminishment of mitochondrial biomass must coincide with 
+         63    synthesis or degradation of mitochondrial enzymes and structural lipids. While processes that 
+                                                                   5,6
+         64    regulate mitochondrial enzymes are well described,  it is unknown how composition of 
+         65    mitochondrial lipids change in response to these adaptations. 
+         66     
+         67    Lipids of the inner mitochondrial membrane (IMM) are largely phospholipids with only trace 
+                                                         7
+         68    amounts of sphingolipids and cholesterol.  They consist of phosphatidylcholine (PC, 38-45%), 
+         69    phosphatidylethanolamine (PE, 32-39%), cardiolipin (CL, 14-23%), phosphatidylinositol (PI, 2-
+         70    7%), phosphatidylserine (PS), phosphatidylglycerol (PG), and lyso-phosphatidylcholine (lyso-
+                                     8
+         71    PC, all less than 3%).  These phospholipids not only give rise to the shape of IMM but are also 
+                                                              8,9
+         72    essential for activities of the enzymes of ETS.   In particular, PE and CL are conical-shaped 
+         73    phospholipids that promote the formation of cristae where ETS enzymes reside. These non-
+         74    bilayer lipids lessen torsional strain of the IMM by localizing into the negatively curved inner 
+         75    leaflet.10 They also bind with high affinity to mitochondrial respiratory complexes and regulate 
+         76    their functions.8,11 Human mutations that promote loss of mitochondrial PE or CL are detrimental 
+         77    to health.12-14 
+         78     
+         79    In this study, we set out to describe changes in skeletal muscle mitochondrial phospholipidome 
+         80    that occurs with exercise or disuse. Mitochondrial PE emerged as a key lipid signature that was 
+         81    induced by alterations in physical activity. We then pursued the cellular consequences of 
+          bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+               was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                  All rights reserved. No reuse allowed without permission. 
+         82   changes in muscle mitochondrial PE per se in skeletal muscle-specific tamoxifen-inducible gain- 
+         83   or loss-of-function mouse models. Greater mitochondrial PE, in the absence of changes in the 
+         84   abundance of ETS enzymes, was sufficient to increase the capacity for oxidative 
+         85   phosphorylation. Loss of mitochondrial PE proved fatal due to metabolic and contractile failure 
+         86   in the diaphragm muscle.    
+         87    
+         88   Results 
+         89   Endurance exercise training induces a robust proliferation of skeletal muscle mitochondria to 
+                                      3
+         90   increase aerobic capacity,  but it is unknown whether training coincides with qualitative changes 
+                                                     8
+         91   in mitochondrial phospholipid composition.  C57BL6/J mice were subject to 5-wk of graded 
+         92   treadmill training which promoted skeletal muscle mitochondrial biogenesis (Supplement Figure 
+         93   1A). Phospholipid analyses of these mitochondria revealed a disproportionately greater increase 
+         94   in PE compared to other phospholipids (Figure 1A&B). High-capacity running (HCR) rats, which 
+         95   had been selectively bred for their intrinsic exercise capacity, demonstrate protection from a 
+         96   wide range of metabolic and cardiovascular diseases compared to low-capacity running (LCR) 
+         97   rats.15 Skeletal muscle mitochondria from HCR rats contained more PE than did LCR 
+         98   (Supplement Figure 1B). These observations led us to examine the possibility that an increase 
+         99   in mitochondrial PE contributes to increased aerobic capacity in exercise-trained mice or HCR 
+        100   rats. 
+        101    
+        102   Mitochondrial PE is synthesized primarily by the enzyme phosphatidylserine decarboxylase 
+        103   (PSD) that resides in the IMM.16,17 Skeletal muscle PSD expression was greater in exercise-
+        104   trained mice compared to sedentary mice (Figure 1C) and in HCR rats compared to that in LCR 
+        105   rats.18 Overexpression of PSD in murine C2C12 myotubes increased the maximal O  
+                                                                                           2
+        106   consumption rate (Supplement Figure 1C), suggesting that an increased amount of 
+        107   mitochondrial PE enhances respiratory capacity. To study the effects of increased mitochondrial 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        108    PE in vivo, we generated mice with tamoxifen-inducible skeletal-muscle specific overexpression 
+        109    of PSD (PSD-MKI) (Figure 1D). This strategy successfully yielded mice with skeletal muscle-
+        110    specific PSD overexpression (Figure 1E) and elevated mitochondrial PE (Figure 1F). High-
+        111    resolution respirometry/fluorometry experiments revealed that PSD overexpression increased 
+        112    the rates of O  consumption and ATP production (Figure 1G&H), effects that were not due to 
+                             2
+        113    increased mitochondrial mass, abundance of ETS enzymes (Figure 1I, Supplement Figure 1D), 
+        114    or fiber-type (Figure 1J). However, the increase in respiratory capacity did not increase treadmill 
+        115    endurance performance (Figure 1K) or skeletal muscle force generating capacity ex vivo (Figure 
+        116    1L, Supplement Figure 1E&F). PSD-MKI and control mice also did not differ in body weight or 
+        117    composition, food intake, or energy expenditure (Supplement Figure 1G-K). Thus, an increase 
+        118    in muscle mitochondrial PE can increase oxidative capacity but not to an extent that influences 
+        119    endurance. An increase in muscle endurance likely requires concomitant improvements in 
+        120    contractile elements and substrate mobilization. 
+        121     
+        122    Skeletal muscle disuse rapidly reduces mitochondrial mass and function. Reduced 
+                                                                                19
+        123    mitochondrial function precedes disuse-induced muscle atrophy  and might contribute to the 
+        124    mechanism for skeletal muscle loss.20 We subjected C57BL6/J mice to a 2-wk hindlimb 
+        125    unloading21 which promoted robust muscle loss (Figure 2A). Phospholipid analyses of skeletal 
+        126    muscle mitochondria revealed that disuse promotes an accelerated loss of PE (Figure 2B), 
+        127    concomitant with reduced PSD mRNA (Figure 2C). To model the loss of mitochondrial PE in 
+        128    vitro, we performed lentivirus-mediated knockdown of PSD in C2C12 myotubes (Supplement 
+        129    Figure 2A). Reduction in mitochondrial PE (Supplement Figure 2B) robustly reduced 
+        130    mitochondrial respiratory capacity (Supplement Figure 2C&D) in the absence of changes in ETS 
+        131    enzymes (Supplement Figure 2E&F), suggesting that lack of PE suppresses activities of 
+        132    membrane-bound ETS enzymes (Supplement Figure 2G&H). Since global knockout of PSD is 
+        133    embryonically lethal,22 we generated mice with tamoxifen-inducible skeletal muscle-specific 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        134    knockout of PSD (PSD-MKO) (Figure 2D&E). Skeletal muscle mitochondria from PSD-MKO 
+        135    mice were selectively depleted in PE esterified with polyunsaturated fatty acids (Figure 2F&G, 
+        136    Supplement Figure 2I&J). Strikingly, tamoxifen-induced KO promoted a rapid weight loss 
+        137    (Figure 2H), kyphosis (Figure 2I), and ultimately death between 6 and 8-wk after tamoxifen 
+        138    injection (Figure 2J). The lethality of PSD knockout was likely induced by ventilatory failure in 
+        139    respiratory muscles, a common symptom in mitochondrial diseases,23 as evidenced by reduced 
+        140    breathing rate and SpO  (Figure 2K&L). Cardiomyopathy, pulmonary edema, low bone density, 
+                                       2
+        141    hypophagia, or hypomobility did not explain the premature death in PSD-MKO mice 
+        142    (Supplement Figure 2K-S). Reduction in body weight was manifested in both lean and fat mass 
+        143    loss (Supplement Figure 2T) as well as in weights of individual muscles including diaphragm 
+        144    (Figure 2M, Supplement Figure 2U). The loss in muscle weights were explained by reduction in 
+        145    cross-sectional area of individual muscle fibers (Figure 2N, Supplement Figure 2V&W). The 
+        146    diaphragm displayed substantial fibrosis (Figure 2O) and loss of force-generating capacity 
+        147    (Figure 2P, Supplement Figure 2X&Y). Thus, acute loss of mitochondrial PE promotes a rapid 
+        148    loss of skeletal muscle mass and function that is reminiscent of atrophy found in disuse in limb 
+        149    muscles as well as that in respiratory muscles during mechanical ventilation.24  
+        150     
+        151    As PSD generates PE for the IMM, the underlying cause of lethal myopathy in PSD-MKO mice 
+        152    is also likely due to changes to mitochondria. PSD deletion deformed mitochondria with less 
+        153    dense cristae (Figure 3A), similar to findings in PSD-depleted CHO cells25 and global PSD 
+        154    knockout mice.22 These changes occurred in the absence of alteration in abundance of proteins 
+        155    involved in mitochondrial fusion and fission (Supplement Figure 3A). High-resolution 
+        156    respirometry and fluorometry experiments revealed a robust reduction in the rates of O  
+                                                                                                       2
+        157    consumption and ATP production in PSD-MKO muscles (Figure 3B&C, Supplement Figure 
+        158    3B&C), without changes in abundance of ETS enzymes (Figure 3D). PE molecules are bound to 
+        159    ETS complexes I, II, III, and IV, likely facilitating conformational changes and acting as an 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        160    allosteric activator.26-29 Indeed, enzyme activity assays revealed that activities of ETS 
+        161    complexes I-IV, but not V, were lower in muscles from PSD-MKO mice than in control muscles 
+        162    (Figure 3E). Oxidative phosphorylation is also dependent upon assembly of respiratory 
+        163    supercomplexes,30,31 and PE appears to be essential for this process.25 Indeed, reduction in 
+        164    mitochondrial PE essentially eliminated the formation of respiratory supercomplexes (Figure 
+        165    3F). Together, these observations suggest that mitochondrial PE deficiency stagnates efficient 
+        166    electron transfers in the ETS. In turn, inefficiency in electron transfer is predicted to promote 
+        167    electron leakage that causes superoxide production.32,33 Indeed, H O  production was markedly 
+                                                                                  2  2
+        168    higher in PSD-MKO muscles than in control muscles under various substrate conditions (Figure 
+        169    3G, Supplement Figure 3D-F). Elevated oxidative stress also increased reactive lipid aldehydes 
+        170    such as 4-hydroxynenal and malondeldehyde (Figure 3H&I),34 oxidized glutathione (Figure 3J), 
+        171    and counter-oxidative response proteins (Supplement Figure 3G) in PSD-MKO muscles to a 
+        172    greater extent than in control muscles. As oxidative stress has been implicated in skeletal 
+        173    muscle atrophy,35,36 we further tested the mechanistic link among mitochondrial PE deficiency, 
+        174    oxidative stress, and respiratory failure in PSD-MKO mice.  
+        175     
+                                                                                                37,38
+        176    In skeletal muscle, excess superoxide dismutase converts superoxides to H O .         To 
+                                                                                            2 2
+        177    neutralize H O  produced in mitochondrial PE deficient mice, we crossed the PSD-MKO mice 
+                            2 2
+        178    with mice that overexpressed mitochondrial-targeted catalase (mCAT) (Figure 4A, Supplement 
+        179    Figure 4A). This strategy yielded mice (mCATxPSD-MKO) with repressed skeletal muscle H O  
+                                                                                                            2  2
+        180    production (Figure 4B, Supplement Figure 4B). However, mCAT overexpression did not rescue 
+        181    the lethality of PSD-MKO mice (Figure 4C), nor did it ameliorate muscle atrophy (Figure 4D, 
+        182    Supplement Figure 4C), force generating capacity (Figure 4E, Supplement Figure 4D), or 
+        183    oxidative capacity (Figure 4F, Supplement Figure 4E). Thus, while mitochondrial PE deficiency 
+        184    increases oxidative stress, it is not directly responsible for the contractile and metabolic defects 
+        185    in the PSD-MKO mice. This finding was somewhat surprising since oxidative stress is predicted 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        186    to activate an array of downstream pathways, many of which overlap with defects observed in 
+        187    PSD-MKO mice.35,36 To understand the biological processes in PSD-MKO mice that might 
+        188    explain their lethality, we performed deep-sequencing analyses on diaphragms from control, 
+        189    PSD-MKO, and mCATxPSD-MKO mice. Transcripts for 6,026 genes were differentially 
+        190    expressed between control and PSD-MKO diaphragms, and some of which were rescued with 
+        191    mCAT overexpression (Supplement Figure 4F). However, a large majority of differentially-
+        192    expressed genes were not rescued with mCAT (Supplement Figure 4G), consistent with our 
+        193    observations that deficiency in mitochondrial PE triggers events independent of oxidative stress. 
+        194    Among the 68 pathways that were statistically significantly affected between control and PSD-
+        195    MKO diaphragms, 45 of them remained altered in mCATxPSD-MKO diaphragms (Figure 4G). 
+        196    Of particular interest, PSD deletion activated pathways for proteasome and ubiquitin-mediated 
+        197    proteolysis, but not lysosome or apoptosis, suggesting that mitochondrial PE deficiency likely 
+        198    promotes muscle atrophy via proteasomal degradation (Figure 4H). Interestingly, PSD deletion 
+        199    also induced activation of transcriptional and translational pathways that were not reversed in 
+        200    mCATxPSD-MKO diaphragms. As expected, mCAT overexpression suppressed activation of 
+        201    antioxidant pathways including glutathione metabolism and peroxisomal genes. 
+        202     
+        203    Discussion 
+        204    Phospholipid molecules are largely insoluble in the aqueous cytosol and their intracellular 
+        205    movements are relatively limited. Thus, the membrane phospholipid composition of different 
+        206    organelles is highly distinct, thereby creating a biophysical environment unique to each 
+        207    subcellular location. In mitochondria, the high concentration of PE not only promotes membrane 
+        208    curvature in the cristae, but is also essential for efficient electron transfer and oxidative 
+                                25,39,40
+        209    phosphorylation.        Recent reports identified loss-of-function mutations in the human PISD 
+        210    gene (that encodes PSD enzyme) that promotes severe mitochondrial dysfunction and 
+        211    characterized by congenital cataracts, short stature, facial dysmorphism, platyspondyly, ataxia, 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        212    and/or intellectual disability.12,14 Combined with data presented in the current manuscript, these 
+        213    findings indicate a critical role that mitochondrial PE plays in health and disease. 
+        214     
+        215    In skeletal muscle, inhibition of mitochondria-autonomous synthesis of PE via PSD causes 
+        216    robust skeletal muscle atrophy and ventilatory failure due to fibrosis and loss of contractility in 
+        217    the diaphragm muscle. The underlying cause appears to be due to a system failure of 
+        218    mitochondrial circuitry that is evident in reduced activities of complex I-IV, low supercomplex 
+        219    formation, and elevated electron leak (Figure 4I). We predict that these defects trigger 
+        220    proteosomal degradation pathways that promote muscle atrophy and weakness.  In contrast, 
+        221    such a phenotype does not occur when PE synthesis via the CDP-ethanolamine pathway on the 
+        222    ER is inhibited in skeletal muscle,41,42 suggesting that pools of PE made by PSD and CDP-
+        223    ethanolamine pathway are functionally distinct. How select phospholipids (such as PC, PI and 
+        224    PA) are transported from ER to mitochondria, but PE is unable to do so is not understood.17,40 
+        225    Furthermore, it is known that PE generated by PSD is readily transported from mitochondria to 
+        226    ER.43 Thus it remains possible that some of the defects in the PSD-MKO mice are due to a lack 
+        227    of PE exported from mitochondria. 
+        228     
+        229    In conclusion, our findings reveal that alteration in PE composition represents a key adaptive 
+        230    response to exercise or disuse in skeletal muscle mitochondria. Gain- or loss-of-function studies 
+        231    show that changes in mitochondrial PE modulates oxidative capacity independent of changes in 
+        232    abundance of ETS proteins. A deficiency of mitochondrial PE in the diaphragm muscle is 
+        233    detrimental to its metabolic and contractile function, leading to ventilatory failure and lethality. 
+        234    While these defects were associated with increased oxidative stress, its neutralization with 
+        235    mitochondrial-targeted catalase did not prevent any of the dysfunction induced by PSD 
+        236    deficiency. These findings also raise a possibility that reduced mitochondrial PE represents a 
+        237    mechanism by which disuse promotes the loss of muscle mass and function associated with 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        238    muscle atrophy. Changes in mitochondrial phospholipid composition appears to be an important 
+        239    regulatory mechanism by which physical activity modulates mitochondrial energetics in skeletal 
+        240    muscle.  
+        241     
+        242                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        243    Materials and Methods  
+        244    Rodent models 
+        245    PSD conditional knock-in (PSDcKI+/+) mice were generated by inserting myc-tagged mouse Pisd 
+        246    cDNA into a Rosa26 locus. Pisd cDNA was preceded by a CAG promoter and loxP-flanked stop 
+        247    codon for a tissue-specific ectopic expression of PSD. These mice were then crossed with HSA-
+        248    MerCreMer mice (tamoxifen-inducible α-human skeletal actin Cre, courtesy of Dr. Karyn Esser, 
+                                                                    +/-                 +/-
+        249    University of Florida) to generate PSD-MKI (PSDcKI , HSA-MerCreMer ) and control 
+                        +/-
+        250    (PSDcKI , No Cre) mice. Mouse embryonic stem (ES) cells that carried loxP sites flanking 
+        251    exons 4-8 of the mouse PSD gene were purchased from the European Conditional Mouse 
+        252    Mutagenesis Program (EUCOMM). The cells were microinjected into C57BL/6J blastocysts and 
+        253    transplanted in pseudopregnant females to produce PSD conditional knockout (PSDcKO+/+) 
+        254    mice. These mice were crossed with HSA-MerCreMer mice to generate PSD-MKO (PSDcKO+/+, 
+        255    HSA-MerCreMer+/-) and control (PSDcKO+/+, No Cre) mice. Mitochondrial catalase (mCAT) 
+        256    transgenic mice were purchased from the Jackson Laboratory (Stock No: 0161971) and crossed 
+                                                                               +/-         +/+
+        257    with PSD-MKO mice to generate the mCATxPSD-MKO (mCAT , PSDcKO , HSA-
+                           +/-                           +/-         +/+                                +/+
+        258    MerCreMer ), PSD-MKO, mCAT (mCAT , PSDcKO , No Cre), and control (PSDcKO , no 
+                                                      -/-         -/-                 +/-
+        259    Cre) mice. Cre control mice (PSDcKO  or PSDcKI , HSA-MerCreMer ) and tamoxifen-
+        260    untreated control mice displayed no difference in phenotype to loxP control mice. All mice were 
+        261    bred onto C57BL/6J background and were born at normal Mendelian ratios. Both male and 
+        262    female mice were studied with no difference in phenotypes. HCR and LCR rats were maintained 
+        263    and studied at the University of Michigan. All animals were fasted 4 h prior to tissue collection. 
+        264    All protocols were approved by Institutional Animal Care and Use Committees at University of 
+        265    Utah, East Carolina University, and University of Michigan. 
+        266     
+        267    Exercise training 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        268    Male C57BL/6J mice were kept untrained (n = 5) or underwent treadmill training (5 d/wk, 12 
+        269    m/min, 2-6% incline, n = 8) for 5 weeks. The mice were then sacrificed and tissues were 
+        270    dissected ~40 h after the last exercise session.  
+        271     
+        272    Hindlimb unloading 
+        273    Male C57BL/6J mice underwent 2 weeks of hindlimb unloading (HU) or were ambulatory 
+        274    controls. The HU (2 mice/cage) were subjected to a modified unloading method based on the 
+        275    traditional Morey-Holton design for studying disuse atrophy in rodents.21 Body weight and food 
+        276    intake were monitored every other day to ensure that mice did not experience excessive weight 
+        277    loss due to malnutrition or dehydration. At the end of day 14 of HU, mice were fasted for 4 h and 
+        278    anesthetized for tissue collection. 
+        279     
+        280    RNA quantification  
+        281    For qPCR experiments, mouse tissues or cells were lysed in 1 ml of Trizol (ThermoFisher) and 
+                                                                         TM
+        282    RNA was isolated using standard techniques. The iScript  cDNA synthesis kit was used to 
+        283    reverse transcribe total RNA and quantitative PCR was performed with SYBR Green® reagents 
+        284    (ThermoFisher). Pre-validated primer sequences were obtained from mouse primer depot 
+        285    (https://mouseprimerdepot.nci.nih.gov/). All mRNA levels were normalized to RPL32. For RNA 
+        286    sequencing, diaphragm RNA was isolated with RNeasy Kit (Qiagen, #74104). RNA library 
+        287    construction and sequencing were performed by the High-Throughput Genomics Core at the 
+        288    Huntsman Cancer Institute/University of Utah. RNA libraries were constructed using the Illumina 
+        289    TruSeq Stranded Total RNA Sample Prep Kit and contaminating rRNAs were removed using 
+        290    RiboZero Gold. Sequencing was performed using a NovSeq2 with 25 million reads per sample. 
+        291    Pathway analyses were performed by the Bioinformatics Core at the Huntsman Cancer 
+        292    Institute/University of Utah using the KEGG Pathway database. For differentially-expressed 
+        293    genes, only transcripts with Padj < 0.05 and BaseMean > 100 are included. For pathway 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        294    analyses, the area-proportional Venn diagram was drawn with eulerAPE.44 KEGG Pathways 
+        295    that were differentially expressed between control and PSD-MKO diaphragms were stratified to 
+        296    those that were or were not rescued by mCAT overexpression. 
+        297     
+        298    Mitochondrial isolation 
+        299    Tissues were minced in ice cold MIM buffer (300 mM Sucrose, 10 mM HEPES, 1 mM EGTA, 1 
+        300    mg/ml BSA, pH 7.4) and gently homogenized with a Teflon pestle. The homogenate was 
+        301    centrifuged at 800 x g for 10 min at 4°C. The supernatant was transferred to another tube and 
+        302    centrifuged again at 12,000 x g for 10 min at 4°C. The crude mitochondrial pellet was 
+        303    suspended in 15% Percoll (diluted with MIM buffer) and a discontinuous Percoll gradient was 
+        304    prepared consisting of 50%, 22%, and 15% Percoll layers. Mitochondria were carefully layered 
+        305    on top of the gradient and spun at 22,700 RPM for 10 min at 4°C in an ultracentrifuge (Thermo 
+        306    Scientific SureSpin 630 rotor). The purified mitochondrial fraction was collected at the 50% - 
+        307    22% Percoll interface. To remove excess Percoll, the collected mitochondrial fraction was 
+        308    diluted with MIM and spun for 3 min at 10,000 x g. This step was repeated twice and the final 
+        309    mitochondrial pellet was suspended in MIM buffer for experiments.   
+        310     
+        311    Lipid extraction, thin layer chromatography, and lipid mass spectrometry 
+        312    Mitochondrial lipids were extracted using a modified Bligh-Dyer extraction. Resuspended lipids 
+        313    were then used for phospholipid quantification by thin layer chromatography or mass 
+        314    spectrometry. The TLC plates were developed using chloroform:glacial acetic 
+        315    acid:methanol:water (65:35:5:2) as mobile phase for PC and PS, and chloroform:glacial acetic 
+        316    acid:methanol:water (85:25:5:2) as mobile phase for PE, CL, and PI. The plates were dried, 
+        317    sprayed with charring solution, and heated at 190 °C for ~15 min. Intensity of the charred lipid 
+        318    spots was measured using an Odyssey Infrarred Imager. Mass spectrometry analyses of 
+        319    phospholipids for exercise training, disuse, and PSD-MKI samples were performed at the 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        320    University of Utah Metabolomics Core, with untargeted (Agilent 6530 UPLC-QToF mass 
+        321    spectrometer) and targeted (UPLC-QQQ mass spectrometer) platforms. Mass spectrometric 
+        322    analyses of HCR/LCR and PSD-MKO samples were performed at the University of Michigan 
+        323    Nutrition and Obesity Research Center Metabolomics Core using a ABSCIEX 5600 TripleTOF 
+        324    mass spectrometer. For untargeted comprehensive lipidomics (exercise training, HCR/LCR, 
+        325    disuse), quantities are expressed as z-scores. 
+        326     
+        327    Cell culture 
+        328    C2C12 myoblasts were grown and maintained in high glucose DMEM + 10% fetal bovine serum 
+        329    (FBS) + 100 µg/ml of penicillin/streptomycin. Once 90-100% confluent, C2C12 myoblasts were 
+        330    differentiated into myotubes using low glucose DMEM (1 g/L glucose, L-glutamine, 110 mg/L 
+        331    sodium pyruvate) + 2% horse serum + 100 µg/ml of penicillin/streptomycin. HEK 293T cells 
+        332    were maintained in high glucose DMEM + 10% FBS + 100 µg/ml of penicillin/streptomycin. The 
+        333    overexpression or lentivirus-mediated knockdown of PSD was performed as previously 
+        334    described 45. Vectors were sourced from OriGene (Rockville, MD) for PISD-expressing plasmid 
+        335    (MR206380), Sigma (St. Louis, MO) for shRNA for mouse PISD (shPSD: TRCN0000115415, 
+        336    and Addgene (Cambridge, MA) for psPAX2 (ID #12260), pMD2.G (ID #12259), and scrambled 
+        337    shRNA plasmid (SC: ID #1864). 
+        338     
+        339    Mitochondrial respiration measurements 
+        340    Respiration in permeabilized muscle fiber bundles and isolated mitochondria was performed as 
+        341    previously described.46,47 Briefly, a small portion of freshly dissected red gastrocnemius muscle 
+        342    tissue was placed in Buffer X (7.23 mM K EGTA, 2.77 mM Ca K EGTA, 20 mM imidazole, 
+                                                         2                      2
+        343    20 mM taurine, 5.7 mM ATP, 14.3 mM phosphocreatine, 6.56 mM MgCl .6H O, and 50 mM K-
+                                                                                        2   2
+        344    MES, pH = 7.1), Fiber bundles were separated and permeabilized for 30 min at 4°C with 
+        345    saponin (30 µg/ml) and immediately washed in Buffer Z (105 mM K-MES, 30 mM KCl, 10 mM 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        346    K HPO , 5 mM MgCl .6H O, 0.5 mg/ml BSA, and 1 mM EGTA, pH = 7.4) for 15 min. After 
+                 2     4            2    2
+        347    washing, high-resolution respiration rates were measured using an OROBOROS Oxygraph-2k. 
+        348    The muscle fibers were suspended in Buffer Z with 20 mM creatine and 10 µM blebbistatin to 
+        349    inhibit myosin ATPases during respiration measurements. A variety of respiration protocols 
+        350    were utilized in permeabilized fibers and isolated mitochondria. For the mixed substrate 
+        351    protocol, the chamber was hyperoxygenated to ~300 pmol and started with the addition of 
+        352    malate (0.5 mM) followed by sequential additions of pyruvate (5 mM), ADP (2 mM), succinate 
+        353    (10 mM), cytochrome c (10 µM), rotenone (5 µM), malonate (5mM), duroquinol (0.25 mM), and 
+        354    antimycin A (2 µM). For the fatty acid oxidation protocol, the chamber was not hyperoxygenated 
+        355    and the protocol started with the addition of malate (0.5 mM) followed by sequential additions of 
+        356    palmitoyl-l-carnitine (50 µM) and ADP (2 mM). For Complex IV mediated respiration, rotenone 
+        357    (5 µM), malonate (5mM), and antimycin A (2 µM) were added to inhibit Complexes I-III, after 
+        358    which ascorbate (2mM, prevents autooxidation of TMPD), TMPD (0.5 mM), and KCN (20 mM) 
+        359    were sequentially added. When respiration experiments were complete, fiber bundles were 
+        360    washed in distilled H O to remove salts, then freeze dried in a lyophilizer (Lab-Conco). Dry 
+                                    2
+        361    weight was measured and respiration rate was expressed relative to fiber weight. When isolated 
+        362    mitochondria respiration rates were measured, the respiration rate was normalized to the total 
+        363    protein content in the chamber.   
+        364            Oxygen consumption rates in C2C12 cells were measured with a Seahorse Flux 
+        365    Analyzer XF24 or XFe96 (Seahorse Bioscience, Billerica, MA). The cells were plated at 
+        366    ~20,000-40,000 cells/well and then differentiated into myotubes. On the day of the experiment, 
+        367    medium was switched to XF Assay Medium Modified DMEM (pH = 7.4) containing added 
+        368    glucose (10 mM), pyruvate (200 mM), and glutamine (200 mM) for 1 h. Subsequently, basal and 
+        369    maximal respiration rates were measured as previously described.46  
+        370     
+        371    HO emission and production 
+                 2  2
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        372    The Amplex Ultra Red (10 µM) / horseradish peroxidase (3 U/ml) detection system was used to 
+        373    measure mitochondrial H O  emission and production fluorometrically (Ex:Em 565:600, 
+                                         2 2
+        374    HORIBA Jobin Yvon Fluorolog) at 37°C.47 Permeabilized muscle fibers were placed into a glass 
+        375    cuvette with Amplex Ultra Red reagents and buffer Z (with 1 mM EGTA and 23 U superoxide 
+        376    dismutase). Initially, an 8-min background rate was obtained, followed by addition of palmitoyl-L-
+        377    carnitine / malate (50 µM / 1 mM) into the cuvette for measurement of H O  emission rate. For 
+                                                                                        2 2
+        378    maximal H O  production rate, auranofin (1 µM) and carmustine (BCNU, 100 µM) were titrated 
+                          2  2
+        379    into the cuvette to inhibit thioredoxin reductase and glutathione reductase, respectively. The 
+        380    fiber bundles were washed in distilled H O, freeze dried, and dry weight was measured. H O  
+                                                        2                                                 2  2
+        381    rates were expressed relative to fiber weight. Rates were then corrected for O  consumption, 
+                                                                                              2
+        382    which was measured with an Oxygraph-2k machine in the presence of identical substrates.      
+        383     
+        384    Western blotting 
+        385    Tissues or cells were homogenized in lysis buffer, nutated at 4°C for 1 h, centrifuged at 4°C for 
+        386    15 min at 12,000 x g, and the supernatant was transferred to a new tube. Western blotting was 
+        387    performed as previously described (10) and samples were analyzed for protein abundance of 
+        388    FoxO1 (Cell Signaling, #2880), 4-HNE (Abcam, ab48506), DRP-1 (Abcam, ab56788), pDRP-1 
+        389    (Cell Signaling, #3455), Mfn-2 (Abcam, ab56889), Nrf2 (DSHB), FoxO3 (DSHB), PRDX4 
+        390    (DSHB), Citrate Synthase (Abcam, ab96600), and catalase (Abcam, ab1877).  
+        391     
+        392    Specific activity of mitochondrial enzymes 
+        393    The specific activities of electron transport chain enzymes were determined using 
+        394    spectrophotometric methods. Briefly, myoblasts or isolated mitochondria were freeze thawed 2-
+        395    3 times to disrupt the outer mitochondrial membrane and allow access of substrates to 
+        396    enzymes. The specific activity of each complex was measured at 37°C using reagents and 
+                                               48
+        397    substrates specified previously.  For experiments involving C2C12 cells, Complexes I and V 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        398    activities were measured in isolated mitochondria, whereas activities of other Complexes were 
+        399    measured in whole cells. Citrate synthase activity was measured on a 96-well plate using a 
+        400    commercially available kit (Sigma Aldrich, CS0720).   
+        401     
+        402    Blue native PAGE 
+        403    Isolated mitochondria suspended in MIM were solubilized (0.5-2 mg) in 2% digitonin for 15 min 
+        404    on ice and then centrifuged at 20,000 x g for 30 min at 4°C. The supernatant was collected and 
+        405    placed into a new tube, and protein content was measured. Approximately 25-35 µg of 
+        406    mitochondrial protein was suspended in a mix of native PAGE 5% G-250 sample buffer and 1X 
+        407    native-PAGE sample buffer (total volume of 10-20 µl). The samples and standards were then 
+        408    loaded onto a native PAGE 3-12% Bis-Tris Gel (ThermoFisher, BN1001BOX) and 
+        409    electrophoresis performed at 150 V for 3 h on ice. The gel was then placed in fixative solution 
+        410    (40% methanol, 10% acetic acid), microwaved on high for 45 s, and then shaken on an orbital 
+        411    shaker for 15 min at room temperature. After incubation, the gel was placed in destaining 
+        412    solution (8% acetic acid), microwaved on high for 45 s, then incubated overnight at 4°C on an 
+        413    orbital shaker. The gel was scanned for densitometry.    
+        414     
+        415    Glutathione protein abundance 
+        416    Protein levels of reduced glutathione (GSH) and oxidized glutathione disulfide (GSSG) were 
+        417    measured using high-performance liquid chromatography (Shimadzu Prominence HPLC 
+        418    system). Freshly dissected gastrocnemius muscle was hand homogenized with a glass pestle in 
+        419    buffer containing 50 mmol/L Trizma base, 20 mmol/L boric acid, 20 mmol/L L-serine, and 10 
+        420    mmol/L N-ethylmaleimide. The homogenate was then frozen until processing, in which the 
+        421    sample was split into two parts for detection of GSH and GSSG. For GSH measurement the 
+        422    homogenate was deproteinated with 1:10 (v/v) 15% trichloroacetic acid, centrifuged for 5 min at 
+        423    20,000 × g, and the supernatant was transferred to an autosampler vial for measurement of 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        424    GSH by high-performance liquid chromatography using 92.5% of a 0.25% (v/v) glacial acetic 
+        425    acid mixed with 7.5% pure HPLC-grade acetonitrile. Ultraviolet chromatography was used to 
+        426    measure the GSH–NEM conjugate at a wavelength of 265 nmol/L (SPD-20A; Shimadzu).  
+        427     
+        428    Malondialdehyde (MDA) quantification 
+        429    MDA content was quantified in fresh gastrocnemius muscles using a lipid peroxidation assay kit 
+        430    (Abcam, ab118970) according to manufacturer’s instruction. Rates of appearance of MDA-
+        431    thiobarbituric acid (TBA) adduct were quantified colorimetrically at 532 nm using a 
+        432    spectrophotometer.  
+        433     
+        434    Bone density, body composition, and indirect calorimetry 
+        435    Bone density of the femur was determined using microcomputed tomography (µCT, Scanco 
+        436    Medical AG). Fat and lean body mass were measured using the EchoMRI-500 (EchoMRI, 
+        437    Houston, TX). Whole body oxygen consumption, respiratory exchange ratio, and physical 
+        438    activity levels were determined using a TSE LabMaster System (TSE Systems, Chesterfield, 
+        439    MO). Measurements were taken over a 4-5 d period, with the first 1-2 d of data excluded for 
+        440    acclimitization to the new environment. Data represent averages of two or three 12-h light or 
+        441    dark cycles.  
+        442     
+        443    Echocardiography 
+        444    Echocardiographic measurements were made as previously described.47 Briefly, mice were 
+        445    anesthetized with a 0.5-2% isoflurane in an oxygen mixture and kept on a heated monitoring 
+        446    plate to maintain body temperature. Heart rate was kept between 400-500 bpm for all 
+                                                                                  ™
+        447    measurements to ensure physiological relevance. The Vevo 2100  High-Resolution In Vivo 
+        448    Imaging System (VisualSonics) was used with a 30-MHz transducer for echocardiographic 
+        449    recordings. B-mode recordings from transthoracic long-axis view were used to measure left 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        450    ventricular volume during diastole and systole. These measurements were used to calculate 
+        451    ejection fraction, stroke volume, and cardiac output. 
+        452     
+        453    Electron microscopy 
+        454    Freshly dissected skeletal muscle was immediately placed in a 2% glutaraldehyde and 0.1 M 
+        455    cacodylate fixation mix and cut into longitudinal sections ~2 mm in diameter and ~3-4 mm in 
+        456    length. Tissues were stored in fixation mixture at 4°C until all tissues were collected. The tissues 
+        457    were washed three times for 10 min in 0.1 M phosphate buffer, fixed in 1% oxmium tetroxide for 
+        458    1 h, then washed three times for 10 min in 0.1 M phosphate buffer. The fixed tissues were 
+        459    dehydrated in sequential steps of 25%, 50%, 75%, and 100% alcohol (twice each step) for 15 
+        460    min each. The tissue was then embedded in increasing concentrations of Spurrs media 
+        461    including 30% (for 30 min), 70% (overnight), 100% (2 h), and 100% (30 min). Each tissue was 
+        462    placed in a flat-bottom embedding mold filled 50% with Spurrs medium, then polymerized at 
+        463    ~60°C overnight. The tissues were then cut through the transverse plane and imaged with a 
+        464    JEOL 1200EX transmission electron microscope equipped with a Soft Imaging Systems 
+        465    MegaView III CCD camera.  
+        466     
+        467    Muscle strength experiments 
+        468    The extensor digitorum longus (EDL) and diaphragm muscles were dissected as previously 
+                         49
+        469    described  and tied into the Horizontal Tissue Bath System from Aurora Scientific, Inc (Model: 
+        470    801C). Muscles were stimulated with a 20V twitch train and stretched until optimal length for 
+        471    force production was reached. After a 5 min equilibration period, muscles were stimulated with 
+        472    frequencies ranging from 10-200 Hz (0.1 ms pulse, 330 ms train, 2 min between trains). Forces 
+        473    produced by electrically-stimulated muscle contractions were recorded in real time via a force 
+        474    transducer (Aurora Scientific Inc., Model: 400A). Specific force was calculated using cross 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+                                                            2
+        475    sectional area of the muscle tissue (mN/mm ), as estimated from the weight and length of the 
+        476    muscle. 
+        477     
+        478    Histology 
+        479    Frozen muscle or lung tissues were embedded in optimal cutting temperature (OCT) compound 
+        480    and were sectioned (10μm) with a cryostat (Microtome Plus). Muscle sections were used for 
+        481    myosin heavy chain (MHC) isoform immunofluorescence (IF) and Sirius Red staining to 
+        482    examine fibrosis. For MHC IF, sections were incubated with MHCI (BA.D5), MHCIIa (SC.71), 
+        483    MHCIIb (BF.F3, all three from Developmental Studies Hybridoma Bank, University of Iowa), or 
+        484    laminin (Sigma, #L9393) and imaged at the University of Utah Cell Imaging Core. Negative-
+        485    stained fibers were considered to be MHCIIx. Master Tech Picro Sirius Red was used for Sirius 
+        486    Red staining. Myofiber cross-sectional area was quantified using semi-automatic muscle 
+        487    analysis using segmentation of histology: a MATLAB application (SMASH) alongside ImageJ 
+        488    software. Lung tissues were used for H&E staining. 
+        489     
+        490    Statistical Analyses 
+        491    Data are presented as means ±SEM. Statistical analyses were performed using GraphPad 
+        492    Prism 7.03 software. Independent samples t-tests were used to compare two groups. For two-
+        493    by-two comparisons, two-way ANOVA analyses were performed (main effect of genotype 
+        494    shown over a horizontal line) followed by appropriate post-hoc tests corrected for multiple 
+        495    comparisons. All tests were two-sided and p<0.05 was considered statistically significant. 
+        496     
+        497                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        498    Acknowledgements: 
+        499    This work was supported by NIH grants DK107397, DK109888, DK095774 (to K.F.), DK110656 
+        500    (to P.D.N.), AG050781 (to M.J.D.), HL123647, AT008375 (to S.R.S.), HL129632 (T.E.R.), and 
+        501    DK109556 (to T.D.H.), Larry H. & Gail Miller Foundation grant (to P.J.F.), and American Heart 
+        502    Association grants 19PRE34380991 (to J.M.J), 18PRE33960491 (to A.R.P.V.), and 
+        503    16POST30980047 (to T.D.H.). University of Utah Metabolomics Core Facility is supported by 
+        504    S10 OD016232, S10 OD021505, and U54 DK110858. Mouse lines are available from K.F. upon 
+        505    request. 
+        506     
+        507    Competing Interests: 
+        508    None to disclose.                                
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        509    References 
+        510    1       Myers, J. et al. Exercise capacity and mortality among men referred for exercise testing. 
+        511            The New England journal of medicine 346, 793-801, doi:10.1056/NEJMoa011858 
+        512            (2002). 
+        513    2       Bassett, D. R., Jr. & Howley, E. T. Limiting factors for maximum oxygen uptake and 
+        514            determinants of endurance performance. Med Sci Sports Exerc 32, 70-84 (2000). 
+        515    3       Holloszy, J. O. Biochemical adaptations in muscle. Effects of exercise on mitochondrial 
+        516            oxygen uptake and respiratory enzyme activity in skeletal muscle. The Journal of 
+        517            biological chemistry 242, 2278-2282 (1967). 
+        518    4       Henriksson, J. & Reitman, J. S. Time course of changes in human skeletal muscle 
+        519            succinate dehydrogenase and cytochrome oxidase activities and maximal oxygen 
+        520            uptake with physical activity and inactivity. Acta physiologica Scandinavica 99, 91-97, 
+        521            doi:10.1111/j.1748-1716.1977.tb10356.x (1977). 
+        522    5       Lin, J. et al. Transcriptional co-activator PGC-1 alpha drives the formation of slow-twitch 
+        523            muscle fibres. Nature 418, 797-801, doi:10.1038/nature00904 (2002). 
+        524    6       Larsson, N. G. et al. Mitochondrial transcription factor A is necessary for mtDNA 
+        525            maintenance and embryogenesis in mice. Nature genetics 18, 231-236, 
+        526            doi:10.1038/ng0398-231 (1998). 
+        527    7       van Meer, G., Voelker, D. R. & Feigenson, G. W. Membrane lipids: where they are and 
+        528            how they behave. Nature reviews. Molecular cell biology 9, 112-124, 
+        529            doi:10.1038/nrm2330 (2008). 
+        530    8       Heden, T. D., Neufer, P. D. & Funai, K. Looking Beyond Structure: Membrane 
+        531            Phospholipids of Skeletal Muscle Mitochondria. Trends in endocrinology and 
+        532            metabolism: TEM 27, 553-562, doi:10.1016/j.tem.2016.05.007 (2016). 
+        533    9       Mejia, E. M. & Hatch, G. M. Mitochondrial phospholipids: role in mitochondrial function. 
+        534            Journal of bioenergetics and biomembranes 48, 99-112, doi:10.1007/s10863-015-9601-
+        535            4 (2016). 
+        536    10      Ikon, N. & Ryan, R. O. Cardiolipin and mitochondrial cristae organization. Biochimica et 
+        537            biophysica acta. Biomembranes 1859, 1156-1163, doi:10.1016/j.bbamem.2017.03.013 
+        538            (2017). 
+        539    11      Pennington, E. R., Funai, K., Brown, D. A. & Shaikh, S. R. The role of cardiolipin 
+        540            concentration and acyl chain composition on mitochondrial inner membrane molecular 
+        541            organization and function. Biochimica et Biophysica Acta (BBA) - Molecular and Cell 
+        542            Biology of Lipids, doi:https://doi.org/10.1016/j.bbalip.2019.03.012 (2019). 
+        543    12      Zhao, T. et al. PISD is a mitochondrial disease gene causing skeletal dysplasia, 
+        544            cataracts, and white matter changes. Life science alliance 2, 
+        545            doi:10.26508/lsa.201900353 (2019). 
+        546    13      Barth, P. G. et al. An X-linked mitochondrial disease affecting cardiac muscle, skeletal 
+        547            muscle and neutrophil leucocytes. Journal of the neurological sciences 62, 327-355 
+        548            (1983). 
+        549    14      Girisha, K. M. et al. The homozygous variant c.797G>A/p.(Cys266Tyr) in PISD is 
+        550            associated with a Spondyloepimetaphyseal dysplasia with large epiphyses and disturbed 
+        551            mitochondrial function. Human mutation 40, 299-309, doi:10.1002/humu.23693 (2019). 
+        552    15      Wisloff, U. et al. Cardiovascular risk factors emerge after artificial selection for low 
+        553            aerobic capacity. Science 307, 418-420, doi:10.1126/science.1108177 (2005). 
+        554    16      Zborowski, J., Dygas, A. & Wojtczak, L. Phosphatidylserine decarboxylase is located on 
+        555            the external side of the inner mitochondrial membrane. FEBS Lett 157, 179-182 (1983). 
+        556    17      Shiao, Y. J., Lupo, G. & Vance, J. E. Evidence that phosphatidylserine is imported into 
+        557            mitochondria via a mitochondria-associated membrane and that the majority of 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        558            mitochondrial phosphatidylethanolamine is derived from decarboxylation of 
+        559            phosphatidylserine. The Journal of biological chemistry 270, 11190-11198 (1995). 
+        560    18      Ren, Y. Y. et al. Selection-, age-, and exercise-dependence of skeletal muscle gene 
+        561            expression patterns in a rat model of metabolic fitness. Physiological genomics 48, 816-
+        562            825, doi:10.1152/physiolgenomics.00118.2015 (2016). 
+        563    19      Kauffman, F. C. & Albuquerque, E. X. Effect of ischemia and denervation on metabolism 
+        564            of fast and slow mammalian skeletal muscle. Experimental neurology 28, 46-63 (1970). 
+        565    20      Sandri, M. et al. PGC-1alpha protects skeletal muscle from atrophy by suppressing 
+        566            FoxO3 action and atrophy-specific gene transcription. Proceedings of the National 
+        567            Academy of Sciences of the United States of America 103, 16260-16265, 
+        568            doi:10.1073/pnas.0607795103 (2006). 
+        569    21      Kwon, O. S., Nelson, D. S., Barrows, K. M., O'Connell, R. M. & Drummond, M. J. 
+        570            Intramyocellular ceramides and skeletal muscle mitochondrial respiration are partially 
+        571            regulated by Toll-like receptor 4 during hindlimb unloading. American journal of 
+        572            physiology. Regulatory, integrative and comparative physiology 311, R879-R887, 
+        573            doi:10.1152/ajpregu.00253.2016 (2016). 
+        574    22      Steenbergen, R. et al. Disruption of the phosphatidylserine decarboxylase gene in mice 
+        575            causes embryonic lethality and mitochondrial defects. The Journal of biological 
+        576            chemistry 280, 40032-40040, doi:10.1074/jbc.M506510200 (2005). 
+        577    23      Barends, M. et al. Causes of Death in Adults with Mitochondrial Disease. JIMD Rep 26, 
+        578            103-113, doi:10.1007/8904_2015_449 (2016). 
+        579    24      Smuder, A. J. et al. Crosstalk between autophagy and oxidative stress regulates 
+        580            proteolysis in the diaphragm during mechanical ventilation. Free Radic Biol Med 115, 
+        581            179-190, doi:10.1016/j.freeradbiomed.2017.11.025 (2018). 
+        582    25      Tasseva, G. et al. Phosphatidylethanolamine deficiency in Mammalian mitochondria 
+        583            impairs oxidative phosphorylation and alters mitochondrial morphology. The Journal of 
+        584            biological chemistry 288, 4158-4173, doi:10.1074/jbc.M112.434183 (2013). 
+        585    26      Sharpley, M. S., Shannon, R. J., Draghi, F. & Hirst, J. Interactions between 
+        586            phospholipids and NADH:ubiquinone oxidoreductase (complex I) from bovine 
+        587            mitochondria. Biochemistry 45, 241-248, doi:10.1021/bi051809x (2006). 
+        588    27      Shinzawa-Itoh, K. et al. Structures and physiological roles of 13 integral lipids of bovine 
+        589            heart cytochrome c oxidase. EMBO J 26, 1713-1725, doi:10.1038/sj.emboj.7601618 
+        590            (2007). 
+        591    28      Sun, F. et al. Crystal structure of mitochondrial respiratory membrane protein complex II. 
+        592            Cell 121, 1043-1057, doi:10.1016/j.cell.2005.05.025 (2005). 
+        593    29      Nelson, B. D. & Fleischer, S. Phospholipid requirements for the reconstitution of 
+        594            complex-III vesicles exhibiting controlled electron transport. Biochem J 194, 783-787 
+        595            (1981). 
+        596    30      Acin-Perez, R., Fernandez-Silva, P., Peleato, M. L., Perez-Martos, A. & Enriquez, J. A. 
+        597            Respiratory active mitochondrial supercomplexes. Mol Cell 32, 529-539, 
+        598            doi:10.1016/j.molcel.2008.10.021 (2008). 
+        599    31      Letts, J. A. & Sazanov, L. A. Clarifying the supercomplex: the higher-order organization 
+        600            of the mitochondrial electron transport chain. Nature structural & molecular biology 24, 
+        601            800-808, doi:10.1038/nsmb.3460 (2017). 
+        602    32      Wong, H. S., Dighe, P. A., Mezera, V., Monternier, P. A. & Brand, M. D. Production of 
+        603            superoxide and hydrogen peroxide from specific mitochondrial sites under different 
+        604            bioenergetic conditions. J Biol Chem 292, 16804-16809, doi:10.1074/jbc.R117.789271 
+        605            (2017). 
+        606    33      Brand, M. D. Mitochondrial generation of superoxide and hydrogen peroxide as the 
+        607            source of mitochondrial redox signaling. Free Radic Biol Med 100, 14-31, 
+        608            doi:10.1016/j.freeradbiomed.2016.04.001 (2016). 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        609    34      Anderson, E. J. et al. A carnosine analog mitigates metabolic disorders of obesity by 
+        610            reducing carbonyl stress. The Journal of clinical investigation, doi:10.1172/JCI94307 
+        611            (2018). 
+        612    35      Powers, S. K., Smuder, A. J. & Judge, A. R. Oxidative stress and disuse muscle atrophy: 
+        613            cause or consequence? Current opinion in clinical nutrition and metabolic care 15, 240-
+        614            245, doi:10.1097/MCO.0b013e328352b4c2 (2012). 
+        615    36      Calvani, R. et al. Mitochondrial pathways in sarcopenia of aging and disuse muscle 
+        616            atrophy. Biological chemistry 394, 393-414, doi:10.1515/hsz-2012-0247 (2013). 
+        617    37      Hsu, J. L. et al. Catalytic properties of human manganese superoxide dismutase. J Biol 
+        618            Chem 271, 17687-17691 (1996). 
+        619    38      Pereira, B. et al. Superoxide dismutase, catalase, and glutathione peroxidase activities 
+        620            in muscle and lymphoid organs of sedentary and exercise-trained rats. Physiology & 
+        621            behavior 56, 1095-1099 (1994). 
+        622    39      Osman, C., Voelker, D. R. & Langer, T. Making heads or tails of phospholipids in 
+        623            mitochondria. The Journal of cell biology 192, 7-16, doi:10.1083/jcb.201006159 (2011). 
+        624    40      Calzada, E. et al. Phosphatidylethanolamine made in the inner mitochondrial membrane 
+        625            is essential for yeast cytochrome bc1 complex function. Nature communications 10, 
+        626            1432, doi:10.1038/s41467-019-09425-1 (2019). 
+        627    41      Funai, K. et al. Skeletal Muscle Phospholipid Metabolism Regulates Insulin Sensitivity 
+        628            and Contractile Function. Diabetes 65, 358-370, doi:10.2337/db15-0659 (2016). 
+        629    42      Selathurai, A. et al. The CDP-Ethanolamine Pathway Regulates Skeletal Muscle 
+        630            Diacylglycerol Content and Mitochondrial Biogenesis without Altering Insulin Sensitivity. 
+        631            Cell metabolism 21, 718-730, doi:10.1016/j.cmet.2015.04.001 (2015). 
+        632    43      van der Veen, J. N., Lingrell, S., da Silva, R. P., Jacobs, R. L. & Vance, D. E. The 
+        633            concentration of phosphatidylethanolamine in mitochondria can modulate ATP 
+        634            production and glucose metabolism in mice. Diabetes 63, 2620-2630, doi:10.2337/db13-
+        635            0993 (2014). 
+        636    44      Micallef, L. & Rodgers, P. eulerAPE: drawing area-proportional 3-Venn diagrams using 
+        637            ellipses. PloS one 9, e101717, doi:10.1371/journal.pone.0101717 (2014). 
+        638    45      Paran, C. W. et al. Reduced efficiency of sarcolipin-dependent respiration in myocytes 
+        639            from humans with severe obesity. Obesity 23, 1440-1449, doi:10.1002/oby.21123 
+        640            (2015). 
+        641    46      Heden, T. D. et al. Greater Oxidative Capacity in Primary Myotubes from Endurance-
+        642            trained Women. Med Sci Sports Exerc 49, 2151-2157, 
+        643            doi:10.1249/MSS.0000000000001352 (2017). 
+        644    47      Johnson, J. M. et al. Targeted overexpression of catalase to mitochondria does not 
+        645            prevent cardioskeletal myopathy in Barth syndrome. Journal of molecular and cellular 
+        646            cardiology 121, 94-102, doi:10.1016/j.yjmcc.2018.07.001 (2018). 
+        647    48      Sullivan, E. M. et al. Docosahexaenoic acid lowers cardiac mitochondrial enzyme activity 
+        648            by replacing linoleic acid in the phospholipidome. J Biol Chem 293, 466-483, 
+        649            doi:10.1074/jbc.M117.812834 (2018). 
+        650    49      Ferrara, P. J., Verkerke, A. R. P., Brault, J. J. & Funai, K. Hypothermia Decreases O2 
+        651            Cost for Ex Vivo Contraction in Mouse Skeletal Muscle. Med Sci Sports Exerc 50, 2015-
+        652            2023, doi:10.1249/MSS.0000000000001673 (2018). 
+        653     
+        654                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        655     
+        656    Figure 1. Skeletal muscle mitochondrial PE promotes oxidative capacity. (A-C) Untrained 
+        657    (UT, n=6) or trained (T, n=7 or 8) C57BL6J mice. (A) Skeletal muscle mitochondrial 
+        658    phospholipidome. (B) Mitochondrial phospholipids quantified by TLC. (C) Skeletal muscle PSD 
+        659    mRNA. (D-L) Studies on PSD-MKI mice (n=3-9). (D) Generation of mice with conditional knock-
+        660    in of PSD. (E) Skeletal muscle PSD mRNA. (F) Muscle mitochondrial PE. (G, H) Rates for 
+        661    oxygen consumption or ATP production in permeabilized muscle fibers with Krebs cycle 
+        662    substrates. (I) Protein abundance of respiratory complex II-V. (J) Myosin-heavy chain fiber-type 
+        663    distribution. (K) Endurance running test. (L) Ex vivo twitch endurance test. Mean ±SEM.  
+        664                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        665     
+        666    Supplement Figure 1. Skeletal muscle mitochondrial PE and oxidative capacity. (A) 
+        667    Skeletal muscle citrate synthase (CS) and cytochrome oxidase IV (COXIV) mRNA in UT or T 
+        668    mice (n=5-8). (B) Skeletal muscle mitochondrial phospholipidome in low-capacity running (LCR) 
+        669    or high-capacity running (HCR) rats (n=5-6). (C) Oxygen consumption rates (OCR) from empty 
+        670    vector (EV) or PSD-expression vector (FLAG-PSD) treated C2C12 myotubes (n=6). (D-K) Ctrl 
+        671    or PSD-MKI mice. (D) Muscle mRNA encoding mitochondrial enzymes and transcription factors 
+        672    (n=5). (E) Fatigue curve with tetanic contractions (n=5-6). (F) Force-frequency curve (n=3). (G) 
+        673    Body weights (n=5-6). (H) Body composition (n=4-6). (I) Food consumption (n=3). (J) Whole-
+        674    body VO  (n=5). (K) Respiratory exchange ratio (RER, n=5). Mean ±SEM.                                     
+                        2
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        675     
+        676    Figure 2. Deficiency of mitochondrial PE promotes atrophy and respiratory failure. (A-C) 
+        677    Control (Ctrl, n=6 or 7) and hindlimb-unloaded (HU, n=7) C57BL6J mice. (A) Gastrocnemius 
+        678    weight. (B) Skeletal muscle mitochondrial phospholipidome. (C) Skeletal muscle PSD mRNA. 
+        679    (D-P) Studies on PSD-MKO mice. (D) Generation of PSD-MKO mice. (E) PSD mRNA levels in 
+        680    multiple tissues (n=5-6). (F) TLC analysis of mitochondrial phospholipids. (G) Muscle 
+        681    mitochondrial PE (n=3-4). (H) Body weights after tamoxifen injection (n=9-22). (I) Kyphosis in 
+        682    PSD-MKO mice. (J) Kaplan-Meier survival curve. (K, L) Breathing rate and peripheral capillary 
+        683    oxygen saturation (SpO ) 6-wk post-tamoxifen injection (n=3). (M-P) Diaphragm 4-wk post-
+                                       2
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        684    tamoxifen injection. (M) Diaphragm weight (n=4-6), (N) distribution of fiber cross-sectional area 
+        685    (n=9), (O) fibrosis and fiber-type, (P) force-frequency curve (n=4-6). Mean ±SEM. 
+        686     
+        687                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        688     
+        689    Supplement Figure 2. Deficiency of muscle mitochondrial PE in vitro and in vivo. (A-H) 
+        690    C2C12 myotubes incubated with lentivirus expressing scrambled (SC) or shRNA targeted to 
+        691    PSD (shPSD). (A) PSD mRNA (n=17). (B) Mitochondrial PE (n=3). (C) OCR in intact myotubes 
+        692    (n=6). (D) Rate of oxygen consumption using Krebs cycle substrates (n=4). (E) Protein 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        693    abundance of respiratory complexes I-V. (F) mRNA encoding mitochondrial enzymes and 
+        694    transcription factors (n=4). (G) Activities of respiratory enzymes (n=3-4). (H) Citrate synthase 
+        695    activity (n=5-6). (I-Y). Studies on PSD-MKO mice. (I) Muscle mitochondrial lyso-PE (n=3-4). (J) 
+        696    Muscle mitochondrial PS (n=3-4). (K-M) Stroke volume, ejection fraction, or cardiac output 
+        697    measured with echocardiography (n=5-8). (N) H&E staining of lung section. (O, P) Bone density 
+        698    by μCT scan (n=2). (Q) Food intake (n=3-5). (R, S) Activity and VO  measured by indirect 
+                                                                                   2
+        699    calorimetry (n=6). (T) Body composition (n=7). (U) Muscle sizes. (V) Fiber-type composition. 
+        700    (W) Fiber cross-sectional area (n=3-4). (X) Kondziela’s inverted screen test (n=4). (Y) Force-
+        701    frequency curve of extensor digitorum longus muscles (n=2-4). Mean ±SEM. 
+        702                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        703     
+        704    Figure 3. PE deficiency in skeletal muscle mitochondria. (A) Electron micrograph of 
+        705    subsarcolemmal and intermyofibrillar mitochondria. (B, C) Rates of oxygen consumption and 
+        706    ATP production in permeabilized fibers with Krebs cycle substrates (n=3-5). (D) Protein 
+        707    abundance of respiratory complex I-V. (E) Activities of respiratory enzymes (n=4-6). (F) Blue 
+        708    native gel of isolated mitochondria revealing supercomplexes. (G) Mitochondrial H O  
+                                                                                                  2  2
+        709    production and emission with pyruvate (n=8-9). (H) 4-hydroxy-2-nonenal (4-HNE). (I) 
+        710    malondialdehyde (MDA, n=5). (J) Reduced glutathione (GSH) and oxidized glutathione (GSSG) 
+        711    (n=3-5). Mean ±SEM. 
+        712                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        713     
+        714    Supplement Figure 3. PE deficiency in skeletal muscle mitochondria. (A) Total and 
+        715    phosphorylated (Ser 616) dynamin-related protein (DRP) and mitofusion 2. (B) Palmitoyl-L-
+        716    carnitine (PLC)-induced oxygen consumption in permeabilized fibers (n=3-5). (C) Complex IV-
+        717    mediated respiration rates in isolated mitochondria (n=4-6). (D-F) Mitochondrial H O  production 
+                                                                                                  2 2
+        718    and emission with palmitoyl-L-carnitine, succinate, or glycerol-3-phosphate (n=3-4). (G) Protein 
+        719    abundance of the antioxidant enzyme peroxiredoxin 4 (PRX4) and regulators of antioxidant 
+        720    defense including nuclear factor erythroid 2-related factor 2 (NRF2), Forkhead box protein O1 
+        721    (FoxO1), and FoxO3. Mean ±SEM. 
+        722                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        723     
+        724    Figure 4. Overexpression of mitochondrial catalase does not rescue PSD deficiency. (A) 
+        725    PSD-MKO mice were crossed with mCAT transgenic mice to generate mCAT x PSD-MKO 
+        726    mice. (B) Mitochondrial H O  production and emission with pyruvate (n=5-7). (C) Kaplan-Meier 
+                                         2  2
+        727    survival curve. (D) Body weights after tamoxifen injection (n=6-9). (E) Force-frequency curve of 
+        728    diaphragm muscles (n=4-11). (F) Rates of oxygen consumption in permeabilized fibers with 
+        729    Krebs cycle substrates (n=4-10). (G, H) Pathway analyses for differentially-expressed genes 
+        730    between control, PSD-MKO, and mCATxPSD-MKO diaphragms (n=3-4). (G) Area-proportional 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        731    Venn diagram of differentially-activated pathways. (H) Normalized enrichment scores (NES) of 
+        732    differentially-activated pathways. (I) Schematic illustration of the consequences of mitochondrial 
+        733    PE deficiency. Mean ±SEM. 
+        734                                   
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        735     
+        736    Supplement Figure 4. Overexpression of mitochondrial catalase does not rescue muscle-
+        737    specific PSD deficiency. (A) Protein abundance of mCAT (n=3). (B) Mitochondrial H O  
+                                                                                                      2 2
+        738    production and emission with palmitoyl-L-carnitine (n=3-11). (C) Body composition of mice 4-wk 
+        739    post-tamoxifen injection (n=3-11). (D) Force frequency curve for extensor digitorum longus 
+        740    (n=3-11). (E) Palmitoyl-L-carnitine (PLC)-induced oxygen consumption in permeabilized fibers 
+        741    (n=3-11). (F) Heatmap of top 100 (50 high and 50 low) genes that were differentially expressed 
+        742    between control and PSD-MKO diaphragms that were reversed in mCATxPSD-MKO 
+           bioRxiv preprint first posted online Apr. 9, 2019; doi: http://dx.doi.org/10.1101/599985. The copyright holder for this preprint (which
+                was not peer-reviewed) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.
+                                      All rights reserved. No reuse allowed without permission. 
+        743    diaphragms. Z: z-score. (n=3-4). (G) Heatmap of top 100 (50 high and 50 low) genes that were 
+        744    differentially expressed between control and PSD-MKO diaphragms. Mean ±SEM. 

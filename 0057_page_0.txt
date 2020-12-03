@@ -1,0 +1,38 @@
+                               EndtoEndLearningforSelf-DrivingCars
+                         MariuszBojarski     Davide Del Testa  Daniel Dworakowski    BernhardFirner
+                        NVIDIACorporation   NVIDIACorporation   NVIDIACorporation   NVIDIACorporation
+                        Holmdel, NJ 07735   Holmdel, NJ 07735    Holmdel, NJ 07735   Holmdel, NJ 07735
+                            Beat Flepp        PrasoonGoyal      LawrenceD.Jackel     MathewMonfort
+                        NVIDIACorporation   NVIDIACorporation   NVIDIACorporation   NVIDIACorporation
+                         Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735
+                            UrsMuller          Jiakai Zhang         XinZhang            Jake Zhao
+                        NVIDIACorporation   NVIDIACorporation   NVIDIACorporation   NVIDIACorporation
+                         Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735
+                                                         Karol Zieba
+                                                      NVIDIACorporation
+                                                       Holmdel, NJ 07735
+                                                          Abstract
+                              Wetrained a convolutional neural network (CNN) to map raw pixels from a sin-
+                              gle front-facing camera directly to steering commands. This end-to-end approach
+                              proved surprisingly powerful. With minimum training data from humans the sys-
+                              tem learns to drive in trafﬁc on local roads with or without lane markings and on
+                              highways. It also operates in areas with unclear visual guidance such as in parking
+                              lots and on unpaved roads.
+                              Thesystemautomaticallylearnsinternalrepresentations of the necessary process-
+                              ingstepssuchasdetectingusefulroadfeatureswithonlythehumansteeringangle
+                              as the training signal. We never explicitly trained it to detect, for example, the out-
+                              line of roads.
+                              Compared to explicit decomposition of the problem, such as lane marking detec-
+                              tion, path planning, and control, our end-to-end system optimizes all processing
+       arXiv:1604.07316v1  [cs.CV]  25 Apr 2016steps simultaneously. We argue that this will eventually lead to better perfor-
+                              mance and smaller systems. Better performance will result because the internal
+                              componentsself-optimizetomaximizeoverallsystemperformance,insteadofop-
+                              timizing human-selected intermediate criteria, e.g., lane detection. Such criteria
+                              understandably are selected for ease of human interpretation which doesn’t auto-
+                              matically guarantee maximum system performance. Smaller networks are possi-
+                              ble because the system learns to solve the problem with the minimal number of
+                              processing steps.
+                              We used an NVIDIA DevBox and Torch 7 for training and an NVIDIA
+                              DRIVETMPX self-driving car computer also running Torch 7 for determining
+                              where to drive. The system operates at 30 frames per second (FPS).
+                                                              1

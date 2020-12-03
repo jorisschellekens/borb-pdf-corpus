@@ -1,0 +1,1382 @@
+        Mastering the Game of Go without Human Knowledge
+        David Silver*, Julian Schrittwieser*, Karen Simonyan*, Ioannis Antonoglou, Aja Huang, Arthur
+        Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton, Yutian Chen, Timothy
+        Lillicrap, Fan Hui, Laurent Sifre, George van den Driessche, Thore Graepel, Demis Hassabis.
+        DeepMind,5NewStreetSquare,LondonEC4A3TW.
+        *These authors contributed equally to this work.
+            Along-standinggoalofartiﬁcialintelligenceisanalgorithmthatlearns,tabularasa,su-
+        perhumanproﬁciency in challenging domains. Recently, AlphaGo became the ﬁrst program
+        to defeat a world champion in the game of Go. The tree search in AlphaGo evaluated posi-
+        tions and selected moves using deep neural networks. These neural networks were trained
+        by supervised learning from human expert moves, and by reinforcement learning from self-
+        play. Here, we introduce an algorithm based solely on reinforcement learning, without hu-
+        man data, guidance, or domain knowledge beyond game rules. AlphaGo becomes its own
+        teacher: a neural network is trained to predict AlphaGo’s own move selections and also the
+        winner of AlphaGo’s games. This neural network improves the strength of tree search, re-
+        sulting in higher quality move selection and stronger self-play in the next iteration. Starting
+        tabula rasa, our new program AlphaGo Zero achieved superhuman performance, winning
+        100-0 against the previously published, champion-defeating AlphaGo.
+           Much progress towards artiﬁcial intelligence has been made using supervised learning sys-
+        tems that are trained to replicate the decisions of human experts 1–4. However, expert data is often
+        expensive, unreliable, or simply unavailable. Even when reliable data is available it may impose a
+        ceiling on the performance of systems trained in this manner 5. In contrast, reinforcement learn-
+        ing systems are trained from their own experience, in principle allowing them to exceed human
+        capabilities, and to operate in domains where human expertise is lacking. Recently, there has been
+        rapid progress towards this goal, using deep neural networks trained by reinforcement learning.
+        These systems have outperformed humans in computer games such as Atari 6,7 and 3D virtual en-
+        vironments 8–10. However, the most challenging domains in terms of human intellect – such as the
+                                  1
+       gameofGo,widelyviewedasagrandchallenge for artiﬁcial intelligence 11 – require precise and
+       sophisticated lookahead in vast search spaces. Fully general methods have not previously achieved
+       human-level performance in these domains.
+         AlphaGo was the ﬁrst program to achieve superhuman performance in Go. The published
+       version 12, which we refer to as AlphaGo Fan, defeated the European champion Fan Hui in October
+       2015. AlphaGo Fan utilised two deep neural networks: a policy network that outputs move prob-
+       abilities, and a value network that outputs a position evaluation. The policy network was trained
+       initially by supervised learning to accurately predict human expert moves, and was subsequently
+       reﬁned by policy-gradient reinforcement learning. The value network was trained to predict the
+       winner of games played by the policy network against itself. Once trained, these networks were
+       combined with a Monte-Carlo Tree Search (MCTS) 13–15 to provide a lookahead search, using the
+       policy network to narrow down the search to high-probability moves, and using the value net-
+       work(inconjunction with Monte-Carlo rollouts using a fast rollout policy) to evaluate positions in
+       the tree. A subsequent version, which we refer to as AlphaGo Lee, used a similar approach (see
+       Methods), and defeated Lee Sedol, the winner of 18 international titles, in March 2016.
+         Our program, AlphaGo Zero, differs from AlphaGo Fan and AlphaGo Lee 12 in several im-
+       portant aspects. First and foremost, it is trained solely by self-play reinforcement learning, starting
+       from random play, without any supervision or use of human data. Second, it only uses the black
+       and white stones from the board as input features. Third, it uses a single neural network, rather
+       than separate policy and value networks. Finally, it uses a simpler tree search that relies upon this
+       single neural network to evaluate positions and sample moves, without performing any Monte-
+       Carlo rollouts. To achieve these results, we introduce a new reinforcement learning algorithm that
+       incorporates lookahead search inside the training loop, resulting in rapid improvement and precise
+       and stable learning. Further technical differences in the search algorithm, training procedure and
+       network architecture are described in Methods.
+                          2
+             1  Reinforcement Learning in AlphaGo Zero
+             Ournewmethodusesadeepneuralnetworkf withparametersθ. Thisneuralnetworktakesasan
+                                                  θ
+             input the raw board representation s of the position and its history, and outputs both move probabil-
+             ities and a value, (p,v) = f (s). The vector of move probabilities p represents the probability of
+                                   θ
+             selecting each move (including pass), pa = Pr(a|s). The value v is a scalar evaluation, estimating
+             the probability of the current player winning from position s. This neural network combines the
+             roles of both policy network and value network 12 into a single architecture. The neural network
+             consists of many residual blocks 4 of convolutional layers 16,17 with batch normalisation 18 and
+             rectiﬁer non-linearities 19 (see Methods).
+                 TheneuralnetworkinAlphaGoZeroistrainedfromgamesofself-playbyanovelreinforce-
+             ment learning algorithm. In each position s, an MCTS search is executed, guided by the neural
+                                                       π
+             network f . The MCTS search outputs probabilitiesππ of playing each move. These search proba-
+                     θ
+             bilities usually select much stronger moves than the raw move probabilities p of the neural network
+             f (s); MCTS may therefore be viewed as a powerful policy improvement operator 20,21. Self-play
+              θ
+             with search – using the improved MCTS-based policy to select each move, then using the game
+             winner z as a sample of the value – may be viewed as a powerful policy evaluation operator. The
+             main idea of our reinforcement learning algorithm is to use these search operators repeatedly in
+             a policy iteration procedure 22,23: the neural network’s parameters are updated to make the move
+             probabilities and value (p,v) = f (s) more closely match the improved search probabilities and
+                                        θ
+                           π
+             self-play winner (ππ,z); these new parameters are used in the next iteration of self-play to make the
+             search even stronger. Figure 1 illustrates the self-play training pipeline.
+                 The Monte-Carlo tree search uses the neural network fθ to guide its simulations (see Figure
+             2). Each edge (s,a) in the search tree stores a prior probability P(s,a), a visit count N(s,a),
+             and an action-value Q(s,a). Each simulation starts from the root state and iteratively selects
+             movesthatmaximiseanupperconﬁdenceboundQ(s,a)+U(s,a),whereU(s,a) ∝ P(s,a)/(1+
+                    12,24              ′
+             N(s,a))   , until a leaf node s is encountered. This leaf position is expanded and evaluated just
+                                                   3
+             Figure 1: Self-play reinforcement learning in AlphaGo Zero. a The program plays a game s ,...,s against itself.
+                                                                                1    T
+             In each position st, a Monte-Carlo tree search (MCTS) αθ is executed (see Figure 2) using the latest neural network
+                                                                              π
+             f . Moves are selected according to the search probabilities computed by the MCTS, a ∼ ππ . The terminal position
+              θ                                                            t   t
+             sT is scored according to the rules of the game to compute the game winner z. b Neural network training in AlphaGo
+             Zero. The neural network takes the raw board position st as its input, passes it through many convolutional layers
+             with parameters θ, and outputs both a vector pt, representing a probability distribution over moves, and a scalar value
+             v , representing the probability of the current player winning in position s . The neural network parameters θ are
+              t                                                    t
+                                                                               π
+             updated so as to maximise the similarity of the policy vector p to the search probabilities ππ , and to minimise the
+                                                                                t
+                                                           t                    tt
+             error between the predicted winner v and the game winner z (see Equation 1). The new parameters are used in the
+                                        t
+             next iteration of self-play a.
+                                                      4
+                   Figure 2: Monte-Carlo tree search in AlphaGo Zero. a Each simulation traverses the tree by selecting the edge
+                   with maximum action-value Q, plus an upper conﬁdence bound U that depends on a stored prior probability P and
+                   visit count N for that edge (which is incremented once traversed). b The leaf node is expanded and the associated
+                   position s is evaluated by the neural network (P(s,·),V (s)) = f (s); the vector of P values are stored in the outgoing
+                                                                                    θ
+                   edges from s. c Action-values Q are updated to track the mean of all evaluations V in the subtree below that action. d
+                                                                     π                                 1/τ
+                   Once the search is complete, search probabilities ππ are returned, proportional to N   , where N is the visit count of
+                   each move from the root state and τ is a parameter controlling temperature.
+                   once by the network to generate both prior probabilities and evaluation, (P(s′,·),V (s′)) = f (s′).
+                                                                                                                                   θ
+                   Each edge (s,a) traversed in the simulation is updated to increment its visit count N(s,a), and to
+                   updateitsaction-valuetothemeanevaluationoverthesesimulations,Q(s,a) = 1/N(s,a)P ′                                      ′ V (s′),
+                                                                                                                                  s |s,a→s
+                                     ′                                                         ′
+                   wheres,a → s indicatesthat a simulation eventually reached s after taking move a from position
+                   s.
+                          MCTSmaybeviewedasaself-play algorithm that, given neural network parameters θ and
+                                                                                                                                    π
+                   a root position s, computes a vector of search probabilities recommending moves to play, ππ =
+                   α (s), proportional to the exponentiated visit count for each move, π ∝ N(s,a)1/τ, where τ is a
+                     θ                                                                                 a
+                   temperature parameter.
+                          The neural network is trained by a self-play reinforcement learning algorithm that uses
+                   MCTStoplay each move. First, the neural network is initialised to random weights θ . At each
+                                                                                                                            0
+                   subsequent iteration i ≥ 1, games of self-play are generated (Figure 1a). At each time-step t,
+                                        π
+                   an MCTS search ππ = α              (s ) is executed using the previous iteration of neural network f                  ,
+                                          t      θ      t                                                                           θ
+                                                  i−1                                                                                i−1
+                                                                                          π
+                   and a move is played by sampling the search probabilities ππt. A game terminates at step T when
+                                                                             5
+                both players pass, when the search value drops below a resignation threshold, or when the game
+                exceeds a maximum length; the game is then scored to give a ﬁnal reward of r         ∈{−1,+1}(see
+                                                                                                   T
+                                                                                          π
+                Methods for details). The data for each time-step t is stored as (s ,ππ ,z ) where z = ±r            is
+                                                                                        t   t  t          t        T
+                the game winner from the perspective of the current player at step t. In parallel (Figure 1b), new
+                                                                   π
+                network parameters θi are trained from data (s,ππ,z) sampled uniformly among all time-steps of
+                the last iteration(s) of self-play. The neural network (p,v) = f (s) is adjusted to minimise the
+                                                                                    θ
+                                                                                     i
+                error between the predicted value v and the self-play winner z, and to maximise the similarity of
+                                                                                         π
+                the neural network move probabilities p to the search probabilities ππ. Speciﬁcally, the parame-
+                ters θ are adjusted by gradient descent on a loss function l that sums over mean-squared error and
+                cross-entropy losses respectively,
+                                                                               2   π⊤               2
+                                  (p,v) = f (s),                   l = (z − v) −ππ logp+c||θ||                      (1)
+                                            θ
+                where c is a parameter controlling the level of L2 weight regularisation (to prevent overﬁtting).
+                2   Empirical Analysis of AlphaGo Zero Training
+                We applied our reinforcement learning pipeline to train our program AlphaGo Zero. Training
+                started from completely random behaviour and continued without human intervention for approx-
+                imately 3 days.
+                      Overthecourseoftraining,4.9milliongamesofself-playweregenerated,using1,600simu-
+                lations for each MCTS, which corresponds to approximately 0.4s thinking time per move. Param-
+                eters were updated from 700,000 mini-batches of 2,048 positions. The neural network contained
+                20 residual blocks (see Methods for further details).
+                      Figure 3a shows the performance of AlphaGo Zero during self-play reinforcement learning,
+                as a function of training time, on an Elo scale 25. Learning progressed smoothly throughout train-
+                ing, and did not suffer from the oscillations or catastrophic forgetting suggested in prior literature
+                                                                   6
+                   Figure 3: Empirical evaluation of AlphaGo Zero. a Performance of self-play reinforcement learning. The plot
+                   shows the performance of each MCTS player α         from each iteration i of reinforcement learning in AlphaGo Zero.
+                                                                    θi
+                   Elo ratings were computed from evaluation games between different players, using 0.4 seconds of thinking time per
+                   move (see Methods). For comparison, a similar player trained by supervised learning from human data, using the
+                   KGSdata-set, is also shown. b Prediction accuracy on human professional moves. The plot shows the accuracy of the
+                   neural network f , at each iteration of self-play i, in predicting human professional moves from the GoKifu data-set.
+                                    θi
+                   The accuracy measures the percentage of positions in which the neural network assigns the highest probability to the
+                   human move. The accuracy of a neural network trained by supervised learning is also shown. c Mean-squared error
+                   (MSE) on human professional game outcomes. The plot shows the MSE of the neural network fθ , at each iteration
+                                                                                                                       i
+                   of self-play i, in predicting the outcome of human professional games from the GoKifu data-set. The MSE is between
+                   the actual outcome z ∈ {−1,+1} and the neural network value v, scaled by a factor of 1 to the range [0,1]. The MSE
+                                                                                                           4
+                   of a neural network trained by supervised learning is also shown.
+                                                                             7
+             26–28. Surprisingly, AlphaGo Zero outperformed AlphaGo Lee after just 36 hours; for compari-
+             son, AlphaGo Lee was trained over several months. After 72 hours, we evaluated AlphaGo Zero
+             against the exact version of AlphaGo Lee that defeated Lee Sedol, under the 2 hour time controls
+             and match conditions as were used in the man-machine match in Seoul (see Methods). AlphaGo
+             Zero used a single machine with 4 Tensor Processing Units (TPUs) 29, while AlphaGo Lee was
+             distributed over many machines and used 48 TPUs. AlphaGo Zero defeated AlphaGo Lee by 100
+             gamesto0(seeExtendedDataFigure5andSupplementaryInformation).
+                 To assess the merits of self-play reinforcement learning, compared to learning from human
+             data, we trained a second neural network (using the same architecture) to predict expert moves
+             in the KGS data-set; this achieved state-of-the-art prediction accuracy compared to prior work
+             12,30–33 (see Extended Data Table 1 and 2 respectively). Supervised learning achieved better initial
+             performance, and was better at predicting the outcome of human professional games (Figure 3).
+             Notably, although supervised learning achieved higher move prediction accuracy, the self-learned
+             player performed much better overall, defeating the human-trained player within the ﬁrst 24 hours
+             of training. This suggests that AlphaGo Zero may be learning a strategy that is qualitatively differ-
+             ent to human play.
+                 To separate the contributions of architecture and algorithm, we compared the performance
+             of the neural network architecture in AlphaGo Zero with the previous neural network architecture
+             used in AlphaGo Lee (see Figure 4). Four neural networks were created, using either separate
+             policy and value networks, as in AlphaGo Lee, or combined policy and value networks, as in
+             AlphaGo Zero; and using either the convolutional network architecture from AlphaGo Lee or the
+             residual network architecture from AlphaGo Zero. Each network was trained to minimise the
+             same loss function (Equation 1) using a ﬁxed data-set of self-play games generated by AlphaGo
+             Zero after 72 hours of self-play training. Using a residual network was more accurate, achieved
+             lower error, and improved performance in AlphaGo by over 600 Elo. Combining policy and value
+             together into a single network slightly reduced the move prediction accuracy, but reduced the value
+             error and boostedplayingperformanceinAlphaGobyaroundanother600Elo. Thisispartlydueto
+                                                   8
+        Figure 4: Comparison of neural network architectures in AlphaGo Zero and AlphaGo Lee. Comparison of
+        neural network architectures using either separate (“sep”) or combined policy and value networks (“dual”), and using
+        either convolutional (“conv”) or residual networks (“res”). The combinations “dual-res” and “sep-conv” correspond
+        to the neural network architectures used in AlphaGo Zero and AlphaGo Lee respectively. Each network was trained on
+        a ﬁxed data-set generated by a previous run of AlphaGo Zero. a Each trained network was combined with AlphaGo
+        Zero’s search to obtain a different player. Elo ratings were computed from evaluation games between these different
+        players, using 5 seconds of thinking time per move. b Prediction accuracy on human professional moves (from the
+        GoKifu data-set) for each network architecture. c Mean-squared error on human professional game outcomes (from
+        the GoKifu data-set) for each network architecture.
+                               9
+             improvedcomputationalefﬁciency,butmoreimportantlythedualobjectiveregularisesthenetwork
+             to a common representation that supports multiple use cases.
+             3  KnowledgeLearnedbyAlphaGoZero
+             AlphaGoZerodiscoveredaremarkablelevelofGoknowledgeduringitsself-playtrainingprocess.
+             This included fundamental elements of human Go knowledge, and also non-standard strategies
+             beyond the scope of traditional Go knowledge.
+                 Figure 5 shows a timeline indicating when professional joseki (corner sequences) were dis-
+             covered (Figure 5a, Extended Data Figure 1); ultimately AlphaGo Zero preferred new joseki vari-
+             ants that were previously unknown (Figure 5b, Extended Data Figure 2). Figure 5c and the Sup-
+             plementary Information show several fast self-play games played at different stages of training.
+             Tournament length games played at regular intervals throughout training are shown in Extended
+             Data Figure 3 and Supplementary Information. AlphaGo Zero rapidly progressed from entirely
+             random moves towards a sophisticated understanding of Go concepts including fuseki (opening),
+             tesuji (tactics), life-and-death, ko (repeated board situations), yose (endgame), capturing races,
+             sente (initiative), shape, inﬂuence and territory, all discovered from ﬁrst principles. Surprisingly,
+             shicho (“ladder” capture sequences that may span the whole board) – one of the ﬁrst elements of
+             Goknowledgelearnedbyhumans–wereonlyunderstoodbyAlphaGoZeromuchlaterintraining.
+             4  Final Performance of AlphaGo Zero
+             WesubsequentlyappliedourreinforcementlearningpipelinetoasecondinstanceofAlphaGoZero
+             using a larger neural network and over a longer duration. Training again started from completely
+             randombehaviour and continued for approximately 40 days.
+                 Over the course of training, 29 million games of self-play were generated. Parameters were
+             updated from 3.1 million mini-batches of 2,048 positions each. The neural network contained
+                                                   10
+        Figure 5: Go knowledge learned by AlphaGo Zero. a Five human joseki (common corner sequences) discovered
+        duringAlphaGoZerotraining. Theassociatedtimestampsindicatetheﬁrsttimeeachsequenceoccured(takingaccount
+        of rotation and reﬂection) during self-play training. Extended Data Figure 1 provides the frequency of occurence over
+        training for each sequence. b Five joseki favoured at different stages of self-play training. Each displayed corner
+        sequencewasplayedwiththegreatestfrequency,amongallcornersequences,duringaniterationofself-playtraining.
+        The timestamp of that iteration is indicated on the timeline. At 10 hours a weak corner move was preferred. At 47
+        hours the 3-3 invasion was most frequently played. This joseki is also common in human professional play; however
+        AlphaGo Zero later discovered and preferred a new variation. Extended Data Figure 2 provides the frequency of
+        occurence over time for all ﬁve sequences and the new variation. c The ﬁrst 80 moves of three self-play games that
+        were played at different stages of training, using 1,600 simulations (around 0.4s) per search. At 3 hours, the game
+        focuses greedily on capturing stones, much like a human beginner. At 19 hours, the game exhibits the fundamentals
+        of life-and-death, inﬂuence and territory. At 70 hours, the game is beautifully balanced, involving multiple battles and
+        a complicated ko ﬁght, eventually resolving into a half-point win for white. See Supplementary Information for the
+        full games.
+             40 residual blocks. The learning curve is shown in Figure 6a. Games played at regular intervals
+             throughout training are shown in Extended Data Figure 4 and Supplementary Information.
+                 Weevaluated the fully trained AlphaGo Zero using an internal tournament against AlphaGo
+             Fan, AlphaGoLee, and several previous Go programs. We also played games against the strongest
+             existing program, AlphaGo Master – a program based on the algorithm and architecture presented
+             in this paper but utilising human data and features (see Methods) – which defeated the strongest
+             human professional players 60–0 in online games 34 in January 2017. In our evaluation, all pro-
+             grams were allowed 5 seconds of thinking time per move; AlphaGo Zero and AlphaGo Master
+             each played on a single machine with 4 TPUs; AlphaGo Fan and AlphaGo Lee were distributed
+             over176GPUsand48TPUsrespectively. Wealsoincludedaplayerbasedsolelyontherawneural
+             network of AlphaGo Zero; this player simply selected the move with maximum probability.
+                 Figure 6b shows the performance of each program on an Elo scale. The raw neural network,
+             without using any lookahead, achieved an Elo rating of 3,055. AlphaGo Zero achieved a rating
+             of 5,185, compared to 4,858 for AlphaGo Master, 3,739 for AlphaGo Lee and 3,144 for AlphaGo
+             Fan.
+                 Finally, we evaluated AlphaGo Zero head to head against AlphaGo Master in a 100 game
+             matchwith2hourtimecontrols. AlphaGoZerowonby89gamesto11(seeExtendedDataFigure
+             6) and Supplementary Information.
+             5  Conclusion
+             Ourresults comprehensively demonstrate that a pure reinforcement learning approach is fully fea-
+             sible, even in the most challenging of domains: it is possible to train to superhuman level, without
+             human examples or guidance, given no knowledge of the domain beyond basic rules. Further-
+             more, a pure reinforcement learning approach requires just a few more hours to train, and achieves
+             much better asymptotic performance, compared to training on human expert data. Using this ap-
+                                                   12
+                  Figure6: PerformanceofAlphaGoZero. aLearningcurveforAlphaGoZerousinglarger40blockresidualnetwork
+                  over 40 days. The plot shows the performance of each player αθ from each iteration i of our reinforcement learning
+                                                                                   i
+                  algorithm. Elo ratings were computed from evaluation games between different players, using 0.4 seconds per search
+                  (see Methods). b Final performance of AlphaGo Zero. AlphaGo Zero was trained for 40 days using a 40 residual block
+                  neural network. The plot shows the results of a tournament between: AlphaGo Zero, AlphaGo Master (defeated top
+                  humanprofessionals 60-0 in online games), AlphaGo Lee (defeated Lee Sedol), AlphaGo Fan (defeated Fan Hui), as
+                  well as previous Go programs Crazy Stone, Pachi and GnuGo. Each program was given 5 seconds of thinking time
+                  per move. AlphaGo Zero and AlphaGo Master played on a single machine on the Google Cloud; AlphaGo Fan and
+                  AlphaGo Lee were distributed over many machines. The raw neural network from AlphaGo Zero is also included,
+                  which directly selects the move a with maximum probability p , without using MCTS. Programs were evaluated on
+                                                                                  a
+                  an Elo scale 25: a 200 point gap corresponds to a 75% probability of winning.
+                                                                            13
+       proach, AlphaGo Zero defeated the strongest previous versions of AlphaGo, which were trained
+       from human data using handcrafted features, by a large margin.
+         Humankind has accumulated Go knowledge from millions of games played over thousands
+       of years, collectively distilled into patterns, proverbs and books. In the space of a few days, starting
+       tabula rasa, AlphaGo Zero was able to rediscover much of this Go knowledge, as well as novel
+       strategies that provide new insights into the oldest of games.
+                          14
+       References
+       1. Friedman, J., Hastie, T. & Tibshirani, R. The Elements of Statistical Learning: Data Mining,
+        Inference, and Prediction (Springer-Verlag, 2009).
+       2. LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. Nature 521, 436–444 (2015).
+       3. Krizhevsky, A., Sutskever, I. & Hinton, G. ImageNet classiﬁcation with deep convolutional
+        neural networks. In Advances in Neural Information Processing Systems, 1097–1105 (2012).
+       4. He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image recognition. In IEEE
+        Conference on Computer Vision and Pattern Recognition, 770–778 (2016).
+       5. Hayes-Roth, F., Waterman, D. & Lenat, D. Building expert systems (Addison-Wesley, 1984).
+       6. Mnih, V. et al. Human-level control through deep reinforcement learning. Nature 518, 529–
+        533 (2015).
+       7. Guo, X., Singh, S. P., Lee, H., Lewis, R. L. & Wang, X. Deep learning for real-time Atari
+        gameplayusingofﬂineMonte-Carlotreesearchplanning. InAdvancesinNeuralInformation
+        Processing Systems, 3338–3346 (2014).
+       8. Mnih, V. et al. Asynchronous methods for deep reinforcement learning. In International
+        Conference on Machine Learning, 1928–1937 (2016).
+       9. Jaderberg, M. et al. Reinforcement learning with unsupervised auxiliary tasks. International
+        Conference on Learning Representations (2017).
+       10. Dosovitskiy, A. & Koltun, V. Learning to act by predicting the future. In International Con-
+        ference on Learning Representations (2017).
+       11. Mandziuk, J. Computational intelligence in mind games. In Challenges for Computational
+        Intelligence, 407–442 (2007).
+                          15
+       12. Silver, D. et al. Mastering the game of Go with deep neural networks and tree search. Nature
+        529, 484–489 (2016).
+       13. Coulom, R. Efﬁcient selectivity and backup operators in Monte-Carlo tree search. In Interna-
+        tional Conference on Computers and Games, 72–83 (2006).
+                 ´
+       14. Kocsis,L.&Szepesvari,C.BanditbasedMonte-Carloplanning.In15thEuropeanConference
+        on Machine Learning, 282–293 (2006).
+       15. Browne, C. et al. A survey of Monte-Carlo tree search methods. IEEE Transactions of Com-
+        putational Intelligence and AI in Games 4, 1–43 (2012).
+       16. Fukushima, K. Neocognitron: A self-organizing neural network model for a mechanism of
+        pattern recognition unaffected by shift in position. Biological Cybernetics 36, 193–202 (1980).
+       17. LeCun,Y.&Bengio,Y. Convolutionalnetworksforimages,speech,andtimeseries. InArbib,
+        M.(ed.) The Handbook of Brain Theory and Neural Networks, chap. 3, 276–278 (MIT Press,
+        1995).
+       18. Ioffe, S. & Szegedy, C. Batch normalization: Accelerating deep network training by reducing
+        internal covariate shift. In International Conference on Machine Learning, 448–456 (2015).
+       19. Hahnloser, R. H. R., Sarpeshkar, R., Mahowald, M. A., Douglas, R. J. & Seung, H. S. Digital
+        selection and analogue ampliﬁcation coexist in a cortex-inspired silicon circuit. Nature 405,
+        947–951 (2000).
+       20. Howard, R. Dynamic Programming and Markov Processes (MIT Press, 1960).
+       21. Sutton, R. & Barto, A. Reinforcement Learning: an Introduction (MIT Press, 1998).
+       22. Bertsekas, D. P. Approximate policy iteration: a survey and some new methods. Journal of
+        Control Theory and Applications 9, 310–335 (2011).
+       23. Scherrer, B. Approximate policy iteration schemes: A comparison. In International Confer-
+        ence on Machine Learning, 1314–1322 (2014).
+                          16
+             24. Rosin, C. D. Multi-armed bandits with episode context. Annals of Mathematics and Artiﬁcial
+                 Intelligence 61, 203–230 (2011).
+             25. Coulom, R. Whole-history rating: A Bayesian rating system for players of time-varying
+                 strength. In International Conference on Computers and Games, 113–124 (2008).
+             26. Laurent, G. J., Matignon, L. & Le Fort-Piat, N. The world of Independent learners is not
+                 Markovian. International Journal of Knowledge-Based and Intelligent Engineering Systems
+                 15, 55–64 (2011).
+             27. Foerster, J. N. et al. Stabilising experience replay for deep multi-agent reinforcement learning.
+                 In International Conference on Machine Learning (2017).
+             28. Heinrich, J. & Silver, D. Deep reinforcement learning from self-play in imperfect-information
+                 games. In NIPS Deep Reinforcement Learning Workshop (2016).
+             29. Jouppi, N. P., Young, C., Patil, N. et al. In-datacenter performance analysis of a tensor pro-
+                 cessing unit. In Proceedings of the 44th Annual International Symposium on Computer Archi-
+                 tecture, ISCA ’17, 1–12 (ACM, 2017).
+             30. Maddison, C. J., Huang, A., Sutskever, I. & Silver, D. Move evaluation in Go using deep con-
+                 volutional neural networks. In International Conference on Learning Representations (2015).
+             31. Clark, C. & Storkey, A. J. Training deep convolutional neural networks to play Go. In Inter-
+                 national Conference on Machine Learning, 1766–1774 (2015).
+             32. Tian, Y. & Zhu, Y. Better computer Go player with neural network and long-term prediction.
+                 In International Conference on Learning Representations (2016).
+             33. Cazenave, T. Residual networks for computer Go. IEEE Transactions on Computational
+                 Intelligence and AI in Games (2017).
+             34. Huang,   A.       AlphaGo   Master  online  series of  games   (2017).      URL:
+                 https://deepmind.com/research/alphago/match-archive/master.
+                                                      17
+       SupplementaryInformation
+       Supplementary Information is available in the online version of the paper.
+       Acknowledgements
+       Wethank A. Cain for work on the visuals; A. Barreto, G. Ostrovski, T. Ewalds, T. Schaul, J. Oh
+       and N. Heess for reviewing the paper; and the rest of the DeepMind team for their support.
+       AuthorContributions
+       D.S., J.S., K.S., I.A., A.G., L.S. and T.H. designed and implemented the reinforcement learning al-
+       gorithminAlphaGoZero. A.H.,J.S.,M.L.,D.S.designedandimplementedthesearchinAlphaGo
+       Zero. L.B., J.S., A.H, F.H., T.H., Y.C, D.S. designed and implemented the evaluation framework
+       for AlphaGo Zero. D.S., A.B., F.H., A.G., T.L., T.G., L.S., G.v.d.D., D.H. managed and advised
+       on the project. D.S., T.G., A.G. wrote the paper.
+       AuthorInformation
+       Reprints and permissions information is available at www.nature.com/reprints. The authors de-
+       clare no competing ﬁnancial interests. Readers are welcome to comment on the online version
+       of the paper. Correspondence and requests for materials should be addressed to D.S. (davidsil-
+       ver@google.com).
+                          18
+             Methods
+             Reinforcement learning Policy iteration 20,21 is a classic algorithm that generates a sequence of
+             improving policies, by alternating between policy evaluation – estimating the value function of
+             the current policy – and policy improvement – using the current value function to generate a better
+             policy. A simple approach to policy evaluation is to estimate the value function from the outcomes
+             of sampled trajectories 35,36. A simple approach to policy improvement is to select actions greedily
+             withrespecttothevaluefunction20. Inlargestatespaces,approximationsarenecessarytoevaluate
+             each policy and to represent its improvement 22,23.
+                 Classiﬁcation-based reinforcement learning 37 improves the policy using a simple Monte-
+             Carlosearch. Manyrolloutsareexecutedforeachaction;theactionwiththemaximummeanvalue
+             provides a positive training example, while all other actions provide negative training examples; a
+             policy is then trained to classify actions as positive or negative, and used in subsequent rollouts.
+             This may be viewed as a precursor to the policy component of AlphaGo Zero’s training algorithm
+             whenτ →0.
+                 A more recent instantiation, classiﬁcation-based modiﬁed policy iteration (CBMPI), also
+             performs policy evaluation by regressing a value function towards truncated rollout values, similar
+             to the value component of AlphaGo Zero; this achieved state-of-the-art results in the game of Tetris
+             38. However, this prior work was limited to simple rollouts and linear function approximation using
+             handcrafted features.
+                 The AlphaGo Zero self-play algorithm can similarly be understood as an approximate pol-
+             icy iteration scheme in which MCTS is used for both policy improvement and policy evaluation.
+             Policy improvement starts with a neural network policy, executes an MCTS based on that policy’s
+             recommendations,andthenprojectsthe(muchstronger)searchpolicybackintothefunctionspace
+             of the neural network. Policy evaluation is applied to the (much stronger) search policy: the out-
+             comes of self-play games are also projected back into the function space of the neural network.
+             These projection steps are achieved by training the neural network parameters to match the search
+                                                   19
+             probabilities and self-play game outcome respectively.
+                 Guo et al. 7 also project the output of MCTS into a neural network, either by regressing
+             a value network towards the search value, or by classifying the action selected by MCTS. This
+             approach was used to train a neural network for playing Atari games; however, the MCTS was
+             ﬁxed —there was no policy iteration — and did not make any use of the trained networks.
+             Self-play reinforcementlearningingames Ourapproachismostdirectlyapplicabletozero-sum
+             gamesofperfect information. We follow the formalism of alternating Markov games described in
+             previous work 12, noting that algorithms based on value or policy iteration extend naturally to this
+             setting 39.
+                 Self-play reinforcement learning has previously been applied to the game of Go. NeuroGo
+             40,41 used a neural network to represent a value function, using a sophisticated architecture based
+             on Go knowledge regarding connectivity, territory and eyes. This neural network was trained by
+             temporal-difference learning 42 to predict territory in games of self-play, building on prior work
+             43. A related approach, RLGO 44, represented the value function instead by a linear combination
+             of features, exhaustively enumerating all 3 × 3 patterns of stones; it was trained by temporal-
+             difference learning to predict the winner in games of self-play. Both NeuroGo and RLGO achieved
+             a weak amateur level of play.
+                 Monte-Carlo tree search (MCTS) may also be viewed as a form of self-play reinforcement
+             learning 45. The nodes of the search tree contain the value function for the positions encountered
+             during search; these values are updated to predict the winner of simulated games of self-play.
+             MCTSprograms have previously achieved strong amateur level in Go 46,47, but used substantial
+             domainexpertise: a fast rollout policy, based on handcrafted features 48 13, that evaluates positions
+             by running simulations until the end of the game; and a tree policy, also based on handcrafted
+             features, that selects moves within the search tree 47.
+                 Self-play reinforcement learning approaches have achieved high levels of performance in
+             other games: chess 49–51, checkers 52, backgammon 53, othello 54, Scrabble 55 and most recently
+                                                   20
+             poker 56. In all of these examples, a value function was trained by regression 54–56 or temporal-
+             difference learning 49–53 from training data generated by self-play. The trained value function was
+             used as an evaluation function in an alpha-beta search 49–54, a simple Monte-Carlo search 55,57, or
+             counterfactual regret minimisation 56. However, these methods utilised handcrafted input features
+             49–53,56 or handcrafted feature templates 54,55. In addition, the learning process used supervised
+             learning to initialise weights 58, hand-selected weights for piece values 49,51,52, handcrafted restric-
+             tions on the action space 56, or used pre-existing computer programs as training opponents 49,50 or
+             to generate game records 51.
+                 Many of the most successful and widely used reinforcement learning methods were ﬁrst
+             introduced in the context of zero-sum games: temporal-difference learning was ﬁrst introduced
+             for a checkers-playing program 59, while MCTS was introduced for the game of Go 13. However,
+             very similar algorithms have subsequently proven highly effective in video games 6–8,10, robotics
+             60, industrial control 61–63, and online recommendation systems 64,65.
+             AlphaGoversions Wecomparethreedistinct versions of AlphaGo:
+               1. AlphaGo Fan is the previously published program 12 that played against Fan Hui in October
+                  2015. This program was distributed over many machines using 176 GPUs.
+               2. AlphaGo Lee is the program that defeated Lee Sedol 4–1 in March, 2016. It was previously
+                  unpublishedbutissimilarinmostregardstoAlphaGoFan12. However,wehighlightseveral
+                  key differences to facilitate a fair comparison. First, the value network was trained from
+                  the outcomes of fast games of self-play by AlphaGo, rather than games of self-play by the
+                  policy network; this procedure was iterated several times – an initial step towards the tabula
+                  rasa algorithm presented in this paper. Second, the policy and value networks were larger
+                  than those described in the original paper – using 12 convolutional layers of 256 planes
+                  respectively – and were trained for more iterations. This player was also distributed over
+                  many machines using 48 TPUs, rather than GPUs, enabling it to evaluate neural networks
+                  faster during search.
+                                                   21
+        3. AlphaGoMasteristheprogramthatdefeatedtophumanplayersby60–0inJanuary,201734.
+         It was previously unpublished but uses the same neural network architecture, reinforcement
+         learning algorithm, and MCTS algorithm as described in this paper. However, it uses the
+         same handcrafted features and rollouts as AlphaGo Lee 12 and training was initialised by
+         supervised learning from human data.
+        4. AlphaGo Zero is the program described in this paper. It learns from self-play reinforcement
+         learning, starting from random initial weights, without using rollouts, with no human super-
+         vision, and using only the raw board history as input features. It uses just a single machine
+         in the Google Cloud with 4 TPUs (AlphaGo Zero could also be distributed but we chose to
+         use the simplest possible search algorithm).
+       Domain Knowledge Our primary contribution is to demonstrate that superhuman performance
+       can be achieved without human domain knowledge. To clarify this contribution, we enumerate the
+       domainknowledgethatAlphaGoZerouses,explicitlyorimplicitly, either in its training procedure
+       or its Monte-Carlo tree search; these are the items of knowledge that would need to be replaced for
+       AlphaGoZerotolearn a different (alternating Markov) game.
+        1. AlphaGo Zero is provided with perfect knowledge of the game rules. These are used dur-
+         ing MCTS, to simulate the positions resulting from a sequence of moves, and to score any
+         simulations that reach a terminal state. Games terminate when both players pass, or after
+         19 · 19 · 2 = 722 moves. In addition, the player is provided with the set of legal moves in
+         each position.
+        2. AlphaGo Zero uses Tromp-Taylor scoring 66 during MCTS simulations and self-play train-
+         ing. This is because human scores (Chinese, Japanese or Korean rules) are not well-deﬁned
+         if the game terminates before territorial boundaries are resolved. However, all tournament
+         and evaluation games were scored using Chinese rules.
+        3. The input features describing the position are structured as a 19 × 19 image; i.e. the neural
+         network architecture is matched to the grid-structure of the board.
+                          22
+                   4. The rules of Go are invariant under rotation and reﬂection; this knowledge has been utilised
+                       in AlphaGo Zero both by augmenting the data set during training to include rotations and
+                       reﬂections of each position, and to sample random rotations or reﬂections of the position
+                       during MCTS (see Search Algorithm). Aside from komi, the rules of Go are also invari-
+                       ant to colour transposition; this knowledge is exploited by representing the board from the
+                       perspective of the current player (see Neural network architecture)
+                      AlphaGo Zero does not use any form of domain knowledge beyond the points listed above.
+                It only uses its deep neural network to evaluate leaf nodes and to select moves (see section below).
+                It does not use any rollout policy or tree policy, and the MCTS is not augmented by any other
+                heuristics or domain-speciﬁc rules. No legal moves are excluded – even those ﬁlling in the player’s
+                owneyes(astandard heuristic used in all previous programs 67).
+                      Thealgorithmwasstarted with random initial parameters for the neural network. The neural
+                network architecture (see Neural Network Architecture) is based on the current state of the art
+                in image recognition 4,18, and hyperparameters for training were chosen accordingly (see Self-
+                Play Training Pipeline). MCTS search parameters were selected by Gaussian process optimisation
+                68, so as to optimise self-play performance of AlphaGo Zero using a neural network trained in
+                a preliminary run. For the larger run (40 block, 40 days), MCTS search parameters were re-
+                optimised using the neural network trained in the smaller run (20 block, 3 days). The training
+                algorithm was executed autonomously without human intervention.
+                Self-Play Training Pipeline AlphaGo Zero’s self-play training pipeline consists of three main
+                components,allexecutedasynchronouslyinparallel. Neuralnetworkparametersθi arecontinually
+                optimised from recent self-play data; AlphaGo Zero players α       are continually evaluated; and the
+                                                                                θi
+                best performing player so far, αθ , is used to generate new self-play data.
+                                                  ∗
+                      Optimisation Each neural network fθ is optimised on the Google Cloud using TensorFlow,
+                                                             i
+                with 64 GPU workers and 19 CPU parameter servers. The batch-size is 32 per worker, for a
+                total mini-batch size of 2,048. Each mini-batch of data is sampled uniformly at random from
+                                                                  23
+                 all positions from the most recent 500,000 games of self-play. Neural network parameters are
+                 optimised by stochastic gradient descent with momentum and learning rate annealing, using the
+                 loss in Equation 1. The learning rate is annealed according to the standard schedule in Extended
+                 Data Table 3. The momentum parameter is set to 0.9. The cross-entropy and mean-squared error
+                 losses are weighted equally (this is reasonable because rewards are unit scaled, r ∈ {−1,+1})
+                                                                         −4
+                 and the L2 regularisation parameter is set to c = 10      . The optimisation process produces a new
+                 checkpoint every 1,000 training steps. This checkpoint is evaluated by the evaluator and it may be
+                 used for generating the next batch of self-play games, as we explain next.
+                       Evaluator To ensure we always generate the best quality data, we evaluate each new neural
+                 network checkpoint against the current best network fθ before using it for data generation. The
+                                                                            ∗
+                 neural network f    is evaluated by the performance of an MCTS search α          that uses f   to evalu-
+                                   θi                                                           θi            θi
+                 ate leaf positions and prior probabilities (see Search Algorithm). Each evaluation consists of 400
+                 games, using an MCTS with 1,600 simulations to select each move, using an inﬁnitesimal tem-
+                 perature τ → 0 (i.e.we deterministically select the move with maximum visit count, to give the
+                 strongest possible play). If the new player wins by a margin of > 55% (to avoid selecting on noise
+                 alone) then it becomes the best player α , and is subsequently used for self-play generation, and
+                                                            θ∗
+                 also becomes the baseline for subsequent comparisons.
+                       Self-Play The best current player α , as selected by the evaluator, is used to generate data.
+                                                             θ
+                                                              ∗
+                 In each iteration, αθ plays 25,000 games of self-play, using 1,600 simulations of MCTS to select
+                                      ∗
+                 each move (this requires approximately 0.4s per search). For the ﬁrst 30 moves of each game, the
+                 temperature is set to τ = 1; this selects moves proportionally to their visit count in MCTS, and
+                 ensures a diverse set of positions are encountered. For the remainder of the game, an inﬁnitesimal
+                 temperature is used, τ → 0. Additional exploration is achieved by adding Dirichlet noise to the
+                                                                                                          η
+                 prior probabilities in the root node s , speciﬁcally P(s,a) = (1−ǫ)p +ǫη , whereηη ∼ Dir(0.03)
+                                                       0                                  a      a
+                 and ǫ = 0.25; this noise ensures that all moves may be tried, but the search may still overrule bad
+                 moves. In order to save computation, clearly lost games are resigned. The resignation threshold
+                 vresign is selected automatically to keep the fraction of false positives (games that could have been
+                                                                    24
+               won if AlphaGo had not resigned) below 5%. To measure false positives, we disable resignation
+               in 10% of self-play games and play until termination.
+               Supervised Learning For comparison, we also trained neural network parameters θSL by super-
+               vised learning. The neural network architecture was identical to AlphaGo Zero. Mini-batches of
+                       π
+               data (s,ππ,z) were sampled at random from the KGS data-set, setting πa = 1 for the human expert
+               move a. Parameters were optimised by stochastic gradient descent with momentum and learning
+               rate annealing, using the same loss as in Equation 1, but weighting the mean-squared error com-
+               ponent by a factor of 0.01. The learning rate was annealed according to the standard schedule
+               in Extended Data Table 3. The momentum parameter was set to 0.9, and the L2 regularisation
+                                          −4
+               parameter was set to c = 10  .
+                     By using a combined policy and value network architecture, and by using a low weight on
+               the value component, it was possible to avoid overﬁtting to the values (a problem described in
+               prior work 12). After 72 hours the move prediction accuracy exceeded the state of the art reported
+               in previous work 12,30–33, reaching 60.4% on the KGS test set; the value prediction error was also
+               substantially better than previously reported 12. The validation set was composed of professional
+               games from GoKifu. Accuracies and mean squared errors are reported in Extended Data Table 1
+               and Extended Data Table 2 respectively.
+               Search Algorithm AlphaGo Zero uses a much simpler variant of the asynchronous policy and
+               value MCTSalgorithm (APV-MCTS)usedinAlphaGoFanandAlphaGoLee.
+                     Eachnodesinthesearchtreecontainsedges(s,a)foralllegalactionsa ∈ A(s). Eachedge
+               stores a set of statistics,
+                                             {N(s,a),W(s,a),Q(s,a),P(s,a)},
+               whereN(s,a)isthevisitcount,W(s,a)isthetotalaction-value,Q(s,a)isthemeanaction-value,
+               and P(s,a) is the prior probability of selecting that edge. Multiple simulations are executed in
+               parallel on separate search threads. The algorithm proceeds by iterating over three phases (a–c in
+               Figure 2), and then selects a move to play (d in Figure 2).
+                                                             25
+                       Select (Figure 2a). The selection phase is almost identical to AlphaGo Fan 12; we recapitulate
+                 here for completeness. The ﬁrst in-tree phase of each simulation begins at the root node of the
+                 search tree, s , and ﬁnishes when the simulation reaches a leaf node s         at time-step L. At each
+                               0                                                             L
+                 of these time-steps, t < L, an action is selected according to the statistics in the search tree,
+                                                                                                 24
+                 a =argmax Q(s ,a)+U(s ,a) ,usingavariantofthePUCTalgorithm ,
+                  t                  t           t
+                          a
+                                                                          p
+                                                 U(s,a) = cpuctP(s,a)       PbN(s,b)
+                                                                           1+N(s,a)
+                 where cpuct is a constant determining the level of exploration; this search control strategy initially
+                 prefers actions with high prior probability and low visit count, but asympotically prefers actions
+                 with high action-value.
+                       Expand and evaluate (Figure 2b). The leaf node s is added to a queue for neural network
+                                                                              L
+                 evaluation, (d (p),v) = f (d (s )), where d is a dihedral reﬂection or rotation selected uniformly
+                               i            θ  i  L             i
+                 at random from i ∈ [1..8].
+                       Positions in the queue are evaluated by the neural network using a mini-batch size of 8; the
+                 searchthreadislockeduntilevaluationcompletes. Theleafnodeisexpandedandeachedge(sL,a)
+                 is initialised to {N(s ,a) = 0,W(s ,a) = 0,Q(s ,a) = 0,P(s ,a) = p }; the value v is then
+                                       L                L               L              L         a
+                 backed up.
+                       Backup (Figure 2c). The edge statistics are updated in a backward pass through each step
+                 t ≤ L. Thevisit counts are incremented, N(s ,a ) = N(s ,a )+1, and the action-value is updated
+                                                                 t  t         t   t
+                 to the mean value, W(s ,a ) = W(s ,a ) + v,Q(s ,a ) = W(st,at). We use virtual loss to ensure
+                                          t   t         t   t           t  t     N(s ,a )
+                                                                                    t  t
+                 each thread evaluates different nodes 69.
+                       Play (Figure 2d). At the end of the search AlphaGo Zero selects a move a to play in the root
+                 position s , proportional to its exponentiated visit count, π(a|s ) = N(s ,a)1/τ/P N(s ,b)1/τ,
+                           0                                                        0          0           b     0
+                 whereτ is a temperature parameter that controls the level of exploration. The search tree is reused
+                 at subsequent time-steps: the child node corresponding to the played action becomes the new root
+                 node; the subtree below this child is retained along with all its statistics, while the remainder of
+                                                                    26
+                    the tree is discarded. AlphaGo Zero resigns if its root value and best child value are lower than a
+                    threshold value vresign.
+                           ComparedtotheMCTSinAlphaGoFanandAlphaGoLee,theprincipaldifferencesarethat
+                    AlphaGo Zero does not use any rollouts; it uses a single neural network instead of separate policy
+                    and value networks; leaf nodes are always expanded, rather than using dynamic expansion; each
+                    search thread simply waits for the neural network evaluation, rather than performing evaluation
+                    and backup asynchronously; and there is no tree policy. A transposition table was also used in the
+                    large (40 block, 40 day) instance of AlphaGo Zero.
+                    Neural Network Architecture The input to the neural network is a 19 × 19 × 17 image stack
+                    comprising 17 binary feature planes. 8 feature planes Xt consist of binary values indicating the
+                    presence of the current player’s stones (Xi = 1 if intersection i contains a stone of the player’s
+                                                                           t
+                    colour at time-step t; 0 if the intersection is empty, contains an opponent stone, or if t < 0). A
+                    further 8 feature planes, Yt, represent the corresponding features for the opponent’s stones. The
+                    ﬁnal feature plane, C, represents the colour to play, and has a constant value of either 1 if black
+                    is to play or 0 if white is to play. These planes are concatenated together to give input features
+                    s = [X ,Y ,X            , Y    , ..., X    , Y    , C]. History features X ,Y are necessary because Go is
+                     t         t   t    t−1    t−1         t−7    t−7                                 t   t
+                    not fully observable solely from the current stones, as repetitions are forbidden; similarly, the
+                    colour feature C is necessary because the komi is not observable.
+                           Theinputfeatures s are processed by a residual tower that consists of a single convolutional
+                                                     t
+                    block followed by either 19 or 39 residual blocks 4.
+                           Theconvolutional block applies the following modules:
+                        1. A convolution of 256 ﬁlters of kernel size 3 × 3 with stride 1
+                        2. Batch normalisation 18
+                        3. A rectiﬁer non-linearity
+                                                                                 27
+         Each residual block applies the following modules sequentially to its input:
+        1. A convolution of 256 ﬁlters of kernel size 3 × 3 with stride 1
+        2. Batch normalisation
+        3. A rectiﬁer non-linearity
+        4. A convolution of 256 ﬁlters of kernel size 3 × 3 with stride 1
+        5. Batch normalisation
+        6. A skip connection that adds the input to the block
+        7. A rectiﬁer non-linearity
+         Theoutputoftheresidualtowerispassedintotwoseparate“heads”forcomputingthepolicy
+       and value respectively. The policy head applies the following modules:
+        1. A convolution of 2 ﬁlters of kernel size 1 × 1 with stride 1
+        2. Batch normalisation
+        3. A rectiﬁer non-linearity
+        4. A fully connected linear layer that outputs a vector of size 192 + 1 = 362 corresponding to
+         logit probabilities for all intersections and the pass move
+         Thevalue head applies the following modules:
+        1. A convolution of 1 ﬁlter of kernel size 1 × 1 with stride 1
+        2. Batch normalisation
+        3. A rectiﬁer non-linearity
+                          28
+        4. A fully connected linear layer to a hidden layer of size 256
+        5. A rectiﬁer non-linearity
+        6. A fully connected linear layer to a scalar
+        7. A tanh non-linearity outputting a scalar in the range [−1,1]
+         The overall network depth, in the 20 or 40 block network, is 39 or 79 parameterised layers
+       respectively for the residual tower, plus an additional 2 layers for the policy head and 3 layers for
+       the value head.
+         Wenotethatadifferentvariantofresidualnetworkswassimultaneouslyappliedtocomputer
+       Go33 and achieved amateur dan-level performance; however this was restricted to a single-headed
+       policy network trained solely by supervised learning.
+       NeuralNetworkArchitectureComparison Figure4showstheresultsofacomparisonbetween
+       network architectures. Speciﬁcally, we compared four different neural networks:
+        1. dual-res: The network contains a 20-block residual tower, as described above, followed by
+         both a policy head and a value head. This is the architecture used in AlphaGo Zero.
+        2. sep-res: The network contains two 20-block residual towers. The ﬁrst tower is followed by
+         a policy head and the second tower is followed by a value head.
+        3. dual-conv: The network contains a non-residual tower of 12 convolutional blocks, followed
+         by both a policy head and a value head.
+        4. sep-conv: The network contains two non-residual towers of 12 convolutional blocks. The
+         ﬁrst tower is followed by a policy head and the second tower is followed by a value head.
+         This is the architecture used in AlphaGo Lee.
+         Each network was trained on a ﬁxed data-set containing the ﬁnal 2 million games of self-
+       play data generated by a previous run of AlphaGo Zero, using stochastic gradient descent with
+                          29
+                the annealing rate, momentum, and regularisation hyperparameters described for the supervised
+                learning experiment; however, cross-entropy and mean-squared error components were weighted
+                equally, since more data was available.
+                Evaluation We evaluated the relative strength of AlphaGo Zero (Figure 3a and 6) by measuring
+                the Elo rating of each player. We estimate the probability that player a will defeat player b by
+                a logistic function p(a defeats b) =          1        , and estimate the ratings e(·) by Bayesian
+                                                     1+exp(celo(e(b)−e(a))
+                logistic regression, computedbytheBayesEloprogram25 usingthestandardconstantc             =1/400.
+                                                                                                       elo
+                      Elo ratings were computed from the results of a 5 second per move tournament between
+                AlphaGo Zero, AlphaGo Master, AlphaGo Lee, and AlphaGo Fan. The raw neural network from
+                AlphaGoZerowasalsoincludedinthetournament. TheEloratingsofAlphaGoFan,CrazyStone,
+                Pachi and GnuGo were anchored to the tournament values from prior work 12, and correspond to
+                the players reported in that work. The results of the matches of AlphaGo Fan against Fan Hui and
+                AlphaGo Lee against Lee Sedol were also included to ground the scale to human references, as
+                otherwise the Elo ratings of AlphaGo are unrealistically high due to self-play bias.
+                      TheEloratings in Figure 3a, 4a and 6a were computed from the results of evaluation games
+                between each iteration of player α    during self-play training. Further evaluations were also per-
+                                                   θi
+                formed against baseline players with Elo ratings anchored to the previously published values 12.
+                      We measured the head-to-head performance of AlphaGo Zero against AlphaGo Lee, and
+                the 40 block instance of AlphaGo Zero against AlphaGo Master, using the same player and match
+                conditions as were used against Lee Sedol in Seoul, 2016. Each player received 2 hours of thinking
+                time plus 3 byoyomi periods of 60 seconds per move. All games were scored using Chinese rules
+                with a komi of 7.5 points.
+                Data Availability The datasets used for validation and testing are the GoKifu dataset (available
+                from http://gokifu.com/) and the KGS dataset (available from https://u-go.net/gamerecords/).
+                                                                30
+       References
+       35. Barto, A. G. & Duff, M. Monte Carlo matrix inversion and reinforcement learning. Advances
+        in Neural Information Processing Systems 687–694 (1994).
+       36. Singh, S. P. & Sutton, R. S. Reinforcement learning with replacing eligibility traces. Machine
+        learning 22, 123–158 (1996).
+       37. Lagoudakis, M. G. & Parr, R. Reinforcement learning as classiﬁcation: Leveraging modern
+        classiﬁers. In International Conference on Machine Learning, 424–431 (2003).
+       38. Scherrer, B., Ghavamzadeh, M., Gabillon, V., Lesner, B. & Geist, M. Approximate modi-
+        ﬁed policy iteration and its application to the game of Tetris. Journal of Machine Learning
+        Research 16, 1629–1676 (2015).
+       39. Littman, M. L. Markov games as a framework for multi-agent reinforcement learning. In
+        International Conference on Machine Learning, 157–163 (1994).
+       40. Enzenberger, M. The integration of a priori knowledge into a Go playing neural network
+        (1996). URL: http://www.cgl.ucsf.edu/go/Programs/neurogo-html/neurogo.html.
+       41. Enzenberger, M. Evaluation in Go by a neural network using soft segmentation. In Advances
+        in Computer Games Conference, 97–108 (2003).
+       42. Sutton, R. Learning to predict by the method of temporal differences. Machine Learning 3,
+        9–44(1988).
+       43. Schraudolph, N. N., Dayan, P. & Sejnowski, T. J. Temporal difference learning of position
+        evaluation in the game of Go. Advances in Neural Information Processing Systems 817–824
+        (1994).
+                    ¨
+       44. Silver, D., Sutton, R. & Muller, M. Temporal-difference search in computer Go. Machine
+        Learning 87, 183–219 (2012).
+                          31
+               45. Silver, D. Reinforcement Learning and Simulation-Based Search in Computer Go. Ph.D.
+                   thesis, University of Alberta, Edmonton, Canada (2009).
+               46. Gelly, S. & Silver, D. Monte-Carlo tree search and rapid action value estimation in computer
+                   Go. Artiﬁcial Intelligence 175, 1856–1875 (2011).
+               47. Coulom, R. Computing Elo ratings of move patterns in the game of Go. International Com-
+                   puter Games Association Journal 30, 198–208 (2007).
+               48. Gelly, S., Wang, Y., Munos, R. & Teytaud, O. Modiﬁcation of UCT with patterns in Monte-
+                   Carlo Go. Tech. Rep. 6062, INRIA (2006).
+               49. Baxter, J., Tridgell, A. & Weaver, L. Learning to play chess using temporal differences.
+                   Machine Learning 40, 243–263 (2000).
+               50. Veness, J., Silver, D., Blair, A. & Uther, W. Bootstrapping from game tree search. In Advances
+                   in Neural Information Processing Systems, 1937–1945 (2009).
+               51. Lai, M. Giraffe: Using Deep Reinforcement Learning to Play Chess. Master’s thesis, Imperial
+                   College London (2015).
+               52. Schaeffer, J., Hlynka, M. & Jussila, V.  Temporal difference learning applied to a high-
+                   performance game-playing program. In International Joint Conference on Artiﬁcial Intelli-
+                   gence, 529–534 (2001).
+               53. Tesauro, G. TD-gammon, a self-teaching backgammon program, achieves master-level play.
+                   Neural Computation 6, 215–219 (1994).
+               54. Buro, M. From simple features to sophisticated evaluation functions. In International Confer-
+                   ence on Computers and Games, 126–145 (1999).
+               55. Sheppard, B. World-championship-caliber Scrabble. Artiﬁcial Intelligence 134, 241–275
+                   (2002).
+                                                            32
+           ˇ´
+       56. Moravcık, M. et al. Deepstack: Expert-level artiﬁcial intelligence in heads-up no-limit poker.
+        Science (2017).
+       57. Tesauro, G. & Galperin, G. On-line policy improvement using Monte-Carlo search. In Ad-
+        vances in Neural Information Processing, 1068–1074 (1996).
+       58. Tesauro, G. Neurogammon: a neural-network backgammon program. In International Joint
+        Conference on Neural Networks, vol. 3, 33–39 (1990).
+       59. Samuel, A. L. Some studies in machine learning using the game of checkers II - recent
+        progress. IBM Journal of Research and Development 11, 601–617 (1967).
+       60. Kober, J., Bagnell, J. A. & Peters, J. Reinforcement learning in robotics: A survey. The
+        International Journal of Robotics Research 32, 1238–1274 (2013).
+       61. Zhang, W. & Dietterich, T. G. A reinforcement learning approach to job-shop scheduling. In
+        International Joint Conference on Artiﬁcial Intelligence, 1114–1120 (1995).
+       62. Cazenave, T., Balbo, F. & Pinson, S. Using a Monte-Carlo approach for bus regulation. In
+        International IEEE Conference on Intelligent Transportation Systems, 1–6 (2009).
+       63. Evans, R. & Gao, J. Deepmind AI reduces Google data centre cooling bill by 40% (2016).
+        URL:https://deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-40/.
+       64. Abe,N.etal. Empiricalcomparisonofvariousreinforcementlearningstrategiesforsequential
+        targeted marketing. In IEEE International Conference on Data Mining, 3–10 (2002).
+       65. Silver, D., Newnham, L., Barker, D., Weller, S. & McFall, J. Concurrent reinforcement learn-
+        ing from customer interactions. In International Conference on Machine Learning, 924–932
+        (2013).
+       66. Tromp, J. Tromp-Taylor rules (1995). URL: http://tromp.github.io/go.html.
+         ¨
+       67. Muller, M. Computer Go. Artiﬁcial Intelligence 134, 145–179 (2002).
+                          33
+       68. Shahriari, B., Swersky, K., Wang, Z., Adams, R. P. & de Freitas, N. Taking the human out of
+        the loop: A review of Bayesian optimization. Proceedings of the IEEE 104, 148–175 (2016).
+       69. Segal, R. B. On the scalability of parallel UCT. Computers and Games 6515, 36–47 (2011).
+                          34
+                                                KGStrain      KGStest       GoKifuvalidation
+              Supervised learning (20 block)    62.0          60.4          54.3
+              Supervised learning (12 layer 12) 59.1          55.9          -
+              Reinforcement learning (20 block)   -             -           49.0
+              Reinforcement learning (40 block)   -             -           51.3
+             Extended Data Table 1: Move prediction accuracy. Percentage accuracies of move prediction for neural net-
+             works trained by reinforcement learning (i.e. AlphaGo Zero) or supervised learning respectively. For supervised
+             learning, the network was trained for 3 days on KGS data (amateur games); comparative results are also shown from
+             Silver et al 12. For reinforcement learning, the 20 block network was trained for 3 days and the 40 block network was
+             trained for 40 days. Networks were also evaluated on a validation set based on professional games from the GoKifu
+             data set.
+                                                KGStrain      KGStest       GoKifuvalidation
+              Supervised learning (20 block)    0.177         0.185         0.207
+              Supervised learning (12 layer 12) 0.19          0.37          -
+              Reinforcement learning (20 block)   -             -           0.177
+              Reinforcement learning (40 block)   -             -           0.180
+             Extended Data Table 2: Game outcome prediction error. Mean squared error on game outcome predictions
+             for neural networks trained by reinforcement learning (i.e. AlphaGo Zero) or supervised learning respectively. For
+             supervised learning, the network was trained for 3 days on KGS data (amateur games); comparative results are also
+             shown from Silver et al 12. For reinforcement learning, the 20 block network was trained for 3 days and the 40 block
+             network was trained for 40 days. Networks were also evaluated on a validation set based on professional games from
+             the GoKifu data set.
+                           Thousands of steps   Reinforcement learning   Supervised learning
+                                  0–200                  10−2                   10−1
+                                200–400                  10−2                   10−2
+                                400–600                  10−3                   10−3
+                                600–700                  10−4                   10−4
+                                700–800                  10−4                   10−5
+                                  >800                   10−4                     -
+               Extended Data Table 3: Learning rate schedule. Learning rate used during reinforcement learning and super-
+               vised learning experiments, measured in thousands of steps (mini-batch updates).
+                                   5-3 point press                                                  Small avalanche
+                      4.00e-03                                                          4.00e-04
+                      3.50e-03                                                          3.50e-04                                            10
+                                                                 6    4  2                                                             3  5 8
+                      3.00e-03                                                          3.00e-04
+                                                                   5  3                y                                            7  2  4 1  9
+                      2.50e-03                                                         c2.50e-04
+                                                                           1           n                                                    6 11
+                                                                                       e
+                      2.00e-03                                                          2.00e-04
+                     equency                                                           equ
+                     Fr1.50e-03                                                        Fr1.50e-04
+                      1.00e-03                                                          1.00e-04
+                      5.00e-04                                                          5.00e-05
+                      0.00e+00                                                          0.00e+00
+                               0 10  20 30 40 50 60  70                                         0  10 20 30 40 50  60 70
+                                        Hours                                                            Hours
+                                Attach and draw back                                             Knight's move pincer
+                       2.50e-04                                                         2.50e-05
+                       2.00e-04                         8          4  3  5              2.00e-05                                    3       6
+                                                                   6  2    1                                                              1    4
+                       1.50e-04                                                         1.50e-05
+                     equency                                               7           equency                                              2
+                     Fr1.00e-04                                                        Fr1.00e-05
+                       5.00e-05                                                                                                             5
+                                                                                        5.00e-06
+                      0.00e+00                                                          0.00e+00
+                               0 10  20 30 40 50 60  70                                         0  10 20 30 40 50  60 70
+                                        Hours                                                            Hours
+                                   Pincer 3-3 point
+                       4.00e-04
+                       3.50e-04
+                                                                   12   6  4 10
+                       3.00e-04
+                                                                      7 1  5  8
+                       2.50e-04
+                                                                              9
+                       2.00e-04
+                                                                           2 11
+                     equency1.50e-04
+                     Fr
+                       1.00e-04                                            3
+                       5.00e-05
+                      0.00e+00
+                               0 10  20 30 40 50 60  70
+                                        Hours
+                    Extended Data Figure 1: Frequency of occurence over time during training, for each joseki from Figure 5a
+                    (corner sequences common in professional play that were discovered by AlphaGo Zero). The corresponding joseki are
+                    reproduced in this ﬁgure as insets.
+                                      1-1 point                                                  Outside attachment
+                       4.50e-04                                                 1      6.00e-04
+                       4.00e-04
+                                                                                       5.00e-04
+                       3.50e-04                                                                                                            5 7
+                       3.00e-04                                                        4.00e-04                                    9 3  1  4
+                                                                                      y
+                       2.50e-04                                                       c                                              8  2  6
+                                                                                      n
+                                                                                      e3.00e-04
+                       2.00e-04
+                     equency                                                          equ
+                     Fr1.50e-04                                 2                     Fr2.00e-04
+                       1.00e-04                                 4 3
+                                                                                       1.00e-04
+                       5.00e-05                                                                                                           10
+                      0.00e+00                                                         0.00e+00
+                               0 10 20  30 40 50 60 70                                         0  10 20 30 40 50 60  70
+                                        Hours                                                           Hours
+                               Knight's move approach                                              One-space jump
+                       6.00e-04                                                        6.00e-03
+                                                                     6
+                       5.00e-04                                                        5.00e-03
+                                                                7       10 8                                               8         2  3
+                       4.00e-04                                    5    1              4.00e-03                                      4     1
+                                                                           3 9                                                          6  7
+                       3.00e-04                                                        3.00e-03
+                     equency                                            4  2          equency                                              5
+                     Fr                                                               Fr
+                       2.00e-04                                                        2.00e-03
+                       1.00e-04                                                        1.00e-03
+                       0.00e+00                                                        0.00e+00
+                               0 10 20  30 40 50 60 70                                         0  10 20 30 40 50 60  70
+                                        Hours                                                           Hours
+                                     3-3 invasion                                              3-3 point knight's move
+                       3.50e-02                                   12                   2.50e-03
+                                                               10 7 6 11 13                                                     17 8 11 15 13 10
+                       3.00e-02
+                                                                   8 5  4 2            2.00e-03                                 19 5 6 4 2 9 14
+                       2.50e-02
+                                                                     9  1 3                                                        18 7 1 3 12
+                       2.00e-02                                                        1.50e-03
+                       1.50e-02                                                       equency                                              20
+                                                                                       1.00e-03
+                     equency                                                          Fr
+                     Fr1.00e-02
+                                                                                       5.00e-04                                          at
+                       5.00e-03                                                                                                        16   9
+                       0.00e+00                                                        0.00e+00
+                               0 10 20  30 40 50 60 70                                         0  10 20 30 40 50 60  70
+                                        Hours                                                           Hours
+                    Extended Data Figure 2: Frequencyofoccurenceover time during training, for each joseki from Figure 5b, (cor-
+                    ner sequences that AlphaGo Zero favoured for at least one iteration), and one additional variation. The corresponding
+                    joseki are reproduced in this ﬁgure as insets.
+                          Game 1, B: AG Zero, W: AG Zero, Result: B+R                Game 2, B: AG Zero, W: AG Zero, Result: B+R                Game 3, B: AG Zero, W: AG Zero, Result: W+R                Game 4, B: AG Zero, W: AG Zero, Result: B+R
+                           2   906313    65        51                                                                                                                                77                                                             93
+                                         2348   88      98   28                      100444248                     8281                                                    6058   30 7 76                    59                                   897094
+                                    5022                  55        76               98432322     1816             8079                                 8 99   72706921615657      4 3   33                  584547                        262418656790
+                             9686             92        17     94                    9987862124     151420    52   7849   45   77                         979874716887     5931    6 2 1 35                     4421                         25172066
+                             59          56        83     30    8                       94952526       7   64   58     67                            37     80797573868891        2625 5 34                     46                                2368
+                                       1993    3 5 8112   52      9                     96   2728   11 2 9                41                                84             55   292722   32                                                       69
+                           79                   41    4 25          77                  51   2930   5      13                                          8381786664625489      90393628                                                        99
+                               39                       14   1038                       50593132              56     12                                8582676563535249434140                                   4850                       92959861
+                             32        334457                   1                       97   3334                6                                     939294         5150484244                             764972                     88919684
+                           54     46            16           91                         373510         8                  46                         3896     10095   11                                     77744373                   10097
+                               100       80               40   31 6                     393638                                                                                                                  75        78                      82
+                             68   29          87     69   99   60756424                 4054               60        4    4791                                                                                                          8785837960
+                                            6726             66  61                                                                                                                    4647                  1513                          86628081
+                             73   42          85          11     18   15                  53                              17                                                           2445                  1211                                 41
+                                              7121   846278       7                     83                      61                                                                     1623                  10 5 6 14303634                   4039
+                                  2045      27     35          95   53                       57       68   7569           1965                         10                    2018141215                         4 1 32291635565254             2237
+                             97                                                              55     66   727684 3         626393                                                191713 9                        2 3    333157275355            423851
+                                            47  72      70   58       49                       7371   70   74 1 85          888992                                                                            8 7 9       1928                 646371
+                                  43   89   36       82   3734      74                                     90
+                          Game 5, B: AG Zero, W: AG Zero, Result: B+R                Game 6, B: AG Zero, W: AG Zero, Result: W+R                Game 7, B: AG Zero, W: AG Zero, Result: B+R                Game 8, B: AG Zero, W: AG Zero, Result: B+R
+                                                                                                                                                                             38                                        15
+                             2171                                3073                        17                             2539                                           36352837    39                    481614 7 1013              80        76
+                             201370                          262425                     16132928    40     30   962795232122                         8516                    302526242033                    47 3 5 6 11         94          5017 9 77
+                               12 3 11                       22 1                       7112 3                     844124 2 26                     97807986                  323127 1 23                     96 4 2 1279                45   20 8 7475
+                               141019                        7423                       691415                  784746                               888793                                                          95                 5554        21
+                                  646265                                                666519                     5848     97                       9518                    34                                 91                 97   49     53
+                               72276667                                              70671864                             7742                                                                                    9810099             595856   4657
+                                    696875                                              68                                8183                                                                                  92   93            6160        7273
+                                       76       100                                       5560                         578031                                                                                                      6362    907871
+                                                979498         87                         6172                         63628293                                                      29                                            6564      89
+                                                   9392      829091                    100987374    76          59        4556                                                    9998                                             6766
+                                                95   8178    866163                          99                           794490                                                  100                                              6968        29
+                                                     79776080594448                     51                                898586                                      92                                     83                    8870        2728
+                                                     56555740525147                     383549                              8887                       72           969194                                   444187                            2326
+                                9 5                  54493458    5053                     3637                              9291                          71     8353906345                                     4243                       332524
+                                7 2 6                36283318 4 3739                      34 1                     7520 8 4 1094                      4 2 1019   7482594441     17   7715                       40 1                       31303218
+                             29 8           9688   8432313517151645                       3233                     11   7 5 6                      21 3 5 6 9    6952626640654943765157                         2239                    353419
+                                            998983424143         3846                   50435253                             9                     221412 7 8 1158676860     424746505455                    82818485                   37363852
+                                                   85                                     54                                                                13706164            48       56                     86                         51
+                                                                                                                                              73 at 61  75 at 67  78 at 58   81 at 67  84 at 58
+                                                                                                                                              89 at 67
+                          Game 9, B: AG Zero, W: AG Zero, Result: W+R                Game 10, B: AG Zero, W: AG Zero, Result: W+R               Game 11, B: AG Zero, W: AG Zero, Result: W+R               Game 12, B: AG Zero, W: AG Zero, Result: W+R
+                                                79                                                15                                                                                                                                         59
+                               70   7877    666465           6162                       181614 9 1013                                                                                                                                      455857   61
+                             6968762071     6055             5 46                       17 5 7 8 11                  4098 4                             1        94                  3                                      43   42   44   17285453
+                             84 3 807372745859               47   4                        6 2 12                      97   38                               7        93                 8997                   3       5                  29   2 55
+                             87825781756763                      5254                                                     3919                        6                              87838495                               95   89   787167565152
+                             858388                              4948                                                                                                                5 829296                   32            8788    488370   6018
+                               5610086                           435053                                                                              99100                           7776                                   969298908584
+                                  99                                51                                                                                                               797888                                      97   9186        50
+                                                               45                                                           29                          8                         22801181                        36   82             93   99  4946
+                                                                                                                          83                                                             98                     3713                         66642762
+                                                             444139                                                       9628                                             91     12   10                                                         6563
+                                                             424094                                                8280744142                                              687566        90                       31                              47
+                             14                                                         33            57   5564    81  717072                                         707473656713      9                                               94     216968
+                           161112                              9336                     262337      63626510056    75  734330                          43               6972           71                                             7934   222019
+                             10 9 13                      37        32                    2425        9952669391898688454467                       262444        474038           85   14                                          7610077     402581
+                             15 8 1                       3326 2 2231                     22 1           5453925860908768 3 4669                   5223 4 28484641393130201816       2                          7 1 111530         3875    33   4 2380
+                             17 6 7 96          38      34242523212835                    20215150       48944959612795787647                        2527554542     493621191532     86                      16 6 8 10 9 14      7473   35     2624
+                             1918979190                 3027        29                  32313435                          847985                   51  53   2950    5756   3734333517                                  12        7241        39
+                                                                                          36                                                         5464636260595861
+                        89 at 3   92 at 82  95 at 3  98 at 82                      77 at 46
+                          Game 13, B: AG Zero, W: AG Zero, Result: W+R               Game 14, B: AG Zero, W: AG Zero, Result: W+R               Game 15, B: AG Zero, W: AG Zero, Result: W+R               Game 16, B: AG Zero, W: AG Zero, Result: W+R
+                                                                    58                  62                                                         67  57
+                               27   29                         363457                87575658978891                                                56554445    59                                            16151820
+                               2625    23            2438      3233                       4748    139214      46          1                     66   2017191158     3953                1                       6 7                        14
+                               28 2                        5 3530 1                       49 4      5960                                           4618 4 411415    52                                       22 8 5                             4
+                                                        56     31                       65645010053   54                                        62356343421637                                               211011
+                               22                            47  37                     51   619998                       5                          13   79843836                   61                      12 9 19                              13
+                                                          54        61                  67   55                                                    51  21   4078    97100                                    17
+                                                             444640                     66                                                                71737477                     64
+                               66                    76        45                         79                                                         85297072758088
+                                                   99     50                            757884                                                       286869768193     90               65                       38          9075
+                                                        5589   43   63               77686376     90                      5242                       504996829287                                                 36          746591
+                                         95          969786    655362                   7374          95                  434144                     48479491959998                                             3435          64515073     95
+                             17               77   9198   51644142                      8530        96          45        8124                                   89                                               37        76   4849   5794
+                             12 9 21     94               69676014                      726970                     40       82                     242631   60                                               3923         7980   4647
+                               1011   100     74848280858768                            2271      20            393633                          54232225                     86                                        7877   424552537292     9796
+                                8 3    7592   90838179784888 4                          18 7 3 112119           37312634 2                         32 3 27 6 10              833034     2                    4328 2 308224    4041545626 3 981001
+                                6 7 7170                4913     52                  2815 6 8 10 9                   2332                          33   9 7 8              12      5                         322729    81625825556886934483
+                             1615181972         93             3959                     162729251217                 3538                                                                                    33        316059896366678485
+                               20      73                                               94                                                                                                                                618770716988
+                                                                                   80 at 68  83 at 63  86 at 68 89 at 63  93 at 68                                                                       99 at 44
+                          Game 17, B: AG Zero, W: AG Zero, Result: W+R               Game 18, B: AG Zero, W: AG Zero, Result: B+R               Game 19, B: AG Zero, W: AG Zero, Result: B+R               Game 20, B: AG Zero, W: AG Zero, Result: W+R
+                                  25   27   7980        6766     70                                                    171513
+                               22 1           26        6562        5886                          27100              9 141112                        1011                  655957    494753                     19 3   1121
+                               2120    24          28   696156 4 5457                        3 999896    88   97     2516 2                          12 3               6063445850 4 4851                       9 18      202337           5      1
+                               23                    7472685953555185                                              868487                            1415                  6468        5652                     7 6         36
+                                  3    97               827175      5288                                             8581   10                     161341                  6661   45   4354                     8 10      14                   56
+                                       9681             367360421264                                                   626179                        40               71   6967        55                    84
+                                                        78767741436387                                                 726871                      42                                    62                     27   97                           41
+                                                          35                                                    8376565859                                                      98944692                   94   252430      40
+                               17        83             34     29                                               756665575445                                                 9995931009182                      291326        98
+                                                               908491                                              636455393660                                                        818384                     283492                     425822
+                                                               463789                                              734437403138                                                   2985247086                    15   339039878996545246        57
+                                         95   100                                                 93            74526942412930                         27                            77752580                9331    3591958688       535145
+                             491315                40          10 8 93                     8   9495             53807032282124                                                       9 7674                  991232              85               17
+                               14               45393832        6 7                                                7851   2322                        5     37          36182022     7978                    100          66768079
+                             48   2    16          9433313018     9                          4    7        26      5049   1 20                       28   26     30323417192196 8 72 1                             4 68   6263817247    434950 2 38
+                               4750         44     92   9911    5                               6 5                9046921918                           2      2331333597    90    6 7 73                         60676461487170      554416
+                                                     9819                                                  82      899135   333448                                      3938    8887                                 5969657782737475
+                                                                                                                               47                                                    89                                          78
+                                                                                   43 at 40  67 at 54  77 at 69                                                                                          83 at 48
+                                 Extended Data Figure 3: AlphaGo Zero (20 block) self-play games. The 3 day training run was subdivided into
+                                 20 periods. The best player from each period (as selected by the evaluator) played a single game against itself, with 2
+                                 hour time controls. 100 moves are shown for each game; full games are provided in Supplementary Information.
+                          Game 1, B: AG Zero, W: AG Zero, Result: B+R                Game 2, B: AG Zero, W: AG Zero, Result: W+R                Game 3, B: AG Zero, W: AG Zero, Result: B+R                Game 4, B: AG Zero, W: AG Zero, Result: W+R
+                                       48     6186                                                                                                                         85                                89
+                               11      80972734    49   72   50     7385                     5857               989911                                                  674286    78847583                   8281    87
+                               14 7    84     96   5239             74                       1413   82             17 8 9 7 5 21                            9394    81  5152    34     8261                  848079    29     767377
+                               45      3631          1553                                  4   15        56        471810 2 6 19                      3   5 92   80969755643940      4 623663                   83 2 85       787475         5    3
+                                  82            95   8881        26                       6261    6766        6063             20                           95      87986665417172       57                  90   86                       49     5947
+                              6     29        19   33            10                       16   7574   68597981              52                            91   90   99  76      6837   33                       30     88        94     545657      46
+                                  42   37                             59                     646972      70                                                           100  776970    73  7989                                           5253584842
+                                                             28     16                    556573      80                                                                     4958      5488                                      92   9363316045
+                                  30   58          8 75         2 56  68                                                    4896                       43                  45   7447                                          9598         62614344
+                             99                    357770 5                                                               78   83                                               384846                                                     65     50
+                                  9                  79   25     8341                                                     7671                                               53          50                    10099                         5164   5572
+                               20   6323      94   1821   69        67                         43   51                    778889                   16                                                             28                         69676870
+                             92        8962   90                      47                  45        4950                  939091                     1444   56                           29                                                    662321
+                             3851   65   10012        3                                 97            44               95928584                    12 9 15                           35272631                                              25  22 9 1271
+                           4   24   13          78        71          64               10012      37               53       86                     201011                         59282425                      2736             9796          111015
+                           5743                    1         32                              38   3536        54       29 1 2387                1918 8 1                             2 2330                     323433                26        1 8 19
+                                            54                 22     98                4240 3 39   34               28252422                      17 6 7                            222132                        4      41     359138    24   7 6 17
+                                                   91   7660                            4641                       3027263133                        13                                60                                             373940   161314
+                           46     87   1744     93      405566                                                       32                                                                                                                           18
+                                                                                   94 at 85                                                                                                              20 at 13
+                          Game 5, B: AG Zero, W: AG Zero, Result: W+R                Game 6, B: AG Zero, W: AG Zero, Result: W+R                Game 7, B: AG Zero, W: AG Zero, Result: W+R                Game 8, B: AG Zero, W: AG Zero, Result: B+R
+                                                                                                                                                     767582                79          42
+                                    585748                77   76                                                                                  6877666774         495178575541603940                                9 89               85
+                               4044    354647   43         7 32  75                          43453944                29   3533                     726465   929185254448565354612120                         93 5 7    88                      797783
+                               39 2 74424549              33    4 78                      47 2    404146                  4                        6970 1   9486848745     365850    3 22                    91 6 4 8       95          87   80 2 7881
+                               41      73                                                         4248                      34                       71     93      37     4346      23                      92                       98          8482
+                                5 3638                         34                          5                           32301172                      19        95          47            24                     94                         90     11
+                                  375354                                                                                  3136                                             8938        28                                          97   86
+                               51   55                           60                                                    92   7173                                   100  62   90                                                 100
+                             715052                                                                                  89                                     59      63          52                              17   19            99
+                               696570                                                                           93        1263                                                                               36                            75  42
+                               636466    96                      16                          88                      65647069                                                                                   18                           76   68
+                             6762619493     97                 19   30                                             666751602861                                              99                                                                5366
+                               68   9095                  2120253129                                       50   94     55      59                           73                                                         35        96   74727064606167
+                               56100897299              24222327 6                           90            9897    565421202423                      1735                                                       1024   3334      55     737169636265
+                             79     98                  181126                               918587          10074535217186862                     33  34                    26                              2823      2532   415456       52
+                             83   3 8185           17   10 9 28 1 13                    8381 3 8437        9976    751516 1 7 1957                   29 4               27      8812 2 6 96                  3029 1    2122   57           5015 3 13
+                             82     80845991               8 141215                     8280867879            77     9 14 8 6 2258                 313098   18                  11 8 7 5 81                  312627    203739      59   514746141243
+                               92      888687                                        9695      3849                13102526                          9732                    1310 9 141683                   4038                       49164548    44
+                                                                                                                     27                                                         15                                                           58
+                                                                                                                                              80 at 66
+                          Game 9, B: AG Zero, W: AG Zero, Result: W+R                Game 10, B: AG Zero, W: AG Zero, Result: W+R               Game 11, B: AG Zero, W: AG Zero, Result: B+R               Game 12, B: AG Zero, W: AG Zero, Result: W+R
+                               22
+                             181720                                                     9089        53               737159                               87   864563676465            3334                  31         9 32                 92
+                             211011    28                 70   100                      931011           5131      724568   65                              20      621766   22      1110                    28 5 7 2322                917687
+                             2312 3                             2 99                    9412 1      52   4849      6766   4                             2      46   2425   16        3 1240                  33 6 2 8     30          86     88 4
+                             191415                              97                       1415           5080        75                                               23             13363538                                         908985      80
+                             161326    29                                               161329                76          5840                                             26     42433714                                         959384    79   7781
+                             2527                                8382                   702863      62     61               57                         50      47   3127               4139                            26
+                                                             6571987384                 3069                    82          60                                        3028   32   29                            15   252770             78
+                                                        78796364    72                    81        64     77        84                                          44                    8081                                           97          75
+                                                          69668658                      999697                83            78                                                  48   497879                  3920    24   38     94            8283
+                                                     87      85  6768                     1009895                         3979                                                       727477                     35
+                                                          59   57                         92             8687          3532                            52                       8471705961                      17   21   37  4996    69  100  98
+                                            80                   4648                        27            85             33                       19            100    99        76736075                                  575652
+                             36          8177767460       56494544 9                    88        26  22        23             9                   9 18                 9798      68   5556                  3416    18   3658535961
+                                       33     755196      52    8 4342                    91   2524             47        8 3637                        8        21   90959669       855854                634129         66            99
+                             3837 1    3132     959461          4 7 47                       3    2118        461942      2 7 44                      7 4             9394      83   1 57                    62    3 4719655054606468        13 1 11
+                               34   3530        3989509262      6 5                               1720        74   4341   6 5                         5 6        15   9192   8253                            72404446     43  515567    48     1210
+                                              93889091       54534041                          555456                       3438                     51                              8988                    7173    4245                  14
+                                                                 55                                                                                                                                          74
+                        24 at 17
+                          Game 13, B: AG Zero, W: AG Zero, Result: B+R               Game 14, B: AG Zero, W: AG Zero, Result: W+R               Game 15, B: AG Zero, W: AG Zero, Result: W+R               Game 16, B: AG Zero, W: AG Zero, Result: W+R
+                                       41                                                                                                                                              41
+                               35   303940                       4349                                                99                                                         4740   3637                  6527                       97     96
+                               1920    3738     42              7 6                       1314           44     39100     3029                     2818   741326    39          45   2221                    29161517 5               928867   10098
+                               21 4 293136                      1 8                     2315 4             28   42        2 31                       17 2   20          4327         4 23                    2830 2 251213         84818687     3 99
+                               2527283233                       9                       212016                  40        32                         19               4442      466724                            26   14          85908993       73
+                             232226                                 10                  221718                       97      5                        5 1416                 38   65     25                     1118                  809178   747282
+                             24     34   60                                             251926                         41      33                    7115                              35                                             94
+                                                               53                       2724                                                         7073                                                                          839579    77   75
+                                            87                   51                       43      59            58                                   6869                                                       66   68
+                                                                                                                                                       29                                                                        64
+                                       84          869699100   90                                 77          91                                   72  95                                                                   63
+                                       8283   8197939592     8988                              76717284878990935798                                91899275                       7977                               69          62
+                             625066                  98      918552                               707369858675889495                               93648790                       807876                                    61             70     7657
+                               111865757176        58   94          48                    79      78666374    68            53                     94  88   66                                                         33   5960                  5510
+                               6163791472737759                47                                 67616264    6592             51                           5154                         83                                   52      514171    9 545356
+                               67 2 64121374    5756            3 46                       7 1 9 55608196     8380484737 3 3550                    58 7 3 114852           9997   33 1 3182                     20 4 2231             373844    1 8 58
+                               161517 5 6870    55             4544                     56 6 8 101154           494546    363452                6055 6 8 10 9 4953      100989681    323084                  2419214223       32   40343945     7 6
+                               54        6978                                                     12  82             38                            56576159125063            853486                             5046434947                        3536
+                                                                                                                                                                                                                     48
+                        80 at 13                                                                                                              62 at 55
+                          Game 17, B: AG Zero, W: AG Zero, Result: B+R               Game 18, B: AG Zero, W: AG Zero, Result: W+R               Game 19, B: AG Zero, W: AG Zero, Result: W+R               Game 20, B: AG Zero, W: AG Zero, Result: W+R
+                             61                                                                                                                        60
+                             595860                       10        46               86           10  88             26                            715859611315     49            69   67                    4121
+                               1920         91  92      26      8 6 45               8554 6 8 12 9 52                     242264                7756 9 11351214164748                3 42                    1615    35 5 40
+                               21 4           1009394        9 1 7                   8755 7 1 1353              9892   25 3 2391                   7510 2 3645      514639      7    4344                    1814 1       22                    4
+                               2324    96   55          54          47                                             97                           91767980    3752505340     63   656468 6                     2017192934
+                             25229543                                                                           93                                 858384   5482    55       6266                          42   8 242528
+                             3130      9997                                                  67                        99                          869038   81   92     57                                   3630272638
+                             5632   44   8898                  34                            6366                   1009665                        9389   41                           18                    322331
+                                         8586                                                  62                                                  8887                           2324                       33      4437
+                                         7984                                                5158                           43                                                                                  39   45
+                             878941    4271788390                49                          615960                84                                17                              22                                            10098
+                             828081    64747770                                              5756                         95                                                                                                       888799      84
+                             7372355740697576                                                                      78779471    89                                                      100                      43                    82898581      51
+                             39111865636768                      48                       1135             75        90   34 5                       19                                2097                                           90727479    5013
+                             62382866145052                                             211820           767273    7430   38                                                    78     9899                     6      57     7566706869738012
+                             3637 2 2712135153                  3                       1915 4           3649   82292837 2 4240                    2726 4                    7033    1   21                     534856 7      64659167     97   2 11
+                             33161517 5                                                 1716      14     4847      80273331324146                  312528    8      34       32 5    95                      4946 3 5260    58   63     71   8310 9
+                               29                                                         50             7068698381    79   3944                   2930                      74727394                           4754615962    76929394       777886
+                                                                                                                               45                                                 96                                             9695
+                                                                                                                                                                                                         55 at 46
+                                 Extended Data Figure 4: AlphaGoZero(40block)self-play games. The 40 day training run was subdivided into
+                                 20 periods. The best player from each period (as selected by the evaluator) played a single game against itself, with 2
+                                 hour time controls. 100 moves are shown for each game; full games are provided in Supplementary Information.
+                          Game 1, B: AG Lee, W: AG Zero, Result: W+R                Game 2, B: AG Lee, W: AG Zero, Result: W+R               Game 3, B: AG Lee, W: AG Zero, Result: W+R                Game 4, B: AG Lee, W: AG Zero, Result: W+0.50
+                                    303234                    96                             323436      85                                       302829    79   83                                              182030
+                               262829313335       97     475152    57                    2830313335378483          4145466861                     202177317867               415558                       32141617192131              93
+                               27 1                    4948   2    5662                  29 1 51         82   59434266 2 676069               40  22 1 768066696473     59535256 2                        2915 1 59                         2
+                                                       6350   586053                         50                    44   65  49                  3227268243817071             54     50                      818048    5051
+                                                       8081     1761                                          70   72919327                   392423886242866865     75   61     514997                   79587582      53
+                                      73                 597555                                               76   636492                       2589   33   92857274         57                           78777376    5249
+                               64   7267               949574                                40          947473807162                             19   63   848791                                          6074
+                                 36   686971      909287                                   38            817578897788                           100    18     90             60                                       5455
+                                      7054        86899382                                 545339             79        98  100                   9998                         48   46                        56      8485
+                                               1009991   787779                          56115257                       9087                      111314                                                  86            41               65  92
+                                 11             88  98848376    25                       58  55                         8623                      151216                       47   45                      13573543         46   62
+                                        16               85                                                          969597                     353437                                                    45  44   4233   40        66   6364
+                                      66                      8                                      21              99 8                       3638      44                      8   93                      36   3488        39     67    8
+                               1014   1265                         40                    10       141512                484725                    10                                                        37258990      38   7268
+                             241320   1921      9         7 44 4                      24   1816   20   13 9        7    4                                 17        9        7    4   94                    2322268728    70 9         7    4 9699
+                               22 3   1518                5 6 4337                       19 3 1722                 5 6    26                         3                       5 6    95                      27 3 2491614771    1169    5 6   95
+                               23                      3938414246                                                                                                              96                                                 1094129897   100
+                                                         45
+                                                                                                                                                                                                     83 at 58
+                          Game 5, B: AG Lee, W: AG Zero, Result: W+R                Game 6, B: AG Lee, W: AG Zero, Result: W+0.50            Game 7, B: AG Lee, W: AG Zero, Result: W+R                Game 8, B: AG Lee, W: AG Zero, Result: W+R
+                                                                                                                                                                                                                                                66
+                             6743     65          3233        8386                    727476    85              2524                              161820                     6158                         34       3235                  55  5051
+                             6436373944    24   253031        1514                  887170731096     1511     19   2327222030                     15141712    59             5762                      40332628302937        71   57       561249
+                               3 34381366    282627           1 16                    86 3 75        1213            26 1 2128                    60 1 1987                       2                       3827 1 3136                    1046 3 59
+                               41354042           29            1718               10087        94   16149518   695351333229                                                 63                        743984      41        70   58         4752
+                                 88                             1920                  98   17            93        54525034                       13                                                      7273                             605354
+                                                                2122                  99        92   89                     80                    55                                56                      96                             446148
+                                 84                             23                           97                             79                  47465354                                                    85                             6362
+                                      99100                                                                                                     45443752    656791889689                                                                   6764
+                                  9     98                      85                          9                                                     3536      6690929394                                                                      9 6568
+                               11                             8782                                                   81                           3334    64       95                                     7981        9395                      69
+                             1095                                                                                                                 2251    7173                      21                 83764580    87929497
+                             969293     97                      68                    37                                48  77                    68   69                                                 7778   89                             17
+                             12 5 7                           48   57               4336 5 7                  82            68                         70   85                    8                       8214   9886   88                  7 5 1623
+                             91 6                               5655                  39 6 42          84          47   66586378                841086    7283                        26                                  100              22 6 19
+                             94   4    8                 47   2    58                 4041 4    8        904983      65 2 5559                  494143    117497    9        7 28 4                            2   909143              8    4 2120
+                               89   806072506349         4546   51                    4435           31     9146   4560575662                   4238 3    75769998           5 6 2723                       4299   13             11         1524
+                               9078735970697479        53526254                              38                    676461                       50394048777810082         2524293032                        7525                         18
+                                      7771757681         61                                                                                               817980             31
+                          Game 9, B: AG Lee, W: AG Zero, Result: W+R                Game 10, B: AG Lee, W: AG Zero, Result: W+R              Game 11, B: AG Zero, W: AG Lee, Result: B+R               Game 12, B: AG Zero, W: AG Lee, Result: B+1.50
+                                                                                         48
+                               302829                       918990                    4241444590                                                2422      5049                                            2450515352    29273064           3435
+                               2021   31     6072   62   45888384                        242594             37     3138                           21 4      4241                 57 3                     222123        25 6 6163     48    8 7
+                          34   22 1          67               2 8587                     26 1                      39   2 36                      23      20  43     5951      393637                        4   193331262862686618         2 9
+                             322726   5761                      8696                     2829                           4035                         19   4847     58          5655                                   32          65     17471011
+                          332423100585666    73                                       3027464981                     343223                          33   44                     38                       467420   44          67            1213
+                             25     356568      98                                    4347      80                      337677                       3132                                                 454273   5557      92          59  1415
+                               19   596470                                                                                7879                  292526                                                      4143   87   98                   16
+                                 75186976                                                       63   83                 50  51                  27 6 28                 95                                       868584   58          69
+                                    717497                                                             97                                       30               89748293           40                             5683               797860
+                               11131499                                                      8562    82                                              92     84887372817694                                  9954   8889   91             71
+                               151216                           63                           897586    8810098            11                         9178808386657571                                       100       9093          77757270
+                             3736394443                                                    59616484    8799                                          18777987                                                         969495          76     82
+                             3840   4241   5593               8                       93     606567                     8                         46          63   90     54        66                                                   80 5   97
+                               10       53545192              787781                  955810726669     73                   16                         17   85          616260                                39                           81
+                                      17524750 9          7   4 8079                  9655      717068    9        7 20 4                       34 8 2 45        67     7052 5   97 1                         364938
+                                  3        464849         5 6      82                 5612 3 5357                  5 6 1913                     35 7 9 101214166864       6953   969899                      3 37            40             1
+                                                9495                                  92915254    74            1514171822                             111315                         100
+                                                                                                                   21
+                          Game 13, B: AG Zero, W: AG Lee, Result: B+R               Game 14, B: AG Zero, W: AG Lee, Result: B+R              Game 15, B: AG Zero, W: AG Lee, Result: B+R               Game 16, B: AG Zero, W: AG Lee, Result: B+R
+                                                                                                       59
+                                                                   2440                              415839     574956                                               61   5756        49                  36                          6157586263
+                               3           94               20 4 222326                  7 8      40375051    45471853552021                              5             5958 9   464243                383534 4 32             674945395659 3 65
+                                                              19213635                   9 4      42605228    464854    2 1923                       2                    60   47 1 4039                    3331             6653524844602021
+                                                         28        25                 1110           334344             242225                                          69       444138                   37       41   85695554         24232564
+                                                                                      1312           3534               2617                       6                 7868635553514548                                     8468             224272
+                               5355                                                   1514             36            942927                       10099                   6462545250                                                8126        71
+                               5152                         27                        10016       38                                                                                                                                  7374   43
+                             654254                              6                                                      88                                              74   73     9798                     6                    82  7576
+                             6763616489                       2930                       8990     96                                                                 84             7182                                              78   5147
+                               5758628588           41        3132                         9183   97               74                                              858370    67  818088                                                    7750
+                             66605979778487                   3334                       62  8584    95                 7270                      22                 867775      658772                       28      19              70   407983
+                               56   78808391                3718                             79                 78   736968                            96            90        66                                                          80
+                                    68699092    9996        4338                           31            76             87 5 71                      13                        79   8                         18                             46
+                             93       86        959897      17                           93                        82   86                      31                        89        2694                         17   27                        99
+                               1    70 5   73    100        45 2 8 46                    92              6665636780     1                            3 3512               917620 4 2325                      8 2 30       29           5 9593 1 98
+                                    74  75447147    16141210 9 7 49                      3   7730         6   64328161                            28341110         14     92 7 1815162495                 86 7 9 10121416             97949296100
+                                 8182      767250   48151311                                 75                 9899                              3733322930                 9321191727                90878889111315
+                                                                                                                                                          36                                              91
+                        39 at 23
+                          Game 17, B: AG Zero, W: AG Lee, Result: B+R               Game 18, B: AG Zero, W: AG Lee, Result: B+R              Game 19, B: AG Zero, W: AG Lee, Result: B+1.50            Game 20, B: AG Zero, W: AG Lee, Result: B+R
+                                                    4745      43                                                            37                  9998100                                                     27
+                             69626567           4637413240441819                         18                             312936                    3936                  42          24                    21202526
+                             6359606668       6 3836313529    8 7                     1312      10                 2530272834                      7 8      96            4416      1819                    13146228    60               78   3
+                               4 6121             333027      2 9                     1511 2         41              32 4 3335                     9 2    95            41   43   4 1721                    15 4   59717258                 6 7
+                               64                   34242317391011                    171416      4243                                          1110   93        40              222023                   7417186169                     10 9 11
+                                 22                    282025421213                   21 9 19     44                      26                    1312   9794                      251527                76191623296870                 8079 8
+                                                            26  1415                  20                                                        3714                                  26               752224326366                   128183
+                                           92                   16                       39                                                       38      91                                           7773   6530                    82
+                                    76  759377                                        3823        76                                                                             29                         31676488
+                                             838278                                   4745           75                                                                             31                      53505152
+                                      87   858479                                     692246    72                                                        92                     3328                     393637454687         89   90
+                                        898886                                        7470        73                      40                                                        35                    4135343885
+                               7458   9990                                            6059   7161        7779             10088                 77          88                                         47424044                91
+                             8157     55100                   5                       24    5            937883         7 8687                  74 5 4953                 7371      30                    433348        9993        92
+                                    525654                  7071                           5150586668    89909295       998485                  784850515286              706334656769                      4954     1008694959784
+                                 485150                  949173                       56524849546562     94919697 6     8081                           854647    87       626159646668                         2             9698      5      1
+                               3 495380                969572 1                          53 1 5557676364 8    98        82 3                    82   1    5445   89 6   90   603257 3 72                    5556
+                                                       98   97                                                                                    8481    83                 5855567576                     57
+                                                                                                                                                                                 79   80
+                                 Extended Data Figure 5: Tournament games between AlphaGo Zero (20 block, 3 day) versus AlphaGo Lee
+                                 using 2 hour time controls. 100 moves of the ﬁrst 20 games are shown; full games are provided in Supplementary
+                                 Information.
+                          Game 1, B: AG Master, W: AG Zero, Result: W+R             Game 2, B: AG Zero, W: AG Master, Result: B+R            Game 3, B: AG Master, W: AG Zero, Result: W+R             Game 4, B: AG Zero, W: AG Master, Result: B+R
+                                        36                                                        68                                                                                                      51  52
+                                      123134                                             6160   66635669                                                                                               50494548                   6769     59
+                               6 8 10 9 32             3019   2624                       7 8 6455727071     4953   6                                 3    98                      7 6                     4441465517           546166 5 71   60
+                             73 7 1 113335100     67662868    4 23                       9 4 59586747         5254      2                                          13             1 8                     5340 3             656364706872 4
+                             72                   65605963      25                    1110625765         73               50                                                     1110                       4247             7358     37
+                               74       9998      91616264222017                      1312        48                    51 5                         5 32                           9 12                    3839                              6
+                             88  868487           959094    2921                      1514                                                    765654   26                                                   4335                      62
+                               708571             97968992                               16                             75                    745316   58909694                                                                90       100
+                                                                27                                                      7774                  757849555152899192                                                             8376     89
+                             56  13                    93                                                              100                      67   593072878893                                           19          969284797599809798
+                                    53                          18                              45                      9992                    77687071838495            35   36                                         9591      81858636
+                             57                                                                 4344                    989785                  6569   734650                                                                     74  82
+                                                                                      312927      40                    847683                  645715474344     60                   23
+                                             4547           83     75                    2822234142                91   8017                    66143379423145            29     22                         18   24               78         94
+                                           3942                 77                    30   252426           46          783987                    34      8048   2561            2021                            2221                    77
+                               3 54    5   3738     51154348 2 7876                   3533 3           19            79 1 3881                  82   2 384028           27        4 19                      30 1 232025        87        93 2 8 56
+                               5855   414016824652494414                                 3432   18          20     213736828696              100996341373962     24              1817                       3231   2627        8816141210 9 7 57
+                               69            81     507980                                                         8988     95                  86                                                          343328    29            151311
+                                                                                                                     90   9394
+                                                                                                                                            81 at 53 85 at 78 97 at 88
+                          Game 5, B: AG Master, W: AG Zero, Result: W+R             Game 6, B: AG Zero, W: AG Master, Result: B+R            Game 7, B: AG Master, W: AG Zero, Result: W+R             Game 8, B: AG Zero, W: AG Master, Result: B+R
+                               34   36  44                                                   111317                                                                                                              111315             29   283334
+                               3132   68431646         2914   3942                    43 7 9 10121418                                                            63  18      17                           55 7 9 10121416           2726   3132
+                               3 30    5 74454763      1526   2                       42 8 4                            3                            2      19                    4                       54 8 4          84        252023 3 30
+                                 33                    2740                                  318083                       27                                                 45  5049                            85   838182          2122
+                               35       72   7362605848413738                            84796044        85             2516                      14                           51474852                   74  71      7980               24  18
+                                             6764615957       28                         503259   69                      41                      4415               97        5346                       72676873    7762   90
+                                           706665        25                                474855        70   100                                 7069                         5554                         666569617675
+                                           7169                 24                         4953   5856        8699      4019                                         968295    6156                           52      7892
+                                 13                                                      98       543957           81   24                                           81809394    62                         70        91                     19
+                                                                                         93646535    4651               74                             2643             797868                                58             89
+                                             929495                                        9695      52       78     732623                       16222327              91718390                                        60     93
+                                           98   938896                                     349433    38  66          77                         65672120                       9257   58                    639759        958788             45
+                               8291     999710089875456                                  6        61          75        2220                    6441 5 29     1008998               9 12                     6 6499     56969486                49
+                             8385            86   555150                                     97        6376   6871        21                  663938342835       888599          1110                                 57                     4342
+                             78 7 1 118090          52492220 4 18                           2   29   36  30   6267      1                       4037242531       741384           1 8                     98   2 405053                     1   44
+                          8475 6 8 10 9 81             5323211917                     9290   28 5           7237   15                             32 3 30        75727387         7 6                       363538 5 51               174746
+                             76     791277                                               91878845    82                                           3633           777686             5960                 100373941                         48
+                                                                                             89
+                                                                                                                                            42 at 37
+                          Game 9, B: AG Master, W: AG Zero, Result: W+R             Game 10, B: AG Zero, W: AG Master, Result: B+R           Game 11, B: AG Master, W: AG Zero, Result: B+R            Game 12, B: AG Zero, W: AG Master, Result: B+R
+                                                                62                           84
+                                           91          84   61605556                       8180        767475                                                                       9899                              29              81797880
+                             3029 3   33        8688908581    7 6                     73718363824656     197977    18   303234                       443826402532       31       1817                              21285020       23  18   7574
+                             32282627        891387           1 8                     7268 3 6965545357     78          1 3133                  5443 2 37   3934   24             4 19                         1      318557   19           3 76
+                                 31                      93   1110                       676662585561              242223   28                    464153      68        33       2021                              51   845453             77
+                             8079 5             54          6358 9 12                    17     5960        52504847212026                        144245           67100         22                         1727          5556               82
+                               34            65          9273725957                      8870   64          855149      252729                  302915      278084      9092          23                    2225             52
+                               16   35            52   77687574    78                                                                           47            839185    9335                                26308832
+                                 37          64   836966677076                           939192                                                   28                           36                             9887      100
+                               36               8253     71                              899094                                                                              6386                         48959697948693
+                             38       94                                              9796                                                           69       71             87                           473440499991                92   73
+                                                                                           9945100                        16                      1659           74          8988   82                      3943                             16
+                               231525        50                                          43  9895                         1415                  58        70                   948164                     89          58                 67  1415
+                               1424     474551                     21                    5 42                             1213                  5760 5             77     95     65 9 12                     5 33  83             60  7071   1213
+                             99         46444349              20                      413840                              1011                  566261           7572   76       1110                  9045244244     35       6972      61  1011
+                               95 2 42  483940                4 19                    3935 4                44          2 9                       504849         7313        97   1 8                     46   2 37     36     685965       4 9
+                             979641          22               1817                    3736      6                       8 7                     5251 3    55                 7996 7 6                       41   38 6             6664      8 7
+                            10098                                                                                       8687                                                   78   66                                                     6263
+                          Game 13, B: AG Master, W: AG Zero, Result: W+R            Game 14, B: AG Zero, W: AG Master, Result: W+R           Game 15, B: AG Master, W: AG Zero, Result: W+R            Game 16, B: AG Zero, W: AG Master, Result: W+R
+                                      12                                                     111315             29   283334                       633132      66   84                                     77373941                         52
+                               6 8 10 9 38               4888                         69 7 9 10121416           2726    3132                    64302728    34   2465     83     1817                  8374363538 5 43                155150
+                               7 1 1140                     87 4   52                 68 8 2                    252023 1 30                       59 2 2933                       4 19                    7573 4 424093                     3   48
+                                                    86   84                                                        2122                              60                          2021                     8276          4572                 4746
+                                                  8985      495147                                                 6124   18                      14263638                67     229392                      6            66      94            53
+                                                       96     50                                                   94       96                  5825153537                87   9194   23                      79      54           100       49
+                               353390               839753                                      92                        95                    5461          41     898582                                 6463   81               95
+                               343031               8180                                   44   7091   93                                     565352                    8688   80                             628061    86               968597
+                               3213               82747399                                                           97   19                    5755                             95                                     58                 8419
+                               3937             72  7998                                        67   99                     58                  51                                                            44   57        78              92
+                                        9594        100                               66   65   77   8998            60   4759                    16   4381                  96                                         65
+                               36       9291    666567        17                         72  817680    90                                       50        40                          79                    60   5971     88
+                               23            93   58   57       557177                   6 71828386                       46                    3946 5                              9 12                           6869        98     8724   16
+                                 21             70     6968     566075                   84  8788    45100    64        54  52                  484445    42  97                 11107790                        677089   91          2122
+                               3 1841 5    27294554    156362 2      76               7573 4 4042                  6256 3 4855                  49477372      62991371            1 8 78                  56 8 2 90                 252023 1 30
+                               192043   2516284246     591461      78                 74363538 5 43             6317    57495053                     3 98     100706869           7 6                     55 7 9 1012141899         2726   3132
+                               224424   26                    64                    8578373941                              51                         74                           7576                         111317             29   283334
+                                                                                      79
+                          Game 17, B: AG Master, W: AG Zero, Result: W+R            Game 18, B: AG Zero, W: AG Master, Result: B+R           Game 19, B: AG Master, W: AG Zero, Result: W+R            Game 20, B: AG Zero, W: AG Master, Result: B+R
+                                                                50
+                               343151                       47464344                                                    8889                              126265     95787779         56                    4544
+                               30 3 28                        7 6                     623432    16          20     21373681                     66 6 8 10 9 6163          7643   50485572                    7 8      52               6
+                             3835222329         13            1 8                     3533 3           19               1 4284                     7 1 11            94   5253    4 4760                     9 4                            2
+                          563736322633                        1110                    30   252426        44             8543                                                     70497174                 11106851
+                             5239 5 27                      5348 9 12                    2822233940                       15                                              51   464417                     1312            46                  5
+                             55571918                           4945                  312927      38                      80                                  97                 455458                   1714   67
+                               16202125      83   80                                            4161                                              81   80   91969367      75     59576873                   18
+                                    2441     7982     1006399                                                                                        878588   90   92                 69
+                                                    62   98                                                        60     86                         138286
+                             70              786892           81   90                                                                                998384      89
+                                 69          84776793                                    18                        58578783                            98                                                          4143      85
+                               4215        97                 6164                    1714                           598255                              100                                              312927898838    6086
+                               14               91              54                    1312      64     70   909291      54 5                         2933     2541                                          2822233940    5055               15
+                                                              886686                  1110666365              9372100   504851                  6428232627182124                                          30  25242647    595642             3799
+                                  2     17          95758987 4 65                        9 4      96   567769946778     2 4549                  31 3 2232 5 1920          15      2                       3533 3 48   53  199192      9663 1 3698
+                               727173             74     58605985                        7 8    979574        7168 6      4647                  3430353639    16          4214                            49343272166958616620        219462100
+                                                96  76        94                         5352   98767573    79                                       3837                                              81809574717370545764
+                                                                                                                                                                                                       848382    7678777565
+                        40 at 35                                                  99 at 67                                                  40 at 35                                                 79 at 73  87 at 83 90 at 84  93 at 83 97 at 80
+                                 Extended Data Figure 6: AlphaGo Zero (40 block, 40 day) versus AlphaGo Master tournament games using 2
+                                 hourtimecontrols. 100movesoftheﬁrst20gamesareshown;fullgamesareprovidedinSupplementaryInformation.

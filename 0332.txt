@@ -1,0 +1,382 @@
+              
+             Apple’s Paper and  
+             Packaging Strategy 
+             October 2017
+                                            Overview 
+                                            Forests are a wonderful resource for cleaning air, purifying water, sequestering carbon, 
+                                            and sheltering wildlife. As part of Apple’s commitment to resource conservation, we 
+                                            designed and run a program to address the impact of our use of paper for packaging. 
+                                            The initiative started with a detailed assessment of Apple’s fiber use, which led to a 
+                                            three-part strategy: (1) use paper more efficiently and, where possible, use recycled 
+                                            paper; (2) source virgin fiber responsibly; and (3) protect and create sustainable 
+                                            working forests. The third initiative—though not an obvious course of action at the 
+                                            project’s outset—helped ensure that our efforts to source virgin fiber responsibly do not 
+                                            simply take away from the world’s supply of paper derived from sustainably managed 
+                                            forests, but also grow the supply. We hope this case study offers a model from which 
+                                            others can learn and inspires action to protect working forests and other resources on 
+                                            which we all rely. 
+                                            Introduction 
+                                            To protect the environment for the future, Apple asks bold questions, tackles big problems, and relentlessly 
+                                            innovates to solve them. We strive to make not just the best products in the world, but the best products for 
+                                            the world. Three priorities guide our efforts: 
+                                            1. Reduce Apple’s impact on climate change by using renewable energy sources and driving energy 
+                                                 efficiency in products and facilities. 
+                                            2. Conserve precious resources by using materials efficiently, using more recycled and renewable content 
+                                                 in products, and recovering material from products at the end of their life. 
+                                            3. Identify, develop, and utilize safer materials in our products and processes. 
+                                            To conserve resources, Apple aims to shift our use of resources from a linear model of extraction, use, and 
+                                            disposal, toward a closed loop. Closed loop efforts apply to both finite and renewable resources. For finite 
+                                            materials, closing the material loop means sourcing recycled materials and enabling those materials to be 
+                                            returned to the recycled market at product end of life. For renewable materials, our focus is on both 
+                                            responsible sourcing and regeneration: sourcing either recycled or responsibly produced materials and, 
+                                            where necessary, creating the equivalent supply of the resource. 
+                                            Forests harvested for paper pulp represent one of the renewable resources on which Apple relies, and 
+                                            global degradation of forest resources makes them a key target of closed-loop efforts. Overexploitation  
+                                            and deforestation for alternative land uses and illegal logging are contributing to a net decline of global 
+                                                                      1
+                                            forest resources.  The Food and Agriculture Organization of the United Nations (FAO) estimates that from 
+                                            1990 to 2015 there was a global net loss of more than 300 million acres of forest—an area about the size  
+                                                                    2
+                                            of South Africa.  In the United States alone, working forests, or those harvested for forest products and 
+                                            services, declined by 23 million acres over the last 15 years and an estimated 45 million more acres are 
+                                                                                             3
+                                            currently at risk of development.  A limited number of working forests around the world are under 
+                                            Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                              2
+                                            responsible management, defined by the Forest Stewardship Council (FSC) as “operating with a balance of 
+                                            social, environmental and economic outcomes in the current global context.”4 Only an estimated  
+                                            38 percent of total production forest area is certified for responsible management under the FSC and the 
+                                                                                                                                            5
+                                            Programme for the Endorsement of Forest Certification (PEFC).  
+                                            The global decline and degradation of working forests is concerning given the increasing global demand for 
+                                            forest products and the additional value that forests provide, including habitat for wildlife, improved air and 
+                                                                                                                               6
+                                            water quality, climate regulation, and job opportunities.  
+                                            To play a role in reversing negative resource trends, we are committed to efficiently using and responsibly 
+                                            sourcing materials for our paper packaging, increasing the use of recycled materials, and growing the 
+                                            global supply of sustainably produced paper products by the same amount that Apple consumes. These 
+                                            efforts contribute to closing the loop on Apple’s supply chains and improving our environmental footprint. 
+                                            Apple’s Approach 
+                                            Our three-part strategy to mitigate Apple’s impact on current and future forest resources through the use 
+                                            of packaging is to: 
+                                            • Use paper more efficiently and use recycled paper where possible. 
+                                            •                                                   7
+                                               Source virgin paper responsibly.  
+                                            •                                                                         8
+                                               Protect and create sustainable working forests.  
+                                            The first two components of the strategy seek to reduce Apple’s demand for the resource and improve 
+                                            Apple’s sourcing practices. However, at Apple we were not confident that responsible sourcing alone would 
+                                            send a market signal that was strong enough to increase supply proportionally. The third initiative—to 
+                                            protect and create sustainable working forests—helps to ensure that Apple is not simply taking responsibly 
+                                            produced material from another buyer, but is instead growing the total global supply for a positive 
+                                            environmental impact. 
+                                            Paper Footprint 
+                                            Understanding Apple’s fiber use was an essential step toward reducing our impact. In 2015, we calculated 
+                                            a fiber footprint for our product packaging. Starting at the product level, the footprint includes all fiber 
+                                            materials that go into finished goods packaging and protective shipper boxes. The footprint also accounts 
+                                            for yield losses, meaning that fiber waste through die-cutting and other parts of the manufacturing process 
+                                            are included. We then multiplied each product-level result by the number of units sold per product and 
+                                            aggregated across products to measure the yearly product footprint. We then added fiber use by Apple 
+                                            facilities, including fiber used in printing, food, and janitorial services, as well as retail data, to the product 
+                                            data to calculate a total corporate fiber footprint. 
+                                            The footprint, which can be analyzed based on various factors including product or fiber type, identifies 
+                                            impact hotspots to drive decisions regarding the implementation and tracking of packaging initiatives.  
+                                            For example, we used the footprint to identify the most significant uses of virgin materials throughout 
+                                            packaging products to help guide the search for recycled alternatives.  
+                                            We also used the fiber footprint to inform Apple’s forestry strategy: to measure progress toward our goal  
+                                            to protect and create sustainably managed working forests, we compare the mass of sustainable pulp 
+                                            generated annually from protected forests with the mass of virgin fiber pulp used annually in our packaging 
+                                            (including material loss during the manufacturing process). 
+                                            Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                              3
+                                            The level of detail captured in the fiber footprint facilitates this comparison by quantifying not just the amount 
+                                            of virgin paper used by Apple, but more specifically, the amount of virgin pulp in the paper. Because virgin 
+                                            pulp can represent less than half of paper content—fillers, binders, and pigments making up the remaining 
+                                            amount—the fiber footprint’s focus on pulp rather than paper provides a more accurate measure of Apple’s 
+                                            use of pulp from trees and a more accurate goal for the sustainable production of the forestry program. 
+                                            Efficient Packaging  
+                                            Armed with data from the fiber footprint, we looked critically at the materials used in Apple’s packaging. 
+                                            This required asking fundamental questions: Why are we using these materials in these quantities? Is use 
+                                            of these materials essential or is there an opportunity for alternative materials and designs? The strategy 
+                                            that emerged from these questions extended beyond just paper to include moving from petroleum-based 
+                                            plastics to fiber-based materials; reducing use of materials; and replacing virgin with recycled materials. 
+                                            Implementation required challenging the material and design constraints that previously prevented use of 
+                                            alternative materials and allocating the time and resources to overcome these barriers. Even more essential 
+                                            to finding solutions were the buy-in from teams across the organization and a shared commitment to 
+                                            reducing Apple’s environmental impact. 
+                                            Throughout the process, we chose to make changes that would have the greatest potential for impact 
+                                            based on the amount of material used, the time required to develop an alternative, available expertise, and 
+                                            influence with suppliers. The effort is ongoing as teams continue to address those materials used in lesser 
+                                            quantities to improve the overall sustainability of Apple’s packaging.  
+                                            Changes in iPhone packaging from iPhone 6s to iPhone 7 illustrate the significant impact potential of these 
+                                            efforts. With sales of iPhone exceeding 200 million units in fiscal year 2015, iPhone represented a key 
+                                            target for high-impact packaging changes. Apple teams looked for opportunities to change both the 
+                                            quantity and type of materials used in iPhone packaging. For iPhone 6s packaging, we used two stacked 
+                                            plastic trays—one to hold iPhone and the other to secure the accessories. For iPhone 7, a new design 
+                                            allowed a single tray to do the work of two, eliminating the need for a second tray and significantly reducing 
+                                            material use. Apple teams also found a fiber-based material that could be used to make the trays, replacing 
+                                            the petroleum-based plastic previously used. 
+                                            A similar exploration of new materials and design led to innovations in the EarPods carrier. For  
+                                            iPhone 6s, a plastic carrier had been designed to discreetly wrap cables and hold the EarPods in place.  
+                                            For iPhone 7, Apple developed a paperboard-based solution to leverage a functional set of folds and cuts 
+                                            that elegantly secured the EarPods and cable. Changes to the tray and EarPods carrier contributed  
+                                                                                                                                                                                         9
+                                            to an 84 percent decrease in plastic usage for iPhone 7 packaging compared with iPhone 6s.  
+                                             iPhone 7 packaging
+                                            Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                              4
+                                            Last, an exploration of virgin fiber hotspots led our teams to address the outer iPhone packaging box  
+                                            wrap itself, which used significant amounts of virgin fiber–based solid bleached sulfate (SBS). With  
+                                            the launch of iPhone 7, a recycled content paperboard replaced a layer of SBS, contributing to an 
+                                            approximately 30 percent increase in recycled fiber content between iPhone 6s and iPhone 7. 
+                                                                                                                  Fiber & Plastic Mass (g)
+                                            iPhone 6s
+                                               iPhone7
+                                                             0                                40                                80                               120                               160
+                                                                 Virgin Fiber                           Recycled Fiber                              Plastic
+                                            Changes to packaging from iPhone 6s to iPhone 7 reduced the amount of plastic used and increased the use of recycled fiber. 
+                                            Continued pursuit of improvements for iPhone 8 packaging shows Apple’s attention to detail and ongoing 
+                                            commitment to making smaller and often more difficult changes. For iPhone 8, this meant pursuing an 
+                                            alternative to a polypropylene wrap that protected the power adapter. Finding a fiber alternative proved 
+                                            challenging since fiber naturally expands and contracts with changes in humidity. The significant number of 
+                                            suppliers and locations through which the power adapter wrap would pass made controlling the humidity of 
+                                            the environment impossible. This required Apple to take a very hands-on approach, working directly with 
+                                            the supplier to alter aspects of the manufacturing process to create a fiber wrap that would meet technical 
+                                            needs. While the power adapter wrap is a small piece of the iPhone packaging, it represents a significant 
+                                            amount of material given the number of iPhone units sold. This detail is one of many that make packaging 
+                                            more uniform, reduce environmental impact, and create a better experience for the customer. 
+                                            Responsible Sourcing 
+                                            Because virgin fiber remains necessary to meet Apple’s structural and design requirements, responsible 
+                                            sourcing of this fiber is an essential piece of our environmental strategy for paper and packaging. To 
+                                            support our responsible sourcing goal, we recently enhanced Apple’s fiber specification for even more 
+                                            responsible and transparent sourcing practices for all fibers used in product packaging or print 
+                                            applications, whether from wood, non-wood, or recycled sources. 
+                                            Specification Requirements 
+                                            An important question in writing and updating our specification was which forest certification schemes to 
+                                            include in Apple’s standard. To maintain flexibility for our suppliers, we opted to leave the choice of which 
+                                            forest certification scheme to use with the supplier, as long as their management practices met the 
+                                            requirements to achieve certification and comply with Apple’s requirements. The updated specification 
+                                            requires that “all wood and non-wood fibers used in packaging or print applications be derived entirely 
+                                            from sources certified to or endorsed by the Forest Stewardship Council (FSC), the Programme for the 
+                                            Endorsement of Forest Certification (PEFC), FSC Controlled Wood, or another specification that has been 
+                                                                           10 
+                                            approved by Apple.”
+                                            Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                              5
+                                 In addition to full FSC and PEFC certifications, Apple teams also chose to include FSC Controlled Wood and 
+                                 any certifications “reviewed and approved by Apple.” Together, these options provide suppliers some 
+                                 flexibility in meeting our requirements. As of October 2017, however, no Apple suppliers have needed an 
+                                 alternative to the FSC or PEFC certifications, or to FSC Controlled Wood. 
+                                 The specification defines separate requirements for Apple-selected and supplier-selected materials. For 
+                                 the former, we have the ability to engage with the supply chain directly and review documentation that 
+                                 shows the movement of products from forests to final packaging. For the latter, however, our visibility into 
+                                 the materials’ upstream sources is more limited. Thus, we decided to require an additional FSC or PEFC 
+                                 chain of custody certification for supplier-selected materials to ensure that forest products could be traced 
+                                 back to the forest of origin. The chain of custody represents all steps a material goes through from the time 
+                                                                                                                                                   11 
+                                 it leaves the forest or is recycled to the time the material is sold with a claim of responsible production.
+                                 Because materials may change ownership many times throughout processing and distribution, tracing 
+                                 materials to their source requires diligence. Both FSC and PEFC offer verifications that a product has been 
+                                 successfully traced back through the steps in the chain of custody, providing a valuable assurance.12 
+                                 Finally, the updated specification includes requirements for other fiber sources as well. For non-wood  
+                                 fibers from waste products, such as bagasse from sugarcane, the specification requires evidence of 
+                                 responsible sourcing to ensure that these materials come from renewable sources grown without 
+                                 significant environmental consequences like deforestation or loss of critical ecosystems. The specification 
+                                 also considers the end-of-life impact of materials by requiring that non-wood fibers from waste products 
+                                 be recyclable with the mixed-paper stream. For fibers from recycled sources, the specification requires  
+                                                                                                            13
+                                 that recycled content meet the minimum standards of IEEE 1680.1.  
+                                 Implementation of the Specification 
+                                 The updated Sustainable Fiber Specification is made more effective by Apple’s willingness to invest in 
+                                 compliance. To ensure that suppliers are meeting the specification, we not only require a signed declaration 
+                                 of conformity and proof of certification, but also conduct audits to further confirm compliance. 
+                                 Each year, Apple carries out a three-step audit process. First, suppliers perform a self-audit, mapping 
+                                 supply chains and submitting relevant sourcing information and documentation to Apple. Second, Apple 
+                                 audits each supplier to confirm that submitted documentation can be substantiated. These audits go so far 
+                                 as to include a fiber test that reveals any pulp from endangered species or from species with a high risk of 
+                                 unsustainable management practices. Finally, in the case of noncompliance or insufficient documentation, 
+                                 a corrective action plan with a timeline is created for the supplier. 
+                                 After releasing our specification in 2015, we worked hard to make sure that suppliers knew about our 
+                                 requirements and how to comply. As forest certification is increasingly viewed as a market entry 
+                                 requirement, many suppliers’ processes already met the specification’s standard at the time of its 
+                                 implementation. Suppliers did experience a learning curve, however, as they sought to understand what 
+                                 evidence and documentation they needed to share with Apple. The top two findings from the audits 
+                                 performed in 2016 resulted not from the lack of compliance, but from the lack of sufficient documentation. 
+                                 To help educate suppliers about the evidence required for the specification, Apple created supporting 
+                                 guidance available in English and Chinese. In addition, we use audits as opportunities to further teach 
+                                 suppliers about the process. 
+                                 Mapping our supply chain proved highly valuable to Apple. The greater visibility revealed that complex paper 
+                                 supply chains were, in many cases, diamond shaped, with many suppliers sourcing from the same paper mills. 
+                                 This leaves the door open for even more efficient future sustainability interventions targeted at the mill level.      
+                                 Apple’s Paper and Packaging Strategy  |  October 2017                                                                    6
+                                Compliance with the Specification 
+                                Despite the relatively recent implementation of the specification, nearly all of the materials Apple sources    
+                                are in compliance: more than 99 percent of the paper used in Apple’s packaging and corporate offices in 
+                                2016 came from either responsibly managed forests, controlled wood, or recycled sources. And we continue 
+                                working to eliminate the small amount of paper use, from acquisitions and sale of previous-generation 
+                                products, that represents the less than 1 percent of our packaging materials that are noncompliant. 
+                                Reducing use of paper materials, increasing use of recycled materials, and responsibly sourcing the 
+                                remaining virgin material certainly improved Apple’s direct resource use. However, the ultimate goal guiding 
+                                our teams was not limited to improving Apple’s environmental impact in isolation—we wanted to create a 
+                                positive global impact on forest resources. Although we were mitigating Apple’s footprint, we questioned 
+                                whether forest resources were truly better off or if, by reducing the world’s supply of responsibly and 
+                                sustainably managed paper, we had simply shifted the impacts to other buyers. This debate led to an 
+                                additional forest initiative beyond the scope we had originally imagined. 
+                                Creating and Protecting Sustainable Working Forests 
+                                Concerned that our responsible sourcing efforts might simply strain a limited global supply of product, 
+                                Apple sought to protect and expand the number of responsibly or sustainably managed working forests  
+                                to cover all its product packaging needs. This effort helped ensure that Apple did not displace another 
+                                willing buyer of responsibly produced fiber, but instead increased the total amount produced. 
+                                Though originating from a focus on forest products, the effort considered the broader value of forests, 
+                                including important contributions to habitat for wildlife, carbon sequestration, and air and water quality.  
+                                We tapped into the expertise of partners to take these factors into account in designing strategies with  
+                                the greatest opportunity for impact.  
+                                Because Apple aimed to achieve a positive impact on the global commodity market, the initiative targeted 
+                                forests harvested for paper pulp and recommended by expert partners, whether or not these forests were 
+                                part of Apple’s current supply chains. Linking these long-term efforts to our own supply chains, which often 
+                                change, would not have created significantly different environmental impact—and it was unnecessary to 
+                                meet our design and engineering requirements. 
+                                The initiative launched in the United States in April 2015 and soon expanded to China, covering two 
+                                countries whose regulatory and political structures required significantly different approaches to forest 
+                                management and protection.  
+                                United States  
+                                In the United States, the key challenge was finding a model that would improve the management of working 
+                                forests, generate further supply of responsible pulp, and ensure the protection of forest resources into the 
+                                future. Apple selected The Conservation Fund (the Fund) as a partner for their experience and for their 
+                                Working Forest Fund® model, which offered an innovative approach to decrease forest-based supply chain 
+                                risks and halt the loss of the last big, intact, privately held forests in the United States.  
+                                Apple’s Paper and Packaging Strategy  |  October 2017                                                               7
+                                            Through its Working Forest Fund, the Fund aims to ensure the vital role of forests in providing clean air and 
+                                            water, wildlife habitat, and economic benefits for communities across the United States. With support from 
+                                            Apple, the Fund identifies and purchases working forests with ecological and economic assets that were 
+                                            threatened by large-scale fragmentation or development. The Fund then places a conservation easement 
+                                            on the land to ensure that it is sustainably managed and protected from development in perpetuity. Once 
+                                            appropriate partners are found, the Fund transfers the easement to a qualified holder responsible for its 
+                                            enforcement, and sells the forest in the open market. After the sale of the property, they reinvest funds from 
+                                            the sale to protect additional working forests, boosting local economies by maintaining jobs and creating a 
+                                                                                                                     14
+                                            supply of responsibly managed forest products.  
+                                            Apple and The Conservation Fund are protecting Reed Forest in Maine. (EcoPhotography/Jerry Monkman)  
+                                            Since 2015, Apple and The Conservation Fund have protected more than 36,000 acres of working forest in 
+                                            the eastern United States, including Brunswick Forest in North Carolina and Reed Forest in Maine—both at 
+                                            risk of development or fragmentation before the collaboration. So far, the project has generated enough 
+                                            sustainably produced pulp to make a stack of iPhone 6s boxes more than 1,500 times as tall as Mt. Everest.  
+                                            This initiative not only provides a steady supply of sustainably harvested wood to paper and pulp mills,  
+                                            but it also prevents forest habitat fragmentation, addresses climate change, and enhances local water  
+                                            and air quality. Protection of the Reed Forest, for example, supports a robust forest industry employing  
+                                            more than 38,000 people in the state and adds to conserved lands and interconnected forests that extend 
+                                                                15
+                                            into Canada.  Third-party forest certification provides measures for the protection of wildlife, which is 
+                                                                                                                                                                                                   16
+                                            particularly important given the presence of six rare species, including the Canada Lynx, in the area.  
+                                            China 
+                                            Expansion of the initiative to China represents an important step in Apple’s long-term commitment to  
+                                            the country. We also chose China because of the significant national demand for pulp and paper and the 
+                                            low supply of wood in the country for making pulp and paper products. Though the National Forest 
+                                                                              17
+                                            Conservation Program  has been working to protect state-owned forests, net forest loss in China between 
+                                                                                                                               18
+                                            2001 and 2015 is estimated to exceed 18 million acres.  
+                                            Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                              8
+                                            Expanding to a country with different environmental regulations, approaches to land ownership, and 
+                                            strategies for conservation presented significant opportunities and challenges for Apple. In particular, 
+                                            China’s approach to property law meant that the easements used in the United States weren’t feasible, 
+                                            requiring that Apple find a different model for long-term forest protection. 
+                                            Apple elected to partner with World Wildlife Fund (WWF) because of the NGO’s technical expertise, 
+                                            experience in partnering with the Chinese government and other regional partners, and previous work  
+                                            in generating the supply of and demand for responsibly produced forest products. Through a proposed 
+                                            initiative designed to increase demand for responsibly produced forest products, as well as to improve 
+                                            forest management practices and national forest management policies, WWF offered the long-term focus 
+                                            adapted to the Chinese market that Apple sought. 
+                                            The WWF China “Green Me” campaign video asks, “The forest is part of our life. How can we give back to it?”  
+                                            The Apple and WWF China initiative, now in its third year, aims to catalyze responsible forestry and trade  
+                                            in China, particularly in semi-natural working forests and plantations that supply China’s pulp and paper 
+                                            sector. Through pilot projects and strategic engagement, the project endeavors to demonstrate best forest 
+                                            management practices and, ultimately, aims to assist in China’s efforts in improving its forest policies  
+                                            and regulations. 
+                                            Integrated into WWF China’s broader forestry strategy, Apple’s collaboration with WWF has three  
+                                            primary objectives:  
+                                            1. Increase responsible management of working forests in China by creating up to 300,000 acres of  
+                                                 FSC–certified forests and up to 700,000 acres of forests under improved management. This objective 
+                                                 seeks additional impact by improving management of those forests unable to obtain FSC certification 
+                                                 because of previous management practices or other disqualifying factors. 
+                                            Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                              9
+                                            2. Improve China’s policy framework to encourage responsible forest management. This objective 
+                                                 capitalizes on the lessons learned in forest management to inform government policy and share best 
+                                                 practices. One example of this work is the creation of a best management practice guide based on an 
+                                                 assessment of current challenges, case studies of exemplary management, and global best practices. 
+                                                 Supporting effective policies enables the initiative to create a ripple effect and to help forest 
+                                                 management improvements endure. 
+                                            3. Establish long-term market incentives in China for responsibly sourced paper. Increasing the supply of 
+                                                 responsibly sourced products has a limited effect if demand for these products does not increase 
+                                                 proportionally. Growing consumer awareness can help unlock lasting demand for these products. To 
+                                                 achieve this objective, WWF China has launched a “Green Me” awareness-raising campaign focused on 
+                                                                                                           19
+                                                 FSC certification, among other efforts.  
+                                            Approximately 320,000 acres of forest have received FSC certification as part of the initiative, exceeding 
+                                            the initial goal. WWF China has also secured commitments from eight forestry companies, representing 
+                                            more than 450,000 acres, to improve their forest management practices. The permanence of these 
+                                            improvements depends on government and forest manager actions over the long term, further highlighting 
+                                            the importance of the relationship-building and broader awareness-raising components of the initiative. 
+                                            Through the U.S. and China initiatives, Apple has met its goal to protect and create enough responsibly 
+                                            managed forests to cover all of its product packaging needs. As paper demands grow and change, we are 
+                                            prepared to continue protecting and improving the management of the world’s forests. 
+                                            Conclusion 
+                                            Our paper and packaging initiative represents the efforts of a single corporate consumer of fiber in the 
+                                            global market for forestry products. Yet it has the potential for much greater impact, triggering positive 
+                                            ripple effects both inside and outside of Apple.  
+                                            Since the introduction of our program in 2015, its successes have inspired us to rethink our approach to 
+                                            other key materials and begin pursuing closed-loop supply chains for the finite resources we use to make 
+                                            our products. 
+                                            We also hope that our program highlights a process for others to take responsibility for their impact on 
+                                            global resources and work with external stakeholders to protect the environment. The evolution of the 
+                                            initiative over time reveals questions that may be valuable for others to ask themselves: What makes up  
+                                            our fiber footprint? What are the hotspots that can be addressed first? Given our reliance on partners in  
+                                            the supply chain, to what degree are we willing to leverage our influence and invest to ensure improved 
+                                            practices? Perhaps most interesting is the question that led Apple to consider whether efficient use and 
+                                            responsible sourcing were sufficient: Are we truly leaving global resources better off than we found them? 
+                                            Underpinning this debate and the solutions that emerged is a larger sense of purpose shared by the Apple 
+                                            teams involved. With an internal, short-term focus alone, the project could have succeeded with efficiency 
+                                            and responsible sourcing efforts that would have reduced Apple’s direct environmental footprint. Instead,  
+                                            a broader commitment resulted in changes that were not obvious from the project’s outset but were 
+                                            essential to meaningful global impact. Allowing this broader environmental commitment to drive initiatives 
+                                            may be key to creating fundamental and necessary shifts in the use of global resources. 
+                                            Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                             10
+                                                               Acknowledgments 
+                                                               Apple’s work on packaging, paper sourcing, and forestry requires effort from across the company. 
+                                                               Contributors to this paper include Chris Busch, Amanda Gibson, Connie Yang, VY Chow, Steve Kuo,  
+                                                               Julie Rapoport, Alice Kodama, and Jason Guo. 
+                                                               For inquiries about this paper, contact Chris Busch or email environment-report@apple.com. 
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                               1   Food and Agriculture Organization of the United Nations. Global Forest Resources Assessment 2015: How Are the World’s Forests Changing? Second 
+                                                                   Edition. Rome: Food and Agriculture Organization of the United Nations, 2016. 
+                                                               2  Ibid. 
+                                                               3  Jackson, Lisa P. “Why Apple Is Permanently Protecting Working Forests.” Medium, 2015. https://medium.com/@lisapjackson/why-apple-is-permanently-
+                                                                   protecting-working-forests-6f49a7d4bef5. 
+                                                               4  Forest Stewardship Council. Global Strategic Plan 2015 - 2020 Delivering Forests For All Forever: A Bolder, Stronger, More Effective FSC. 2015.  
+                                                                   https://ic.fsc.org/en/fsc-global-strategic-plan-2015-2020. 
+                                                               5  There are 4 billion hectares of forests globally, according to the Food and Agriculture Organization’s Global Forest Resources Assessment 2015: How Are the 
+                                                                   World’s Forests Changing? Second Edition, 1.24 billion hectares of which are production forests according to the Food and Agriculture Organization’s Forest 
+                                                                   Products: Annual Market Review 2015–2016. Of the production forests, 196 million hectares are FSC certified and 271 million hectares are PEFC certified 
+                                                                   according to 2017 data from the two organizations, yielding a total of 467 million hectares of production forests certified, or 38 percent of the total. 
+                                                               6  Food and Agriculture Organization of the United Nations. Global Forest Resources Assessment 2015: How Are the World’s Forests Changing? Second 
+                                                                   Edition. Rome: Food and Agriculture Organization of the United Nations, 2016. 
+                                                               7  Virgin materials indicate those that do not come from a recycled source, not materials that come from a virgin forest. 
+                                                               8   In this context “creating” a sustainable supply means converting to sustainable management an existing working forest. 
+                                                               9  For more information on iPhone 7 packaging, see Apple’s Product Environmental Report: iPhone 7. 2016.  
+                                                               10 For more details, see Apple’s Sustainable Fiber Specification, Version C. 2016. https://www.apple.com/environment/pdf/
+                                                                   Apple_Sustainable_Fiber_Specification_April2016.pdf. 
+                                                               11  Forest Stewardship Council. “Chain of Custody Certification.” 2017. https://ic.fsc.org/en/what-is-fsc-certification/chain-of-custody-certification. 
+                                                               12 Ibid. 
+                                                               13 IEEE. “IEEE 1680.1: IEEE STD 1680-2009, IEEE Standard for Environmental Assessment of Personal Computer Products, Including Laptop Personal 
+                                                                   Computers, Desktop Personal Computers, and Personal Computer Monitors.” 2009. 
+                                                               14 For more information on the Working Forest Fund, see https://www.conservationfund.org/our-work/working-forest-fund. 
+                                                               15 Maine Forest Products Council. “Maine’s Forest Economy.” 2014. http://maineforest.org/wp-content/uploads/2014/04/Maines-Forest-Economy.pdf 
+                                                               16 World Wildlife Fund: Global Forest & Trade Network. “The Impact of Forest Stewardship Council (FSC) Certification.” 2014.  
+                                                                   http://d2ouvy59p0dg6k.cloudfront.net/downloads/fsc_research_review.pdf. 
+                                                               17 Also translated to National Forest Protection Program. 
+                                                               18 World Resources Institute. “Global Forest Watch: China.” 2015. http://www.globalforestwatch.org/country/CHN. 
+                                                               19 WWF China. “Green Me! Campaign Video.” 2017. https://vimeo.com/214545724.
+                                                               Apple’s Paper and Packaging Strategy  |  October 2017                                                                                                                                                                               11

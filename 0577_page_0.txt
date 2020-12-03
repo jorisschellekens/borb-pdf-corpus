@@ -1,0 +1,50 @@
+                                                      HowtoReadaPaper
+                                                                      S. Keshav
+                                      David R. Cheriton School of Computer Science, University of Waterloo
+                                                                Waterloo, ON, Canada
+                                                              keshav@uwaterloo.ca
+              ABSTRACT                                                            4. Glance over the references, mentally ticking oﬀ the
+              Researchers spend a great deal of time reading research pa-            ones you’ve already read
+              pers. However, this skill is rarely taught, leading to much        At the end of the ﬁrst pass, you should be able to answer
+              wasted eﬀort. This article outlines a practical and eﬃcient      the ﬁve Cs:
+              three-pass method for reading research papers. I also de-
+              scribe how to use this method to do a literature survey.            1. Category: What type of paper is this? A measure-
+              Categories and Subject Descriptors: A.1 [Introductory                  ment paper? An analysis of an existing system? A
+              and Survey]                                                            description of a research prototype?
+              General Terms: Documentation.                                       2. Context: Which other papers is it related to? Which
+              Keywords: Paper, Reading, Hints.                                       theoretical bases were used to analyze the problem?
+              1.   INTRODUCTION                                                   3. Correctness: Do the assumptions appear to be valid?
+                Researchers must read papers for several reasons: to re-          4. Contributions: What are the paper’s main contribu-
+              view them for a conference or a class, to keep current in              tions?
+              their ﬁeld, or for a literature survey of a new ﬁeld. A typi-
+              cal researcher will likely spend hundreds of hours every year       5. Clarity: Is the paper well written?
+              reading papers.
+                Learning to eﬃciently read a paper is a critical but rarely      Using this information, you may choose not to read fur-
+              taught skill. Beginning graduate students, therefore, must       ther. This could be because the paper doesn’t interest you,
+              learn on their own using trial and error. Students waste         or you don’t know enough about the area to understand the
+              much eﬀort in the process and are frequently driven to frus-     paper, or that the authors make invalid assumptions. The
+              tration.                                                         ﬁrst pass is adequate for papers that aren’t in your research
+                FormanyyearsIhaveusedasimpleapproachtoeﬃciently                area, but may someday prove relevant.
+              read papers. This paper describes the ‘three-pass’ approach        Incidentally, when you write a paper, you can expect most
+              and its use in doing a literature survey.                        reviewers (and readers) to make only one pass over it. Take
+                                                                               care to choose coherent section and sub-section titles and
+              2.   THETHREE-PASSAPPROACH                                       to write concise and comprehensive abstracts. If a reviewer
+                The key idea is that you should read the paper in up to        cannot understand the gist after one pass, the paper will
+              three passes, instead of starting at the beginning and plow-     likely be rejected; if a reader cannot understand the high-
+              ing your way to the end. Each pass accomplishes speciﬁc          lights of the paper after ﬁve minutes, the paper will likely
+              goals and builds upon the previous pass: The first pass          never be read.
+              gives you a general idea about the paper. The second pass        2.2    Thesecondpass
+              lets you grasp the paper’s content, but not its details. The       In the second pass, read the paper with greater care, but
+              third pass helps you understand the paper in depth.              ignore details such as proofs. It helps to jot down the key
+              2.1    Theﬁrstpass                                               points, or to make comments in the margins, as you read.
+                The ﬁrst pass is a quick scan to get a bird’s-eye view of         1. Look carefully at the ﬁgures, diagrams and other illus-
+              the paper. You can also decide whether you need to do any              trations in the paper. Pay special attention to graphs.
+              morepasses. This pass should take about ﬁve to ten minutes             Are the axes properly labeled? Are results shown with
+              and consists of the following steps:                                   error bars, so that conclusions are statistically sig-
+                 1. Carefully read the title, abstract, and introduction             niﬁcant? Common mistakes like these will separate
+                                                                                     rushed, shoddy work from the truly excellent.
+                 2. Read the section and sub-section headings, but ignore
+                   everything else                                                2. Remember to mark relevant unread references for fur-
+                                                                                     ther reading (this is a good way to learn more about
+                 3. Read the conclusions                                             the background of the paper).
+              ACM SIGCOMM Computer Communication Review                    83                              Volume 37, Number 3, July 2007

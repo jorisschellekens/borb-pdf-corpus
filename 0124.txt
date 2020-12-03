@@ -1,0 +1,126 @@
+                                DOESTHEINERTIAOFABODYDEPEND
+                                         UPONITSENERGY-CONTENT?
+                                                          ByA.EINSTEIN
+                                                          September 27, 1905
+                                  Theresults of the previous investigation lead to a very interesting conclusion,
+                              which is here to be deduced.
+                                  I based that investigation on the Maxwell-Hertz equations for empty space,
+                              together with the Maxwellian expression for the electromagnetic energy of space,
+                              and in addition the principle that:—
+                                  The laws by which the states of physical systems alter are independent of
+                              the alternative, to which of two systems of coordinates, in uniform motion of
+                              parallel translation relatively to each other, these alterations of state are referred
+                              (principle of relativity).
+                                  With these principles∗ as my basis I deduced inter alia the following result
+                              (§ 8):—
+                                  Let a system of plane waves of light, referred to the system of co-ordinates
+                              (x,y,z), possess the energy l; let the direction of the ray (the wave-normal)
+                              make an angle φ with the axis of x of the system. If we introduce a new system
+                              of co-ordinates (ξ,η,ζ) moving in uniform parallel translation with respect to
+                              the system (x,y,z), and having its origin of co-ordinates in motion along the
+                              axis of x with the velocity v, then this quantity of light—measured in the system
+                              (ξ,η,ζ)—possesses the energy
+                                                                   1−vcosφ
+                                                            l∗ = lp    c
+                                                                         2  2
+                                                                    1−v /c
+                              where c denotes the velocity of light. We shall make use of this result in what
+                              follows.
+                                  Let there be a stationary body in the system (x,y,z), and let its energy—
+                              referred to the system (x,y,z) be E . Let the energy of the body relative to the
+                                                                 0
+                              system (ξ,η,ζ) moving as above with the velocity v, be H0.
+                                  Let this body send out, in a direction making an angle φ with the axis
+                              of x, plane waves of light, of energy 1L measured relatively to (x,y,z), and
+                                                                    2
+                              simultaneously an equal quantity of light in the opposite direction. Meanwhile
+                              the body remains at rest with respect to the system (x,y,z). The principle of
+                                 ∗The principle of the constancy of the velocity of light is of course contained in Maxwell’s
+                              equations.
+                                                                    1
+                       energy must apply to this process, and in fact (by the principle of relativity)
+                       with respect to both systems of co-ordinates. If we call the energy of the body
+                       after the emission of light E1 or H1 respectively, measured relatively to the
+                       system (x,y,z) or (ξ,η,ζ) respectively, then by employing the relation given
+                       above we obtain
+                                   E   = E +1L+1L,
+                                    0      1  2   2
+                                              1  1−vcosφ    1  1+vcosφ
+                                   H = H + Lp c           + Lp c
+                                    0      1  2       2 2   2      2  2
+                                                  1−v /c        1−v /c
+                                       = H +p L        .
+                                           1        2 2
+                                                1−v /c
+                       By subtraction we obtain from these equations
+                                                       (p 1         )
+                                    H −E −(H −E )=L               −1 .
+                                     0   0    1   1           2 2
+                                                          1−v /c
+                       The two diﬀerences of the form H−E occurring in this expression have simple
+                       physical signiﬁcations. H and E are energy values of the same body referred
+                       to two systems of co-ordinates which are in motion relatively to each other,
+                       the body being at rest in one of the two systems (system (x,y,z)). Thus it is
+                       clear that the diﬀerence H−E can diﬀer from the kinetic energy K of the body,
+                       with respect to the other system (ξ,η,ζ), only by an additive constant C, which
+                       depends on the choice of the arbitrary additive constants of the energies H and
+                       E. Thus we may place
+                                            H −E = K +C,
+                                              0   0      0
+                                            H −E = K +C,
+                                              1   1      1
+                       since C does not change during the emission of light. So we have
+                                                  (p 1         )
+                                        K −K =L              −1 .
+                                          0   1          2  2
+                                                     1−v /c
+                          Thekinetic energy of the body with respect to (ξ,η,ζ) diminishes as a result
+                       of the emission of light, and the amount of diminution is independent of the
+                       properties of the body. Moreover, the diﬀerence K −K , like the kinetic energy
+                                                             0  1
+                       of the electron (§ 10), depends on the velocity.
+                          Neglecting magnitudes of fourth and higher orders we may place
+                                              K −K = 1 Lv2.
+                                               0   1     2
+                                                       2c
+                       From this equation it directly follows that:—
+                                                    2
+                                  If a body gives oﬀ the energy L in the form of radiation, its mass diminishes
+                                     2
+                              by L/c . The fact that the energy withdrawn from the body becomes energy of
+                              radiation evidently makes no diﬀerence, so that we are led to the more general
+                              conclusion that
+                                  The mass of a body is a measure of its energy-content; if the energy changes
+                                                                                       20
+                              by L, the mass changes in the same sense by L/9 × 10 , the energy being
+                              measured in ergs, and the mass in grammes.
+                                  It is not impossible that with bodies whose energy-content is variable to a
+                              high degree (e.g. with radium salts) the theory may be successfully put to the
+                              test.
+                                  If the theory corresponds to the facts, radiation conveys inertia between the
+                              emitting and absorbing bodies.
+                                                           About this Document
+                                       This edition of Einstein’s Does the Inertia of a Body Depend upon its
+                                    Energy-ContentisbasedontheEnglishtranslationofhisoriginal1905German-
+                                    language paper (published as Ist die Tr¨agheit eines K¨orpers von seinem En-
+                                    ergiegehalt abh¨angig?, in Annalen der Physik. 18:639, 1905) which appeared
+                                    in the book The Principle of Relativity, published in 1923 by Methuen and
+                                    Company, Ltd. of London. Most of the papers in that collection are English
+                                    translations by W. Perrett and G.B. Jeﬀery from the German Das Relativat-
+                                    sprinzip, 4th ed., published by in 1922 by Tuebner. All of these sources are
+                                    now in the public domain; this document, derived from them, remains in the
+                                    public domain and may be reproduced in any manner or medium without
+                                    permission, restriction, attribution, or compensation.
+                                       The footnote is as it appeared in the 1923 edition. The 1923 English
+                                    translation modiﬁed the notation used in Einstein’s 1905 paper to conform
+                                    to that in use by the 1920’s; for example, c denotes the speed of light, as
+                                    opposed the V used by Einstein in 1905. In this paper Einstein uses L to
+                                    denote energy; the italicised sentence in the conclusion may be written as
+                                                         2
+                                    the equation “m = L/c ” which, using the more modern E instead of L to
+                                                                                  2
+                                    denote energy, may be trivially rewritten as “E = mc ”.
+                                       This edition was prepared by John Walker. The current version of this
+                                    document is available in a variety of formats from the editor’s Web site:
+                                                        http://www.fourmilab.ch/
+                                                                    3

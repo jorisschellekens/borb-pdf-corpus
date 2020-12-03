@@ -1,0 +1,84 @@
+                                   
+           Taking Notes:                                                               Summary:
+           React to what you read                                                      How to read a paper                                                           Efficient Reading of 
+           Taking notes will help you to understand what you read                                                                                                        Papers in Science 
+           and will save you effort in the future. When you have                             Preparation
+           just read a paper, you may understand it well. The deﬁ-                           •   Quiet place.
+           nitions are clear, the charts show correlations at a                              •   Pencil, paper, photocopy of article.                                      and Technology
+           glance. But next week, when you are writing a report 
+           on this subject, or next year, when you need to refer to                          Deciding what to read
+           the paper again, it may not be so clear.                                          •   Read title, abstract.
+           Highlight major points                                                            •   Read it, ﬁle it or skip it?
+                On papers you plan to keep, underline main points 
+           or mark them with a line in the margin; make notes so                             Read for breadth
+           that new ideas will stand out. When you ﬁnd a deﬁni-                              •   What did they do?
+           tion of a new term, abbreviation or acronym, write                                •   Skim introduction, headings, graphics, deﬁni-
+           “def” in the margin. When you ﬁnd an example that                                      tions, conclusions and bibliography.
+           clariﬁes a point, note that in the margin.                                        •   Consider the credibility.
+                When you see a chart or table, examine it. Figure                            •   How useful is it?
+           out what its signiﬁcance is. What trends does it show?                            •   Decide whether to go on.
+           What correlations? Write a note explaining it in your                                                                                                         This brochure provides an approach to help you 
+           own way.                                                                          Read in depth                                                           read scientiﬁc papers efﬁciently and effectively.
+           React to the points in the paper                                                  •   How did they do it?
+                If you see a correlation to other work, note it in the                       •   Challenge their arguments.
+           margin. If you doubt a statement, note your objection.                            •   Examine assumptions.
+           If you ﬁnd a pleasing quotation, write it down.                                   •   Examine methods.
+           Construct your own example                                                        •   Examine statistics.
+                This can tell you if you understand the deﬁnitions                           •   Examine reasoning and conclusions.
+           and terminology, give you insight on why a theorem or                             •   How can I apply their approach to my work?
+           result holds, and expose aspects not covered by the                                                                                                                 Prepared by:
+           examples in the paper.                                                            Take notes                                                                           Michael J. Hanson
+           Summarize what you read                                                           •   Make notes as you read.                                                       Updated by:
+                When you have digested an article, write a short                             •   Highlight major points.                                                          Dylan J. McNamee
+           summary. In your own words, state what you learned                                •   Note new terms and deﬁnitions.
+           from the paper. What were the main points for you?                                •   Summarize tables and graphs.
+           Keep the summary with the article for future reference.                           •   Write a summary. 
+                Reacting to what you are reading gets you emotion-
+           ally involved in the argument. Emotion emphasizes                           An online version of this document can be found here:
+           what is said, making it easier to remember. Writing a                       http://www.cse.ogi.edu/~dylan/efﬁcientReading.html
+           summary helps to relate the paper to what you already                           Thanks to Dave Maier for additional suggestions.
+           know, again aiding memory by tying into your frame-
+           work for the subject. The summary also serves as a ref-                         Copyright © 1989, 1990 Michael J. Hanson, 
+           erence when you need to return to the paper.                                revised by Dylan J. McNamee (dylan@cse.ogi.edu)                               version of January 6, 2000
+                                                
+          Introduction:                                                   Reading for Breadth:                                             Reading in Depth:
+          Why Read?                                                       Build a framework                                                Challenge what you read
+          Before beginning to read a paper, consider why you are          If you decide to read the paper, ﬁrst skim it.                   There is a lot of junk published, so you should be selec-
+          doing it. What do you want to get out of it? Your needs         •   Read the introduction.                                       tive in what you read and what you believe. When you 
+          control how you read. If you only need an overview, a           •   Read the section headings.                                   read a paper in detail, approach it with scientiﬁc skep-
+          brief skim may sufﬁce. If you will present the paper to         •   Look at the tables and graphs to see what they say           ticism. You can do this by trying to tear the arguments 
+          others, you will need to dig deeply, to challenge the                and read the captions.                                      apart.
+          paper’s arguments until you understand it fully. If you         •   Read the deﬁnitions and theorems.
+          will use the information later, taking notes will help          •   Read the conclusions.                                        Examine the assumptions
+          you remember it. If you don’t know what you hope to             •   Consider the credibility of the article:                     •   Do their results rely on any assumptions about 
+          gain from the paper, you can not tell whether reading it                Who wrote it? Are they well-known?                            trends or environments?
+          will be beneﬁcial or a waste of time.                                   Where do they work? What biases might they               •   Are these assumptions reasonable?
+             In order to get the most from your reading, you                         have as a result of their employer?
+          should be properly prepared. Find a quiet place to                      Where was the article published? What is the             Examine the methods
+          work where you will not be disturbed or distracted,                        reputation of the journal? Was the journal            •   Did they measure what they claim?
+          have a pencil and note pad at hand, and bear in mind                       refereed?                                             •   Can they explain what they observed?
+          exactly what you expect to get from this paper.                         When was it written? Might it be outdated or             •   Did they have adequate controls?
+             The following method for reading a scientiﬁc paper                      superceded?                                           •   Were tests carried out in a standard way?
+          offers you ideas about the process of reading a paper,          •   Skim the bibliography:
+          how to decide what to read, how to build a broad                        How extensive is it?                                     Examine the statistics
+          framework by skimming, and how to challenge the                         Are the authors aware of current work?                   •   Were appropriate statistical tests applied properly?
+          paper to get depth of understanding. Finally, it will                   Does it reference classic papers in this ﬁeld?           •   Did they do proper error analysis?
+          show you how to take notes so that the key points won’t                 Have you read any of the papers that are                 •   Are the results statistically signiﬁcant?
+          be lost as soon as you set the paper down. Since read-                     referred to?
+          ing is the process of getting ideas from the author, you                Do you know relevant research that isn't cited?          Examine the conclusions
+          must focus on the author’s thoughts, not just read the                                                                           •   Do the conclusions follow logically from the obser-
+          words on the paper.                                                 By skimming the paper ﬁrst you can learn what the                 vations?
+                                                                          authors did, and develop a framework to understand               •   What other explanations are there for the observed 
+          Deciding what to read                                           the parts of the paper. Developing a framework adds to                effects?
+                                                                          your general understanding of the ﬁeld, and gives you a          •   What other conclusions or correlations are there in 
+          When you ﬁrst approach a paper, ask yourself “What              basis to understand the paper. If you know what con-                  the data that they did not point out?
+          did the author do?” Reading the title and the abstract          clusions they draw, you can follow their arguments 
+          should tell you this. Then decide if the paper is useful        more easily. Knowing where they are going can help                   By challenging what you read, you will understand 
+          to you now. If so, read it. If not, might the paper be use-     you to follow their path and give you a chance to ﬁnd            better what the author is saying and why they say it. 
+          ful to you later? If so, ﬁle it. If it is not relevant to you,  shortcuts or places where they missed a turn.                    You will also be able to decide whether the evidence 
+          skip it.                                                            Once you have skimmed a paper you have a broad               supports their conclusions, and to draw your own con-
+                                                                          idea of what they did. Then you can decide if you want           clusions from their data. Once you understand the 
+                                                                          to know more. If you are interested in how they did it,          paper, ask yourself how you can apply their approach 
+                                                                          then read the body of the paper for details. If not, ﬁle         to your own work.
+                                                                          away what you have learned and congratulate yourself 
+                                                                          for saving the time of reading the paper in depth.

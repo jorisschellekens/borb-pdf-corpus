@@ -1,0 +1,55 @@
+                  Gorilla: A Fast, Scalable, In-Memory Time Series Database
+                                                    TuomasPelkonen                      Scott Franklin                Justin Teller
+                                   Paul Cavallaro                 Qi Huang               Justin Meza                Kaushik Veeraraghavan
+                                                                                     Facebook, Inc.
+                                                                                    Menlo Park, CA
+                 ABSTRACT                                                                            FB Servers 
+                 Large-scale internet services aim to remain highly available                          Web Tier 
+                 and responsive in the presence of unexpected failures. Pro-
+                 viding this service often requires monitoring and analyzing
+                 tens of millions of measurements per second across a large
+                 number of systems, and one particularly eﬀective solution                                                                                  Long term 
+                 is to store and query such measurements in a time series                                                          Gorilla                    storage 
+                 database (TSDB).                                                                                                                             (HBase)
+                    A key challenge in the design of TSDBs is how to strike                            Back-end 
+                 the right balance between eﬃciency, scalability, and relia-                            Services 
+                 bility.  In this paper we introduce Gorilla, Facebook’s in-
+                 memory TSDB. Our insight is that users of monitoring sys-
+                 tems do not place much emphasis on individual data points
+                 but rather on aggregate analysis, and recent data points are                                                                    Ad-hoc visualizations and 
+                 of much higher value than older points to quickly detect and                                    Alarms and                              dashboards
+                 diagnose the root cause of an ongoing problem. Gorilla op-                                       automatic 
+                 timizes for remaining highly available for writes and reads,                                    remediation
+                 even in the face of failures, at the expense of possibly drop-
+                 ping small amounts of data on the write path. To improve                                                    Time Series 
+                 query eﬃciency, we aggressively leverage compression tech-                                                  Correlation
+                 niquessuchasdelta-of-deltatimestampsandXOR’dﬂoating
+                 point values to reduce Gorilla’s storage footprint by 10x.
+                 This allows us to store Gorilla’s data in memory, reduc-                         Figure 1: High level overview of the ODS monitor-
+                 ing query latency by 73x and improving query throughput                          ing and alerting system, showing Gorilla as a write-
+                 by 14x when compared to a traditional database (HBase)-                          through cache of the most recent 26 hours of time
+                 backed time series data. This performance improvement has                        series data.
+                 unlocked new monitoring and debugging tools, such as time
+                 series correlation search and more dense visualization tools.
+                 Gorilla also gracefully handles failures from a single-node to                   ual systems running on many thousands of machines, often
+                 entire regions with little to no operational overhead.                           across multiple geo-replicated datacenters.
+                                                                                                     An important requirement to operating these large scale
+                 1.     INTRODUCTION                                                              services is to accurately monitor the health and performance
+                                                                                                  of the underlying system and quickly identify and diagnose
+                    Large-scale internet services aim to remain highly-available                  problemsastheyarise. Facebookusesatimeseriesdatabase
+                 and responsive for their users even in the presence of unex-                     (TSDB)tostoresystemmeasuringdatapoints and provides
+                 pected failures. As these services have grown to support                         quick query functionalities on top. We next specify some of
+                 a global audience, they have scaled beyond a few systems                         the constraints that we need to satisy for monitoring and
+                 running on hundreds of machines to thousands of individ-                         operating Facebook and then describe Gorilla, our new in-
+                                                                                                  memory TSDB that can store tens of millions of datapoints
+                 This work is licensed under the Creative Commons Attribution-                    (e.g., CPU load, error rate, latency etc.) every second and
+                 NonCommercial-NoDerivs3.0UnportedLicense. Toviewacopyofthisli-                   respond queries over this data within milliseconds.
+                 cense, visit http://creativecommons.org/licenses/by-nc-nd/3.0/. Obtain per-         Writesdominate. OurprimaryrequirementforaTSDB
+                 mission prior to any use beyond those covered by the license. Contact            is that it should always be available to take writes.                  As
+                 copyright holder by emailing info@vldb.org. Articles from this volume            we have hundreds of systems exposing multiple data items,
+                 were invited to present their results at the 41st International Conference on    the write rate might easily exceed tens of millions of data
+                 Very Large Data Bases, August 31st - September 4th 2015, Kohala Coast,           points each second. In constrast, the read rate is usually
+                 Hawaii.                                                                          a couple orders of magnitude lower as it is primarily from
+                 Proceedings of the VLDB Endowment, Vol. 8, No. 12
+                 Copyright 2015 VLDB Endowment 2150-8097/15/08.                                   automated systems watching ’important’ time series, data
+                                                                                            1816

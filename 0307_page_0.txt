@@ -1,0 +1,47 @@
+                                                     PyramidSceneParsingNetwork
+                                                1                    2                    1                        1               1
+                         Hengshuang Zhao             Jianping Shi         Xiaojuan Qi          Xiaogang Wang            Jiaya Jia
+                                   1The Chinese University of Hong Kong                 2SenseTime Group Limited
+                 {hszhao, xjqi, leojia}@cse.cuhk.edu.hk, xgwang@ee.cuhk.edu.hk, shijianping@sensetime.com
+                                       Abstract
+                 Scene parsing is challenging for unrestricted open vo-
+              cabulary and diverse scenes. In this paper, we exploit the
+              capability of global context information by different-region-
+              based context aggregation through our pyramid pooling
+              module together with the proposed pyramid scene parsing
+              network (PSPNet). Our global prior representation is ef-
+              fective to produce good quality results on the scene parsing
+              task, whilePSPNetprovidesasuperiorframeworkforpixel-
+              level prediction. The proposed approach achieves state-of-
+              the-art performanceonvariousdatasets. ItcameﬁrstinIm-
+              ageNet scene parsing challenge 2016, PASCAL VOC 2012
+              benchmark and Cityscapes benchmark. A single PSPNet
+              yields the new record of mIoU accuracy 85.4% on PASCAL
+              VOC2012andaccuracy80.2%onCityscapes.
+                                                                                  Figure 1. Illustration of complex scenes in ADE20K dataset.
+              1. Introduction
+                 Sceneparsing, basedonsemanticsegmentation,isafun-                lenges considering diverse scenes and unrestricted vocabu-
+              damental topic in computer vision. The goal is to assign            lary. One example is shown in the ﬁrst row of Fig. 2, where
+              each pixel in the image a category label. Scene parsing pro-        a boat is mistaken as a car. These errors are due to similar
+              vides complete understanding of the scene. It predicts the          appearance of objects. But when viewing the image regard-
+              label, location, as well as shape for each element. This topic      ingthecontextpriorthatthesceneisdescribedasboathouse
+              is of broad interest for potential applications of automatic        near a river, correct prediction should be yielded.
+              driving, robot sensing, to name a few.                                 Towardsaccuratesceneperception,theknowledgegraph
+                 Difﬁculty of scene parsing is closely related to scene and       relies on prior information of scene context.      We found
+              label variety. The pioneer scene parsing task [23] is to clas-      that the major issue for current FCN based models is lack
+              sify 33 scenes for 2,688 images on LMO dataset [22]. More           of suitable strategy to utilize global scene category clues.
+              recent PASCALVOCsemanticsegmentationandPASCAL                       For typical complex scene understanding, previously to get
+                                                                                  a global image-level feature, spatial pyramid pooling [
+              context datasets [8, 29] include more labels with similar                                                                     18]
+              context, such as chair and sofa, horse and cow, etc. The            waswidelyemployedwherespatialstatisticsprovideagood
+              newADE20Kdataset[43]isthemostchallengingonewith                     descriptor for overall scene interpretation. Spatial pyramid
+              a large and unrestricted open vocabulary and more scene             pooling network [12] further enhances the ability.
+              classes. A few representative images are shown in Fig. 1.              Different from these methods, to incorporate suitable
+              To develop an effective algorithm for these datasets needs          global features, we propose pyramid scene parsing network
+              to conquer a few difﬁculties.                                       (PSPNet). In addition to traditional dilated FCN [3, 40] for
+                 State-of-the-art scene parsing frameworks are mostly             pixel prediction, we extend the pixel-level feature to the
+              based on the fully convolutional network (FCN) [26]. The            specially designed global pyramid pooling one. The local
+              deep convolutional neural network (CNN) based methods               and global clues together make the ﬁnal prediction more
+              boost dynamic object understanding, and yet still face chal-        reliable.  We also propose an optimization strategy with
+                                                                              1
+                                                                               2881

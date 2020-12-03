@@ -1,0 +1,401 @@
+                  !eviewing Conference Papers
+                                         Mar" Bernstein, Eastgate Systems Inc.
+                                             bernstein@eastgate.com    +1.617.924.9044
+                 In 2008, I was program chair for WikiSym, the ACM         h!ve !n exciting !nd !ttr!ctive progr!m, b"t it is 
+                 Symposium for wikis.  I think I was asked to serve in     m"ch more import!nt, for "s, th!t the rese!rch 
+                 this post because WikiSym is a relatively young           reported here be of the highest quality.
+                 conference and I’ve had a good deal of experience         One clear consequence is that we don’t particularly 
+                                                1
+                 on rel!ted progr!m committees.                            care who wrote a paper or where they work. 
+                 When I chose the WikiSym program committee, I             Some conferences pr!ctice blind r!vi!wing, 
+                 made a special effort to include an exceptional           withholding the n!me of !"thors from reviewers. I 
+                 diversity of professional and scholarly                   ﬁnd this sometimes le!ds to "nprod"ctive 
+                 accomplishment in order to reflect the diverse            spec"l!tion !nd th!t it is helpf"l in some c!ses to 
+                 interests of the Wiki community.  That meant the          know who is writing, in order to "nderst!nd ex!ctly 
+                 Program Committee included a number of business           what they mean to say. 
+                 leaders and professionals who don’t usually 
+                 participate in academic conferences, much less on         DIFFERENCES FROM BOOK AND FILM REVIEWS
+                 program committees.  To help them, and to keep            Newsp!per !nd m!g!zine critics help people spend 
+                 everyone on the same page, I wrote this discussion of     their time eﬃciently, g"iding them tow!rd the most 
+                 reviewing.                                                rew!rding books !nd ﬁlms.  Critics !lso help "s 
+                 In comp"ter science, conferences !re o#en the             "nderst!nd how !rt f"nctions !nd g"ide cre!tors 
+                 prim!ry medi"m of scientiﬁc comm"nic!tion, !nd            toward more useful and effective approaches.  
+                 conference s"bmissions !re reviewed !t le!st !s           But most of all, critics sell papers. 
+                 stringently !s jo"rn!l p!pers.  Despite the               The violence !nd vit"per!tion of newsp!per criticism 
+                 import!nce of the process, not m"ch h!s been              is seldom productive here.
+                 written on the subject.
+                                                                           DIFFERENCES FROM GRADING PAPERS
+                                                                           Conference reviewing has a certain pedagogical 
+                 On the Purpose of                                         flavor. Many contributions are written, in whole or in 
+                                                                           part, by graduate students and postdocs.  Others 
+                 !efereeing                                                come from people new to the field.  Part of the 
+                                                                           reviewer’s role is to identify weaknesses in papers 
+                 The prim!ry d"ty of the progr!m committee is to           that can be remedied through additional research or 
+                 ens"re the integrity !nd the reli!bility of the           better writing, and also to indicate unproductive lines 
+                 rese!rch liter!t"re.  People who !ttend the               of work that are unlikely to yield useful results.
+                 conference, or who cons"lt its Proceedings in the         But the instructor’s first job is to instruct the student.  
+                 f"t"re, m"st be conﬁdent th!t the res"lts reported        The referee’s job is to assemble the best available 
+                 here are honest, accurate, and may be relied upon.        research, to show authors how it might be most 
+                 Note th!t this is q"ite diﬀerent from the d"ty of !       effectually presented, and to help authors of 
+                 commerci!l conference s"ch !s TED or CES, which           unsatisfactory papers to improve them or to 
+                 m"st consider ﬁrst wh!t might best !ttr!ct !nd            understand why their approach needs to change.
+                 entert!in its c"stomers.  We wo"ld very m"ch like to 
+                 1  Not!bly the AC& Hypertext Conference on whose progr!m committee I’ve served some seventeen times (incl"ding two stints !s co-ch!ir
+                                               © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+                 Conflicts of Interest                                    Obligations of a 
+                 Bec!"se !ccept!nce or rejection of p!pers                !eviewer
+                 sometimes h!s signiﬁc!nt person!l or profession!l 
+                 conseq"ences, it is import!nt th!t reviewers !void       SYMPATHY
+                 conflict of interest.                                    Do yo"r best to re!d p!pers with c!re !nd symp!thy. 
+                 WHAT IS A CONFLICT?                                      This is e!sy to do when the p!per is good, b"t is still 
+                 Yo" h!ve ! con'ict of interest if !n !"thor of ! p!per   desirable even when the paper is not.
+                 assigned to you is:                                      Many hours of work — in some cases, years of work — 
+                 • !n employee of yo"r instit"tion or comp!ny             have gone into research and writing this paper.  If the 
+                   (incl"ding s"bsidi!ries !nd other f!c"lties), or !     paper is very bad indeed, this committee may be its 
+                   business partner                                       only audience.  Do your best to approach it with a 
+                 • ! coll!bor!tor or co-!"thor of ! book, ch!pter, or     broad interest and generous spirit.  
+                   article within the past five years                     This does not !rg"e for lenience or l!xity, !nd 
+                 • ! former doctor!l st"dent, s"pervisor, or direct       cert!inly we c!nnot !ccept b!d p!pers or enco"r!ge 
+                   report                                                 defective research. 
+                 • engaged in a professional rivalry or feud with you     A"thors !re most !pt to listen to yo"r reviews when 
+                                                                          they're tho"ghtf"l !nd constr"ctive r!ther th!n 
+                 • has close personal or family ties with you             caustic and dismissive.
+                 Sho"ld yo" ﬁnd yo"rself h!ving ! con'ict of interest     WHEN AN UNSYMPATHETIC COMMENT IS 
+                 on ! p!per to which yo" h!ve been !ssigned, simply       APPROPRIATE
+                 let me know.  We h!ve ! l!rge !nd c!p!ble                While cr"shing wit !nd spect!c"l!r den"nci!tion !re 
+                 committee, !nd I sho"ld h!ve no tro"ble loc!ting !n      ! st!ple of the press critic, they !re "s"!lly "nhelpf"l 
+                 alternate reviewer.                                      in conference reviewing.  An exception might be 
+                 Some contrib"tions will be s"bmitted by members of       m!de, tho"gh, when the reviewer  is cert!in th!t the 
+                 the progr!m committee.  The committee sho"ld t!ke        !"thor is consist!ntl" eng!ged in !n erroneo"s 
+                 c!re to ens"re th!t these p!pers !re neither f!vored     co"rse, of which the p!per "nder review is merely the 
+                 nor disadvantaged by this circumstance.                  l!test ex!mple. Where ! mild correction might be too 
+                                                                          e!sily dismissed, emph!sis m!y !ttr!ct !ttention or 
+                 RETURN PAPERS YOU FEEL UNABLE TO READ WITH               provoke second thoughts.
+                 INTELLIGENCE AND SYMPATHY                                It is usually better to attempt this correction through 
+                 In assigning reviews, I’ll do my best to take into       private correspondence or, occasionally, through 
+                 account what I know of your interests and your           public discussion — such as a conference panel or a 
+                 background.  If I have erred, and you find yourself      Q&A session.  But the anonymity of conference 
+                 assigned to review a paper that you really cannot        reviewing is, at times, an important safeguard of the 
+                 read, please let me know and I’ll arrange for a          literature.
+                 different reader.
+                 Occ!sion!lly, tho"gh, I m!y be seeking yo"r opinion      ANONYMITY
+                 speciﬁc!lly bec!"se ! p!per is not precisely "p yo"r     Referee reports !re !nonymo"s, !nd in writing them 
+                 alley.                                                   it is best to be co"rteo"s b"t fr!nk, c!ndid !nd 
+                                                                          direct.  Reviews !re sent to the prim!ry !"thor of 
+                                                                          e!ch p!per, b"t the identity of the reviewer is not 
+                                                                          disclosed to authors.
+                                                                          A few !c!demic reviewers prefer to sign their 
+                                                                          reviews; if yo" wish to do so, ple!se incl"de ! 
+                                                                          signature in the body of the review.
+                                              © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+                      In pr!ctice, the !nonymity of reviews sho"ld not be                         SCORES: THEIR LIMITATIONS
+                      too he!vily relied "pon. Altho"gh we t!ke c!re to                           Some conferences pl!ce consider!ble weight on 
+                      !void !ccident!l disclos"re, mist!kes do h!ppen.                            n"meric!l scores !nd r!ting. We won't do this; I ﬁnd it 
+                      &ore tellingly, !"thors m!y o#en be !ble to discern                         leads to excessive emphasis on small differences.
+                      the identity of their reviewers thro"gh their interests,                    But some ratings have a specific meaning. 
+                      concerns, and styles.
+                                                                                                  The top r!ting is intended for very ﬁne p!pers -- 
+                      COMMENTS TO THE COMMITTEE                                                   p!pers th!t !re !mong the best p!pers p"blished in 
+                      Occ!sion!lly, yo" m!y h!ve pertinent comments to                            the ﬁeld, or th!t cont!in res"lts th!t dem!nd 
+                      m!ke to the committee which yo" do not wish to be                           immediate publication.  
+                      bro"ght to the !ttention of the !"thors.  A sep!r!te                        The lowest r!ting is me!nt for p!pers th!t !re 
+                      section of the review form is provided for this                             !ctively pernicio"s. This wo"ld incl"de those th!t !re 
+                      purpose.                                                                    deceptive, d"plicito"s, pl!gi!rized, or fr!"d"lent. It 
+                      In gener!l, it is better to conﬁne yo"r comments to                         would also include papers that are simply wrong.
+                      those th!t c!n !ssist the !"thors in improving their                        In former times (and still in a few conferences today), 
+                      work.  Some "sef"l comments to the committee                                acceptance was contingent upon public endorsement 
+                      might be:                                                                   of the work by a member of the committee. Imagine, 
+                      I assume that equation 7, as derived in section 3.6, is correct.            if you would that you would be expected to stand at 
+                      To be honest, I don’t understand it, and I’d be more                        the side of the stage while the paper was presented. 
+                      comfortable, before the paper is accepted, if someone who                   You would rate a paper a "A" if you would be 
+                      remembers tensor analysis could check it.                                   extremely proud to be associated, even in this small 
+                                                                                                  way, with the first presentation of this work; a ”D" 
+                      I found the paper unobjectionable but extremely dull; accepting             would mean that you'd blush to have your friends a 
+                      it will cause no harm, but rejecting it would not cause much                colleagues blame you for having to sit through this.
+                      harm, either.                                                               Two additional marks are available to you to qualify 
+                                                                                                  your scores.  An “X” represents exceptional 
+                      It might not be clear !om the paper, which s"ms to have b"n                 confidence in your judgment, because the paper 
+                      adapted !om some sort of proposal, that the system h# actually              directly addresses topics of which you are particularly 
+                      b"n implemented.  I have s"n it, and it $ actually quite                    knowledgeable.  A “Z” indicates that you mistrust 
+                      prom$ing; if the paper cannot be salvaged, a demonstration                  your judgment in some degree, because aspects of 
+                      would be very rewarding.                                                    the work lie outside the realms in which you feel 
+                                                                                                  confident.
+                      CONFIDENTIALITY                                                             AX: A remarkable result! One of my top students tried and 
+                      P!pers s"bmitted to the conference !re conﬁdenti!l                          failed to achieve th$ synthes$, and the route adopted here $ 
+                      until they are published.                                                   remarkably clever.
+                      Do not "se res"lts reported in these p!pers in yo"r 
+                      work "ntil the p!per is p"blished, or comes to yo"r                         AZ: The pattern language proposed in the conclusion will be 
+                      attention in some other way.                                                influential and widely adopted; I have already begun to 
+                                                                                                  reconsider our firm’s management practice.  I admit, though, 
+                                                                                                  that I cannot follow the mathematics of Section 3.5 and hope 
+                      !ating Papers                                                               that another reader will check this section with care.
+                                                                                                  DX: Prior to [Clump 96], it w# widely thought that wodgets 
+                      For e!ch p!per, ple!se provide ! ! r!ting !nd !                             would deteriorate in the ﬁeld.  &at there $ no evidence for 
+                      re!son!bly complete comment.  The comment is f!r                            wodget deterioration $ now clear [Dogget 99] [ Egret 01], but 
+                      more import!nt th!n the r!ting, b"t choosing the                            we continue to s" it used # a motivation (# here) and in grant 
+                      !ppropri!te r!ting will signiﬁc!ntly !ssist the                             applications. 
+                      committee.
+                                                             © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+                                                                                            contrib"tion, while !nother !ss"med th!t the theory 
+                     Please note that “X” and “Z” do not relate to your                     w!s well "nderstood b"t fo"nd the implement!tion 
+                     seniority, rank, or experience at large, but only to                   and analysis especially useful. 
+                     your relationship with the specific topic of the paper.                Second, on rare occasions a review might be misfiled.  
+                     A very junior graduate student might reasonably be                     Having a brief summary helps assure us that we’re all 
+                     expected to review work on the topic of her thesis                     talking about the same work.
+                     with an “X”, while Turing Prize winners might                          Third, ! s"mm!ry not only helps the committee 
+                     frequently find themselves using the “Z”.                              d"ring the meeting; it !lso convinces the !"thors 
+                                                                                            th!t yo" h!ve re!d the p!per with some c!re !nd 
+                                                                                            symp!thy.  Angry !"thors m!y be inclined to dismiss 
+                     The Narrative Is                                                       yo"r critiq"e !s incompetent or !bs"rd; ! j"dicio"s 
+                                                                                            s"mm!ry m!y help convince them to weight yo"r 
+                     What Matters                                                           arguments thoughtfully.
+                     As a practical matter, the written review is far more 
+                     influential than the rating.  Try to ensure that the                   Major Issues
+                     narrative is consistent with the rating, and that both 
+                     accurately reflect your opinions.  Occasionally, traces                The review comment then moves to disc"ss !ny 
+                     of indecision or waffling make the committee’s work                    m!jor iss"es th!t !rise in re!ding the p!per. 
+                     exceptionally difficult, as people try to sort out the                 Remember th!t m!jor iss"es need not be 
+                     hidden meaning of comments.                                            disq"!lifying; o#en, they m!y be re!dily corrected. 
+                     A: What did Prof. Clump say?                                           But major issues must be considered and addressed.
+                     B: Clump gave the paper a provisional accept.  But look: almost        A very "sef"l distinction m!y be dr!wn between 
+                     all her comments are negative.  Missing references,                    p!pers th!t !re !ctively pernicio!s, !nd those th!t 
+                     methodological problems, an objection to the survey technique.         are simply not particularly good.  
+                     C: Well, Clump always is a stickler for technique.
+                     A: But it doesn’t sound like Clump liked much of anything              BLUNDERS AND ERRORS OF FACT
+                     about the paper.   And Dexter just said “reject: unimaginative         If someone relied on these res"lts to b"ild ! bridge, 
+                     and dull”                                                              might it collapse?  
+                     B: Which tells us nothing
+                     A: Oh, dear.                                                           You d$cuss the behavior of meadowlar' which were observed 
+                     When your reaction to a paper is mixed, it is best to                  in Colorado, Wyoming,  and in South Dakota. &e Dakotan 
+                                                                                            birds, however, might well be E#tern Meadowlark (sturnella 
+                     explain both the perceived strengths and weaknesses                    magna), while the other observations were doubtless Western 
+                     — even though these might be so apparent to you as                     Meadowlark (sturnella neglecta).  &ough v$ually very 
+                     to need no mention.                                                    similar, these are two distinct species. 
+                                                                                            ERRORS OF METHODOLOGY
+                     Start with a Summary                                                   Ple!se be !lert for methodologic!l errors, 
+                                                                                            p!rtic"l!rly those th!t co"ld le!d to misle!ding 
+                     The ﬁrst sentence or two of yo"r comments sho"ld                       interpretation of the results.
+                     summarize the key point or argument of the paper.                      You report that your students enjoyed using your system.  Might 
+                     The s"mm!ry, which might seem ! tedio"s chore,                         they have wanted to ple#e you? Might th$ be a Hawthorne 
+                     serves two import!nt roles.  First, s"mm!ries o#en                     eﬀect, a response to a welcome change of pace? Might they have 
+                     help expl!in divergent opinions.  Perh!ps one re!der                   chosen to study with you because you are the sort of person who 
+                     s!w the p!per !s ! theoretic!l st"dy with ! proof-of-                  would create a system they would enjoy? Perhaps a study of a 
+                     concept implement!tion which m!de only ! minor                         different population would yield new information.
+                                                         © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+                      ERRORS OF INTERPRETATION                                               ORIGINALITY
+                      One of the most valuable services that referees can                    WikiSym is ! rese!rch conference; !ll p!pers !nd 
+                      provide is simply to imagine fresh interpretations of                  short papers must report new and original ideas. 
+                      results — and to propose ways to distinguish the                       Note th!t ! thoro"gh review of previo"s work m!kes 
+                      alternative interpretations.                                           !n import!nt !nd origin!l contrib"tion when it 
+                      Your results are convincing and probably correct, but it s"ms to       incre!ses o"r "nderst!nding of known res"lts, or 
+                      me just possible that, in the ﬁnal insertion step, the molecule        expresses rel!tionships th!t h!ve not been properly 
+                      might also insert backward, forming a ﬁve-member ring with a           understood or correctly interpreted.
+                      Co-NH) bond instead of a six-member ring with *o Co-O=C                FAILURE TO POSITION THE WORK WITH RESPECT TO 
+                      bonds.  &$ might explain remarkable color of the product; 
+                      further spectroscopy should prove conclusive.                          OTHER RESEARCH
+                                                                                             In disc"ssing origin!l rese!rch, the !"thor sho"ld 
+                      MULTIPLE SUBMISSIONS AND PREVIOUSLY                                    indic!te wh!t other work is pertinent !nd expl!in how 
+                      PUBLISHED WORK                                                         the new work relates to it.
+                      Ple!se let "s know if yo" believe th!t ! work h!s                      A common misconception holds th!t the !"thor 
+                      been s"bmitted to !nother conference, or if it h!s                     sho"ld !rg"e for the origin!lity of her work by 
+                      been previo"sly p"blished in s"bst!nti!lly the s!me                    system!tic!lly en"mer!ting its diﬀerences from wh!t 
+                      form.                                                                  h!s been done before.  This is occ!sion!lly helpf"l.  
+                                                                                             B"t diﬀerences !re "s"!lly e!sy to ﬁnd in comp"ter 
+                      FAILURE TO EVALUATE OR REFLECT UPON A SYSTEM                           science !nd so#w!re engineering; more v!l"e c!n 
+                      OR FEATURE'S ACTUAL PERFORMANCE                                        o#en be fo"nd by identifying !n!logo"s !nd rel!ted 
+                      H!ving b"ilt ! new wiki or ! new wiki fe!t"re, it is                   work, th!n by c!t!loging every w!y in which p!st 
+                      n!t"r!l to think well of it.  B"t rese!rch req"ires                    work differs.
+                      something more th!n simply designing or b"ilding !                     Failure to cite related work may anger you, especially 
+                      new system; we seek knowl!dg! and #nd!rstanding,                       if it's your work that is slighted.  Remember that 
+                      not simply a new product.                                              citations may be added relatively easily. In 
+                      One n!t"r!l !ppro!ch to !ddressing this q"estion is                    multidisciplinary areas, it can be difficult for authors 
+                      empiric!l ev!l"!tion: let some n"mber of people "se                    to cover all of the ground, and even expert authors 
+                      the system !nd ev!l"!te how eﬀective the system is                     may overlook an essential reference. Consider how 
+                      observed to be.                                                        you would have regarded the paper if the 
+                      B"t this is not the only w!y to ex!mine ! system.  We                  appropriate citation had been added and suggest to 
+                      m!y, for ex!mple, le!rn from the choices people m!ke                   the authors what they might cite: it may help them a 
+                      in the co"rse of "sing ! system.  We c!n sometimes                     great deal. Citations are seldom omitted out of 
+                      le!rn ! gre!t de!l by st"dying whether people                          malice.
+                      choose to "se ! system !t !ll, in the context of !                     WILL WIKI FOLK FIND THE PAPER INTERESTING? 
+                      m"se"m inst!ll!tion or other p"blic f!cility.  In some                 DOES THE PAPER BELONG AT ANOTHER 
+                      c!ses, critic!l re'ection !nd !necdot!l experience                     CONFERENCE
+                      may  prove invaluable.                                                 The WikiSym !"dience h!s bro!d interests, !nd few 
+                      Many authors believe wrongly that the point of                         p!pers s"bmitted to WikiSym !re likely to be 
+                      evaluation is to prove their system’s strengths.                       completely irrelev!nt.  In some c!ses, tho"gh, ! very 
+                      Understanding the shortcomings and weaknesses of                       n!rrow might ﬁnd ! better !nd more receptive 
+                      a new system is often of far greater value. Showing                    audience at a more specialized conference.
+                      authors how to identify and discuss these                              In reviewing wiki p!pers, ple!se t!ke ! bro!d view of 
+                      weaknesses provides very valuable service to the                       the deﬁnition of wikis.  We do not wish to limit 
+                      literature.                                                            ourselves to be the CamelCaseConference.
+                                                                                             OPACITY
+                                                                                             Opacity might arise from several sources:
+                                                          © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+                     problems with English as a second language                  e!sy to ﬁnd f!"lt, since pr!ctitioner reports !lmost 
+                   •
+                   • mathematical or notational sophistication                   necess!rily report on ! speciﬁc experience in speciﬁc 
+                                                                                 !nd idiosyncr!tic circ"mst!nces. It is desir!ble for 
+                   • dependence on unfamiliar theory or terminology              !"thors of experience p!pers to identify these 
+                   Avoid pl!cing too m"ch weight on op!city; wh!t is             idiosyncr!sies, b"t it is the very speciﬁcity of !ct"!l 
+                   op!q"e to yo" might be !ccessible to other p!rts of           experience th!t gives these p!pers their speci!l 
+                   the comm"nity, !nd there m!y be no !ltern!tive w!y            value.
+                   to reach an important and useful result.                      It is prefer!ble to improve the schol!rship of 
+                   B"t "nnecess!ry op!city, extr!neo"s j!rgon, or                experience p!pers, even !t the cost of some eﬀort 
+                   incomprehensible English m!y render ! p!per "seless           !nd fr!yed p!tience, r!ther th!n to reject them o"t of 
+                   or "nre!d. While it is !lmost !lw!ys prefer!ble to            hand. 
+                   tre!t these deﬁciencies in det!il !s minor iss"es, !nd 
+                   to !llow the Committee to j"dge whether their 
+                   n"mber precl"des s"ccessf"l revision, overwhelming            Be !esolute
+                   op!city m!y occ!sion!lly represent ! rese!rch '!w 
+                   that demands remedy.
+                                                                                 In reviewing ! p!per, strive when possible to !rrive 
+                   FRAUD                                                         !t ! cle!r !nd forthright opinion.  Does the p!per 
+                   Outright fraud — false or irreproducible results,             m!ke ! "sef"l contrib"tion?  Does it cont!in inherent 
+                   plagiarism, and other unethical practice — is seldom a        '!ws !nd errors?  C!n its shortcomings be removed, 
+                   concern for referees.  Over the years, I have                 remedied or repaired?
+                   participated in program committees that have                  In the end, j"dge the p!per !s it st!nds. Some 
+                   reviewed thousands of papers; in that time, I believe I       !"thors m!ke no ch!nges once ! p!per is !ccepted, 
+                   have encountered one (marginally) fraudulent result           no m!tter how thoro"gh !nd helpf"l the reviews m!y 
+                   and two situations where plagiarism might have been           be. When yo" m!ke !n !ccept/reject decision, 
+                   alleged. Reviewers are defenders of the literature,           consider how yo" wo"ld feel if the p!per were 
+                   but in this area we are seldom called upon.                   published in its current state.
+                                                                                 Most papers you review will be published 
+                                                                                 somewhere, even if they are rejected here. An 
+                   !eview Articles and                                           effective and convincing review improves the health 
+                                                                                 of the research community. Rejecting a pernicious  
+                   Pra#itioner !eports                                           paper may simply send it elsewhere; showing the 
+                                                                                 authors how to correct it and convincing them to do 
+                   The s!me st!nd!rds of correctness, origin!lity,               so is much to be preferred.
+                   schol!rship !nd cl!rity th!t !pply to rese!rch p!pers         Don't spend too m"ch time deno"ncing ! p!per with 
+                   sho"ld !lso be !pplied to review !rticles !nd                 which yo" simply dis!gree (b"t c!nnot show to be 
+                   pr!ctitioner reports, b"t re!ders m"st bring                  wrong). Focus on the paper's correctible flaws.
+                   intelligence !nd j"dgment to be!r on the q"estion !s          Don’t spend too much time in finding small flaws in a 
+                   well.                                                         paper that suffers from such severe errors that it has 
+                   A review or s"rvey of ! complex or poorly                     no realistic chance for acceptance.  
+                   "nderstood province of the ﬁeld h!s consider!ble              Do not be !fr!id to s!y th!t yo" don't "nderst!nd the 
+                   v!l"e, b"t its origin!lity lies in interpret!tion !nd         m!th or the theory "nderlying ! p!per yo"'re 
+                   synthesis rather than the presentation of new data.           reviewing. Yo" will do the comm"nity ! disservice if 
+                   Reports of !pplic!tions of systems !nd techniq"es in          yo" !w!rd ! high r!ting (or ! low one) to conce!l 
+                   pr!ctice c!n provide inv!l"!ble inform!tion to                yo"r l!ck of f!mili!rity with !n !re!. The ﬁeld c!n be 
+                   designers !nd c!n (indeed sho"ld) inform rese!rch             m!de to look foolish if one of its members m!kes 
+                   !nd engineering.  It is, "nfort"n!tely, !lmost !lw!ys         incorrect "se of sophistic!ted m!them!tic!l or 
+                                                   © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+                   physic!l concepts. Remember, extern!l experts c!n             CONCISION
+                   always be consulted.                                          On occ!sion, rese!rch p!pers !re simply too long.  
+                   When possible, be cle!r !nd forthright in                     This most o#en occ"rs when the !"thor is not 
+                   ch!mpioning good p!pers (while pointing o"t their             entirely cert!in wh!t is new !nd interesting in their 
+                   correct!ble we!knesses) !nd in deploring b!d ones             work, or where they !re "nf!mili!r with the WikiSym 
+                   (while t!king c!re to indic!te wh!t strengths might           !"dience.  On occ!sion, too, !n intr!ct!ble m!jor 
+                   be fo"nd therein !nd how they might be shown to               problem m!y be sidestepped by dr!stic!lly 
+                   !dv!nt!ge).  Avoid the tempt!tion to give !ll p!pers          shortening ! p!per, permitting !n !"thor to present ! 
+                   middling scores in the n!me of modesty or                     "sef"l res"lt this ye!r while p"rs"ing f"rther 
+                   moderations.                                                  investig!tions of ! contentio"s point or resolving ! 
+                                                                                 methodologic!l problem.  In this w!y, the ﬁeld g!ins 
+                   Do not be distr!cted or distressed if !ll yo"r                two "sef"l p"blic!tions, where ! direct confront!tion 
+                   !ssigned p!pers t"rn o"t to be good, or !ll prove             might le!d the !"thor to !b!ndon the work or simply 
+                   b!d.  Yo"r !ssignment represents ! sm!ll s!mple of !          to publish it in a less discriminating venue.
+                   l!rge pool, !nd there is no re!son to think it ! 
+                   representative or random sample.                              Your d$cussion of ruby syntax (section 2) $ not n"ded at 
+                                                                                 WikiSym and can be replaced with a reference to a good 
+                                                                                 manual. Section 5.1, which justiﬁed markup languages, will 
+                                                                                 also be familiar to th$ audience.  &e space thus saved might 
+                   On Minor Issues                                               be devoted to a fuller description of the novel interface 
+                                                                                 animation (or to enlarging Figure 3!)
+                   In yo"r re!ding, yo" will do"btless observe m!ny 
+                   points which co"ld, or sho"ld, be improved.  These            USEFUL PRIOR WORK
+                   !re minor iss"es; their presence does not viti!te the         No one c!n cl!im ! tr"ly comprehensive f!mili!rity 
+                   work, but renders it less accessible or less useful.          with !ll the liter!t"re th!t might prove "sef"l or 
+                   Ple!se note these minor iss"es !s yo" see them. In            import!nt to ! wiki p!per.  An !"thor might need, for 
+                   my own reports, I prefer to disc"ss these in !                ex!mple, to to"ch "pon iss"es in so#w!re 
+                   sep!r!te section. This sep!r!tion helps the                   engineering, gr!phic design, liter!ry theory, !nd 
+                   Committee, !nd it !lso helps !"thors improve their            gr!ph theory. &ost re!ders will not be intim!tely 
+                   work.  &y referee reports o#en cont!in f!r more               familiar with all these disciplines.
+                   discussion of Minor Issues than anything else.                Citations provide credit to colleagues, starting points 
+                   Don’t try to rewrite or line-edit the paper.                  to students, and landmarks to scholars. To the expert 
+                                                                                 reader, citation can provide exceptionally succinct 
+                   It is o#en "sef"l to indic!te ! gener!l r"le with which       information about the author’s orientation and intent.  
+                   the !"thor might be "nf!mili!r, or m!y h!ve come to           Citation is especially useful in computer science, a 
+                   neglect.  It is f!ster for yo", !nd more helpf"l to the       young discipline where novelty is cheap: though not 
+                   ind"strio"s !"thor, to point o"t th!t the p!per               all writers understand this, it can be more valuable to 
+                   h!bit"!lly splits inﬁnitives or omits necess!ry comm!s        draw an inexact analogy with well-known prior work 
+                   than to enumerate each individual error.                      than it is to claim a grand new framework.
+                   STYLE &  LANGUAGE                                             It m!y o#en be "sef"l to bring speciﬁc references to 
+                   Rese!rch is ever more intern!tion!l in scope, !nd             ! writer's !ttention. It is "sef"l here to indic!te 
+                   WikiSym dr!ws interest from ! v!st r!nge of                   whether yo" believe ! reference to be essenti!l, !nd 
+                   disciplines. Re!d with symp!thy !nd toler!nce,                why you find it so.
+                   seeking to help e!ch !"thor to correct errors !nd to          Resist the tempt!tion to insist th!t yo"r own work be 
+                   express themselves cle!rly within the style of their          cited, b"t do bring yo"r directly-relev!nt rese!rch to 
+                   discipline, !nd m!king !llow!nce for diﬀerences in            the writer's !ttention if it !ppe!rs they h!ve 
+                   discipline !nd in their f!mili!rity with the English          overlooked m!teri!l th!t wo"ld improve the p!per, or 
+                   language.                                                     if !ddition!l cit!tions wo"ld help cl!rify their 
+                                                                                 meaning.
+                                                   © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+                  Eﬀe#ive !eviews                                            reviewers clearly disagree, we’ll often ask the 
+                                                                             reviewers to read each other’s comments, and then to 
+                  A"thors !re most !pt to listen to yo"r reviews when        revise or extend their remarks. We might seek more 
+                  they're tho"ghtf"l !nd constr"ctive r!ther th!n            readers, or solicit the opinion of experts outside the 
+                  c!"stic !nd dismissive. Repress yo"r s!v!gery if yo"       committee.  The hope, here, is to find a consensus on 
+                  c!n be!r to. If yo" c!n, s!y something positive before     nearly every paper, and to obtain sufficient 
+                  yo" l!"nch into the critic!l portion of yo"r review;       information on those papers for which a consensus 
+                  !"thors tend to p!y more !ttention to the review !s !      cannot be obtained.
+                  whole if there's something positive in it.                 On Saturday, June 28, some of us will meet in Porto 
+                  Yo"r review presents yo"r thinking both to the             to make final decisions on these papers. At the 
+                  progr!m committee (not !ll of whom m!y know yo"            program committee meeting, each paper will again 
+                  well) !nd to the !"thors.  As the !"thors will not         be examined — including papers that seems to have a 
+                  know yo" !t !ll, !nd !s they m!y well ﬁnd !ny              consensus.
+                  criticism yo" oﬀer "nwelcome, the ch!r!cter yo"            For the good p!pers, we !sk: !re there hidden '!ws 
+                  present in yo"r review will exert ! gre!t in'"ence on      that readers have overlooked?
+                  its reception.  Insincere pr!ise !nd f!lse c!m!r!derie     For the b!d p!pers, we !sk: is there some desir!ble 
+                  !re seldom eﬀective, b"t t!king c!re to est!blish          kernel th!t might be s!lv!ged for this conference by 
+                  yo"r knowledge, j"dgment, !nd good-will m!y m!ke           rec!sting or !bbrevi!ting the p!per?  C!n the work 
+                  unwelcome advice more palatable.                           be revised or redirected to become ! strong p!per 
+                                                                             next year?
+                                                                             For contentio"s p!pers, we !sk: is the so"rce of 
+                  A S%liﬆic Detail                                           dis!greement c!p!ble of resol"tion?  If one reviewer 
+                                                                             h!s identiﬁed ! cle!r m!them!tic!l or ideologic!l 
+                  The word “wiki” is capitalized when it refers to the       error th!t others overlooked, the m!tter is e!sily 
+                  original Wiki, the wiki first implemented by Ward          settled.  At times, tho"gh, the contention lies in more 
+                  Cunningham (http://c2.com) and its various sections        !mbig"o"s gro"nds; in this c!se, we !sk: (1) is there 
+                  and annexes, such as the Portland Pattern Repository.      !ny strong re!son for !ccepting th!t p!per?  Does it 
+                  It is also capitalized, of course, when it is part of a    h!ve !ny ch!mpions? !nd (2) is there !ny re!son to 
+                  proper noun (The Wikimedia Foundation, WikiSym,            think the paper actively pernicious or harmful?
+                  The International Wiki Conspiracy).  When referring        Any statement  of fact in a publ$hed paper might lead a 
+                  in general to lightweight and open collaborative           graduate student, especially one working in an $olated 
+                  systems, “wiki” is not capitalized.                        environment, to spend several years of work pursuing a project 
+                  The word “Web” is capitalized when it refers to the        that takes that fact # given. A special concern, then, $ to 
+                  World Wide Web.                                            address #sumptions that once were widely believed but which 
+                                                                             the ﬁeld now holds in doubt.  Do not overlook out-of-date 
+                  “Hypertext” is not a proper noun. A hypertext has          homilies simply because they once were accepted wisdom. 
+                  links; “hyperlink” is not a word.
+                                                                             At that point, we’ll select a program and pass your 
+                                                                             reports to the authors of both successful and 
+                                                                             unsuccessful submissions.  Remember that the 
+                  Deliberations                                              contents of papers remain confidential until 
+                                                                             publication, and committee deliberations remain 
+                  Every paper will be read by at least three reviewers.      confidential indefinitely.
+                  Please do your best to submit your reviews on time — 
+                  or even a bit early if you can! 
+                  Once the reviews are in, we’ll examine with particular 
+                  care those papers on which readers disagreed.  If 
+                                                © Copyright 2008 by Mark Bernstein. All Rights Reserved.
+           Than"s!
+           Th!nk yo" once more for "ndert!king this work, !nd 
+           th!nk yo" for yo"r p!tience with this long !nd 
+           ped!ntic doc"ment.  This topic is not m"ch disc"ssed 
+           !nd the review process seldom described, !nd I 
+           tho"ght it best to set this down explicitly, !lbeit !t 
+           tedious length.
+           If yo" h!ve corrections or !dditions to these notes, I 
+           would appreciate learning of them.
+           Th!nks, too, to Dr. C!therine C. &!rsh!ll !nd Prof. 
+           Adem!r Ag"i!r who re!d dr!#s of this p!per !nd 
+           oﬀered m!ny helpf"l s"ggestion.  The rem!ining 
+           errors are, of course, my own.
+           !eferences
+           Alan J. Smith, “The Task of the Referee”, IEEE Computer 23(4), 1990, 65-71. 
+           http://www.computer.org/portal/cms_docs_transactions/transactions/tpami/
+           freecontent/taskoftheferee.pdf
+           Oscar Nierstrasz,"Identify the Champion: An Organisational Pattern 
+           Language for Programme Committees”, Pattern Languages of Program 
+           Design 4, N. Harrison, B. Foote, H. Rohnert (Ed.), vol. 4, Addison Wesley, 
+           2000, pp. 539-556
+                             © Copyright 2008 by Mark Bernstein. All Rights Reserved.

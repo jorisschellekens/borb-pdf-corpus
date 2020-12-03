@@ -1,0 +1,102 @@
+                                                                                                                                                                     Accounts Payable 
+                                                                                                                                               Supplier invoice requirements 
+              
+             Invoices submitted incorrectly will be disputed – resulting in delay of payment. Disputed invoices are the 
+             responsibility of the supplier to correct and resubmit. Contact the Cenovus representative that requested 
+             the product or service for any missing information.  
+             Supplier invoice requirements: 
+             Invoice Header  
+                          Labelled “INVOICE” or “CREDIT” 
+                          Invoice number 
+                                 •     Unique invoice number 
+                          Credit invoice must also have a unique number and reference the original invoice number (where 
+                          applicable) 
+                          Invoice date  
+                                 •     invoices dated older than six months may be disputed if the approver is no longer valid or 
+                                       cannot validate the charges 
+                          Correct Cenovus legal entity name  
+                          Cenovus bill to address:  
+                                 •     500 Centre Street SE, P.O Box 766, Calgary AB, T2P OM5 
+                          Supplier name and remittance address  
+                                 •     legal company name 
+                                 •     remit-to address  
+                                 •     contact information including email address 
+                          Invoicing contact  
+                                 •     First and last name of who needs to review and /or approve your invoice, this name is also 
+                                       provided on the purchase order document under invoice instructions 
+                          Amount and currency 
+                          Applicable taxes 
+                          GST/HST number (if registered) 
+             Invoice Line Item Detail 
+                          Service /delivery dates 
+                          Description of products or services 
+                                 •      including quantities, unit of measure, unit prices, and tag numbers 
+                          Account coding 
+                                 •     AFE: 17XXXXXX 
+                                 •     Cost Center: 6XXXX 
+                                 •     Major & Minor: 82XX.3XX 
+                                 •     Refer to your field stamp for details 
+                          Order Number (where applicable) 
+                                 •     Order number and associated order line number(s) must be referenced 
+                                 •     Refer to order coding instructions in Appendix 1    
+                          Work order number (where applicable) 
+                                 •     Work Orders numbers are subject to additional requirements  
+             NOTE: Engineering Procurement/Construction Management Firms must also include:  
+                                 •     Cenovus legal entity name c/o EP Firm/CM Firm 
+                                 •     Summary invoice backup information 
+                                 •     Copies of all third-party invoices related to the service 
+                                                                  
+             Accounts Payable  November 2017  Version# 1.0                                                                                                   Page 1 
+              
+                                                                                                                                                                     Accounts Payable 
+                                                                                                                                               Supplier invoice requirements 
+              
+             Supporting Documentation 
+                          Must include a copy of your original invoice  
+                          Must include all other available documentation that provides evidence and justification for the 
+                          charges including, but not limited to, bill of lading, SCM order, work order, field tickets, etc. 
+                          Any supporting documents stating “bill to”, “charge to”, “sold to” or “invoice to” must include the 
+                          correct and complete Cenovus legal entity name  
+                          Original receipts are required for travel expense 
+              
+                                                                  
+             Accounts Payable  November 2017  Version# 1.0                                                                                                   Page 2 
+              
+                                                                                                                                                                     Accounts Payable 
+                                                                                                                                               Supplier invoice requirements 
+              
+             Appendix 1: Order coding instructions  
+             Service Orders (Master Service Order (MSO)/Preferred Supplier 
+             Commercial Terms) 
+             The products/services are requested by an end user without a specific order document, but the rates have 
+             been pre-negotiated on the service order.  The invoice must also include the:   
+                          Service Order (MSO / PSCA / PSCT) number 
+                          Order Line Number(s)  
+                          Account coding as provided by your Cenovus representative 
+             Purchase Order (Contract/Contract Release/LEM’s) 
+             The products/services are requested by Supply Chain Management. An itemized order document is 
+             generated and provided with details. The details of your invoice must match the details of the order and 
+             include the following: 
+              
+                          Order number  
+                          Order line number(s)  
+                          Amount(s) 
+                          Ticket number(s) or LEM number(s) 
+                          Tickets provided as supporting documents should reference the Order and Order line number(s). 
+                          Account coding as outlined in the Table 1 
+              
+             Table 1: 
+              
+                                                                                                                                Account Coding 
+                Cenovus Entities                                                 Cost Centre                Major          Minor  Order Number  Order Line Number 
+                Cenovus Energy Inc.                                                   PRCH2                  3005            097            Refer to order                     Refer to order 
+                Cenovus FCCL Ltd.                                                     PRCH3                  3005            097            Refer to order                     Refer to order 
+                Cenovus Telephone Lake ULC                                            PRCH4                  3005            097            Refer to order                     Refer to order 
+                Bruderheim Energy Terminal Ltd.                                       PRCH5                  3005            097            Refer to order                     Refer to order 
+              
+              
+             NOTE: LEM’s CSV file upload’s must include: 
+                          The CSV file 
+                          For complete information on the CSV process see page 4 of the FAQ document 
+             Accounts Payable  November 2017  Version# 1.0                                                                                                   Page 3 
+              

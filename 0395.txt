@@ -1,0 +1,75 @@
+                                      ROCHESTER INSTITUTE OF TECHNOLOGY
+       No.                                    INVOICE PAYMENT FORM
+           Date Requested             Date Due          Travel Expense Report #      If to be picked up at Cashier’s Office, by
+                                                             (if applicable)                        whom:
+            Invoice Type        Supplier Invoice Date       Supplier Invoice                 Supplier Invoice Total
+                                                                Number
+              Standard
+       1) Has the supplier been set up in Accounts Payable?  If yes, provide the supplier number and name below.  If no, please complete an
+       Oracle Supplier Set-up Form and forward to Accounts Payable with the Invoice Payment Form.  If the payment is for taxable servcei s, the
+       social security number must be provided before the payment can be processed.  2) Is the supplier an employee of RIT?  Use thisfo rm for
+       reimbursements only.  Complete an Additional Pay Form for payments to an employee above his/her base salary.
+       Supplier Number         Social Security Number Supplier Name  (Enter the name of vendor.  For employee reimbursements
+                               (for taxable services)   or travel advances, enter the employee’s name.)
+       DISTRIBUTION:
+       Line                     Account Number                              Amount                 Note: Travel Advances
+       1                                                                                           are limited to $50.00
+                                                                                                   per day. Indicate the
+                                                                                                   duration (number of
+       2                                                                                           days) of the trip in the
+                                                                                                   “When?” box below.
+                                                                                                   The Travel Expense
+       3                                                                                           Report number must be
+                                                                                                   indicated in the box at
+                                                                                                   the top of the page.
+       The following information section must be completed.  If additional space is required, please include an attachment.  Submit
+       ORIGINAL RECEIPTS with this form to Accounts Payable.  If the request is an advance, include a memo of explanation.
+       Line                    Business Purpose                       When?                   Where?
+       1
+       2
+       3
+        Requestor’s Signature           Extension              E-Mail Address                  Approver’s Signature
+       Accounting Use Only:
+               Batch Name                Pay Group                   Status                       Accounting Approval
+       Revised 11/99
+                                                   Instructions for Completing Invoice Payment Form
+         1.   Date Requested—Enter the date the form is being prepared.
+         2.   Date Due—Enter the date by which the invoice should be paid according the supplier’s terms.  RIT’s standard payment terms are 30
+              days from the supplier invoice date.  Employee expense reimbursements are processed with payment terms of “immediate”.  If the
+              supplier offers a discount for early payment, highlight the date due box and indicate “disc”.
+         3.   Travel Expense Form—Indicate travel expense form number if the payment is a travel advance.  Travel advances are limited to
+              $50.00 per day.  Indicate the duration of the trip in the Business Purpose Section.  Travel advances are charged to
+              01.15199.09050.00.00000.00000 when processed in Accounting.  When the completed Travel Expense Report is returned to
+              Accounting, the actual expenses will be to your department.
+         4.   If to be picked up at Cashier’s Office—Enter the name of the individual who will be picking up the check.  Checks are filed under
+              the individuals last name.  Employee reimbursement checks will be mailed to the employee’s home address.
+         5.   Invoice Type—Standard
+         6.   Supplier Invoice Date—Enter the date indicated on the supplier’s invoice.  Complete one form per supplier invoice.
+         7.   Supplier Invoice Number—Enter the number indicated on the supplier’s invoice.
+         8.   Supplier Invoice Total—Enter the total amount due to the supplier.  Include shipping and handling charges if applicable.  If the
+              supplier charged sales tax, do not include that amount in the total.  Do not calculate early payment discounts.
+         9.   Supplier Number—Enter the supplier number if known.
+         10.  Supplier Name—Enter the name of the supplier.  This is the name that will appear on the check.  If the check is an employee
+              expense reimbursement, enter the employee’s full name.
+         11.  Distribution—Account Number—Enter the account number(s) to charge for the expense.  If the request is for a travel advance, the
+              amount will be charged to an Institute prepaid account, not to the department’s account.  When the Travel Expense Report is
+              received, the actual expense amount will be charged to the department’s account (see #3 Travel Expense Form above.)
+         12.  Distribution—Amount—Enter the amount to be paid.
+         13.  Business Purpose—Describe the business purpose.  For example, “purchase supplies for class demonstration”, or “lunch to discuss
+              fund departmental reorganization”.  Provide names of lunch or dinner attendees if applicable.  Line 1 in this section should
+              correspond to Line 1 in the Distribution section above.  For travel advances, include the destination and purpose of the trip.
+         14.  When—Indicate the date the transaction occurred.  If the request is for a travel advance, indicate the duration of the trip (i.e. 11/15-
+              11/20—6 days x $50.00/day = $300.00)
+         15.  Where—Indicate the location where the business transaction occurred.
+         16.  Requestor’s Signature—The individual who prepared the Invoice Payment Form should sign in this box.
+         17.  Extension—Indicate the telephone extension of the preparer.  Accounts Payable may contact the preparer if there are questions
+              regarding the payment.
+         18.  E-Mail Address—Indicate the e-mail address of the preparer.  Accounts Payable may contact the preparer if there are questions
+              regarding the payment.
+         19.  Approver’s Signature—The department head or budget authority should sign in this box.
+         20.  Accounting Use Only—Do not complete any of the boxes in this section.
+         Forward the completed form with the appropriate documentation to Accounts Payable for processing.   Documentation
+         requirements: Original receipts are required for all reimbursements.  If there is more than one receipt, please tape to an 8 ½ x 11 sheet of
+         white paper.  Please include a memo of explanation when requesting advance payments or other items for which there are no
+         receipts or a supplier invoice.
+         Revised 11/99

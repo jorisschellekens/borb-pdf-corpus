@@ -1,0 +1,26 @@
+             Proforma Invoice
+               Sent by                                                 AWB No
+               Company name                                            Invoice No
+               Name/department                                         Number of pieces
+               Address                                                 Total gross weight
+                                                                       Total net weight
+               Telephone
+                                                                       Carrier
+               E-mail
+               VAT registration No
+               Buyer                                                   Delivery to (if different from the buyer)
+               Company name                                            Company name
+               Name/department                                         Name/department
+               Address                                                 Address
+               Telephone                                               Telephone
+               E-mail                                                  E-mail
+               VAT registration No                                     VAT registration No
+               Full description of goods                              Customs     Country   Quantity/   Unit value Sub total
+                                                                      commodity     of      Number of     and      value and
+                                                                        code       origin     units     currency   currency
+               Total value and currency
+               Reason for export
+               Terms of delivery
+               I declaire that the above information is true and correct to the best of my knowledge.
+               Date
+               Name                                                 Signature

@@ -1,0 +1,114 @@
+                   Electricity
+                   Gas
+                   Heat
+                   Water
+                   An explanation of your invoice
+                   General:
+                   Page 1 of the invoice provides you with a quick summary of the main items in the annual settlement. In particular, these are the  
+                   settlement period, the invoice sum, payments made, the new instalments derived from these and the dates on which they are due.  
+                   All the data relevant for determining the invoice sum are listed on the following pages. This calculation statement contains a technical 
+                   part showing the meter data, and a commercial part (basis of calculation), so that you are able to see how each item in the invoice 
+                   sum has been established.
+                   Annual statement of account, page 1 (overview)
+                     1   Customer no.
+                          The customer no. is the most important identiifcation feature.  
+                         We can process your enquiries more quickly if you provide it du-
+                         ring calls and in correspondence. If it is not entered, or wrongly 
+                         entered, on your money transfer form, for example, we cannot 
+                         identify your payment and your account cannot be settled. This                                 Max Mustermann
+                                                                                                                        Gederner Str. 99
+                         could lead to measures that could involve costs and, in extreme                                60435 Frankfurt
+                         cases, cutting off the supply. So please always provide us with 
+                         the correct and complete customer no. when you phone us 
+                         or write to us – and particularly when you pay us.
+                                                                                                                                                                 1            P 2000 0000 000
+                     2   Settlement period
+                         This is the total time period covered by your annual statement.  
+                         The beginning and end dates are identical with the old and new                             2
+                         meter-reading dates you can ifnd in the technical portion of the  
+                         calculation details.                                                                       3
+                     3   Invoice information
+                         The most important invoice results are presented here. At a                                4
+                         glance, you can see what types of energy we provide you with
+                         (heat and/or hot water). In the line marked ‘Invoice Amount’                               5
+                         [Rechnungsbetrag] you can see at the far right what charges  
+                         your energy consumption has caused. The amount you have  
+                         already paid by way of advance payments (payments made
+                         for energy consumption) will be offset against this amount.
+                         This generates either a remaining amount payable or a credit.  
+                         Last entry date: we entered the last incoming payment on this  
+                         date. This will enable you to assess whether we have been  
+                         able to factor in your last payment or not.
+                     4   Posting and payment information                                                                                                  Annual statement, page 1 (overview)
+                         If you pay the invoice and advance-payment amounts via bank  
+                         transfer, we take this opportunity to remind you that we expect 
+                         the incoming payment to our demands at the latest by the due date stated here. If you have provided us with a direct-debit  
+                         mandate (this is already the case for approx. 80 percent of our customers), we inform you here of the bank and account from  
+                         which the invoice or advance-payment amount will be debited on the due date. For reasons of data protection, only the last four  
+                         digits of the account no. are shown here. Please review this information. You have two weeks from receipt of the invoice in which  
+                         to have these data corrected. We will of course transfer any credit to your account at short notice, or if we have no account  
+                         details for you we kindly request that you provide us with them. 
+                     5   Advance-payment information
+                         Here, you can see the amount of your future monthly advance-payment.
+           Date: 04.2012 · Page 1
+                   www.mainova.de
+                Electricity
+                Gas
+                Heat
+                Water
+                Annual statement of account, page 2  
+                (calculation statement)
+                 6   Technical part (meter data and consumption calculation)
+                     This section records all the data required to establish your  
+                     consumption. Namely the type of supply, the invoicing period            6
+                     and the point of consumption. If your radiators are iftted with  
+                     electronic heating cost distributors, the metered units are then 
+                     multiplied by a factor (size and model of the radiator). In the case 
+                     of evaporators, consumption is generally read off from the line 
+                 markings.
+                 7   Your direct costs
+                      The direct costs concern the individual settlement per apartment. 
+                     They serve as evidence of the proportionate costs invoiced to           7
+                     you. Depending on the type of cost concerned, the metered con-
+                                                                      2
+                     sumption costs are assigned the multiplier per m , the multiplier 
+                     per line marking/unit, and for the cost type consumption of hot 
+                                               3
+                     water the multiplier per m , each to the precise day.
+                 8    The net amounts calculated under 7 are summed up in the  
+                     total net costs. These are your costs for heating and hot water 
+                     (see net invoice sum page 1)                                            8
+                Annual statement of account, page 3                                                                Annual statement, page 2 (calculation statement)
+                (calculation statement)
+                 9   Calculation of total consumption
+                      This section contains the data required to determine the total 
+                     consumption of the billed property. The numbers of the meters           9
+                     and the „old“ and „new“ meter readings are recorded, divided 
+                     into room heating and hot water, for the complete settlement 
+                     period. The difference this produces is subsequently converted  
+                     to the billing unit.
+                10   Determination of total costs                                           10
+                     The determination of total costs illustrated shows how the costs  
+                     of the billed property are composed. The basis for this is the 
+                     complete settlement period. In line with the tariff, the costs are 
+                     determined for the work, base and accounting prices and for 
+                     operating the system in consideration of the current prices.  
+                     The net sums calculated are summed up in the total net costs           11
+                     to be distributed.
+                11   Division of costs for room heating and hot water
+                     The total costs established under point 10 are now divided into        12
+                     the costs for room heating and hot water.
+                12   Distribution of costs
+                      Depending on the agreement made with the owner/administrator 
+                     of the facility, the total costs are divided into the so-called: 
+                                                        2
+                     1)   Base costs – the amount per m  is calculated, in that the  
+                                                                                   2
+                        base costs are divided by the total utility area (generally m )  
+                        of the property
+                     2)  Consumption costs – the amount per unit is calculated, in that 
+                        the consumption costs are divided by the total units for room                              Annual statement, page 3 (calculation statement)
+                                                  3
+                        heating and by the total m  of the facility for hot water.
+         Date: 04.2012 · Page 2
+                www.mainova.de

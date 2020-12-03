@@ -1,0 +1,317 @@
+                                                                                      HSE information sheet 
+                           Safety in window cleaning using rope access 
+                           techniques 
+                                                                                      HSE Information Sheet MISC612 
+          Introduction                                                 ●	   selection, maintenance and care of appropriate 
+                                                                            equipment; 
+          This information sheet gives window cleaners guidance ●	          proper control of working methods, including: 
+          on the use of rope access methods and controlling - use of work equipment, 
+          risks. The contents should also be noted by clients, - emergency procedures, 
+          specifiers, managers and contractors.                             -  protection for third parties.  
+          It has been produced because rope access is  Management and planning 
+          increasingly used in window cleaning and it has 
+          become clear that not all window-cleaning businesses Risk assessment 
+          fully understand the complexities of using this access 
+          method.                                                      Factors to be considered include the likely duration of 
+                                                                       the work, the ease of access, the possibility of using an 
+          Because of the limited range of tasks in window alternative, safer work method (eg work platform, work 
+          cleaning compared with rope access methods across from inside the building) and the presence of any 
+          all industries, less breadth of knowledge is required and hazards. 
+          only simpler rope access skills are generally needed. 
+          Nevertheless, full competence in those areas                 Management 
+          necessary remains crucial, as for all rope access work. 
+                                                                       A nominated person should be identified, who is 
+          This guidance is not intended to apply to the use of responsible for managing all aspects of rope access 
+          bosun’s chairs, although some of the information may work. The nominated person must have experience 
+          be relevant (the use of an additional back-up line, for and/or training in the type of work the company plans to 
+          example).                                                    undertake. Similarly, designated supervisors will be 
+                                                                       required to directly oversee and direct work in progress 
+          This document provides summary guidance only.  on all jobs. 
+          Anyone involved with rope access operations should 
+          familiarise themselves with the British Standard Code Planning rope access operations 
+          of Practice BS 7985: 2002: The use of rope access 
+          methods for industrial purposes (see ‘Further reading’).     A system of work should be drawn up, taking account 
+                                                                       of risks from rope access operations generally and job-
+          Choice of access method                                      specific risks that are present and can be foreseen. 
+                                                                       The safe system should specify rescue arrangements, 
+          For any window-cleaning task, in the first instance an selection of correct equipment, selection of people with 
+          assessment should be made to establish whether rope the necessary level of competence and arrangements 
+          access is an appropriate method for the work. For all for control and communication. 
+          work at height, the most intrinsically safe means of 
+          access should always be the first consideration. Other Personnel 
+          safer methods of access, such as cleaning from inside, 
+          suspended access equipment or mobile platforms, will Competence 
+          often be preferable. In general, the most effective 
+          control for any hazard is to eliminate it and only if this is A competent person may be defined as someone who 
+          not possible should you then look to control risks to an is suitably trained or qualified by knowledge and 
+          acceptable level.                                            practical experience to enable them to: 
+          General requirements for a safe system of work ●	                 carry out their required duties at the level of 
+                                                                            responsibility required of them; 
+          Rope access must be only be used within a defined ●	              fully understand any potential hazards related to 
+          system of work. Elements of a safe system will include: the work under consideration; 
+                                                                       ●	   detect any technical defects or omissions in that 
+          ●	    proper management and planning including risk               work, recognise any implications for health and 
+                assessment and supervision;                                 safety, and be able to specify appropriate remedial 
+          ●	    use of trained, competent persons;                          action as necessary. 
+                                                                     1 
+          In other words, a competent person should be able not ●	     impaired limb function; 
+          only to discover defects but tell what effect they are ●	    alcohol or drug dependence; 
+          likely to have.                                         ●	   psychiatric illness/undergoing counselling; 
+                                                                  ●	   diabetes. 
+          Safety in rope access work critically depends on high 
+          levels of competence in all staff.                      Employees should undergo regular medical examination 
+                                                                  to ensure they are reasonably physically fit. 
+          Levels of responsibility for those involved in rope 
+          access work                                             Training and competence 
+          For rope access operations, levels of responsibility are All operatives should have received training in rope 
+          usually defined as:                                     access work and should have appropriate knowledge, 
+                                                                  experience and practical skills for the type of work 
+          ●	   rope access manager: can define and operate a being undertaken. 
+               safe system applicable to all worksites; 
+          ●	   supervisor: can implement a safe working system Training should be carried out by a competent 
+               for a particular worksite;                         organisation, and should include assessment of specific 
+          ●	   operative: can carry out specific work tasks under skills and knowledge. The training programme should 
+               supervision.                                       be formalised in both time and performance, and 
+                                                                  should be assessed by a competent person who did 
+          Managers                                                not deliver the training. raining schemes should clearly T
+                                                                  state the scope of the training provided, the intended 
+          It is desirable for managers to have practical  duration of certification and any limitations to be 
+          experience of various work methods. Necessary  observed, either of individual personnel or of working 
+          management skills will include knowing how to:          methods. 
+          ●	   create and operate a general system for            Companies should be aware that training is no 
+               management of rope access operations, to include substitute for experience. Newly trained individuals 
+               as an absolute minimum the requirements set out should be closely supervised and introduced to rope 
+               in this information sheet;                         access work gradually, under carefully controlled 
+          ●	   understand and recognise risks arising from        circumstances. Practice of ‘mock-up’ work situations is 
+               different work situations;                         recommended. 
+          ●	   create and properly use generic and task-specific 
+               method statements;                                 If access techniques have not been used for more than 
+          ●	   implement procedures for proper purchase,          six months, refresher training must be carried out and 
+               inspection and care of rope access equipment; the operative should receive a higher level of 
+          ●	   compile method statements and ensure proper supervision until they have become accustomed again 
+               application on-site;                               to this type of work. 
+          ●	   decide on specific working methods for rope 
+               access techniques and work tasks;                  Operatives should maintain a working record showing 
+          ●	   ensure supervision, work equipment and             training received and details of subsequent work 
+               personnel are appropriate for the work to be done; experience. This record will assist employers in 
+          ●	   monitor and review effectiveness of working        assessing and verifying an employee’s suitability for 
+               methods.                                           particular types of work. 
+          Operatives                                              Before starting any job, all operatives must be 
+                                                                  competent to: 
+          Operatives should be at least 18 years of age, normally 
+          with a maximum weight of 100 kg. They should have ●	         properly inspect access equipment before every 
+          an aptitude for work at height and must be physically use; 
+          capable of carrying out the tasks required. They should ●	   understand all risks arising from the access 
+          be free from any impairment that may prevent them method and work task; 
+          from working safely at height. No one suffering the ●	       use all access techniques required by a particular 
+          following conditions should do rope access work:             worksite. 
+          ●	   heart disease/chest pain;                          For window cleaning work, the minimum level of 
+          ●	   high blood pressure;                               practical skills needed will include: 
+          ●	   epilepsy, fits, blackouts; 
+          ●	   fear of heights/vertigo;                           ●	   controlled descent; 
+          ●	   giddiness/difficulty with balance;                 ●	   use of back-up system; 
+                                                                2 
+           ●	   short ascent;                                           ●	   The back-up device should be capable of 
+           ●	   change from one rope to another;                             withstanding any foreseeable forces resulting from 
+           ●	   knots, elementary safe rigging, rope management; the rope access activity, without catastrophic 
+           ●	   selection of safe anchor points;                             damage to the line or device. 
+           ●	   equipment care and pre-use checks;                      ●	   Rope should be of kern mantel construction, semi-
+           ●	   safety of third parties;                                     static (low-stretch) type, of a diameter between 
+           ●	   elementary rescue.                                           10.5 mm and 11.5 mm, in accordance with EN 
+                                                                             1891. Dynamic mountaineering rope (EN 892) is 
+           Supervisors                                                       not suitable for suspension or as a back-up rope, 
+                                                                             but may be used for personal lanyards (cows’ 
+           Every job must be properly supervised by people with tails). 
+           experience and appropriate training in the type of 
+           access method to be used. In particular, supervisors Certification, marking, trace ability 
+           should be fully conversant with the access techniques 
+           required for each job and should be aware of any                          Equipment should be individually marked in a way that 
+           limitations of those techniques. Supervisors should also  does not impair its function. Equipment should be 
+           be competent in rescue techniques for both general                       properly maintained and stored, and should be 
+           and specific situations and must have the appropriate                     traceable back to the manufacturer or supplier. 
+           interpersonal skills to perform their duties effectively. 
+                                                                        Inspection, care, maintenance, longevity 
+           Necessary skills can be summarised as follows. 
+           Supervisors should be able to:                               Equipment should be inspected before each use (pre-
+                                                                        use inspection) and examined thoroughly by a 
+           ●	   implement working methods set out by the                      competent person in accordance with a specified 
+                manager;                                                schedule, normally at intervals no greater than six 
+           ●	   understand risks set out by different work              months. If equipment is used in arduous environments, 
+                situations;                                             inspection should take place at intervals no greater 
+           ●	   execute and direct all access methods required by than three months. 
+                a particular work task; 
+           ●	   plan for (and be able to carry out) any necessary                       The results of thorough inspections should be 
+                rescue for a particular work situation;                 recorded. Rope access equipment is classified as lifting 
+           ●	   have experience of and competence in worksite                    equipment and therefore falls within the requirements 
+                and personnel supervision;                              of the Lifting Operations and Lifting Equipment 
+           ●	   eliminate or control hazards to operatives or third Regulations 1998 (LOLER). 
+                parties; 
+           ●	   properly manage and care for all access and work  Where cleaning companies employ subcontracted 
+                equipment on-site.                                      access technicians, they must confirm that the 
+                                                                        subcontractor carries out checks to ensure that all 
+           Access equipment                                             equipment used is fit for purpose and in good condition. 
+           Selection                                                    Other PPE 
+           All equipment should be appropriate to its application.                    Some work tasks or work environments may require 
+           Almost all rope access equipment is classed as                         the use of other protective equipment, such as warm 
+           personal protective equipment and should therefore                   clothing, waterproofs, hearing or eye protection, gloves 
+           carry a CE mark. All access equipment should be etc. 
+           supplied with a certificate of conformity, giving the 
+           specifications and performance characteristics where Control of working methods 
+           appropriate. If there is any doubt as to the suitability of 
+           equipment, obtain advice from a competent supplierRisk control measures that apply to all rope access . 
+           A list of relevant standards is given in BS 7985: 2002 work 
+           (see ‘Further reading’). 
+                                                                        ●	   Operatives will always be attached to at least two 
+           Key requirements of rope access equipment                         independently anchored safety systems. 
+                                                                        ●	   Connection to the rope access system should be 
+           ●	   The harness should be a sit harness conforming                           in an area where there is no risk of a fall from a 
+                to EN 813.                                                   height, unless there is protection by other means. 
+           ●	   Descender devices should be of a type that will ●	           Exclusion zones should be established as 
+                stop if the user loses control or allow only a slowappropriate. This may require zones at locations , 
+                automatically controlled descent in the hands-off            other than top and bottom of the rope access 
+                position.                                                    work. 
+                                                                      3 
+           ●	   An efficient communication system should be                  especially for rescue, because a single descent to 
+                established, eg mobile phone, radio, whistle etc.                     the ground is not possible. 
+           ●	   All practicable measures should be taken to avoid ●	         Without clear egress at bottom: potentially 
+                injury-causing impact with the structure or                  hazardous - requires competence in long ascents 
+                obstructions.                                                and special rescue methods. 
+           ●	   Operatives should be properly dressed and 
+                equipped, appropriate to the work situation and                 Any of the above methods may be complicated by 
+                conditions.                                             additional factors such as difficulty in reaching the point 
+                                                                        of descent, lack of convenient anchorages, presence of 
+           Consideration of working methods                             sharp edges, complex structure, busy worksite, 
+                                                                        proximity of roads or other public thoroughfares, other 
+           In addition to general controls for rope access, there objective dangers. 
+           will be specific considerations such as: 
+                                                                        Aid climbing and traversing (atria and other 
+           ●	   type of access method, eg descent, ascent, interiors) 
+                traversing, suspension, aid climbing (see following 
+                section);                                               Aid climbing is a special access technique requiring 
+           ●	   ease of anchoring;                                      additional training or experience. In addition, the work 
+           ●	   ease of access to and egress from work position,                      situations for which it is used may present additional 
+                eg flat roof, clear pavement;                           hazards, such as heat exposure (glass atria), difficulty 
+           ●	   objective hazards during the work, eg wind, sun, of rescue, and the possibility of falling. These methods 
+                rain (especially wind);                                 should only be used by specifically trained and qualified 
+           ●	   dangers to third parties.                               operatives, following a thorough risk assessment. 
+                                                                        Appropriate access, rescue plans and equipment 
+           The level of skill required of operatives and the level of should be provided. 
+           necessary supervision will be indicated by these 
+           factors.                                                     Specific requirements for rope access operations 
+           Types of rope access methods                                 ●	   If the operative is in tension or suspension, there 
+                                                                             should be at least two independent anchor lines, 
+           For window-cleaning companies to carry out rope                   one primarily as a means of access, egress and 
+           access operations safely, it is essential that they are           support (the working line) and the other as 
+           clearly aware of the different requirements of various additional back-up security (the safety line). 
+           access situations, and to consider whether they are ●	            The operative should be connected to both the 
+           competent for a specific technique. If, after such                working line and the safety line via an appropriate 
+           consideration, the cleaning company does not have                 harness, even if a workseat is being used. 
+           sufficient experience or competence, it may consider  Measures should be taken to avoid inadvertent 
+           one of the following: using a specialist contractor; detachment from the working and safety lines. 
+           employing an experienced supervisor; or additional ●	             There should always be at least two attachments 
+           training of personnel.                                            to the structure when aid climbing. 
+                                                                        ●	   The back-up device should be kept as high as 
+           As a rough guide, the following situations may be possible to prevent or limit a fall (limited free fall). 
+           considered to be of increasing difficulty and complexity ●	       Anchor points should be unquestionably sound 
+           and requiring correspondingly more advanced skills.  and ropes should be arranged to avoid abrasion. 
+           Working in suspension (descent and ascent)                   Use of work equipment 
+           This covers most situations, such as building exteriors.                   Steps should be taken to ensure that any work 
+           It can be broadly categorised as follows:                    equipment (eg cleaning tools, buckets, squeegees etc) 
+                                                                        is properly secured and used safelyAll items must be . 
+           ●	   Straightforward: rope follows simple path from             attached so they cannot fall, and large items (over 
+                anchor point to ground. Relatively simple               8 kg) should be suspended on an additional haul rope. 
+                techniques for descent/ascent and rescue.                    Tool bags or pouches may be appropriate for some 
+           ●	   With deviation: rope pulled small distance away work. 
+                from vertical during descent. Requires slight 
+                increase in technique compared to the previous Rescue 
+                method. 
+           ●	   With ‘re-belays’: intermediate anchor points            The provision of adequate emergency measures is of 
+                required between top and bottom of descent. prime importance when carrying out rope access work. 
+                Requires significant increase in technique,             There should be a specific rescue plan for each 
+                                                                      4 
+          worksite, with on-site practice if appropriate. In any Management of health and safety at work. 
+          case, work teams should practice rescue techniques Management of Health and Safety at Work Regulations 
+          from time to time. Operatives should always be in a 1999. Approved Code of Practice and guidance L21 
+          position to recover themselves, or to be recovered (Second edition) HSE Books 2000 ISBN 0 7176 2488 9 
+          quickly and efficiently by the immediate work team or 
+          by a dedicated on-site rescue team.                     Safe use of work equipment. Provision and Use of 
+                                                                  Work Equipment Regulations 1998. Approved Code of 
+          Rescue equipment should be appropriate to the nature Practice and guidance L22 (Second edition) HSE 
+          of the workplace, eg length of ropes, availability of Books 1998 ISBN 0 7176 1626 6 
+          extra anchor slings, hauling equipment etc. 
+                                                                  Simple guide to the Provision and Use of Work 
+          First aid                                               Equipment Regulations 1998 Leaflet INDG291 HSE 
+                                                                  Books 1999 (single copy free or priced packs of 15 
+          Every worksite should have access to reasonable first-ISBN 0 7176 2429 3) 
+          aid provision and at least one member of a work team 
+          should have received first-aid training.                Personal protective equipment at work. Personal 
+                                                                  Protective Equipment at Work Regulations 1992. 
+          Legislation                                             Guidance on Regulations L25 HSE Books 1992 
+                                                                  ISBN 0 7176 0415 2 
+          ●	   The Lifting Operations and Lifting Equipment 
+               Regulations 1998 (LOLER) contain wide-ranging A guide to the Construction (Health, Safety and 
+               requirements on all aspects of carrying out ‘lifting Welfare) Regulations 1996 Leaflet INDG220 HSE 
+               operations’, including all rope access.            Books 1996 (single copy free or priced packs of 10 
+          ●	   The Management of Health and Safety at Work ISBN 0 7176 1161 2) 
+               Regulations 1999 (MHSWR) specify general 
+               requirements for identifying the nature and level of Guidelines on the use of rope access for industrial 
+               risks associated with work operations.             purposes Industrial Rope Access Trade Association 
+          ●	   The Provision and Use of Work Equipment            (IRATA) 2000 
+               Regulations 1998 (PUWER) apply to all work 
+               equipment, which is required to be suitable for the Industrial rope access: Investigation into items of 
+               intended purpose. Personnel must be properly personal protective equipment CRR364 HSE Books 
+               trained to operate the equipment with which they 2001 ISBN 0 7176 2091 3 
+               are provided. 
+          ●	   The Construction (Health, Safety and Welfare)  Five steps to risk assessment Leaflet INDG163(rev1) 
+               Regulations 1996 C(HSW)R contain specific          HSE Books 1998 (single copy free or priced packs of 
+               requirements on the prevention of falls            10 ISBN 0 7176 1565 0) 
+               (Regulation 6). ‘Construction’ includes cleaning 
+               and maintenance work.                              COSHH: A brief guide to the regulations: What you 
+                                                                  need to know about the Control of Substances 
+          Further reading                                         Hazardous to Health Regulations 2002 (COSHH) 
+                                                                  Leaflet INDG136(rev2) HSE Books 2003 (single copy 
+          BS 7985: 2002 British Standard Code of Practice The     free or priced packs of 10 ISBN 0 7176 2677 6) 
+          use of rope access methods for industrial purposes 
+          British Standards Institution (contains a full list of Inspecting fall arrest equipment made from webbing or 
+          relevant European Standards for personal protective rope Leaflet INDG367 HSE Books 2002 (single copy 
+          equipment)                                              free or priced packs of 10 ISBN 0 7176 2552 4) 
+          Safe use of lifting equipment. Lifting Operations and 
+          Lifting Equipment Regulations 1998.  Approved Code of 
+          Practice and guidance L113 HSE Books 1998 
+          ISBN 0 7176 1628 2 
+                                                                5 
+        Further information 
+        National Federation of Master Window and General 
+        Cleaners, Summerfield House, Harrogate Road, 
+        Reddish, Stockport, Cheshire SK5 6HQ 
+        Tel: 0161 432 8754 
+        Industrial Rope Access Trade Association (IRATA), 
+        Association House, 99 West Street, Farnham, Surrey 
+        GU9 7EN Tel: 01252 739150 
+        Height and Access Safety Group, Tamesis House, 
+        35 St Philips Avenue, Worcester Park, Surrey, KT4 8JS 
+        Tel: 020 8330 6446 (www.hasg.org.uk) 
+        e-mail psma@tamgroup.co.uk 
+        British Standards are available from BSI Customer 
+        Services, 389 Chiswick High Road, London W4 4AL 
+        Tel: 020 8996 9001 Fax: 020 8996 7001 
+        Website: www.bsi-global.com 
+        HSE priced and free publications are available by mail 
+        order from HSE Books, PO Box 1999, Sudbury, Suffolk 
+        CO10 2WA Tel: 01787 881165 Fax: 01787 313995 
+        Website: www.hsebooks.co.uk (HSE priced publications 
+        are also available from bookshops and free leaflets can 
+        be downloaded from HSE’s website: www.hse.gov.uk.) 
+        For information about health and safety ring HSE’s 
+        Infoline Tel: 08701 545500 Fax: 02920 859260 
+        e-mail: hseinformationservices@natbrit.com or write to 
+        HSE Information Services, Caerphilly Business Park, 
+        Caerphilly CF83 3GG. 
+        This leaflet contains notes on good practice which are 
+        not compulsory but which you may find helpful in 
+        considering what you need to do. 
+        © Crown copyright This publication may be freely 
+        reproduced, except for advertising, endorsement or 
+        commercial purposes. First published 09/03. Please 
+        acknowledge the source as HSE. 
+        Printed and published by the Health and Safety Executive  MISC612  09/03            C75 

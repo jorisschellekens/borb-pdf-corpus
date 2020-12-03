@@ -1,0 +1,308 @@
+                                            Leaflet Library - January 2019  
+                                                                    
+                                              This Leaflet Library is split into two sections. The first section lists all our current bus timetables.
+                                              The second section lists all our other publicity leaflets including rail timetables.
+                                              Use our order form to order supplies of new timetables and leaflets.
+                                Bus Timetables - January 2019
+                                 Contains details of bus changes we've been told about up until 10th January 2018
+                                              Colour Key:
+                                               This service is withdrawn this month
+                                               A new version of this timetable is now available
+                               Find the route number of the service you need, then check the date of the current timetable to make sure
+                               you've got an up-to-date version.
+                                    Route      Going between                                                     Ask for:                                        Date of current 
+                                  Number                                                                                                                            timetable
+                                     1        Liverpool - Chester                                               When ordering, ask for 1                            20-Jan-19
+                                     1        Moreton Circulars                                                 When ordering, ask for 1 W                          02-Sep-18
+                                     1A       Moreton Circulars                                                 When ordering, ask for 1 W
+                                     1B       Moreton Circulars                                                 When ordering, ask for 1 W
+                                     1C       Moreton Circulars                                                 When ordering, ask for 1 W
+                                     2        Preston - Southport                                               When ordering, ask for 2                            28-Apr-18
+                                     2        Woolton Village - Riverside College                               (WEBSITE ONLY)                                     05-Sep-16
+                                     2        Liverpool - Chester                                               When ordering, ask for 1
+                                     3        Huyton - Liverpool John Lennon Airport                            When ordering, ask for 3                            22-Jul-18
+                                     3A       Huyton - Liverpool John Lennon Airport                            When ordering, ask for 3
+                                     4        Liverpool - Sefton Park                                           When ordering, ask for 4                           02-Sep-18
+                                     4A       Liverpool - Sefton Park via Croxteth Drive                        When ordering, ask for 4
+                                     6        Liverpool - Huyton/Lunts Heath                                    When ordering, ask for 6                            24-Jul-16
+                                     7        Liverpool - Huyton/Warrington                                     When ordering, ask for 7                            20-Jan-19
+                                     8        Liverpool - Huyton circular                                       When ordering, ask for 8                            20-Jan-19
+                                     8E       Liverpool - Old Swan                                              When ordering, ask for 8
+                                     9        Liverpool - Huyton circular                                       When ordering, ask for 8
+                                     10       Liverpool - St Helens                                             When ordering, ask for 10                           20-Jan-19
+                                     10       Cronton - Widnes                                                  When ordering, ask for 10 SH                        31-Mar-14
+                                    10A       Liverpool - St Helens                                             When ordering, ask for 10
+                                    10B       Liverpool - Huyton                                                When ordering, ask for 10
+                                     12       Liverpool - Stockbridge Village                                   When ordering, ask for 12                           02-Sep-18
+                                     12       St Helens town centre circular                                    When ordering, ask for 12 SH                        14-Oct-18
+                                     13       Liverpool - Stockbridge Village                                   When ordering, ask for 12
+                                     14       Liverpool - Widnes/Windmill Hill                                  When ordering, ask for 14 H                         21-Oct-18
+                                     14       Liverpool - Croxteth                                              When ordering, ask for 14                           20-Jan-19
+                                    14A       Liverpool - Tower Hill, Moorfields                                When ordering, ask for 14
+                                    14A       Liverpool - Widnes/Windmill Hill                                  When ordering, ask for 14 H
+                                    14B       Liverpool - Knowsley Village                                      When ordering, ask for 14
+                                    14X       Liverpool - Kirkby Admin                                          When ordering, ask for 14
+                                     15       Liverpool - Huyton                                                When ordering, ask for 15                           20-Jan-19
+                                     15       Birkdale - Marshside                                              When ordering, ask for 15 SP                        24-Jul-16
+                                    15A       Birkdale - Marshside                                              When ordering, ask for 15 SP
+                                     16       Moreton Cross - Eastham Rake                                      When ordering, ask for 16                          05-Nov-18
+                                    16A       Moreton Cross - Eastham Rake                                      When ordering, ask for 16                          05-Nov-18
+                                     17       Moreton Cross - Eastham Rake                                      When ordering, ask for 16                          05-Nov-18
+                                     17       Liverpool - Fazakerley - Kirkby                                   When ordering, ask for 17                           20-Jan-19
+                                     17       St Helens - Widnes                                                When ordering, ask for 17 SH                        22-Jan-17
+                                     18       Liverpool - Croxteth Park                                         When ordering, ask for 18                           02-Sep-18
+                                     19       Liverpool - Gillmoss/Kirkby/Kirkby Admin                          When ordering, ask for 19                           03-Sep-17
+                                     20       Liverpool - Tower Hill                                            When ordering, ask for 20                           20-Jan-19
+                                     20       St Helens - Earlestown                                            When ordering, ask for 20 SH                        20-Jan-19
+                                     21       Liverpool - Northwood                                             When ordering, ask for 21                           20-Jan-19
+                                     22       Moreton - West Kirby - Chester                                    When ordering, ask for 22 W                        05-Nov-18
+                                     22       Warrington - Vulcan Village                                       When ordering, ask for 22                           10-Sep-18
+                                    22A       Warrington - Vulcan Village                                       When ordering, ask for 22
+                                   26      Sheil Road circular                                           When ordering, ask for 26                       02-Sep-18
+                                   26      Cronton - Widnes circulars                                    When ordering, ask for 26 SH                    01-Sep-13
+                                  26A      Cronton - Widnes circulars                                    When ordering, ask for 26 SH
+                                   27      Sheil Road circular                                           When ordering, ask for 26
+                                   28      St Helens - St Helens Junction circular                       When ordering, ask for 28                       21-Jan-19
+                                   30      St Helens - Chain Lane - Sutton Manor                         When Ordering, ask for 17 SH                    22-Jan-17
+                                   31      Maghull circular                                              When ordering, ask for 31                       22-Apr-18
+                                   31      St Helens - Parr                                              When ordering, ask for 31 SH                    21-Jan-18
+                                  31A      Maghull circular                                              When ordering, ask for 31
+                                   32      Maghull circular                                              When ordering, ask for 31
+                                   32      Clinkham Wood - Sutton Manor or Clock Face                    When ordering, ask for 32 SH                    23-Apr-17
+                                  32A      Clinkham Wood - St Helens - Sutton Manor                      When ordering, ask for 32 SH
+                                  32A      Maghull circular                                              When ordering, ask for 31
+                                   33      Maghull circular                                              When ordering, ask for 31
+                                   33      St Helens - Sutton Heath Circular                             When ordering, ask for 33 SH                    20-Jan-19
+                                   34      Maghull circular                                              When ordering, ask for 31
+                                  34A      Maghull circular                                              When ordering, ask for 31
+                                   34      St Helens - Newton/Leigh                                      When ordering, ask for 34 SH                    21-Jan-18
+                                  34A      St Helens - Newton-Le-Willows                                 When ordering, ask for 34 SH
+                                  34B      Maghull circular                                              When ordering, ask for 31
+                                   35      Gillars Green - St Helens - St Helens Junction                When ordering, ask for 35                       22-Jan-17
+                                  35E      St Helens - Gillars Green                                     When ordering, ask for 35
+                                   36      Aintree University Hospital - Maghull                         When ordering, ask for 36                       23-Apr-17
+                                   37      St Helens - Eccleston                                         When ordering, ask for 37                       03-Sep-17
+                                   38      St Helens - Rainford - St Helens                              When ordering, ask for 38                       20-Jan-19
+                                   38      West Kirby - Eastham Ferry via Birkenhead                     When ordering, ask for 38 W                     04-Nov-18
+                                  38A      West Kirby - Eastham Ferry via Birkenhead                     When ordering, ask for 38 W
+                                  38A      St Helens - Crank - Rainford - St Helens                      When ordering, ask for 38
+                                  38B      St Helens - Windle                                            When ordering, ask for 38
+                                   40      Crossens - Southport - Crossens                               When ordering, ask for 40 SP                    28-Apr-15
+                                   40      St Helens - Widnes (Riverside College)                        (WEBSITE ONLY)                                  05-Sep-16
+                                   42      Croxteth - Widnes (Riverside College)                         (WEBSITE ONLY)
+                                   41      Mill Park - Woodchurch                                        When ordering, ask for 41                       20-Jan-19
+                                  41A      Mill Park - Woodchurch                                        When ordering, ask for 41
+                                  41B      Mill Park - Woodchurch/Arrowe Park Hospital                   When ordering, ask for 41
+                                   42      Mill Park - Woodchurch                                        When ordering, ask for 41
+                                   42      Croxteth - Widnes (Riverside College)                         (WEBSITE ONLY)                                  05-Sep-16
+                                   44      Formby - Southport - Crossens                                 When ordering, ask for 44 SP                    03-Sep-17
+                                   44      Wavertree/Belle Vale - Widnes (Riverside College)             (WEBSITE ONLY)                                  05-Sep-16
+                                  44A      Wavertree - Widnes (Riverside College)                        (WEBSITE ONLY)                                  05-Sep-16
+                                   45      Garston - Widnes(Riverside College)                           (WEBSITE ONLY)                                  05-Sep-16
+                                   46      Stockbridge Village - Widnes (Riverside College)              (WEBSITE ONLY)                                  05-Sep-16
+                                   46      Carr Lane - Southport - Russell Road                          When ordering, ask for 46                        22-Jul-18
+                                  46A      Carr Lane - Southport - High Park                             When ordering, ask for 46
+                                  46B      Altcar Lane - Southport - High Park                           When ordering, ask for 46
+                                   47      Crossens - Liverpool                                          When ordering, ask for 47                       20-Jan-19
+                                   49      Crossens - Woodvale                                           When ordering, ask for 49                       23-Apr-17
+                                   52      Liverpool - Netherton                                         When ordering, ask for 52                       20-Jan-19
+                                  52A      Liverpool - Netherton                                         When ordering, ask for 52
+                                   53      Liverpool - Crosby                                            When ordering, ask for 53                       20-Jan-19
+                                   54      Liverpool - Thornton                                          When ordering, ask for 54                       20-Jan-19
+                                   55      Liverpool - Old Roan                                          When ordering, ask for 55                       20-Jan-19
+                                  55D      Old Roan - Liverpool                                          When ordering, ask for 55
+                                   56      Netherton - Liverpool                                         When ordering, ask for 56                       22-Apr-18
+                                   58      Liverpool - Netherton                                         When ordering, ask for 58                       20-Jan-19
+                                  58A      Netherton - Liverpool - Netherton                             When ordering, ask for 58
+                                   60      Bootle - Aigburth Vale                                        When ordering, ask for 60                       20-Jan-19
+                                   60      St Helens - Windle Hall Drive circular                        When ordering, ask for 60 SH                    03-Sep-17
+                                   61      Liverpool - Rainhill/Widnes/Runcorn/Halton Hospital           When ordering, ask for 61 H                     21-Oct-18
+                                   61      Aigburth Vale - Bootle                                        When ordering, ask for 61                       20-Jan-19
+                                  61A      Liverpool - Rainhill/Runcorn/Murdishaw                        When ordering, ask for 61 H
+                                  61C      Wavertree - Rainhill/Widnes/Runcorn/Halton Hospital           When ordering, ask for 61 H
+                                   62      Bootle - Penny Lane                                           When ordering, ask for 62                       20-Jan-19
+                                   63      Bootle - Fazakerley Hospital - Bootle                         When ordering, ask for 63                       20-Jan-19
+                                   68      Aigburth Vale - Bootle                                        When ordering, ask for 68                       02-Sep-18
+                                  68A      Aigburth Vale - Bootle                                        When ordering, ask for 68
+                                  68E      Aigburth Vale - Bootle                                        When ordering, ask for 68
+                                   73      Heswall - Poulton Lancelyn                                    When ordering, ask for 73                       24-Dec-18
+                                   75      Liverpool - Halewood                                          When ordering, ask for 75                       22-Apr-18
+                                   76      Liverpool - Halewood                                          When ordering, ask for 76                       03-Sep-17
+                                   78      Liverpool - Halewood                                          When ordering, ask for 78                       20-Jan-19
+                                   79      Liverpool - Netherley or Halewood                             When ordering, ask for 79                       20-Jan-19
+                                  79C      Liverpool - Murdishaw                                         When ordering, ask for 79
+                                  79D      Liverpool - Netherley or Halewood                             When ordering, ask for 79
+                                   80      West Kirby - Newton                                           When ordering, ask for 80 W                     20-Jan-19
+                                   80      Liverpool - Speke                                             When ordering, ask for 80                       02-Sep-18
+                                  80A      Liverpool - L'pool Airport                                    When ordering, ask for 80
+                                  80E      Liverpool - Speke                                             When ordering, ask for 80
+                                   81      Speke - Bootle                                                When ordering, ask for 81                       20-Jan-19
+                                  81A      Speke/Liverpool Airport - Bootle                              When ordering, ask for 81
+                                   82      West Kirby - Greasby                                          When ordering, ask for 82 W                     21-Jan-19
+                                   82      Liverpool - Speke                                             When ordering, ask for 82                       02-Sep-18
+                                  82C      Liverpool - Liverpool South Parkway                           When ordering, ask for 82
+                                  82D      Speke - Liverpool                                             When ordering, ask for 82
+                                   86      Liverpool - Garston/Liv Sth Parkway                           When ordering, ask for 86                       02-Sep-18
+                                  86A      Liverpool - Liverpool John Lennon Airport                     When ordering, ask for 86
+                                  86C      Liverpool - Childwall circular                                When ordering, ask for 86
+                                  86D      Childwall - Liverpool                                         When ordering, ask for 86
+                                   89      St Helens - Liverpool J L Airport                             When ordering, ask for 89                       21-Jan-18
+                                   91      Birkenhead - Holmlands Estate Circular                        When ordering, ask for 91                       05-Nov-18
+                                   97      Kirkby circulars                                              When ordering, ask for 97                        22-Jul-18
+                                  97A      Kirkby circulars                                              When ordering, ask for 97
+                                   98      Kirkby circulars                                              When ordering, ask for 97
+                                  98A      Kirkby circulars                                              When ordering, ask for 97
+                                   99      Whiston - Prescot                                             When ordering, ask for 99                       28-May-18
+                                  102      Black Bull - Page Moss/Aintree/B'green Hosps                  When ordering, ask for 102                      25-Feb-13
+                                  106      Liscard - Wallasey Circular                                   When ordering, ask for 106                      03-Sep-17
+                                  111      Parr - Lea Green Station                                      When ordering, ask for 111                      03-Sep-17
+                                  121      Walton Hall Park - Fazakerley - Croxteth Park                 When ordering, ask for 121                      22-Apr-18
+                                  129      Liscard - Frankby                                             When ordering, ask for 129                      26-Jan-14
+                                  133      Kirkby Admin - Waterloo Interchange                           When ordering, ask for 133                       24-Jul-16
+                                  135      Aintree Station - Bootle                                      When ordering, ask for 135                       02-Jul-18
+                                  136      Waterloo/Bootle - Liverpool                                   When ordering, ask for 135
+                                  137      St Helens - Billinge circular                                 When ordering, ask for 137                      03-Sep-17
+                                  140      St Helens - Bold Heath/Rainhill Station                       When ordering, ask for 140                      21-Jan-19
+                                  141      St Helens - Earlestown/Newton-Le-Willows                      When ordering, ask for 141                      10-Oct-17
+                                  144      Bootle - Litherland - Netherton                               When ordering, ask for 144                      05-Nov-18
+                                  152      St Helens - Ormskirk                                          When ordering, ask for 38
+                                  153      St Helens - Norley Drive                                      When ordering, ask for 153                      23-Apr-17
+                                  156      Ashton - St Helens - Lea Green                                When ordering, ask for 156                      03-Sep-17
+                                  157      Rainford - Ashton                                             When ordering, ask for 157SH                    20-Apr-15
+                                  158      Bootle - Aintree circular                                     When ordering, ask for 157
+                                  159      Walton Park - Aintree University Hospital                     When ordering, ask for 159                      20-Jan-19
+                                  166      Garston circular                                              When ordering, ask for 166                      20-Jan-19
+                                  167      Garston  - Grassendale circular                               When ordering, ask for 167                      10-Apr-12
+                                  174      Liverpool - Belle Vale                                        When ordering, ask for 174                      22-Apr-18
+                                  174      Heswall - Lower Village                                       When ordering, ask for 174 W                    18-Feb-13
+                                  175      Heswall - Irby - Greasby circular                             When ordering, ask for 175                      03-Sep-17
+                                  181      Arrowe Park Hospital - Heswall                                When ordering, ask for 181                      10-Aug-14
+                                  188      Garston circular                                              When ordering, ask for 166
+                                  201      Speke - Royal Liverpool Hospital                              When ordering, ask for 201                      24-Apr-16
+                                  204      Liverpool One - Belle Vale                                    When ordering, ask for 204                      20-Jan-19
+                                  206      Hightown - Hall Road - Hightown                               When ordering, ask for 206                      06-Oct-13
+                                  211      Speke circular                                                When ordering, ask for 211                      05-Sep-15
+                                  214      Walton Hall Park - Croxteth Park                              When ordering, ask for 121
+                                  215      Walton Hall Park - Croxteth Park                              When ordering, ask for 121
+                                  216      Birkenhead - Arrowe Park Hospital                             When ordering, ask for 216                      14-Aug-11
+                                  217      Birkenhead - Arrowe Park Hospital                             When ordering, ask for 216 
+                                  217      Bootle - Kirkby - Huyton/Halewood                             When ordering, ask for 217                       22-Jul-18
+                                  219      Woodside - Mill Park                                          When ordering, ask for 418
+                                  224      Wallasey School circulars                                     When ordering, ask for 224                      25-Feb-13
+                                  227      Wallasey School circulars                                     When ordering, ask for 224 
+                                  227      Bootle - Kirkby - Huyton/Halewood                             When ordering, ask for 217
+                                  228      Wallasey School circulars                                     When ordering, ask for 224
+                                  229      Wallasey School circulars                                     When ordering, ask for 224
+                                  235      Bootle - Orrell circular                                      When ordering, ask for 135
+                                  239      Prescot - Broadgreen Hospital                                 When ordering, ask for 239                     23-Nov-18
+                                  245      Huyton circular                                               When ordering, ask for 146                      22-Jul-18
+                                  246      Huyton circular                                               When ordering, ask for 146
+                                  247      Huyton circular                                               When ordering, ask for 146
+                                  248      Prescot - Huyton                                              When ordering, ask for 248                      09-Oct-11
+                                  258      Stockbridge Village - Huyton                                  When ordering, ask for 258                      30-Oct-14
+                                  266      Garston circular                                              When ordering, ask for 166
+                                  281      Newton Le-Willows - Culcheth High School                      When ordering, ask for 281                     03-Sep-13
+                                  288      Garston circular                                              When ordering, ask for 166
+                                  289      Rainhill Stoops - Prescot circular                            When ordering, ask for 289                      22-Jul-18
+                                  290      Rainhill Stoops - Kirkby                                      When ordering, ask for 289
+                                  297      St Helens - Kirkby                                            When ordering, ask for 297                     02-Sep-18
+                                  300      Southport - Liverpool                                         When ordering, ask for 300                     22-Apr-18
+                                  310      Liverpool - Skelmersdale                                      When ordering, ask for 310                     02-Sep-18
+                                  315      Southport - Ormskirk (via Southport Hospital)                 When ordering, ask for 315                     12-Feb-18
+                                  320      St Helens - Ashton-in-Makerfield or Wigan                     When ordering, ask for 20 SH
+                                  329      St Helens - Warrington                                        When ordering, ask for 329                     22-Apr-18
+                                  345      Liverpool - Waddicar                                          When ordering, ask for 345                      23-Jul-17
+                                  347      Southport - Chorley                                           When ordering, ask for 347                     24-Apr-16
+                                  352      St Helens - Wigan                                             When ordering, ask for 352                     24-Apr-16
+                                  357      Arrowe Park Hospital - Neston                                 When ordering, ask for 357                     28-Jan-13
+                                  358      Arrowe Park Hospital - Neston                                 When ordering, ask for 357
+                                  360      Warrington - Wigan                                            When ordering, ask for 360                     08-Apr-18
+                                  375      Southport - Skelmersdale/Wigan                                When ordering, ask for 375                      22-Jul-18
+                                  385      Southport - Skelmersdale/Wigan                                When ordering, ask for 375
+                                  407      Liverpool - West Kirby                                        When ordering, ask for 407                     20-Jan-19
+                                  408      Wallasey Village - Birkenhead Circulars                       When ordering, ask for 408                     20-Jan-19
+                                  409      Woodside - Wallasey Circulars                                 When ordering, ask for 408
+                                  410      New Brighton - Woodside/Clatterbridge                         When ordering, ask for 410                     20-Jan-19
+                                  411      Woodside - New Brighton                                       When ordering, ask for 411                     20-Jan-19
+                                  413      Seacombe - Woodside                                           When ordering, ask for 413                     20-Jan-19
+                                  414      New Brighton - Woodside                                       When ordering, ask for 414                      22-Jul-18
+                                  418      New Ferry - Arrowe Park Hospital - Birkenhead                 When ordering, ask for 418                     03-Sep-17
+                                  420      West Kirby - Liverpool                                        When ordering, ask for 420                     22-Apr-18
+                                  423      Seacombe - Liverpool                                          When ordering, ask for 413
+                                  432      New Brighton - Liverpool                                      When ordering, ask for 432                     02-Sep-18
+                                  433      New Brighton - Liverpool                                      When ordering, ask for 432
+                                  437      West Kirby - Woodside/Liverpool                               When ordering, ask for 437                     20-Jan-19
+                                  464      Liverpool/Woodside - New Ferry                                When ordering, ask for 464                      08-Oct-18
+                                  471      Liverpool - Heswall                                           When ordering, ask for 471                     20-Jan-19
+                                  472      Heswall - Liverpool                                           When ordering, ask for 471
+                                  487      Liverpool - Neston                                            When ordering, ask for 487                     20-Jan-19
+                                  492      Birkenhead - Beechwood - Woodside                             When ordering, ask for 492                      08-Oct-18
+                                  495      Woodside - Upton Station                                      When ordering, ask for 492
+                                  500      Liverpool - Liverpool Airport - Runcorn                       When ordering, ask for 500                     20-Jan-19
+                                  520      Liverpool - Haydock                                           When ordering, ask for 520                     19-Jan-15
+                                  530      Liverpool - Knowsley Safari Park                              When ordering, ask for 530                      21-Jul-13
+                                  602      Newton-le-Willows - Ashton-in- Makerfield                     When ordering, ask for 602                     02-Sep-18
+                                  603      Newton - Ashton                                               When ordering, ask for 602
+                                  620      St Helens - Hindley Green                                     When ordering, ask for 20 SH
+                                  699      Liverpool Liverpool - University Of Liverpool                 When ordering, ask for 86                       23-Jul-17
+                                  786      Liverpool South Parkway - Halewood                            When ordering, ask for 786                     10-Aug-14
+                                  787      Liverpool South Parkway - Childwall                           When ordering, ask for 787                     19-Apr-15
+                                  800      Speke - Seaforth - Liverpool Freeport                         When ordering, ask for 800                     24-Apr-16
+                                  811      Leasowe/Moreton - Broughton                                   (WEBSITE ONLY)                                 23-Apr-17
+                                  827      Old Swan - Kirkby                                             When ordering, ask for 827                     19-Apr-15
+                                  835      Northwood - Seaforth                                          When ordering, ask for 835                      07-Oct-12
+                                  838      Hunts Cross - Seaforth                                        (WEBSITE ONLY)                                 22-Apr-18
+                                  839      Longview - Seaforth - Liverpool Freeport                      (WEBSITE ONLY)                                 23-Apr-17
+                                  870      Old Swan - Huyton                                             (WEBSITE ONLY)                                 22-Jan-17
+                                  881      Bootle - Jaguar Factory (Speke)                               When ordering, ask for 81
+                                  892      Liverpool - Kirkby                                            Renumbered 20X (WEBSITE ONLY)                   22-Jul-18
+                                  892      Bootle - Kirkby                                               Renumbered 217                                  22-Jul-18
+                                  897      Huyton Industrial Estate - Kirkby Admin                       (WEBSITE ONLY)                                 21-Jan-18
+                                  898      Page Moss - Kirkby Admin - Page Moss                          (WEBSITE ONLY)                                 22-Jan-17
+                                  899      Page Moss - Kirkby Admin - Page Moss                          (WEBSITE ONLY)                                 22-Jan-17
+                                  901      Leasowe Station - Curlew Way                                  When ordering, ask for 901                      07-Oct-12
+                                  917      Liverpool - LFC                                               When ordering, ask for 917                     11-Aug-18
+                                  919      Liverpool - EFC                                               When ordering, ask for 919                     16-Aug-14
+                                  920      St Helens - Haydock Industrial Estate                         When ordering, ask for 920                     04-Sep-16
+                                  F1       Formby Circulars                                              When ordering, ask for F1                       24-Jul-16
+                                  F2       Formby Circulars                                              When ordering, ask for F1
+                                  F3       Formby Circulars                                              When ordering, ask for F1
+                                  F4       Formby Circulars                                              When ordering, ask for F1
+                                  F5       Formby Circulars                                              When ordering, ask for F1
+                                  F6       Formby Circulars                                              When ordering, ask for F1
+                                  PR1      Esplanade - Southport - Esplanade                             When ordering, ask for PR1                      01-Oct-14
+                               Taxi One    Liverpool - Liverpool Football Club                           When ordering, ask for Taxi One                 09-Oct-11
+                                  X1       Liverpool - Runcorn - Windmill Hill                           When ordering, ask for X1                      20-Jan-19
+                                  X2       Liverpool - Preston via Southport                             When ordering, ask for X2                      01-Apr-18
+                                  X3       Liverpool - Kirkby                                            When ordering, ask for X3                      20-Jan-19
+                                  X5       Liverpool - Widnes                                            When ordering, ask for X5                      20-Jan-19
+                                  X8       Liverpool - Chester                                           When ordering, ask for X8                       28-Oct-18
+                                  X22      Moreton - West Kirby - Chester                                When ordering, ask for 22 W                    05-Nov-18
+                             Other publicity leaflets
+                              Leaflet:                                                                    Ask for:                                Date of Current 
+                                                                                                                                                  Timetable
+                             City Line Rail timetable Book 1                                             City 1 trains                                SEE WEBSITE
+                             City Line Rail timetable Book 2                                             City 2 trains                                 18-May-2019
+                             City Line Rail timetable Book 3                                             City 3 trains                                 18-May-2019
+                             City Line Rail timetable Book 4                                             City 4 trains                                 18-May-2019
+                             Northern Line Rail timetable                                                Northern trains                               18-May-2019
+                             Wirral Line Rail timetable                                                  Wirral trains                                 18-May-2019
+                             Liverpool Public Transport Guide                                            Liverpool map                                SEE WEBSITE
+                             Southport and Formby Public Transport Guide                                 Southport map                                SEE WEBSITE
+                             St Helens Public Transport Guide                                            St Helens map                                SEE WEBSITE
+                             Wirral Public Transport Guide                                               Wirral map                                   SEE WEBSITE
+                             Merseytravel's Tickets For Adults (aged 19+)                                Tickets for Adults                            August 2018
+                             Merseytravel's Tickets For Young People (aged 5 - 18)                       Tickets for Young People                      August 2018
+                             Merseytravel Travel Passes for Elderly & Disabled                           Travel Passes                                   Nov 2016
+                             Merseylink                                                                  Merseylink
+                             Mersey Ferries timetable                                                    Ferries timetable                            SEE WEBSITE
+                             Mersey Ferries Ultimate Day Out River Explorer leaflet 2017/18              River Explorer                                 2018/2019
+                             Spaceport                                                                   Spaceport                                      2018/2019
+                             Manchester Ship Canal Cruise 2018                                           Ship Canal Cruises                          May to Oct. 2019
+                             Tunnel Tours                                                                Tunnel Tours
+                             Liverpool Cycle Map                                                         Liverpool cycle
+                             Knowsley Cycle Map                                                          Knowlsey cycle
+                             Sefton Cycle Map                                                            Sefton cycle                                 SEE WEBSITE
+                             St Helens Cycle Map                                                         St Helens cycle
+                             Wirral Cycle Map                                                            Wirral cycle                                 SEE WEBSITE
+                             Liverpool City Centre Maps (L.C.C. Tourist)                                 City Centre Maps

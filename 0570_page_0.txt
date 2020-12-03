@@ -1,0 +1,47 @@
+                          Finding a needle in Haystack: Facebook’s photo storage
+                                    DougBeaver, Sanjeev Kumar, Harry C. Li, Jason Sobel, Peter Vajgel,
+                                                                      Facebook Inc.
+                                                 {doug, skumar, hcli, jsobel, pv}@facebook.com
+                   Abstract: ThispaperdescribesHaystack,anobjectstor-            and thereby wastes storage capacity. Yet the more sig-
+                   age system optimized for Facebook’s Photos applica-           niﬁcant cost is that the ﬁle’s metadata must be read from
+                   tion. Facebook currently stores over 260 billion images,      disk into memory in order to ﬁnd the ﬁle itself. While
+                   which translates to over 20 petabytes of data. Users up-      insigniﬁcant on a small scale, multiplied over billions
+                   load one billion new photos (∼60 terabytes) each week         of photos and petabytes of data, accessing metadata is
+                   and Facebook serves over one million images per sec-          the throughput bottleneck. We found this to be our key
+                   ond at peak. Haystack provides a less expensive and           problem in using a network attached storage (NAS) ap-
+                   higher performing solution than our previous approach,        pliancemountedoverNFS.Severaldiskoperationswere
+                   which leveraged network attached storage appliances           necessarytoreadasinglephoto: one(ortypicallymore)
+                   over NFS. Our key observation is that this traditional        to translate the ﬁlename to an inode number, another to
+                   design incurs an excessive number of disk operations          read the inode from disk, and a ﬁnal one to read the
+                   because of metadata lookups. We carefully reduce this         ﬁle itself. In short, using disk IOs for metadata was the
+                   per photo metadata so that Haystack storage machines          limiting factor for our read throughput. Observe that in
+                   canperformallmetadatalookupsinmainmemory. This                practice this problem introduces an additional cost as we
+                   choice conserves disk operations for reading actual data      have to rely on content delivery networks (CDNs), such
+                   and thus increases overall throughput.                        as Akamai [2], to serve the majority of read trafﬁc.
+                   1 Introduction                                                   Given the disadvantages of a traditional approach,
+                                                                                 wedesigned Haystack to achieve four main goals:
+                   Sharing photos is one of Facebook’s most popular fea-
+                   tures. To date, users have uploaded over 65 billion pho-      High throughput and low latency. Our photo storage
+                   tos making Facebook the biggest photo sharing website         systems have to keep up with the requests users make.
+                   in the world. For each uploaded photo, Facebook gen-          Requests that exceed our processing capacity are either
+                   erates and stores four images of different sizes, which       ignored, which is unacceptable for user experience, or
+                   translates to over 260 billion images and more than 20        handled by a CDN, which is expensive and reaches a
+                   petabytes of data. Users upload one billion new photos        point of diminishing returns. Moreover, photos should
+                   (∼60 terabytes) each week and Facebook serves over            be served quickly to facilitate a good user experience.
+                   one million images per second at peak. As we expect           Haystack achieves high throughput and low latency
+                   these numbers to increase in the future, photo storage        by requiring at most one disk operation per read. We
+                   poses a signiﬁcant challenge for Facebook’s infrastruc-       accomplish this by keeping all metadata in main mem-
+                   ture.                                                         ory, which we make practical by dramatically reducing
+                     This paper presents the design and implementation           the per photo metadatanecessarytoﬁndaphotoondisk.
+                   of Haystack, Facebook’s photo storage system that has
+                   been in production for the past 24 months. Haystack is        Fault-tolerant. In large scale systems, failures happen
+                   an object store [7, 10, 12, 13, 25, 26] that we designed      everyday. Ourusersrelyontheirphotosbeingavailable
+                   for sharing photos on Facebook where data is written          and should not experience errors despite the inevitable
+                   once, read often, never modiﬁed, and rarely deleted. We       server crashes and hard drive failures. It may happen
+                   engineered our own storage system for photos because          that an entire datacenter loses power or a cross-country
+                   traditional ﬁlesystems perform poorly under our work-         link is severed.   Haystack replicates each photo in
+                   load.                                                         geographically distinct locations. If we lose a machine
+                     In our experience, we ﬁnd that the disadvantages of         weintroduce another one to take its place, copying data
+                   a traditional POSIX [21] based ﬁlesystem are directo-         for redundancy as necessary.
+                   ries and per ﬁle metadata. For the Photos application
+                   most of this metadata, such as permissions, is unused         Cost-effective.  Haystack performs better and is less

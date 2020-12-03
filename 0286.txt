@@ -1,0 +1,92 @@
+                      
+                      
+                                                   PAYING AN INVOICE 
+                
+                                                                
+                
+               This guide provides instructions on how to pay an invoice through your NMLS account.  
+                
+               The Invoice section of the Home tab allows a user to view outstanding invoices. Users can also 
+               search for, review, pay and/or print invoices that are paid, unpaid, cancelled, or have failed 
+               payment.  
+                
+               NMLS will restrict access for all users associated with an NMLS entity that has an unpaid or 
+               failed payment invoice that has not been repaid within 30 days. The exception to this rule is for 
+               an Agency Fee Invoice (AFI) that is created by the regulator. Unpaid AFIs will not restrict your 
+               access to NMLS but may impact your ability to request the renewal of your license. Full access 
+               will be restored when all invoices sufficiently overdue to restrict access are paid. 
+                
+               How to Pay an Unpaid Invoice 
+               How to Repay a Failed Payment 
+               How to Repay an Unpaid or Failed Payment when Restricted 
+                
+               How to Pay an Unpaid Invoice 
+                
+                   1.  Navigate to the NMLS Resource Center. 
+                   2.  Click the Log in to NMLS button in the upper right corner. 
+                   3.  Click the Home tab. 
+                   4.  Click the Invoice link in the submenu. 
+                                                                                                     
+               The system displays all outstanding invoices (those in a “Failed” or “Unpaid” status). 
+                
+                                                                                                 
+                   5.  Click the View Invoice     icon to view the details of the specific invoice. 
+               Updated:  5/16/2016         Copyright © State Regulatory Registry LLC                   Page 1 of 3 
+                   6.  Click the Pay Invoice button. 
+                   7.  Follow the payment screens to complete the repayment process. If a payment is not 
+                       completed within 15 minutes, the user will be redirected to a page preceding the 
+                       payment submission section. 
+                       NOTE: All NMLS transactions that are paid by credit or debit card will have a 2.5 percent 
+                       service fee added to the charge. 
+                        
+                   8.  Submit payment by Visa, MasterCard or ACH.   
+                       NOTE: If payment is made using ACH,, state licenses will contain an “ACH 
+                       Payment on [payment date] – [category]” license item.The license item will 
+                       automatically clear after the payment has been processed.  
+                
+               How to Repay a Failed Payment 
+                
+               If a payment fails, a system-generated notification is sent indicating that the payment has failed. 
+               You are required to log in to NMLS to repay. The steps below outline this process. 
+                
+                   1.  Navigate to the NMLS Resource Center. 
+                        
+                   2.  Click the Log in to NMLS button the upper right corner. 
+                        
+                   3.  Click the Home tab. 
+                        
+                   4.  Click the Invoice link in the submenu.  
+                        
+                                                                                                     
+               The system displays all outstanding invoices (those in a “Failed” or “Unpaid” status).  
+                     
+                   5.  Click the View Invoice     icon to view the details of the specific invoice. 
+                 Updated:  5/16/2016         Copyright © State Regulatory Registry LLC                              Page 2 of 3 
+                                 
+                           6.  Click the Repay Invoice button. 
+                       
+                           7.  Enter Payment Information and Submit. If a payment is not completed within 15 
+                                minutes, the user will be redirected to a page preceding the payment submission 
+                                section. 
+                                 
+                                NOTE:  The system can save the same bank account or credit card information for up to 
+                                15 users. The 16th user to try and save the same payment information will receive an 
+                                error message. This user must choose to uncheck the save payment checkbox, or save 
+                                different payment information. 
+                       
+                      How to Repay an Unpaid or Failed Payment when Restricted 
+                       
+                      If restricted, NMLS prevents a user from accessing all other pages in NMLS except the 
+                      Outstanding Invoices and User Profile sections. The invoices that caused restriction have a “Y” 
+                      indicator displayed under the Overdue column header. 
+                       
+                                                                                                                                                      
+                                1.  To complete payment for the overdue invoice, click the View   icon. 
+                                2.  Click the Repay Invoice button (for a failed payment) or the Pay Invoice button (for 
+                                      an unpaid invoice). 
+                       
+                      For more information, please contact the NMLS Call Center at 1-855-NMLS-123 (1-855-665-
+                      7123). 
+                                 
+                       
+                     Updated:  5/16/2016                        Copyright © State Regulatory Registry LLC                                                       Page 3 of 3 
