@@ -25,3 +25,20 @@ class txt,digest,first-page,first-page-pdf,first-page-txt gray;
 ```
 
 The repository also includes automated metrics to help understand the overall structure, size, and temporal distribution of the documents.
+
+## 1. File Size
+
+| Property      | Value |
+| ------------- | ----- |
+| Smallest PDF | 2.00 KB |
+| Average PDF | 1.17 MB |
+| Largest PDF  | 55.19 MB |
+
+## 1. Creation Year
+
+| Property      | Value |
+| ------------- | ----- |
+| Youngest PDF | 2025 |
+| Average PDF | 2025 |
+| Oldest PDF  | 2025 |
+
