@@ -1,0 +1,2098 @@
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        A True Romance: Reading Erich Segal’s Love Story 
+         
+         
+         
+         
+         
+         
+         
+                              Laura Mäkinen 142 818 
+                              Master’s Thesis 
+                              Department of English 
+                              School of Humanities 
+                              University of Eastern Finland 
+                              August 2013 
+                                ITÄ-SUOMEN YLIOPISTO – UNIVERSITY OF EASTERN FINLAND 
+                                 
+                                  Tiedekunta –  Faculty                                                             Osasto – School 
+                                  Filosofinen tiedekunta                                                            Humanistinen osasto 
+                                  Tekijät – Author 
+                                  Laura Vilhelmiina Mäkinen 
+                                  Työn nimi – Title 
+                                  A True Romance: Reading Erich Segal’s Love Story 
+                                   Pääaine – Main subject                                          Työn laji – Level                     Päivämä             ärä – Date     S  i vu     mää       rä 
+                                  Englannin kieli ja kulttuuri                                                                                                                    – Number 
+                                                                                                                                                                                  of pages  
+                                                                                                   Pro gradu -tutkielma                   x                                       69 
+                                                                                                   Sivuainetutkielma                       
+                                                                                                   Kandidaatin tutkielma                   
+                                                                                                   Aineopintojen tutkielma                 
+                                  Tiivistelmä – Abstract 
+                                   
+                                  The  aim  of  this  thesis  is  to  demonstrate  that  Erich  Segal’s  Love  Story  is  a  romance  novel  despite  its 
+                                  unconventional use of romance elements. The study concentrates on two issues: the romance conventions and 
+                                  the portrayal of ethnicity. I begin with the conventions of romance. The presentation of these conventions is 
+                                  divided into two sections. First I discuss the history of the romance genre in order to show the conventions of 
+                                  romance that have characterized the genre from its beginning. Second I examine the formula of romance that is 
+                                  distinctive  to  more  contemporary  romance  novels.  In  the  third  theory  section  of  my  thesis  I  address  the 
+                                  portrayal of intercultural relationships in literature.  
+                                   
+                                  The analysis of Love Story is divided into three sections.  In the first section I concentrate on the romance 
+                                  elements that stem from the early form the Greek or Classic romances. I argue that despite the unconventional 
+                                  romance ending of Love Story, it contains plenty of other romance elements. I also argue that the ending of the 
+                                  novel is not significantly unconventional: while it is sad it is not without hope. In the second section I analyse 
+                                  Love Story based on the formula for popular romance. I analyse both its plot and its representation of the hero 
+                                  and the heroine. In the final section of my analysis I discuss the role of ethnicity in  Love Story. The ethnic 
+                                  heroine of the novel seems to attain the American Dream when she marries the WASP hero, but in reality she 
+                                  disappears behind her husband’s success.  
+                                   
+                                  In the final chapter of my thesis I conclude with my findings as well as present further research topics such as 
+                                  the oedipal relationship between the novel’s hero and his father. 
+                                  Avainsanat – Keywords 
+                                  Erich Segal, Love Story, romance, formula, ethnicity 
+                                                         
+                                                                                      
+          Contents 
+           
+          1. Introduction………………………………………………………………………1 
+             1.1 Erich Segal…………………………………………………………….…..2 
+             1.2 Love Story…................................................................................................3 
+          2. The Theory of Romance………………………………………………………….6 
+             2.1 Origins of Romance…………………………………………………….....7 
+             2.2 Formula for Popular Romance…………………………………………..14 
+             2.3 Intermarriage in Romance……………………………………………….25 
+          3. Analysing Love Story……………………………………………………………35 
+             3.1 Origins of Love Story………………………………………………….…35 
+             3.2 Formula for Love Story……………………………………………….….44 
+             3.3 Intermarriage in Love Story………………………………….……….….56 
+          4. Conclusion……………………………………………………………...…….....63 
+          References………………………………………………………………………….66 
+          Finnish Summary…………………………………………………………………..70 
+                           
+                            1 
+         
+        1. Introduction 
+         
+        Romance literature has for a long time been considered to be a ‘low’ genre. “Romantic 
+        fiction  is  so  stigmatised  at  present  that  it  has  received  very  little  academic  attention” 
+        (Fowler  1).  Although  romance  literature  has  since  the  1990s  attained  more  academic 
+        attention, it is still stigmatised as Jayne Ann Krentz’s claim “[f]ew people realize how 
+        much courage it takes for a woman to open a romance novel on an airplane” shows (1). It 
+        can be argued that romance has this stigma since romance novels are entertainment by 
+        women for women. It is this connection that Strehle and Carden claim was done much 
+        earlier: “[b]y 1739, writing what some consider the first novel, Richardson [...] formed the 
+        dismissive connection between ‘girls,’ ‘romances,’ ‘idle stuff,’ and forms of behaviour in 
+        which men‒sensible, worldly men‒believed they had no part” (xv). “The impulse […] to 
+        attach the romance derisively to women and women derisively to romance has led critics to 
+        denigrate the genre of romance” (Strehle and Carden xv). As Krentz claims, “[w]hen it 
+        comes to romance novels, society has always felt free to sit in judgment not only on the 
+        literature but on the reader herself” (1). Erich Segal, the author of Love Story, might have 
+        argued that it should include the author as well. 
+           In this thesis I will analyse Erich Segal’s Love Story. My aim is to demonstrate that 
+        Love Story is a romance novel as its title implies. I will discuss the romance genre and 
+        describe and analyse the generic conventions used in Love Story. The issue is important 
+        because  Love  Story  has  elements  that  are  not  typical  for  romances  such  as  the  novel 
+        continues after the couple marry and the heroine dies in the end. In order to analyse these 
+        elements I will firstly explain what the conventions of romance are. I will begin with the 
+        theory of romance and then apply it to my analysis of Love Story. I have divided the theory 
+        of romance into three sections: the history of romance literature, the formulaic nature of 
+                            2 
+         
+        popular  romance  novels,  and  the  treatment  of  intercultural  relationships  in  romance 
+        literature. Firstly, I will give a short account of the history of romance in order to show the 
+        conventions of romance that have characterized the genre for centuries. Secondly, I will 
+        discuss the formula that is distinctive for more contemporary popular romance novels. The 
+        formula  includes  two  sides:  a  more  universal  plot  type  and  stereotypical  characters. 
+        Thirdly, I will discuss how intercultural relationships are portrayed in romances and what 
+        their function is. 
+           After discussing the theory I will analyse Segal’s Love Story. My analysis is also 
+        divided into three sections: I will first address the romance conventions in Love Story, 
+        second the formula of Love Story, and then the role of exotic ethnicity in Love Story. The 
+        thesis will close with a concluding chapter. 
+         
+         
+        1.1 Erich Segal 
+         
+        Love Story, the first novel by Erich Segal, was initially written as a screenplay and later 
+        adapted into a novel and published on 4 February 1970. The novel became a best-seller 
+        before  the  movie  was  released  later  the  same  year.  The  movie  became  a  success  and 
+        “scor[ed] at the box-office, where it became the most profitable film since Gone With the 
+        Wind” (Pelzer 20).  
+           Erich Segal was an academic who taught Greek and Latin literature at Yale, Harvard 
+        and Princeton Universities. As Linda C. Pelzer writes, 
+         
+             [i]n addition to his study of Plautus, Segal […] edited a collection of critical 
+             essays on the Greek playwright Euripides and […] translated three of Plautus’s 
+                            3 
+         
+             comedies, earning praise for both his style and his interpretations. He […] also 
+             edited books on Plato, Caesar Augustus, and Greek tragedy. He was awarded a 
+             Guggenheim Fellowship in 1968.  (3) 
+              
+        The success of Love Story affected Segal’s credibility as a scholar, and he “agreed to take a 
+        leave of absence from his teaching position at Yale” (Pelzer 6). Love Story was nominated 
+        for  the  1971  National Book Award, “one of the most prestigious literary prizes in the 
+        United States,” but “five judges on the award’s fiction panel threatened to resign if it were 
+        not eliminated” (Pelzer 5). Pelzer claims that the novelist William Styron, who was one of 
+        the jurors, “justified the decision, noting that ‘it is a banal book which simply doesn’t 
+        qualify as literature’” (5). Before his death in January 2010, Segal had moved to England 
+        and was a teacher at Wolfson College in Oxford. 
+         
+         
+        1.2 Love Story 
+         
+        Segal’s novel Love Story depicts the first person story of Oliver Barrett IV, who comes 
+        from a family that has been wealthy and respected for generations. Oliver follows the 
+        family tradition of studying at Harvard and becoming a Harvard jock (i.e., someone who 
+        enjoys sports or is good at it). Since the Barretts are a conservative family, Oliver struggles 
+        to find his own identity and independence from his father.  
+           Oliver  meets  and  falls  in  love  with  Jennifer  Cavilleri,  a  working-class  Italian 
+        American  girl,  who  is  a  music  major  at  Radcliffe  College.  When  they  decide  to  get 
+        married, Oliver’s father opposes and eventually ends his financing of Oliver’s studies. 
+        Thus Jennifer, who has already graduated, becomes a teacher in order to support Oliver 
+                            4 
+         
+        while he studies at Harvard Law School. They struggle with money until after Oliver’s 
+        graduation when he takes a well-paying position at a law firm. The financial troubles now 
+        in the past, the lovers decide to start a family. When Jennifer does not get pregnant, in spite 
+        of their attempts, the couple seeks medical help only to find out that Jennifer is seriously ill 
+        and bound to die. Jennifer has to begin a costly cancer therapy which Oliver eventually 
+        becomes unable to afford. His only choice is to seek assistance from his father who agrees 
+        to help although Oliver does not provide the real reason for his financial need. Oliver’s 
+        father discovers later that Jennifer is ill and he goes to the hospital. What he discovers is 
+        that Jennifer has died only moments ago, and the novel ends with Oliver crying in his 
+        father’s arms. 
+           According to the American Legends Interviews, “[t]he reviewer for the Los Angeles 
+        Times, Ron Martinetti, wrote: ‘Although one can easily summarize the gist of Segal’s plot, 
+        his style presents a more difficult problem. What, for example, can one make of an author 
+        who has filled his book with page after page of the most tiresome clichés (‘You can dish it 
+        out, but you can’t take it’)?” (online). Martinetti was not the only reviewer who critiqued 
+        Erich Segal’s use of clichés. In Erich Segal’s obituary, Margalit Fox quotes Oberbeck who 
+        wrote in the Newsweek: “The banality of ‘Love Story’ makes ‘Peyton Place’’ look like 
+        ‘Swann’s Way’ as it skips from cliché to cliché with an abandon that would chill even the 
+        blood of a True Romance editor” (online).  
+           Although most reviewers did not appreciate  Love  Story  it  was,  according  to  the 
+        American Legends Interviews, “favorably reviewed in the New York Times by Christopher 
+        Lehmann-Haupt, and received a plug from Kurt Vonnegut, then a popular author among 
+        the young, who found the book ‘…as hard to put down as a chocolate éclair…’” (online). 
+           Pelzer claims that “Love Story is […] a tale of two loves,” but she continues by 
+        declaring  that  “[t]o  his  rather  typical  story  of  romantic  love,  Segal  crafts  a  more 
+                            5 
+         
+        compelling tale of filial love that is ultimately the real story of Love Story” (19). Although 
+        the  father  and  son  relationship  in  Love  Story  deserves  to  be  acknowledged,  I  am  not 
+        convinced it is the novel’s ‘real story.’ I will discuss this in my analysis of Love Story but 
+        first I will begin with the theory of romance. 
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+                            6 
+         
+        2. The Theory of Romance 
+         
+        The genre of romance has been the cause for much debate, since literary theorists have not 
+        been able to agree whether romance is a genre, formula, mode or strategy. As Barbara 
+        Fuchs writes in Romance, “[c]ritics disagree [...] about its origins and history, even about 
+        what it encompasses” (1). These difficulties of establishing romance as a genre stem from 
+        the changes romances have gone through: the male protagonist setting out on adventures 
+        has transformed into a modern heroine looking for true love. Heidi Hansson, the author of 
+        Romance Revived, presents another reason for the difficulty: the term ‘romance’ “is used to 
+        describe both a literary form and a literary quality” (11). As Jean Radford writes: 
+         
+             [i]t is possible to argue about ‘romance’ [...] that the only continuity is in the 
+             term:  that  there  is  no  historical  relationship  between  Greek  ‘romances’, 
+             medieval romance, Gothic bourgeois romances of the 1840s, late nineteenth 
+             century women’s romances and mass-produced romance fiction now ‒ except 
+             the generic term. (8)  
+              
+           Although  Radford  states  this  possibility,  she  does  not  agree  with  it  herself  and 
+        neither do I. I will examine the history of romance, its origins, and the differences and 
+        similarities in various forms of romance. I will do this in order to point out two important 
+        issues. Firstly, I want to indicate that although there are differences in the types of romance 
+        produced throughout the history of the genre, there are also similarities. Secondly, I want 
+        to make evident that romance has a history of referring back to older texts and repeating 
+        and rewriting them. 
+                            7 
+         
+           I will also discuss the formula for popular romance, i.e., “the structure of narrative or 
+        dramatic conventions employed in a great number of individual works” (Cawelti 5). In this 
+        section  I  will  present  in  detail  the  structure  and  conventions  used  in  popular  romance 
+        novels as opposed to the use of such conventions in romance literature. 
+           In  the  last  section  of  this  chapter  I  will  discuss  ethnicity  and  inter-ethnic 
+        relationships/marriages in romances and literature. I will begin by background information 
+        on the attitude towards ethnicity in the United States of America at the time Love Story was 
+        written. After that, I will discuss theories on ethnicity and how ethnicity is portrayed in 
+        literature. I shall also give examples of intercultural romantic relationships as displayed in 
+        literary narratives. 
+         
+         
+        2.1 Origins of Romance 
+         
+        It is debated whether romance is a genre, a strategy or a mode but what is agreed upon is 
+        that  romance  has  some  typical  conventions  that  have  been  characteristic  to  it  since 
+        Homer’s Odyssey. Hubert McDermott claims that Odyssey is the first romance and “the 
+        archetype [...] of all great romance” (12). Not all agree that Odyssey is the first romance 
+        but the importance of Odyssey to romance literature is not questioned since, according to 
+        Fuchs, it “establishes some of the most enduring and recurring of romance strategies” (14). 
+           It is the presence of these strategies, or conventions of romance, that can be found in 
+        Odyssey, which has led McDermott to claim that “[a]ny discussion of Greek romance must 
+        inevitably begin with Homer’s Odyssey” since it is “archetypal in that it sets the pattern for 
+        all  subsequent  romances,  whether in  the  design  of  the  narrative  or  the  use  of  specific 
+        scenes and incidents to symbolise primary human experiences” (12). The conventions of 
+                            8 
+         
+        romance  that  have  their  origin  in  the  Odyssey  and  continue  in  Greek  romances  are, 
+        according to McDermott, the following ones: the protagonists’ “private story of domestic 
+        and adventurous life”, the introduction of love and sexuality (although “the love presented 
+        is a mature love between a couple who have been married for a very long time”), and the 
+        happy ending which McDermott attests to be found in every Greek romance (13-14). Fuchs 
+        has a slightly different approach on romance as she points to the existence of the following 
+        romance  elements  of  Greek  (or  what  she  calls  the  Classic)  romances:  “occluded  and 
+        subsequently revealed identities, idealized protagonists, marvels and monsters, tasks and 
+        tests”  (36).  She  mentions  these  elements  in  particular  since  in  her  view  their  “striking 
+        repetition […] in medieval romance suggests that, regardless of its critical reception then 
+        and now, classical romance had a long and influential afterlife” (36). 
+           Medieval romance as a term originally meant the transformation of Latin texts, such 
+        as Greek and Roman legends and certain classical texts, into romance languages (Fuchs 37, 
+        39).  What this  means is  that  some  or  many  of  the  medieval  romances  are  older  texts 
+        rewritten in French. They are not purely translated but also transformed to fit in a different 
+        time and place (Fuchs 50-51). Fuchs writes that the medieval romance 
+         
+             is  conventionally  defined  as  the  group  of  narratives  in  the  vernacular  that 
+             emerge around 1150 in the court of Henry II  and Eleanor of Aquitaine in 
+             England [...] and tell stories of love and adventure. Although generally situated 
+             in a distant classical or Arthurian past, the stories feature all the trappings of 
+             contemporary  court  and  chivalric  culture,  so  that,  for  example,  Greek  and 
+             Roman “knights” skirmish in patently medieval tournaments. (39) 
+         
+                            9 
+         
+        The court is such an important setting for romances of this era that they are often described 
+        as  romances  of  courtly  love  (McDermott  100).  Another  important  characteristic  for 
+        medieval  romances  is  idealization,  which  according  to  Fuchs,  is  accounted  for  by  the 
+        above-mentioned  courtly  setting  (40).  Although  the  medieval  romance  does  not  differ 
+        much from the earlier form of romance, medieval writers like Malory and Chaucer did 
+        treat romantic love in a more realist way, as suggested by Lynne Pearce (35). She states in 
+        her book Romance Writing that  
+         
+             the trials and adventures that constitute a test of chivalry in early romance are 
+             refigured [in Chaucer's Troilus and Criseyde (c. 1385) and in Malory’s Morte 
+             d’Arthur (1485)] as the psychological challenges of romantic love itself. Love, 
+             at  last,  becomes  the  true  object  of  the  romance  genre,  and  the  fantastical 
+             ‘external’  challenges  facing  earlier  knights  now  re-shape  themselves  as  the 
+             doubts and demons of the lover’s interior consciousness. (Pearce 35; italics 
+             original) 
+               
+        This highlighting of the knights’ experience of love in medieval romances is mentioned 
+        also by Fuchs, and she adds to the distinctive features of medieval romances that “there is a 
+        much greater emphasis on the private over the public [and] on the perspective of women” 
+        (39).  Heidi  Hansson  discusses  women’s  role  in  medieval  romances  in  more  detail. 
+        According to Hansson, 
+         
+             Medieval romances often elevate women to quite impossible status, and the 
+             image of the unattainable but always desirable woman provides the tension and 
+             propels the plot in romances from the Middle Ages onwards. The lady of the 
+                            10 
+         
+             courtly romance has a power unknown to most medieval women, even though 
+             this  power  resides  almost  exclusively  in  the  emotional  sphere.  There  is  an 
+             inherent paradox in the romance: it is the literary genre which most clearly 
+             seems to restrict Woman by defining her place and identity, at the same time as 
+             it is the genre where women’s power is acknowledged. (83) 
+              
+        The desirability of a woman makes her powerful because it makes her capable of seducing 
+        men. Hansson continues by stating that “Woman is frequently perceived as a threat to male 
+        bonding or to a man’s honour, as when Lancelot betrays his lord Arthur by committing 
+        adultery with Guinevere, or as in the story of Tristan and Isolde. Women threaten the 
+        social order because they are desirable, and consequently dangerous” (84).  
+           This  emphasis  on  women  continues  in  the  Renaissance  period  when  “women 
+        increasingly took the title roles in prose romance” (Pearce 36). Although the romances of 
+        courtly love continued their success in the sixteenth century, the century was also marked 
+        by the rediscovery of the Greek romances, which were widely translated and imitated in 
+        Europe (McDermott 106, Fuchs 66). After the sixteenth century there also seems to be a 
+        shift  from only male authors of romance to both male and female authors of romance. 
+        Female writers such as Madeleine de Scudéry, Margaret Cavendish, and Lady Mary Wroth 
+        are mentioned by Hubert McDermott and Lynne Pearce. 
+           Don  Quixote,  the  famous  novel  that  affected  the  development  of  romance,  was 
+        written in the early seventeenth century. Although it is not a romance, it is important for 
+        the history of romance literature since it parodies medieval romances and their popularity 
+        (McDermott 104, Fuchs 78). Virginia Brackett defines Don Quixote (1605) as an anti-
+        romance in which Cervantes “simultaneously restructured the romance, offering new ways 
+        to  adapt  its  elements”  (xiii).  Brackett  continues  that  “Cervantes  places  [romance 
+                            11 
+         
+        conventions] in a different context, thereby redefining and renewing their usefulness in 
+        romantic writings” (288). Although literary scholars disagree on several points, they all 
+        claim the importance of Don Quixote for the romance in the seventeenth century as it 
+        marks the beginning of the critique of the genre. As Fuchs states: 
+         
+             [t]he  trajectory  of  romance  after  the  Renaissance  is  complex  and  often 
+             paradoxical. While Greek and chivalric romance, in particular, continued to 
+             prove  hugely  popular  with  readers,  critical  predilection  for  new  kinds  of 
+             narrative fiction led from an initial embrace of French “heroic” romance in the 
+             seventeenth  century  to  the  gradual  marginalization  of  romance  as  a  “low” 
+             genre in subsequent periods. (99) 
+         
+        McDermott claims that the French ‘heroic’ romance’s “most obvious difference [from the 
+        Greek romance] is the change in the handling of the theme of love”, and he mentions 
+        virtue, propriety, and duty as the innovations of the French romance (115‒6). Virtue and 
+        propriety found in the French romance displace ‘passion’ from the center of romance: “the 
+        rhetorical  admixture  of  the  spiritual  and  the  sexual  that  we  find  here  [still  in  the 
+        seventeenth century] becomes increasingly polarized in the course of the next century, and 
+        the residual ideology of courtly love will bear the echo of a bygone age” (Pearce 55). 
+           To use Fuchs’s words, “the trajectory of romance” persists on its complexity after the 
+        seventeenth  century.  Although  the  genre  “breaks  down  into  a  number  of  quite 
+        distinguishable  subgenres,”  in  Hansson’s  view  those  subgenres  “belong  to  a  common 
+        tradition” (29). With the printing press and the novel’s ability to reach various people, the 
+        readership of romance expands rapidly. This leads to different demands for romance. On 
+        one hand, romance readers desire seduction and, on the other hand, they wish for more 
+                            12 
+         
+        virtuous heroines. These demands can be seen in Pearce's claim that the eighteenth century 
+        romances  can  be  roughly  divided  into  three  types:  the  Gothic  romance,  the  courtship 
+        romance, and the seduction romance (62). According to Fuchs, the Gothic romance is 
+        “[f]rom its beginnings [...] explicitly presented as a mixture of new and old” (119). The 
+        history of romance is full of repetition as one can once again notice with the continual of 
+        medieval elements in Gothic romances: “what makes the Gothic so popular is precisely its 
+        gallery of marvelous and otherworldly topoi” (Fuchs 121). 
+           Although  romance  literature  relies  on  its  iterability,  it  also  faces  changes.  The 
+        courtship romance “severs sex from love and sends it underground, and we have to wait 
+        until the end of [the eighteenth] century ‒ and the beginning of the next ‒ for [...] elusive 
+        ‘it’  to  once  again  make  its  appearance”  (Pearce  55).  The  Gothic  and  the  courtship 
+        romances have obtained the attention in the eighteenth century to such an extent that the 
+        seduction romance is less known and it can come as a shock for those used to reading “the 
+        canonical texts of school and university syllabi” (Pearce 77). Pearce quotes Delarivière 
+        Manley, “one of the true ‘bad girls’ of eighteenth-century literature”, and “her blacklisted 
+        novel The New Atalantis (1709)”: 
+         
+             But the Duke's pursuing kisses overcame the thoughts of anything but the new 
+             and lazy poison stealing to her heart and spreading swiftly and imperceptibly 
+             through all her veins; she closed her eyes with languishing delight! delivered 
+             up the possession of her lips and breath to the amorous invader, returned his 
+             eager grasps and, in a word, gave her whole person into his arms in meltings of 
+             delight! (qtd in Pearce 77) 
+               
+                            13 
+         
+        It is important to be aware that texts such as the above exist, in order “to fully understand 
+        the origins of twentieth-century Mills & Boon fiction” (Pearce 77). 
+           Mills & Boon fiction or ‘Harlequin romances’ are terms often used when discussing 
+        popular romance novels. Their name comes from an extremely successful publishing house 
+        that produces romances in a steady supply. Their sale “make[s] up more than half of all 
+        sales in popular paperback fiction [...] in North America” (Fuchs 124). Pearce connects 
+        popular romance novels and the seduction romance because “it is clear that its [Mills & 
+        Boon  fiction’s]  bodice-ripping,  soft-porn  elements  owe  a  very  obvious  debt  to  these 
+        subcultural prototypes” (77). Pearce goes on claiming that  
+         
+             [i]n terms both of erotic scenario and, even more importantly, of the control of 
+             the protagonists’/reader’s gaze, Manley’s story of the innocent ‒ but infinitely 
+             corruptible ‒ young virgin, Charlot, looks ahead to any number of Mills & 
+             Boon fantasies in which a fatherly rake eventually has his wicked way with his 
+             initially resistant, but then yielding, object of desire. (77) 
+         
+           While these popular romances, at first, seem to be far from the Greek and medieval 
+        romances, they are also considered to be romances in their own right. In Fuchs’s view the 
+        reason for this is that these narratives combine various elements found in the earlier forms: 
+        “they are often characterized by a nostalgic vision of the past, a relentlessly idealizing tone, 
+        and an emphasis on the female sphere, from a female protagonist to a view of the world 
+        organized around love” (125). Fuchs also states that “the female heroine is of central 
+        importance,  as  is  the  authorial  voice  implied  in  association’s  assumption  of  a  female 
+        writer” (125). She continues that “[m]en may well write romance novels pseudonymously, 
+        but they must be published under female names” (125). 
+                            14 
+         
+           Modleski points out that “[l]ike the Harlequins of the present day, the [sentimental] 
+        novels  repeatedly  insisted  on  the  importance  of  the  heroine’s  virginity.  In  the  classic 
+        formula, the heroine, who is often of lower social status than the hero, holds out against his 
+        attacks on her ‘virtue’ until he sees no other recourse than to marry her” (17). Fuchs also 
+        comments on this formula and by stating that “like chivalric romances, romance novels are 
+        remarkably iterable: their familiarity, as variations on a basic narrative, is a large part of 
+        what makes them so appealing to readers” (125). It is this “basic narrative” ‒ the formula 
+        of the romance ‒ that I will concentrate on in the following section. 
+         
+         
+        2.2 The Formula for Popular Romance 
+         
+        In the previous section I discussed the conventions of romance literature that have been 
+        typical for it since the Greek romances. In this section, I will discuss the conventions or 
+        formulas that are typical for popular romance novels. According to Cawelti, “there are two 
+        common usages of the term formula” (5). I will discuss them both since “popular story 
+        type[s]…combine[…] these two sorts of literary phenomenon” (Cawelti 6). Thus they are 
+        rather two different sides of one single formula. I will, however, deal with the two sides 
+        separately in order to simplify matters. 
+           Firstly, I will discuss the usage of the term formula that, according to Cawelti, “refers 
+        to larger plot types” (5). I will also examine the structure of popular romance narratives in 
+        order to show a more detailed ‘plot type’ that is typical for romances. Secondly, I will 
+        discuss the usage of the term formula that, according to Cawelti, “denotes a conventional 
+        way of treating some specific thing or person” (5). Cawelti extends this definition also to 
+        “any cultural stereotype found in literature” (5). I will relate this type of formula to popular 
+                            15 
+         
+        romance novels by discussing the conventional way in which the hero and heroine of 
+        romance are treated in those novels and the cultural stereotypes that they represent. 
+           As I established above, the term formula refers to both the “conventional way of 
+        treating some specific thing or person” and “larger plot types” (Cawelti 5). In Cawelti’s 
+        view, the significant difference between these two definitions of a formula is that the first 
+        is used to refer “to patterns of conventions which are usually quite specific to a particular 
+        culture and period and do not mean the same outside this specific context” (5). The latter 
+        definition, on the other hand, refers to more universal plot patterns that “have certainly 
+        been popular in many different cultures at many different times” (Cawelti 6). The typical 
+        formula or plot pattern for the romance narrative is that a boy and a girl meet, they fall in 
+        love, the course of their relationship encounters obstacles but the couple eventually solves 
+        the problems, marry, and the narrative ends with the impression that they will live happily 
+        ever after. Ann Rosalind Jones also introduces “a summary of a typical romance plot” that, 
+        according to her, has “been stabilized in the genre and is still used by older writers” (198). 
+        According to Jones, it can be presented as follows: 
+         
+             The heroine, a virgin in her early twenties, is set in a social limbo: her family is 
+             dead or invisible, her friends are few or none, her occupational milieu is only 
+             vaguely filled in. As a result, her meeting with the hero occurs in the private 
+             realm which excludes all concerns but their mutual attraction; the rest of the 
+             world drops away except as a backdrop (often exotic and luxurious, defined 
+             through the hero’s wealth and taste). The hero, seven to ten years older than the 
+             heroine, is dazzlingly successful in the public world; in private life he is a rake 
+             or  a  mystery,  saturnine  in  appearance,  sexually  expert,  and  relentlessly 
+             domineering. He takes the reins erotically, naming the heroine’s desires to her 
+                            16 
+         
+             (‘You know you want me, why resist?’); all she can do is submit or flee. She 
+             tries  constantly  to  interpret  his  behavior,  which  alternates  abruptly  between 
+             tenderness and rejection. Finally, after a separation, the hero tracks the heroine 
+             down, explains his earlier motives and offers her love and marriage. They fall 
+             into a final embrace… (198‒9) 
+              
+        Jones does not mention in her plot outline the heroine’s financial status but she is usually 
+        poor, while the hero, as Jones describes, is wealthy. In Modleski’s view this presents the 
+        main reason for the events that are about to follow: 
+         
+             While the novels are always about a poor girl finally marrying a rich man, 
+             preferably of the nobility, they must be careful to show that the girl never set 
+             out to get him and his goods. This is of course a simple reflection of the double 
+             bind imposed upon women in real life: their most important achievement is 
+             supposed to be finding a husband; their greatest fault is attempting to do so. 
+             (48) 
+         
+        According  to  Modleski,  because  women  are  supposed  to  have  this  ulterior  motive  of 
+        finding a rich husband, in romance narratives the heroine is often portrayed as immune to 
+        the hero’s charm: “the heroines are usually ‘determined to hate’ the hero for his impossible 
+        arrogance, a quality he possesses only because of his economic security‒unlike the rest of 
+        us, he bows to no man” (49). Modleski continues that “[t]he woman’s determination to 
+        hate the hero at once absolves her of her mercenary motives and becomes the very means 
+        by which she obtains the hero’s love, and, consequently, his fortune” (49). 
+                            17 
+         
+           Janice A. Radway, the author of Reading the Romance, has a different approach to 
+        the formula of romance narrative. She interviewed for her book a group of women who are 
+        enthusiastic romance readers. The women all live in a place called Smithton – hence they 
+        are  called  the  Smithton  women.  Radway  discovered  the  Smithton  women’s  favourite 
+        novels  and  applied  “Vladimir  Propp’s  method  for  determining  the  essential  narrative 
+        structure of folktales” (133) to them. Thus Radway resulted in “a list of thirteen logically 
+        related functions”: 
+               
+             1. The heroine’s social identity is destroyed. 
+             2. The heroine reacts antagonistically to an aristocratic male. 
+             3. The aristocratic male responds ambiguously to the heroine. 
+             4. The heroine interprets the hero’s behavior as evidence of a purely sexual 
+             interest in her. 
+             5. The heroine responds to the hero’s behavior with anger or coldness. 
+             6. The hero retaliates by punishing the heroine. 
+             7. The heroine and the hero are physically and/or emotionally separated. 
+             8. The hero treats the heroine tenderly. 
+             9. The heroine responds warmly to the hero’s act of tenderness. 
+             10. The heroine reinterprets the hero’s ambiguous behaviour as the product of 
+             previous hurt. 
+             11.  The  hero  proposes/openly  declares  his  love  for/demonstrates  his 
+             unwavering commitment to the heroine with a supreme act of tenderness. 
+             12. The heroine responds sexually and emotionally. 
+             13. The heroine’s identity is restored. (134) 
+         
+                            18 
+         
+        These  thirteen  functions  provide  a  summary  of  “the  narrative  structure  of  the  ideal 
+        romance” as  well  as  describe  “the  heroine’s  transformation  from  an  isolated,  asexual, 
+        insecure adolescent who is unsure of her own identity, into a mature sensual, and very 
+        married woman who has realized her full potential and identity as the partner of a man and 
+        as the implied mother of a child” (Radway 134). Pearce describes Radway’s study as a 
+        “ground-breaking ethnographic study of (female) popular romance readers” (12). Pearce 
+        goes  as  far  as  to  claim  that  “there  are  very  few  Hollywood  Romances  that  depart 
+        significantly from […] Radway’s list of functions” (13).  
+           The Smithton women allege that Erich Segal’s Love Story is not a romance, since “a 
+        romance is first and foremost, a story about a woman” (Radway 64). Radway continues 
+        that “[t]hat woman, however, may not figure in a larger plot simply as the hero’s prize, as 
+        Jenny Cavileri does, for instance in Erich Segal’s Love Story” (64). She also states that 
+        “[t]o qualify as a romance, the story must chronicle, not merely the events of a courtship 
+        but what it feels like to be the object of one” (Radway 64; emphasis original). Love Story is 
+        written from the hero’s point of view and as a first-person narrative and it thus fails the 
+        Smithton women’s requirement for romance. Nevertheless, it is the list of functions that in 
+        Radway’s  view  reveals  the  ideal  romance,  and  as  the  functions  on  Radway’s  list  are 
+        collected from the novels the Smithton women enjoy the most, I feel it important to base 
+        one aspect of my analysis of Love Story on Radway’s categories. Thus I will note whether 
+        the Smithton women have any basis for their claim. 
+           As the structure of romance narratives has now been covered, I shall turn to the other 
+        side of a formula: the treatment of specific things or persons as well as commonly used 
+        cultural stereotypes. Cawelti stresses that with this kind of usage of the term formula it is 
+        imperative  to  notice  “that  it  refers  to  patterns  of  conventions  which  are  usually  quite 
+        specific to a particular culture and period and do not mean the same outside this specific 
+                            19 
+         
+        context” (5). Cawelti offers as an example the transformation of “the nineteenth-century 
+        formulaic relation between blondness and sexual purity […] in the twentieth century to a 
+        very different formula for blondes” (5). 
+           The  formula  for  the  hero  and  heroine  has  also  changed  in  the  course  of  time. 
+        Deborah Philips describes the period when Love Story was written as follows: 
+         
+             The period from the late 1960s and throughout the 1970s saw the burgeoning 
+             of  a  genre  of  women’s  writing  which  dated  back  to  the  early  1960s:  the 
+             narrative of a young woman who leaves home to go to university, and who 
+             there encounters a wide world of intellectual and romantic opportunity. The 
+             ‘college girl narrative’ became a publishing phenomenon in both Britain and 
+             America, coinciding with a growth in higher education and with an increase in 
+             the numbers of women students. (Philips 55) 
+              
+        Thus during this period it was typical for the heroine to be a college girl. Philips also 
+        acknowledges that “[t]he fact that women were in the minority in higher education made 
+        for a particular kind of heroine in the campus novel: the intelligent achieving woman” (56). 
+        Though these narratives were popular in both Britain and America, there was a difference 
+        in style because 
+         
+             [t]he American student, however, was reliant on scholarships or family help to 
+             fund a college education. The issue of financial support and the difference that 
+             this  can  make  to  a  choice  of  university  is  on  the  agenda  in  the  American 
+             version  of  the  college  narrative,  and  families  have  a  greater  financial  and 
+             emotional hold over the student. (Philips 64)  
+                            20 
+         
+         
+        Philips also notes that “the woman undergraduate became a regular heroine for popular 
+        novels” (64). Philips describes Love Story as a “hugely successful novel of college life and 
+        inter-class romance” that “established the American college girl as a fashion and romantic 
+        icon” (64). 
+           The intelligent and achieving American college woman coincides with the demands 
+        the Smithton women have for a heroine, since Radway observes that “the Smithton readers 
+        describe  their  favorite  heroines  as  ‘intelligent,’  ‘spunky,’  and  ‘independent’”  (125). 
+        Radway translates this to mean that “the ideal heroine is differentiated from her more 
+        ordinary  counterparts  in  other  romance  novels  by  unusual  intelligence  or  by  an 
+        extraordinarily  fiery  disposition”  (123).  Although  the  heroine  is  often  spunky,  she  is 
+        nevertheless  “always  portrayed  as  unusually  compassionate,  kind  and  understanding” 
+        (Radway  127).  Radway  also  highlights  that  the  ideal  heroine  possesses  extraordinary 
+        beauty as well as has a skill that differentiates her from other women (124). Radway also 
+        names  many  heroines  who  “exert  their  superiority  by  manipulating  language”  (124). 
+        Barlow and Krentz also describe the  romance  heroine’s  way  with  words:  “In  modern 
+        stories  heroines  continue  to  charm,  provoke,  and  challenge  their  lovers  with  their 
+        conversation” (23). Barlow and Krentz also remark that “[p]rovocative, confrontational 
+        dialogue has been the hallmark of the adversarial relationship that exists between the two 
+        major characters ever since the earliest days of romance narrative” (22). 
+           Barlow and Krentz discuss further the manner of dialogue between hero and heroine 
+        and they emphasize that 
+         
+             [t]he reader knows that in the conflict between hero and heroine the heroine 
+             will  never  have  to  pull  her  punches.  She  won’t  have  to  worry  ‒  as  many 
+                            21 
+         
+             modern women do in their everyday lives ‒ about being too assertive, too 
+             aggressive, too verbally direct because this hero is as strong as she is. He is a 
+             worthy opponent, a mythic beast who is her heroic complement. (19) 
+              
+        The reader knows this because of the formulaic nature of the popular romance narratives. 
+        The  story  is  always  already  known  (see  e.g.  Modleski).  The  reader  can  enjoy  the 
+        “confrontational dialogue” since she or he knows that the hero of the romance is equal to 
+        the heroine.  
+           An important part of romance literature is idealization, which can be seen in the way 
+        in  which  romances  contain  “fantasies  of  fulfilling  relationships”  and  the  “desire  for 
+        ‘another’ ([who is] taller, richer, braver, more experienced than ourselves)” (Pearce and 
+        Stacey,  13).  Cawelti  discusses  the  latter  type  of  idealization  and  claims  that  “[t]he 
+        protagonists of formulaic literature are typically better or more fortunate in some ways 
+        than  ourselves”  (18).  He  continues  that  “[t]hey  are  heroes  who  have  the  strength  and 
+        courage to overcome great dangers, lovers who find perfectly suited partners, inquirers of 
+        exceptional  brilliance  who  discover  hidden  truths,  or  good,  sympathetic  people  whose 
+        difficulties  are  resolved  by  some  superior  figure”  (Cawelti  18).  The  protagonists  in 
+        romance narratives are not only better when it comes to finding a perfect match but they 
+        are also physically very attractive: just as the heroine is extremely beautiful, the hero has 
+        an unexceptionally masculine physique. As Radway claims, “[t]he hero of the romantic 
+        fantasy is always characterized by spectacular masculinity” and that “[a]lmost everything 
+        in  him  is  hard,  angular  and  dark”  (128).  Nevertheless,  she  also  indicates  that  “the 
+        terrorizing effect of [the hero’s] exemplary masculinity is always tempered by the presence 
+        of a small feature that introduces an important element of softness into the overall picture” 
+        (128). Radway gives examples such as “wide, melting Oriental eyes” or “’generous lips’ 
+                            22 
+         
+        which  have  a  ‘sensual  curve  to  them’”  that  might  soften  the  hero’s  otherwise  harsh 
+        appearance (128). 
+           According  to  Cawelti,  what  differentiates  the  individual  work  of  any  quality  or 
+        interest  from  other  formulaic  novels,  is  that  it  “must  have  some  unique  or  special 
+        characteristics of its own” (10). In order to have these characteristics in the novel, the 
+        writer must have abilities to make them. Cawelti claims that there are “at least two special 
+        artistic skills that all good formulaic writers seem to possess to some degree: the ability to 
+        give new vitality to stereotypes and the capacity to invent new touches of plot or setting 
+        that are still within formulaic limits” (10-11). Cawelti mentions two ways in which the 
+        stereotypes can be vitalized: the first one is “the stereotypical character who also embodies 
+        qualities that seem contrary to the stereotypical traits”, and the second is “the addition of 
+        significant touches of human complexity or frailty to a stereotypical figure” (11−12). 
+           Helen Hughes describes the change in the nature of the typical hero as follows: 
+         
+             The ‘manly’ hero of the adventure stories of the 1890s ‒ a young and ingenious 
+             boy or man of action with few social graces ‒ gave place, after 1926 […] in the 
+             work of  Heyer  and  her  followers,  to  the  man  of  the  world  who  hides  his 
+             sensitivity  under  a  cynical,  even  brutal,  exterior.  Heroines  changed  less  in 
+             character, but their function ‒ of challenging the rules of society, in particular 
+             the  gender  roles  allotted  to  men  and  women  ‒  became  more  important. 
+             Cunning  and  love  of  power,  at  first  the  property  of  the  villain,  became 
+             associated with the heroes of later romances. (17) 
+         
+        Hughes associates this change “with a change of perspective in which the hero moved from 
+        object of identification to desirable other” (17). The focus of the narratives changed from 
+                            23 
+         
+        the hero to the heroine, but, despite Hughes’ claim, the readers still identify with the hero 
+        as well. As Kinsale claims, “it is myopic to believe that just because the reader is female 
+        she is confined to the heroine’s character as the target of authentic reader identification” 
+        (32). Krentz follows on the same lines as she claims that “[s]ometimes the reader identifies 
+        with  the  heroine;  sometimes  […]  the  heroine  functions  simply  as  a  placeholder,  and 
+        sometimes the reader identifies with the hero” (7). 
+           Barlow and Krentz describe the hero as follows: “He is no weakling who will run 
+        away or turn to another woman when the conflict between himself and the heroine flares. 
+        Instead,  he  will  be  forced  in  the  course  of  the  plot  to  prove  his  commitment  to  the 
+        relationship, and, unlike many men in the real world, he will pass this test magnificently” 
+        (20). Although Hughes claims that the hero hides his sensitivity, Krentz underlines that 
+        “[t]he heroine will not accept the hero completely until she has seen some evidence of her 
+        own gentleness  and  compassion  in  him”  (5).  But  before  this  happens,  the  hero  treats 
+        women badly: he may use them sexually and does not commit himself to one woman. To 
+        use Radway’s words, 
+         
+             In fact, in these romances, the heroine’s innocence is often contrasted explicitly 
+             with the hero’s previous promiscuity, behavior that is made tolerable to both 
+             the heroine and the reader because it is always attributed to his lack of love for 
+             his  sexual  partners.  His  exclusive  preoccupation  with  them  as  tools  for 
+             achieving sexual release is never blamed on his callousness or lack of respect 
+             for women, but rather on his virility and his fear of emotional involvement with 
+             calculating  women.  This  rationalization  conveniently  transforms  his  sexual 
+             promiscuity  from  an  arrogant  proclamation  of  his  adherence  to  the  double 
+             standard to a sign representing an absence, that is, the nonpresence of love. 
+                            24 
+         
+             Perversely, it testifies, then, to his inescapable and intense need for the heroine. 
+             Once she can provide that love by persuading him to trust her, his promiscuous 
+             impulses are curbed. Sexual fidelity in the ideal romance is understood to be 
+             the natural partner of “true love.” (130) 
+         
+        Although the hero is promiscuous before falling in love, romance readers expect him to 
+        remain faithful to the heroine after falling in love. The aim of this is to show to the readers 
+        and the heroine that he is worthy of the heroine. According to Radway, romance readers 
+        expect this, as she remarks that  
+         
+             [t]hroughout  [the  Smithton  women’s]  discussions  of  particular  books,  they 
+             repeatedly insisted that what they remembered and liked most about favorite 
+             novels was the skill with which the author described the hero’s recognition of 
+             his own deep feelings for the heroine and his realization that he could not live 
+             without her. While the women want to feel that the heroine will be protected by 
+             the  hero,  they  also  seem  to  want  to  see  her  dependency  balanced  by  its 
+             opposite, that is, by the hero’s dependence on her. (81) 
+         
+        Even though the hero is described as brutal, it is tenderness, compassion and the hero’s 
+        dependence  on  the  heroine  that  truly  characterize  the  hero  of  a  romance.  Since,  as 
+        Modleski puts it, “[e]ven when he appears most indifferent to her, as he frequently does in 
+        Harlequin Romances, we can be sure he will eventually tell her how much the thought of 
+        her has obsessed him” (16). 
+           In Love Story the protagonists have different ethnic backgrounds. Thus I will discuss 
+        ethnicity and intermarriage in the following section. 
+                            25 
+         
+        2.3 Intermarriage in Romance 
+         
+        In this section I will discuss the role of ethnicity and intercultural relationships in literature. 
+        Firstly  I  will  discuss how Italian Americans were viewed by others and by themselves 
+        during the decades before Love Story was published. Secondly I will examine the role of 
+        names as ethnic markers. Thirdly  I will discuss intercultural relationships portrayed in 
+        literature. 
+           Not long after Love Story was published, John Ibson wrote an article on “white 
+        ethnicity”. He suggests that during the 1960s  
+         
+             the recognition grew that white ethnicity remained meaningful. Both the past 
+             and present experience of white ethnics began to be explored with new rigor 
+             and  fresh  questions.  Revealingly,  American  novelists  had  never  stopped 
+             writing about white ethnicity, but the sixties did witness increased attention to 
+             the topic in fictional works of considerable artistry and appeal. (289) 
+               
+        Ibson includes in the people who can be classified in the category of white ethnicity “the 
+        ‘PIGS’  (Poles,  Italians,  Greeks,  and  Slavs)  [who]  have  cultures  so  incongruent  with 
+        America’s dominant culture that they cannot reasonably be expected to adapt” (289). Ibson 
+        calls this the “failure of ‘WASPification’” (289). 
+           Although Italian immigrants, according to Jennifer Guglielmo, “were in many of the 
+        most-critical ways ‘white on arrival’ in the United States: they could become citizens, own 
+        property, vote, represent themselves in a court of law, and marry whomever they chose” 
+        (126), they were not equal with the whites. In fact, according to Vecoli, Italians were 
+        “[c]lassified as ‘black’ labor” and as such they “were the object of loathing by American 
+                            26 
+         
+        union leaders and workers as well as by the upper classes” (51). Vecoli also states that “the 
+        nativist movement for immigration restriction made clear to Italian Americans that they 
+        were  viewed  as  inferior  and  undesirable”  (53).  Vecoli  continues  that  “[w]hen  federal 
+        agents  raided  their  neighborhoods  and  trashed  their  homes,  they  understood  that  the 
+        Eighteenth Amendment and the Volsted Act were aimed at their ‘un-American’ lifestyles” 
+        (53). Although immigrants from Europe were considered white, they were still considered 
+        to be ‘others’ because they had a different way of life. Friedman claims that “[t]he drive to 
+        coerce immigrants into assimilating coincided with a desire to expunge the difference and 
+        ‘otherness’ of ethnic newcomers, which culminated in the passage of the 1924 Immigrant 
+        Act” (181). In other words, it was a difficult time for the Italian Americans to develop an 
+        ethnic identity when they were considered to be white and black at the same time and they 
+        were pressured to assimilate into the American way of life. 
+           According  to  Stefano  Luconi,  “the  descendants  of  the  European  immigrants 
+        elaborated a common white self-image in the mid and late 1960s” (5). Fred Gardaphé 
+        claims that ‘lumping’ Italian immigrants and Italian Americans with whites, is “a practice 
+        that, although pleasing to those who wish to erase the immigrant past and thus pass as 
+        whites,  not  only  distorts  the  social  and  political  problems  encountered  by  Italian 
+        Americans,  but  also  shadows  the  contributions  they  have  made  to  American  culture” 
+        (“Follow”  266).  What  this  means  is  that  although  the  Italian  Americans  began  to  see 
+        themselves as white they still encountered problems because of their background. They 
+        were still considered as ‘others’. 
+           The  Italian  American  image  is  often  linked  with  gangsters.  The  gangster  figure 
+        emerged, according to Gardaphé, at “a time when immigration to the United States was at 
+        its highest and xenophobia was rampant” (Wiseguys 12). Gardaphé states that “negative 
+        portrayals  [of  Italian  immigrants]  appeared  in  the  mainstream  U.S  media  of  the  late 
+                            27 
+         
+        nineteenth and early twentieth centuries” (Wiseguys 12). Gardaphé describes the gangster 
+        figure as follows: 
+         
+              Based on the realities of 1920s and 1930s, crime scenes in films such as 
+              Scarface (1932), Little Caesar (1930), and The Public Enemy (1931) moved 
+              from  ethnic  ghettos  to  downtown  commercial  centers.  This  enabled  the 
+              criminal to resemble more closely those in the rising business class rather 
+              than the dark, ethnic foreigners of earlier depictions. Thus, the criminal rose 
+              in class and assimilated to mainstream culture just as American urban white 
+              ghetto  ethnics  were  trying  to  do  the  same.  Easier  access  to  stylish 
+              consumption  through  fancy  dress  and  cars  blurred  the  earlier  lines  that 
+              separated the social classes. As street criminals began associating with upper 
+              echelons of society, it became harder to tell the gangster from the corporate 
+              elite. The central ethnic figure in this first stage of representation, in spite of 
+              the  fact  that  other  ethnic  groups  were  involved  in  organized  crime,  is  the 
+              Italian ‒ but not just any Italian. 
+                The prototype for this gangster is Al Capone. (Wiseguys 12‒13) 
+              
+        The  Italian  Americans  were  associated  with  the  negative  image  of  gangsters,  and 
+        especially Al Capone, before the World War II. During the war, however, the attitude 
+        towards Italian Americans became worse. Luconi states that “after the beginning of World 
+        War II,  ethnic  intolerance  became  again  a  major  concern  for  Italian  Americans”  (98). 
+        According to Luconi, 
+         
+                            28 
+         
+             Following Italy’s attack on France, Fortune warned against the presence of a 
+             pro-fascist ‘fifth column’ in America that was allegedly made up of individuals 
+             who were ready to take the field as ‘enemy soldiers within our borders’ in case 
+             of the outbreak of a war between Italy and the United States. This magazine 
+             also  pointed  to  Philadelphia’s  Italian-language  weekly  L’Osservatore  as  an 
+             example  of  Mussolini’s  mouthpieces  in  the  country.  In  addition,  Collier’s 
+             stressed  the  spread  of  growing  hostility  against  Italian  Americans  and 
+             discrimination  in  employment.  This  attitude  affected  the  hiring  not  only  of 
+             unnaturalized  Italians  but  also  of  American-born  laborers  who  were 
+             identifiable as of Italian ancestry. (98‒9) 
+              
+        Italian Americans were not only thought of as ‘others,’ but they were a possible enemy at 
+        war  as  well.  Some  of  them  were  not  necessarily  identifiable  as  Italian  Americans  by 
+        anything other than their name, because they had been born and raised in the United States. 
+        Since Italian ancestry was not necessarily a visible feature in a person, names became 
+        important. According to Luconi,  
+         
+             [i]n April 1941, Harol B. Hoskins, a State Department investigator reported 
+             ‘increasing restrictions, even in non-defense industries, on the employment of 
+             foreign  born  citizens  by  virtue  of  their  foreign-born  names.’  He  also 
+             highlighted  ‘a  smoldering  suspicion  on  the  part  of  American-born  citizens 
+             against  all  citizens  with  foreign-born  names,  particularly  those  of  German, 
+             Italian, or Slavic origin.’ (99) 
+         
+                            29 
+         
+        Thus names were an important aspect in recognizing a person’s ethnicity but not only to 
+        those who considered themselves as WASPs. Foreign-born names were an important factor 
+        for the people who had them as well. As Werner Sollors quotes the view of Daniel Bell, 
+        “[e]thnicity provides a tangible set of common identifications − in language, food, music, 
+        names − when other social roles become more abstract and impersonal” (“Theory” 263). 
+           Since ethnicity, as quoted above, translates to common identifications, it is a quality 
+        that some have as opposed to others. It is this otherness that leads the ‘Yankees’ to wonder: 
+        “’Are we ethnic?’−as the New Yorker put it in a cartoon of 1972 […] depicting a white 
+        middle-class family in an elegant dining room” (Sollors, Beyond 24). According to Sollors 
+        it “is the question Yankees or WASPs have had to ask themselves many times since then, 
+        and without getting just one universally accepted answer” (Beyond 24). Sollors highlights 
+        that although 
+         
+             [i]t  may be absurd, […] to except white Anglo-Saxon Protestant Americans 
+             from the category of ethnicity […] and yet it is a widespread practice to define 
+             ethnicity as otherness. The contrastive terminology of ethnicity thus reveals a 
+             point of view which changes according to the speaker who uses it: for example, 
+             for some Americans eating turkey and reading Hawthorne appear to be more 
+             “ethnic” than eating lasagna and reading Puzo. (Beyond 25) 
+         
+        Although ethnicity is in many ways a matter of point of view, it seems to possess a threat 
+        to people since it is not easy to determine who is ethnic and who is not. Those boundaries 
+        between the familiar and the other are easily broken and fused. Love relationships between 
+        people with different ethnic backgrounds disrupt the boundaries between ethnic groups and 
+        cause  resentment  in  some  people.  According  to  Sollors,  “[t]he  code  phrase  ‘second 
+                                                                     30 
+                     
+                    generation’ also evokes the animosities that ‘melting pot’ and ‘intermarriage’ sometimes 
+                    receive  as  threats  to  ‘ethnic  purity’  and  human  identity  over  more  than  one  lifetime” 
+                    (Beyond 224). Fear often causes animosities and in Sollors’s view “[t]he fear that lurks 
+                    behind the aggressive response to the famous question ‘But would you like your daughter 
+                    to marry one?’ is the fear of ‘losing’ the children to a further progeny that bears only a 
+                    little resemblance to the addressee of the question” (Beyond 224). Janet Dean claims that 
+                    “Lévi-Strauss remarks that incest ‘combines in some countries with its direct opposite, 
+                    inter-racial  sexual  relations…as  the  two  most  powerful  inducements  to  horror  and 
+                    collective vengeance’” (47). 
+                          The fear of ‘losing’ the children because they look different from you can be difficult 
+                    to understand today, but for purists it was considered a real threat. Sollors elaborates on to 
+                    what the threat of ‘second generation’ led to: 
+                     
+                                 Unable to recognize themselves in their necessarily mixed  progeny, purists 
+                                 have preferred to develop elaborate fictions of an ‘inky curse’ […] upon their 
+                                 descendants.  The  purists’  own  unwillingness  to  accept  the  mixed  after-
+                                 generations as theirs is seen as the ‘loss’ of the children, and the projection of 
+                                 this  self-constructed  loss  upon  the  descendants  of  mixed  marriages  is  the 
+                                 cultural   belief‒widespread  in  nineteenth-  and  early-twentieth-century 
+                                 America‒that  ‘mixed  bloods,’  ‘mulattoes,’  and  ‘half-breeds’  were  sterile. 
+                                 (Beyond 224) 
+                     
+                    What Sollors emphasizes is that the love relationships between people with different ethnic 
+                    backgrounds have been thought to disrupt the natural order of things. Romances with their 
+                    formula  affirm  the  patriarchal  order  which  is  similarly  thought  to  be  disrupted  by 
+                            31 
+         
+        interracial  relationships.  According  to  Sollors,  “[m]ixed  marriages  of  all  sorts,  and 
+        especially marital unions between whites and Indians or whites and Afro-Americans, often 
+        appeared dangerous in American literature, the offspring of such unions doomed” (Beyond 
+        224). Thus in romances a mixed marriage is uncommon since it implies a tragedy instead 
+        of  a  happy  ending.  Sollors  continues  that  “[t]he  mulatto  and  half-breed  themes  were 
+        inevitably tragic or horrifying” (Beyond 224). Janet Dean discusses the role of race in J. F. 
+        Cooper’s The Last of the Mohicans, a novel that provides an example of a tragic mixed 
+        race  relationship.  In  The  Last  of  the  Mohicans,  Cora,  one  of  the  two  main  female 
+        characters, has a “legacy of mixed blood” (47). Her potential romance with the Mohican 
+        Uncas “ends in a scene of bloody interracial violence; their ‘marriage’ can take place only 
+        in death” (Dean 47). Dean claims that 
+         
+             Cora becomes a spectacle of female victimization as she succumbs to the knife 
+             of  one  of  Magua’s  men  in  dramatic  cliff-top  struggle.  Still,  because  she 
+             exhibits an agency denied her as a female and a non-white, because her body 
+             presents so profound a challenge to the white patriarchal scopic regime, Cora’s 
+             disruptive  presence  must  be  brought  under  control  not  by  making  her  a 
+             spectacle for the white male gaze, but by removing her from the visual field 
+             altogether. (64) 
+         
+        Dean concludes that when “[d]ead, Cora ceases to be a threat to the boundaries drawn 
+        between races and cultures” (64). She also indicates that Cora’s “death also clears the way 
+        for Munro’s surviving child to marry Heyward, thus insuring the racial integrity of his 
+        bloodline” (64). In other words, ethnic mixing appears as dangerous and will inevitably 
+        lead to a tragic end. 
+                            32 
+         
+           Pearce  writes  about  romances  and  race  that  “the  mass-market  end  of  popular 
+        romance […] has remained resolutely silent on issues of homosexuality and race” (142). 
+        She nevertheless indicates that  
+         
+             it should be noted that although all the heroes and heroines ultimately ‘prove 
+             themselves’ to be white, Mills & Boon/Harlequin have enjoyed a long tradition 
+             of exotic ‘dark-skinned’ male lovers who might at first appear to be black or 
+             mixed-race but who ultimately turn out to be no ‘blacker’ than Mediterranean 
+             (for example, the hero of the infamous best-seller The Sheik (1919), who is 
+             ultimately revealed to be not an Arab but half-Scottish and half-Spanish). (143, 
+             emphasis original) 
+              
+        This idea of a hero that proves himself to be white continues the tradition of obscured 
+        identities in romance literature. In the case of The Sheik and other ‘dark-skinned’ lovers, it 
+        also brings an element of exotic to the narrative. This long tradition of exotic lovers is in 
+        Amira  Jarmakani’s  view  “a  relatively  small  but  nevertheless  significant  subgenre  of 
+        romance  novels”  (895).  The  qualifying  element  for  this  subgenre  is  that  there  is  “a 
+        seemingly unlikely object of erotic attachment, a sheikh, sultan, or desert prince hero who 
+        almost always couples with a white western woman” (Jarmakani 895). Regardless of the 
+        existence  of  this  subgenre,  also  Jarmakani  comments  on  the  “lack  of  ‘minorities’  in 
+        romance and, in particular, of multiracial romances” (896). 
+           While ethnicity is not portrayed in many romances, in immigrant fiction it plays a 
+        major role. Since immigrant fiction contains romance elements in it, thus, I will discuss it 
+        here. Natalie Friedman writes in her article “Marriage and the Immigrant Narrative” that 
+        ”[t]he desire for the ‘American Dream’ is not the province of only men; however women 
+                            33 
+         
+        have been systematically shut out of that Dream, even in their own narratives, through 
+        marriage” (177). The female characters become shut out “because of the belief that a man 
+        is the head of the household” (Friedman, 177). According to “Time [Magazine], [freedom 
+        for women is a] release from patriarchal family constraints, such that the free choice of 
+        love  object  is  the  pure  image  of  freedom  itself”  (Friedman,  177).  This  freedom  is, 
+        according to Friedman, a fantasy that the United States offers (177). The reality for the 
+        immigrant women is actually “quite the opposite of the American fantasy” as a “marriage 
+        in America can be just as patriarchal an institution as it was in the homeland” (Friedman, 
+        177). Friedman argues that “marriage is a form of assimilation that does not always work 
+        in the woman’s favor” (177). 
+           Friedman claims that “[m]arriage – especially if it is exogamous – is not a means to 
+        assimilate  and  achieve;  rather,  it  becomes  a  metaphor  for  the  invisibility  of  certain 
+        immigrants, namely women, who effectively ‘disappear’ behind their husbands, especially 
+        in cultures that cling to traditional social and sexual hierarchies” (177). Friedman continues 
+        that “[i]n women’s immigrant fiction, then, female characters sometimes become invisible 
+        because  of  the  belief  that  a  man  is  the  head  of  the  house-hold.  Conversely,  in  most 
+        masculine immigrant fictions women characters often disappear behind the narrative of the 
+        man’s ultimate success” (177). Since marriage is a way to shut out women of the American 
+        Dream, Friedman “predicts a narrative trend […] in which the drive to Americanize comes 
+        at the cost of romantic happiness” (177). 
+           It is a marriage to an American that should Americanize the immigrant woman and 
+        thus give her the American Dream but instead she either disappears behind her successful 
+        husband or she becomes invisible as the husband decides for her. These both scenarios 
+        have one thing in common: the immigrant woman stays out of sight. Friedman provides an 
+        alternative to marriage: work that, according to her, “might be a far more important social 
+                            34 
+         
+        ritual”  than  marriage  and  as  such  an  “option  for  the  immigrant  woman’s  survival  in 
+        America”  (Friedman,  176).  In  other  words,  the  immigrant  woman’s  means  to  attain 
+        visibility is to work and thus be involved in the public sphere. 
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+                            35 
+         
+        3. Analysing Love Story 
+         
+        In  my  analysis  of  Love  Story  I  will  concentrate  on  two  topics:  its  use  of  romance 
+        conventions and the portrayal of ethnicity in the novel. The first topic is discussed in two 
+        sections. First I will discuss the elements that are typical for romance genre in general in. 
+        Then I will analyse Love Story based on Radway’s functions in order to show that the 
+        novel follows the formula for the ideal popular romance. The second topic I will address in 
+        the  third  section  in  which  I  will  examine  the  role  of  the  intercultural  relationship  as 
+        represented in the novel. 
+         
+         
+        3.1 Origins of Love Story 
+         
+        Love Story is quite different from such modern romances in which the stories are mostly 
+        about women falling in love and getting married in the end. Yet these romances are only a 
+        part of a very varied genre and do not portray all of its characteristics. Romance literature 
+        has changed, but as I pointed out in the section 2.1, one of the defining aspects of the genre 
+        is that the narratives keep referring back to previous texts, repeating and rewriting them. 
+        On the basis of my discussion of the history of the genre, in this chapter I will show that 
+        Love Story has elements that stem from older romances. 
+           I listed in the chapter 2.1 three romance conventions that McDermott claims to have 
+        originated from Odyssey. Two of them can be found in Love Story. Firstly, Love Story is 
+        the private story of Oliver and Jennifer’s “domestic and adventurous life”. Although in 
+        Love  Story  it  is  the  relationship  and  its  development  which  is  Oliver  and  Jennifer’s 
+        adventure. Secondly, Love Story introduces love and sexuality. Modern romances usually 
+                            36 
+         
+        end in the marriage of the hero and heroine, but the love presented in earlier romances was 
+        between married couples. In Love Story, the love matures during the novel. At first Oliver 
+        and Jennifer meet and fall in love and eventually marry, but the reader learns that their love 
+        story continues after the marriage. The third convention is the happy ending.  
+           The ending for the romance between the protagonists is not a happy one in Love 
+        Story. The character Jennifer dies in the end which leaves Oliver heartbroken and alone. 
+        Although the ending is sad, it is not a hopeless one. As John G. Cawelti writes: “[t]hough 
+        the usual outcome is a permanently happy marriage, more sophisticated types of love story 
+        sometimes end in the death of one or both the lovers, but always in such a way as to 
+        suggest that the love relation has been of lasting and permanent impact” (41-42). I will 
+        show that this is the case in Love Story. 
+           Love Story’s reader feels that the love between Jennifer and Oliver still exists in 
+        Oliver’s heart and memories, as Oliver relives their story in the novel:  
+         
+             I began to think about God […] Like when I woke up in the morning and Jenny 
+             was there. Still there. I’m sorry, embarrassed even, but I hoped there was God I 
+             could say thank you to. Thank you for letting me wake up and see Jennifer. 
+             (108) 
+         
+        From the Love Story’s first sentence “What can I say about a 25-year-old girl who died?” 
+        (11)  the  reader  learns  that  even  after  Jennifer’s  death,  Oliver  still  reflects  on  their 
+        relationship. The novel continues by Oliver wondering the order of things dear to Jennifer. 
+        She is dead but Oliver still thinks about whether she loved Bach more than him. The novel 
+        consists of Oliver’s memories as he is telling their love story. Thus the ending of the novel 
+        with Jennifer’s death brings the reader back to the beginning. Although Jennifer dies in the 
+                            37 
+         
+        end, to quote Cawelti, “[i]t is not the inability of love to triumph over obstacles that brings 
+        about the death of Jenny, but a biological accident” as she dies of leukaemia (41). Their 
+        love triumphs over obstacles, but it cannot keep Jennifer alive. 
+           Another reason for the untraditional ending of the romance may be, as Elizabeth 
+        Long writes of best sellers from the years 1969 to 1975, that “[h]appy endings become less 
+        common indicating  that  the  familiar  formulaic  resolutions  may  have  lost  plausibility” 
+        (119). Thus the ending of Love Story is not necessarily a flaw in the story’s characteristics 
+        of romance but an indication of the time it was written in and the general atmosphere of the 
+        time period’s popular literature. 
+           Though Jennifer dies at the end of the novel, the ending is not completely hopeless. 
+        The tragic impact of the death is decreased since the love between Oliver and his father is 
+        reaffirmed by showing their reconnection. This is seen in the novel when Oliver’s father 
+        arrives at the hospital after Jennifer has died: 
+         
+               “Oliver,” said my father urgently, “I want to help.” 
+               “Jenny’s dead,” I told him. 
+               “I’m sorry,” he said in a stunned whisper. 
+               Not knowing why, I repeated what I had long ago learned from the beautiful 
+             girl now dead. 
+               “Love means not ever having to say you’re sorry.” 
+               And then I did what I had never done in his presence, much less in his arms. I 
+             cried. (127) 
+              
+        In other words, Jennifer’s death brings the father and son closer than they have ever been, 
+        and it is a new beginning for their relationship. 
+                            38 
+         
+           Fuchs has, on the other hand, pointed out different characteristics than McDermott. 
+        The first characteristic she draws attention to is hidden identities that are later revealed. 
+        Oliver’s  identity  in  the  beginning  of  the  novel  is  partly  occluded  since  he  is  at  the 
+        university and the university is no longer a place intended for the wealthy alone. He meets 
+        people with different backgrounds in a more equal setting. In the novel when Oliver meets 
+        Jennifer he tries to hide his identity himself by not telling his whole name to her: 
+         
+               “My name is Oliver,” I said. 
+               “First or last?” she asked. 
+               “First,”  I  answered,  and  then  confessed  that  my  entire  name  was  Oliver 
+             Barrett. (I mean that’s most of it.) (13) 
+         
+        He is reluctant to tell his surname, which is seen in the way the narrator describes it as a 
+        ‘confession.’ As if Oliver were revealing a sin, and yet he still withholds the significant 
+        numeral. Thus he withholds the ‘sin’ of being the fourth Oliver Barrett instead of the first. 
+        This  emphasizes  not  only  Oliver’s  ambition  to  be  number  one,  but  also  his  strained 
+        relationship with his father. He denies his background and the long tradition of his family 
+        as if trying to escape the role planned for him. Oliver subsequently reveals his identity 
+        when Jennifer is not impressed by him: 
+         
+               “Hey, don’t you know who I am?” 
+               “Yeah,”  she  answered  with  kind  of  disdain.  “You’re  the  guy  that  owns 
+             Barrett Hall.” 
+               She didn’t know who I was. 
+                            39 
+         
+               “I don’t own Barrett Hall,” I quibbled. “My great-grandfather happened to 
+             give it to Harvard.” (14) 
+         
+        While Oliver despises his father and his family, at the same time he expects respect and 
+        admiration  from  others  because  of  his  family  background.  Oliver  is  used  to  receiving 
+        respect, and when Jennifer treats him like anybody he uses his family name to show that he 
+        deserves  respect.  He  is  at  the  same  time  trying  to  hide  his  background  and  expecting 
+        admiration  because  of  it.  He  wants  to  escape  the  demands  of  his  family  tradition  but 
+        remains a believer in the system and its values.  
+           The protagonists’ identities are occluded at first since they are at the university where 
+        their different backgrounds do not stand out as much as they would in other circumstances. 
+        As Jennifer says in the novel:  
+         
+             “Harvard is like Santa’s Christmas bag. You can stuff any crazy kind of toy 
+             into  it.  But  when  the  holiday’s  over,  they  shake  you  out…”  She  hesitated. 
+             “…and you gotta go back where you belong.” (46) 
+         
+        Jennifer’s comment shows that she understands that they have different social statuses but 
+        she still does not know the extent of the difference. The true identities are revealed when 
+        Oliver and Jennifer meet each other’s parents. Jennifer sees how wealthy Oliver’s family 
+        really is when they are driving to the Barrett house: 
+         
+             Anyway, I drove slowly once we were on Barrett soil. It’s at least a half mile in 
+             from Groton Street to Dover House proper. En route you pass other…well, 
+             buildings. I guess it’s fairly impressive when you see it for the first time. 
+                            40 
+         
+               “Holy shit!” Jenny said. 
+               “What’s the matter, Jen?” 
+               “Pull over, Oliver. No kidding. Stop the car.” 
+             I stopped the car. She was clutching. 
+               Hey, I didn’t think it would be like this.” 
+               “Like what?” 
+               “Like this rich. I mean, I bet you have serfs living here.” (49-50; emphasis 
+             original) 
+         
+        Jennifer’s reaction highlights the protagonists’ class difference. She expected the Barrett 
+        family to be wealthy but is quite intimidated with the reality. Jennifer’s comment on serfs 
+        suggests that the difference is such that it is as if she had been taken to another time. It also 
+        insinuates that the Barretts are the equivalent of the mean landowner profiting from the 
+        work of his slaves. 
+           The  contrast  between  these  two  backgrounds  is  further  emphasized  when  it  is 
+        Oliver’s turn to meet Jennifer’s father. Oliver has a reaction similar to hers when he sees 
+        what a tight knit community it is where Jennifer grew up: 
+         
+             Jenny lived on a street called Hamilton Avenue, a long line of wooden houses 
+             with many children in front of them, and a few scraggly trees. Merely driving 
+             down it, looking for a parking space, I felt like in another country. To begin 
+             with there were so many people. Besides the children playing, there were entire 
+             families  sitting  on  their  porches  with  apparently  nothing  better  to  do  this 
+             Sunday afternoon than to watch me park my MG. (65) 
+         
+                            41 
+         
+        Oliver’s reaction reveals that he had not anticipated Jennifer’s neighbourhood to be so 
+        involved in each other’s lives. He feels the neighbourhood watching him and especially his 
+        car, which is an English sport car. Most likely such cars are rarely seen there. According to 
+        the narrative, Oliver feels like he is in another country which highlights the cultural clash.  
+           The protagonists of Love Story are also idealized, which is another characteristic that 
+        Fuchs mentions. Whereas Oliver is wealthy, good-looking, athletic, confident and smart, 
+        Jennifer, although she is poor, is a talented musician, witty, smart and beautiful. The third 
+        convention Fuchs points out concerns the marvels and monsters of Classic romances. In 
+        Love Story these are the power of Oliver and Jennifer’s love and Jennifer’s leukaemia. 
+        Their tasks and tests in the novel are overcoming the obstacles that their relationship faces 
+        and those obstacles:  Oliver’s  parents’  disapproval  of  their  marriage,  the  infertility  and 
+        struggling with money. Much like the medieval romances that are older texts rewritten in 
+        French, Love Story is also transformed to fit in the different time and place. Thus Love 
+        Story does not have the kind of monsters found in Classical romances. The romance has 
+        transformed in a new context. As Radford describes the change: 
+         
+             the  ‘magic’  which  in  earlier  romances  rescues  the  hero  from  false  Grails 
+             becomes in Jane Eyre a supernatural voice which unites her with her ‘true’ 
+             destiny […] that magical/supernatural/Providential force is in today’s romance 
+             represented as coming from within: as the magic and omnipotent power of 
+             sexual desire. (10; emphasis original) 
+         
+           In medieval romances the hero’s experience of love was emphasized. Similarly in 
+        Love Story it is the hero’s experience of love that the reader learns. Love Story is the story 
+        of Oliver Barrett IV, who is a modern version of a knight/an aristocratic male. He comes 
+                            42 
+         
+        from a family of wealth that has been passed on and increased through generations. The 
+        Barretts  have a long tradition of athleticism and studying in Harvard, one of the most 
+        respected universities in the United States of America. In Love Story this is highlighted by 
+        Jennifer’s reaction when she learns the Barrett family tree from portraits: 
+         
+             Jenny was taken aback by some of the portraits we passed. Not just that some 
+             were by John Singer Sargent (notably Oliver Barrett II, sometimes displayed in 
+             the Boston Museum), but the new realization that not all of my forebears were 
+             named Barrett. There had been solid Barrett women who had mated well and 
+             bred  such  creatures  as  Barrett  Winthrop,  Richard  Barrett  Sewall  and  even 
+             Abbott  Lawrence  Lyman,  who  had  the  temerity  to  go  through  life  (and 
+             Harvard, its implicit analogue), becoming a prize-winning chemist, without so 
+             much as a Barrett in his middle name! 
+             […] 
+               At  the  end  of  the  long  row  of  portraits,  and  just  before  one  turns  in  the 
+             library, stands a glass case. In the case are trophies. Athletic trophies. 
+               “They’re gorgeous,” Jenny said. “I’ve never seen ones that look like real gold 
+             and silver.” 
+               “They are.” (50-51; emphasis original) 
+         
+        The family’s wealth and long traditions are appreciated by Oliver’s parents as they have 
+        the portraits of their ancestors hanging on the wall and the trophies on the show. Oliver has 
+        grown up with the constant reminder of the achievements of his relatives. Because of the 
+        tradition Oliver’s parents expect him to succeed in his studies and in life so that he will 
+        continue the Barrett way of life: earning money and respect.  
+                            43 
+         
+           Although the hero’s experience of love was stressed in medieval romances, so was 
+        the women’s perspective. Hansson mentions that the heroine of medieval romances had 
+        power: the power to seduce men (83). She was also a threat to male bonding and the social 
+        order (Hansson 84). In Love Story, Jennifer is seen as threat by Oliver’s father. What he 
+        sees is not a music student, but a poor woman with ethnic background taking advantage of 
+        his WASP son. Jennifer is powerful, getting the womanizer Oliver feel insecure: 
+         
+             After that, she was pretty quiet. Could we have run out of conversation so 
+             quickly? Had I turned her off by not being related to the poet? What? She 
+             simply sat there, semi-smiling at me. For something to do, I checked out her 
+             notebooks. (14) 
+              
+        Oliver does not know what to do when Jennifer just sits silently. He needs to keep himself 
+        busy by checking her notebooks. He is trying to take control of the situation, but he fails 
+        and gets frustrated: 
+         
+               “Jenny, if you’re so convinced that I’m a loser, why did you bulldoze me into 
+             buying you coffee?” 
+               She looked me straight in the eye and smiled. 
+               “I like your body,” she said. (14) 
+              
+        As Jennifer answers, she reveals how she is in control of the situation by looking Oliver 
+        straight in the eye and boldly commenting her motives to be purely physical attraction. 
+           Although Love Story does not have all the conventional romance elements, it does 
+        have many of the characteristics that have their origins in older romances. Of the romance 
+                            44 
+         
+        conventions I have discussed Love Story contains all but one: the happy ending. As I have 
+        suggested, it is not a flaw in the novel’s generic conventions but an indication of the time it 
+        was written in and as a result the novel still provides a sentiment of everlasting love.  
+         
+         
+        3.2 The Formula for Love Story 
+         
+        Although Love Story has many of the romance elements which stem from older romances, 
+        it is a popular romance novel published in 1970. Thus, in this section, I will analyse Love 
+        Story based on the formula for more modern popular romance. As I suggested in section 
+        2.2, there are two sides to a formula: a plot type and “a conventional way of treating some 
+        specific thing or person” (Cawelti 5). In this section I will examine the plot of Love Story 
+        and show that it follows the formula of popular romances. I will also analyse the hero and 
+        heroine of Love Story in order to show that they fit in the latter usage of the formula. 
+           The typical formula for the romance narrative is that a boy and a girl meet, they fall 
+        in  love,  the  course  of  their  relationship  encounters  obstacles  but  the  couple  eventually 
+        solves the problems, marry, and the narrative ends with the impression that they will live 
+        happily ever after. Love Story breaks the illusion of a happily ending story right at the 
+        beginning with its very first sentence. The reader discovers right from the beginning that 
+        the heroine is dead. Nevertheless, Love Story has some elements of the larger plot type 
+        called  romance:  Oliver  and  Jennifer  meet,  there  are  obstacles  on  the  course  of  their 
+        relationship but the couple eventually solves their issues and marries. The obstacles that 
+        Jennifer and Oliver have in the path of their relationship are both social and psychological 
+        which is what most romantic formulas centre on (Cawelti 42). Jennifer’s and Oliver’s 
+        major obstacle is that Jennifer is a poor girl who falls in love with a rich man. It is “a 
+                            45 
+         
+        favourite formulaic plot […] which might be called the Cinderella formula” (Cawelti 42). 
+        The most recognizable difference is that the story of Jennifer and Oliver does not end here. 
+        They continue to face obstacles but get through them until Jennifer dies of leukaemia. 
+           Jones’s view on the romance plot differs from Cawelti’s, but as she stated it is “still 
+        used by older writers” (198). Thus it is not a plot summary that describes all romances but 
+        some of them. Love Story differs significantly from Jones’s description: The hero and 
+        heroine of Love Story are also equal in age, the heroine is not a virgin, the hero is hinted to 
+        being  ‘sexually  expert’  but  he  is  not  domineering  nor  does  he  “take[…]  the  reins 
+        erotically” (Jones 198). In Love Story it is the heroine who is in control of the situation 
+        even when matters become erotic: 
+         
+               “Jenny, for Christ’s sake, how can I read John Stuart Mill when every single 
+             second I’m dying to make love to you?” 
+               She screwed up her brow and frowned. 
+               “Oh, Oliver, wouldja please?” 
+               I was crouching by her chair. She looked back into her book. 
+               “Jenny‒” 
+               She closed her book softly, put it down, then placed her hands on the sides of 
+             my neck. 
+               “Oliver‒wouldja please.” 
+               It all happened at once. Everything. (40) 
+         
+        Jennifer is not the typical virgin heroine who fights of the hero until they are married. 
+        Jones’s description is accurate, but only of certain types of romance. She does not take into 
+        consideration in her summary the changeability of romance. As Stephanie Burley claims: 
+                            46 
+         
+         
+             Trends  in  popular  romance  signal  a  move  towards  queerer  economies  of 
+             representation, especially with respect to the “typical” hero. The replacement 
+             of  1970s-style  bodice-rippers  with  virginal  men  and  sexually  experienced 
+             women  (a  replacement  that  occurred  in  response  to  readers’  preferences) 
+             suggests a taste for more fluid erotic affiliations in women’s popular culture. 
+             (146) 
+         
+        Although Love Story was published in 1970 and the 1970s still had those ‘bodice-rippers,’ 
+        the popularity of Love Story shows that the readers of romance were already ready for 
+        change: the change that transforms not only the typical hero but also the typical heroine. 
+        The 1970s is a time when women’s roles were changing as women were fighting for 
+        equality and it is also seen as a time for women’s sexual liberation. This change is reflected 
+        in  1970s to 1980s romance literature, as “in a last neat twist of romance conventions, 
+        Judith Krantz even makes her latest heroine the initiator of sexual action, possessing the 
+        secret knowledge of arousing desire, formerly the prerogative of the experienced male” 
+        (Fowler 105). 
+           As Jones’s summary of a romance plot is quite rigid I shall emphasize Radway’s 
+        functions in analysing Love Story. Radway listed functions that should be found in an ideal 
+        romance (134). Since, as discussed earlier, one does not find all the conventional elements 
+        of romance in Love Story, it is not surprising that it does not include all of Radway’s 13 
+        functions in its storyline. Furthermore, the functions in the list cannot be found in Love 
+        Story as such, since the novels read by the Smithton women are mainly written from the 
+        female perspective. In contrast, Love Story is written from the hero’s perspective, and its 
+        hero and heroine are not a typical romance couple. In fact, their roles are often reversed: as 
+                            47 
+         
+        I pointed earlier, it is often the heroine of Love Story who is in control, not the hero and in 
+        their  first  meeting  the  heroine  is  indifferent  towards  the  hero.  As  Modleski  claims: 
+        “typically in the first meeting between hero and heroine, the man’s indifference, contempt, 
+        or amusement is emphasized (40), not the heroine’s as is the case in Love Story. Hence it 
+        has been necessary for me to modify the functions, so that some of the events are seen 
+        from the hero’s point of view.  
+           According to Radway, the first function in the ideal romance is that the heroine is 
+        removed from her familiar setting and she is feeling a loss (134−135). Love Story begins 
+        with Oliver, the hero, telling the reader of Jennifer’s, the heroine’s, death. Although one 
+        could argue that death is the ultimate removal from the familiar, it is not Jennifer in Love 
+        Story who is feeling the loss, but the hero: 
+         
+             What can you say about a twenty-five-year-old girl who died? 
+               That she was beautiful. And brilliant. That she loved Mozart and Bach. And 
+             the Beatles. And me. (11) 
+              
+        In Love Story it is not the heroine who is feeling the loss in the beginning, and thus it will 
+        not be the heroine’s transformation that the narrative describes. Rather, it focuses on the 
+        hero’s  transformation  from  an  insecure  adolescent,  who  is  in  a  way  isolated  from  his 
+        parents: Oliver feels distant to both his mother and father and is slightly intimidated by the 
+        latter. He is unsure of his own identity since he feels that he is mere a copy of his father, 
+        similar but not as good. As the novel puts it, Oliver has “grown up with notion that [he] 
+        always had to be number one” (11). Yet Oliver feels second best, because his mother loves 
+        his father more than her son. When Oliver brings Jennifer to see his parents, the reader 
+        finds out that Oliver’s relationship with his mother is a complicated one. When Oliver and 
+                            48 
+         
+        his father debate and the latter is triumphant, Oliver’s thoughts are described as follows: 
+        “My mother smiled at this, apparently satisfied that her Oliver had taken that set” (55; 
+        emphasis original). 
+           The second function is that the hero reacts antagonistically to an aristocratic male. 
+        There is no aristocratic male in Love Story, but there is a wealthy and powerful bourgeois 
+        man, Oliver’s father, who can be seen as the representative of the aristocratic male. Oliver 
+        reacts to his father defiantly when he asks Oliver to wait a while before marrying Jennifer: 
+         
+               “Define ‘while,’ please.” 
+               “Finish law school. If this is real, it can stand the test of time.” 
+               “It is real, but why in hell should I subject it to some arbitrary test?” My 
+             implication was clear I think. I was standing up to him. To his arbitrariness. To 
+             his compulsion to dominate and control my life. 
+               “Oliver.” He began a new round. “You’re a minor –“ 
+               “A minor what?” I was losing my temper, goddammit. 
+               “You are not yet twenty-one. Not legally an adult.” 
+               “Screw the legal nitpicking, dammit!” (62; emphasis original) 
+         
+        The  conversation  between  Oliver  and  his  father  continues  to  the  next  function:  The 
+        aristocratic male responds ambiguously to the hero. Oliver’s father says to him “in a biting 
+        whisper: ‘Marry her now, and I will not give you the time of day’” (62). With this remark 
+        Oliver’s father isolates Oliver from his family. While earlier Oliver only felt distant from 
+        his parents, now he also has to provide for himself. 
+           The fourth function cannot be found in Love Story. The hero never interprets the 
+        heroine’s behaviour as evidence of a purely sexual interest in him or if he does, he is not 
+                            49 
+         
+        unhappy about this. In the beginning of the novel, Jennifer tells Oliver that she went for 
+        coffee with him because she liked his body (14). Nevertheless, even this does not lead 
+        Oliver to worry over whether Jennifer’s interest in him is purely sexual. If Jennifer feels 
+        that Oliver’s interest to her is only sexual, it is not told in the text. Jennifer appears to be 
+        sure of herself and in control of the situation, unlike Oliver. 
+           The fifth function is that the hero responds to the heroine’s behaviour with anger or 
+        coldness. In Love Story, Oliver responds to Jennifer’s behaviour by showing with emotions 
+        of both anger and coldness. Jennifer is upset because Oliver no longer has any contact with 
+        his family so when Oliver’s parents invite them over to celebrate the birthday of Oliver’s 
+        father Jennifer replies to the invitation. She telephones Oliver’s father and during their 
+        conversation asks Oliver to talk to him too. Oliver first responds with coldness: “’I will 
+        never talk to him. Ever,’ I said with perfect calm” (87). Jennifer tries further, but Oliver is 
+        adamant and refuses to converse with his father. Jennifer then  gives  Oliver’s father  a 
+        message that she claims to originate from Oliver:  
+         
+             “Mr. Barrett, Oliver does want you to know that in his own special way…” 
+               She paused for breath. She had been sobbing, so it wasn’t easy. I was much 
+             too astonished to do anything but await the end of my alleged ‘message.’ 
+             “Oliver loves you very much,” she said, and hung up very quickly. (88) 
+         
+        Oliver responds to this with anger: “‘God damn you, Jenny! Why don’t you get the hell out 
+        of my life!’” (88). 
+           Jennifer leaves before Oliver’s comment, when Oliver ‘rippes’ the telephone from 
+        her  hand.  Thus  the  sixth  function  is  that  the  heroine  retaliates  by  punishing  the  hero. 
+        Jennifer  does  this  by  leaving.  This  is  followed  by  the  seventh  function  which  is  the 
+                            50 
+         
+        physical separation of the hero and heroine. Jennifer leaves and Oliver does not know 
+        where she has gone. Oliver searches Jennifer for hours but is not able to find her until he 
+        returns to their house and finds her sitting on the stairs. 
+           The eighth and the ninth function, the hero treating the heroine tenderly and the 
+        heroine responding warmly to this, take place between the functions one and two in the 
+        narrative structure of Love Story. This is understandable as they are events that in an ideal 
+        romance usually happen before the proposal, which in this narrative is not one of the 
+        ending  functions.  These  functions,  then,  do  not  lead  to  the  tenth  function.  The  tenth 
+        function implicates that the hero had been the aristocratic male who treated the heroine 
+        ambiguously. As I have interpret the third function to be in Love Story that Oliver’s father 
+        responds  to  Oliver  ambiguously,  the  tenth  function  is  in  Love  Story  Oliver’s 
+        reinterpretation  of  his  father’s  ambiguous  behaviour  as  a  product  of  previous  hurt. 
+        However, there is no such event in Love Story. There is no need for this since it was not 
+        Oliver who treated Jennifer ambiguously, nor is there any need for them to get over this 
+        function. Oliver and his father, on the other hand, will mend their relationship without this 
+        function. 
+           The eleventh function can be found in the form in which Radway wrote it, that is, 
+        “[t]he hero proposes to the heroine” (134). As such this function would be simple enough, 
+        but Radway continues it “with supreme act of tenderness” (134). The proposal does not 
+        relate to the above mentioned functions logically in the manner as Radway suggests. In the 
+        novel the proposal has already taken place after the first function and with no “supreme act 
+        of tenderness”: 
+         
+               “What about our marriage?” 
+                            51 
+         
+             It was I who spoke those words, although for a split second I wasn’t sure I 
+             really had. 
+               “Who said anything about marriage?” 
+               “Me. I’m saying it now.” 
+               “You want to marry me?” 
+               “Yes.” 
+               She tilted her head, did not smile, but merely inquired: “Why?”  
+               I looked her straight in the eye. 
+               “Because,” I said. 
+               “Oh,” she said. “That’s a very good reason.” 
+               She took my arm (not my sleeve this time), and we walked along the river. 
+             There was nothing more to say, really. (47) 
+               
+        Jennifer does not answer ‘yes’ to the proposal which was a sudden one even to Oliver who 
+        did the proposing. Love Story does not end in the proposal or the marriage which explains 
+        why Oliver’s proposal is not the right interpretation for this function. Radway has other 
+        suggestions since the function needs not always take the form of a proposal. One of them is 
+        that the “hero demonstrates his unwavering commitment to the heroine with a supreme act 
+        of tenderness” (134). Oliver shows his commitment to Jennifer throughout the novel, but 
+        especially  after  he  has  proposed.  First  he  defies  his  father,  who  does  not  approve  the 
+        marriage, then he searches Jennifer for hours when they have argued, and finally he tries 
+        his best to act normally when the doctor tells him that Jennifer will die soon. He does so in 
+        order to let Jennifer lead a normal life as long as possible, since there is nothing that the 
+        doctors can do apart from easing her pain. Although Oliver indicates his commitment in 
+        several ways, the event that qualifies for the eleventh function is when he goes to his father 
+                            52 
+         
+        to  ask  for  money.  At  the  time  he  is  already  earning  quite  well,  but  the  treatment  for 
+        Jennifer’s illness costs more than he can afford to himself. The act itself is not tender, since 
+        it  is  asking for his financial assistance. However, because Oliver had earlier adamantly 
+        refused even to talk to his father, the act becomes a demonstration of Oliver’s deep feelings 
+        towards Jennifer. He would not have gone to see his father for any other reason than his 
+        love for Jennifer. 
+           The twelfth function is that the heroine responds sexually and emotionally. This is 
+        not found in the narrative of Love Story between the functions eleventh and thirteenth; at 
+        this point in the narrative the heroine is in the hospital about to die thus it is understandable 
+        that she does not respond sexually. Nevertheless, the heroine does act emotionally: “’It’s 
+        nobody’s fault, you preppie bastard,’ she was saying. ‘Would you please stop blaming 
+        yourself!’”  (124;  emphasis  original).  Jennifer  knows  that  Oliver  feels  guilty  because 
+        Jennifer has sacrificed her career to marry him, but she also wants him to know that for her 
+        it was not a sacrifice. Rather, it was what she wanted: 
+         
+             “Screw Paris,” she said suddenly. 
+             “Huh?” 
+             “Screw Paris and music and all that crap you think you stole from me. I don’t 
+             care, you sonovabitch. Can’t you believe that?” 
+             “No,” I answered truthfully. 
+             “Then get the hell out of here,” she said. “I don’t want you at my goddamn 
+             deathbed.” (124) 
+         
+                            53 
+         
+        The heroine almost forces the hero to believe her as she feels so strongly on the subject. 
+        Jennifer is so adamant that she lets Oliver stay only after Oliver has confirmed that he 
+        believes her. 
+           The thirteenth and the final function is that “[t]he heroine’s identity is restored,” but 
+        in Love Story it is the hero’s identity that is restored (Radway 134). This happens after 
+        Jennifer dies and Oliver walks out of the hospital. Oliver’s father, who has found out why 
+        Oliver borrowed the money and rushed immediately to the hospital, learns from Oliver that 
+        Jennifer has passed away. As the novel puts it: “And then I did what I had never done in 
+        his presence, much less in his arms. I cried” (127). Oliver is thus reunited with his father. 
+        His identity as the son of the Barrett family is restored. The restoration of his identity also 
+        affirms his WASP identity and the patriarchal order.  
+           The Smithton women claim that Erich Segal’s Love Story is not a romance, since 
+        “[t]o qualify as a romance, the story must chronicle, not merely the events of a courtship 
+        but  what  it  feels  like  to  be  the  object  of  one”  (Radway  64;  emphasis  original). 
+        Nevertheless, Love Story includes several of the functions that Radway lists as elements of 
+        an ideal romance and it is categorized as romance by Cawelti. In her discussion, Laura 
+        Kinsale claims that Radway would have been right if she had stopped her sentence after 
+        “what it feels like.” Kinsale argues that: 
+         
+             If Radway had stopped there, she would have been close to the heart of the 
+             matter, but she goes on to say “what it feels like to be the object of one, though 
+             this need not be accomplished by telling the story solely from the heroine’s 
+             point of view.” Radway’s own italics in this second quote highlight where it is 
+             that she falls victim to the belief that the female reader is identifying only with 
+                            54 
+         
+             the  heroine,  whether  or  not  in  the  heroine’s  point  of  view.  (36;  emphasis 
+             original) 
+         
+        Kinsale continues her critique by claiming that “[w]hen Radway says, ‘The focus never 
+        shifts for these readers away from the woman at the center of the romance,’ I think she is 
+        wrong. One hundred percent dead blind wrong. I flatly believe that the man carries the 
+        book” (36; emphasis in original). This is, indeed, the case with Love Story.  
+           In Love Story, the stereotypes that Cawelti mentions are found in the characters of 
+        Oliver  and  Jennifer.  Oliver’s  character  embodies  the  stereotypes  of  the  ‘jock’  and  the 
+        successful  WASP:  he  is  good  looking,  sure  of  himself,  wealthy,  has  many  friends,  is 
+        intelligent,  and  has  a  reputation  among  the  ladies.  Jennifer,  on  the  other  hand,  is 
+        stereotypical of the poor and smart college girl. She wears glasses, is smart and talented 
+        enough to get a grant, since her father who is a single parent could not otherwise have 
+        afforded sending her to Radcliffe. 
+           As  I  discussed  in  the  section  2.2,  Cawelti  points  out  two  ways  in  which  the 
+        stereotypes can be vitalized. Eric Segal has performed at least the second vitalization of 
+        adding “touches of human complexity” to the character of Oliver. Despite his reputation 
+        and the way he categorises girls: “There were two girls working there. One a tall tennis-
+        anyone type, the other a bespectacled mouse type. I opted for Minnie Four-Eyes” (12), the 
+        novel shows that Oliver has a sensitive side as well. The character of Oliver changes from 
+        this stereotypical portrayal when he meets Jennifer. He is suddenly nervous and unsure of 
+        himself when he falls in love with her. Oliver acts in a manner that indicates the difference 
+        in his feelings for this particular girl:  
+         
+                            55 
+         
+             By now Jennifer had read my bio in the program. I made triple sure that Vic 
+             Claman, the manager, saw that she got one.  
+             “For Christ’s sake, Barrett, is this your first date?” 
+             “Shut up, Vic, or you’ll be chewing your teeth.” (16; emphasis original) 
+         
+        Vic, who is the manager of the hockey team that Oliver plays in, notices that it seems as if 
+        Oliver were on his first date when Jennifer comes to see him play hockey. Oliver acts so 
+        since  in  reality  he  is  rather  experienced  in  dating  women  but  inexperienced  in  loving 
+        someone. Nevertheless, according to Radway “they [the readers] prefer to see the heroine 
+        desired, needed, and loved by a man who is strong and masculine, but equally capable of 
+        unusual  tenderness,  gentleness,  and  concern  for  her  pleasure”  (81).  Oliver’s  character 
+        combines these characteristics when he falls in love with Jennifer. As Daphne Clair states:  
+         
+             [the heroines] may be in their thirties or forties, older than most heroines of 
+             twenty  years  ago,  while  the  typical  hero  is  often  younger  and  less  sure  of 
+             himself  than  formerly.  Yet  the  classic  elements  of  romance  still  hold  the 
+             imagination  of  vast  numbers  of  readers.  Beneath  the  faultlessly  cut  suit  or 
+             designer jeans of many a civilised, seemingly liberal modern hero lurks the 
+             untamed savage, Heathcliff. But no matter how he struggles and fumes, in the 
+             end he is tamed and domesticated by a woman’s gentle strength. (70) 
+         
+           Although the Smithton women do not qualify Love Story as a romance, many of the 
+        details they want from a romance can be found in it. Oliver is clearly described recognizing 
+        his feelings for Jennifer. “What I am fumbling to say is that I felt different about Jennifer, 
+        and didn’t know what to say or even who to ask about it. (‘You should have asked me,’ she 
+                            56 
+         
+        said later.) I just knew I had these feelings. For her. For all of her” (40). To sum up, Love 
+        Story  seems  to  contain  plenty  of  the  elements  the  Smithton  women  want  in  an  ideal 
+        romance: not only does it follow the functions of an ideal romance but it contains the way 
+        in which the hero realizes his own profound feelings for the heroine. 
+         
+         
+        3.3 Intermarriage in Love Story 
+         
+        In the section 3.1 I brought up the role of ethnic difference in the backgrounds of Jennifer 
+        and Oliver. In this section I will discuss the issue in more detail by concentrating on the 
+        aspects of intermarriage and ethnicity and their portrayal in Love Story. 
+           Jennifer’s ethnicity plays a role in Love Story since as a working-class ethnic heroine 
+        she is not an ideal love object “for the heir to the Barrett name and fortune” (Pelzer 21). 
+        Although she is portrayed in the novel to be proud of her roots she also has feelings of 
+        inferiority  as she studies in the prestigious Radcliffe College on a scholarship amongst 
+        students whose family can afford the tuition fees. Jennifer’s feelings of inferiority show in 
+        the novel as she is about to meet Oliver’s parents and sees the driveway to their house for 
+        the first time. It is a moment when Jennifer finally realizes the contrast between her and 
+        Oliver’s  backgrounds.  Although  Jennifer  has  known  before  that  she  and  Oliver  have 
+        different social statuses, it is when she sees the “half mile drive in from Groton Street to 
+        Dover House proper” (49) and the buildings alongside the road that she begins to feel that 
+        she should be someone else in order to qualify to marry in to the family. She asks Oliver: 
+        “why is it I suddenly wish my name was Abigail Adams, or Wendy WASP?” (50). It 
+        shows that Jennifer is aware of the importance of name. What this means is that Jennifer’s 
+        last name is one of the first features that reveals her lower social status to Oliver’s parents. 
+                            57 
+         
+        Jennifer’s reaction reveals that she feels that if her name sounded less ethnic, it would be 
+        more acceptable. Jennifer herself is not an immigrant nor does she even speak Italian; it is 
+        thus  her  name  Cavilleri  that  tells  unquestionably  of  her  ethnic  background.  In  the 
+        beginning of the narrative, Jennifer is proud of her ethnicity, as can be noticed from how 
+        she  introduces  herself  to  Oliver:  “’I’m  Jennifer  Cavilleri,’…’an  American  of  Italian 
+        descent’” (13). She emphasizes her background although it became clear from her last 
+        name. In the novel this is contrasted with Oliver’s introduction where he “confesses” that 
+        his “entire name” is Oliver Barrett, but it is not his entire name since he leaves the numeral 
+        out. The initial setting is quite different. Oliver is embarrassed or self-conscious of his 
+        background whereas Jennifer is proud of hers. It seems as if the roles should be reversed. 
+        Oliver’s  name  awakens  positive  connotations  whereas  Jennifer’s  Italian  name  evokes 
+        memories of gangsters and an enemy at war. Jennifer is an Italian American character, 
+        which makes her classifiable in the category of ‘PIGS’. Regardless her whiteness, she still 
+        lacks something. As Guglielmo and Vecoli suggest, Italian American identity is a complex 
+        one. To use the words of Gardaphé: 
+         
+             If not totally black, Italians have certainly complicated the notion of whiteness 
+             in America so that they are neither totally white, and it is this in between status 
+             that makes them likely candidates for assisting in the abolition of whiteness in 
+             the  United  States.  For  those  who  can  naïvely  say  we  are  not  black,  others 
+             counter with the truth, that we were not always white. (Leaving 135) 
+         
+        In contrast to Jennifer’s, Oliver’s name has a different impact. As Oliver puts it in the 
+        novel: “[m]y illustrious name enabled us to establish a charge account at a grocery store 
+                            58 
+         
+        which would otherwise have denied credit to students” (81). Oliver’s name also makes him 
+        more desirable for law firms after he graduates and receives employment offers: 
+         
+             I was the only one who wasn’t Jewish. (And anyone who says it doesn’t matter 
+             is full of it.) Christ, there are dozens of firms who will kiss the ass of a WASP 
+             who can merely pass the bar. Consider the case of yours truly: Law Review, 
+             all-Ivy, Harvard and you know what else. Hordes of people were fighting to get 
+             my name and numeral onto their stationery. I felt like a bonus baby‒and I 
+             loved every minute of it. (97‒98) 
+         
+           It is the name that evokes the notion of financial affluence as Jennifer realises when 
+        applying for an employment: 
+         
+             “Of course, Shady Lane isn’t able to match the public school salaries,” Miss 
+             Anne Miller Whitman, the principal, told my wife, adding something to the 
+             effect that Barretts wouldn’t be concerned with “that aspect” anyway. Jenny 
+             tried to dispel her illusions, but all she could get in addition to the already 
+             offered thirty-five hundred for the year was about two minutes of “ho ho ho”s. 
+             Miss Whitman thought Jenny was being so witty in her remarks about Barretts 
+             having to pay the rent just like other people. (81) 
+         
+        As the Barrett name symbolizes wealth and respect, people assume that Jennifer and Oliver 
+        are  wealthy.  The  name  actually  works  for  their  disadvantage  in  the  above  mentioned 
+        situation as they are not believed to need money. Miss Whitman sees Jennifer Barrett as 
+        someone from the  Barrett  family,  not  as  a  person  with  Italian  American  background. 
+                            59 
+         
+        Through her marriage, Jennifer has lost her ethnic identity in the eyes of others. Gardaphé 
+        claims that: 
+         
+             There is much that the many peoples who have come to America agree is 
+             wonderful about living in this land, but the first lesson any immigrant group 
+             learns is that ‘making it’ in this country happens at the expense ‘unmaking’ 
+             ethnic identity and allegiance to Old World customs and behavior. This holds 
+             true for intracultural institutions as well. When ‘making it’ means moving from 
+             working  class,  to  middle  class,  to  upper  class,  sooner  or  later  we  must 
+             understand that upward mobility means ascribing to the cultural values that 
+             belong  to  each  class  and  to  the  category  of  whiteness;  ancestral  traditions 
+             become ancillary side shows that we can foster only in our spare time. (Leaving 
+             124‒5) 
+              
+        Jennifer has ‘unmade’ her ethnic identity upon marrying Oliver. The transformation of her 
+        ethnic identity shows not only in her change of her name, but also because of her religion 
+        as well. Even before she met Oliver, she had not been a practising Catholic, but her family 
+        were not aware of this. This however becomes evident for them upon Jennifer marrying 
+        Oliver  since  they  were  not  invited  to  the  wedding.  Oliver  states  that  their  “reason  for 
+        excluding Jenny’s relatives was out of genuine concern that [their] omission of the Father, 
+        Son and Holy Ghost would make the occasion far too trying for unlapsed Catholics” (74). 
+        It  is  very  uncommon  for  the  Italian  culture  to  have  a  woman  support  her  husband 
+        financially. The stereotypical Italian woman is married, she keeps the house tidy and cooks 
+        big meals for her husband and children. Although Jennifer’s ethnic identity is ‘unmade’ 
+        after their marriage, she finds it again when her and Oliver’s roles switch: Oliver takes the 
+                            60 
+         
+        financial  responsibility  and  Jennifer  stays  at  home.  Oliver  describes  the  situation  after 
+        Jennifer illness had been known for a month: “She was still doing the cooking; she insisted 
+        on it. I had finally persuaded her to allow me to clean up (though she gave me heat about it 
+        not  being  ‘man’s  work’)”  (114).  Thus  she  resorts  back  to  the  traditional  roles  for  the 
+        husband and wife after first having the man’s role of earning the money. 
+           Oliver’s parents can be seen as the purists that Sollors discusses, as they fear that 
+        their  grandchildren  will  not  resemble  them.  In  this  novel  we  can  see  the  conventional 
+        ending for intermarriage which Sollors emphasizes is often tragic in literature (Beyond 
+        224). In Love Story the heroine, who has an ethnic background, is unable to conceive. In 
+        fact after the couple start planning children the heroine is found out to be ill. As she dies 
+        before she has ‘mixed blood’ children, the Barrett name stays ‘pure.’ 
+           Jarmakani claims that the romance “authors sometimes use exotic tropes to give the 
+        hero his hard edges” (896). As examples she mentions the Latin and Native American 
+        heroes. She claims that “In constructing the figure of the Latin lover […] authors can 
+        mobilize mainstream assumptions about machismo to signify alpha maleness. In Native 
+        American heroes, romance authors can mobilize the fierce warrior stereotype” (Jarmakani 
+        896). Jarmakani calls these types of heroes “exoticized romance heroes” (896). In Love 
+        Story the ‘roles’ of the heroine and the hero are sometimes reversed, and it is not the hero 
+        but  the  heroine  who  is  exoticized.  This  can  be  seen  when  Oliver  describes  Jennifer’s 
+        background when he is about to meet her father for the first time: 
+         
+             I  mean,  here  I  would  be  bucking  that  lotsa  love  Italian-Mediterranean 
+             syndrome, compounded by the fact that Jenny was an only child, compounded 
+             by the fact that she had no mother, which meant abnormally close ties to her 
+                            61 
+         
+             father.  I  would  be  up  against  all  those  emotional  forces  the  psych  books 
+             describe. (63) 
+         
+           In Love Story, Jennifer is about to achieve the American Dream: she has studied at a 
+        prestigious university and she has been accepted to study abroad with a famous music 
+        teacher. If Jennifer went there, she could become a famous musician, be independent, and 
+        have a good income on her own. As a result, her social status would improve. Her reality in 
+        the  novel,  however,  is  “quite  the  opposite  of  the  American  fantasy”  (Friedman,  177). 
+        Although Jennifer has a free choice of her love object, i.e., her family lets her choose 
+        whom she loves, she is not ‘free’ to marry him. The objection comes from Oliver’s side, 
+        which is the Anglo-American side. She marries Oliver but he no longer receives financial 
+        support from his family and it is Jennifer who has to support him. She takes on a job as a 
+        teacher in order to do so and thus sacrifices her future as a musician. In Friedman’s words, 
+        Jennifer is “shut out of that [American] Dream […] through marriage” (177).  
+           Love  Story  also  shows  that  Jennifer  has  the  destiny  of  the  invisible  immigrants 
+        Friedman discusses. She was more assimilated and achieved more before her marriage. 
+        Jennifer loses her own ambition after she marries Oliver. At first she supports Oliver while 
+        he  still  studies,  but  after  he  graduates  and  begins  working  at  a  well-paying  law  firm, 
+        Jennifer moves with him to New York and becomes a housewife. She becomes invisible 
+        without her active role in the public. When Oliver’s ‘friends’ invite them over, Jennifer 
+        says: “’Fuck ‘em, Oliver. I don’t want to waste two days bullshitting with a bunch of vapid 
+        preppies”  (101).  Unlike  Oliver,  who  plays  squash  with  a  friend  several  times  a  week, 
+        Jennifer has no social life after their move to New York. She “disappears” behind her 
+        husband as she remains in the domestic sphere, and in addition to this, her invisibility takes 
+        on another meaning when she begins to fade away physically. First, she loses weight as her 
+                            62 
+         
+        illness  progresses  and  thus  becomes  less  visible;  second,  she  dies  and  becomes  truly 
+        invisible. Much like Cora’s death in The Last of the Mohicans after Jennifer dies she no 
+        longer threatens “the boundaries drawn between races and cultures” (Dean 64). Similarly 
+        to Heyward, Oliver is now free to marry a WASP, thus protecting the racial integrity of the 
+        Barrett bloodline.  
+           Oliver  is  very  competitive  and  winning  appeals  to  him.  As  he  thrives  to  be 
+        successful, Jennifer’s career and hopes are less important. It is not mentioned in the novel 
+        why Jennifer has to choose between her marriage to Oliver and going to Paris to study. It is 
+        taken  for  granted  that  Jennifer  is  the  one  who  sacrifices  her  career  and  “becomes 
+        invisible”. Oliver is thus already conforming to the values of his status.  
+           In Love Story, Jennifer does not achieve success by her marriage to a successful man. 
+        In fact she makes him successful and independent by acting as the incentive for Oliver to 
+        break free from his family. Jennifer does not do this actively but she becomes the means to 
+        Oliver  to  find  his  independence.  Oliver  uses  her,  although  unintentionally,  to  gain 
+        independence and after she has fulfilled that role, she has no purpose in the mostly WASP 
+        society. 
+         
+         
+         
+         
+         
+         
+         
+         
+         
+                            63 
+         
+        4. Conclusion 
+         
+        In this thesis my aim was to demonstrate that Erich Segal’s Love Story is a romance novel 
+        despite its unconventional romance elements. In the introductory chapter of my thesis, I 
+        gave a brief description of Erich Segal and his career. I also pointed out the criticism Love 
+        Story received after its publication while providing a short summary of the novel’s plot. 
+           The theory chapter of my thesis consists of three sections. The section 2.1 discusses 
+        the  history  of  romance  genre,  from  its  origins  to  more  contemporary  popular romance 
+        novels. As the genre has been through several changes, it was important to examine what 
+        the true elements of romance are that characterize the whole genre. It became evident that 
+        despite these changes there are elements that stem from the older romances. One of the 
+        characterizing elements of the genre is its iterability: romance novels have elements that 
+        refer back to older texts that are repeated and rewritten. 
+           Since Love Story is a popular novel from 1970, it was important to concentrate in 
+        detail  on  the  more  modern popular romance novels. In the section 2.2 of my thesis, I 
+        discussed the formula of popular romance novels. Since the term formula refers to both 
+        plot types and cultural stereotypes I examined first the plot type of romance and then the 
+        conventional way in which the hero and heroine are treated in romance novels. Although 
+        there  are  different  summaries  that  describe  the  typical  romance  novel  plot,  I  found 
+        Radway’s list of functions to be the most useful. Those functions provide a summary of the 
+        narrative  structure  of  the  ideal  romance.  As  the  second  usage  of  the  term  formula,  I 
+        discovered that during the period of late 1960s to 1970s, the conventional stereotype for 
+        the heroine was the intelligent and achieving college girl. It is also conventional for the 
+        hero and heroine to be ideal people. 
+                            64 
+         
+           In  the  last  theory  section  of  my  thesis,  I  discussed  the  role  of  intermarriage  in 
+        romance  literature.  I  began  by  providing  a  brief  description  of  the  attitude  towards 
+        ethnicity during the decades before Love Story was published in order to show that the 
+        Italian American identity is a complex one and significantly different as opposed to the 
+        majority  of  Americans.  I  gave  examples  of  the  portrayal  of  ethnicity  in  academic 
+        publications as well as in the texts of Italian Americans themselves. In the latter part of the 
+        section I discussed the role of intercultural relationships in literature. I discovered that the 
+        mixed marriages often appeared hazardous in American literature, and the ending of such 
+        unions were typically tragic. 
+           I concentrated in my analysis of Love Story to the conventions of romance. In the 
+        section 3.1 I analyzed the romance elements that stem from the older romances. One of the 
+        important  aspects  of  this  section  was  to  discover  the  significance  of  the  untraditional 
+        romance ending of Love Story. As I hope to have shown, the ending of Love Story is sad 
+        but not a hopeless one. The love between the protagonists does not end in the death of the 
+        heroine, but it continues in the memories of the hero. Another love story also begins, as the 
+        father and son are reunited. The return of the prodigal son back to his family also validates 
+        the love story between the protagonists as the father realizes the depth of his son’s feelings 
+        towards the heroine. He learns that the relationship between Oliver and Jennifer was not 
+        merely  an  act  of  rebellion  against  him  but  it  was  true  love.  The  father  can  now  be 
+        convinced of it as the poor ethnic heroine did not gain anything from the marriage. 
+           In  the  section  3.2  of  my  thesis  I  analysed  Love  Story  on  the  basis  of  Radway’s 
+        thirteen functions. Since Love Story contains unconventional romance elements I needed to 
+        modify the functions: the roles of the hero and heroine are often reversed so I needed to 
+        reverse them in some of the functions as well. After the modification most of the functions 
+                            65 
+         
+        were found from Love Story, despite the Smithton women’s claim that Love Story is not a 
+        true romance.  
+           In the final part of my analysis I concentrated on the role of ethnicity in Love Story. 
+        As the heroine of the novel is a poor Italian American girl, she is not considered a suitable 
+        bride to the hero. The hero’s WASP background is contrasted to the heroine’s Catholicism 
+        and  ethnicity.  At  first  it  seems  that  the  heroine  achieves  the  American  Dream  as  she 
+        marries the hero despite his family’s refusal to accept the union. She has ‘unmade’ her 
+        ethnic identity working as Jennifer Barrett in the WASP society, while the hero continues 
+        his studies. However, when Oliver graduates and is employed, Jennifer loses her role in the 
+        American society. She also loses her American Dream as she disappears behind Oliver’s 
+        success. She begins to fade away because of her illness and finally is out of sight altogether 
+        as she dies. When dead, she is no longer a threat to the Barrett family as she can no longer 
+        benefit  from  their  wealth.  Similarly,  Oliver’s  father  no  longer  needs  to  fear  that  the 
+        relationship  will  produce  mixed-race  children.  The  reason  for  the  son’s  and  father’s 
+        disparity is gone. The vivacity of the Italian American girl has taught the cold Anglo-
+        Saxons how to love with her words of wisdom: “[l]ove means not ever having to say 
+        you’re sorry” (127). As the love between the couple continues despite the heroine’s death, 
+        the novel is still capable of continuing the tradition of tragic endings for interracial couples 
+        while keeping its status as a romance novel.  
+           A possible future research topic is the oedipal relationship between Oliver and his 
+        father as Oliver’s inability to express his love for his father suggests. The role of ethnicity 
+        in Love Story can still be examined further as well as the role of the dialogue between 
+        Jennifer and Oliver.  
+         
+         
+                            66 
+         
+        References 
+         
+        “Behind the Scenes: Mel Zerman on the Marketing of Erich Segal’s Love Story.” Online.
+           http://www.americanlegends.com/Interviews/erich_segal.html. Accessed 05/22/2013. 
+        Barlow,  Linda  and  Jayne  Ann  Krentz.  ”Beneath  the  Surface:  The  Hidden  Codes  of 
+           Romance.” In Krentz 15‒29. 
+        Brackett,  Virginia.  Classic  Love  and  Romance  Literature:  An  Encyclopedia  of  Works, 
+           Characters, Authors and Themes. Santa Barbara: ABC-CLIO, 1999. 
+        Burley, Stephanie. “What’s a Nice Girl like You Doing in a Book like This?: Homoerotic 
+           Reading and Popular Romance.” In Strehle and Carden 127‒146. 
+        Cannistraro,  Philip  and  Gerald  Meyer,  eds.  The  Lost  World  of  Italian-American 
+           Radicalism: Politics, Labor, and Culture. Westport: Praeger Publishers, 2003. 
+        Cawelti, John G. Adventure, Mystery, and Romance: Formula Stories as Art and Popular 
+           Culture. Chicago: University of Chicago Press, 1976. 
+        Clair, Daphne. “Sweet Subversions.” In Krentz 61‒72. 
+        Dean,  Janet.  “Stopping  Traffic:  Spectacles  of  Romance  and  Race  in  The  Last  of  the 
+           Mohicans.” In Strehle and Carden 45‒66. 
+        Friedman, Natalie. “Marriage and the Immigrant Narrative: Anzia Yezierska’s Salome of
+            the Tenements.” Legacy 22 (2005): 176‒186. 
+        Fowler, Bridget. The Alienated Reader: Women and Romantic Literature in the Twentieth 
+           Century. Hertfordshire: Harvester Wheatsheaf, 1991. 
+        Fox, Margalit. “Erich Segal, ‘Love Story’ Author, Dies at 72.” Online. Published January 
+           19,  2010.  http://www.nytimes.com/2010/01/20/books/20segal.html?_r=1.  Accessed 
+           06/04/2012. 
+        Fuchs, Barbara. Romance. New York: Routledge, 2004. 
+                                                               67 
+                   
+                  Gardaphé, Fred. “Follow the Red Brick Road.” In Cannistraro and Meyer 265‒272. 
+                  ‒‒‒.   From  Wiseguys  to  Wise  Men:  The  Gangster  and  Italian  American 
+                        Masculinities. New York: Routledge, 2006. 
+                  ‒‒‒.  Leaving  Little  Italy:  Essaying  Italian  American  Culture.  Albany:  State 
+                        University of New York Press, 2004. 
+                  Guglielmo,  Jennifer.  “Donne  Ribelli:  Recovering  the  History  of  Italian  Women’s 
+                        Radicalism in the United States.” In Cannistraro and Meyer 113‒141. 
+                  Hansson,  Heidi.  Romance  Revived:  Postmodern  Romances  and  the  Tradition.  Umeå: 
+                        Umeå University, 1998. 
+                  Hughes, Helen. The Historical Romance. London: Routledge, 1993. 
+                  Ibson, John. “Virgin Land or Virgin Mary? Studying the Ethnicity of White Americas.” 
+                        American Quarterly 33 (1981): 284‒308. 
+                  Jarmakani, Amira. “Desiring the Big Bad Blade: Racing the Sheikh in Desert Romances.” 
+                        American Quarterly 63 (2011): 895−928. 
+                  Jones, Ann Rosalind. “Mills & Boon Meets Feminism.” In Radford 195−218. 
+                  Kinsale, Laura. “The Androgynous Reader: Point of View in the Romance.” In Krentz 31‒
+                        44. 
+                  Krentz, Jayne Ann ed. Dangerous Men and Adventurous Women: Romance Writers on the 
+                        Appeal of the Romance. Philadelphia: University of Pennsylvania Press, 1992. 
+                  ‒‒‒. “Introduction.” In Krentz 1‒9. 
+                  Long,  Elizabeth.  The  American  Dream  and  the  Popular  Novel.  Boston:  Routledge  & 
+                        Kegan Paul, 1985. 
+                  Luconi, Stefano. From Paesani to White Ethnics: The Italian Experience in Philadelphia. 
+                        Albany: State University of New York Press, 2001. 
+                            68 
+         
+        McDermott, Hubert. Novel and Romance: The Odyssey to Tom Jones. Hong Kong: The 
+           McMillan Press, 1989. 
+        Modleski, Tania. Loving with a Vengeance: Mass-produces Fantasies for Women. London: 
+           Routledge, 1990. 
+        Pearce, Lynne. Romance Writing. Cambridge: Polity Press, 2007. 
+        Pearce, Lynne and Jackie Stacey, eds. Romance Revisited. London: Lawrence & Wishart, 
+           1995. 
+        Pelzer, Linda C. Erich Segal: A Critical Companion. Westport, Connecticut: Greenwood 
+           Press, 1997. 
+        Philips, Deborah. Women’s Fiction 1945‒2005: Writing Romance. London: Continuum, 
+           2006. 
+        Radford, Jean ed. The Progress of Romance: The Politics of Popular Fiction. London: 
+           Routledge, 1986. 
+        Radway, Janice A. Reading the Romance: Women, Patriarchy, and Popular Literature. 
+           1984. Chapel Hill: University of North Carolina Press, 1991. 
+        Segal, Erich. Love Story. London: Hodder Paperbacks, 1971. 
+        Sollors, Werner. Beyond Ethnicity: Consent and Descent in American Culture. New York: 
+           Oxford University Press, 1986. 
+        ‒‒‒. “Theory of American Ethnicity, or “? s Ethnic?/ti and American/ti, de or United (w) 
+           States s s1 and Theor?”” American Quarterly 33 (1981): 257‒283. 
+        Stacey, Jackie and Lynne Pearce. “The Heart of the Matter: Feminists Revisit Romance.” 
+           In Pearce and Stacey 11‒45. 
+        Strehle,  Susan  and  Mary  Paniccia  Carden,  eds.  Doubled  Plots:  Romance  and  History. 
+           Jackson: University Press of Mississippi, 2003. 
+                            69 
+         
+        Vecoli, Rudolph J. “The Making and Un-Making of the Italian American Working Class.” 
+           In Cannistraro and Meyer 51−75. 
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+                            70 
+         
+        Finnish Summary 
+         
+        Romanssikirjallisuutta on pitkään pidetty ala-arvoisena kirjallisuuden lajina. Harva tietää 
+        kuinka paljon rohkeutta vaatii naiselta avata romanssi lentokoneessa, sillä yhteiskunta on 
+        aina tuomitsemassa kirjallisuuden lisäksi lukijankin. Erich Segal olisi voinut lisätä tähän 
+        että yhteiskunta tuomitsee myös kirjailijan. 
+           Tutkielmassani  analysoin  Erich  Segalin  romaania  Love  Story  (Rakkaustarina). 
+        Aikomukseni on osoittaa että Love Story on romanssi kuten sen nimi vihjaa. Tämä on 
+        kyseenalaistettu, sillä nimestään huolimatta Love Story sisältää romanssille epätyypillisiä 
+        konventioita, kuten esimerkiksi, että tarina ei lopu päähenkilöiden naimisiinmenon jälkeen 
+        vaan vasta myöhemmin kun toinen päähenkilöistä kuolee.  
+           Love Story on Erich Segalin ensimmänen romaani. Hän kirjoitti sen ensin elokuvan 
+        käsikirjoitukseksi ja muokkasi romaaniksi. Love Story julkaistiin helmikuussa 1970 ja siitä 
+        tuli vielä samana vuonna best-seller. Erich Segal oli yliopisto-opettaja joka opetti kreikan- 
+        ja latinankielistä kirjallisuutta Yalen, Harvardin ja Princetonin yliopistoissa. Love Storyn 
+        suosio  kuitenkin  vähensi  Erich  Segalin  akateemista  arvostusta  ja  hän  suostui  jäämään 
+        virkavapaalle  virastaan  Yalen  yliopistosta.  1971  Love  Story  nimettiin  ehdolle  National 
+        Book Awardin saajaksi, mutta ehdokkuus peruttiin tuomariston viiden jäsenen uhatessa 
+        erollaaan. Erich Segal kuoli vuonna 2010 Englannissa, jonne hän oli muuttanut aiemmin. 
+           Love  Story  on  kertomus  Oliver  Barrett  IV:n  ja  Jennifer  Cavillerin  rakkaudesta. 
+        Oliverin perhe on jo vuosia ollut rikas ja arvostettu ja perheen perinteenä on jo pitkään 
+        ollut opiskelu Harvardissa. Jennifer taasen on Italian amerikkalaisen työläisperheen tytär, 
+        joka opiskelee musiikkia Radcliffen Collegessa. Oliver ja Jennifer rakastuvat ja päättävät 
+        mennä naimisiin Oliverin perheen vastustuksesta huolimatta. Oliverin perhe ei tämän takia 
+        enää  anna  taloudellista  tukea  Oliverin  opiskelua  varten,  joten  Jennifer  menee  töihin 
+                            71 
+         
+        elättääkseen  Oliveria  tämän  jatkaessa  opintojaan.  Lopulta  Oliver  valmistuu  ja  saa 
+        hyväpalkkaisen työn asianajajana, jolloin pariskunta alkaa toivoa perheenlisäystä. Koska 
+        sitä ei ala kuulua, he menevät lääkäriin jossa selviääkin että Jenniferillä on parantumaton 
+        sairaus. Jennifer joutuu sairaalaan kalliisiin syöpähoitoihin kunnes lopulta kuolee.  Love 
+        Story sai paljon negatiivista kritiikkiä osakseen, vaikka teos olikin lukijoiden arvostama. 
+        Kriitikot eivät pitäneet muun muassa kliseiden runsaudesta.  
+           Aloitan romanssin teorian käsittelyn tutkimalla romanttisen kirjallisuuden alkuperää 
+        ja niitä romansseille tunnusomaisia piirteitä, jotka ovat luonnehtineet genreä alusta lähtien. 
+        Näitä piirteitä ovat ensiksi se, että aiheena on yhden ihmisen tarina kansakunnan tarinan 
+        sijaan, toiseksi se, että seikkailujen lisäksi kerrotaan rakkaudesta ja seksuaalisuudesta, ja 
+        lopuksi se, että tarina loppuu onnellisesti. Muita romanssille tunnusomaisia piirteitä tuli 
+        esiin Odysseian jälkeen kirjoitetuista romansseista: niissä on mm. juonenkäänteitä, joissa 
+        hahmon  henkilöllisyys  on  ensin  epäselvä  ja  totuus  selviää  tarinan  edetessä:  niiden 
+        päähenkilöt ovat ihanteellisia ihmisiä: he ovat kauniita, viisaita tai molempia, ja juoneen 
+        liittyy olennaisesti ihmeitä, hirviöitä, tehtäviä ja koetuksia. 
+           Romanssien kirjoittajat ovat toistaneet samoja aiheita romaaneissaan ja kirjoittaneet 
+        suosituimpia tarinoita yhä uudelleen. Varsinkin kreikkalaiset ja roomalaiset legendat olivat 
+        suosittuja tarinoita, jotka ensin kirjoitettiin latinaksi ja myöhemmin käännettiin ranskaksi. 
+        Samalla niitä muokattiin sopimaan eri aikaan ja paikkaan. Näin tarinoihin, jotka sijoittuivat 
+        menneisyyteen, tulivat näkyviin 1100-luvun hovin ja ritarikulttuurin ulkoiset merkit. 
+           Alun  perin  romanssit  eivät  olleet  tarinoita  rakkaudesta  vaan  seikkailuista,  mutta 
+        keskiajalla tämä muuttui. Ne koetukset ja seikkailut, jotka olivat aiemmissa romansseissa 
+        olleet ritarin haasteena, olivat Chaucerin ja Maloryn romansseissa romanttisen rakkauden 
+        aiheuttamia. Rakkaudesta tuli täten keskiajalla romanssin aihe, ja  aiempien romanssien 
+                                                                              72 
+                        
+                       uskomattomat  ulkoapäin  tulevat  haasteet  muokkautuivat  rakastuneen  ihmisen  sisäisiksi 
+                       haasteiksi: epäilyiksi ja mustasukkaisuudeksi. 
+                              Samalla  kun  romanssin  kirjoittajat  alkoivat  kirjoittaa  rakkaudesta,  he  alkoivat 
+                       enenevässä  määrin  keskittyä  kirjoituksessaan  naisten  näkökulmaan.  Naisnäkökulmaan 
+                       siirtyminen  johtui  myös  siitä,  että  1500-luvun  jälkeen  myös  naiset  alkoivat  kirjoittaa 
+                       romansseja  eikä  kirjoittaminen  ollut  enää  vain  miesten  alaa.  Romanssien  aihe  vaihtui 
+                       kreikkalaisten  legendojen  seikkailevista  miehistä  tosirakkautta  etsiviksi  naisiksi,  mutta 
+                       samalla kreikkalaisia ja roomalaisia legendoja kirjoitettiin yhä vain uudelleen. 1700-luvulla 
+                       romanssi  koki  lisää  muutoksia,  sillä  yhä  useampi  ihminen  pystyi  ostamaan  romaaneja 
+                       painokoneen keksimisen vuoksi: kirjoista tuli kasvaneen tarjonnan myötä edullisempia. 
+                              Lukijakunnan         määrän        kasvaessa       myös       kysyntä      kasvoi      ja     siitä    tuli 
+                       monimuotoisempaa. Toisaalta lukijat halusivat lukea viettelyksestä kertovia tarinoita, ja 
+                       toisaalta  he  halusivat  hyveellisempiä  sankarittaria.  Eräs  kirjallisuuden  tutkija  jaottelee 
+                       1700-luvun romanssit kolmeen osaan: goottilaisiin romansseihin, kosiskeluromansseihin ja 
+                       viettelyromansseihin.  Viettelyromanssien  olemassaolo  voi  tulla  yllätyksenä  niille,  jotka 
+                       ovat tottuneet lukemaan mm. Jane Austenin ja Brontën sisarusten teoksia. On kuitenkin 
+                       tärkeää  olla  tietoinen  näiden  viettelystä  ja  seksuaalisuudesta  kertovien  romaanien 
+                       olemassaolosta,  sillä  ne  ovat  varhaisimpia  versioita  suosituista  1970-luvulta  alkaen 
+                       tehdyistä      romansseista,         joista     käytetään       nimeä       harlekiiniromanssit.          Näissä 
+                       harlekiiniromansseissa,         kuten      kosiskeluromansseissakin,  tärkeää  on  sankarittaren 
+                       hyveellisyys. Klassisen kaavan mukaan hän taistelee ylemmän luokkataustan omaavaan 
+                       sankarin lähentelyjä vastaan, kunnes tälle ei jää muuta mahdollisuutta kuin kosia. Tämä 
+                       romanssien kaavamaisuus on osa niiden suosiota: ne ovat muunnelmia peruskaavasta ja 
+                       siksi entuudestaan jo tuttuja lukijoille. 
+                                                            73 
+                  
+                       Osiossa  2.2  käsittelen  tarkemmin  romanssin  kaavaa,  joka  on  käsitteenä 
+                 kaksitahoinen:  se  kuvaa  sekä  universaalia  juonikuviota,  että  henkilöhahmojen 
+                 stereotyyppistä  kuvausta,  joka  on  sidoksissa  aikaan  ja  kulttuuriin.  Tärkeä  romanssin 
+                 juonikuvion  kaava  on  Radwayn  13  funktiota,  jotka  kuvaavat  sankarittaren  kasvua 
+                 epävarmasta  nuoresta  itsevarmaksi  aikuiseksi  naiseksi.  Radwayn  lista  pohjautuu 
+                 Smithtonin  naisten,  jotka  ovat  ryhmä  innokkaita  romanssikirjallisuuden  lukijoita, 
+                 valitsemiin  romansseihin.  Nämä  naiset  väittävät,  että  Love  Story  ei  täytä  romanssin 
+                 tunnuspiirteitä ja siksi käytänkin tätä kaavaa analyysini pohjana. 
+                       Kaava tyypillisille romanssin sankarille ja sankarittarelle on kokenut muutoksia ajan 
+                 myötä.  Samalla  kun  yliopistoissa  opiskelevien  naisten  määrä  kasvoi,  yleistyi 
+                 kirjallisuudessa opiskelemaan lähtevä nuoren naisen tarina. Koska naiset olivat edelleen 
+                 vähemmistönä  yliopistoissa,  näiden  tarinoiden  tyypillinen  opiskelijatyttö  oli  älykäs 
+                 suorittaja. Romanssin sankaritar on älykkyyden lisäksi usein myös verbaalisesti lahjakas: 
+                 hän hurmaa ja haastaa rakastajansa sanailullaan. Sankarittarien ei tarvitse olla huolissaan 
+                 suoruudestaan sillä romanssien sankarit ovat yhtä vahvoja kuin hekin. Nämä sankarit ja 
+                 sankarittaret ovat muullakin tavoin ’parempia ihmisiä:’ he ovat onnekkaampia, vahvempia 
+                 ja  rohkeampia  sekä  osaavat  löytää  täydellisen  kumppanin  itselleen.  He  ovat  lisäksi 
+                 fyysisesti muita viehättävämpiä. 
+                       Viimeisessä  teoria  osiossa  tarkastelen  etnisyyden  ja  kulttuurien  välisten 
+                 ihmissuhteiden     merkitystä    kirjallisuudessa.   Aloitan    pohtimalla    millainen 
+                 amerikanitalialaisten  minäkuva  oli  1900-luvulla  ja  mitkä  asiat  siihen  vaikuttivat.  Näitä 
+                 asioita  ovat  mm.  amerikanitalialaisuuden  yhdistäminen  mafiaan  ja  gangstereihin,  sekä 
+                 sodan aikana viholliseen. Pohdin myös nimen merkitystä etnisenä tunnuksena, sitä miten 
+                 se  on  tunnuksena  konkreettinen  ja  luo  siten  yhteenkuuluvuutta  etnisen  ryhmän  sisällä, 
+                 mutta erottaa samalla muista. Lopuksi käsittelen sitä miten kulttuurien välisiä ihmissuhteita 
+                            74 
+         
+        kuvataan kirjallisuudessa. Usein näiden ihmissuhteiden kohtalot kuvataan traagisiksi sillä 
+        niiden  katsotaan  uhmaavan  asioiden  luonnollista  järjestystä.  Tämän  takia  tällaiset 
+        ihmissuhteet ovat harvoin romanssin aiheena sillä sellainen antaisi ymmärtää että tarinalla 
+        on traaginen loppu tyypillisen onnellisen lopun sijaan. Viimeisessä Mohikaanissa kuvataan 
+        kulttuurien  välistä  ihmissuhdetta.  Siinä  Cora,  jonka  annetaan  ymmärtää  olevan  vain 
+        puoliksi valkoinen, rakastuu mohikaaniin nimeltä Uncas, mutta heidän tarinansa päättyy 
+        verisesti. Kuollessaan Cora ei enää uhkaa rotujen ja kulttuurien välisiä rajoja eikä haasta 
+        kauaksi  ulottuvaa  valkoista  patriarkaalista  hallintojärjestelmää.  Vaikka  romansseissa 
+        harvoin käsitellään kulttuurien välisiä rakkaustarinoita, ovat ne yleisiä maahanmuuttajien 
+        teksteissä.  Friedman  ehdottaa  artikkelissaan,  että  maahanmuuttajanaisen  sopeutuminen 
+        Yhdysvaltoihin  onnistuu  paremmin  työn  kuin  avioliiton  avulla.  Mennessään  naimisiin 
+        maahanmuuttajanainen  on  vaarassa  muuttua  näkymättömäksi,  sillä  usein  avioliitto 
+        Yhdysvalloissa on yhtä patriarkaalinen instituutio kuin alkuperäisessä kotimaassakin. 
+           Love  Storyn  analyysissa  keskityn  kahteen  aiheeseen:  siihen  miten  romaanissa 
+        hyödynnetään romanssin käytäntöjä ja sen tapaan kuvata etnisyyttä. Ensimmäinen aihe on 
+        jaettu  kahteen  osaan.  Käsittelen  ensin  mitä  romanssille  alkujaan  tunnusomaisia piirteitä 
+        Love Storyssä esiintyy ja sen jälkeen tutkin Love Storyä Radwayn 13 funktion pohjalta. 
+        Analyysini mukaan Love Story sisältää monia romanssin tunnusomaisia piirteitä, mutta ei 
+        sille  ominaista  onnellista  loppua.  Love  Storyn  loppu  on  kuitenkin  surullisuudestaan 
+        huolimatta toiveikas, sillä päähenkilö ei lakkaa rakastamasta kirjan sankaritarta. Heidän 
+        välinen  rakkautensa  säilyy  päähenkilön  muistoissa  sankarittaren  kuoleman  jälkeenkin, 
+        mikä vihjaa että heidän rakkautensa on jättänyt pysyvän vaikutuksen. Se että Love Story ei 
+        lopu onnellisesti voi osittain johtua siitä aikakaudesta milloin se on kirjoitettu. Vuosien 
+        1969  ja  1975  välisen  ajan  menestyskirjoissa  onnelliset  loput  olivat  tavallista 
+        harvinaisempia. Love Story loppuu siihen, että Jenniferin kuoleman jälkeen Oliver halaa 
+                            75 
+         
+        isäänsä ja he unohtavat erimielisyytensä. Täten lopun toiveikkuutta lisää myös Oliverin 
+        paluu perheensä pariin.  
+           Love  Storyn  kaava  seuraa  enimmäkseen  Radwayn  13:a  funktiota,  mutta  koska 
+        romaanissa  on  kyse  Oliverin,  eikä  Jenniferin,  kasvusta  itsenäiseksi  aikuiseksi 
+        tutkimuksessa  oli  tarpeen  muokata  joitakin  funktioita.  Love  Storyssä  sankari  kokee 
+        menetyksen, reagoi vihamielisesti yläluokkaista miestä edustavaan hahmoon eli isäänsä, 
+        joka sen jälkeen lakkaa tukemasta Oliveria taloudellisesti. Nämä ovat ensimmäiset kolme 
+        funktiota  muokattuina  niin,  että  sankaritar  on  vaihtunut  sankariksi.  Tällä  tavoin  Love 
+        Storystä  löytyy  myös  viimeinen  funktio  Oliverin  halatessa  isäänsä  romaanin  lopussa: 
+        sankarin identiteetti palaa ennalleen hänen löytäessään jälleen yhteys perheeseensä. Muut 
+        funktiot  ovat  Love  Storyssä  sellaisenaan  paitsi  neljäs  ja  kymmenes,  joita  ei  löydy 
+        ollenkaan.  Analyysini mukaan Love Story sisältää 11 Radwayn 13:sta funktiosta, jotka 
+        määrittelevät ihanteellisen romanssin kaavan.  
+           Viimeisessä  osiossa  keskityn  kuvaamaan  etnisyyden  merkitystä  Love  Storyssä. 
+        Jennifer ei ole köyhän etnisen taustansa takia Oliverin perheen mielestä sopiva kumppani 
+        Oliverille.  Jennifer  on  taustastaan  ylpeä,  mutta  tuntee  myös  alemmuutta  mikä  selviää 
+        hänen toiveestaan olla nimeltään Wendy WASP, kun Oliver vie hänet ensimmäistä kertaa 
+        tapaamaan vanhempiaan. Tämä myös osoittaa Jenniferin ymmärtävän nimen merkityksen 
+        etnisenä tunnuksena. Kun Jenniferin nimi muuttuu avioliiton myötä Jennifer Barrettiksi, on 
+        tilanne  erilainen:  sillä  Jenniferiä  ei  enää  pidetä  köyhänä  amerikanitalialaisena  vaan 
+        rikkaana  Barrettin  perheen  jäsenenä.  Hän  on  täten  saavuttanut  amerikkalaisen  unelman 
+        avioliiton  myötä,  mutta  vain  näennäisesti.  Todellisuudessa  hän  katoaa  aviomiehensä 
+        menestyksen taakse, sillä samalla kun Oliver valmistuu ja pääsee töihin, Jennifer jää kotiin, 
+        pois näkyvistä. Tämä katoaminen korostuu Love Storyssä Jenniferin sairastuessa, jolloin 
+        hän alkaa laihtuessaan konkreettisesti kadota. Lopulta hän katoaa täysin kuollessaan, kuten 
+                            76 
+         
+        Cora  Viimeisessä  mohikaanissa.  Jenniferin  kuolema  poistaa  uhan  Barrettien  verilinjaa 
+        ’puhtautta’ kohtaan, sillä Oliver on sen jälkeen vapaa löytämään itselleen ’sopivamman’ 
+        kumppanin.  
+           Tavoitteenani oli osoittaa että Love Story on romanssi ja omasta mielestäni onnistuin 
+        siinä. Tähän on kolme syytä. Ensiksi Love Storyn päähenkilöiden välinen rakkaus jatkuu 
+        Oliverin  muistoissa  Jenniferin  kuoleman  jälkeen.  Toiseksi  Love  Storyn  juoni  mukailee 
+        suurimmaksi  osaksi  ihanteellisen  romanssin  kaavaa.  Kolmas  syy  on  se,  että  vaikka 
+        romanssin tunnusmerkkeihin ei yleensä kuulu sankarittaren kuolema, Love Story yhdistää 
+        perinteisen  kulttuurien  rajat  ylittävän  ihmissuhteen  traagisen  kohtalon  romanssiin,  joka 
+        kuvaa täydellistä rakkautta, jota ulkoiset seikat eivät pysty tuhoamaan. 

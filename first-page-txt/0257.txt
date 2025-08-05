@@ -1,0 +1,25 @@
+                 Sample invoice details (Local Supply)
+                                                                                                                                 Customer’s name and address , and 
+                                                                                                                                 registration number (if registered)
+                                                                                                                                 Supplier’s name, address
+                         VICTOR DAVIS                                                                                            The words “Tax Invoice” clearly indicated
+                         ADDRESS : Company Z Pty Limited,            TAX INVOICE                    ALEX ADAMS                   Tax Invoice serial number
+                         PO BOX: 54321                                                              Company A Pty Limited,
+                         Sheikh Zayed Road                                                          PO BOX: 12345                 Date of Tax Invoice (and date of supply if 
+                         Dubai, United Arab Emirates,                                               MaktoumRoad
+                         Tel: +971 X XX XXXX                                                        Dubai, United Arab Emirates   different) 
+                         TRN: xxxxx                                                                                              Tax registration number
+                         Tax invoice No : 152643              Date : 21/07/2018                     TRN : xxxxxx
+                          No.   Item      Item Description   Qty  Unit Retail     Unit Sale Value      Total Amount (AED)                Description of goods / services supplied
+                                Code                              Price (AED)     (AED)
+                          1.    12345     Transistor         2    100             75                             150                     Quantity of goods or extent of the services supplied
+                          2.    67889     LED                3    110             80                             240
+                          3.    13425     Radiator           2    70              55                             110
+                                                                                  Total Sale                     500                     VAT rate
+                                                                                  VAT @5%*                       25                       Total amount of VAT charged (must be in AED)
+                                                                                  Discount                      0.00
+                                                                                                                                          Discount if any offered (must be in AED)
+                                                                                  Total Amount Paid              525
+                                                                                                                                          Total amount payable (inclusive of VAT, must be in AED)
+                         * If the invoice is issued in currency other than AED, then VAT would be converted with the rate of exchange applied
+                                                                                                                                                                                                               70

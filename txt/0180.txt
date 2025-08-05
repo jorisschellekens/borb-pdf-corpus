@@ -1,0 +1,1007 @@
+                                                                 draft of 5-11-2018
+                      Self-encrypting deception: weaknesses in the
+                              encryption of solid state drives (SSDs)
+                                           Carlo Meijer                                          Bernard van Gastel
+                               Radboud University, the Netherlands                      Radboud University, the Netherlands
+                                         C.Meijer@cs.ru.nl                               Open University of the Netherlands
+                                                                                          Bernard.vanGastel@{ru.nl,ou.nl}
+                Abstract—We have analyzed the hardware full-disk encryption      full-disk encryption software built into Microsoft Windows,
+             of several SSDs by reverse engineering their ﬁrmware. In theory,    switches off software encryption and completely relies on
+             the security guarantees offered by hardware encryption are          hardware encryption by default if the drive advertises support.
+             similar to or better than software implementations. In reality, we    Contribution. This paper evaluates both internal and external
+             found that many hardware implementations have critical security     storage devices, from multiple vendors, adhering to standards
+             weaknesses, for many models allowing for complete recovery of
+             the data without knowledge of any secret.                           for secure storage. The vendors combined produce close to
+                BitLocker, the encryption software built into Microsoft Win-     half of the SSDs currently sold. An overview is given of
+             dows will rely exclusively on hardware full-disk encryption if      possible ﬂaws that apply in particular to hardware-based full-
+             the SSD advertises supported for it. Thus, for these drives, data   disk encryption (Section V), and a methodology is provided for
+             protected by BitLocker is also compromised.                         the analysis (Section IV). We have analyzed ﬁrmwares from
+                This challenges the view that hardware encryption is prefer-
+             able over software encryption. We conclude that one should not      different SSD models offering hardware encryption, focusing
+             rely solely on hardware encryption offered by SSDs.                 on these ﬂaws (see Section VI and Table I). The analysis
+                                   I. INTRODUCTION                               uncovers a pattern of critical issues across vendors. For multi-
+                                                                                 ple models, it is possible to bypass the encryption entirely,
+                In recent years, protection of sensitive data has received       allowing for a complete recovery of the data without any
+             increased attention. Protection of digital data has become          knowledge of passwords or keys. The situation is worsened by
+             a necessity, certainly in the light of new European Data            the delegation of encryption to the drive by BitLocker. Due to
+             Protection Regulation. Technically, encryption is the go to         the default policy, many BitLocker users are unintentionally
+             protection mechanism; it may be implemented in software             using hardware encryption, exposing them to the same threats.
+             or hardware (or both). It can be applied on the level of            As such, we should reconsider whether hardware encryption
+             individual ﬁles, or the entire drive, which is called full-disk     is a true successor to its software counterpart, and whether the
+             encryption. Full-disk encryption is often the solution of choice    established standards actually promote sound implementations.
+             as it takes away concerns of sensitive data leakage through,          Related work. At OHM in 2013, Domburg demonstrated
+             for example, temporary ﬁles, page ﬁles and caches. Several          the possibility of debugging a hard drive through JTAG
+             software solutions for full-disk encryption exist, and modern       and created possibly the ﬁrst publicly demonstrated hard
+             operating systems typically integrate it as a feature. However,     drive ﬁrmware rootkit [4]. Domburg’s work has inspired
+             purely software-based encryption has inherent weaknesses,           more research around anti-forensics such as [20], [7]. Leaked
+             such as the encryption key being present in RAM at all times        documents indicate that even the NSA is using these tech-
+             and performance drawbacks.                                          niques [11]. Besides, proprietary cryptographic systems have
+                In an attempt to address these weaknesses, hardware full-        often shown to be much weaker in practice than standardized
+             disk encryption is often proposed; the encryption is performed      publicly available alternatives once implementation details
+             within the drive itself, thereby conﬁning the encryption key        are uncovered [18]. Within the scope of storage devices
+             exclusively to the drive. Typically, the encryption itself is per-  with integrated hardware encryption, serious vulnerabilities
+             formedbyadedicatedAESco-processor,whereasthesoftware                have also previously been identiﬁed in external drives using
+             on the drive (ﬁrmware) takes care of the key management.            proprietary protection schemes. An example is the external
+             It is often regarded as the successor of software full-disk         Secustick, which unlocks by simply sending a command (not
+             encryption. Full-disk encryption software, especially those         containing a password) [5]. Another example is the Western
+             integrated in modern operating systems, may autonomously            Digital MyPassport family of external drives, which suffers
+             decide to rely solely on hardware encryption in case it is          from RAM leakage, weak key attacks, or even hardcoded
+             supported by the storage device (via the TCG Opal standard).        keys [2]. However these ﬁndings are isolated incidents limited
+             In case the decision is made to rely on hardware encryp-            to proprietary solutions, and neither consider implementations
+             tion, software encryption is disabled. In fact, BitLocker, the      of established standards for secure storage nor consider these
+             issues across multiple vendors.                                       interchangeably. If the MASTER PASSWORD CAPABILITY bit is
+                Responsible disclosure. After discovering these vulnerabil-        set to Maximum (i.e., one), the Master password is not used with
+             ities, we followed a process of responsible disclosure. In            the SECURITY DISABLE PASSWORD command and SECURITY UN-
+             this case, the National Cyber Security Center (NCSC) of the           LOCK command. The SECURITY ERASE UNIT command, however,
+             Netherlands was informed ﬁrst, which assisted in the responsi-        uses either a valid User password or Master password.
+             ble disclosure process, by setting up the contact with the man-       By default, the Master password is set by the manufacturer.
+             ufactures involved. We cooperated with both manufacturers, to       In case the user sets a password, he must take care to
+             ﬁx their products and agreed not to disclose the vulnerabilities    either also change the Master password, or set the MASTER
+             for six months. Both vendors have conﬁrmed all the reported         PASSWORD CAPABILITY bit to Maximum. If he fails to do
+             issues. For models currently being supported, ﬁrmware updates       so, the Master password allows anyone with knowledge of the
+             are either released or currently in development.                    factory-default password to access his data.
+                                                                                   TCGOpal: TCGOpal[9]isanewerspeciﬁcationforSEDs.
+                                   II. BACKGROUND                                It encompasses a communication protocol that is layered
+             A. Software vs Hardware Encryption                                  on top of ATA or NVMe. Furthermore, Opal mandates the
+                To avoid negatively impacting the data throughput when           use of either AES-128 or AES-256. The encryption should
+             encryption is switched on, SSDs with encryption support, or         meet the bandwidth capability of the storage device. Opal
+             self-encrypting drives (SEDs), house a dedicated AES co-            compliant drives allow multiple passwords (credentials in Opal
+             processor that provides for the encryption. Therefore, data         terminology) to be deﬁned. Each can be assigned to perform
+             encryption is essentially ‘free’ in terms of computational          various actions within the Opal subsystem. Special Admin
+             resources. These drives encrypt all data stored on them with        credentials are used to perform provisioning and conﬁguration.
+             the disk encryption key (DEK), even in case when the data             A storage device can be divided into multiple locking
+             is not password-protected. All drives considered in this paper      ranges, that can be locked or unlocked independently. Each
+             use this approach. This essentially transforms the problem of       locking range is encrypted with a different DEK (Media
+             protecting the data to protecting the DEK, introducing the          Encryption Key in Opal terminology), and each locking range
+             following beneﬁts:                                                  can be erased independently of the others. Cryptographic erase
+               (i) The data stored can be wiped instantly by erasing the         is performed by generating a new DEK. A special global range
+                   DEK.                                                          is deﬁned as the range that covers all sectors of the disk not
+              (ii) Setting or changing the password does not require re-         covered in other ranges.
+                   encryption of all user data.                                    Multiple passwords can be assigned permission to unlock
+                                                                                 a particular range. Additionally, a single password can be
+             B. Hardware encryption standards                                    assigned permission to unlock multiple ranges. Phrased dif-
+                ATA Security: The standard for ATA storage devices [17]          ferently: a many-to-many relation exists between passwords
+             deﬁnes the security feature set, which allows for locking and       and locking ranges.
+             unlocking with a password. The goal of the ATA security               Proprietary alternatives: Several proprietary alternatives
+             feature set was limited to access control: it did not aim           exist. Examples are Seagate DriveTrust, the Western Digital
+             to stop a well-motivated attacker with physical access. At          MyPassport family of drives and Samsung’s portable SSDs.
+             the time SEDs surfaced the market, it made sense to re-             There are several reasons for manufacturers to prefer a pro-
+             purpose the ATA security password for encryption. However,          prietary solution over an open one. For example, the standard
+             since the feature set already existed, it does not standardize      may have been introduced before Opal came into existence,
+             cryptographic primitives, or even state that encryption should      or because a simpler scheme is preferred over Opal.
+             be used.                                                                               III. ATTACKER MODEL
+                SED manufacturers commonly advertise that their products
+             use strong cryptography, such as AES-256. Unfortunately,              Here we list several attacker models relevant in the context
+             drive manufacturers typically do not provide encryption im-         of full-disk encryption. In the rest of this article, we will
+             plementation details, or in case of ATA security, even state        only be concerned with the last one, as the implications of
+             whether the encryption is used at all. In our opinion, it is        the ﬁrst two are roughly equivalent when offsetting software
+             reasonable to assume so. However, the standard is not violated      against hardware encryption. We do, however, list them all
+             in any way in case the password is used for access control          here because it is in our opinion important to state why they
+             alone. From the ATA standard [17]:                                  are equivalent.
+                If security is enabled on the device, the use of the Master      Machine off, no awareness.      The adversary has momentary
+                password is indicated by the MASTER PASSWORD CAPABILITY          physical access to the powered-down machine, and the victim
+                bit. The MASTER PASSWORD CAPABILITY bit represents High or       is unaware of this, creating an opportunity for the so-called evil
+                Maximumasdescribedinthissubclause. The MASTER PASSWORD           maid attack. The encounter is used to install data exﬁltration
+                CAPABILITY bit is modiﬁed during the processing of a SECURITY    software or hardware on the victim’s machine.
+                SET PASSWORD command that speciﬁes a User password. If             In case of a hardware modiﬁcation, e.g. a physical key
+                the MASTER PASSWORD CAPABILITY bit is set to High (i.e.,
+                zero), either the User password or Master password are used      logger device, to the best of our knowledge, no meaningful
+             countermeasure exists today. For software modiﬁcations, the                              IV. METHODOLOGY
+             story is more nuanced. PCs ﬁtted with a Trusted Platform              In order to assess how well the Opal standard performs in
+             Module (TPM) can take advantage of the sealing functionality,       practice, we argue that we should analyze its implementations.
+             where cryptographic key material is bound to the software and       This is, in our opinion, the most realistic measure. Such
+             hardware.                                                           an analysis is inherently a somewhat ad-hoc process, since
+                Hardware full-disk encryption does not mitigate the evil         implementations vary wildly among manufacturers and mod-
+             maid scenario in any meaningful way. Therefore, this attacker       els. However, to the extent possible, we document a generic
+             model is out of scope.                                              approach that is applied to every device subject to analysis. In
+             Machineon. Theadversaryhasphysicalaccesstoapowered-                 this remainder of section, we go through each step.
+             on machine while the encryption containers are unlocked.
+             Software-based encryption solutions typically keep the crypto-      A. Obtaining a ﬁrmware image
+             graphic key in RAM, which is vulnerable to cold boot attacks,
+             DMAattacks,oranyothermeansofdataexﬁltration, including                The difﬁculty of obtaining a ﬁrmware image from an SSD
+             physical removal and readout with an external device. How-          varies greatly among manufacturers and models. Below, we
+             ever, it is worth mentioning that software encryption exists        list a few examples.
+             that defends against such attacks, by storing the secret keys in      1) Downloading a ﬁrmware update: Most manufacturers
+             CPU registers [12], [14].                                           distribute ﬁrmware updates for their SSDs. Either by making
+                An argument that is often put forward in favor of hardware       them available for download from their website, or through
+             encryption is that the secret key is not stored in RAM, and         their SSD management utility. For all the drives we studied,
+             therefore is not vulnerable to the aforementioned attacks. In       ﬁrmware updates consist of the entire ﬁrmware image.
+             reality, this argument is invalid for several reasons.                Firmware updates downloaded from a manufacturer’s web-
+               (i) The software running on the host PC controlling the           site often comprise of a bootable ISO image, containing an
+                   hardware encryption, typically does keep a secret key         operating system, ﬁrmware update utility, and the ﬁrmware
+                   in RAM, introducing the same vulnerability. The reason        image itself. The update utility applies the update using the
+                   is to support Suspend-to-RAM (S3), a low-power state          0X92 DOWNLOAD MICROCODE ATA command. Extracting
+                   wherein all peripheral devices are shut down. Since the       the ﬁrmware from the ISO image is typically straightforward.
+                   SSD is powered down, it must be unlocked again once             Obtaining a ﬁrmware image distributed through SSD man-
+                   the system is resumed, and therefore either the operating     agement utility typically requires more effort, but is certainly
+                   system must retain a copy of the secret key at all times,     not impossible. For example, the utility may apply obfuscation
+                   or the user must enter it again. In virtually all imple-      on its communication channels and/or ﬁrmware images that
+                   mentations, including BitLocker, the former approach is       require some reverse engineering in order to remove. Further-
+                   chosen [13].                                                  more, in case the target drive already has the latest version of
+              (ii) The burden of keeping the secret key is moved to the          the ﬁrmware installed, the utility may refuse to download the
+                   SSD, not eliminated. The SSD typically keeps the key in       update, complicating the matter.
+                   the main memory of its controller. SSDs are not security-       Some manufacturers use encrypted ﬁrmware images; the
+                   hardened devices by any standard. In fact, many have a        image is transferred to the drive, and subsequently decrypted
+                   debugging interface exposed on their PCB, allowing one        by the drive itself. In this case, a means of low level control
+                   to attach a debugging device and extract the secret key       over the device, such as JTAG, or unsigned code execution, is
+                   from the drive. Furthermore, several means of obtaining       required in order to extract the encryption key used. However,
+                   code execution on the drive exist (See Section IV-B2).        both means of control also allow us to simply extract the
+              (iii) A memory readout attack against software encryption          currently running ﬁrmware from RAM.
+                   requires physical access. Given this, the attacker also         2) Using a means of low level control: Low level control
+                   has the opportunity to carry out a hot-plugging attack        over the device is valuable in itself, but, as stated above, can
+                   against hardware encryption. This has been demonstrated       also be used to obtain a copy of the ﬁrmware, by extracting
+                   in practice and poses a realistic threat [13].                the currently running ﬁrmware from the device’s RAM. Below
+                As with the previous attacker model, opportunities and sub-      we discuss several methods for gaining low level control.
+             sequent impact are roughly equivalent compared to software
+             encryption. Therefore, this attacker model is also out of scope.    B. Gaining low level control over the device
+             Machine off, awareness.      The adversary has physical access
+             to a powered-down machine, and the victim is aware of this.           A ﬁrmware image allows for static analysis. However,
+             Therefore, from that point onward, the victim is unwilling to       the possibility of dynamic analysis through e.g. JTAG is a
+             enter key information into the machine. In this scenario, given     signiﬁcant advantage. It allows us to quickly conﬁrm (or
+             that the implementation is sound, software full-disk encryption     refute) assumptions and ﬁndings resulting from static analysis.
+             offers full conﬁdentiality of the data, and hardware encryption     Furthermore, in case weaknesses are found in the crypto-
+             supposedly does so as well. In this paper, we focus on this         graphic scheme, a means of low level control is often required
+             attacker model.                                                     in order to exploit them.
+                1) JTAG: JTAG allows full control over a device. Through             Alternatively, some SSDs also house a NOR ﬂash, con-
+             JTAG, we can halt/resume the CPU, read/modify registers and           nected through SPI, a simple and well-supported protocol. SPI
+             place break-points. Given these primitives, we can read/write         ﬂash chips usually expose their pins on the outside, allowing
+             arbitrarily in the address space, and execute arbitrary code.         for direct communication without the need for desoldering.
+             SomeSSDsexposeaJTAGdebugginginterfaceontheirPCBs.                     The purpose of this NOR ﬂash varies. Typically, it contains
+             Several standardized pin layouts exist. However, manufactur-          the drive’s capacity, serial number, NAND chip characteristics,
+             ers may opt for a proprietary one. The JTAGulator[8] allows           error logs, and more. In some occasions, it contains executable
+             us to automatically determine whether a set of pins speak the         code. In such a case, unsigned code execution may be possible
+             JTAG protocol, and if so, the purpose of each pin.                    by making modiﬁcations to that executable code.
+                2) Unsigned code execution: Some SSD manufacturers                 Fault injection attacks        Finally, although we have not
+             prefer to restrict what their end users can do with their devices.    attempted it during any of our case studies, a fault injection
+             Hence, they typically disable the JTAG feature of the storage         attack may be used to obtain unsigned code execution. For
+             controller. In the absence of JTAG, a suitable alternative is         example, by triggering a clock glitch during a ﬁrmware update,
+             the ability to execute arbitrary code on the storage controller,      causing a conditional jump instruction to be skipped, tricking
+             as it allows for essentially the same capabilities. However, all      the drive into accepting a ﬁrmware update with an invalid
+             drives in our study have countermeasures in place to prevent          cryptographic signature. In order to successfully mitigate fault
+             this, such as cryptographic signature veriﬁcation of ﬁrmware          injection attacks, both hardware and software countermeasures
+             updates.                                                              are necessary. Neither of which any of the drives we investi-
+                Still, various means of gaining code execution exist:              gated has in place. Moreover, to the best of our knowledge, no
+               (i) Use a vendor-speciﬁc undocumented command, if                   SSD controller on the market exists today that has hardware
+                   present.                                                        countermeasures against fault injection attacks. Hence, fault
+               (ii) Exploit a vulnerability in the ﬁrmware, typically involv-      injection is likely a means of gaining unsigned code execution
+                   ing memory corruption.                                          on SSDs now and in the foreseeable future.
+              (iii) Communicate directly with the drive’s memory chips             C. Analyzing the ﬁrmware
+                   with an external reader device, and modify the currently          Once a ﬁrmware image for a particular drive is acquired,
+                   installed ﬁrmware.                                              weanalyze it. The ﬁle format used for ﬁrmware images differs
+              (iv) Perform a fault injection attack (power, electro-magnetic,      between manufacturers, and occasionally between different
+                   or otherwise) in order to trick the drive into accepting a      models from the same manufacturer. For all drives we studied,
+                   modiﬁed ﬁrmware update with an invalid signature.               the image is divided in sections. Essential information about
+             Vendor-speciﬁc commands Most manufacturers implement                  these sections, such as their size, memory address, and offset
+             vendor-speciﬁc commands for information gathering, diagnos-           in the ﬁle, is usually contained within the image header.
+             tics, and other purposes. Through static analysis of ﬁrmware          This information is important for the analysis, since the
+             images, we found examples in which a command exists that              ﬁrmware code may at times refer to resources via absolute
+             allows for arbitrary values to be written to a memory address         memory addresses. In some cases, the section information
+             of choice. This can be leveraged into arbitrary code execution,       is immediately apparent by inspection. In other cases, some
+             e.g. by overwriting a function pointer.                               reverse engineering of the code responsible for interpreting
+             Memory corruption          The extent to which manufacturers          ﬁrmware images is needed.
+             attempt to prevent memory corruption vulnerabilities varies.            Once the sector information is uncovered, the ﬁrmware
+             Therefore, the success rate for identifying such a vulnerability      image can be loaded into a disassembler and analysis tool.
+             does so as well. Memory corruption vulnerabilities can in             We used the IDA Pro for this purpose.
+             many situations be leveraged into unsigned code execution,              When reverse engineering SSD ﬁrmwares, a good starting
+             a stack-based buffer overﬂow is an example of this.                   point is identifying the ATA dispatch table, i.e. an array of
+             Storage chip communication           A more invasive technique        data structures containing the ATA opcode, the address of the
+             for gaining unsigned code execution is by using an external           function that implements it, and possibly other data. All drives
+             reader device to make modiﬁcations to the currently installed         in our study implement the ATA standard in a way similar to
+             ﬁrmware. We make a distinction between NAND and NOR                   this. Once the table is identiﬁed, the implementation of any
+             memory.                                                               desired command can be studied by analyzing the code located
+                The NAND ﬂash chips usually contain the user-accessible            at the respective address.
+             storage. Retrieving data from a NAND chip requires one to               For each of the possible issues given in Section V, we
+             know several chip characteristics, such as the page, block and        attempt to ﬁnd out whether the drive is susceptible to it by
+             plane size. Some NAND chips have proprietary extensions,              studying the relevant code. Note that analyzing this many
+             e.g. in order to allow for assigning a region as SLC memory.          drive ﬁrmwares for this many weaknesses is considerably
+             Furthermore, NAND chips in SSDs typically come as BGA                 time-consuming. Therefore, it is in our opinion justiﬁed that
+             packages, requiring them to be desoldered from the PCB                we skip the analysis of the other issues listed in Section V,
+             before they can be directly communicated with.                        once we identify an issue that fully compromises the drive’s
+              encryption, since it does not contribute to the ﬁnal assessment       D. Wear leveling
+              of the security for that particular drive.                               SSDsuseﬂashmemoryfordatastorage. A property of ﬂash
+                   V. POSSIBLE SECURITY ISSUES WITH HARDWARE                        memoryisthatitcanbeputthroughalimitednumberofwrite-
+                                        ENCRYPTION                                  erase-cycles before becoming unreliable. In order to prolong
+                                                                                    the service life of the device, wear leveling is applied. It works
+                We argue that full disk encryption should be implemented            by arranging data so that erasures and re-writes are evenly
+              carefully by experts, and should be under public scrutiny             distributed across the medium. This way, no single block
+              whenever possible. Properly implementing a hardware FDE               prematurely fails due to a high concentration of write cycles.
+              scheme is not trivial. To substantiate this claim we pose a           Thus, multiple writes to the same logical sector typically
+              number possible implementation pitfalls. The list presented           trigger writes to different physical sectors. Older copies of
+              in the remainder of this section is used as a guideline in            a sector remain stored until overwritten (although not directly
+              Section VI in order to assess how well hardware encryption            retrievable by the end user).
+              is generally implemented.                                                This raises the question whether this applies to key infor-
+                                                                                    mation as well. Suppose that the DEK is stored unprotected,
+              A. Password and DEK not linked                                        after which a password is set by the end user, replacing the
+                Obviously, the password should be required in order to              unprotected DEK with an encrypted variant. Due to wear
+              obtain the DEK, and this requirement should be crypto-                leveling, the new variant can be stored somewhere else within
+              graphically enforced. Absence of this property is catastrophic.       the storage chip and the old location is marked as unused.
+              Indeed, the protection of the user data then no longer depends        If not overwritten later by other operations, the unprotected
+              on secrets. All the information required to recover the user          variant of the DEK can still be retrieved.
+              data is stored on the drive itself and can be retrieved.              E. Power-saving mode: DEVSLP
+                Unfortunately, implementing this properly is not entirely              DEVSLP is a feature that allow SATA drives to go in to a low
+              trivial. As stated in Section II-B, standards dictate that multiple   power ‘device sleep’ mode when sent the appropriate signal.
+              passwords yield the same DEK and that passwords can be                The advantage over other modes is that the SATA link need
+              changed independently.                                                not be powered to receive a wake-up trigger. Instead, an out-
+              B. Single DEK used for the entire disk                                of-band signal is sent over the rarely used and now obsolete
+                                                                                    3.3V pins of the SATA power plug.
+                The Opal standard allows for multiple ranges to be deﬁned,             Howmuchpowerisconsumedwhenthedriveisin DEVSLP
+              each of which protected with different passwords. A naïve             depends on the implementation. The ATA standard is not
+              implementation is to use a single DEK for the entire drive, and       explicit about how the power consumption reduction is to be
+              store an encrypted variant of it for each password, whereas           achieved. A manufacturer may freely choose, for example, to
+              a proper implementation produces different DEKs for each              have the drive write its internal state to non-volatile storage
+              range.                                                                and subsequently power down the RAM. The drive complies
+                On the surface, doing so may seem only a minor issue.               to the standard as long as the it can become operational within
+              Indeed, access to at least one range is still required. How-          20ms of receiving the wake-up signal.
+              ever, the (probably) most popular Opal management software,              Suppose that a drive indeed writes its internal state to
+              BitLocker, leaves the global range unprotected in order to            non-volatile memory. Then care must be taken that the state
+              allow the partition table to be accessible. Consequently, the         from non-volatile memory is erased upon wake-up, or else an
+              DEK must be stored unprotected to allow for this, in effect           attacker may be able to extract the DEK from the last stored
+              compromising the other ranges.                                        state.
+              C. Lack of entropy in randomly generated DEKs                         F. General Implementation Issues
+                Within the ATA and Opal standards, no means exist for                  All the issues depicted above in this section apply in par-
+              the end user to specify the DEK himself. The only way to              ticular to hardware-based disk encryption. However, potential
+              affect its value is by randomizing it. This raises the question       implementation issues in software-based encryption may also
+              whether sufﬁcient random entropy is available during the DEK          apply. Examples include re-use of the initialization vectors and
+              generation.                                                           using an insecure mode of operation.
+                In principle, the environment wherein SSDs are deployed                Choosing the right mode of operation and implementing it
+              allows for sufﬁcient entropy to be acquired. For example,             correctly can be tricky, as the chosen mode must allow for
+              the drive’s temperature sensor and I/O requests from the              both random read and write access, not allow for exchange
+              host PC. Furthermore, storing and restoring the random pool           of ciphertexts, and not be malleable. Many software-based
+              upon reboots should not be an issue since we are concerned            solution, such as VeraCrypt and later versions of Microsoft
+              with storage devices. However, random number generators in            BitLocker, use the XTS mode of operation. A description of
+              embedded devices have a notoriously bad reputation [19].              XTS is given below.
+                    The XTS, or XEX Tweakable Block Cipher with Ciphertext                           both ATA security and TCG Opal implementation. Further-
+                Stealing [1], mode of operation was designed for cryptographic                       more, we discovered several proprietary vendor commands.
+                protection of data on storage devices of ﬁxed length data units.                     ATAsecurity. We found that the implementation of the ATA
+                It is an instantiation of Rogaway’s XEX (XOR Encrypt XOR)                            0xf2 security unlock command passes the incoming
+                tweakable block cipher [16], extended with ciphertext stealing                       password to the SHA256 hash function. Subsequently, the out-
+                to support arbitrary length inputs. Furthermore, XEX mode                            put is compared to another buffer. If the comparison succeeds,
+                uses a single key for both encryption and tweaking, whereas                          the drive unlocks. However, the original password buffer
+                XTS mode uses two independent keys.                                                  remains unused during this process. Hence, cryptographic
+                    XTS mode provides conﬁdentiality for the protected data.                         binding between password and DEK is lacking.
+                Authentication is not provided, because one of the design goals                      TCGOpal. We discovered that the TCG Opal implementa-
+                is to provide encryption without data expansion. In the absence                      tion works in a similar fashion; i.e. no cryptographic binding
+                of authentication or access control, the best one can do is to                       between password and DEK is present.
+                ensure that any alteration of the ciphertext will completely                         Vendor-unique commands.                    The MX100 features several
+                randomize the plaintext, and rely on the application that uses                       vendor-speciﬁc commands that allow engineers to interact with
+                this transform to include sufﬁcient redundancy in its plaintext                      the device. By default, the commands are restricted: they must
+                to detect and discard such random plaintexts. In light of this,                      be unlocked before they can be used. The list presented below
+                XTS provides more protection than other conﬁdentiality-only                          is far from exhaustive.
+                modes against manipulation of the encrypted data.                                    Unlocking. Unlocking the vendor-speciﬁc features is done by
+                    The XTS mode of operation has received criticism [15], [3].                      issuing a 0xfd (vendor-speciﬁc) ATA command, with feature
+                Animportant point is that the granularity to which an attacker                       code 0x55. Setting the LBA to 0x306775, and the block
+                has the ability to randomize plaintexts must equal the cipher’s                      count to 0x65 will unlock the vendor-speciﬁc commands.
+                block size. In case of AES, this is 16 bytes. Ferguson has                           Reading a page from NOR ﬂash.                      The NOR ﬂash stores
+                designed a native diffuser function that addresses this problem                      various data, among them is the device capacity, serial number,
+                for application in BitLocker [6]. In the same publication, XTS                       error logs, and boot loader (the boot process is identical to that
+                is not mentioned, but LRW mode with the same limitation is                           of the MX200 and MX300, see Section VI-C). A page can be
+                criticized likewise.                                                                 retrieved with the 0xfa (vendor-speciﬁc) ATA command, with
+                                                                                                     feature code 0xd2. The LBA is the page number that is to be
+                                            VI. CASE STUDIES                                         retrieved. A NOR page is always 128 KB.
+                A. Crucial MX100                                                                     Erasing a page in NOR ﬂash.                 A NOR page can be erased
+                                                                                                     with the 0xfc (vendor-speciﬁc) ATA command, with feature
+                    The Crucial (Micron) MX100 is a SATA SSD released in                             code 0xe2. The LBA is page number. No data is transferred.
+                2014. It features MLC NAND ﬂash memory. It supports ATA                              Writing to a page in NOR ﬂash.                      A NOR page can be
+                security, as well as TCG Opal, both version 1 and 2. The                             written to with the 0xfb (vendor-speciﬁc) ATA command,
+                controller used in the MX100 is the Marvell 88SS9189. It                             with feature code 0xd2. The LBA is once again set to the
+                houses a dual-core 88FR102 V5 (ARM) CPU. At the time of                              page number. The transfer size should be 128 KB.
+                release, its performance is close to that of the competition,                        Arbitrary memory write.              The MX100 has a command that
+                although the drive is considerably less costly.                                      allows one to write arbitrary data to any desired address
+                    Firmware: A ﬁrmware update is available for download                             within the address space. The command listens to opcode
+                through Micron’s website. It comes as a Linux-based bootable                         0xfb(vendor-speciﬁc) and feature code 0x23. The command
+                ISO image. The ﬁrmware image is stored within the ISO                                expects a concatenated list of address-value tuples.
+                image, and is sent unmodiﬁed to the drive through the ATA                                Security evaluation: The MX100 has critical security issues
+                0X92 DOWNLOAD MICROCODE command. From this point                                     in both the ATA security and TCG Opal implementation.
+                onward, the drive takes care of the ﬁrmware update process.                          Namely, no cryptographic binding is present between pass-
+                    Theﬁrmwareimageiscryptographically signed using 2048-                            word and DEK. The scheme is essentially equivalent to no
+                bits RSA and SHA256. The signature veriﬁcation is based on                           encryption, as the encryption key does not depend on secrets.
+                mbedTLS’s rsa_pkcs1_verify function.                                                 We demonstrated in practice that, by modifying the password
+                                     ARM14 JTAG             Debugging: TheMX100has                   validation routine in RAM through JTAG, the MX100 unlocks
+                                                         a JTAG interface that can be                with any password, and the drive’s contents become accessible.
+                                                         used to connect a debugger de-              This applies to both ATA security and TCG Opal. We have not
+                                                         vice. The location on the PCB               studied the MX100 for the other weaknesses described in Sec-
+                                                         is depicted in Figure 1. The                tion V, since the drive’s encryption is already compromised.
+                                                         standardized ARM14JTAGpin                       Furthermore, we found that a vendor-speciﬁc command
+                                                         layout is used.                             allow for arbitrary modiﬁcations within the address space. This
+                                                            Findings: In this section, we            enables malware with remote access to the host PC to infect
+                Fig. 1.  JTAG pins on the Crucial        present our ﬁndings with re-                the drive’s ﬁrmware, allowing it to hide itself and/or to survive
+                MX100.                                   spect to the MX100. It covers               re-installation of the host PC’s OS.
+                                   Attack strategy: Suppose that we want to recover the data                                                                                          serve as a vehicle for unsigned code execution. Furthermore,
+                             from a locked MX100 drive for which we do not have a valid                                                                                               we identiﬁed several memory corruption vulnerabilities. None
+                             password. In order to do so, we connect a JTAG debugging                                                                                                 of which we could successfully exploit in order to gain control
+                             device to the pins depicted in Figure 1. Subsequently, we                                                                                                over the execution.
+                             use it to modify the password validation routine in RAM so                                                                                                     Below we describe how we acquired unsigned code execu-
+                             that it always validates successfully, regardless of the input                                                                                           tion by directly communicating with the drive’s NOR ﬂash.
+                             password. Finally, we unlock the drive as normal, with an                                                                                                      Findings: Obtaining unsigned code execution As stated
+                             arbitrary password. The strategy is the same for both ATA                                                                                                previously, we used an external reader device to communicate
+                             security and TCG Opal.                                                                                                                                   with the NOR ﬂash through SPI, allowing its contents to be re-
+                             B. Crucial MX200                                                                                                                                         trieved and manipulated. In order to leverage this into unsigned
+                                                                                                                                                                                      code execution, we must ﬁrst understand the device’s boot
+                                   The Crucial MX200 is a SATA SSD released in 2015.                                                                                                  process, which we reverse engineered. A diagram depicting
+                             It is essentially an MX100 with an SLC write cache. The                                                                                                  the boot process is given in Figure 2.
+                             MX200 is built around the same 88SS9189 controller. The
+                             ﬁrmware is very similar to that of the MX100. Due to the                                                                                                                   88SS1074 Boot ROM                                Load stage 2 from SPI ﬂash
+                             similarities, the analysis is limited to verifying whether the
+                             same vulnerabilities are present.                                                                                                                                                                                                          Success
+                                                                                                                                                                                                                                                          Signature checks enabled?             Yes
+                                   Security evaluation: We found that the MX200 suffers from                                                                                                                                                                                                                                   Fail
+                                                                                                                                                                                                                                                                        No                             Valid signature?
+                             the same lacks of cryptographic binding between password                                                                                                                                                                                                     Yes
+                             and DEK. This applies to both ATA security and TCG Opal.                                                                                                                                                                              Stage 2
+                             In both cases, we were able to demonstrate in practice that                                                                                                                          Resume image exists                                   No resume image
+                             the encryption can be completely bypassed by modifying the                                                                                                                                                                                                                         No
+                                                                                                                                                                                                                                                          Load ﬁrmware from NAND
+                             password validation routine through JTAG.                                                                                                                                                                                                                             Fail
+                                                                                                                                                                                                                                                                        Success
+                                   Furthermore, the vendor-speciﬁc commands found in the                                                                                                                          Load DEVSLP resume image                      Boot ﬁrmware                               Failure
+                             MX100 are also present in the MX200. As such, a remote
+                             attacker is able to gain code execution on the device.                                                                                                                                        Fig. 2. Crucial MX300 boot process.
+                                   Attack strategy: The attack strategy is identical to that of
+                             the MX100. See Section VI-A.                                                                                                                                                                                           Once the storage controller is pow-
+                             C. Crucial MX300                                                                                                                                                                                                 ered on, the ﬁrst instructions executed
+                                                                                                                                                                                                                                              by its CPU are stored in a ROM,
+                                   The Crucial MX300 is a SATA SSD released in 2016. It is                                                                                                                                                    embedded in the controller. The ROM
+                             the successor to the MX200. Since the MX300, a switch has                                                                                                                SPI ﬂash                                code loads its next boot stage from the
+                             been made to TLC memory. Similar to both its predecessors,                                                                                                                                                       SPI ﬂash. It is located on the PCB as
+                             it supports the ATA security feature set, as well as TCG Opal                                                                                            Fig. 3. SPI ﬂash chip on                                indicated in Figure 3. We refer to the
+                             version 1 and 2. The MX300 is ﬁtted with a Marvell 88SS1074                                                                                              the MX300 PCB.                                          code stored in the SPI ﬂash as stage 2.
+                             controller, the successor to the 88SS9189. The MX300’s                                                                                                   It is responsible for, among other things, initialization of the
+                             ﬁrmware differs from its predecessors in some aspects, includ-                                                                                           NAND ﬂash and DRAM memory. Subsequently, it retrieves
+                             ing the JTAG feature being switched off (although supported                                                                                              the drive’s ﬁrmware from NAND and copies it to DRAM.
+                             by the controller), and the code related to cryptography being                                                                                           Then, after a number of integrity checks, it transfers control
+                             subject to a major revision.                                                                                                                             to the ﬁrmware.
+                                   Debugging: A ﬁrmware image can be obtained through                                                                                                       We found that, in fact, the 88SS1074 controller supports
+                             Micron’s website. It uses the same ﬁle format as that of                                                                                                 cryptographic signature veriﬁcation of stage 2. However, the
+                             its predecessors. Hence, the ﬁrmware can be analyzed. As                                                                                                 MX300doesnottakeadvantageofthisfeature.Hence,onecan
+                             stated in Section IV-A2, JTAG allows for low level monitoring                                                                                            freely make modiﬁcations to the stage 2 code by modifying
+                             and control of the storage controller’s CPU. It signiﬁcantly                                                                                             the contents of the SPI ﬂash with an external reader device.
+                             aids the analysis, as it allows for veriﬁcation of assumptions                                                                                                 Ideally, we would like to have the capability of arbitrarily
+                             and ﬁndings, and possibly exploitation of weaknesses. Hence,                                                                                             retrieving and modifying code and data while the ﬁrmware is
+                             absence of this feature is problematic. Therefore, we used the                                                                                           running. Given these primitives, unsigned code execution is
+                             strategies listed in Section IV-B2 in order to acquire unsigned                                                                                          possible as well. For example by using the write primitive to
+                             code execution on the device.                                                                                                                            overwrite a non-critical ATA command handler function with
+                                   We found that the vendor-speciﬁc commands present in                                                                                               the desired code and subsequently issuing the corresponding
+                             the MX100 and MX200 that allow us to gain unsigned code                                                                                                  command. We created a modiﬁed ﬁrmware image, which
+                             execution, are still present. However, since the MX300, the                                                                                              includes these arbitrary read/write capabilities.
+                             unlock command for vendor-speciﬁc commands is deprecated                                                                                                       In order to convince the drive to accept the modiﬁed
+                             and replaced by another that relies on asymmetric crypto-                                                                                                ﬁrmware image, the cryptographic signature checks during
+                             graphic signatures. Hence, the vendor commands no longer                                                                                                 ﬁrmware updates need be bypassed. We accomplished this
+                            by modifying stage 2, injecting a piece of code that modiﬁes                                                                                     the RDS key. All other DEKs are encrypted using the device
+                            the cryptographic signature veriﬁcation function such that it                                                                                    key and are therefore always accessible.
+                            accepts invalid signatures. The injected code runs directly                                                                                            From the description given above, we can already see that
+                            after the ﬁrmware has been copied into RAM, and before                                                                                           the RDS key can be obtained once only a single password
+                            transferring control to it. After power-cycling the drive, it                                                                                    is known. Subsequently, the RDS key allows access to all
+                            accepts ﬁrmware images with invalid signatures and hence                                                                                         protected ranges. The drive will refuse to unlock a range for
+                            our modiﬁed ﬁrmware image can be sent to the drive as a                                                                                          a user who does not have permission to access it. However,
+                            ﬁrmware update. Once the modiﬁed ﬁrmware is installed, we                                                                                        this check is not cryptographically enforced. This is already a
+                            have arbitrary read/write capabilities, and thus unsigned code                                                                                   weakness in the design of the key derivation scheme. However,
+                            execution.                                                                                                                                       we found that even a single password need not be known,
+                            Key derivation scheme                                           We have reverse engineered the                                                   which we explain in detail below.
+                            full-disk encryption implementation of the MX300. Its key                                                                                        Opal Setup                           During the set-up phase of TCG Opal, the
+                            derivation scheme is depicted in Figure 4. Compared to the                                                                                       credential table and range key table are populated. In order
+                            MX100 and MX200, the full-disk encryption implementation                                                                                         to better understand this process, we used our arbitrary write
+                            differs signiﬁcantly. Notably, cryptographic binding between                                                                                     capabilities to inject tracing functionality at various places
+                            password and DEK is introduced.                                                                                                                  in the ﬁrmware. The execution trace generated during the
+                                                                                                                                                                             BitLocker set-up phase is given in Appendix A. In case the
+                                Incoming Password                      PBKDF2                     Key                                                                        full-disk encryption is set up using sedutil, an open-source
+                                                #2                                                   #2                         Range key (DEK) table                        utility for TCG Opal, the result is similar. Pseudocode for some
+                                                                                                                                      Protected Range Key#0                  of the routines captured is given in Appendix B.
+                                                                                                  Decrypt                             Protected Range Key#1                        From the execution trace, we can clearly see that once the
+                                            Salt             Ciphertext
+                                               #2                    #2                                                               Protected Range Key#2                  BitLocker set-up phase is completed, the RDS key is protected
+                                                                                                                                      Protected Range Key#3
+                                                                                                                                     Unprotected Range Key#4                 (encrypted) with a zero buffer as a password, and stored in all
+                                       Credential table                                          RDS Key
+                                                                                                                                                 .                           slots between 11 and 29, with the exception of slot 15.
+                                                                                  Decrypt                                                        .
+                                                                                                                                                 .
+                                            Stored Credential                                                                                                                      Hence, the RDS key can be recovered from any of these
+                                                           #0
+                                            Stored Credential                                     Decrypt
+                                                           #1                                                                                                                slots, by invoking the VerifyPasswd function with a zero buffer
+                                            Stored Credential
+                                                           #2                                                                                                                as password. This can be accomplished by means of unsigned
+                                            Stored Credential                                                                              Range Key#3
+                                                           #3                                                                                                                code execution (Section VI-C). The result is that all DEKs can
+                                            Stored Credential
+                                                           #4                                                                                                                be decrypted without a password.
+                                                     .                                    Device Key                 Decrypt               Range Key#4
+                                                     .
+                                                     .                                                                                                                       ATA security                                Suppose that the drive is protected by
+                                                                                                                                                                             means of the ATA security feature set, rather than Opal. The
+                            Fig. 4.         Scheme used to obtain a range key (DEK) from the user-supplied                                                                   key derivation scheme is essentially equivalent, with some
+                            password. In this example, credential #2 is used to unlock range #3.                                                                             differences:
+                                 Each MX300 drive has a per-device unique key, which we                                                                                           (i) The range key table has a single entry: the DEK for the
+                            refer to as the device key. It is stored within a small chunk of                                                                                              entire drive.
+                            non-volatile memory contained within the controller. As such,                                                                                       (ii) The credential table has two entries: the ATA User and
+                            an attacker cannot obtain it, unless he has the ability to execute                                                                                            Master password.
+                            unsigned code on the controller’s CPU.                                                                                                             (iii) The RDS key used for protecting DEKs under Opal
+                                 As is mandated by TCG Opal, the scheme allows for mul-                                                                                                   differs from the one used under ATA. Hence, recovering
+                            tiple credentials and ranges. Each credential has an associated                                                                                               the RDS key as described above will work, but results in
+                            data structure stored within the NOR ﬂash. This is what we                                                                                                    an RDS key that cannot successfully decrypt the DEK.
+                            refer to as the credential table. Entries within this table are                                                                                        As stated in Section II-B, the MASTER PASSWORD CAPA-
+                            encrypted using the device key. Each entry contains a salt and                                                                                   BILITY bit determines whether the factory-set Master pass-
+                            a ciphertext. The random salt and the user-supplied password                                                                                     wordmayunlockthedrive. In order for the end user to redeem
+                            are fed to PBKDF2. Subsequently, the result is used as a key                                                                                     himself from the Master password acting as a security bypass
+                            in an attempt to decrypt the ciphertext. If the password is                                                                                      mechanism, he either has to set the MASTER PASSWORD
+                            correct, the decryption succeeds, and the decrypted result is                                                                                    CAPABILITY bit to Maximum, or change the Master password.
+                            the so-called RDS key (referred to by the ﬁrmware as such).                                                                                            In the case of the MX300, the former approach is insufﬁ-
+                            All stored credentials contain an encrypted version of the same                                                                                  cient. We found that the Master password allows for successful
+                            RDS key, or a zero buffer, depending on the parameters used                                                                                      decryption of the RDS key, regardless of the MASTER PASS-
+                            during the creation of the data structure.                                                                                                       WORDCAPABILITY bit. Hence, in case the end user has set it
+                                 Each locking range is protected with its own unique DEK.                                                                                    to Maximum, but has not changed the Master password, the
+                            The DEKs are stored in the, what we refer to as, range key ta-                                                                                   drive’s contents is still accessible to anyone in possession of
+                            ble. All keys corresponding to protected ranges (i.e. requiring                                                                                  the default Master password. In the case of the MX300, this
+                            a password before becoming accessible) are encrypted using                                                                                       is an empty string.
+                          In order to exploit this vulnerability, we only need to                                                            Firmware: A ﬁrmware update can be downloaded through
+                      change the MASTER PASSWORD CAPABILITY bit located in                                                               Samsung’s website. It comes as a bootable ISO image. The
+                      RAM. This can be accomplished through the arbitrary write                                                          ﬁrmware image is stored within the ISO image, albeit in an
+                      capability obtained previously. Once accomplished, the drive                                                       obfuscated form. De-obfuscation is performed by the update
+                      successfully unlocks as normal, using an empty string as the                                                       utility itself. Hence, recovery of the obfuscation algorithm
+                      Master password.                                                                                                   is straightforward. The obfuscation algorithm has been pre-
+                                                                                                                                                                                        1
+                          Attack strategy: Suppose that we want to recover the data                                                      viously reverse engineered .
+                      from a locked MX300 drive for which we do not have a                                                                   Once the image is de-obfuscated, it is transferred to the
+                      valid password. In order to do so, we ﬁrst install a modiﬁed                                                       drive using the ATA 0x92 DOWNLOAD MICROCODE opcode.
+                      ﬁrmware that includes arbitrary read/write capabilities. The                                                       From this point onward, the ﬁrmware update process takes
+                      process is described in detail in Section VI-C. The following                                                      place on the drive itself.
+                      steps describe how to recover the data from a drive that is set                                                        The ﬁrmware image is cryptographically signed with
+                      up through TCG Opal, or ATA security, respectively.                                                                ECDSA. The curve and its exact parameters are yet to be
+                      TCG Opal Once the custom ﬁrmware is installed, we use                                                              determined. The hash function used is SHA256.
+                      its arbitrary write capability in order to write executable code                                                                                                       Debugging: The 840 EVO has
+                      in the device’s address space. The code is crafted such that                                                                                                       a JTAG interface. The pin layout
+                      it invokes the VerifyPasswd function with a zero buffer as                                                                                                         is shown in Figure 5. The pin
+                      password, using credential slot 11 and with bExtractRdsKey                                                                                                         layout was found with help of
+                      set to true. It should overwrite an existing non-critical ATA                                                                                                      the JTAGulator[8]. It was indepen-
+                      commandhandlerfunction, for example, the SMART command                                                                                                             dently found by [10].
+                      handler. Issuing the corresponding ATA command then exe-                                                                                                               Findings:            In this section we
+                      cutes the code. At this point, the RDS key is extracted and                                                                               GND                      take a deep dive in the 840 EVO’s
+                                                                                                                                                                TDO
+                      copied to the global RDS key buffer and all protected range                                                                               TDI                      encryption internals. Firstly, we
+                                                                                                                                                                TCK
+                      keys can be decrypted.                                                                                                                    TMS                      present the full key derivation
+                                                                                                                                                                VTref
+                          By using the arbitrary write capability once more, we                                                                                 Emergency_mode           scheme from password to DEK.
+                      modify the VerifyPasswd function such that it always returns                                                       Fig. 5. JTAG pins on the Sam-                   Secondly, we describe several pro-
+                      SUCCESS. Note that this also implies that the function will                                                        sung 840 EVO.                                   prietary vendor commands.
+                      no longer affect the global RDS key buffer, which is desired                                                       Key derivation scheme Before exploring the key derivation
+                      behavior since it already contains the correct RDS key. At this                                                    scheme, we ﬁrst describe some of the data structures where
+                      point, any password can be used to ‘authenticate’ successfully.                                                    the scheme is built upon.
+                      We use sedutil, an open-source TCG Opal utility, to                                                                Key storage                      The, what we refer to as, key stor-
+                      authenticate with an arbitrary password, and subsequently                                                          age data structure is depicted in Figure 6. The pur-
+                      unlock any desired range. Note that we should choose a                                                             pose is both password validation and key derivation.
+                                                                                                                                                                                           ′
+                      user that has permission to access that particular range. In                                                       A password candidate p                                 is     validated           by computing
+                                                                                                                                                                                             ′
+                      case of BitLocker, USER2 may access range #1, although                                                             PBKDF2(HMAC_SHA256,p,s                                         ). Then, the result is com-
+                                                                                                                                                                                                  verif
+                      we can simply try all possible users. By default, sedutil                                                          pared against the stored PBKDF2(HMAC_SHA256,p,sverif).
+                                                                                                                                                                                                       ′
+                      authenticates as ADMIN1. However, it is trivial to modify its                                                      If    they match, then p                           = p is assumed. The de-
+                      source code so that it authenticates as any other user.                                                            rived       encryption             key is then obtained by computing
+                                                                                                                                                                                             ′
+                      ATA security                 We use the arbitrary write capability in order                                        PBKDF2(HMAC_SHA256,p,s                                         ).
+                                                                                                                                                                                                  deriv
+                      to change the MASTER PASSWORD CAPABILITY bit in RAM                                                                Crypto blob                All information related to disk encryption is
+                      from Max (1) to High (0). Then, we authenticate to the drive                                                       stored in a single, 64 KB binary blob, which we refer to as
+                      as normal, using an empty string as the Master password, and                                                       the crypto blob. An overview of it is given in Figure 7. The
+                      unlock the drive.                                                                                                  crypto blob is divided in 128-byte slots, totaling to 512 slots.
+                          Note that this approach will not work in case ATA security                                                     The purpose of each slot is determined by its slot number.
+                      is used instead of Opal, with the Master password changed                                                              Every slot beyond number 451 is encrypted with
+                      rather than disabled. However, we argue that this is an unlikely                                                   AES-256 in XTS mode, with a key derived from
+                      scenario.                                                                                                          known data. The purpose seems to be obfuscation.
+                      D. Samsung 840 EVO                                                                                                 The key is HMAC_SHA256(p,s), where salt s is
+                                                                                                                                         "bongbong.kim@samsung.com" (padded to 32 bytes),
+                          The Samsung 840 EVO is a SATA SSD released in 2013.                                                            and password p is a permutation of the value stored in slot
+                      It features TLC NAND memory, which is more cost-effective                                                             1
+                      than MLC and SLC. The 840 EVO features an SLC write                                                                     URL: https://github.com/ddcc/drive_ﬁrmware
+                      cache. It is connected through SATA. It supports ATA security,
+                      as well as TCG Opal version 2. At its core is Samsung’s own                                                         0                                 3132                                 6364                                95
+                                                                                                                                           PBKDF2(HMAC_SHA256,p,s          )                 s                                   s
+                      MEXcontroller, based on a triple-core Cortex R4 design. The                                                                                       verif                  verif                               deriv
+                      840 EVO boasts hardware AES-256 encryption.                                                                                          Fig. 6. Key storage data structure for password p.
+                           Password storage       Password ↔ range     Encrypted DEKs                the last 16 bytes set to
+                                                    mapping table                                              C7D0B1B3C1BEC0CCB6AFB6AFBEEEBCAD
+                                   478                   0                     456                   Retrieving the crypto blob.            The crypto blob can be retrieved
+                                   479                   1                     457                   by issuing a 0x83 (vendor-speciﬁc) ATA command, with
+                                   480                   2                     458                   feature code 0x12. The output is the 64 KB crypto blob.
+                                   .                     .                     .
+                                   .                     .                     .
+                                   .                     .                     .                     Storing the crypto blob             The crypto blob can be stored by
+                                   492                   377                   464                   issuing a 0x83 (vendor-speciﬁc) ATA command, with feature
+                                  Derive                Decrypt               Decrypt                code 0x13. The handler expects a 64 KB input, which is then
+                      Password               Key 1                 Key 2                 DEK         instantiated as the device’s crypto blob.
+                               Fig. 8. Relation between passwords and DEKs.                              Security evaluation: We managed to identify several imple-
+                                                                                                     mentation mistakes. Two of which, depending on the circum-
+                451. The key is computed during the drive’s boot sequence.                           stances, can be leveraged into full recovery of the data.
+                However, due to a bug in the ﬁrmware, retrieving slot 451                            ATA security          The ATA password may be cryptographically
+                during early boot fails. Therefore, p is in fact a zero buffer.                      bound to the DEK. This depends on the value of the MASTER
+                Consequently, the resulting key is constant for all devices.                          PASSWORD CAPABILITY bit during the ATA security setup.
+                    Furthermore, the slot number is                                                  Slots 502 and 503 of the crypto blob contain key storage data
+                used as the IV for the XTS mode.                     0                               structures (Figure 6) for the User and Master password, respec-
+                However, due to a bug in either the                                                  tively, allowing for password validation and key derivation.
+                management code, or in the AES co-                         password ↔ range          The DEK is always stored encrypted in slot 451. In case the
+                processor itself, the IV value is ig-                      mapping (9×14×3)           MASTER PASSWORD CAPABILITY bit is set to Maximum, the
+                nored and zero is used instead for 377                                               decryption key is derived from slot 502. Otherwise, the key
+                all slots. Due to this re-use of IV, 378                        Unknown              is stored in plain-text format in slot 465, and slot 502 and
+                two slots that share a plaintext block 447                                           503 are used for password validation only. Thus, allowing the
+                                                                   448    Blob allocation administration
+                at some offset, will have the same 449                          Unknown              encryption to be bypassed. We successfully demonstrated in
+                ciphertext for that block.                         450
+                                                                   451    Obfuscation key seed    practice that, by crippling the password validation routine in
+                                                                   452                           
+                                                                                                 
+                    As the purpose of the encryption is                         Unknown           RAM, the drive successfully unlocks with any password.
+                                                                   454                           
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                   455    Opal MBR image key     
+                presumably obfuscation, conﬁdential-                                              TCGOpal After reverse engineering and carefully studying
+                                                                                                 
+                                                                   456                           
+                                                                                                 
+                                                                                                 
+                ity of user data is not affected.                                                 the design of the key derivation scheme used in Samsung’s
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                          Encrypted Opal range   
+                                                                                                 
+                From password to DEK               Samsung’s                                      TCG Opal implementation, we have not identiﬁed any weak-
+                                                                                                 
+                                                                               keys (0-8)        
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                Opal implementation allows a total                                                nesses.
+                                                                                                 
+                                                                                                 
+                                                                   464                           
+                                                                                                 
+                number of 9 ranges and 14 passwords                                              
+                                                                                                  Random entropy                  The 840 EVO has a hardware RNG.
+                                                                   465                           
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                to be speciﬁed. The password is fed                                               Although in many situations, a pseudo RNG is used, which
+                                                                                                 
+                                                                                                 
+                                                                         Range decryption keys   
+                                                                                                 
+                                                                                                 
+                to the validation/derivation function,                                            works by encrypting an incrementing counter using the AES
+                                                                           (for Opal unlocked)   
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                using slot 478+u, where u is the user                                             co-processor. The key is generated at startup by the hardware
+                                                                                                 
+                                                                   473                           
+                id associated with the password. Once 474                  Unknown (unused)       RNG. All key material is generated by the hardware RNG.
+                                                                              Sid password       
+                                                                   475                           
+                the password has been validated, the                                                    The hardware RNG passes all FIPS 140-2 tests over 1
+                                                                                                 
+                                                                   476                           
+                                                                                                 
+                                                                           Unknown (unused)      
+                                                                   477                           
+                derived key is then used to decrypt                                               Megabyte of random data. In theory this does not prove
+                                                                                                 
+                                                                                                 
+                                                                   478                           
+                                                                                                 
+                an entry in the password ↔ range                                                 
+                                                                                                  absence of weaknesses in the RNG. However, reverse engi-
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                mapping table. The entry is located                                               neering the hardware RNG is far beyond the scope of this
+                                                                          Credential key storage 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                 (0-13)          
+                at slot 0 + 27u + 3r, where u is the                                              research. We therefore assume that the output generated by
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                user id and r is the range number.                                                the hardware RNG is cryptographically secure.
+                                                                                                 
+                                                                   491                           
+                                                                                                 
+                                                                                                 
+                Finally, the decrypted result is used to 492                                      Wear leveling             The Samsung 840 EVO stores its crypto
+                                                                                                 
+                                                                                 Unused          
+                                                                                                 
+                                                                   501                           
+                                                                                                 
+                decrypt slot 456+r, yielding the DEK                                              blob on the device’s NAND ﬂash, albeit within a region
+                                                                          ATA User key storage   
+                                                                   502                           
+                                                                                                 
+                                                                                                 
+                                                                   503   ATA Master key storage 
+                for range r. A diagram picturing the                                              designated for internal data structures. Despite this, the crypto
+                                                                                                 
+                                                                                                 
+                process is given in Figure 8. The de- 504                        Unused           blob storage is wear-leveled.
+                                                                   511
+                rived key also successfully decrypts                                                     Suppose that at time t0, the drive is in an unprotected state,
+                slots 1+27u+3r and 2+27u+3r.                            Fig. 7. Crypto blob.         i.e. neither ATA security nor TCG Opal is set up. In this state,
+                The purpose of these slots remains to be researched.                                 the drive has a single locking range deﬁned that covers the
+                Vendor-unique commands The 840 EVO features several                                  entire user-accessible storage. The DEK for this range is stored
+                vendor-speciﬁc commands. As is the case with the Crucial                             encrypted in slot 456. The decryption key is stored in slot 465.
+                drives, these commands require unlocking. Only a small subset                        At time t , the crypto blob is stored at physical sector s                     in
+                                                                                                                  0                                                              0
+                of commands are analyzed, since the vast majority have no                            ﬂash. Subsequently, at time t1, a password is set, either through
+                relation with security.                                                              ATA security, with the MASTER PASSWORD CAPABILITY bit
+                Unlocking. Unlocking the vendor-speciﬁc features is done by                          set to Maximum, or through TCG Opal. As such, the DEK
+                issuing a 0x85 (vendor-speciﬁc) ATA command with feature                             cannot be extracted from the crypto blob without a password.
+                code 0x46. The payload is a single block (512 bytes) with                            The updated crypto blob is stored at sector s1 in ﬂash.
+               Due to the wear leveling mechanism, s0 = s1 is not              allows us to do so. Once executed, at this point, in case the
+             guaranteed. Therefore, at time t1, the DEK may be recoverable     drive was protected through ATA security, the contents are
+             by retrieving the crypto blob stored at physical sector s . We    accessible as normal. In the case of TCG Opal, the drive is
+                                                                      0
+             have successfully demonstrated this attack in practice. Once a    in an in-between state, in the sense that the cryptographic
+             previous revision of the crypto blob has been recovered, it can   secrets are known to the drive, but it still requires a password.
+             be instantiated through a vendor-speciﬁc command (see VI-D).      However, this is a minor obstacle that can be overcome by,
+               Empirical measurements indicate that s         6= s occurs      once more, modifying the password validation routine through
+                                                           0       1
+             approximately 1 in every 20 times the crypto blob stored (i.e.    JTAGsothat it accepts any password. Finally, the drive can be
+             every time crypto related information is updated).                unlocked as normal through sedutil, with any password.
+             Power-saving mode: DEVSLP             Support for DEVSLP is       E. Samsung 850 EVO
+             only present on the mSATA variant of the drive. Although
+             functionality related to DEVSLP is clearly also present in the       The Samsung 850 EVO is a SATA SSD released in 2014.
+             SATA variant’s ﬁrmware, we were unable to trigger it.             Similar to the 840 EVO, it features TLC NAND with an SLC
+             Mode of operation        User-accessible data regions are en-     write cache, and supports TCG Opal version 2. It is based
+             crypted using AES-256 in XTS mode. The key is obtained            around Samsung’s MGX controller, which, contrary to the 840
+             through the key derivation scheme described in Section VI-D.      EVO, is a dual-core Cortex R4.
+             TheIVusedisobtainedbytakingb+n,wherebisabasevalue                    Firmware: Similar to the 840 EVO, ﬁrmware updates can be
+             which is generated randomly during the drive’s initialization     downloaded through Samsung’s website that come as bootable
+             phase, and n is the Logical Block Address (LBA) of the sector     ISO images. The ﬁrmware image is once again obfuscated,
+             of the data that is to be encrypted.                              though the obfuscation function is different. De-obfuscation is
+               From the description presented here, we conclude that no        still performed on the host PC. The image is encrypted with
+             modeofoperation related security issues are present in the 840    AES-256inECBmode.Thekeyiscontainedwithintheupdate
+             EVO, apart from XTS’s inherent weaknesses (Section V-F).          utility executable, as a BASE64-encoded string. As is the case
+               Attack strategy: Suppose that we want to recover the data       with the 840 EVO, the ﬁrmware image is cryptographically
+             from a locked 840 EVO drive. The approach taken depends on        signed with ECDSA. The implementation is likely a copy of
+             whether the drive is protected with the ATA security feature      that of the 840 EVO.
+             set, with the MASTER PASSWORD CAPABILITY bit set to High.            Debugging: The 850 EVO has the exact same JTAG pin
+               If this is indeed the case, then the DEK is not cryptograph-    layout that the 840 EVO also has (Figure 5).
+             ically bound to the password. Hence, the only barrier we have        Findings: The motivation for analyzing the 850 EVO in-
+             to overcome is the password validation routine. We connect        ternals is twofold. Firstly, it is valuable to verify whether the
+             a JTAG debugging device to the pins depicted in Figure 5.         weaknesses identiﬁed in the 840 EVO are also present in their
+             Through JTAG, we modify the password validation routine           successor. Secondly, the 850 EVO supports DEVSLP, and other
+             such that it always validates successfully. Finally, we unlock    drives of the same family likely use the same or a very similar
+             the drive as normal, with an arbitrary password.                  implementation. In case DEVSLP is not implemented carefully,
+               If ATA security, with the MASTER PASSWORD CAPABILITY            it may compromise the encryption (Section V-E).
+             bit set to Maximum, or TCG Opal is used, then the DEK is          Key derivation scheme        The Opal key derivation scheme
+             cryptographically bound to the password. However, due to the      has not changed signiﬁcantly since the 840 EVO. The imple-
+             wear-leveling issue pointed out in Section VI-D, the data on      mentation is still based around a crypto blob, although the
+             the drive may still be recoverable by reverting to a previous     number of slots has doubled, resulting in a 128 KB crypto
+             version of the crypto blob that was used while the drive was      blob. The exact reason for this remains to be researched. The
+             in an unprotected state.                                          Opal key derivation scheme is identical, except for a change
+               In order to do this, ﬁrst, we craft code that searches the      of slot numbers. Furthermore, the vendor-unique commands
+             raw NAND ﬂash for crypto blobs, at the region designated for      listed in Section VI-D have remained unaltered.
+             internal data structures. Crypto blobs can be easily identiﬁed,   DEVSLP mode          In case the DEVSLP signal is received,
+             as slot 450 always starts with the string "secu0.01clas".         Core   1   encrypts   all  secret   key   information   present
+             We once again connect a JTAG debugging device, load the           in   its  private  SRAM region using AES-XTS. The
+             code into the device’s address space and execute it. In case      key used is the output of PBKDF2(HMAC_SHA256,
+             the drive is in an unprotected state, slot 465 contains the       "yoochan.kim@samsung.com",                         "This is
+             decryption key for the DEK at slot 456. Hence, for all crypto     4DEVSLP"). Hence, it is constant for all drives. Once
+             blobs found, we check if slot 465 is not a zero buffer. In case   the encryption has ﬁnished, the contents of the SRAM is
+             a crypto blob with this property is found, we have recovered      copied to DRAM. Four ‘magic’ numbers are written to
+             all the cryptographic secrets needed for a full recovery.         DRAM, and ﬁnally, the cores and SRAM are powered down.
+               With the previous version of the crypto blob at our disposal,      In order to determine whether portions of secret key infor-
+             the next step is to instantiate it (i.e. revert the crypto blob   mation reach non-volatile storage, we reverse engineered the
+             on the drive to this previous version). As discussed in Sec-      boot process of the drive. A diagram picturing the code ﬂow
+             tion VI-D, a vendor-speciﬁc command exists that conveniently      during the boot process is given in Figure 9.
+                                                            Else                               Success                                                                information is indeed kept in volatile storage. The reason for
+                                          Stage 1                    Load stage 2 from NAND                     Stage 2
+                                                                                                                                                                      encrypting it with a constant key remains unclear.
+                                                                                  Fail             No resume image                         Resume image exists             Security evaluation: With respect to the implementation
+                                Emergency pin grounded                   Emergency mode                Load ﬁrmware from NAND                                         of full-disk encryption, the 850 EVO is very similar to its
+                                                                                                   Fail                                                               predecessor. Regarding ATA security; we veriﬁed that, as with
+                                                                                                           Success
+                                                                                         Failure                                 Resume from DEVSLP                   the 840 EVO, the drive can be tricked into granting access to
+                                                                                                             Boot ﬁrmware                                             its contents, in case the MASTER PASSWORD CAPABILITY bit
+                                                         Fig. 9. Samsung 850 EVO boot process.                                                                        is set to High.
+                                                                                                                                                                           Since TCG Opal implementation is mostly identical to its
+                                                                                                                                                                      predecessor, no weaknesses have been identiﬁed. As is the case
+                                The ﬁrst portion of code is, what we refer to as, the Stage                                                                           with the 840 EVO, the 850 EVO features a hardware RNG,
+                           1 boot loader. Presumably, it is based in ROM. Essentially,                                                                                with the added possibility to use a PRNG based on AES.
+                           its purpose is to retrieve Stage 2 from NAND and execute it.                                                                               Wear leveling                         Unfortunately, despite numerous efforts, we
+                           However, in case the emergency pin (Figure 5) is grounded,                                                                                 were unable to identify the routines responsible for storing/re-
+                           or in case the ﬁrmware cannot be retrieved, the drive goes into                                                                            trieving the crypto blob from NAND ﬂash. However, during
+                           an emergency state. In this state, the drive accepts ﬁrmware                                                                               the responsible disclosure trajectory, a contact at Samsung
+                           images through a proprietary protocol layered over UART. The                                                                               informed us that from the 850 EVO series onward, the crypto
+                           protocol was reverse engineered by [10].                                                                                                   blob storage is no longer wear leveled. Instead, a ﬁxed
+                                Once Stage 2 is reached, the DRAM is initialized. Shortly                                                                             physical address in NAND is used for the crypto blob storage.
+                           after, the decision is made to either resume from a previous                                                                               Therefore, contrary to its predecessor, the 850 EVO is not
+                           state, or to perform a normal startup procedure. The decision                                                                              vulnerable to the crypto blob recovery attack presented in the
+                           is made based on hardware I/O address 0x10050040, bit 3.                                                                                   previous section.
+                           Before reverting to the previous state, a check is performed on                                                                            DEVSLP mode                                We conﬁrmed that, while the drive is in
+                           whether the magic numbers written to RAM previously have                                                                                   DEVSLP mode, secret key information is stored in volatile
+                           remained unaltered.                                                                                                                        memory that is kept powered. Therefore, the DEVSLP imple-
+                                No I/O addresses related to NAND are interacted with,                                                                                 mentation introduces no security vulnerabilities.
+                           indicating that the DRAM is kept powered during DEVSLP.                                                                                         Attack strategy: The attack strategy is identical to that of
+                           We devised the following steps in order to conﬁrm it:                                                                                      the 840 EVO, with the exception of the wear leveling issue
+                               (i) Modify a ﬁrmware image, such that within the Stage 2                                                                               not being present. See Section VI-D.
+                                      boot loader, all references to 0x10050040 are replaced                                                                          F. Samsung T3 portable
+                                      so that a DEVSLP resumption scenario is simulated.
+                                      Furthermore, at the point in the code where the magic                                                                                The Samsung T3 portable SSD is an external drive con-
+                                      numbers are checked, an inﬁnite loop is inserted.                                                                               nected through USB-3.1 Gen 1. It offers optional password
+                             (ii) Modify the currently running ﬁrmware in RAM such that                                                                               protection through a proprietary command set. The drive
+                                      it accepts ﬁrmware updates with invalid signatures.                                                                             comes with a tool that allows the user to set or remove a
+                            (iii) Flash the modiﬁed ﬁrmware image through the ATA                                                                                     password, lock and unlock.
+                                      0X92 DOWNLOAD MICROCODE command. The drive                                                                                           Opening up the drive uncovers that it is essentially an 850
+                                      will not reboot.                                                                                                                EVO mSATA behind a USB to mSATA bridge, albeit ﬁtted
+                            (iv) Send the DEVSLP signal. The drive goes into DEVSLP                                                                                   with a special ﬁrmware supporting the proprietary command
+                                      mode.                                                                                                                           set. No ﬁrmware image for this drive can be found online.
+                             (v) Power up the drive by sending the DEVSLP signal again.                                                                               Fortunately, as is the case with the 840 EVO and 850 EVO,
+                            (vi) The execution is stuck at the point where the inﬁnite loop                                                                           the drive has a JTAG interface exposed on the PCB (Figure 5).
+                                      is inserted. Halt the execution and verify that the magic                                                                       Through JTAG, the currently running ﬁrmware can be pulled
+                                      numbers in DRAM are present.                                                                                                    from RAM.
+                           (vii) Power down the drive by removing the power plug.                                                                                          Capturing USB packets with the help of Wireshark during
+                         (viii) Power it up again. The execution is stuck at the same                                                                                 locking and unlocking of the drive reveals that the ATA
+                                      point. In case the magic numbers still exist in DRAM,                                                                           opcode 0x8e (vendor-speciﬁc) is used for both operations.
+                                      they must have originated from non-volatile storage. If                                                                         Analysis of the ﬁrmware reveals that the implementation of
+                                      absent, either the non-volatile storage device is erased                                                                        the operations is built upon the ATA security functionality of
+                                      during (v), or volatile storage is used.                                                                                        the 850 EVO. However, it resembles the behavior observed
+                            (ix) Use the emergency mode to ﬂash an unmodiﬁed version                                                                                  when the MASTER PASSWORD CAPABILITY bit is set to High.
+                                      of the ﬁrmware, repeat all previous steps and omit (v)                                                                          Thus, the password is not cryptographically linked to the DEK.
+                                      and(vi). Absence of the magic values in DRAM conﬁrms                                                                                 Attack strategy: The password validation routine can be
+                                      that volatile storage is used.                                                                                                  bypassed by modifying the running ﬁrmware in RAM through
+                           By pursuing the above steps, we conﬁrmed that the secret key                                                                               JTAG in such a way that it accepts any password. We con-
+             ﬁrmed that, by doing so, the drive unlocks successfully with        as (a portion of) the crypto blob from a previous state, B ,
+                                                                                                                                               0
+             an arbitrary password.                                              is needed. However, as we conﬁrmed, protection of the user
+             G. Samsung T5 portable                                              data is not cryptography enforced. Hence, a means of low
+                                                                                 level control over the device, e.g. unsigned code execution,
+                The Samsung T5 portable SSD is the successor of the T3. It       will allow us to bypass it.
+             uses the same MGX controller found in the 850 EVO and the             Acquiring unsigned code execution on the device is con-
+             T3. A notable difference between the T5 and its predecessor is      siderably time-consuming and labor-intensive. Given that we
+             that its USB to mSATA converter support for USB-3.1 Gen 2.          exploited the issue in practice on the T5’s predecessor, the T3,
+                Another important difference is that the JTAG feature is         and given that the exact same issue is conﬁrmed to exist in the
+             disabled. Additionally, the emergency pin (Figure 5) is also        T5, it is in our opinion justiﬁed to skip the act of acquiring
+             no longer functional. Finally, no ﬁrmware updates for the T5        code execution on the T5, solely for the purpose of developing
+             are available for download. Hence, for this drive, we do not        an exploit for this issue.
+             have a ﬁrmware image at our disposal.                                 For completeness: unsigned code execution may by accom-
+                The T5 features the same vendor-speciﬁc commands found           plished via one of the methods described in Section IV-B2.
+             in all other Samsung SSDs (Section VI-D). Thus, despite             Once accomplished, one can deploy the same strategy as with
+             the lack of a ﬁrmware image and debugging capabilities, the         the T3 (Section VI-F), i.e. modifying the password routine
+             crypto blob can still be transferred from/to the device.            in RAM so that it accepts any password, and subsequently
+                We retrieved a copy of the crypto blob by means of the           unlocking the drive as normal with an arbitrary password.
+             vendor command both before and after setting a password, and
+             inspected the differences. We refer to these blobs as B      and                          VII. DISCUSSION
+                                                                        0
+             B , respectively. The crypto blobs are encrypted (obfuscated)         An overview of possible ﬂaws in hardware-based full-disk
+               1
+             with a per-device key stored within the controller itself. As       encryption was given. We have analyzed the hardware full-
+             such, it can only be retrieved through JTAG or unsigned code        disk encryption of several SSDs by reverse engineering their
+             execution. Both of which we do not have. However, since             ﬁrmware, with focus on these ﬂaws. The analysis uncovers a
+             XTS mode is used, we can observe whether or not the two             pattern of critical issues across vendors. For multiple models,
+             blobs differ on a per-block (16 bytes) granularity. By studying     it is possible to bypass the encryption entirely, allowing for
+             the T3 ﬁrmware, and assuming the implementation is broadly          a complete recovery of the data without any knowledge of
+             the same, we found that the differences between B0 and B1           passwords or keys. Table I gives an overview of the models
+             are explained by the following modiﬁcations to the plain-text       studied and the ﬂaws found.
+             crypto blob:                                                          The situation is worsened by the delegation of encryption
+               (i) The crypto blob revision number.                              to the drive if the drive supports TCG Opal, as done by
+              (ii) The bitmap determining for each slot in the crypto blob       BitLocker. In such case, BitLocker disables the software en-
+                   whether or not it is in use.                                  cryption, relying fully on the hardware implementation. As this
+              (iii) The key storage data structure for the password (Fig-        is the default policy, many BitLocker users are unintentionally
+                   ure 6).                                                       using hardware encryption, exposing them to the same threats.
+              (iv) The so-called ‘security state’ byte (referred to in the         The results presented in this paper show that one should
+                   ﬁrmware as such).                                             not rely solely on hardware encryption as offered by SSDs for
+             Given the above, by using only the vendor-speciﬁc crypto blob       conﬁdentiality. We recommend users that depend on hardware
+             storage and retrieval commands, we can already conﬁrm (or           encryption implemented in SSDs to employ also a software
+             refute) that the cryptographic binding between password and         full-disk encryption solution, preferably an open-source and
+             DEK is absent on the T5 as well. We do so by reverting              audited one. In particular, VeraCrypt allows for in-place en-
+             the security state byte to its previous state. In the absence       cryption while the operating system is running, and can co-
+             of cryptographic binding, the security state byte alone likely      exist with hardware encryption. Furthermore, BitLocker users
+             determines the locking state of the drive, and reverting it will    can change their preference to enforce software encryption
+             result in the drive being unlocked. We create a new crypto          even if hardware encryption is supported by adjusting the
+             blob B′, which is constructed by taking B and selectively           Group Policy setting2. However, this has no effect on already-
+                     1                                      1                    deployed drives. Only an entirely new installation, including
+             reverting the 16-byte block containing the security state byte
+             by taking its ciphertext value from B0. Subsequently we             setting the Group Policy correctly and securely erasing the
+             upload the B′ crypto blob to the drive through the designated       internal drive, enforces software encryption. VeraCrypt can
+                           1                                                     be an alternative solution for these existing installations, as
+             vendor-speciﬁc command.
+                We found that the drive successfully unlocks after pursu-        it offers in-place encryptions.
+             ing the steps above, conﬁrming that cryptographic binding             It is important to ask ourselves what problem SEDs are
+             between password and DEK is indeed absent.                          actually trying to address. As described in Section III, SEDs
+                Attack strategy: Although the steps given above conﬁrm             2See       https://docs.microsoft.com/en-us/previous-versions/windows/
+             that the T5 lacks cryptographic binding between password and        it-pro/windows-server-2012-R2-and-2012/jj679890(v=ws.11)
+             DEK, the steps themselves do not serve as an attack strategy,       #conﬁgure-use-of-hardware-based-encryption-for-ﬁxed-data-drives.
+                        Drive               1     2    3    4    5    6    7     8    9    Impact                   Finally, TCG should publish a reference implementation of
+                        Crucial  MX100      ✗    ✗     ✗                                   ✗ Compromised
+                        (all form factors)                                                                       Opal to aid developers. This reference implementation should
+                        Crucial  MX200      ✗    ✗     ✗                                   ✗ Compromised
+                        (all form factors)                                                                       also be made available for public scrutiny. It should take into
+                        Crucial  MX300      X X X               ✗    X X X X ✗Compromised                        account that wear-leveling is applied for non-volatile storage.
+                        (all form factors)
+                        Samsung      840    ✗    X X            X X X ✗ X ∼ Depends                              Opal’s compliance tests should cover the implementation of
+                        EVO (SATA)
+                        Samsung      850    ✗    X X            X X X X X ∼ Depends                              the cryptography and these tests should be independently
+                        EVO (SATA)                                                                               assessed.
+                        Samsung       T3                    ✗                              ✗ Compromised
+                        (USB)                                                                                                                       REFERENCES
+                        Samsung       T5                    ✗                              ✗ Compromised
+                        (USB)                                                                                     [1] Ieee standard for cryptographic protection of data on block-oriented
+                     1 Cryptographic binding in ATA Security (High mode)                                               storage devices. IEEE Std 1619-2007, pages c1–32, April 2008.
+                     2 Cryptographic binding in ATA Security (Max mode)                                           [2] Gunnar Alendal, Christian Kison, and modg. got hw crypto? on the
+                     3 Cryptographic binding in TCG Opal                                                               (in) security of a self-encrypting drive series. IACR Cryptology ePrint
+                     4 Cryptographic binding in proprietary standard                                                   Archive, 2015:1002, 2015.
+                     5 No single key for entire disk                                                              [3] David Clunie, Rich Shroeppel, Phillip Rogaway, Vijay Bharadwaj, and
+                     6 Randomized DEK on sanitize
+                     7 Sufﬁcient random entropy                                                                        Neils Ferguson. Public comments on the xts-aes mode. Collected email
+                     8 No wear leveling related issues                                                                 comments released by NIST, available from their web page, 2008.
+                     9 No DEVSLP related issues                                                                   [4] J Domburg. Hard disk hacking, 2013. See http://spritesmods.com/?art=
+                                                          TABLE I                                                      hddhack.
+                                        OVERVIEW OF CASE STUDY FINDINGS.                                          [5] J    Domburg and Tweakers.net.                  Secustick     gives    false   sense
+                                                                                                                       of     security,    2007.             See     https://tweakers.net/reviews/683/
+                  do not offer any meaningful mitigations in situations where                                          secustick-gives-false-sense-of-security.html.
+                                                                                                                  [6] Niels Ferguson. Aes-cbc+ elephant diffuser: A disk encryption algorithm
+                  software encryption falls short. However, as demonstrated, in                                        for windows vista, 2006.
+                  situations where software encryption offers full data conﬁden-                                  [7] Travis Goodspeed. Active disk antiforensics and hard disk backdoors. In
+                  tiality, hardware encryption often does not. Hence, at best, the                                     Talk at 0x07 Sec-T Conference (video: https://www.youtube.com/watch?
+                                                                                                                       v=8Zpb34Qf0NY), volume 8, 2014.
+                  security guarantees of SEDs are similar to that of software                                     [8] J Grand. Jtagulator: assisted discovery of on-chip debug interfaces. In
+                  encryption, and often much less. Finally, nowadays since the                                         21st DefCon Conference, Las Vegas, 2013.
+                  AES-NI extension on x86 CPUs has become mainstream, it                                          [9] Trusted Computing Group. Tcg storage security subsystem class: Opal
+                                                                                                                       speciﬁcation version 2.01, 2015.
+                  seems legitimate to question the supposed performance and                                      [10] P Gühring. The missing Samsung EVO 840 - 250 GB SSD repair man-
+                  side-channel susceptibility beneﬁts of SEDs as well.                                                 ual. See http://www2.futureware.at/~philipp/ssd/TheMissingManual.pdf,
+                      Hardware encryption currently comes with the drawback                                            2016-2018.
+                                                                                                                 [11] J Horchert, J Appelbaum, and C Stöocker.                 Shopping for spy gear:
+                  of having to rely on proprietary, non-public, hard-to-audit                                          Catalog advertises nsa toolbox. Der Spiegel, 2013.
+                  crypto schemes designed by their manufacturers. Correctly                                      [12] Tilo Müller, Felix C Freiling, and Andreas Dewald.                     Tresor runs
+                  implementing disk encryption is hard and the consequences of                                         encryption securely outside ram.            In USENIX Security Symposium,
+                                                                                                                       volume 17, 2011.
+                  making mistakes are often catastrophic. For this reason, im-                                   [13] Tilo Müller, Tobias Latzo, and Felix C Freiling.                   Self-encrypting
+                  plementations should be audited and subject to as much public                                        disks pose self-decrypting risks. In the 29th Chaos Communinication
+                  scrutiny as possible. Manufacturers that take security seriously                                     Congress, pages 1–10, 2012.
+                                                                                                                 [14] Tilo Müller, Benjamin Taubmann, and Felix C Freiling.                      Trevisor.
+                  should publish their crypto schemes and corresponding code                                           In International Conference on Applied Cryptography and Network
+                  so that security claims can be independently veriﬁed.                                                Security, pages 66–83. Springer, 2012.
+                      Apattern of critical issues across vendors indicates that the                              [15] TPtacekandEPtacek. Youdon’twantxts,2014. Seehttps://sockpuppet.
+                                                                                                                       org/blog/2014/04/30/you-dont-want-xts/.
+                  issues are not incidental but structural, and that we should                                   [16] Phillip Rogaway. Efﬁcient instantiations of tweakable blockciphers and
+                  critically assess whether this process of standards engineering                                      reﬁnements to modes ocb and pmac. In International Conference on the
+                  actually beneﬁts security, and if not, how it can be improved.                                       Theory and Application of Cryptology and Information Security, pages
+                                                                                                                       16–31. Springer, 2004.
+                  The complexity of TCG Opal contributes to the difﬁculty                                        [17] CE Stevens. AT Attachment 8-ATA/ATAPI Command Set – 4 (ACS-4).
+                  of implementing the cryptography in SEDs. From a security                                            Working Draft, American National Standard, Revision 14, 2016.
+                  perspective, standards should favor simplicity over a high                                     [18] Roel Verdult. The (in) security of proprietary cryptography. Sl: sn,
+                                                                                                                       2015.
+                  number of features. The requirements as speciﬁed by the Opal                                   [19] J Wetzels and A Abbasi. Wheel of fortune: Analyzing embedded os
+                  standard, having a many-to-many relation between passwords                                           random number generators. 2016.
+                  and keys, and allowing for multiple independent ranges with                                    [20] Jonas Zaddach, Anil Kurmus, Davide Balzarotti, Erik-Oliver Blass,
+                                                                                                                       Aurélien Francillon, Travis Goodspeed, Moitrayee Gupta, and Ioannis
+                  adjustable bounds, makes it very hard to implement it cor-                                           Koltsidas. Implementation and implications of a stealth hard-drive back-
+                  rectly.                                                                                              door. In Proceedings of the 29th annual computer security applications
+                                                                                                                       conference, pages 279–288. ACM, 2013.
+                                                                          APPENDIX A
+                        EXECUTION TRACE CAPTURED ON A CRUCIAL MX300 DRIVE DURING THE BITLOCKER SET-UP PHASE.
+             VerifyPasswd(szPasswd="AEGIS_ACADIA_MSID_12456789012345", bExtractRdsKey=true, dwSlotNo=2)
+             VerifyPasswd(szPasswd="AEGIS_ACADIA_MSID_12456789012345", bExtractRdsKey=true, dwSlotNo=2)
+             CopyCredential(dwSourceSlot=2, dwDestinationSlot=10)
+             ProtectPasswd(szPasswd=[0x00×32], bStoreRdsKey=true, dwSlotNo=11)                  ⊲ szPasswd is zero buffer
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=12)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=13)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=14)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=15)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=16)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=17)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=18)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=19)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=20)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=21)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=22)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=23)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=24)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=25)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=26)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=27)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=28)
+             CopyCredential(dwSourceSlot=11, dwDestinationSlot=29)
+             StoreCryptoContextInSpiFlash()
+             VerifyPasswd(szPasswd="AEGIS_ACADIA_MSID_12456789012345", bExtractRdsKey=true, dwSlotNo=2)
+             VerifyPasswd(szPasswd="AEGIS_ACADIA_MSID_12456789012345", bExtractRdsKey=true, dwSlotNo=10)
+             VerifyPasswd(szPasswd="AEGIS_ACADIA_MSID_12456789012345", bExtractRdsKey=true, dwSlotNo=2)
+             ProtectPasswd(szPasswd=«BitLocker SID password», bStoreRdsKey=true, dwSlotNo=2))
+             StoreCryptoContextInSpiFlash()
+             VerifyPasswd(szPasswd="AEGIS_ACADIA_MSID_12456789012345", bExtractRdsKey=true, dwSlotNo=10)
+             ProtectPasswd(szPasswd=«BitLocker SID password», bStoreRdsKey=true, dwSlotNo=10)
+             StoreCryptoContextInSpiFlash()
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             GenerateRandomDekAndWrap(dwRangeNo=1, bIsProtectedRange=false)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             StoreCryptoContextInSpiFlash()
+             UnwrapDek(dwRangeNo=1, bIsProtectedRange=false)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             UnwrapDek(dwRangeNo=1, bIsProtectedRange=false)
+             WrapDek(dwRangeNo=1, bIsProtectedRange=true)
+             VerifyPasswd(szPasswd=[0x00×32], bExtractRdsKey=true, dwSlotNo=15)
+             ProtectPasswd(szPasswd=«BitLocker user password», bStoreRdsKey=true, dwSlotNo=15)
+             StoreCryptoContextInSpiFlash()
+             VerifyPasswd(szPasswd=«BitLocker user password», bExtractRdsKey=true, dwSlotNo=15)
+             VerifyPasswd(szPasswd=«BitLocker user password», bExtractRdsKey=true, dwSlotNo=15)
+              Algorithm 3 UnwrapDek                                                    The function VerifyPasswd (Algorithm 2) is the inverse of
+              Require: abRdsKey, abDeviceKey, aabRangeKeyTable,                      ProtectPasswd. It has two purposes: checking the validity of a
+                       aabUnwrappedRangeKeyTable                                     password, and, in case the bExtractRdsKey parameter is set,
+              Ensure: Range key dwRangeNo is unwrapped                               using the password to decrypt the RDS key and copying it to
+                function UNWRAPDEK(dwRangeNo, bIsProtectedRange)
+                   if bIsProtectedRange then                                         the global RDS key buffer, allowing other functions to use it.
+                      abKey ← abRdsKey
+                   else                                                              Algorithm 2 VerifyPasswd
+                      abKey ← abDeviceKey                                            Require: abRdsKey, abDeviceKey, aabCredentialTable
+                   abCiphertext ← aabRangeKeyTable[dwSlotNo]                         Ensure: Verify szPasswd and set global RDS key if bExtractRdsKey = true
+                   abPlaintext ← DECRYPT(abKey,abCiphertext)                           function VERIFYPASSWD(szPasswd, bExtractRdsKey, dwSlotNo)
+                   if decrypt failed then
+                      return ERROR                                                        abInput ← aabCredentialTable[dwSlotNo]
+                   aabUnwrappedRangeKeyTable[dwSlotNo] ← abPlaintext                      stProtectedPasswd ← DECRYPT(abDeviceKey,abInput)
+                   return SUCCESS                                                         if decrypt failed then
+                                                                                             return ERROR
+                                                                                          (abSalt,abCiphertext) ← stProtectedPasswd
+                                        APPENDIX B                                        abKey ← PBKDF2(szPasswd,abSalt)
+                PSEUDOCODE OF VARIOUS ROUTINES IN THE CRUCIAL                             abPlaintext ← DECRYPT(abKey,abCiphertext)
+                                    MX300FIRMWARE.                                        if decrypt failed then
+                                                                                             return ERROR
+                The ProtectPasswd function (Algorithm 1) takes a password                 if bExtractRdsKey then
+              and stores it in the credential table so that an incoming                      abRdsKey ← abPlaintext
+              password can be checked for validity at a later point in time.              return SUCCESS
+              The bStoreRdsKey parameter determines whether the stored                 Furthermore, the UnwrapDek function (Algorithm 3) takes
+              credential should encapsulate the RDS key (discussed in the            an entry from the range key table, and decrypts it using either
+              previous section). In this case, the credential allows access to       the RDS key, or the device key (for protected and unprotected
+              protected ranges (see Figure 4).                                       ranges, respectively), as determined by the bIsProtectedRange
+              Algorithm 1 ProtectPasswd                                              parameter. Obviously, for protected ranges, the RDS key must
+              Require: abRdsKey, abDeviceKey, aabCredentialTable                     be decrypted, prior to invoking UnwrapDek.
+              Ensure: Credential szPasswd is stored in aabCredentialTable at dwSlotNo  Finally, we implicitly deﬁne the functions WrapDek, Copy-
+                procedure PROTECTPASSWD(szPasswd, bStoreRdsKey, dwSlotNo)            Credential, GenerateRandomDekAndWrap, and StoreCrypto-
+                   if bStoreRdsKey then                                              ContextInSpiFlash as their functionality is clear from their
+                      abPlaintext ← abRdsKey                                         names.
+                   else
+                      abPlaintext ← [0x00 ×32]          ⊲ abPlaintext is a zero buffer
+                   abSalt ← RANDOM(32 bytes)
+                   abKey ← PBKDF2(szPasswd,abSalt)
+                   abCiphertext ← ENCRYPT(abKey,abPlaintext)
+                   stProtectedPasswd ← (abSalt,abCiphertext)
+                   abOutput ← ENCRYPT(abDeviceKey,stProtectedPasswd)
+                   aabCredentialTable[dwSlotNo] ← abOutput

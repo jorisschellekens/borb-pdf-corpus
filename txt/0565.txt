@@ -1,0 +1,194 @@
+                                                                  471-3
+                      UIC CODE
+                     10th edition, January 2017                              O
+                     Translation
+                          Inspections of dangerous goods consignments 
+                          Vérifications à effectuer pour les envois des marchandises dangereuses 
+                          Prüfungen, die bei Sendungen gefährlicher Güter durchzuführen sind
+                            This document only contains point 5 of UIC Leaflet 471-3. All other 
+                            points and appendices cannot be downloaded freely. The 
+                            complete leaflet is available here : http://www.uic.org/etf/  
+                                    Leaflet to be classified in volume: 
+                                    IV - Operating
+                                    Application :
+                                    With effect from 1 January 2017
+                                    All members of the International Union of Railway
+                                    Record of updates
+                                    1st edition, July 2000            First issue
+                                    5th edition, December 2008        Update of the leaflet in accordance with the RID edition dated
+                                                                      1 January 2009
+                                    6th  edition, December 2010       Update of the leaflet in accordance with the RID edition dated
+                                                                      1 January 2011
+                                    7th  edition, January 2012        First update of the leaflet in accordance with the RID edition dated
+                                                                      1 January 2013
+                                    8th edition, July 2013            Second update of the leaflet in accordance with the RID edition
+                                                                      dated 1 January 2014
+                                    9th edition, December 2014        Update of the leaflet in accordance with the RID edition dated
+                                                                      1 January 2015
+                                    10th edition, December 2016       Revision of the leaflet and updating of point 5 in accordance with the
+                                                                      RID edition dated 1 January 2017
+                                    The person responsible for this leaflet is indicated in the UIC Code 
+                                                                                                                                 471-3
+                                                                                                                                     O
+                                            Contents
+                                            Summary ..............................................................................................................................1
+                                            1 -   Purpose of the leaflet ..................................................................................................2
+                                            2 -   Application of the leaflet  ............................................................................................3
+                                            3 -   Management of the leaflet ..........................................................................................4
+                                            4 -   General provisions ......................................................................................................5
+                                            5 -   Inspections ..................................................................................................................6
+                                            6 -   Final provisions .........................................................................................................10
+                                            Appendix A -Quality Assurance System (QAS)..............................................................11
+                                                  A.1 - General................................................................................................................11
+                                                  A.2 - Quality control (inspections) ................................................................................12
+                                                  A.3 - Faults, fault catalogue..........................................................................................13
+                                                  A.4 - Assessment of faults............................................................................................13
+                                                  A.5 - RID reports ..........................................................................................................14
+                                            Appendix B -RID Report....................................................................................................16
+                                            Appendix C -Appendix 1 to the RID Report.....................................................................17
+                                            Appendix D -Assessment of the quality of inspections carried out by RUs................18
+                                            Appendix E - Definition of faults classes used in the leaflet..........................................21
+                                            Appendix F - Sample sizes................................................................................................22
+                                            Appendix G -Collation of quality results..........................................................................23
+                                            List of abbreviations ..........................................................................................................24
+                                            Bibliography .......................................................................................................................25
+                                                                                                                                               471-3
+                                                                                                                                                   O
+                                                  5 - Inspections
+                                                  NB:     In the light of the transitional provisions set ouRID 1.6.1.t in       1, point 5 of UIC Leaflet 471-3 in
+                                                          the 9th edition (applicable as of 1 January 2015) shall remain in force until 30 June 2017.
+                                                  The carrier accepting dangerous goods for carriage at the point of departure shall check the following:
+                                                  5.1 -  That the goods are authorised for carriage under the terms of thRIDe  or under the terms of a
+                                                  temporary derogation in accordance with RID, section 1.5.1.
+                                                  To this end, the information entered on the transport document must be compared with that on the list
+                                                  of dangerous goods  (see RID chapter 3.2, Table A)          or with the temporary derogation, in order to check
+                                                  on compliance; the information in question is as follows:
+                                                  -   The hazard identification number, if an orange-coloured plate is affixed in accordance with RID/
+                                                      ADR 5.3.2.1 or RID 5.4.1.1.9;
+                                                  -   The UN number, which must be preceded by the letters "UN";
+                                                  -   The proper shipping name of the substance or article, to which the technical name must be added
+                                                      in brackets insofar as special provisions 274 or 318 of RID, chapter 3.3 apply;
+                                                  -   For substances or articles in class 1, the classification code contained in RID, chapter 3.2, table
+                                                      A, column 3b. If label model numbers other than 1, 1.4, 1.5, 1.6, 13 and 15 are contained in RID,
+                                                      chapter 3.2, Table A, column 5, these shall be indicated in parentheses after the classification
+                                                      code;
+                                                  -   For class 7 radioactive substances, the class 7 number;
+                                                  -   For lithium batteries with UN numbers 3090, 3091, 3480 and 3481, the class 9 number;
+                                                  -   For other substances or articles, the label model numbers contained in RID chapter 3.2, Table A,
+                                                      column 5, with the exception of the shuntingcomplying with specimen  label                      13. If several label
+                                                      model numbers are indicated, the numbers following the first number shall be indicated in
+                                                      parentheses. Regarding substances and articles for which there is no label model in  RID chapter
+                                                      3.2, Table A, column 5, the class specified in column 3a shall be indicated instead;
+                                                  -   The packaging group, if any, assigned to the substance and contained in RID chapter 3.2, Table
+                                                      A, column 4, which may be preceded by the letters "PG" or the initials of the words "packaging
+                                                      group" in the languages used in accordance with RID 5.4.1.4.1.
+                                                  Additionally, it must be checked that the neru and dmb              escription of the packages are indicated in
+                                                  accordance with RID 5.4.1.1.1e.
+                                                  For consignments conveyed under the terms of a temporary derogation in accordance with                RID 1.5.1, the
+                                                  transport document must specify that carriage is taking place under the terms of such a derogation, e.g.
+                                                  "CARRIAGE AGREED UNDER THE TERMS OF 1.5.1 (RID 1/2015)".
+                                                                                                      6                                                          471-3
+                                                                                                                                                                      O
+                                                  5.2 -  That a cross is placed in the "RID" box onthe transport              document as provided for unRIDder 
+                                                  5.4.1.4.1 and;
+                                                  -   That the appendices to the carriage document specified in the            RID are enclosed (agreement from
+                                                      the relevant authority with the conditions of carri     age for certain articles and substances in classes
+                                                      1, 4.1 and 5.2; and that informationon me is provided asures required of the carrier for class
+                                                      7 substances) and that the equipment prescribed in the instructions in writing is in the driver’s cab; 
+                                                  -   That for carriage of dangerous goods in a transport chain involving a section by sea or air, the
+                                                      transport document contains the indication "Carriage in accordance with 1.1.4.2.1" and the
+                                                      document mentioned in the footnote referring to RID, 5.4.1.1.7 is added where necessary; 
+                                                  -   For the carriage of dangerous goods in piggyback transport, the transport document contains the
+                                                      indication "Carriage in accordance with 1.1.4.4",
+                                                  -   That for class 1 goods, the total net mass, in kg, of      explosive contents for each substance or article
+                                                      bearing a different UN Number and the totat mass, in kg, ofl ne                                       explosive contents for all
+                                                      substances and articles covered by the transport document are indicated;
+                                                  -   That for the carriage of military consignments to        which derogations apply, the transport document
+                                                      contains the indication "Military consignment";
+                                                  -   That for the carriage of fireworks with the UN numbers 0333, 0334, 0335, 0336 and 0337, the
+                                                      indication "Classification of fireworks  by the competent authority of XX with the firework
+                                                      reference XX/YYZZZZ" is indicated in the transport document;
+                                                  -   That for the carriage of environmentally hazardous substances meeting the criteria oRID, f 
+                                                      2.2.9.1.10 the transport document contains the indication "ENVIRONMENTALLY HAZARDOUS"
+                                                      or "MARINE POLLUTANT/ENVIRONMENTALLY HAZARDOUS".
+                                                  5.3 -  That for the following empty, uncleaned transport units:
+                                                  -   Tank wagons,
+                                                  -   Portable tanks,
+                                                  -   Tank containers,
+                                                  -MEGCs,
+                                                  -   Wagons and containers for carriage in bulk,
+                                                  -   Receptacles containing gas with a capacity of more than 1 000 litres,
+                                                  -   Battery wagons as well as wagons with empty and uncleaned removable tanks,
+                                                  -   Tank vehicles, vehicles with demountable tanks, battery vehicles and vehicles for bulk goods.
+                                                  The information specifiedRID, 5.4.1.1 in             in conne.6         ction with RID, 5.4.1.1.1 is indicated in the
+                                                  transport document.
+                                                  5.4 -  That for class 2 refrigerated, liquefied gas (hazard identification numbers 22, 223 and 225)
+                                                  carried in tank wagons, portable tanks or tank containers, the mandatory entry is made in the carriage
+                                                  document of the actual end of the holding time (see RID 5.4.1.2.2 d).
+                                                                                                      7                                                          471-3
+                                                                                                                                                                      O
+                                                        5.5 -  That wagons and loads do not have any obvious defects:
+                                                        -    for tanks, special care shouldbe paid to any leakage,                       crack, missing parts or any impediment to
+                                                             their proper functioning; fold-down panels shall be secured against any untimely opening or loss,
+                                                        -    for tank wagons, battery wagons, wagons with dem                   ountable tanks, portable tanks, tank containers
+                                                             and MEGCs, the deadline for the next test shall not have expired.
+                                                        5.6 -  That the prescribed placarding affixed corresponds  to the information in the transport document
+                                                        and that any shunting labels have been affixed on:
+                                                        -    Large containers, swap bodies, MEGCs, tank containers, tanks swap-body or portable tanks,
+                                                        -    Wagons for bulk goods, tank wagons, battery wagons, wagons with demountable tanks and
+                                                             wagons carrying packages only,
+                                                        -    Tank vehicles, vehicles with demountable tanks and battery vehicles,
+                                                        and that the placarding affixed corresponds to the information in the transport document. 
+                                                        That the mark in RID, 5.3.3 has been affixed to:
+                                                        -    Tank wagons, tank containers, portable tanks,
+                                                        -    Special wagons or large containers,
+                                                        -    Specially equipped wagons or large containers.
+                                                        Applicable to those containing a substance that is carried or handed over for carriage in a liquid state
+                                                        at or above 100 °C or in a solid state at or above 240 °C.
+                                                        That the mark in RID, 5.3.6 has been affixed to:
+                                                        -    wagons, large containers, tank containers, portable tanks and MEGCs
+                                                        containing environmentally hazardous substances meeting the criteria of RID 2.2.9.1.10. 
+                                                        For the carriage of class 2 liquefied gases,gerated liq refuefieri                       d gases or dissolved gases, tank
+                                                        wagons shall be marked with an orange band (see RID 5.3.5).
+                                                        5.7 -  That the following wagons bear an orange-coloured plate in accordance with RID 5.3.2
+                                                        -    Tank wagons, battery wagons, wagons withed  fillor empty demountable tanks which have not
+                                                             been cleaned, degassed or decontaminated,
+                                                        -    Tank containers (tank swap bodies), porttanks andable  MEGCs which have been filled and
+                                                             emptied, but not cleaned, degassed or decontaminated,
+                                                        -    Wagons for bulk goods, large containers and small containers for bulk goods, which have been
+                                                             filled and emptied, but not cleaned or decontaminated,
+                                                        -    Tank vehicles, vehicles with demountable tanks and battery vehicles filled or empty but not
+                                                             cleaned, degassed or decontaminated,
+                                                                                                                   8                                                                 471-3
+                                                                                                                                                                                           O
+                                                        -    Wagons and containers carrying packaged radioactive materials bearing a single UN number
+                                                             used exclusively for this purpose with no other dangerous goods,
+                                                        Moreover that the hazard identification numbers and the UN numbers used for this identification tally
+                                                        with the information in the transport document.
+                                                        5.8 -  That for carriage of class 2 gases in tank wagons, the load limits label and the proper shipping
+                                                        name (wagon panel or fold-down panel) correspond to the goods carried and that the latter correspond
+                                                        to the description entered in the transport document.
+                                                        5.9 -  That wagons are not overloaded with regard to the weight specified in the transport document.
+                                                        5.10 -  That tank wagons conveying class 2 gases are not                    overfilled with regard to the weight specified
+                                                        in the transport document in accordance with RID, 5.4.1.2.2 c.
+                                                        In order to perform the checks described in points 5.5 - page 8 to 5.8, the wagon inspector shall walk
+                                                        along both sides of the wagons.
+                                                                                                                   9                                                                 471-3
+                                                                                                                                                                                           O
+                                                Warning
+                      No part of this publication may be copied, redep orroduc distributed by any means whatsoever, including
+                      electronic, except for private and individual use, without the express permission of the International Union of
+                      Railways (UIC). The same applies for translation, adaptation or transformation, arrangement or reproduction by
+                      any method or procedure whatsoever. The sole exception - nosting the author's name and the source - are
+                      "analyses and brief quotations justified by the critical, argumentative, educational, scientific or informative nature
+                      of the publication into which they are incorporated".
+                      (Articles L 122-4 and L122-5 of the French Intellectual Property Code).
+                       International Union of Railways (UIC) - Paris, 2017
+                      Printed by the International Union of Railways (UIC)
+                      16, rue Jean Rey 75015 Paris - France, January 2017
+                      Dépôt Légal January 2017
+                      ISBN 978-2-7461-2534-0 (French version)
+                      ISBN 978-2-7461-2535-3 (German version)
+                      ISBN 978-2-7461-2536-0 (English version)
+                                                                             471-3
+                                                                               O

@@ -1,0 +1,53 @@
+                                          Mosh: AnInteractive Remote Shell for Mobile Clients
+                                                         Keith Winstein and Hari Balakrishnan
+                                   M.I.T. Computer Science and Artiﬁcial Intelligence Laboratory, Cambridge, Mass.
+                                                               {keithw,hari}@mit.edu
+                                         Abstract                                              Figure 1: Mosh in use.
+                     Mosh (mobile shell) is a remote terminal application
+                  that supports intermittent connectivity, allows roaming,
+                  and speculatively and safely echoes user keystrokes for
+                  better interactive response over high-latencypaths. Mosh
+                  is built on the State Synchronization Protocol (SSP),
+                  a new UDP-based protocol that securely synchronizes
+                  client and server state, even across changes of the client’s
+                  IP address. Mosh uses SSP to synchronize a character-
+                  cell terminal emulator, maintaining terminal state at both
+                  client and server to predictively echo keystrokes. Our
+                  evaluation analyzed keystroke traces from six different
+                  users covering a period of 40 hours of real-world us-
+                  age.   Mosh was able to immediately display the ef-
+                  fects of 70% of the user keystrokes. Over a commer-
+                  cial EV-DO (3G) network, median keystroke response          mote servers feel more like the local computer, because
+                  latency with Mosh was less than 5 ms, compared with         most keystrokes are reﬂected immediately on the user’s
+                  503 ms for SSH. Mosh is free software, available from       display—even in full-screen programs like a text editor
+                  http://mosh.mit.edu. It was downloaded more than            or mail reader.
+                  15,000 times in the ﬁrst week of its release.                  These features are possible because Mosh operates at
+                                                                              a different layer from SSH. While SSH securely con-
+                  1    Introduction                                           veys an octet-stream over the network and then hands it
+                                                                              off to a separate client-side terminal emulator to be inter-
+                  Remoteterminalapplicationsarealmostasoldaspacket-           preted and rendered in cells on the screen, Mosh contains
+                  switched data networks. The most popular such applica-      a server-side terminal emulator and uses a new protocol
+                  tion today is the Secure Shell (SSH) [9], which runs in-    to synchronize terminal screen states over the network,
+                  side a terminal emulator. Unfortunately, SSH has two        using the principle of application-layer framing [3].
+                  major weaknesses that make it unsuitable for mobile            Because both the server and client maintain an image
+                  use. First, because it runs over TCP, SSH does not sup-     of the screen state, Mosh can support intermittent con-
+                  port roaming among IP addresses, or cope with intermit-     nectivity and local editing, and can adjust its network
+                  tent connectivity while data is pending, and is almost      trafﬁc to avoid ﬁlling network buffers on slow links. As a
+                  unusable over marginal paths with non-trivial packet        result, unlike in SSH, in Mosh“Control-C”alwaysworks
+                  loss.  Second, SSH operates strictly in character-at-a-     to cease output from a runaway process within an RTT.
+                  time mode, with all echoes and line editing performed          Mosh’s design makes two principal contributions:
+                  by the remote host. On today’s commercial EV-DO and           1. State Synchronization Protocol: A new secure
+                  UMTS(3G)mobilenetworks,round-trip latency is typi-               object synchronization protocol on top of UDP to
+                  callyinthehundredsofmillisecondswhenunloaded,and                 synchronize abstract state objects in the presence
+                  on both 3G and LTE networks, delays reach several sec-           of roaming, intermittent connectivity, and marginal
+                  ondswhenbuffersareﬁlledbyaconcurrentbulktransfer.                networks (§2).
+                  Such delays often make SSH painful for interactive use        2. Speculation: Mosh maintains the screen state at
+                  onmobiledevices.                                                 both the server and client and uses the above pro-
+                     This paper describes a solution to both problems.             tocol to synchronize them (§3). The client makes
+                  We have built Mosh, the mobile shell, a remote ter-              guesses about the effect each new keystroke will
+                  minal application that supports IP roaming, intermittent         have on the screen, and when conﬁdent renders the
+                  connectivity, and marginal network connections. Mosh             effects immediately. The client veriﬁes its predic-
+                  performs predictive client-side echoing and line editing         tions and can repair the screen state if necessary.
+                  without any change to server software, and without re-         Wehave implemented Mosh in C++ and have exper-
+                  gard to which application is running. Mosh makes re-        imented across various networks and across disconnec-
+                                                                           1

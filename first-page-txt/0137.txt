@@ -1,0 +1,24 @@
+                    Checking the payment status of an invoice 
+        
+       For anyone with the SAP Approver role, you will have access to SAP transaction code /fbl1n.  We have 
+       created a variant of this code that is designed to let you know the date that a future payment will be 
+       generated, in the event that the transaction has already been processed by Accounts Payable (AP) but 
+       the vendor payment terms have not yet triggered.   
+       Once AP has processed an invoice, a 10-digit FI doc # will be generated, and you can find this through 
+       various BUWorks reports.  Once you have the FI number for the invoice payment you are investigating, 
+       you can then use the WebGUI tab in BUWorks, selecting the ECC System link (you may need to enable 
+       popups in your browser). 
+        
+                                                   
+        
+       On the next screen, enter the transaction code FBL1N into the search bar and hit Enter. (This can also be 
+       found in your User Menu, in the Department Approver – Decentralized folder). 
+        
+                                  
+        
+       On the next screen, click Get Variant. 
+        
+                                                   
+        
+       This will create a pop-up window labeled Find Variant.  You need to erase your name from the Created 
+       By field, and then click the Execute button (circled in the image below). 

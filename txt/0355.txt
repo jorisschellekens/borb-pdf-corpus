@@ -1,0 +1,827 @@
+                   
+                   
+                   
+                   
+                   
+                                         	
+	
+                   
+                                                           
+                                                           
+                                                           
+                   
+                                                                                                    
+                                                                                                    
+                   Document reference  HSAG 2011/5         Document            National Health & 
+                   number                                  developed by        Safety Advisers’ 
+                                                                               Group 
+                   Revision number     2.0                 Document approved  HR Operational 
+                                                           by                  Performance Group 
+                   Consultation with   14 September 2012   Presented to        18 September 2012 
+                   trade unions                            National Joint 
+                   complete                                Council 
+                   Approval date       18 September 2012   Responsibility for  RDOs 
+                                                           implementation      Area Managers 
+                                                                               ANDs 
+                   Review date         September 2014      Responsibility for  Area HR Directors 
+                                                           review and audit    AND HR Services 
+                                                                                                    
+                   	
+	
+		
+                   						 
+ 	!		"	
+                   
+                                                                                           Page 1 of 17 
+                   
+              Signature Sheet 
+               
+              I have read, understood and agree to adhere to the attached Policy and Procedure: 
+               
+               
+                 Print Name      Signature    Area of Work      Date 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+              	
+	
+		
+              						 
+ 	!		"	
+              
+                                                                  Page 2 of 17 
+              
+                                                                             
+                        Table of Contents: 
+                         
+                        1.0    Introduction                                                                         4 
+                        2.0   Purpose                                                                               4     
+                        3.0   Scope                                                                                 4 
+                        4.0   Objective                                                                             4 
+                        5.0    Relevant legislation                                                                 4 
+                        6.0    Definitions and abbreviations                                                        5 
+                        7.0    HSE commitment                                                                       5 
+                        8.0    Responsibility                                                                       6 
+                               8.1   Employers                                                                      6 
+                               8.2   Senior managers                                                                6 
+                               8.3   Line managers                                                                  7 
+                               8.4   Employees                                                                      7 
+                        9.0    Guideline                                                                            8 
+                               9.1   Consultation                                                                   8 
+                               9.2   Training                                                                       8 
+                               9.3   Risk assessment                                                                9 
+                               9.4   Information sharing                                                            10 
+                               9.5   Referrals                                                                      10 
+                               9.6   Supervision                                                                    10 
+                               9.7   Control point                                                                  11 
+                               9.8   Visits                                                                         12 
+                               9.9   Implementation of these guidelines                                             12 
+                               9.10  Effectiveness of these guidelines                                              12 
+                               9.11  Monitoring                                                                     13 
+                               9.12  Employee Assistance Schemes                                                    13 
+                               9.13  Initial lone worker risk assessment guidelines                                 13 
+                               9.14  Risk assessment                                                                14 
+                               9.15  Community visits                                                               14 
+                               9.16  Rapid risk assessments                                                         15 
+                               9.17  Procedure – lone worker not calling in at end of shift                         15 
+                               9.18  Initial response                                                               15 
+                               9.19  Escalation                                                                     16 
+                               9.20  Personal Safety – PLAN for it                                                  16 
+                        10.0  Frequency of review                                                                   17 
+                        11.0  Method used to review operation of guidelines                                         17 
+                        12.0  References                                                                            17   
+                        13.0  Appendices                                                                            17 
+                                
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                      Page 3 of 17 
+                        
+              1.0  Introduction 
+               
+              1.1  In health and safety terms lone workers fall into the vulnerable group category. As lone 
+                   workers are more at risk than other employees, extra risk control measures may be 
+                   required to ensure the safety of the lone worker. 
+               
+              1.2  The Health Service Executive (HSE) recognises this and endeavours to provide a safe 
+                   working environment for all employees, including lone workers. These guidelines 
+                   should be read in addition to existing controls and any necessary arrangements must 
+                   be taken to enhance the safety of the lone workers’ working environment.   
+               
+              2.0  Purpose 
+              2.1  The principle purpose of these guidelines is to ensure a safe and healthy working 
+                   environment for all lone workers employed by the Health Service Executive (HSE). 
+               
+              2.2  In addition the HSE will bring about the reduction so far as is reasonably practicable, of 
+                   all reasonably foreseeable risks associated with lone working and to implement any 
+                   necessary arrangements to achieve this reduction in line with legislative requirements. 
+               
+              3.0  Scope 
+              3.1  These guidelines are applicable to all HSE lone workers as defined in Section 6.0 of the 
+                   guidelines. 
+               
+               
+              4.0  Objective: 
+               
+              4.1  These guidelines are developed to assist the Health Service Executive to:- 
+               
+                    To ensure the management of Safety, Health and Welfare is achieved in 
+                      accordance with relevant legislation. 
+                    
+                    Provided safe working practices for staff and assist in the implementation of 
+                      same. 
+               
+               
+              5.0  Relevant Legislation 
+               
+              5.1  The Safety Health and Welfare at Work Act, 2005 (2005 Act) requires all employers to 
+                   provide among other things, safe places and safe systems of work. 
+               
+              5.2  Section 19 of the 2005 Act requires every employer to identify the hazards in the place 
+                   of work under his or her control and assess the risks presented by those hazards and to 
+                   be in possession of a written assessment of the risks to the safety, health and welfare 
+                   at work of his or her employees, including the safety, health and welfare of any single 
+              	
+	
+		
+              						 
+ 	!		"	
+              
+                                                                  Page 4 of 17 
+              
+                   employee, group or groups of employees who may be exposed to any unusual or other 
+                   risks under the relevant statutory provisions. 
+               
+              5.3  The General Safety and Health Provisions and the General Applications regulations 
+                   2007, require employers to take the necessary measures to ensure the Safety, Health 
+                   and Protection of Employees. These regulations require that employers must take 
+                   account of changing circumstances and carry out risk assessments accordingly. 
+                   Training on matters of Health and Safety must also be provided to ensure the Safety 
+                   Health and Welfare of employees. 
+               
+               
+              6.0  Definitions and Abbreviations 
+              6.1  “Lone Workers” are those who work by themselves without close or direct supervision. 
+                   Source: Health and Safety Authority 
+               
+              6.2  For the purpose of these guidelines a lone worker is anyone who works alone, without 
+                   a colleague. 
+               
+              6.3  Lone workers include those who: 
+                    work outside normal hours  
+                    work away from their base  
+                    work separately from others  
+                    are the only person on the premises  
+                    work outside in the community  
+                    visit people in their homes  
+               
+              6.4  People who work alone without interaction with other workers or without direct 
+                   supervision are known as lone workers. 
+               
+              6.5  “Reasonably practicable” in relation to the duties of an employer, means that an 
+                   employer has exercised all due care by putting in place the necessary protective and 
+                   preventive measures, having identified the hazards and assessed the risks to safety 
+                   and health likely to result in accidents or injury to health at the place of work 
+                   concerned and where the putting in place of any further measures is grossly 
+                   disproportionate having regard to the unusual, unforeseeable and exceptional nature 
+                   of any circumstance or occurrence that may result in an accident at work or injury to 
+                   health at that place of work.  Source: Section 2(6), Safety, Health & Welfare at Work 
+                   Act 2005. 
+               
+              6.6  The extent of an obligation which is said to require an employer to take reasonably 
+                   practicable measures has been explored by the courts, particularly in the context of 
+                   occupational health and safety law.  For example, in Boyle –v– Marathon Petroleum 
+                   (Ireland) Ltd. [1999] 2 IR 460, the Supreme Court held that reasonable practicability 
+                   creates a duty that “is more extensive than the common law duty that devolves on 
+                   employers to exercise reasonable care in various respects as regards their employees. 
+                   It is an obligation to take all practicable steps. That seems to me to involve more than 
+              	
+	
+		
+              						 
+ 	!		"	
+              
+                                                                  Page 5 of 17 
+              
+                                  that they should respond that they, as employers, did all that was reasonably to be 
+                                  expected of them in a particular situation.” (Mr Justice O’Flaherty) 
+                         
+                         
+                        7.0       HSE commitment 
+                         
+                        7.1       In line with corporate policy the Health Service Executive (HSE) will ensure, in 
+                                  accordance with its legal obligations, a safe working environment and safe systems of 
+                                  work for lone workers, so far as is reasonably practicable.  Management will not 
+                                  tolerate in any form, verbal/physical harassment of its staff by service users’/members 
+                                  of the public or others. In the event of an incident the member of staff involved must 
+                                  report this to their immediate supervisor/local management without undue delay. All 
+                                  foreseeable hazards in relation to lone working must be identified and associated risks 
+                                  assessed and documented. To assist in the hazard identification and risk reduction 
+                                  process lone workers need to be consulted and receive appropriate training and 
+                                  information.  
+                         
+                        7.2       These guidelines should be read in conjunction with existing HSE policies including the 
+                                  Lone Worker Policy. 
+                         
+                        8.0       Responsibility 
+                        8.1       Employers 
+                         
+                        8.1.1     Under section 8 of the 2005 Act, every employer shall ensure, so far as is reasonably 
+                                  practicable the safety, health and welfare at work of his or her employees. As lone 
+                                  workers are more vulnerable than other workers these duties take on an even greater 
+                                  significance. 
+                         
+                        8.2       Senior Managers e.g. Regional Directors of Operations/Area Managers/Assistant 
+                                  National Directors/General Managers Responsibilities include: 
+                         
+                                      To promote and support the aims and objectives of the policy and guidelines 
+                                   
+                                      To accord it equal status with all other relevant documents and management 
+                                        functions 
+                                   
+                                      To ensure that adequate and appropriate procedures/arrangements are in place 
+                                        in order to implement and disseminate the policy and guidelines 
+                                   
+                                      To ensure that arrangements exist for the reporting and investigation of any 
+                                        incident involving lone workers no matter how apparently trivial an incident may 
+                                        at first appear, and to make appropriate recommendations to prevent 
+                                        recurrence of such incidents. 
+                                   
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                     Page 6 of 17 
+                        
+                                      To ensure the resources are available to enable staff to implement the aims and 
+                                        objectives of the policy and guidelines 
+                                   
+                                   
+                                      To ensure all staff receive appropriate training in accordance with the risks 
+                                        associated with their work activities. 
+                         
+                        8.3       Line Managers e.g. Clinical Nurse Managers/Supervisor Responsibilities include: 
+                         
+                                      To adequately risk assess any staff/areas that fall within the scope of these 
+                                        guidelines 
+                                   
+                                      To be responsive to the concerns of staff in relation to lone working 
+                                   
+                                      To be familiar with and understand the contents of these guidelines 
+                                   
+                                      To promote and support the aims and objectives of these guidelines 
+                                   
+                                      To integrate the guidelines into daily safe work practices  
+                                   
+                                      To ensure the appropriate measures are in place in order to disseminate, 
+                                        implement and monitor the effectiveness of these guidelines 
+                                   
+                                      To investigate and record in writing all incidents/accidents involving lone workers 
+                                        and make appropriate recommendations to prevent a recurrence 
+                                   
+                                      To ensure the department/section has a robust “safe system of work” relative to 
+                                        lone workers 
+                                   
+                                      To ensure that lone workers receive adequate information, instruction, training 
+                                        and supervision to enable them to perform their work safely   
+                                   
+                                      To ensure that appropriate support is provided to staff involved in any incident in 
+                                        terms of both immediate and follow up support. 
+                         
+                         
+                        8.4       Employee responsibilities include: 
+                         
+                        8.4.1     Employees also have responsibility under Section 13 of the 2005 Act, to take care of 
+                                  their own safety health and welfare and to co-operate with the employer (i.e. the HSE) 
+                                  in discharging its statutory duties.  
+                         
+                        8.4.2     Employee’s duties include: 
+                         
+                                      To take reasonable care of their own safety and the safety of others when 
+                                        working alone.  
+                                   
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                     Page 7 of 17 
+                        
+                                      To co-operate with their employer to enable him/her comply with safety and 
+                                        health legislation  
+                                   
+                                      To report any defect in the place of work, the systems of work without 
+                                        unreasonable delay  
+                                   
+                                      To report any work being carried on, or likely to be carried on, in a manner which 
+                                        may endanger the safety, health or welfare at work of the employee or that of 
+                                        any other person, 
+                                   
+                                      Having regard to his or her training and the instructions given by his or her 
+                                        employer, make correct use of any article or substance provided for use by the 
+                                        employee at work or for the protection of his or her safety 
+                         
+                        8.4.3     It is not always possible to identify all the hazards relating to lone working, especially 
+                                  where the workplace or area is outside of the employer’s immediate control.  In such 
+                                  situations lone workers should continually assess the work location, taking account of 
+                                  hazards that cannot necessarily be detected in advance such as the influence of 
+                                  alcohol, drugs or the threat posed by animals or other hostile elements.  It is vital that 
+                                  in such circumstances workers are empowered to make the decision as to whether or 
+                                  not it is safe to continue working, or whether to withdraw from the situation.  In 
+                                  addition each member of staff must: 
+                         
+                                      Obtain as much background information as possible on the service user before 
+                                        visiting. 
+                                   
+                                      Prioritise any concerns arising from the information before the visit takes place. 
+                                   
+                                      Always report any incident, no matter how trivial it may seem. 
+                         
+                        9.0       Guideline 
+                        9.1       Consultation 
+                         
+                        9.1.1     In order to identify the significant hazards relative to lone workers or hazards that may 
+                                  be unique to a specific group of lone workers, local management must establish and 
+                                  maintain an appropriate consultative mechanism. In addition this forum should be 
+                                  utilised to bring to the attention of the relevant personnel, policies procedures and 
+                                  protocols as appropriate. This should be viewed as a support mechanism for the lone 
+                                  worker. 
+                         
+                        9.2        Training  
+                         
+                        9.2.1     Local management are responsible for ensuring that lone workers have received all 
+                                  appropriate training prior to engaging in lone working activities. Training should 
+                                  include at minimum induction training that may enhance the safety of the working 
+                                  environment for the lone worker or a particular group of lone workers. 
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                     Page 8 of 17 
+                        
+                         
+                        9.3       Risk Assessment 
+                         
+                        9.3.1     Each Department/Section Head is responsible for ensuring that risk assessments are 
+                                  completed for all foreseeable situations faced by lone workers and are based on a 
+                                  hazard identification process which will include: 
+                         
+                                      Physical Hazards 
+                                      Chemical Hazards 
+                                      Biological Hazards 
+                                      Psychosocial Hazards 
+                         
+                        9.3.2      Initially managers should complete a generic risk assessment using the following non 
+                                  exhaustive headings:- 
+                         
+                                      Physical/Sexual assault 
+                                      Verbal abuse/threatening behaviour 
+                                      Theft/criminal damage 
+                                      Road traffic accidents/breakdowns/punctures 
+                                      Slips/trips/falls 
+                                      Patient Moving and Handling / Manual Handling 
+                         
+                        9.3.4     More specific risk assessments can be carried out for the following non exhaustive 
+                                  factors: 
+                         
+                                      People 
+                                      Environmental  
+                                      Geographical areas 
+                                      Weather conditions 
+                                      Times i.e. day or night 
+                         
+                        9.3.5     Suggested risk reduction controls/arrangements (individual/combined) if deemed 
+                                  appropriate through the risk assessment/consultative process: 
+                         
+                                      Detailed plan of staff whereabouts and movements 
+                                      The “Flagging System” flagging up potentially violent/aggressive  
+                                      Working in pairs 
+                                      The “Buddy System”  
+                                      Gardai presence/liaison system 
+                                      Removing identification from cars 
+                                      Technology i.e. mobile phones, pagers etc 
+                         
+                         
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                     Page 9 of 17 
+                        
+                        9.4       Information Sharing 
+                         
+                        9.4.1     In order to carry out their job safely and efficiently it is important that all lone workers 
+                                  have access to appropriate information. Good quality information in relation to 
+                                  contacts and locations can prove very helpful. 
+                         
+                        9.4.2     Each department/section head should ensure that there is an appropriate flow of 
+                                  information to and from other departments/outside teams, and that appropriate 
+                                  record sharing protocols, in accordance with HSE policies and procedures, are 
+                                  followed. This is especially important where there is a higher risk of assault from a 
+                                  service user, relative or carer. 
+                         
+                        9.4.3     Lone workers should be made aware that if, at any stage during a visit they encounter 
+                                  aggression they should promptly reassess the situation and withdraw from visit if 
+                                  necessary.  Lone workers should report this to their relevant line manager and 
+                                  complete the relevant incident report form.   
+                         
+                        9.5       Referrals 
+                         
+                        9.5.1     All referrals, or requests for a visit, should be made through an authorised source 
+                                  where possible. This may not always be possible given the ethos and practice of self 
+                                  referral. The practice and ethos of self referral highlights the need to do all that is 
+                                  reasonably practical to ensure a safe system of work is in place. It is the responsibility  
+                                  of line management and each individual lone worker to obtain as much information as 
+                                  is possible prior to consultation. 
+                         
+                        9.5.2     Line Managers and lone workers should ensure whenever possible that all service 
+                                  users, relatives and carer’s are aware that the preferred channels of communication 
+                                  are through an authorised source. This should be communicated in detail to lone 
+                                  workers prior to commencing lone working activities where possible. 
+                         
+                        9.5.3     Lone workers should never provide their personal telephone or pager numbers to 
+                                  service user’s relatives or carers.  
+                         
+                        9.5.4     Where self referral is made from a client that is not known to the service, lone worker 
+                                  should be accompanied by a colleague where possible 
+                         
+                        9.6       Supervision 
+                         
+                        9.6.1     Given the unique working conditions of the lone worker supervision becomes even 
+                                  more significant as it offers a source of valuable support to the lone worker. This can 
+                                  be carried out when checking the progress of the work, it may take the form of 
+                                  periodic site visits combined with discussions in which health and safety issues are 
+                                  raised. The extent of the supervision is directly related to the risk assessment e.g. an 
+                                  employee new to a job or undergoing training may need to be accompanied at first. 
+                         
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                    Page 10 of 17 
+                        
+                        9.6.2     Regular contact between the line manager and the lone worker should be encouraged 
+                                  and fostered which forms a key part in ensuring the safety of the lone worker. 
+                         
+                        9.6.3     At all times a colleague should be aware of where and when employees are in client’s 
+                                  homes and when they leave 
+                         
+                        9.7       Control point 
+                         
+                        9.7.1     A control point should be established for the employee to leave details of their lone 
+                                  working visits. This will assist in the implementation of appropriate action being put in 
+                                  place should an employee be in difficulty. In the likelihood of a service user, address or 
+                                  area giving cause for concern, the lone worker should be able to advise the control 
+                                  point of any deviation from their planned itinerary. 
+                         
+                        9.7.2     In light of the above it is necessary for each department to establish an appropriate 
+                                  control point to manage lone working visits.  
+                         
+                        9.7.3     The following options used individually or collectively may prove effective. Selection 
+                                  should be guided by risk assessment and consultation:- 
+                         
+                                Office base staffed at all times when staff are lone working   
+                                An answer phone that is regularly checked 
+                                Nominated person with a mobile phone 
+                         
+                        9.7.4     The control point should also hold details of all the lone workers to ensure that in the 
+                                  unlikely event of a lone worker failing to return to/contact the control point at the end 
+                                  of a visit, appropriate steps can be taken i.e. the escalation procedure:- 
+                         
+                        9.7.5     If base/control point becomes sufficiently concerned for the safety of the lone worker 
+                                  an escalation procedure must be put in place.  
+                         
+                        9.7.6     The escalation could be to:- 
+                                Line Manager 
+                                Head of Department  
+                                Nominated buddy 
+                                Directorate manager 
+                                The gardai 
+                         
+                        9.7.7     For each lone worker the details should include:- 
+                                Name 
+                                Address, home telephone number and emergency contact 
+                                Mobile phone number and/or pager number 
+                                Work start time 
+                                Itinerary of visits:                                                                   
+                                Name, address and telephone number of each service user                        
+                                The order of visits 
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                    Page 11 of 17 
+                        
+                                Expected time of visit or call-in 
+                                Car registration make and model 
+                         
+                        9.8       Visits 
+                         
+                        9.8.1     In order to reduce the risk to the lone worker all visits should be notified. The method 
+                                  of notification should be by mutual agreement between managers and the lone 
+                                  workers. 
+                         
+                        9.8.2     No matter what the reason that planned visits are missed/changed the control point 
+                                  should be informed. 
+                         
+                        9.8.3     It is also important that the lone worker operates a notification protocol when they 
+                                  have completed their visit.  Each section/department must have a mutually agreed 
+                                  system in place.  
+                         
+                         9.9       Implementation of these guidelines 
+                         
+                        9.9.1     An implementation plan must be developed in consultation with both local 
+                                  management and staff 
+                         
+                        9.9.2     Awareness sessions for staff detailing the contents/provisions of these guidelines 
+                                  should be arranged 
+                         
+                        9.9.3     A designated person should oversee the implementation of these guidelines and 
+                                  report any difficulties encountered 
+                                                                    
+                        9.10      Effectiveness of these guidelines 
+                         
+                        9.10.1    The effectiveness of these guidelines will require the co-operation of both 
+                                  management and staff at all levels throughout the HSE and should encompass the 
+                                  following 
+                         
+                                Method of communication to be used for the escalation of unresolved issues 
+                         
+                                Local implementation of these guidelines 
+                         
+                                Review of accidents / near miss incidents in order to determine effectiveness of these 
+                                  guidelines (identify trends/patterns) 
+                         
+                                Monitoring of staff practices in relation to compliance with these guidelines 
+                         
+                                Meetings of management and staff to discuss the measures put in place should be 
+                                  organised. 
+                         
+                        	
+	
+		
+                        						 
+ 	!		"	
+                        
+                                                                                                                    Page 12 of 17 
+                        
+                      9.11     Monitoring   
+                       
+                      9.11.1   To achieve success in terms of these guidelines implementation it is important to 
+                               recognise difficulties early on and to address them in a realistic and achievable 
+                               manner. Difficulties encountered by staff should be promptly brought to the attention 
+                               of the relevant line manager in order to achieve a swift and satisfactory outcome. If 
+                               the issue cannot be resolved at local level then it must be forwarded as an agenda item 
+                               on the next scheduled meeting of the local management team or escalated to the next 
+                               level through identified escalation process. 
+                       
+                      9.12     Employee Assistance Services  
+                       
+                      9.12.1   The HSE recognises the need for specific and specialised support to staff who may 
+                               encounter, in the course of their work, situations which may have a potentially 
+                               traumatic effect of their personal and professional life. 
+                       
+                      9.12.2   This support is offered through the Employee Assistance Service, by a group of 
+                               specially trained personnel. It is confidential and addresses the person’s issues in 
+                               relation to the incident.  Although this service follows an identifiable procedure it does 
+                               not exclude the support which managers and colleagues can give to persons who may 
+                               find themselves in such a situation. 
+                        
+                      9.13     Initial Lone Worker Risk Assessment Guidelines 
+                       
+                      9.13.1  Contact Stage:- 
+                       
+                                   Did the request come from the base or recognised control point? 
+                                   Have you been made aware of any issues surrounding the patient or address 
+                                     concerned?  
+                                   Are you happy to attend on your own? (risk assessment) 
+                                   Does the base/control point know what time to expect a check-in call? 
+                                   Do you have your mobile phone/pager etc. with you? 
+                                   Do you know how to /have means of contacting the control point? 
+                                   Does your transport have sufficient fuel to make the return journey? 
+                       
+                      9.14     Risk Assessment 
+                       
+                                   Have you been able to park in a well –lit area  
+                                   Are the premises well lit? 
+                                   Are you still happy to be on your own? (risk assessment) 
+                                   Is the patient or other person likely to become agitated, angry or violent? 
+                                   Are there persons on the premises who appear to be under the influence of 
+                                     alcohol or drugs? 
+                                   How easy would it be for you to leave if you wanted to? 
+                                   Are there any dangerous animals loose on the premises? 
+                       
+                      	
+	
+		
+                      						 
+ 	!		"	
+                      
+                                                                                                            Page 13 of 17 
+                      
+                       9.14.1   If any issues arise as a result of the risk assessments the lone worker should raise the 
+                                issue with their line manager. 
+                        
+                       9.14.2   Lone workers have the right to refuse to enter/withdraw from any premises at any 
+                                stage if they feel their safety is compromised.  
+                        
+                        
+                       9.15     Community Visits:- 
+                        
+                                    Is the service user unknown to you/others? 
+                                 
+                                    Check all available records/reports on the person prior to your visit. 
+                                 
+                                    Ensure somebody knows where you are going, who you are visiting and when 
+                                      you are expected to leave 
+                                 
+                                    When the door is answered check who you are talking to. Under no 
+                                      circumstances enter the house if the appropriate person is not available. 
+                                 
+                                    Inform the people you visit how much of their time you will require. 
+                                 
+                                    Acknowledge that it is their home and allow them lead the way. 
+                                 
+                                    If the person appears to be under the influence of drugs/alcohol or acting 
+                                      aggressively it would be prudent to immediately leave. 
+                                 
+                                    On entry, check how the front door locks. 
+                                 
+                                    Study your surroundings and try to sit nearest the door. 
+                                 
+                                    Take only what you need into the house. 
+                                 
+                                    Remain alert at all times. Watch for changes in moods, movements or 
+                                      expressions. 
+                                 
+                                    Arrange to call / contact base after each meeting, as the lack of a call will alert 
+                                      someone to a potential problem.  If you do not call in on time, someone from 
+                                      the base should contact you 
+                        
+                        
+                       	
+	
+		
+                       						 
+ 	!		"	
+                       
+                                                                                                               Page 14 of 17 
+                       
+                      9.16     Rapid Risk Assessments (RRA) :- 
+                       
+                      9.16.1   If you have to carry out a home visit at very short notice the following Rapid Risk 
+                               Assessment (RRA) should be used. 
+                       
+                                   Do you know the service user and their family? 
+                                
+                                   Is there a known history of violence or harassment/sexual harassment from the 
+                                     service user/family member? 
+                                
+                                   Have you contacted base in relation to your whereabouts and estimated contact 
+                                     time with service user? 
+                                
+                                   Speak with a colleague who may have carried out a previous visit. 
+                                
+                                   Is the task you are about to undertake likely to trigger anger or violence? 
+                               
+                                   Consider whether you need to be accompanied by a colleague. 
+                               
+                             
+                       
+                      9.17     Procedure - lone worker not calling in at the end of a visit/shift 
+                       
+                      9.17.1   The following information should be to hand at the base/control point:- 
+                                   Name 
+                                   Address, home telephone number and emergency contact 
+                                   Mobile phone number and/or pager number 
+                                   Work start time 
+                                   Itinerary of visits: 
+                                         name, address and telephone number of each service user 
+                                         the order of visits 
+                                   Expected time of visit or call-in 
+                                   Car registration make and model 
+                       
+                      9.18     Initial Response:- 
+                       
+                      9.18.1   After allowing a reasonable time for an overdue call time the base/control point 
+                               should attempt to track the lone worker’s movements by using the information above, 
+                               until found. 
+                       
+                      9.19     Escalation:- 
+                       
+                      9.19.1   If base/control point becomes sufficiently concerned for the safety of the lone worker 
+                               an escalation procedure must be put in place.  
+                       
+                      	
+	
+		
+                      						 
+ 	!		"	
+                      
+                                                                                                            Page 15 of 17 
+                      
+                       9.19.2   The escalation could be to:- 
+                        
+                                    Line Manager 
+                                    Head of Department 
+                                    Directorate manager 
+                                    The gardai  
+                                    Nominated buddy 
+                        
+                       9.20     Personal Safety P.L.A.N. for it 
+                        
+                                Prepare Yourself 
+                                 
+                                    Know exactly where you are going and how to get there 
+                                 
+                                Look Confident 
+                                 
+                                    Be alert, walk tall, keep your head up and be aware of your surroundings 
+                                    Keep fit – stamina and strength are aids to self-protection. 
+                                 
+                                Avoid Risk 
+                                    When going out of the base leave details there of your movements and when 
+                                      you expect to be back 
+                                    If you change your plans contact base 
+                                    If anything seems dubious contact base first 
+                                    Local department should agree an appropriate notification protocol for 
+                                      weekends/out of hours 
+                                    Avoid taking potentially dangerous shortcuts particularly when on foot 
+                                    Assess the potential risk of a situation 
+                                 
+                                        Always aim to get away fast if confronted with violence or aggression 
+                                 
+                                Never assume 
+                                    It wont happen to you 
+                                    Your fears are unfounded 
+                                    People are what they seem 
+                                 
+                                          Remember always report any incident, however trivial it may seem. 
+                                                                               
+                                                          Not doing so could put others at risk. 
+                        
+                       10.0     Frequency of Review  
+                       10.1     These guidelines will be reviewed on a continuous basis by the National Health and 
+                                Safety Advisers Group and any amendments to these guidelines will be communicated 
+                                through all directorates of the HSE. 
+                        
+                       	
+	
+		
+                       						 
+ 	!		"	
+                       
+                                                                                                               Page 16 of 17 
+                       
+                      11.0    Method used to review operation of Guideline 
+                       
+                      11.1    Examples include audit tool, checklist, performance indicators (data collected on a 
+                               routine basis to demonstrate level of performance) etc. 
+                       
+                      12.0     References 
+                       
+                      12.1     The Sub-Group would like to acknowledge the following documents that were used in 
+                               the formulation of this Guideline: 
+                                   Guideline for Lone Workers (Staff Health Safety and Welfare Department, Dr 
+                                     Steeven’s Hospital, HSE HR Services) 
+                       
+                      13.0     Appendices 
+                               None 
+                      	
+	
+		
+                      						 
+ 	!		"	
+                      
+                                                                                                            Page 17 of 17 
+                      

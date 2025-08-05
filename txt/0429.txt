@@ -1,0 +1,77 @@
+             Proforma Invoice
+               Sent by                                                 AWB No
+               Company name                                            Invoice No
+               Name/department                                         Number of pieces
+               Address                                                 Total gross weight
+                                                                       Total net weight
+               Telephone
+                                                                       Carrier
+               E-mail
+               VAT registration No
+               Buyer                                                   Delivery to (if different from the buyer)
+               Company name                                            Company name
+               Name/department                                         Name/department
+               Address                                                 Address
+               Telephone                                               Telephone
+               E-mail                                                  E-mail
+               VAT registration No                                     VAT registration No
+               Full description of goods                              Customs     Country   Quantity/   Unit value Sub total
+                                                                      commodity     of      Number of     and      value and
+                                                                        code       origin     units     currency   currency
+               Total value and currency
+               Reason for export
+               Terms of delivery
+               I declaire that the above information is true and correct to the best of my knowledge.
+               Date
+               Name                                                 Signature
+                  How to ifll in a Proforma Invoice
+                      A correctly completed Proforma invoice is the best guarantee of successful customs clearance. The Proforma invoice should 
+                      be typed in the receiving country’s language or in English and four signed copies should be enclosed with the shipment.
+                      A Proforma invoice should be used when the product is not to be sold (e.g. it is a gift, a repair or a loan between companies). 
+                      A Commercial invoice should be used when the product is to be sold in the destination country. We recommend that you use 
+                      your company’s oiffcial invoice if available.
+                      Sent By                                                                     Customs Commodity Code 
+                      Fill in the sender’s/selling company’s name, contact person,                Customs commodity code, used for clearance in the 
+                      address and registration/organization number.                               destination country. You can ifnd more information about 
+                      Buyer                                                                       commodity codes from your own country’s customs 
+                      Fill in the buyer’s/receiver’s name, contact person, address                webpage.
+                      and registration/organization number. If the shipment is to                 Country of Origin 
+                      be delivered to an address other than the buyer’s, please                   Manufacturing country is important since this determines 
+                      also ifll in the Delivery to section.                                       any possible exemption from duty.
+                      Delivery to                                                                 Quantity/Number of Units 
+                      Fill in all the available information.                                      Exact number of units for each product. State the quantity 
+                      Airwaybill/AWB No                                                           of product in, for example, metres, litres, kgs or carats, 
+                      Airwaybill number.                                                          where possible.
+                      Invoice No                                                                  Unit Value and Currency 
+                      Invoice number.                                                             Price per unit and currency.
+                      Number of Pieces                                                            Sub Total Value and Currency 
+                      Number of pieces sent.                                                      Summary of unit price and currency.
+                      Total Gross/Net Weight                                                      Total Value and Currency 
+                      Gross weight (kgs) = total weight including packaging.                      Total value of the shipment and currency. If the products 
+                      Net weight (kgs) = total weight without packaging.                          are being returned after repair, state the repair costs. If the         
+                                                                                                  value is for customs purposes only, the invoice should state 
+                      Full Description of goods                                                   ”For customs purposes only”. If the products are being 
+                      Describe the contents in as much detail as possible, delivered ”Free of charge” or ”No commercial value”, this 
+                      including trademarks, factory numbers, serial numbers,                      should also be stated on the invoice.
+                      material and whether products are new or used. For gifts,                   Reason for Export 
+                      samples and spare parts state: ”… as a gift”, ”Sample of ...”               State if the product is being sold or is a sample, repair, return 
+                      or ”Spare part of...”.                                                      or gift. For temporary exports (e.g. for fairs, or repairs), state 
+                                                                                                  ”Temporarily exported” on the invoice.
+                      Terms of Delivery – Incoterms 
+                      Delivery clause according to the deifnitions of the International Chamber of Commerce, describing the apportionment of 
+                      liability between the buyer and the seller.
+                      CIF – Cost Insurance Freight                                                DDU – Delivery Duty Unpaid 
+                      The seller signs the freight agreement and has an                           The seller signs the freight agreement and is responsible 
+                      obligation towards the buyer to insure the goods until they                 for the main transportation. The responsibility is passed 
+                      reach the destination. Import charges are paid by the buyer.                to the buyer at the destination. Import charges are paid by 
+                      FOB – Free on Board                                                         the buyer.
+                      The buyer signs the freight agreement, is obliged to                        DDP – Delivery Duty Paid   
+                      accept all risks and has to have its own insurance. Import                  The seller signs the freight agreement and is responsible 
+                      charges are paid by the buyer.                                              for the main transportation. The responsibility is passed 
+                      EXW – Ex Works                                                              to the buyer at the destination. Import charges are paid by 
+                      The buyer has all the responsibility, including insurance and               the seller.
+                      import charges.                                                             CIP – Carriage Insurance Paid 
+                                                                                                  The seller has an obligation towards the buyer to insure 
+                                                                                                  the goods until they reach the destination. Import charges 
+                                                                                                  are paid by the buyer who is also obliged to accept all risks.
+                      NOTE! Some countries also request that the destination is typed in directly after the terms of delivery!

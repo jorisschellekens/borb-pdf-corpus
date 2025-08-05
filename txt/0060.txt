@@ -1,0 +1,160 @@
+       Running head: SAMPLE FOR STUDENTS      1
+           Sample APA Paper for Students Interested in Learning APA Style 6th Edition
+                       Jeffrey H. Kahn
+                      Illinois State University
+                        Author Note
+          Jeffrey H. Kahn, Department of Psychology, Illinois State University.
+          Correspondence concerning this sample paper should be addressed to Jeffrey H. Kahn,
+       Department of Psychology, Illinois State University, Campus Box 4620, Normal, Illinois
+       61790-4620. E-mail: jhkahn@ilstu.edu.
+       SAMPLE FOR STUDENTS                    2
+                         Abstract
+       The abstract should be a single paragraph in block format (without paragraph indentation), and
+       the appropriate length depends on the journal to which you are submitting, but they are typically
+       between 150 and 200 words. (Students should consult their instructor for the recommended
+       length of the abstract.) Section 2.04 of the APA manual (American Psychological Association
+       [APA], 2010) has additional information about the abstract. The abstract is important because
+       many journal readers first read the abstract to determine if the entire article is worth reading. The
+       abstract should describe all four parts of an empirical paper (i.e., Introduction, Method, Results,
+       and Discussion). Consider writing one or two sentences summarizing each part of a paper, and
+       you’ll have a nice abstract.
+       SAMPLE FOR STUDENTS                    3
+             Sample APA Paper for Students Interested in Learning APA Style
+          Before getting started you will notice some things about this paper. First, everything is
+       double-spaced. Second, margins are 1-inch wide on all sides. Third, there are several headings
+       used throughout to separate different parts of the paper; some of the headings are in bold. Fourth,
+       there is exactly one space after each punctuation mark (except for periods at the end of a
+       sentence, after which there are two spaces). Fifth, the upper left of each page has a running head
+       in all capital letters, and the upper right has the page number. Try to pay attention to all of these
+       details as you look through this paper.
+          Now that those details are out of the way, you should know that this first part of the paper
+       is called the “Introduction” section, yet it does not have a heading that actually says
+       “Introduction.” Instead, the title of the paper is typed at the top of the first page (be sure to center
+       the title, but do not put it in bold). In this section you would often start with a topic paragraph
+       that introduces the problem under study. The importance of the topic should be pretty clear from
+       the first paragraph or two of the Introduction. Section 2.05 of the APA manual (APA, 2010) will
+       help give you some ideas about how to write this.
+          The bulk of the Introduction section is background literature on the topic. Here a
+       literature review is often very helpful to provide a theoretical or empirical basis for the research.
+       Try to provide the reader with enough information on the topic to be able to conclude that the
+       research is important and that the hypotheses are reasonable. Any prior work on the topic would
+       be useful to include here, although prior work that is most directly related to the hypotheses
+       would be of greatest value.
+       SAMPLE FOR STUDENTS                    4
+          Remember to cite your sources often in the Introduction and throughout the manuscript.
+       Articles and books are cited the same way in the text, yet they appear different on the References
+       page. For example, an article by Cronbach and Meehl (1955) and a book by Bandura (1986) are
+       written with the authors’ names and the year of the publication in parentheses. However, if you
+       look on the References page they look a little different. Remember that APA style does not use
+       footnotes or anything like that for citations. Two other things about citations are important. When
+       a citation is written inside parentheses (e.g., Cronbach & Meehl, 1959), an ampersand is used
+       between authors’ names instead of the word “and.” Second, when citing an author’s work using
+       quotations, be sure to include a page number. For example, Rogers (1961) once wrote that two
+       important elements of a helping relationship are “genuineness and transparency” (p. 37). Notice
+       that the page number is included here. Unless a direct quote is taken from a source, the page
+       number is not included. 
+          The last section of the Introduction states the purpose of the research. The purpose can
+       usually be summarized in a few sentences. Hypotheses are also included here at the end of this
+       section. State your hypotheses as predictions (e.g., “I predicted that...”), and try to avoid using
+       passive tense (e.g., “It was predicted that...”). You will notice that hypotheses are written in past
+       tense because you are describing a study you have finished. 
+                         Method
+          The Method section is the second of four main parts of an empirical paper (see Section
+       2.06 of the APA [2010] manual). (Be aware that some papers are reviews of the literature and
+       therefore would not have a separate Method section.) There are typically three or four major
+       SAMPLE FOR STUDENTS                    5
+       subsections in the Method although there can be more. These subsections are separated by
+       headings which are described in sections 3.02 and 3.03 of the APA manual (APA, 2010). 
+       Participants 
+          This brief section describes the people who participated in your study. (They should be
+       called “participants,” not “subjects,” by the way.) Mention the number of participants, the
+       percentage of female and male participants, the mean age (where “mean” is abbreviated M), and
+       their ethnicity or cultural background. Any other demographic information would be appropriate
+       here. 
+       Research Design
+          Experimental studies often have a section in the Method describing the design of the
+       study. Typically the independent variables in the study would be described here. For example, the
+       study might involve a 2-by-2 design with one independent variable being treatment/control
+       conditions and the other independent variable being biological sex. It would be helpful to
+       describe dependent variables in this subsection as well. 
+       Measures 
+          This section describes the tests or instruments used to collect data. It would be
+       appropriate to describe any questionnaires that you used. For example, if you used the Marlowe-
+       Crowne Social Desirability Scale in your research, you may say that the Marlowe-Crowne Social
+       Desirability Scale (MCSD; Crowne & Marlowe, 1960) comprises 33 true-false items that
+       measure social desirability. You would also provide the reader with information regarding the
+       MCSD scores’ reliability and validity. Do this for each and every measure used in the study. In
+       the event that the purpose of your paper is to develop a new questinnaire, you may wish to
+       SAMPLE FOR STUDENTS                    6
+       describe reliability and validity in the Results section (see below). However, you would only do
+       this for a scale-development project. 
+       Procedure 
+          This section describes in great detail the data-collection procedures. Describe how
+       participants were recruited, whether they participated alone or in groups, how informed consent
+       or assent was obtained, what they were asked to do, how they were compensated for their
+       participation, etc. It is hard to make this section too detailed. You should describe the procedure
+       in a way that another researcher could conduct the same study (i.e., replicate it) just by reading
+       about the procedure. 
+                         Results
+          The Results section may be the most difficult to write, at least until you get a little
+       practice with reporting statistical analyses. This is the section where the results of the data
+       analyses are presented. Section 2.07 in the APA manual (APA, 2010) will help a little bit. It’s
+       often helpful to use tables (see Table 1) to help describe your results, especially when you have a
+       lot of data to report, such as means and standard deviations. Table 2 provides another example of
+       a table, this one describing correlations. 
+          You may find it helpful to remind the reader of the hypothesis before presenting each
+       result. It is also a good idea to tell the reader what type of data analysis was done (e.g.,
+       correlation, ANOVA) before it is presented. State what alpha level you adopted; an alpha level of
+       .05 is the standard. Although you should be sure not to try to interpret or explain your results
+       here, it is appropriate to state whether or not your hypotheses were supported. Just don’t try to
+       SAMPLE FOR STUDENTS                    7
+       explain why the hypotheses were or were not supported; that’s why you have the Discussion
+       section. 
+                        Discussion
+          The Discussion is the fourth and final section of the paper. This is the part where you
+       interpret and explain your results. Try to explain why you found what you did in your study. Is it
+       what you predicted? If not, why? You may have to think about your results in a theoretically
+       meaningful way. Also, how do your findings fit in with previous theory and literature? Are your
+       results consistent or inconsistent with what has been found in the past? If they are inconsistent,
+       how can you explain this? The explanation and interpretation of results will probably be the
+       biggest part of the Discussion. 
+          There are at least two additional parts of the discussion. First, include limitations of the
+       study. Describe the ways in which the internal or external validity of the study may have been
+       compromised. Was the sample biased? Were the measures problematic? Think about what you
+       would do different next time if you conducted a similar study. Future research ideas are often
+       discussed when limitations are discussed. 
+          Second, describe the implications of your findings to theory and practice. Answer the
+       question, “How does my study add to psychological theory?” Also, think about practical
+       applications of your findings. Perhaps give some additional directions for future research. When
+       you’ve done that, you have written a paper in APA style!
+       SAMPLE FOR STUDENTS                    8
+                        References
+       American Psychological Association. (2010). Publication manual of the American Psychological
+          Association (6th ed.). Washington, DC: Author. 
+       Bandura, A. (1986). Social foundations of thought and action: A social cognitive theory.
+          Englewood Cliffs, NJ: Prentice Hall. 
+       Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological
+          Bulletin, 52, 281-302. doi:10.1037/h0040957
+       Crowne, C. P., & Marlowe, D. (1960). A new scale of social desirability independent of
+          psychopathology. Journal of Consulting Psychology, 24, 349-354. doi:10.1037/h0047358
+       Rogers, C. R. (1961). On becoming a person. Boston: Houghton Mifflin. 
+              SAMPLE FOR STUDENTS                                                                    9
+              Table 1
+              Sample Table Describing Fake Data
+                                            Variable A                 Variable B
+                                          M          SD               M         SD
+              Men (n = 100)              32.61       8.95           17.08       5.25
+              Women (n = 80)             33.02       9.17           16.91       5.13
+              Note. These data were totally made up. They are just presented to give you an idea about how to
+              present information in a table. 
+       SAMPLE FOR STUDENTS                   10
+       Table 2
+       Convergent and Discriminant Validity of Depression Scale
+       Variable               Correlation
+       Convergent Validity
+       Self-Esteem             .44*
+       Hopelessness            .51**
+       Discriminant Validity
+       Social Desirability     .11
+       Anxiety                 .22
+       *p < .05; **p < .01.

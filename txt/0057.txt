@@ -1,0 +1,337 @@
+                               EndtoEndLearningforSelf-DrivingCars
+                         MariuszBojarski     Davide Del Testa  Daniel Dworakowski    BernhardFirner
+                        NVIDIACorporation   NVIDIACorporation   NVIDIACorporation   NVIDIACorporation
+                        Holmdel, NJ 07735   Holmdel, NJ 07735    Holmdel, NJ 07735   Holmdel, NJ 07735
+                            Beat Flepp        PrasoonGoyal      LawrenceD.Jackel     MathewMonfort
+                        NVIDIACorporation   NVIDIACorporation   NVIDIACorporation   NVIDIACorporation
+                         Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735
+                            UrsMuller          Jiakai Zhang         XinZhang            Jake Zhao
+                        NVIDIACorporation   NVIDIACorporation   NVIDIACorporation   NVIDIACorporation
+                         Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735   Holmdel, NJ 07735
+                                                         Karol Zieba
+                                                      NVIDIACorporation
+                                                       Holmdel, NJ 07735
+                                                          Abstract
+                              Wetrained a convolutional neural network (CNN) to map raw pixels from a sin-
+                              gle front-facing camera directly to steering commands. This end-to-end approach
+                              proved surprisingly powerful. With minimum training data from humans the sys-
+                              tem learns to drive in trafﬁc on local roads with or without lane markings and on
+                              highways. It also operates in areas with unclear visual guidance such as in parking
+                              lots and on unpaved roads.
+                              Thesystemautomaticallylearnsinternalrepresentations of the necessary process-
+                              ingstepssuchasdetectingusefulroadfeatureswithonlythehumansteeringangle
+                              as the training signal. We never explicitly trained it to detect, for example, the out-
+                              line of roads.
+                              Compared to explicit decomposition of the problem, such as lane marking detec-
+                              tion, path planning, and control, our end-to-end system optimizes all processing
+       arXiv:1604.07316v1  [cs.CV]  25 Apr 2016steps simultaneously. We argue that this will eventually lead to better perfor-
+                              mance and smaller systems. Better performance will result because the internal
+                              componentsself-optimizetomaximizeoverallsystemperformance,insteadofop-
+                              timizing human-selected intermediate criteria, e.g., lane detection. Such criteria
+                              understandably are selected for ease of human interpretation which doesn’t auto-
+                              matically guarantee maximum system performance. Smaller networks are possi-
+                              ble because the system learns to solve the problem with the minimal number of
+                              processing steps.
+                              We used an NVIDIA DevBox and Torch 7 for training and an NVIDIA
+                              DRIVETMPX self-driving car computer also running Torch 7 for determining
+                              where to drive. The system operates at 30 frames per second (FPS).
+                                                              1
+                     1  Introduction
+                     CNNs[1] have revolutionized pattern recognition [2]. Prior to the widespread adoption of CNNs,
+                     most pattern recognition tasks were performed using an initial stage of hand-crafted feature extrac-
+                     tion followed by a classiﬁer. The breakthrough of CNNs is that features are learned automatically
+                     from training examples. The CNN approach is especially powerful in image recognition tasks be-
+                     cause the convolution operation captures the 2D nature of images. Also, by using the convolution
+                     kernels to scan an entire image, relatively few parameters need to be learned compared to the total
+                     numberofoperations.
+                     While CNNs with learned features have been in commercial use for over twenty years [3], their
+                     adoption has exploded in the last few years because of two recent developments. First, large, labeled
+                     data sets such as the Large Scale Visual Recognition Challenge (ILSVRC) [4] have become avail-
+                     able for training and validation. Second, CNN learning algorithms have been implemented on the
+                     massively parallel graphics processing units (GPUs) which tremendously accelerate learning and
+                     inference.
+                     In this paper, we describe a CNN that goes beyond pattern recognition. It learns the entire pro-
+                     cessing pipeline needed to steer an automobile. The groundwork for this project was done over 10
+                     years ago in a Defense Advanced Research Projects Agency (DARPA) seedling project known as
+                     DARPAAutonomousVehicle(DAVE)[5]inwhichasub-scaleradiocontrol(RC)cardrovethrough
+                     ajunk-ﬁlledalleyway. DAVEwastrainedonhoursofhumandrivinginsimilar,butnotidenticalen-
+                     vironments. The training data included video from two cameras coupled with left and right steering
+                     commandsfromahumanoperator.
+                     In manyways,DAVE-2wasinspiredbythepioneeringworkofPomerleau[6]whoin1989builtthe
+                     AutonomousLandVehicleinaNeuralNetwork(ALVINN)system. Itdemonstrated that an end-to-
+                     endtrainedneuralnetworkcanindeedsteeracaronpublicroads. Ourworkdiffersinthat25yearsof
+                     advanceslet us apply far more data and computational power to the task. In addition, our experience
+                     with CNNsletsusmakeuseofthispowerfultechnology. (ALVINNusedafully-connectednetwork
+                     which is tiny by today’s standard.)
+                     While DAVE demonstrated the potential of end-to-end learning, and indeed was used to justify
+                     starting the DARPALearningAppliedtoGroundRobots(LAGR)program[7],DAVE’sperformance
+                     was not sufﬁciently reliable to provide a full alternative to more modular approaches to off-road
+                     driving. DAVE’s mean distance between crashes was about 20 meters in complex environments.
+                     Nine months ago, a new effort was started at NVIDIA that sought to build on DAVE and create a
+                     robust system for driving on public roads. The primary motivation for this work is to avoid the need
+                     to recognize speciﬁc human-designated features, such as lane markings, guard rails, or other cars,
+                     and to avoid having to create a collection of “if, then, else” rules, based on observation of these
+                     features. This paper describes preliminary results of this new effort.
+                     2  OverviewoftheDAVE-2System
+                     Figure 1 shows a simpliﬁed block diagram of the collection system for training data for DAVE-2.
+                     Three cameras are mounted behind the windshield of the data-acquisition car. Time-stamped video
+                     from the cameras is captured simultaneously with the steering angle applied by the human driver.
+                     This steering command is obtained by tapping into the vehicle’s Controller Area Network (CAN)
+                     bus. In order to make our system independent of the car geometry, we represent the steering com-
+                     mandas1/ whereristheturningradiusinmeters. Weuse1/ insteadofr topreventasingularity
+                             r                                     r
+                     when driving straight (the turning radius for driving straight is inﬁnity). 1/ smoothly transitions
+                                                                              r
+                     through zero from left turns (negative values) to right turns (positive values).
+                     Trainingdatacontainssingleimagessampledfromthevideo,pairedwiththecorrespondingsteering
+                     command(1/r). Training with data from only the human driver is not sufﬁcient. The network must
+                     learn how to recover from mistakes. Otherwise the car will slowly drift off the road. The training
+                     data is therefore augmented with additional images that show the car in different shifts from the
+                     center of the lane and rotations from the direction of the road.
+                                                         2
+                                                                   Left camera       Center camera       Right camera
+                                                      Steering wheel angle
+                                                      (via CAN bus)
+                                              External solid-state 
+                                             drive for data storage
+                                                                                                 TM
+                                                                                  NVIDIA DRIVE  PX
+                                                     Figure 1: High-level view of the data collection system.
+                              Images for two speciﬁc off-center shifts can be obtained from the left and the right camera. Ad-
+                              ditional shifts between the cameras and all rotations are simulated by viewpoint transformation of
+                              the image from the nearest camera. Precise viewpoint transformation requires 3D scene knowledge
+                              which we don’t have. We therefore approximate the transformation by assuming all points below
+                              the horizon are on ﬂat ground and all points above the horizon are inﬁnitely far away. This works
+                              ﬁne for ﬂat terrain but it introduces distortions for objects that stick above the ground, such as cars,
+                              poles, trees, and buildings. Fortunately these distortions don’t pose a big problem for network train-
+                              ing. The steering label for transformed images is adjusted to one that would steer the vehicle back
+                              to the desired location and orientation in two seconds.
+                              Ablock diagram of our training system is shown in Figure 2. Images are fed into a CNN which
+                              then computes a proposed steering command. The proposed command is compared to the desired
+                              commandforthatimageandtheweightsoftheCNNareadjustedtobringtheCNNoutputcloserto
+                              the desired output. The weight adjustment is accomplished using back propagation as implemented
+                              in the Torch 7 machine learning package.
+                                                  Recorded 
+                                                   steering 
+                                                 wheel angle     Adjust for shift                   Desired steering command
+                                                                  and rotation
+                                                                                                             Network 
+                                     Left camera                                                             computed 
+                                                                                                             steering 
+                                                                 Random shift                                command
+                                    Center camera                 and rotation                 CNN                            -
+                                     Right camera
+                                                                                        Back propagation        Error
+                                                                                        weight adjustment
+                                                              Figure 2: Training the neural network.
+                              Once trained, the network can generate steering from the video images of a single center camera.
+                              This conﬁguration is shown in Figure 3.
+                                                                                  3
+                                                                 Network 
+                                                                 computed 
+                                                                  steering 
+                                                                 command   Drive by wire 
+                                Center camera         CNN                    interface
+                     Figure 3: The trained network is used to generate steering commands from a single front-facing
+                     center camera.
+                     3  DataCollection
+                     Training data was collected by driving on a wide variety of roads and in a diverse set of lighting
+                     and weather conditions. Most road data was collected in central New Jersey, although highway data
+                     was also collected from Illinois, Michigan, Pennsylvania, and New York. Other road types include
+                     two-lane roads (with and without lane markings), residential roads with parked cars, tunnels, and
+                     unpaved roads. Data was collected in clear, cloudy, foggy, snowy, and rainy weather, both day and
+                     night. In some instances, the sun was low in the sky, resulting in glare reﬂecting from the road
+                     surface and scattering from the windshield.
+                     Data was acquired using either our drive-by-wire test vehicle, which is a 2016 Lincoln MKZ, or
+                     using a 2013 Ford Focus with cameras placed in similar positions to those in the Lincoln. The
+                     system has no dependencies on any particular vehicle make or model. Drivers were encouraged to
+                     maintain full attentiveness, but otherwise drive as they usually do. As of March 28, 2016, about 72
+                     hours of driving data was collected.
+                     4  NetworkArchitecture
+                     Wetrain the weights of our network to minimize the mean squared error between the steering com-
+                     mand output by the network and the command of either the human driver, or the adjusted steering
+                     commandforoff-center and rotated images (see Section 5.2). Our network architecture is shown in
+                     Figure 4. The network consists of 9 layers, including a normalization layer, 5 convolutional layers
+                     and 3 fully connected layers. The input image is split into YUV planes and passed to the network.
+                     Theﬁrstlayerofthenetworkperformsimagenormalization. Thenormalizerishard-codedandisnot
+                     adjusted in the learning process. Performing normalization in the network allows the normalization
+                     schemetobealtered with the network architecture and to be accelerated via GPU processing.
+                     The convolutional layers were designed to perform feature extraction and were chosen empirically
+                     through a series of experiments that varied layer conﬁgurations. We use strided convolutions in the
+                     ﬁrst three convolutional layers with a 2×2 stride and a 5×5 kernel and a non-strided convolution
+                     with a 3×3 kernel size in the last two convolutional layers.
+                     Wefollowtheﬁveconvolutionallayerswiththreefullyconnectedlayersleadingtoanoutputcontrol
+                     value which is the inverse turning radius. The fully connected layers are designed to function as a
+                     controller for steering, but we note that by training the system end-to-end, it is not possible to make
+                     a clean break between which parts of the network function primarily as feature extractor and which
+                     serve as controller.
+                     5  Training Details
+                     5.1 DataSelection
+                     The ﬁrst step to training a neural network is selecting the frames to use. Our collected data is
+                     labeled with road type, weather condition, and the driver’s activity (staying in a lane, switching
+                     lanes, turning, and so forth). To train a CNN to do lane following we only select data where the
+                     driver was staying in a lane and discard the rest. We then sample that video at 10 FPS. A higher
+                     sampling rate would result in including images that are highly similar and thus not provide much
+                     useful information.
+                                                          4
+                                                                                    Output: vehicle control
+                                                           10 neurons               Fully-connected layer
+                                                           50 neurons               Fully-connected layer
+                                                           100 neurons              Fully-connected layer
+                                                          1164 neurons
+                                                             Flatten                Convolutional
+                                                                                    feature map
+                                                                                    64@1x18
+                                                        3x3 kernel                  Convolutional
+                                                                                    feature map
+                                                                                    64@3x20
+                                                                     3x3 kernel     Convolutional
+                                                                                    feature map
+                                                                                    48@5x22
+                                                                5x5 kernel          Convolutional
+                                                                                    feature map
+                                                                                    36@14x47
+                                                                     5x5 kernel     Convolutional
+                                                                                    feature map
+                                                                                    24@31x98
+                                                                     5x5 kernel     Normalized
+                                                                                    input planes
+                                                                                    3@66x200
+                                                          Normalization
+                                                                                    Input planes
+                                                                                    3@66x200
+                           Figure 4: CNN architecture. The network has about 27 million connections and 250 thousand
+                           parameters.
+                           To remove a bias towards driving straight the training data includes a higher proportion of frames
+                           that represent road curves.
+                           5.2  Augmentation
+                           After selecting the ﬁnal set of frames we augment the data by adding artiﬁcial shifts and rotations
+                           to teach the network how to recover from a poor position or orientation. The magnitude of these
+                           perturbationsischosenrandomlyfromanormaldistribution. Thedistributionhaszeromean,andthe
+                           standard deviation is twice the standard deviation that we measured with human drivers. Artiﬁcially
+                           augmenting the data does add undesirable artifacts as the magnitude increases (see Section 2).
+                           6   Simulation
+                           Before road-testing a trained CNN, we ﬁrst evaluate the networks performance in simulation. A
+                           simpliﬁed block diagram of the simulation system is shown in Figure 5.
+                           Thesimulator takes pre-recorded videos from a forward-facing on-board camera on a human-driven
+                           data-collection vehicle and generates images that approximate what would appear if the CNN were,
+                           instead, steering the vehicle. These test videos are time-synchronized with recorded steering com-
+                           mandsgenerated by the human driver.
+                                                                          5
+                               Sincehumandriversmightnotbedrivinginthecenterofthelaneallthetime,wemanuallycalibrate
+                               the lane center associated with each frame in the video used by the simulator. We call this position
+                               the “ground truth”.
+                               Thesimulator transforms the original images to account for departures from the ground truth. Note
+                               that this transformation also includes any discrepancy betweenthehumandrivenpathandtheground
+                               truth. The transformation is accomplished by the same methods described in Section 2.
+                               Thesimulator accesses the recorded test video along with the synchronized steering commands that
+                               occurred when the video was captured. The simulator sends the ﬁrst frame of the chosen test video,
+                               adjusted for any departures from the ground truth, to the input of the trained CNN. The CNN then
+                               returns a steering command for that frame. The CNN steering commands as well as the recorded
+                               human-driver commands are fed into the dynamic model [8] of the vehicle to update the position
+                               and orientation of the simulated vehicle.
+                               The simulator then modiﬁes the next frame in the test video so that the image appears as if the
+                               vehicle were at the position that resulted by following steering commands from the CNN. This new
+                               image is then fed to the CNN and the process repeats.
+                               Thesimulator records the off-center distance (distance from the car to the lane center), the yaw, and
+                               the distance traveled by the virtual car. When the off-center distance exceeds one meter, a virtual
+                               humanintervention is triggered, and the virtual vehicle position and orientation is reset to match the
+                               ground truth of the corresponding frame of the original test video.
+                                                                          Shift and rotate                                  CNN
+                                                                                                Synthesized
+                                                                                              image of road as
+                                                                                            would be seen from
+                                Library of recorded test                                      simulated vehicle            Network 
+                                routes: videos and time-                                                                  computed 
+                                 synchronized steering                                                                     steering 
+                                      commands                              Update car                                    command
+                                                                           position and 
+                                                                            orientation
+                                                            Figure 5: Block-diagram of the drive simulator.
+                               7    Evaluation
+                               Evaluating our networks is done in two steps, ﬁrst in simulation, and then in on-road tests.
+                               In simulation we have the networks provide steering commands in our simulator to an ensemble
+                               of prerecorded test routes that correspond to about a total of three hours and 100 miles of driving
+                               in Monmouth County, NJ. The test data was taken in diverse lighting and weather conditions and
+                               includes highways, local roads, and residential streets.
+                               7.1   Simulation Tests
+                               Weestimate what percentage of the time the network could drive the car (autonomy). The metric is
+                               determined by counting simulated human interventions (see Section 6). These interventions occur
+                               when the simulated vehicle departs from the center line by more than one meter. We assume that
+                               in real life an actual intervention would require a total of six seconds: this is the time required
+                               for a human to retake control of the vehicle, re-center it, and then restart the self-steering mode.
+                               Wecalculate the percentage autonomy by counting the number of interventions, multiplying by 6
+                               seconds, dividing by the elapsed time of the simulated test, and then subtracting the result from 1:
+                                                   autonomy = (1− (numberofinterventions)·6 seconds)·100                                   (1)
+                                                                                 elapsed time [seconds]
+                                                                                      6
+                           Figure 6: Screen shot of the simulator in interactive mode. See Section 7.1 for explanation of the
+                           performancemetrics. Thegreenareaontheleftisunknownbecauseoftheviewpointtransformation.
+                           Thehighlighted wide rectangle below the horizon is the area which is sent to the CNN.
+                           Thus, if we had 10 interventions in 600 seconds, we would have an autonomy value of
+                                                              (1 − 10·6)·100 = 90%
+                                                                    600
+                           7.2  On-roadTests
+                           After a trained network has demonstrated good performance in the simulator, the network is loaded
+                           on the DRIVETMPX in our test car and taken out for a road test. For these tests we measure per-
+                           formance as the fraction of time during which the car performs autonomous steering. This time
+                           excludes lane changes and turns from one road to another. For a typical drive in Monmouth County
+                           NJfromourofﬁceinHolmdeltoAtlanticHighlands,weareautonomousapproximately98%ofthe
+                           time. We also drove 10 miles on the Garden State Parkway (a multi-lane divided highway with on
+                           and off ramps) with zero intercepts.
+                           Avideoofourtestcar driving in diverse conditions can be seen in [9].
+                           7.3  Visualization of Internal CNN State
+                           Figures 7 and 8 show the activations of the ﬁrst two feature map layers for two different example
+                           inputs, an unpaved road and a forest. In case of the unpaved road, the feature map activations clearly
+                           show the outline of the road while in case of the forest the feature maps contain mostly noise, i.e.,
+                           the CNNﬁndsnousefulinformation in this image.
+                           This demonstrates that the CNN learned to detect useful road features on its own, i.e., with only the
+                           humansteeringangleastrainingsignal. Weneverexplicitly trained it to detect the outlines of roads,
+                           for example.
+                                                                          7
+           Figure 7: How the CNN “sees” an unpaved road. Top: subset of the camera image sent to the CNN.
+           Bottom left: Activation of the ﬁrst layer feature maps. Bottom right: Activation of the second layer
+           feature maps. This demonstrates that the CNN learned to detect useful road features on its own, i.e.,
+           with only the human steering angle as training signal. We never explicitly trained it to detect the
+           outlines of roads.
+           Figure 8: Example image with no road. The activations of the ﬁrst two feature maps appear to
+           contain mostly noise, i.e., the CNN doesn’t recognize any useful features in this image.
+                               8
+                                8    Conclusions
+                                We have empirically demonstrated that CNNs are able to learn the entire task of lane and road
+                                following without manual decomposition into road or lane marking detection, semantic abstraction,
+                                pathplanning,andcontrol. Asmallamountoftrainingdatafromlessthanahundredhoursofdriving
+                                was sufﬁcient to train the car to operate in diverse conditions, on highways, local and residential
+                                roads in sunny, cloudy, and rainy conditions. The CNN is able to learn meaningful road features
+                                from a very sparse training signal (steering alone).
+                                The system learns for example to detect the outline of a road without the need of explicit labels
+                                during training.
+                                Moreworkisneededtoimprovetherobustnessofthenetwork,toﬁndmethodstoverifytherobust-
+                                ness, and to improve visualization of the network-internal processing steps.
+                                References
+                                [1] Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel. Backprop-
+                                    agation applied to handwritten zip code recognition. Neural Computation, 1(4):541–551, Winter 1989.
+                                    URL:http://yann.lecun.org/exdb/publis/pdf/lecun-89e.pdf.
+                                [2] Alex Krizhevsky,       Ilya  Sutskever,   and Geoffrey E. Hinton.              Imagenet classiﬁcation with
+                                    deep convolutional neural networks.              In   F.  Pereira,  C. J. C. Burges,        L.   Bottou,   and
+                                    K. Q. Weinberger, editors,         Advances in Neural Information Processing Systems 25, pages
+                                    1097–1105. Curran Associates,          Inc.,   2012.       URL: http://papers.nips.cc/paper/
+                                    4824-imagenet-classification-with-deep-convolutional-neural-networks.
+                                    pdf.
+                                [3] L. D. Jackel, D. Sharman, Stenard C. E., Strom B. I., , and D Zuckert. Optical character recognition for
+                                    self-service banking. AT&T Technical Journal, 74(1):16–24, 1995.
+                                [4] Large scale visual recognition challenge (ILSVRC).              URL: http://www.image-net.org/
+                                    challenges/LSVRC/.
+                                [5] Net-Scale Technologies, Inc. Autonomous off-road vehicle control using end-to-end learning, July 2004.
+                                    Final technical report. URL: http://net-scale.com/doc/net-scale-dave-report.pdf.
+                                [6] Dean A. Pomerleau.       ALVINN, an autonomous land vehicle in a neural network.             Technical report,
+                                    Carnegie Mellon University, 1989. URL: http://repository.cmu.edu/cgi/viewcontent.
+                                    cgi?article=2874&context=compsci.
+                                [7] Wikipedia.org.     DARPA LAGR program. http://en.wikipedia.org/wiki/DARPA_LAGR_
+                                    Program.
+                                [8] Danwei Wang and Feng Qi. Trajectory planning for a four-wheel-steering vehicle. In Proceedings of
+                                    the 2001 IEEE International Conference on Robotics & Automation, May 21–26 2001. URL: http:
+                                    //www.ntu.edu.sg/home/edwwang/confpapers/wdwicar01.pdf.
+                                [9] DAVE       2    driving    a    lincoln.          URL:     https://drive.google.com/open?id=
+                                    0B9raQzOpizn1TkRIa241ZnBEcjQ.
+                                                                                         9

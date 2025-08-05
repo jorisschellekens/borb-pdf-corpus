@@ -1,0 +1,45 @@
+        AAAI‐­-19  Accepted  Papers  –  Main  Technical  Track  
+          
+        (The following list includes all accepted papers for the main track of AAAI-19. The list is sorted 
+        according to submission number order. Titles and spelling may not be final. Final titles will be reflected 
+        in the final program and proceedings according to what is submitted by authors at the camera-ready 
+        copy deadline.)  
+          
+        9:  CircConv:  A  Structured  Convolution  with  Low  Complexity  
+        Siyu  Liao  ()*;  Bo  Yuan  (Rutgers  University)  
+          
+        40:  Deep  Single‐­-View  3D  Object  Reconstruction  with  Visual  Hull  Embedding  
+        Hanqing  Wang  (Beijing  Institute  of  Technology)*;  Jiaolong  Yang  (Microsoft  Research  Asia  
+        (MSRA));  Wei  Liang  (Beijing  Institute  of  Technology);  Xin  Tong  (Microsoft)  
+          
+        56:  On  the  Optimal  Efficiency  of  Cost‐­-Algebraic  A*  
+        Robert  Holte  (University  of  Alberta)*;  Sandra  Zilles  (Regina)  
+          
+        61:  Spatial‐­-Temporal  Person  Re‐­-identification  
+        Guangcong  Wang  (Sun  Yat‐­-Sen  University);  Jian‐­-Huang  Lai  (Sun  Yat‐­-sen  University)*;  Peigen  
+        Huang  (Sun  Yat‐­-sen  University);  Xiao‐­-Hua  Xie  (Sun  Yat‐­-sen  University)  
+          
+        65:  Look  Across  Elapse:  Disentangled  Representation  Learning  and  Photorealistic  Cross‐­-Age  
+        Face  Synthesis  for  Age‐­-Invariant  Face  Recognition  
+        Jian  Zhao  (National  University  of  Singapore)*;  Yu  Cheng  (National  University  of  Singapore);  Yi  
+        Cheng  (Panasonic);  Yang  Yang  (National  University  of  Singapore);  Fang  Zhao  (Inception  Institute  
+        of  Artificial  Intelligence);  Jianshu  Li  (NUS);  Hengzhu  Liu  (National  University  of  Defense  
+        Technology);  Yan  Shuicheng  (National  University  of  Singapore);  Jiashi  Feng  (NUS)  
+          
+        74:  Transferable  Curriculum  for  Weakly‐­-Supervised  Domain  Adaptation  
+        Yang  Shu  (Tsinghua  University);  Zhangjie  Cao  (Tsinghua  University);  Mingsheng  Long  (Tsinghua  
+        University)*;  Jianmin  Wang  ("Tsinghua  University,  China")  
+          
+        76:  Differential  Networks  for  Visual  Question  Answering  
+        Chenfei  Wu  (Beijing  University  of  Posts  and  Telecommunications)*;  Jinlai  Liu  (Beijing  University  
+        of  Posts  and  Telecommunications);  Xiaojie  Wang  (Beijing  University  of  Posts  and  
+        Telecommunications);  Ruifan  Li  (Beijing  University  of  Posts  and  Telecommunications)  
+          
+        81:  PhoneMD:  Learning  to  Diagnose  Parkinson's  Disease  from  Smartphone  Data  
+        Patrick  Schwab  (ETH  Zurich)*;  Walter  Karlen  (ETH  Zurich)  
+          
+        83:  Fairly  Allocating  Many  Goods  with  Few  Queries  
+        Hoon  Oh  (Carnegie  Mellon  University);  Ariel  D  Procaccia  (Carnegie  Mellon  University)*;  Warut  
+        Suksompong  (Stanford  University)  
+          
+        115:  Disjunctive  Normal  Form  for  Multi‐­-Agent  Modal  Logics  Based  on  Logically  Separability  

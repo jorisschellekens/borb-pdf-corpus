@@ -1,0 +1,50 @@
+                                                                                                                CANADA CUSTOMS INVOICE                                                          PROTECTED               when completed
+                                                                                                     FACTURE DES DOUANES CANADIENNES                                                               PROTÉGÉ B une fois rempli
+                                                                                                                                                                                                                 Page        of
+                                                                                                                                                                                                                             de
+          1.   Vendor (name and address) - Vendeur (nom et adresse)                                                               2.  Date of direct shipment to Canada - Date d'expédition directe vers le Canada
+                                                                                                                                                                           yyyy/mm/dd
+                                                                                                                                  3.  Other references (include purchaser's order No.)
+                                                                                                                                      Autres références (inclure le n° de commande de l'acheteur)
+           4.  Consignee (name and address) - Destinataire (nom et adresse)                                                       5.  Purchaser's name and address (if other than consignee)
+                                                                                                                                      Nom et adresse de l'acheteur (s'il diffère du destinataire)
+                                                                                                                                  6.  Country of transhipment - Pays de transbordement
+                                                                                                                                  7.  Country of origin of goods                     IF SHIPMENT INCLUDES GOODS OF DIFFERENT ORIGINS
+                                                                                                                                      Pays d'origine des marchandises                ENTER ORIGINS AGAINST ITEMS IN 12.
+                                                                                                                                                                                     SI L'EXPÉDITION COMPREND DES MARCHANDISES D'ORIGINES
+                                                                                                                                                                                     DIFFÉRENTES, PRÉCISEZ LEUR PROVENANCE EN 12.
+           8.  Transportation: Give mode and place of direct shipment to Canada                                                   9.  Conditions of sale and terms of payment
+               Transport : Précisez mode et point d'expédition directe vers le Canada                                                 (i.e. sale, consignment shipment, leased goods, etc.)
+                                                                                                                                      Conditions de vente et modalités de paiement
+                                                                                                                                      (p. ex. vente, expédition en consignation, location de marchandises, etc.)
+                                                                                                                                  10. Currency of settlement - Devises du paiement
+          11.            12. Specification of commodities (kind of packages, marks and numbers, general                                           13.      Quantity                             Selling price - Prix de vente
+          Number of          description and characteristics, i.e., grade, quality)                                                                       (state unit)           14.    Unit price         15.          Total
+           packages          Désignation des articles (nature des colis, marques et numéros, description générale                                          Quantité                    Prix unitaire
+            Nombre           et caractéristiques, p. ex. classe, qualité)                                                                              (précisez l'unité)
+            de colis
+          18. If any of fields 1 to 17 are included on an attached commercial invoice, check this box                                            16.        Total weight - Poids total                     17. Invoice total
+               Si tout renseignement relativement aux zones 1 à 17 figure sur une ou des factures                                                 Net                            Gross - Brut                   Total de la facture
+               commerciales ci-attachées, cochez cette case
+               Commercial Invoice No. - N° de la facture commerciale
+          19. Exporter's name and address (if other than vendor)                                                                 20. Originator (name and address) - Expéditeur d'origine (nom et adresse)
+               Nom et adresse de l'exportateur (s'il diffère du vendeur)
+          21. Agency ruling (if applicable) - Décision de l'Agence (s'il y a lieu)                                               22. If fields 23 to 25 are not applicable, check this box
+                                                                                                                                      Si les zones 23 à 25 sont sans objet, cochez cette case
+          23. If included in field 17 indicate amount:                                          24. If not included in field 17 indicate amount:                    25. Check (if applicable):
+               Si compris dans le total à la zone 17, précisez :                                    Si non compris dans le total à la zone 17, précisez :               Cochez (s'il y a lieu) :
+                    (i) Transportation charges, expenses and insurance                               (i) Transportation charges, expenses and insurance                  (i) Royalty payments or subsequent proceeds are
+                       from the place of direct shipment to Canada                                      to the place of direct shipment to Canada                           paid or payable by the purchaser
+                       Les frais de transport, dépenses et assurances                                   Les frais de transport, dépenses et assurances                      Des redevances ou produits ont été ou seront
+                       à partir du point d'expédition directe vers le Canada                            jusqu'au point d'expédition directe vers le Canada                  versés par l'acheteur
+                    (ii) Costs for construction, erection and assembly                               (ii) Amounts for commissions other than buying
+                       incurred after importation into Canada                                           commissions
+                       Les coûts de construction, d'érection et                                         Les commissions autres que celles versées                       (ii) The purchaser has supplied goods or services 
+                       d'assemblage après importation au Canada                                         pour l'achat                                                        for use in the production of these goods
+                                                                                                                                                                            L'acheteur a fourni des marchandises ou des
+                                                                                                                                                                            services pour la production de ces
+                                                                                                                                                                            marchandises
+                   (iii) Export packing                                                             (iii) Export packing
+                       Le coût de l'emballage d'exportation                                             Le coût de l'emballage d'exportation
+                                                               Dans ce formulaire, toutes les expressions désignant des personnes visent à la fois les hommes et les femmes.
+         CI1 (08/09)                 If you require more space, please attach another sheet. - Si vous avez besoin de plus d'espace, veuillez joindre une autre feuille.                                                            BSF189

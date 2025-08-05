@@ -1,0 +1,19 @@
+                                                         Sample Commercial Invoice
+                    (Where to indicate the CR Number and HS Code)
+                                                                                                                                                       Consignee’s Customs 
+                                                             XYZ Company                                                                                   Registration no. is 
+                                                             2834 Bartlett Avenue                                                                       mandatory for import 
+                                                             Johnstown, PA 15909
+                                                             USA                                                                                         clearance into China
+                                                             ABC Company
+                                                             No. 383 Ji Nian Road
+                                                             Beijing, China 100105
+                  Description needs to be 
+                   detailed, material and 
+                   component should be                                                                                                                                               Selling price should 
+                    included if possible                                                                                                                                             be true and realistic
+                         Incoterm will determine                 Inclusion of correct HS 
+                      whether insurance and  freight                                                                                                                        It’s necessary to keep 
+                         cost should be added for                 code will help to clear                                                                                    the same currency 
+                           duty/VAT calculation                                                                                                                                code on invoice
+                                                               customs more efficiently

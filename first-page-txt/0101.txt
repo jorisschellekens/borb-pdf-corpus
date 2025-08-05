@@ -1,0 +1,16 @@
+          0x: An open protocol for decentralized exchange on
+                       the Ethereum blockchain
+                           Will Warren, Amir Bandeali
+                               0xProject.com
+                              February 21, 2017
+                                 Abstract
+            We describe a protocol that facilitates low friction peer-to-peer exchange of ERC20 tokens on the
+            Ethereum blockchain. The protocol is intended to serve as an open standard and common building
+            block, driving interoperability among decentralized applications (dApps) that incorporate exchange
+            functionality. Trades are executed by a system of Ethereum smart contracts that are publicly acces-
+            sible, free to use and that any dApp can hook into. DApps built on top of the protocol can access
+            public liquidity pools or create their own liquidity pool and charge transaction fees on the resulting
+            volume. The protocol is unopinionated: it does not impose costs on its users or arbitrarily extract
+            value from one group of users to beneﬁt another. Decentralized governance is used to continuously
+            and securely integrate updates into the base protocol without disrupting dApps or end users.
+                                   1

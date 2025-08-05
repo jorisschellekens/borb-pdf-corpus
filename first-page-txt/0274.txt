@@ -1,0 +1,13 @@
+    HELP CENTER – INVOICES
+    It’s a simple process to keep track of invoices and expenses
+    SECTIONS
+    1. View Invoices
+    1. Check Account Status
+    1. VIEW INVOICES
+    To view the invoices for your current customer location: 
+    A.  Hover your mouse over My Business at the top of any page.
+    B. Click on Invoices.
+                             A
+                               B
+    C.  Under View Invoice click Get Details.
+                 C

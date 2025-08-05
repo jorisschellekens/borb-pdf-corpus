@@ -1,0 +1,28 @@
+                                                                  COMMERCIAL INVOICE
+   SHIPPER                                                                             SHIP TO
+   Company Name                                                                        Company Name
+   Contact name                                                                        Contact name
+   Street address                                                                      Street address
+   City                                                Prov                            City                                                State/ Prov
+   Postal code                                                                         Postal/Zip code
+   Country                                                                             Country
+   Telephone No                                                                        Telephone No
+   Email Address                                                                       Email Address
+                                                                                       Tax ID#
+   Sold To                                                                             Bill of Lading Number
+   Company Name                                                                        Bill Clearances Charges to
+   Contact name                                                                        Shipper (DDP)             Ship to (DDU)                    Sold to (DDU)
+   Street address
+   City                                         State/ Prov                            Reason for Export
+   Postal/Zip code
+   Country                                                                             BROKER FOR US GROUND CLEARANCES ONLY
+   Telephone No
+   Email Address
+                                                                                                            **UPS Brokerage is the default broker for US Ground
+   Tax ID#
+      Units        Unit of                         Descriptions of goods                                 Country of origin            NAFTA Y/N    Unit Value   Total Value
+                  Measure
+                                                                                                                                     Invoice Total
+                                                                                                                                     CURRENCY
+   I hereby certify that the information on this invoice is true and current to the best of my knowledge                             USD                CAD
+   Signature                                                                                                            Date

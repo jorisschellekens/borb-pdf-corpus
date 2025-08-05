@@ -1,0 +1,39 @@
+                                                   Tax Invoice Checklist 
+                 A Tax invoice is required to enable the ANU to claim back the GST on purchases from the 
+                 Australian Taxation Office.  Tax Invoice requirements are based around the value of the 
+                 invoice: 
+                 Under $75 (excld GST)           Over $75 to $1000 (incl GST)            Over $1000 (incl GST) 
+             No tax invoice required,           The Supplier’s ABN                 The Suppliers ABN 
+                   just need to be able to 
+                   substantiate payment (eg.     GST Inclusive Price                GST Inclusive Price 
+                   credit card statement, 
+                   receipt) and for there to     Clearly show the words             Clearly show the words  
+                   be a reasonable                     “Tax Invoice”                        “Tax Invoice” 
+                   assumption that GST was 
+                   included in the price 
+                                                 Issue date of the Tax              Issue date of the Tax 
+                                                       Invoice                              invoice 
+                                                 Name of the supplier               Name of the supplier 
+                                                 Brief description of               Brief description of 
+                                                       supplies                             supplies 
+                                                                         th                                   th
+                                                 If the GST is 1/11  of the         If the GST is 1/11  of the 
+                                                       total price, either indicate         total price, either indicate 
+                                                       total includes GST or                total includes GST or 
+                                                       show the amount of GST               show the amount of GST 
+                                                                                     The ABN of the recipient 
+                                                                                            or the address of the 
+                                                                                            recipient 
+                                                                                     The name of the recipient 
+                                                                                            (where the recipient is the 
+                                                                                            ANU, the name on the tax 
+                                                                                            invoice should be “The 
+                                                                                            Australian National 
+                                                                                            University”, and not a 
+                                                                                            Business Area name (eg 
+                                                                                            “RSPAS”)  
+                 NOTE: For a document to be a valid tax invoice where the consideration is expressed in a foreign 
+                 currency it must 
+                              -   include the GST payable in Australian currency; or 
+                              -   provide sufficient information to the recipient to work out the GST payable on 
+                                  the supply in Australian currency (eg. quote an exchange rate) 

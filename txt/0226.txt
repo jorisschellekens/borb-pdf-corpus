@@ -1,0 +1,443 @@
+                             ImageStyleTransfer Using Convolutional Neural Networks
+                                                                 LeonA.Gatys
+                                                                                              ¨
+                                Centre for Integrative Neuroscience, University of Tubingen, Germany
+                                                                                              ¨
+                                Bernstein Center for Computational Neuroscience, Tubingen, Germany
+                                                                                                       ¨
+                       Graduate School of Neural Information Processing, University of Tubingen, Germany
+                                                          leon.gatys@bethgelab.org
+                                                              Alexander S. Ecker
+                                                                                              ¨
+                                Centre for Integrative Neuroscience, University of Tubingen, Germany
+                                                                                              ¨
+                                Bernstein Center for Computational Neuroscience, Tubingen, Germany
+                                                                                             ¨
+                                 MaxPlanckInstitute for Biological Cybernetics, Tubingen, Germany
+                                             Baylor College of Medicine, Houston, TX, USA
+                                                                Matthias Bethge
+                                                                                              ¨
+                                Centre for Integrative Neuroscience, University of Tubingen, Germany
+                                                                                              ¨
+                                Bernstein Center for Computational Neuroscience, Tubingen, Germany
+                                                                                             ¨
+                                 MaxPlanckInstitute for Biological Cybernetics, Tubingen, Germany
+                                     Abstract                                there exist a large range of powerful non-parametric algo-
+                                                                             rithms that can synthesise photorealistic natural textures by
+                Rendering the semantic content of an image in different      resamplingthepixelsofagivensourcetexture[7,30,8,20].
+             styles is a difﬁcult image processing task. Arguably, a major   Mostprevioustexturetransferalgorithmsrelyonthesenon-
+             limiting factor for previous approaches has been the lack of    parametric methods for texture synthesis while using differ-
+             image representations that explicitly represent semantic in-    ent ways to preserve the structure of the target image. For
+             formation and, thus, allow to separate image content from       instance, Efros and Freeman introduce a correspondence
+             style. Here we use image representations derived from Con-      map that includes features of the target image such as im-
+             volutional Neural Networks optimised for object recogni-        age intensity to constrain the texture synthesis procedure
+             tion, which make high level image information explicit. We      [8]. Hertzman et al. use image analogies to transfer the tex-
+             introduceANeuralAlgorithmofArtisticStylethatcansep-             ture from an already stylised image onto a target image[13].
+             arate and recombine the image content and style of natural      Ashikhmin focuses on transferring the high-frequency tex-
+             images. The algorithm allows us to produce new images of        ture information while preserving the coarse scale of the
+             high perceptual quality that combine the content of an ar-      target image [1]. Lee et al. improve this algorithm by addi-
+             bitrary photograph with the appearance of numerous well-        tionally informing the texture transfer with edge orientation
+             known artworks. Our results provide new insights into the       information [22].
+             deep image representations learned by Convolutional Neu-
+             ral Networks and demonstrate their potential for high level        Although these algorithms achieve remarkable results,
+             image synthesis and manipulation.                               they all suffer from the same fundamental limitation: they
+                                                                             use only low-level image features of the target image to in-
+                                                                             form the texture transfer. Ideally, however, a style transfer
+             1. Introduction                                                 algorithm should be able to extract the semantic image con-
+                                                                             tent from the target image (e.g. the objects and the general
+                Transferring the style from one image onto another can       scenery)andtheninformatexturetransferproceduretoren-
+             beconsideredaproblemoftexturetransfer. Intexturetrans-          der the semantic content of the target image in the style of
+             fer the goal is to synthesise a texture from a source image     the source image. Therefore, a fundamental prerequisite is
+             while constraining the texture synthesis in order to preserve   toﬁndimagerepresentationsthatindependentlymodelvari-
+             the semantic content of a target image. For texture synthesis   ations in the semantic image content and the style in which
+                                                                         1
+                                                                          2414
+                                    a                   b                   c                    d                   e
+                  Style Reconstructions
+                                                    Style
+                                                    Representations
+                   Input image
+                                           Content
+                                        Representations
+                                                                                                             Convolutional Neural Network
+                                    a                   b                   c                    d                   e
+                Content Reconstructions
+             Figure 1. Image representations in a Convolutional Neural Network (CNN). A given input image is represented as a set of ﬁltered images
+             at each processing stage in the CNN. While the number of different ﬁlters increases along the processing hierarchy, the size of the ﬁltered
+             imagesis reduced by some downsampling mechanism (e.g. max-pooling) leading to a decrease in the total number of units per layer of the
+             network. ContentReconstructions. WecanvisualisetheinformationatdifferentprocessingstagesintheCNNbyreconstructingtheinput
+             image from only knowing the network’s responses in a particular layer. We reconstruct the input image from from layers ‘conv1 2’ (a),
+             ‘conv2 2’(b), ‘conv3 2’(c), ‘conv4 2’(d)and‘conv5 2’(e)oftheoriginalVGG-Network. Weﬁndthatreconstructionfromlowerlayersis
+             almostperfect(a–c). Inhigherlayersofthenetwork,detailedpixelinformationislostwhilethehigh-levelcontentoftheimageispreserved
+             (d,e). Style Reconstructions. On top of the original CNN activations we use a feature space that captures the texture information of an
+             input image. The style representation computes correlations between the different features in different layers of the CNN. We reconstruct
+             the style of the input image from a style representation built on different subsets of CNN layers ( ‘conv1 1’ (a), ‘conv1 1’ and ‘conv2 1’
+             (b), ‘conv1 1’, ‘conv2 1’ and ‘conv3 1’ (c), ‘conv1 1’, ‘conv2 1’, ‘conv3 1’ and ‘conv4 1’ (d), ‘conv1 1’, ‘conv2 1’, ‘conv3 1’, ‘conv4 1’
+             and ‘conv5 1’ (e). This creates images that match the style of a given image on an increasing scale while discarding information of the
+             global arrangement of the scene.
+             it is presented. Such factorised representations were pre-      trained with sufﬁcient labeled data on speciﬁc tasks such
+             viously achieved only for controlled subsets of natural im-     as object recognition learn to extract high-level image con-
+             ages such as faces under different illumination conditions      tent in generic feature representations that generalise across
+             and characters in different font styles [29] or handwritten     datasets [6] and even to other visual information processing
+             digits and house numbers [17].                                  tasks [19, 4, 2, 9, 23], including texture recognition [5] and
+                To generally separate content from style in natural im-      artistic style classiﬁcation [15].
+             agesisstill an extremely difﬁcult problem. However, the re-        In this work we show how the generic feature represen-
+             cent advance of Deep Convolutional Neural Networks [18]         tations learned by high-performing Convolutional Neural
+             has produced powerful computer vision systems that learn        Networks can be used to independently process and ma-
+             to extract high-level semantic information from natural im-     nipulate the content and the style of natural images. We
+             ages. It was shown that Convolutional Neural Networks           introduce A Neural Algorithm of Artistic Style, a new algo-
+                                                                          2415
+              rithm to perform image style transfer. Conceptually, it is a         respective feature representation in layer l. We then deﬁne
+              texture transfer algorithm that constrains a texture synthe-         the squared-error loss between the two feature representa-
+              sis method by feature representations from state-of-the-art          tions
+              Convolutional Neural Networks. Since the texture model is
+                                                                                                                  1 X               
+              also based on deep image representations, the style transfer                   L        (p~; ~x; l) =       Fl −Pl 2 .           (1)
+                                                                                               content            2         ij    ij
+              methodelegantlyreducestoanoptimisationproblemwithin                                                    i;j
+              a single neural network. New images are generated by per-
+              formingapre-imagesearchtomatchfeaturerepresentations                 The derivative of this loss with respect to the activations in
+              of example images. This general approach has been used               layer l equals
+              before in the context of texture synthesis [12, 25, 10] and to                 ∂Lcontent     ( Fl−Pl          if Fl > 0
+              improve the understanding of deep image representations                                   =                ij      ij            (2)
+              [27, 24]. In fact, our style transfer algorithm combines a                       ∂Fl           0               if Fl < 0 ,
+                                                                                                   ij                            ij
+              parametric texture model based on Convolutional Neural
+              Networks [10] with a method to invert their image repre-             from which the gradient with respect to the image ~x can
+              sentations [24].                                                     be computed using standard error back-propagation (Fig 2,
+                                                                                   right). Thus we can change the initially random image ~x
+              2. Deep image representations                                        until it generates the same response in a certain layer of the
+                                                                                   Convolutional Neural Network as the original image p~.
+                 The results presented below were generated on the ba-                WhenConvolutionalNeuralNetworksaretrainedonob-
+              sis of the VGG network [28], which was trained to perform            ject recognition, they develop a representation of the image
+              object recognition and localisation [26] and is described ex-        that makes object information increasingly explicit along
+              tensively in the original work [28]. We used the feature                                         10]. Therefore, along the process-
+                                                                                   the processing hierarchy [
+              space provided by a normalised version of the 16 convo-              inghierarchyofthenetwork,theinputimageistransformed
+              lutional and 5 pooling layers of the 19-layer VGG network.           into representations that are increasingly sensitive to the ac-
+              Wenormalizedthenetworkbyscalingtheweightssuchthat                    tual content of the image, but become relatively invariant to
+              the mean activation of each convolutional ﬁlter over images          its precise appearance. Thus, higher layers in the network
+              and positions is equal to one. Such re-scaling can be done           capture the high-level content in terms of objects and their
+              for the VGG network without changing its output, because             arrangement in the input image but do not constrain the ex-
+              it contains only rectifying linear activation functions and no       act pixel values of the reconstruction very much (Fig 1, con-
+              normalization or pooling over feature maps. We do not use            tent reconstructions d,e). In contrast, reconstructions from
+              any of the fully connected layers. The model is publicly             the lower layers simply reproduce the exact pixel values of
+              available and can be explored in the caffe-framework [14].           the original image (Fig 1, content reconstructions a–c). We
+              For image synthesis we found that replacing the maximum              therefore refer to the feature responses in higher layers of
+              pooling operation by average pooling yields slightly more            the network as the content representation.
+              appealingresults, whichiswhytheimagesshownweregen-
+              erated with average pooling.                                         2.2. Style representation
+              2.1. Content representation                                             Toobtain a representation of the style of an input image,
+                                                                                   weuseafeaturespace designed to capture texture informa-
+                 Generally each layer in the network deﬁnes a non-linear           tion [10]. This feature space can be built on top of the ﬁlter
+              ﬁlter bank whose complexity increases with the position of           responses in any layer of the network. It consists of the cor-
+              the layer in the network. Hence a given input image ~x is            relations between the different ﬁlter responses, where the
+              encodedineachlayeroftheConvolutionalNeuralNetwork                    expectation is taken over the spatial extent of the feature
+              by the ﬁlter responses to that image. A layer with Nl dis-           maps. ThesefeaturecorrelationsaregivenbytheGramma-
+              tinct ﬁlters has Nl feature maps each of size Ml, where Ml           trix Gl ∈ RNl×Nl, where Gl is the inner product between
+              is the height times the width of the feature map. So the re-                                        ij
+                                                                l     N×M          the vectorised feature maps i and j in layer l:
+              sponses in a layer l can be stored in a matrix F ∈ R l        l
+              where Fl is the activation of the ith ﬁlter at position j in                                 l    X l l
+                       ij                                                                                G =         F F :                     (3)
+              layer l.                                                                                     ij         ik  jk
+                                                                                                                  k
+                 To visualise the image information that is encoded at
+              different layers of the hierarchy one can perform gradient           Byincluding the feature correlations of multiple layers, we
+              descent on a white noise image to ﬁnd another image that             obtain a stationary, multi-scale representation of the input
+              matches the feature responses of the original image (Fig 1,          image, which captures its texture information but not the
+              content reconstructions) [24]. Let p~ and ~x be the original         global arrangement. Again, we can visualise the informa-
+              image and the image that is generated, and Pl and Fl their           tion captured by these style feature spaces built on different
+                                                                                2416
+                            512
+                           1...        4                                                                                                                4
+                                conv5_32                                                                                                         conv5_32
+                                      1                                                                                                                1
+                                    pool4                                                                                                           pool4
+                         512
+                        1...          4                                                                                                                4
+                               conv4_ 32                                                                                                        conv4_ 32
+                                     1                                                                                                                1
+                                    pool3                                                                                                           pool3
+                       256
+                     1...            4                                                                                                               4
+                                   3                                                                                                          conv3_3
+                             conv3_ 2                                                                                                               1 2
+                                   1
+                                    pool2                                                                                                           pool2
+                    128
+                   1...   conv2_ 2                                                                                                         conv2_ 2
+                                 1                                                                                                                1
+                                    pool1                                                                                                           pool1
+                  64
+                 1...
+                        conv1_ 2                                                                                                         conv1_ 2
+                               1                                                                                                                1
+                # feature           input                                                           Gradient                                        input
+                 maps                                                                               descent
+                Figure2.Styletransfer algorithm. First content and style features are extracted and stored. The style image~a is passed through the network
+                and its style representation Al on all layers included are computed and stored (left). The content image p~ is passed through the network
+                and the content representation Pl in one layer is stored (right). Then a random white noise image ~x is passed through the network and its
+                style features Gl and content features Fl are computed. On each layer included in the style representation, the element-wise mean squared
+                difference between Gl and Al is computed to give the style loss L                 (left). Also the mean squared difference between Fl and Pl is
+                                                                                            style
+                computedtogivethecontentlossLcontent (right). The total loss Ltotal is then a linear combination between the content and the style loss.
+                Its derivative with respect to the pixel values can be computed using error back-propagation (middle). This gradient is used to iteratively
+                update the image ~x until it simultaneously matches the style features of the style image ~a and the content features of the content image p~
+                (middle, bottom).
+                layers of the network by constructing an image that matches                     our results). The derivative of El with respect to the activa-
+                the style representation of a given input image (Fig 1, style                   tions in layer l can be computed analytically:
+                reconstructions). This is done by using gradient descent
+                                                                                                             ( 1   l T  l                   l           l
+                from a white noise image to minimise the mean-squared                              ∂E             2  2   (F )      G −A              if F    >0
+                                                                                                       l       N M                              ji        ij
+                                                                                                         =       l   l                                               (6)
+                distance between the entries of the Gram matrices from the                        ∂Fl          0                                     if Fl < 0 .
+                                                                                                      ij                                                  ij
+                original image and the Gram matrices of the image to be
+                generated [10, 25].                                                             The gradients of El with respect to the pixel values ~x can
+                    Let ~a and ~x be the original image and the image that is                   be readily computed using standard error back-propagation
+                generated, and Al and Gl their respective style representa-                     (Fig 2, left).
+                tion in layer l. The contribution of layer l to the total loss is
+                then                                                                            2.3. Style transfer
+                                            1      X  l             l 2
+                                El = 4N2M2               Gij −Aij                    (4)            Totransfer the style of an artwork~a onto a photograph p~
+                                            l   l   i;j                                         wesynthesise a new image that simultaneously matches the
+                and the total style loss is                                                     content representation of p~ and the style representation of~a
+                                                                                                (Fig 2). Thus we jointly minimise the distance of the fea-
+                                                         L
+                                     L      (~a; ~x) = Xw E ;                        (5)        ture representations of a white noise image from the content
+                                       style                   l  l                             representation of the photograph in one layer and the style
+                                                        l=0                                     representation of the painting deﬁned on a number of layers
+                where wl are weighting factors of the contribution of each                      of the Convolutional Neural Network. The loss function we
+                layer to the total loss (see below for speciﬁc values of wl in                  minimise is
+                                                                                            2417
+         A                                     B
+         C                                     D
+         E                                     F
+        Figure 3. Images that combine the content of a photograph with the style of several well-known artworks. The images were created by
+        ﬁnding an image that simultaneously matches the content representation of the photograph and the style representation of the artwork.
+                                      ¨
+        The original photograph depicting the Neckarfront in Tubingen, Germany, is shown in A (Photo: Andreas Praefcke). The painting that
+        provided the style for the respective generated image is shown in the bottom left corner of each panel. B The Shipwreck of the Minotaur
+        by J.M.W. Turner, 1805. C The Starry Night by Vincent van Gogh, 1889. D Der Schrei by Edvard Munch, 1893. E Femme nue assise by
+        Pablo Picasso, 1910. F Composition VII by Wassily Kandinsky, 1913.
+                                            2418
+                                                                                                10-4                             10-3
+                 Ltotal(p~;~a;~x) = αLcontent(p~;~x) + βLstyle(~a;~x)    (7)
+              where α and β are the weighting factors for content and
+              style reconstruction, respectively. The gradient with respect
+              to the pixel values ∂Ltotal can be used as input for some nu-
+                                    ∂~x
+              merical optimisation strategy. Here we use L-BFGS [32],
+              which we found to work best for image synthesis. To ex-                           10-2                             10-1
+              tract image information on comparable scales, we always
+              resized the style image to the same size as the content im-
+              age before computing its feature representations. Finally,
+              note that in difference to [24] we do not regularise our syn-
+              thesis results with image priors. It could be argued, though,
+              that the texture features from lower layers in the network
+              act as a speciﬁc image prior for the style image. Addition-
+              ally some differences in the image synthesis are expected           Figure 4. Relative weighting of matching content and style of the
+              due to the different network architecture and optimisation          respective source images. The ratio α=β between matching the
+              algorithm we use.                                                   content and matching the style increases from top left to bottom
+                                                                                  right. A high emphasis on the style effectively produces a tex-
+              3. Results                                                          turised version of the style image (top left). A high emphasis on
+                                                                                  the content produces an image with only little stylisation (bottom
+                 Thekeyﬁndingofthispaperisthattherepresentationsof                right). In practice one can smoothly interpolate between the two
+              content and style in the Convolutional Neural Network are           extremes.
+              well separable. That is, we can manipulate both representa-
+              tions independently to produce new, perceptually meaning-
+              ful images. To demonstrate this ﬁnding, we generate im-             emphasis on content, one can clearly identify the photo-
+              ages that mix the content and style representation from two         graph, but the style of the painting is not as well-matched
+              different source images. In particular, we match the con-           (α=β = 1×10−1, Fig 4, bottom right). For a speciﬁc pair
+              tent representation of a photograph depicting the riverfront        of content and style images one can adjust the trade-off be-
+                                         ¨                                        tweencontentandstyletocreatevisuallyappealingimages.
+              of the Neckar river in Tubingen, Germany and the style
+              representations of several well-known artworks taken from           3.2. Effect of different layers of the Convolutional
+              different periods of art (Fig 3). The images shown in Fig                  Neural Network
+              3 were synthesised by matching the content representation
+              on layer ‘conv4 2’ and the style representation on layers              Another important factor in the image synthesis process
+              ‘conv1 1’, ‘conv2 1’, ‘conv3 1’, ‘conv4 1’ and ‘conv5 1’            is the choice of layers to match the content and style repre-
+              (wl = 1=5 in those layers, wl = 0 in all other layers) . The        sentation on. As outlined above, the style representation is
+                                            −3                    −4
+              ratio α=β was either 1 × 10      (Fig 3 B), 8 × 10      (Fig 3      a multi-scale representation that includes multiple layers of
+                         −3                       −4
+              C), 5 × 10    (Fig 3 D), or 5 × 10     (Fig 3 E,F).                 the neural network. The number and position of these lay-
+              3.1. Trade­off between content and style matching                   ers determines the local scale on which the style is matched,
+                                                                                  leading to different visual experiences (Fig 1, style recon-
+                 Ofcourse, image content and style cannot be completely           structions). We ﬁnd that matching the style representations
+              disentangled. When synthesising an image that combines              up to higher layers in the network preserves local images
+              the content of one image with the style of another, there           structures an increasingly large scale, leading to a smoother
+              usually does not exist an image that perfectly matches both         and more continuous visual experience. Thus, the visually
+              constraints at the same time. However, since the loss func-         most appealing images are usually created by matching the
+              tion we minimise during image synthesis is a linear com-            style representation up to high layers in the network, which
+              bination between the loss functions for content and style           is why for all images shown we match the style features
+              respectively, we can smoothly regulate the emphasis on ei-          in layers ‘conv1 1’, ‘conv2 1’, ‘conv3 1’, ‘conv4 1’ and
+              ther reconstructing the content or the style (Fig 4). A strong      ‘conv5 1’ of the network.
+              emphasis on style will result in images that match the ap-             To analyse the effect of using different layers to match
+              pearance of the artwork, effectively giving a texturised ver-       the content features, we present a style transfer result ob-
+              sion of it, but show hardly any of the photograph’s content         tained by stylising a photograph with the same artwork and
+                               −4                                                                                               −3
+              (α=β = 1 × 10       , Fig 4, top left). When placing strong         parameter conﬁguration (α=β = 1 × 10             ), but in one
+                                                                               2419
+                               Content Image                                           A                                B
+                                                                                       C
+                                 Conv2_2
+                                 Conv4_2
+                                                                                       Figure 6. Initialisation of the gradient descent. A Initialised from
+                                                                                       the content image. B Initialised from the style image. C Four
+                                                                                       samples of images initialised from different white noise images.
+                                                                                       For all images the ratio α=β was equal to 1 × 10−3
+               Figure 5. The effect of matching the content representation in
+               different layers of the network. Matching the content on layer
+               ‘conv2 2’ preserves much of the ﬁne structure of the original pho-      3.3. Initialisation of gradient descent
+               tograph and the synthesised image looks as if the texture of the
+               painting is simply blended over the photograph (middle). When              We have initialised all images shown so far with white
+               matching the content on layer ‘conv4 2’ the texture of the paint-       noise. However, one could also initialise the image synthe-
+               ing and the content of the photograph merge together such that the      sis with either the content image or the style image. We
+               content of the photograph is displayed in the style of the painting
+               (bottom). Bothimagesweregeneratedwiththesamechoiceofpa-                 explored these two alternatives (Fig 6 A, B): although they
+               rameters (α=β = 1×10−3). The painting that served as the style          bias the ﬁnal image somewhat towards the spatial structure
+               imageis shown in the bottom left corner and is named Jesuiten III       of the initialisation, the different initialisations do not seem
+               byLyonelFeininger, 1915.                                                to have a strong effect on the outcome of the synthesis pro-
+                                                                                       cedure. It should be noted that only initialising with noise
+                                                                                       allowstogenerateanarbitrarynumberofnewimages(Fig6
+               matching the content features on layer ‘conv2 2’ and in the             C). Initialising with a ﬁxed image always deterministically
+               other on layer ‘conv4 2’ (Fig 5). When matching the con-                leads to the same outcome (up to stochasticity in the gradi-
+               tent on a lower layer of the network, the algorithm matches             ent descent procedure).
+               much of the detailed pixel information in the photograph
+               and the generated image appears as if the texture of the art-           3.4. Photorealistic style transfer
+               work is merely blended over the photograph (Fig 5, mid-
+               dle). In contrast, when matching the content features on a                 Thusfarthefocusofthispaperwasonartisticstyletrans-
+               higher layer of the network, detailed pixel information of              fer. In general though, the algorithm can transfer the style
+               the photograph is not as strongly constraint and the texture            between arbitrary images. As an example we transfer the
+               of the artwork and the content of the photograph are prop-              style of a photograph of New York by night onto an image
+               erly merged. That is, the ﬁne structure of the image, for               of London in daytime (Fig 7). Although photorealism is
+               example the edges and colour map, is altered such that it               not fully preserved, the synthesised image resembles much
+               agrees with the style of the artwork while displaying the               of the colours and lightning of the style image and to some
+               content of the photograph (Fig 5, bottom).                              extent displays an image of London by night.
+                                                                                   2420
+              4. Discussion                                                                 Style Image                   Content Image
+                 Here we demonstrate how to use feature representations
+              from high-performing Convolutional Neural Networks to
+              transfer image style between arbitrary images. While we
+              are able to show results of high perceptual quality, there are
+              still some technical limitations to the algorithm.
+                 Probably the most limiting factor is the resolution of the
+              synthesised images. Both, the dimensionality of the op-
+              timisation problem as well as the number of units in the
+              Convolutional Neural Network grow linearly with the num-
+              ber of pixels.  Therefore the speed of the synthesis pro-
+              cedure depends heavily on image resolution. The images
+              presented in this paper were synthesised in a resolution of
+              about 512 × 512 pixels and the synthesis procedure could
+              take up to an hour on a Nvidia K40 GPU (depending on the
+              exact image size and the stopping criteria for the gradient
+              descent). While this performance currently prohibits online
+              and interactive applications of our style transfer algorithm,
+              it is likely that future improvements in deep learning will        Figure7.Photorealisticstyletransfer. Thestyle is transferred from
+              also increase the performance of this method.                      a photograph showing New York by night onto a picture showing
+                 Another issue is that synthesised images are sometimes          Londonbyday. Theimagesynthesiswasinitialised from the con-
+                                                                                 tent image and the ratio α=β was equal to 1 × 10−2
+              subject to some low-level noise. While this is less of an is-
+              sue in the artistic style transfer, the problem becomes more
+              apparent when both, content and style images, are pho-
+              tographs and the photorealism of the synthesised image is          agreed upon.
+              affected. However, the noise is very characteristic and ap-           Nevertheless, we ﬁnd it truly fascinating that a neural
+              pears to resemble the ﬁlters of units in the network. Thus         system, which is trained to perform one of the core com-
+              it could be possible to construct efﬁcient de-noising tech-        putational tasks of biological vision, automatically learns
+              niquestopost-processtheimagesaftertheoptimisationpro-              image representations that allow – at least to some extent
+              cedure.                                                            – the separation of image content from style. One expla-
+                 Artistic stylisation of images is traditionally studied in      nation may be that when learning object recognition, the
+              computergraphicsunderthelabelofnon-photorealisticren-              network has to become invariant to all image variation that
+              dering. Apart from the work on texture transfer, common            preserves object identity. Representations that factorise the
+              approaches are conceptually quite different to our work in         variation in the content of an image and the variation in
+              that they give specialised algorithms to render a source im-       its appearance would be extremely practical for this task.
+              age in one speciﬁc style. For a recent review of the ﬁeld we       In light of the striking similarities between performance-
+              refer the reader to [                                              optimised artiﬁcial neural networks and biological vision
+                                 21].
+                                                                                  11, 31, 3, 19, 16], it is thus tempting to speculate that the
+                 The separation of image content from style is not nec-          [
+              essarily a well deﬁned problem. This is mostly because it          humanability to abstract content from style – and therefore
+              is not clear what exactly deﬁnes the style of an image. It         ourabilitytocreateandenjoyart–mightalsobeprimarilya
+              might be the brush strokes in a painting, the colour map,          preeminent signature of the powerful inference capabilities
+              certain dominant forms and shapes, but also the composi-           of our visual system.
+              tion of a scene and the choice of the subject of the image –
+              and probably it is a mixture of all of them and many more.         References
+              Therefore, it is generally not clear if image content and style
+              can be completely separated at all – and if so, how. For ex-        [1] N.Ashikhmin. Fasttexturetransfer. IEEE ComputerGraph-
+              ample it is not possible to render an image in the style of             ics and Applications, 23(4):38–43, July 2003. 1
+              van Gogh’s “Starry Night” without having image structures           [2] M. Berning, K. M. Boergens, and M. Helmstaedter. SegEM:
+              that resemble the stars. In our work we consider style trans-           Efﬁcient Image Analysis for High-Resolution Connec-
+              fer to be successful if the generated image ‘looks like’ the            tomics. Neuron, 87(6):1193–1206, Sept. 2015. 2
+              style image but shows the objects and scenery of the con-           [3] C. F. Cadieu, H. Hong, D. L. K. Yamins, N. Pinto, D. Ardila,
+              tent image. We are fully aware though that this evaluation              E. A. Solomon, N. J. Majaj, and J. J. DiCarlo. Deep Neu-
+              criterion is neither mathematically precise nor universally             ral Networks Rival the Representation of Primate IT Cor-
+                                                                              2421
+                    tex for Core Visual Object Recognition. PLoS Comput Biol,             Lawrence, and K. Q. Weinberger, editors, Advances in Neu-
+                    10(12):e1003963, Dec. 2014. 8                                         ral Information Processing Systems 27, pages 3581–3589.
+               [4] L.-C. Chen, G. Papandreou, I. Kokkinos, K. Murphy,                     Curran Associates, Inc., 2014. 2
+                    and A. L. Yuille.     Semantic Image Segmentation with           [18] A. Krizhevsky, I. Sutskever, and G. E. Hinton. Imagenet
+                    Deep Convolutional Nets and Fully Connected CRFs.                     classiﬁcation with deep convolutional neural networks. In
+                    arXiv:1412.7062 [cs], Dec. 2014. arXiv: 1412.7062. 2                  Advances in neural information processing systems, pages
+               [5] M. Cimpoi, S. Maji, and A. Vedaldi. Deep ﬁlter banks for               1097–1105, 2012. 2
+                                                                                               ¨
+                    texture recognition and segmentation. In Proceedings of the      [19] M.Kummerer,L.Theis,andM.Bethge.DeepGazeI:Boost-
+                    IEEEConference on Computer Vision and Pattern Recogni-                ing Saliency Prediction with Feature Maps Trained on Ima-
+                    tion, pages 3828–3836, 2015. 2                                        geNet. In ICLR Workshop, 2015. 2, 8
+                                                                                                              ¨
+               [6] J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang,             [20] V. Kwatra, A. Schodl, I. Essa, G. Turk, and A. Bobick.
+                    E. Tzeng, and T. Darrell.     DeCAF: A Deep Convolu-                  Graphcut textures: image and video synthesis using graph
+                    tional Activation Feature for Generic Visual Recognition.             cuts. In ACM Transactions on Graphics (ToG), volume 22,
+                    arXiv:1310.1531 [cs], Oct. 2013. arXiv: 1310.1531. 2                  pages 277–286. ACM, 2003. 1
+               [7] A. Efros and T. K. Leung.       Texture synthesis by non-         [21] J. E. Kyprianidis, J. Collomosse, T. Wang, and T. Isenberg.
+                    parametric sampling. In Computer Vision, 1999. The Pro-               State of the ”Art”: A Taxonomy of Artistic Stylization Tech-
+                    ceedings of the Seventh IEEE International Conference on,             niques for Images and Video. Visualization and Computer
+                    volume 2, pages 1033–1038. IEEE, 1999. 1                              Graphics, IEEE Transactions on, 19(5):866–885, 2013. 8
+               [8] A. A. Efros and W. T. Freeman. Image quilting for tex-            [22] H. Lee, S. Seo, S. Ryoo, and K. Yoon. Directional Texture
+                    ture synthesis and transfer. In Proceedings of the 28th an-           Transfer. In Proceedings of the 8th International Symposium
+                    nual conference on Computer graphics and interactive tech-            onNon-PhotorealisticAnimationandRendering,NPAR’10,
+                    niques, pages 341–346. ACM, 2001. 1                                   pages 43–48, New York, NY, USA, 2010. ACM. 1
+               [9] D. Eigen and R. Fergus. Predicting Depth, Surface Normals         [23] J. Long, E. Shelhamer, and T. Darrell. Fully Convolutional
+                    and Semantic Labels With a Common Multi-Scale Convolu-                Networks for Semantic Segmentation.      pages 3431–3440,
+                    tional Architecture. pages 2650–2658, 2015. 2                         2015. 2
+              [10] L. A. Gatys, A. S. Ecker, and M. Bethge. Texture Synthe-          [24] A. Mahendran and A. Vedaldi. Understanding Deep Image
+                    sis Using Convolutional Neural Networks. In Advances in               Representations by Inverting Them. arXiv:1412.0035 [cs],
+                    Neural Information Processing Systems 28, 2015. 3, 4                  Nov. 2014. arXiv: 1412.0035. 3, 6
+                                                                                     [25] J. Portilla and E. P. Simoncelli. A Parametric Texture Model
+                         ¨  ¨
+              [11] U. Guc¸lu and M. A. J. v. Gerven. Deep Neural Networks                 Based on Joint Statistics of Complex Wavelet Coefﬁcients.
+                    Reveal a Gradient in the Complexity of Neural Represen-               International Journal of Computer Vision, 40(1):49–70, Oct.
+                    tations across the Ventral Stream.  The Journal of Neuro-             2000. 3, 4
+                    science, 35(27):10005–10014, July 2015. 8                        [26] O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh,
+              [12] D. J. Heeger and J. R. Bergen. Pyramid-based Texture Anal-             S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein,
+                    ysis/Synthesis. In Proceedings of the 22Nd Annual Con-                A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual
+                    ference on Computer Graphics and Interactive Techniques,              Recognition Challenge. arXiv:1409.0575 [cs], Sept. 2014.
+                    SIGGRAPH ’95, pages 229–238, New York, NY, USA,                       arXiv: 1409.0575. 3
+                    1995. ACM. 3                                                     [27] K. Simonyan, A. Vedaldi, and A. Zisserman. Deep Inside
+              [13] A.Hertzmann,C.E.Jacobs,N.Oliver,B.Curless,andD.H.                      Convolutional Networks: Visualising Image Classiﬁcation
+                    Salesin. Image analogies. In Proceedings of the 28th an-              Models and Saliency Maps.      arXiv:1312.6034 [cs], Dec.
+                    nual conference on Computer graphics and interactive tech-            2013. 3
+                    niques, pages 327–340. ACM, 2001. 1                              [28] K. Simonyan and A. Zisserman.            Very Deep Con-
+              [14] Y.Jia,E.Shelhamer,J.Donahue,S.Karayev,J.Long,R.Gir-                    volutional Networks for Large-Scale Image Recognition.
+                    shick, S. Guadarrama, and T. Darrell. Caffe: Convolutional            arXiv:1409.1556 [cs], Sept. 2014. arXiv: 1409.1556. 3
+                    architecture for fast feature embedding. In Proceedings of       [29] J. B. Tenenbaum and W. T. Freeman.         Separating style
+                    the ACM International Conference on Multimedia, pages                 and content with bilinear models.     Neural computation,
+                    675–678. ACM, 2014. 3                                                 12(6):1247–1283, 2000. 2
+              [15] S.Karayev,M.Trentacoste,H.Han,A.Agarwala,T.Darrell,               [30] L. Wei and M. Levoy. Fast texture synthesis using tree-
+                    A. Hertzmann, and H. Winnemoeller. Recognizing image                  structured vector quantization. In Proceedings of the 27th
+                    style. arXiv preprint arXiv:1311.3715, 2013. 2                        annual conference on Computer graphics and interactive
+              [16] S.-M. Khaligh-Razavi and N. Kriegeskorte.      Deep Super-             techniques, pages 479–488. ACM Press/Addison-Wesley
+                    vised, but Not Unsupervised, Models May Explain IT Cor-               Publishing Co., 2000. 1
+                    tical Representation. PLoS Comput Biol, 10(11):e1003915,         [31] D. L. K. Yamins, H. Hong, C. F. Cadieu, E. A. Solomon,
+                    Nov. 2014. 8                                                          D.Seibert, and J. J. DiCarlo. Performance-optimized hierar-
+              [17] D. P. Kingma, S. Mohamed, D. Jimenez Rezende, and                      chical models predict neural responses in higher visual cor-
+                    M. Welling. Semi-supervised Learning with Deep Genera-                tex. Proceedings of the National Academy of Sciences, page
+                    tive Models. In Z. Ghahramani, M. Welling, C. Cortes, N. D.           201403112, May 2014. 8
+                                                                                  2422
+             [32] C. Zhu, R. H. Byrd, P. Lu, and J. Nocedal.  Algorithm
+                  778: L-BFGS-B: Fortran subroutines for large-scale bound-
+                  constrained optimization. ACM Transactions on Mathemati-
+                  cal Software (TOMS), 23(4):550–560, 1997. 6
+                                                                          2423

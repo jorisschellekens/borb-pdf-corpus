@@ -1,0 +1,58 @@
+                                                       Examining Menstrual Tracking 
+                             to Inform the Design of Personal Informatics Tools 
+                             Daniel A. Epstein, Nicole B. Lee*, Jennifer H. Kang, Elena Agapie, Jessica Schroeder, 
+                                              Laura R. Pina, James Fogarty, Julie A. Kientz, Sean A. Munson 
+                                DUB Group, University of Washington | *Independent Researcher, San Francisco, CA 
+                   {depstein, jkang331, eagapie, jesscs, lpina, jfogarty, jkientz, smunson}@uw.edu, nikki@nicoleblee.com 
+                                                                                                 
+                 ABSTRACT                                                                          HealthKit launched in 2014 without support for menstrual 
+                 We consider why and how women track their menstrual                               data, the public was outraged over the exclusion of such an 
+                 cycles, examining their experiences to uncover design 
+                                                                                                   essential aspect of health tracking [11]. Apple later added this 
+                 opportunities and  extend  the field’s understanding of                           feature, but its exclusion sparked a conversation about 
+                 personal informatics tools. To understand menstrual cycle                         inclusivity in design of personal tracking tools [33]. 
+                 tracking practices, we collected and analyzed data from three                     We consider menstrual tracking through the lens of personal 
+                 sources: 2,000 reviews of popular menstrual tracking apps, a                      informatics, with two goa. lsWe first contribute to an 
+                 survey of 687 peopl e,and follow-up interviews with 12                            ongoing conversation on women’s health in HC I(e.g., [1]) 
+                 survey  respondents.  We find that women track their  by examining the practice of menstrual cycle tracking. We 
+                 menstrual cycle for varied reasons that include remembering                       offer an understanding of why and how women track their 
+                 and predicting their period as well as informing conversations                    menstrual cycles, focusing on how they use technology to do 
+                 with healthcare providers. Participants described six methods                     so. Second, we identify design challenges and concerns in 
+                 of tracking their menstrual cycle s, including use of technology,                 digital tools for menstrual cycle tracking, drawing upon such 
+                 awareness  of  their premenstrual physiological state,s  and                      insights  to  offer guidance and challenge current broader 
+                 simply remembering. Although women find apps and  assumptions in the design of personal informatics tools. 
+                 calendars helpful,t hese methods are ineffective when 
+                 predictions of future  menstrual cycles  are inaccurate.                          Although not about tracking  a behavio,r menstrual cycle 
+                 Designs  can create feelings of exclusion for gender and  tracking fits Li et al.’s definition of personal informatics as 
+                 sexual minorities. Existing apps also generally ftaoil                            tracking to obtain se-lfknowledge  [25].  The  practice  of 
+                 consider life stages that women experience, including young                       menstrual cycle tracking challenges many assumptions of 
+                 adulthood, pregnancy, and menopause . Our findings encourage                      personal informatics. For example, women often track their 
+                 expanding the field’s conceptions of personal informatics.                        menstrual cycles without an explicit g oofal action,  but 
+                 Author Keywords                                                                   instead for awareness of their place in their menstrual cycle. 
+                 Menstrual tracking ; menstrual cycl e;period;  personal                           Understanding the differences and commonalities between 
+                 informatics; lived informatics; women’s health; inclusivity.                      menstrual cycle tracking and other domains of personal 
+                 ACM Classification Keywords                                                       informatics  extends  how we as a field consider personal 
+                 H.5.m. Information interfaces and presentation (e.g., HCI).                       informatics and design our personal informatics tools. 
+                 INTRODUCTION                                                                      Toward these goals, we collected and analyzed data from 
+                 Personal tracking for self-knowledge is commonplace, from                         three sources. We first collected and coded 2,000 reviews of 
+                 recording finances for accountability to tracking location for                    popular menstrual tracking apps on the iPhone App Store and 
+                 pure curiosity. Health tracking has perhaps captured the most                     Android Market. We then surveyed 687 people to understand 
+                 attention, with nearly 70% of US adults tracking a health  their practices around tracking menstrual cycles. We finally 
+                 indicator [14]. However, relatively little attention has been                     conducted follow-up interviews with 12 survey respondents 
+                                                                               1                   to gather in-depth perspectives of those practices. 
+                 paid to tracking factors specific to women’s health , including 
+                 where a woman is in her menstrual cy Wclhee.n Apple                               In this paper we contribute: 
+                                                                                                   • An  empirical  description ofwh  y  women track their 
+                 Permission to make digital or hard copies of all or part of this work for 
+                 personal or classroom use is granted without fee provided that copies are not        menstrual cycles. Women track to better understand their 
+                 made or distributed for profit or commercial advantage and that copies bear          bodies and mental states, to have materials prepared for 
+                 this notice and the full citation on the first page. Copyrights for components 
+                 of this work owned by others than the author(s) must be honored. Abstracting       1
+                 with credit is permitted. To copy otherwise, or republish, to post on servers or      We use the gendered term “women” in this paper to refer to 
+                 to redistribute to lists, requires prior specific permission and/or a fee. Request    anyone who has, or has previously had, a menstrual cycle. This 
+                 permissions from permissions@acm.org.                                                 follows the general use of the term “women’s health” in the HCI 
+                 CHI 2017, May 06 - 11, 2017, Denver, CO, USA                                          community to discuss health issues around pregnancy, 
+                 Copyright is held by the owner/author(s). Publication rights licensed to ACM.         menstruation, menopause, and breast cancer. We acknowledge 
+                 ACM 978-1-4503-4655-9/17/05…$15.00                                                    not all people who have a menstrual cycle identify as women, 
+                 DOI: http://dx.doi.org/10.1145/3025453.3025635                                        and not all people who identify as women have a menstrual cycle.  
+                                                                                                     

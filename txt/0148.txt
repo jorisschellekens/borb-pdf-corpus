@@ -1,0 +1,866 @@
+      aabcd
+                           POLICY INSIGHT No.63
+                                                                                                                 September 2012
+                Is US economic growth over?  Faltering 
+                innovation confronts the six headwinds
+                Robert J Gordon
+                Northwestern University and CEPR
+                1.  Introduction                                                     growth by all nations as the pace of productivity 
+                                                                                     growth in the US fades out.    
+                The  prospects  for  future  long-run  US  economic 
+                growth  were  already  dismal  in  2007  but  were  The paper makes these basic points:
+                little  noticed  in  the  continuing  euphoria  over 
+                the  invention  of  the  internet  and  the  related                     1.   Since  Solow’s  seminal  work  in  the  1950s, 
+                developments  in  information  technology  and                               economic  growth  has  been  regarded  as  a 
+                communications (ICT).   This Policy Paper pulls                              continuous process that will persist forever.  
+                back from the past ifve years of ifnancial crisis to                         But there was virtually no economic growth 
+                pose a question with implications that will persist                          before  1750,  suggesting  that  the  rapid 
+                for  decades  even  if  the  current  international                          progress made over the past 250 years could 
+                economic disorder is eventually resolved.                                    well be a unique episode in human history 
+                                                                                             rather  than  a  guarantee  of  endless  future 
+                This paper is about US economic growth through                               advance at the same rate.
+                2007 and the future post-2007 path of potential 
+                or trend output for the subsequent 20 to 50 years.                       2.   The frontier established by the US for output 
+                The  analysis  abstracts  almost  entirely  from  the                        per capita, and the UK before it, gradually 
+                negative  events  that  have  occurred  since  2007.                         began  to  grow  more  rapidly  after  1750, 
+                We deliberately ignore the separate questions of                             reached its fastest growth rate in the middle 
+           63   whether  the  recession  and  slow  recovery  have                           of the 20th century, and has slowed down 
+          .     pulled down the trend growth rate output, and                                since.  It is in the process of slowing down 
+                the size of the “gap” between the trend path and                             further.
+                actual real GDP.  
+                                                                                         3.   A useful organising principle to understand 
+                The ideas developed here are unorthodox yet worth                            the pace of growth since 1750 is the sequence 
+                pondering.  They are applied only in the context                             of  three  industrial  revolutions.    The  ifrst 
+                of  the  US,  because  the  worldwide  frontier  of                          (IR1) with its main inventions between 1750 
+                productivity and the standard of living have been                            and  1830  created  steam  engines,  cotton 
+                carved out by the US since the late 19th century.  If                        spinning, and railroads.  The second (IR2) 
+                growth of the US productivity frontier slows down,                           was  the  most  important,  with  its  three 
+                other  nations  may  move  ahead,  or  the  slowing                          central inventions of electricity, the internal 
+                frontier could reduce the opportunities for future                           combustion engine, and running water with 
+                                                                                             indoor  plumbing,  in  the  relatively  short 
+                    Author's  note:  This  research  has  been  supported  by  the           interval of 1870 to 1900.  Both the ifrst two 
+                    Kauffman  Foundation.    Many  facts  and  relationships                 revolutions  required  about  100  years  for 
+                    highlighted here are based on my book in progress, Beyond                their  full  effects  to  percolate  through  the 
+                    the Rainbow:  The American Standard of Living Since the Civil            economy.  During the two decades 1950-70, 
+                    War, under contract to the Princeton University Press.  To               the beneifts of the IR2 were still transforming 
+                    limit the scope of this short paper, only a limited number               the  economy,  including  air  conditioning, 
+                    of  historical  references  and  citations  are  included  here.  
+                    All  others  are  provided  in  the  book  manuscript.    I  am          home appliances, and the interstate highway 
+                    grateful to Marius Malcevicius and Andrew Sabene for their               system.    After  1970,  productivity  growth 
+                    indispensable research assistance, to Jordan Jones for creating          slowed  markedly,  most  plausibly  because 
+                    the graphs, and to David Warsh for helpful comments.   This              the main ideas of IR2 had by and large been 
+                    paper originates in a presentation that has been given to 
+                    numerous audiences over the past year, and I am grateful to              implemented by then.    
+          CEPR POLICY INSIGHT Nomembers of those audiences for asking provocative questions 
+                    and making helpful suggestions in the Q&A sessions.
+                                      To download this and other Policy Insights, visit www.cepr.org
+              SEPTEmbER 2012                                                                                                      2
+                  4.   The computer and internet revolution (IR3)  simpliifes our thinking about long-run growth to 
+                     began around 1960 and reached its climax  pretend that the post-2007 crisis did not happen.1  
+                     in the dot.com era of the late 1990s, but its 
+                     main impact on productivity has withered  The audacious idea that economic growth was a 
+                     away  in  the  past  eight  years.    Many  of       one-time-only  event  has  no  better  illustration 
+                     the  inventions  that  replaced  tedious  and        than  transport  speed.    Until  1830  the  speed  of 
+                     repetitive  clerical  labour  with  computers        passenger and freight trafifc was limited by that 
+                     happened a long time ago, in the 1970s and  of “the hoof and the sail” and increased steadily 
+                     1980s.  Invention since 2000 has centered on  until the introduction of the Boeing 707 in 1958.  
+                     entertainment and communication devices  Since then there has been no change in speed at all 
+                     that are smaller, smarter, and more capable,  and in fact airplanes lfy slower now than in 1958 
+                     but  do  not  fundamentally  change  labour  because of the need to conserve fuel.  
+                     productivity or the standard of living in the 
+                     way that electric light, motor cars, or indoor       Other  one-time-only  changes  included  the 
+                     plumbing changed it.                                 transition  from  animal  to  machine  propulsion 
+                                                                          that  freed  the  city  streets  from  disease-causing 
+                  5.   The paper suggests that it is useful to think      animal waste; from outhouses to indoor plumbing; 
+                     of  the  innovative  process  as  a  series  of      from housewives carrying buckets of water, coal, 
+                     discrete inventions followed by incremental  and wood into the house to the modern world of 
+                     improvements  which  ultimately  tap  the  running water and sewer systems; from interior cold 
+                     full potential of the initial invention.  For        and heat to uniform indoor temperatures made 
+                     the  ifrst  two  industrial  revolutions,  the       possible by central heating and air conditioning; 
+                     incremental  follow-up  process  lasted  at  and many more one-time-only inventions.   This 
+                     least  100  years.    For  the  more  recent  IR3,   may  seem  obvious  about  horses,  outhouses, 
+                     the  follow-up  process  was  much  faster.   speed, and temperature, but once you accept that, 
+                     Taking  the  inventions  and  their  follow-         you’re drawn into the central theme of this paper:  
+                     up improvements together, many of these  economic growth may not be a continuous long-
+                     processes could happen only once.  Notable  run process that lasts forever.  
+                     examples are speed of travel, temperature of 
+                     interior space, and urbanisation itself.             This  paper  concerns  only  the  US  and  has  no 
+                                                                          necessary implications for other countries, which 
+                  6.   The beneifts of ongoing innovation on the  face  a  different  mix  of  headwinds.    The  paper 
+                     standard  of  living  will  not  stop  and  will     begins with an examination of long-run growth 
+                     continue, albeit at a slower pace than in the        back to 1300 in the context of the three industrial 
+                     past.  But future growth will be held back  revolutions.  It then provides a few details about 
+                     from the potential fruits of innovation by  the magnitude of change brought about by the 
+          63         six “headwinds” buffeting the US economy,  ifrst two industrial revolutions, particularly IR2.  
+         .           some of which are shared in common with 
+                     other  countries  and  others  are  uniquely  The treatment of the computer revolution (IR3) 
+                     American.  Future growth in real GDP per  emphasises  the  large  number  of  labour-saving 
+                     capita will be slower than in any extended  improvements  made  possible  by  electronics 
+                     period  since  the  late  19th  century,  and        years  before  the  invention  and  diffusion  of  the 
+                     growth in real consumption per capita for  internet in the late 1990s.  A thought experiment 
+                     the bottom 99% of the income distribution  is provided to provoke a new perspective on the 
+                     will be even slower than that.                       inventions of the past decade with those of IR2.  
+                                                                          The paper then turns to the six headwinds faced 
+              The  headwinds  include  the  end  of  the  by the US economy and brielfy considers a few of 
+              “demographic dividend;” rising inequality; factor  the available solutions that might be considered to 
+              price  equalisation  stemming  from  the  interplay         address them.
+              between  globalisation  and  the  internet;  the 
+              twin  educational  problems  of  cost  inlfation  in 
+              higher  education  and  poor  secondary  student 
+              performance; the consequences of environmental 
+              regulations and taxes that will make growth harder 
+              to achieve than a century ago; and the overhang 
+              of consumer and government debt.  All of these  1  Since  2007  the  overhang  of  government  debt  has 
+              problems  were  already  evident  in  2007,  and  it            become much larger, while household debt has declined 
+                                                                              substantially.  The ratio of government debt (held by the 
+                                                                              public) to GDP increased from 36.0 to 70.1 percent of GDP 
+                                                                              between 2007:Q4 and 2012:Q1, while over the same period 
+                                                                              household liabilities declined from 133.4 to 109.6 percent 
+                                                                              of disposable personal income.  Sources for the numerator 
+                                                                              of these ratios is the FRED database and for the denominator 
+         CEPR POLICY INSIGHT No                                               are NIPA tables 1.1.5 and 2.1.  
+                                    To download this and other Policy Insights, visit www.cepr.org
+                   SEPTEmbER 2012                                                                                                                                                 3
+                   2.  The super-long run since the year                                                                     2
+                   1300                                                                               through 1700.   The graph shows striking absence 
+                                                                                                      of  the  lack  of  progress;  there  was  almost  no 
+                                                                                                      economic growth for four centuries and probably 
+                   The  interpretation  of  past  economic  growth  is  for the previous millennium.3  
+                   anchored  by  the  three  industrial  revolutions.  
+                   The  ifrst  (IR1)  centered  in  1750-1830  from  the                              Figure 1        Growth in real GDP per capita, 1300-2100
+                   inventions  of  the  steam  engine  and  cotton  gin 
+                   through the early railroads and steamships, but                                       3.0
+                   much of the impact of railroads on the American                                       2.5
+                   economy came later between 1850 and 1900.  At a 
+                   minimum it took 150 years for IR1 to have its full                                   r2.0
+                   range of effects.
+                                                                                                         1.5
+                   The second industrial revolution (IR2) within the                                     % per yea
+                   years  1870-1900 created within just a few years                                      1.0                                                         Actual US
+                   the  inventions  that  made  the  biggest  difference                                 0.5                                        Actual UK
+                   to  date  in  the  standard  of  living.    Electric  light 
+                   and  a  workable  internal  combustion  engine                                        0.0
+                   were  invented  in  a  three-month  period  in  late                                    1300     1400     1500    1600     1700     1800    1900     2000     2100
+                                                                                                                                              Year
+                   1879.    The  number  of  municipal  waterworks 
+                   providing  fresh  running  water  to  urban  homes 
+                   multiplied tenfold between 1870 and 1900.  The  By 1906 growth in Britain had crept up to a bit 
+                   telephone,  phonograph,  and  motion  pictures  above one percent per year, and then the US took 
+                   were  all  invented  in  the  1880s.    The  beneifts                              over frontier leadership.  Growth rates for the US are 
+                   of  IR2  included  subsidiary  and  complementary  plotted at intervals long enough to eliminate the 
+                   inventions, from elevators, electric machinery and  impact of the business cycle, the Great Depression, 
+                   consumer appliances; to the motorcar, truck, and  and World War II.  The slow growth from 1906 
+                   airplane; to highways, suburbs, and supermarkets;  to 1928 is a puzzle and may relfect measurement 
+                   to sewers to carry the wastewater away.  All this  problems, as this was a period when IR2 had its 
+                   had been accomplished by 1929, at least in urban  greatest  initial  impact  in  providing  electricity, 
+                   America,  although  it  took  longer  to  bring  the                               motor  cars,  paved  roads,  running  water,  and 
+                   modern household conveniences to small towns  plumbing to urban America.  Then the growth rate 
+                   and  farms.    Additional  “follow-up”  inventions  exploded over the 1928-50 interval encompassing 
+                   continued  and  had  their  main  effects  by  1970,                               the Great Depression and World War II.  Part of this 
+                   including  television,  air  conditioning,  and  the                               leap forward was due to technological advances 
+                   interstate highway system.   The inventions of IR2  developed  during  the  1930s  (Field,  2011),  and 
+            63     were so important and far-reaching that they took  another  part  was  due  to  the  large  share  of  US 
+           .       a full 100 years to have their main effect.                                        1950 GDP devoted to military expenditures, using 
+                                                                                                      weapons, planes, and equipment ifnanced by the 
+                   The third revolution (IR3) is often associated with  government during World War II.
+                   the  invention  of  the  web  and  internet  around 
+                   1995.  But in fact electronic mainframe computers  Each of the successive periods after 1950 exhibits 
+                   began  to  replace  routine  and  repetitive  clerical                             a downward step in per-capita real GDP growth, 
+                   work as early as 1960.  The treatment below of IR3  with steps downward marked at 1964, 1972, and 
+                   includes examples of the many electronic labour-                                   1987.  The ifnal step downward is not actual data 
+                   saving inventions and convenience services that  but a 2007 forecast that I made before the ifnancial 
+                                                                                                                                                                           4
+                   already were widely available before 1995.                                         crisis of growth for the two decades 2007-27.   Due 
+                                                                                                      to the recession and sluggish recovery, the level 
+                   With  the  timing  of  the  three  revolutions  in  of US real GDP per capita is currently running 8% 
+                   place, we can now interpret history with a graph  below the level implied by that forecast made ifve 
+                   that  links  together  many  decades  of  dedicated  years ago.  
+                   research by economic historians to provide data 
+                   on real output per capita through the ages.  Figure  Now  we  combine  the  historical  record  with  a 
+                   1 displays the record back to the year 1300 and  provocative  fantasy.    Overlaid  on  the  historical 
+                   traces the “frontier” of per-capita real GDP for the                               2    British  data  for  1300-1870  come  from  Broadberry  et  al. 
+                   leading nation.  The blue line represents the UK                                        (2010) and are ratio-linked to Maddison’s UK data through 
+                   through 1906 (approximately the year when the                                           1906.  US data are based on NIPA Table 1.1.6 back to 1929 
+                   US caught up) and the red line the US from then                                         and  are  ratio-linked  to  annual  GDP  from  Balke-Gordon 
+                   through 2007.  Heroic efforts by British economic                                       (1989).  
+                   historians have established a rough estimate that  3  The classic article on very long-run growth is Kremer (1993).
+                                                                                                      4    This forecast was originally made for a paper at a conference 
+                   the UK grew at 0.2% per year for the four centuries                                     honoring Angus Maddison’s 80th birthday that was held in 
+                                                                                                           Groningen in October, 2006.  The same forecast is contained 
+           CEPR POLICY INSIGHT No                                                                          in Gordon (2010).
+                                                 To download this and other Policy Insights, visit www.cepr.org
+                      SEPTEmbER 2012                                                                                                                                                                         4
+                                                                                                                     Figure 3           Actual and hypothetical levels of GDP per 
+                      record is a smoothly curved green line (Figure 2)                                                                 capita, 1300-2100
+                      which  shows  growth  steadily  increasing  to  the                                               100
+                      mid-20th  century  and  then  declining  back  to                                                                                                                                2100
+                      where it started, 0.2% per year by the end of the                                                  90                                                                          $87178
+                                                                                                                       s 80
+                                                                                                                       r                                                                        2050
+                      21st century.  The green line is designed both to                                                a
+                                                                                                                       l
+                                                                                                                       l 70                                                                     $73355
+                                                                                                                       o
+                                                                                                                       d
+                      mimic history but also to have a smooth trajectory                                                
+                                                                                                                       S
+                                                                                                                       U 60
+                                                                                                                        
+                                                                                                                       0
+                      between now and the year 2100 that makes a soft                                                  1                                                                      2007
+                                                                                                                       0 50
+                                                                                                                       2                                                                     $44797
+                                                                                                                        
+                                                                                                                       f
+                      landing on 0.2% growth.  Toward the end of this                                                  o
+                                                                                                                        
+                                                                                                                       s 40                                                                1988
+                                                                                                                       d
+                      paper a few numbers are suggested to indicate the                                                n                                                                  $31729
+                                                                                                                       a
+                                                                                                                       s 30                                                                           1957
+                                                                                                                       u
+                      contributions of the six headwinds to a slowdown                                                 o                                                                 1929        $15876
+                                                                                                                       h
+                                                                                                                       T 20                                                              $8090      1906
+                      of  growth  from  the  1.4%  previous  forecast  for                                                                                             1800     1850               $6332
+                                                                                                                         10      1300           1500                   $3447   $4005
+                      2007-27 and the 0.2% fantasy forecast for 2100.                                                            $1149         $1714
+                                                                                                                          0
+                                                                                                                           1300      1400      1500      1600      1700      1800      1900      2000      2100
+                      Figure 2           Growth in real GDP per capita, 1300-2100,                                                                                  Year
+                                         with actual and hypothetical paths
+                          3.0                                                                                        3.  The dawn of the second industrial 
+                                                                                                   Hypothetical Path
+                          2.5                                                                                        revolution:  The standard of living in 
+                        r 2.0                                                                                        1870
+                          1.5                                                                                        The year 1870 is a natural break point to begin our 
+                        ent per yea                                                                                  discussion  of  the  impact  of  the  three  industrial 
+                        c                                                                      Actual US
+                        r 1.0
+                        e                                                                                            revolutions on economic growth.  The Civil War 
+                        P
+                          0.5                                               Actual UK                                was over.  The  golden  spike  had  been  driven  in 
+                                                                                                                     by the silver hammer with the telegraph message 
+                          0.0                                                                                        instantly  sent  within  seconds  to  the  entire  US 
+                             1300      1400      1500     1600      1700      1800      1900      2000      2100     and even the UK.  The single-word message was 
+                                                                     Year
+                                                                                                                     “Done,” and it led to the greatest celebration in 
+                      These  growth  rates  are  translated  into  the  the history of the US up to that date, far beyond 
+                      corresponding levels of per-capita income in the  anything that happened when the Union won a 
+                      prices  of  2005,  which  for  the  US  in  2007  was                                          battle in the Civil War.  Also for statisticians, 1869 
+                      $44,800, and this is done in Figure 3.  The implied  is the ifrst year of the Census of Manufacturing. 
+                      level  for  the  UK  in  1300  was  about  $1,150  in 
+                      today’s prices, and it took ifve centuries for that                                            A lot of progress had been made by 1870.  After 
+                      level to triple to $3,450 in 1800 and more than a  centuries  when  every  task  was  carried  out  by 
+                      century to almost double to $6,350 in 1906, the  human and animal effort, individual tasks began 
+              63      transition year from the UK to the US data.  After a                                           to be carried out by machine power, both water 
+             .        strangely slow transition to 1929, the pace picked  and steam, initially in the UK.  The 1844 invention 
+                      up.  It took only 28 years for the level to double  of the telegraph created by far the biggest increase 
+                      from  roughly  $8,000  to  $16,000  between  1929  in the speed of communication in human history, 
+                      and 1957, and only 31 years for it to double again  and soon continents were linked with undersea 
+                      from $16,000 to $32,000 in 1988.  Even with the  cables.  
+                      steady slowdown in the growth rate after 1988, the 
+                      forecast level implied by the green line for the year                                          But most aspects of life in 1870 (except for the rich) 
+                      2100 is $87,000, almost double the actual level  were dark, dangerous, and involved backbreaking 
+                      reached in 2007.                                                                               work.    There  was  no  electricity  in  1870.    The 
+                                                                                                                     insides of dwelling units were not only dark but 
+                      Summarising, doubling the standard of living took  also smoky, due to residue and air pollution from 
+                      ifve centuries between 1300 and 1800.  Doubling  candles and oil lamps.  The enclosed iron stove had 
+                      accelerated to one century between 1800 and 1900.   only recently been invented and much cooking was 
+                      Doubling peaked at a mere 28 years between 1929  still done on the open hearth.   Only the proximity 
+                      and 1957 and 31 years between 1957 and 1988.   of the hearth or stove was warm; bedrooms were 
+                      But then doubling is predicted to slow back to a  unheated and family members carried warm bricks 
+                      century again between 2007 and 2100.  Of course  with them to bed.  
+                      the latter is a forecast, and the rest of this essay 
+                      provides support for its plausibility.                                                         But  the  biggest  inconvenience  was  the  lack  of 
+                                                                                                                     running water. Every drop of water for laundry, 
+                                                                                                                     cooking, and indoor chamber pots had to be hauled 
+             CEPR POLICY INSIGHT No
+                                                         To download this and other Policy Insights, visit www.cepr.org
+                SEPTEmbER 2012                                                                                                                       5
+                in by the housewife, and wastewater hauled out.   managers.  By this classiifcation in 1870 87% of 
+                The average North Carolina housewife in 1885 had  the jobs were unpleasant; but by 2010 only 22% 
+                to walk 148 miles per year while carrying 35 tonnes  were unpleasant.
+                            5
+                of water.   Coal or wood for open-hearth ifres had 
+                to be carried in and ashes had to be collected and  Each job in the unpleasant category, however, has 
+                carried  out.    There  was  no  more  important  event              changed in character  toward  improved  working 
+                that liberated women than the invention of running  conditions.    In  1870,  farmers  pushed  a  plough 
+                water and indoor plumbing, which happened in urban  behind a horse.  In 2012, American farmers drive 
+                America between 1890 and 1930.                                       air-conditioned, enclosed John Deere tractors that 
+                                                                                     drive  themselves,  guided  by  GPS,  and  contain 
+                Were  summers  better  than  winters  back  then?   computers that automatically drop the seeds.
+                In  1870,  the  window  screen  had  not  yet  been 
+                invented.  In the summer, the windows were open  4.   How the Great Inventions changed 
+                and the insects lfew back and forth between the  living and working conditions
+                outdoor animals and the indoor dining table.  It is 
+                said that the national bird of the United States in 
+                the 19th century was the houselfy.                                   The “Great Inventions” of the second industrial 
+                                                                                     revolution  (IR2)  utterly  changed  living  and 
+                While the railroad connected the cities, there were  working conditions, particularly in urban America, 
+                horses on every urban street.  Within the cities,  within half a century and their full impact was 
+                steam power was not practical, so everything was  largely  complete  during  the  century  following 
+                hauled  by  horses.  The  average  horse  produced  1870.  The inventions can be grouped into ifve 
+                20 to 50 pounds of manure and a gallon of urine  categories:  (1) electricity and all its spin-offs; (2) the 
+                daily,  applied  without  restraint  to  stables  and                internal combustion engine and all its subsidiary 
+                streets.  The daily amount of manure worked out  improvements right up to the interstate highway 
+                to between 5 and 10 tonnes per urban square mile,  system;    (3)  running  water,  indoor  plumbing, 
+                                                                                 6
+                all requiring disgusting human labour to remove.    and central heating;  (4) rearranging molecules, 
+                The low standard of living relfected not just the  including  everything  to  do  with  petroleum, 
+                small amount that people could purchase but also  chemicals,                            plastics,      and       pharmaceuticals; 
+                the amount of effort at the workplace and at home  and  ifnally  (5)  the  set  of  communication  and 
+                where they had to expend to perform ordinary  entertainment  devices  invented  within  the 
+                tasks.                                                               remarkably short period between 1885 and 1900, 
+                                                                                     including the telephone, the phonograph, popular 
+                Life  expectancy  was  only  45  years  in  1870,  photography, radio, and motion pictures.  
+                compared  to  79  years  recently.    Why?    Infant 
+                mortality  resulted  from  poor  sanitation,  water-                 The effects of these inventions and sub-inventions 
+           63   transmitted diseases, and contaminated milk. The  can  be  grouped  by  the  particular  impact  they 
+          .     ifrst  attempts  at  urban  sanitation  infrastructure               had on animal and human effort.  Motor power 
+                emptied the waste into the rivers because there  replaced animal power.  To maintain a horse every 
+                was a theory at that time that rivers were self-                     year  cost  approximately  the  same  as  buying  a 
+                cleansing.  And there were further causes of low  horse.   Imagine today that for your $30,000 car 
+                life expectancy:  hard physical labour and work-                     you had to spend $30,000 every year on fuel and 
+                related injuries.  In 1900, 13,000 people died in  repairs.  That’s an interesting measure of how much 
+                railroad deaths, about a quarter of them railroad  efifciency was gained from replacing the horses.  
+                employees, and others included both passengers—                      Gone was the need for unsanitary and repulsive 
+                because boilers would blow up—or pedestrians run  jobs of people who had to remove horse waste.  
+                down by the railroad.  There was also violence and 
+                lynching.                                                            Much  of  the  inventive  effort  replaced  not  just 
+                                                                                     animals  but  also  brute-force  human  effort:  
+                A crude measure can be developed regarding the  running water replaced hauling water and waste: 
+                quality of work.  A uniform set of occupational  oil and gas replaced coal and wood; electric hand 
+                deifnitions  goes  back  to  1870.    One  can  go  tools  became  common  by  1910  and  1920;  and 
+                through  the  list  and  label  each  occupation  as                 household  appliances  began  to  proliferate  with 
+                relatively “pleasant” or “unpleasant.”  Unpleasant  the early washers and refrigerators in the 1920s.  
+                jobs include farming, farm labourers, blue-collar  Human  comfort  and  convenience  beneifted  by 
+                workers, urban labourers, and household servants.   replacing the outhouse, replacing the open-hearth 
+                Relatively  more  pleasant  were  such  occupations  ifre,  and  by  the  invention  of  window  screens 
+                as  sales  and  clerical  work,  or  professionals  and              shortly after 1870.  Reading was easier with electric 
+                                                                                     light,  and  pollution  was  reduced  as  natural  gas 
+                5   This fact was ifrst reported in a 1886 survey by the North       began to be used in place of coal.   Shopping, which 
+                    Carolina Farmers’ Alliance and is reported by Strasser (1982,    in 1870 was heavily dominated by monopolistic 
+                    p. 86).                                                          local general stores in rural areas, was gradually 
+          CEPR POLICY INSIGHT No6 Greene (2008, p. 174).
+                                         To download this and other Policy Insights, visit www.cepr.org
+                 SEPTEmbER 2012                                                                                                                               6
+                 replaced by department stores, supermarkets, and  Communication  and  entertainment  blossomed 
+                 mail-order catalogues.                                                    with  the  telegraph,  telephone,  phonograph, 
+                                                                                           recorded music and, by 1920, the ifrst commercial 
+                 Another dimension of improvement was speed.  By  radio station.  In a brief period of time of only 
+                 1870 intercity trains traveled at 25 miles per hour  about four decades the nickelodeon was replaced 
+                 and horse-drawn streetcars with their six-mile per  by silent movies and then the great technical and 
+                 hour pace were beginning to replace less efifcient  creative advances that created Gone With the Wind 
+                 horse-drawn omnibuses that traveled only half as  and The Wizard of Oz in 1939.  Television was 
+                 fast.  Within a few years the horse-drawn streetcar                       introduced at the New York World’s Fair of 1939-
+                 was  replaced  by  the  electric  streetcar  and  the                     40 and the ifrst TV stations began broadcasting in 
+                 motorbus.  All of a sudden in the 1890s and 1900s  1946 as soon as wartime production constraints 
+                 appeared the Chicago elevated and the New York  were lifted.
+                 City subway system, with similar improvements in 
+                 many other cities.                                                        Life expectancy began to grow rapidly as horse-
+                                                                                           created diseases were reduced; running water and 
+                 None  of  the  transportation  inventions  of  the  water-treatment  plants  largely  eliminated  water-
+                 1870-1900 period were more important than the  borne diseases; and regulations and refrigeration 
+                 automobile.    Prior  to  its  invention,  there  was                     prevented  the  spoilage  of  milk  and  meat.    The 
+                 almost  no  chance  for  travel  by  working  class  Jungle,  Upton  Sinclair’s  sensational  muckraking 
+                 families either from the farm to the city, or from  expose  of  the  Chicago  stockyards,  helped  push 
+                 the city to the countryside.  Ownership of horses  popular and political sentiment to create the Food 
+                 and carriages was a privilege limited to the rich  and Drug Administration in 1906.  
+                 and the elite.  The automobile changed all that, 
+                 and even more for farmers than city residents; by  Eventually  in  the  1930s  and  1940s  sulfa  and 
+                 1926 fully 93% of Iowa farmers owned motor cars.   antibiotics  were  invented,  but  by    then  life 
+                 The  range  of  indirect  beneifts  provided  by  the                     expectancy had turned a decisive corner.  Little 
+                 automobile is suggested in this quote from Flink  known  is  the  fact  that  the  annual  rate  of 
+                 (1972, p. 460):                                                           improvement of life expectancy in the ifrst half of 
+                                                                                           the 20th century was three times as fast as in the 
+                      The beneifts of automobility were overwhelmingly                     last half.  Within one century by 1970 life had been 
+                      more obvious:  an antiseptic city, the end of rural                  utterly changed.  The interstate highway system was 
+                      isolation, improved roads, better medical care,                      almost completed.  Air conditioning was universal 
+                      consolidated  schools,  expanded  recreational                       in commerce and widespread in residential homes.  
+                      opportunities,  the  decentralization  of  business                  Air travel by 1970 had been completely converted 
+                      and residential patterns, a suburban real estate                     to jets with no further increase in speed.  Consumer 
+                      boom, and the creation of a standardised middle-                     appliances  were  universal  in  the  United  States, 
+           63         class national culture.                                              with only the microwave oven still waiting to be 
+          .                                                                                invented and diffused.  
+                 Starting in 1860 with the horse omnibus traveling 
+                 at  three  miles  per  hour,  suddenly  by  1904  the                     A common feature of this innovative revolution was 
+                 express trains of New York’s IRT subway line were  that  many  of  the  improvements  could  only  happen 
+                 traveling between stops at 40 miles per hour, and  once.  Speed of travel was increased from that of 
+                 by 1940 the Chicago North Shore Railroad traveled  the horse to the jet plane in a century but could 
+                 between stops at 80 miles per hour.   Barely two  not happen again.  The interior temperature that 
+                 decades after the Wright Brothers’ ifrst 1903 lfight,                     in 1870 alternated between freezing cold in the 
+                 in 1926 a lfimsy Swallow biplane lfew from Pasco,  winter and stilfing heat in the summer reached a 
+                 Washington,  to  Elko,  Nevada,  on  the  ifrst  US                       year-round 72 degrees Fahrenheit (22C), and that 
+                 commercial airline lfight, lfying 98 pounds of mail                       could not happen again.  The US was transformed 
+                                             7
+                 at 90 miles per hour.   By 1958, travelers were going                     from 75% rural to 80% urban, and that could not 
+                 550 miles an hour in a Boeing 707, and today we  happen again.  
+                 go not faster than in 1958 but rather slower due to 
+                 the need to conserve fuel.                                                The  growth  of  productivity  (output  per  hour) 
+                                                                                           slowed markedly after 1970.  While puzzling at the 
+                                                                                           time, it seems increasingly clear that the one-time-
+                 7    Walter Varney’s tiny airline lfew that ifrst Swallow biplane         only beneifts  of  the  Great  Inventions  and  their 
+                      on April  6,  1926.    Soon  he  sold  his  airline  to  what  by    spin-offs had occurred and could not happen again.  
+                      1931 was called United Airlines, the amalgam of Varney,              Diminishing returns set in, and eventually all of 
+                      National,  and  Boeing  Airlines.    Always  adventurous,  he        the subsidiary and complementary developments 
+                      founded Varney Speed Lines in 1934, and this soon became             following from the Great Inventions of IR2 had 
+                      Continental  Airlines.    In  2010  United  and  Continental         happened.    All  that  remained  after  1970  were 
+                      Airlines merged, and so in one of the great retrospective 
+                      coincidences of American industrial history, Walter Varney           second-round improvements, such as developing 
+                      can be credited with founding both components of what is             short-haul  regional  jets,  extending  the  original 
+          CEPR POLICY INSIGHT Nonow the world’s largest airline.
+                                            To download this and other Policy Insights, visit www.cepr.org
+             SEPTEmbER 2012                                                                                               7
+             interstate  highway  network  with  suburban  ring  electronic  ordering  systems  in  the  world’s  auto 
+             roads,  and  converting  residential  America  from  dealers  and  wholesalers.    There  was  a  burst  of 
+             window-unit  air  conditioners  to  central  air  investment in the late 1990s as every large and 
+             conditioning.                                            small  corporation  developed  its  own  web  site; 
+                                                                      while  many  “dot.com”  start-ups  succumbed  to 
+             5.  The third industrial revolution:                     overly optimistic plans, others like Amazon and 
+             Computers and the internet                               Google  developed  business  models  that  rose  to 
+                                                                      dominance in the years after the dot.com stock 
+                                                                      market bubble peaked in early 2000.  
+             The third industrial revolution (IR3) began with 
+             the  ifrst  commercial  uses  of  computers  around      6.  Comparing the industrial 
+             1960  and  continued  through  the  development  revolutions:  A thought experiment
+             of the internet, the web, and e-commerce in the 
+             1990s.  Initially computers shared with the steam 
+             engine,  the  internal  combustion  engine,  and  This  account  of  the  role  of  IR2  and  IR3  share 
+             the  electric  motor  the  many-faceted  beneifts  of    the  common  feature  that  many  of  these 
+             replacing  human effort, making jobs easier, less  transformations could only happen once.  Figure 4 
+             boring, and less repetitive.  It may seem surprising     is a bar chart showing the average growth rate of US 
+             that  so  many  of  the  computer’s  labour-saving  labour productivity over four time intervals: 1891-
+                                                                                                                   8
+             impacts occurred so long ago.                            72, 1972-96, 1996-2004, and 2004-2012.   These 
+                                                                      intervals are chosen to reveal the contributions of 
+             The  ifrst  industrial  robot  was  introduced  by  the industrial revolutions.  IR2 and its subsidiary 
+             General  Motors  in  1961.    Telephone  operators  developments  were  able  to  keep  productivity 
+             went away in the 1960s.   As long ago as 1960  growth going for 81 years between 1891 and 1972.  
+             telephone  companies  began  creating  telephone  It is puzzling that all the beneifts of the computer 
+             bills from stacks of punch cards.  Bank statements  enumerated above did not prevent the signiifcant 
+             and  insurance  policies  were  soon  computer-          productivity growth slowdown by half from 2.3% 
+             printed.  The ifrst credit card was introduced in the    per  year  during  1891-72  to  only  1.4%  per  year 
+             late 1950s and my personal American Express card  during  1972-96.    My  interpretation  is  that  the 
+             is still stamped “1968.”                                 spin-off inventions from IR2 explain most of the 
+                                                                      rapid growth of productivity between the 1890s 
+             By the 1970s, even before the personal computer,  and 1970s, and that diminishing returns to the 
+             tedious  retyping  had  been  made  obsolete  by  beneifts of these inventions was the basic cause of 
+             memory typewriters.  Airline reservations systems  the post-1972 productivity growth slowdown.  
+             came in the 1970s, and by 1980 barcode scanners 
+             and cash machines were spreading through the  Figure 4              Average growth rates of US labour 
+         63  retail  and  banking  industries.    Old-fashioned                  productivity over selected intervals, 
+        .    mechanical calculators were quickly discarded as                    1891-2012
+             electronic calculators, both miniature and desktop,        3.50
+             were introduced around 1970.                               3.00
+             The ifrst personal computers arrived in the early          2.50     2.33                    2.46
+             1980s  with  their  word  processing,  word  wrap,         2.00
+                                                                       t
+             and spreadsheets.  Word processing furthered the          n
+                                                                       e
+                                                                       c
+                                                                       r1.50                 1.38                   1.33
+             elimination of repetitive typing, while spreadsheets      e
+                                                                       P
+             allowed the automation of repetitive calculations.         1.00
+             Secretaries  began  to  disappear  in  economics 
+             departments, and professors began to type their            0.50
+             own papers.  “Moore’s Law” proceeded apace and             0.00
+             allowed larger document and spreadsheet ifles to be               1891-1972   1972-1996   1996-2004   2004-2012
+             handled faster.  The multiplying power of computer 
+             chips  was  matched  by  increasing  complexity  of 
+             software, leading to the light-hearted verdict that 
+             “what Intel giveth, Microsoft taketh away.”
+                                                                      8  The concept plotted is total-economy output per hour.  This 
+             More recent and thus more familiar was the rapid            is deifned as real GDP divided by an unpublished quarterly 
+                                                                         BLS series on hours for the total economy, including the 
+             development  of  the  web  and  e-commerce  after           private economy, government, and institutions.  Percentage 
+             1995, a process largely completed by 2005.  Many            logarithmic growth rates are calculated between the ifrst 
+             one-time-only conversions occurred, for instance            quarter of each of the listed years, e.g., 1948:Q1 to 1972:Q1.  
+             from card catalogues in wooden cabinets to lfat             To extend the series back from 1948 to 1891, annual NIPA 
+                                                                         data on real GDP prior to 1929 are ratio-linked to the real 
+             screens in the world’s libraries and the replacement        GDP data of Balke-Gordon (1989), and the BLS hours data 
+             of  punch-hole  paper  catalogues  with  lfat-screen        prior  to  1948  are  ratio-linked  to  the  man-hours  data  of 
+        CEPR POLICY INSIGHT No                                           Kendrick (1961, pp. 330-32).
+                                  To download this and other Policy Insights, visit www.cepr.org
+                SEPTEmbER 2012                                                                                                                  8
+                Why did all the computer-driven IR3 improvements  before, but now in smaller and more convenient 
+                before 1995 fail to maintain productivity growth  packages.  The iPod replaced the CD Walkman; 
+                at  a  faster  pace  despite  the  fading  out  of  the            the  smartphone  replaced  the  garden-variety 
+                beneifts of IR2?  In 1987 Robert M. Solow posed  “dumb”  cellphone  with  functions  that  in  part 
+                his famous paradox, “We can see the computers  replaced desktop and laptop computers; and the 
+                everywhere except in the productivity statistics.”   iPad provided further competition with traditional 
+                An explanation developed by Daniel Sichel (1997)  personal  computers.    These  innovations  were 
+                and others was that back in the 1970s and 1980s  enthusiastically adopted, but they provided new 
+                computers were just too small a fraction of the  opportunities for consumption on the job and in 
+                capital  stock  to  have  a  measurable  impact  on  leisure  hours  rather  than  a  continuation  of  the 
+                aggregate  productivity  growth.    In  short,  in  its            historical  tradition  of  replacing  human  labour 
+                early years IR3 was a pipsqueak compared to IR2.   with machines.
+                The contributions to productivity growth made by 
+                the ifrst few decades of computer implementation  A  thought  experiment  helps  to  illustrate  the 
+                kept the pace of advance in 1972-96 from being  fundamental  importance  of  the  inventions  of 
+                even slower than it actually was.                                  IR2  compared  to  the  subset  of  IR3  inventions 
+                                                                                   that have occurred since 2002.  You are required 
+                The internet and e-commerce did, however, make  to make a choice between option A and option 
+                a difference.  Productivity growth began to recover  B.  With option A you are allowed to keep 2002 
+                in  1996  and  by  1999  the  arrival  of  the  “new               electronic  technology,  including  your  Windows 
+                economy” was heralded, with many enthusiasts  98 laptop accessing Amazon, and you can keep 
+                predicting an impact greater than electric motors  running water and indoor toilets; but you can’t use 
+                or the internal combustion engine.  Figure 4 shows  anything invented since 2002. 
+                that between 1996 and 2004 productivity growth 
+                rose from the previous rate of 1.4% to 2.5% per  Option B is that you get everything invented in 
+                year, slightly faster than during 1891-72.                         the past decade right up to Facebook, Twitter, and 
+                                                                                   the iPad, but you have to give up running water 
+                I  was  (Gordon,  2000)  among  the  skeptics  and  and indoor toilets.  You have to haul the water into 
+                doubted that the “new economy” would have an  your dwelling and carry out the waste.  Even at 
+                impact comparable to the inventions of IR2.  With  3am on a rainy night, your only toilet option is 
+                12 additional years of data, it appears that my initial            a wet and perhaps muddy walk to the outhouse.  
+                skepticism  was  appropriate,  as  the  productivity               Which option do you choose?  
+                beneifts of IR3 had faded away by 2004.  During 
+                the past eight years (2004-12) labour productivity  I  have  posed  this  imaginary  choice  to  several 
+                growth  has  slowed  again  to  almost  exactly  the               audiences in speeches, and the usual reaction is 
+                same rate as 1972-96, a mere 1.3% per annum.  The  a  guffaw,  a  chuckle,  because  the  preference  for 
+          63    growth rate in the past two years, 2010-12, is even                option A is so obvious.  The audience realises that 
+         .      slower, only 0.5%.  Thus the productivity impact of                it has been trapped into recognition that just one 
+                IR3 evaporated after only eight years, compared to  of the many late 19th century inventions is more 
+                the 81 years (1891-1972) required for the beneifts  important than the portable electronic devices of 
+                of IR2 to have their full impact on productivity  the past decade on which they have become so 
+                                                 9                                               10
+                and the standard of living.                                        dependent.   
+                In the past decade the nature of IR3 innovations has               We can convert the productivity growth rates of 
+                changed.  The era of computers replacing human  Figure 4 into the implied levels of productivity.  
+                labour was largely over, although the role of robots               To shorten the horizontal span of the graph, we 
+                continued  to  expand  in  manufacturing,  while  begin not in 1891 but in 1948.  Figure 5 plots the 
+                many airline check-in employees were replaced by  actual  level  of  productivity  (measured  in  2005 
+                e-kiosks.  By 2002 e-commerce had already arrived  dollars per hour) from 1948 to 2012 as the wiggly 
+                as  a  source  of  convenience  to  consumers  that  red line, which is barely visible behind three trend 
+                went beyond the selection available in mail-order  lines.  The  green  line  shows  the  1948-72  trend 
+                catalogues, not to mention the speed and ease of  and when extended to the right shows the level 
+                ordering.                                                          that productivity would have reached in 2012 if 
+                                                                                   that 1948-72 trend had continued.  The blue line 
+                Attention  in  the  past  decade  has  focused  not  shows the same thing if the slower 1972-96 trend 
+                on  labour-saving  innovation,  but  rather  on  a  had continued.  The black line begins in 2004 after 
+                succession of entertainment and communication  the beneifts of IR3 had faded away and shows the 
+                devices that do the same things as we could do 
+                9   The same measure of productivity growth for 1872-91 is only    10  I have not posed this question to a roomful of 15-year-olds.  
+                    0.68% per year, indicating that the impact of the spreading       They could not imagine a world without Facebook.  But, 
+                    railroad  network  did  not  have  the  same  magnitude  of       then, it is beyond their imaginations to conceive of what it 
+                    impact on productivity growth as the Great Inventions of          would mean to live without running water, bathrooms, and 
+         CEPR POLICY INSIGHT NoIR2, which began to have their impact after 1890.      indoor toilets.
+                                        To download this and other Policy Insights, visit www.cepr.org
+                 SEPTEmbER 2012                                                                                                                                9
+                 2004-2012 trend, which by deifnition crosses the  in the most famous of these ill-fated quotes, Bill 
+                 actual values in both 2004 and 2012.                                      Gates himself said in defense of the capacity of 
+                                                                                           the ifrst lfoppy disks, “640 kilobytes ought to be 
+                 Figure 5       US labour productivity from 1948:1 to                      enough for anyone.”
+                                2012:1, with trend growth rates over selected 
+                                intervals                                                  Heeding the warning of these forecasting missteps, 
+                   100                                                          60% Gap    let us assume that innovation continues, with such 
+                   s                                                          $83.30       marvels as the driverless Google car on the near-
+                   r80                                                                     term horizon.  Research on the genome will surely 
+                                                                                           make  progress  in  the  ifght  against  cancer  and 
+                    60                                                  2004-12 trend      other diseases.  But research for new blockbuster 
+                                                                              $53.70
+                                                                              $49.40       drugs is encountering diminishing returns, with 
+                    40                   1948-72 trend
+                                                                             9% Gap        a  substantial  numbers  of  failures  and  rapidly 
+                                                                                  69% Gap
+                          Actual Values             1972-96 trend                          escalating costs of experimentation per successful 
+                   Output per hour in 2005 US dolla20                                      new drug found.  And, just as we should heed the 
+                                                                                           lesson  of  the  four  overly  pessimistic  quotations 
+                     0                                                                     from the Western Union to Bill Gates, so we should 
+                      1948    1958     1968    1978     1988    1998     2008
+                                                 Year                                      also recall the past overoptimism, including the 
+                                                                                           universal prediction in the late 1940s that within a 
+                                                                                           generation each family would have its own vertical 
+                 The conclusion is startling.  If the 1972-96 trend  lift-off airplane, a universal society of Jetsons.  
+                 had continued along the blue line, then today’s 
+                 productivity level would have been $49.60.  The  Whatever the future of innovation, the US economy 
+                 actual level today is $53.90, or 9% higher.  That  still faces six daunting headwinds that will limit 
+                 is  one  way  to  assess  the  contribution  of  the                      future potential growth and hold it below the pace 
+                 productivity  revival  of  the  late  1990s  made  which innovation would otherwise make possible.
+                 possible by IR3.  But if the rapid 1948-72 trend had 
+                 continued along the green line today’s level would  Recall that Figure 1, the graph with the blue and 
+                 have been $83.20, fully 69% higher than the blue  red step-like representation of growth rates of real 
+                 trend.  To the extent that the rapid green trend was                      per-capita  GDP  over  long  intervals,  included  a 
+                 made possible by exploiting the inventions of IR2,  forecast.  The ifnal downward step assumed that 
+                 then the “new economy” of IR3 only made up for  growth in real GDP per capita would slow from 
+                 about 13% (9/68) of what we lost after 1972 due to  the actual 1.8% rate recorded during 1987-2007,  
+                                                                                                                         11
+                 the fading out of beneifts from IR2 and its many  to a lower 1.4% rate.   This slowdown in growth 
+                 sub-inventions.                                                           already takes into account the ifrst two headwinds.
+           63    7.  The future:  Faltering innovation                                          1.  The  “demographic  dividend”  is  now  in 
+          .      confronts the six headwinds                                                        reverse motion.  The original dividend was 
+                                                                                                    another one-time-only event, the movement 
+                                                                                                    of  females  into  the  labour  force  between 
+                 The  fact  that  so  many  fundamental  one-time-                                  1965  and  1990,  which  raised  hours  per 
+                 only  inventions  have  already  occurred  limits                                  capita and allowed real per-capita real GDP 
+                 the potential for a continuing stream of equally                                   to  grow faster than output per hour.  But 
+                 basic  inventions.    Such  essential  improvements                                now the baby boomers are retiring, no longer 
+                 of  human  life  as  the  conversion  from  rural  to                              included in the tally of total hours of work 
+                 urban life, the speed of travel, the temperature of                                but still included in the population.  Thus 
+                 rooms,  and  the  near-elimination  of  brute-force                                hours per capita are now declining, and any 
+                 manual labour, have already been achieved.  But                                    tendency for life expectancy to grow relative 
+                 no one should step into the trap of predicting that                                to  the  average  retirement  age  will  further 
+                 innovation will come to an end.                                                    augment  this  headwind.    By  deifnition, 
+                                                                                                    whenever  hours  per  capita  decline,  then 
+                 There  are  four  classic  examples  in  the  past  of                             output per capita  must  grow  more  slowly 
+                 innovation  pessimism  that  turned  out  to  be                                   than productivity.
+                 wildly  wrong.    In  1876,  an  internal  memo  at 
+                 Western Union, the telegraph monopolists, said,  11   The 2007-27 forecast was originally made at a conference 
+                 “The telephone has too many shortcomings to be                                 in Groningen in October, 2006, at a conference in honor 
+                 considered as a serious means of communication.”                               of  Angus Maddison’s 80th birthday.  It is reproduced in 
+                 In 1927, a year before The Jazz Singer, the head                               Gordon (2010, Table 10) and does not take into account 
+                 of Warner Brothers said, “Who the hell wants to                                any downward delfection in the growth path that might 
+                 hear actors talk?”   In 1943, Thomas Watson, then                              have been caused by the recent recession and slow recovery.  
+                                                                                                As of 2012:Q1 real GDP per capita is 9% below that forecast 
+                 president of IBM, said, “I think there is a world                              path.  That is, either the output gap is minus 9%, or the 
+                 market for maybe ifve computers.” And in 1981,                                 growth rate of potential real GDP per capita has slowed 
+          CEPR POLICY INSIGHT No                                                                below a 1.4% annual growth rate assumed in the forecast. 
+                                            To download this and other Policy Insights, visit www.cepr.org
+               SEPTEmbER 2012                                                                                                             10
+                   2.  The  second  headwind  already  taken  into                  4.  The  interaction  between  globalisation  and 
+                       account in the 2007-27 forecast is the plateau                   ICT is a daunting headwind.  Its effects include 
+                       in educational attainment in the US reached                      outsourcing of all  types,  from  call  centres 
+                       more than 20 years ago, as highlighted in                        to  radiologist  jobs.    Foreign  inexpensive 
+                       the path-breaking work of Claudia Golden                         labour competes with American labour not 
+                       and Lawrence Katz (2008).  The US is steadily                    just through outsourcing, but also through 
+                       slipping down the international league tables                    imports.  And these imports combine lower 
+                       in the percentage of its population of a given                   wages  in  emerging  nations  with  growing 
+                       age which has completed higher education.                        technological  capabilities  there.    This  is 
+                       This combines several problems.  One is the                      nothing  more  than  the  Hecksher-Ohlin-
+                       cost disease in higher education, that is, the                   Samuelson factor-price equalisation theorem 
+                       rapid increase in the price of college tuition                   at work, and it inevitably has a damaging 
+                       relative to the prices of other goods.  This cost                effect on the nations with the highest wage 
+                       inlfation in turn leads to mounting student                      level, i.e., the US.
+                       debt, which is increasingly distorting career 
+                       choices  and  deterring  low-income  people                  5.  Energy and the environment represent the 
+                       from going to college at all.  Not everybody                     iffth headwind.  Part of any effort to cope with 
+                       gets a scholarship.                                              global warming represents a payback for past 
+                                                                                        growth. In 1901 the environment was not a 
+                       At the secondary level the OECD PISA test                        priority and the symbol of a prosperous city 
+                       results for 37 nations had the US recently                       was a drawing of a factory spewing pure black 
+                       ranked  as  ranked  as  21st  in  reading,  31st                 smoke out of its chimneys.  The consensus 
+                       in math, and 34th in science.  There is an                       recommendation of economists to impose 
+                       ongoing  achievement  gap  between  whites                       a  carbon  tax  in  order  to  push  American 
+                       and Asians on the one hand and Hispanics                         gasoline  prices  up  toward  European  levels 
+                       and Blacks on the other, while the Hispanic                      will  reduce  the  amount  that  households 
+                       percentage  of  our  nation’s  schoolchildren                    have left over to spend on everything else 
+                       keeps increasing, dragging down the national                     (unless  it  is  fully  rebated  in  lump-sum  or 
+                       average.    Making  matters  worse  is  a  new                   other payments).   India and China are both 
+                       and growing gap between the educational                          growing more rapidly than the US and taken 
+                       preparation and achievement of American                          together those two nations are responsible 
+                       girls and boys; the female share of college                      for double the carbon emissions of the US, 
+                       graduates is now up to 58%.                                      but they resist suggestions that their growth 
+                                                                                        to high-income status should be curtailed by 
+               The remaining four headwinds are not taken into                          energy restrictions, since today’s rich nations 
+               account in the forecast of 1.4% per-capita GDP                           of North America, Europe, and Japan were 
+          63   growth  for  2007-27  but  are  equally  daunting.                       not regulated in the same way during their 
+         .     These lead us to alter the deifning metric of future                     20th century period of high growth.12
+               growth from income per capita to consumption 
+               per  capita  for  the  bottom  99%  of  the  income                  6.  The  twin  household  and  government 
+               distribution.                                                            deifcits   represent  the  ifnal  headwind.  
+                                                                                        Already  in  2007  US  households  suffered 
+                   3.  The  most  important  quantitatively  in                         from  an  unprecedented  overhang  of  debt 
+                       holding  down  the  growth  of  our  future                      equal to 133% of disposable income.  The 
+                       income is rising inequality. The growth in                       government debt was then manageable but 
+                       median real income has been substantially                        has since begun to explode.  Consumers have 
+                       slower  than  all  of  these  growth  rates  of                  gradually been paying off debt, and this is 
+                       average  per-capita  income  discussed  thus                     one reason why the economic recovery has 
+                       far.  The Berkeley web site of Emmanuel Saez                     been so tepid.    As  a  matter  of  arithmetic 
+                       provides the startling ifgures.  From 1993 to                    the ratio of government debt to GDP can 
+                       2008, the average growth in real household                       be reduced by a mix of higher taxes, lower 
+                       income  was  1.3%  per  year.    But  for  the                   expenditures, and lower entitlement beneifts 
+                       bottom 99% growth was only 0.75%, a gap                          (including higher retirement ages).  But the 
+                       of 0.55% per year.  The top one percent of                       same  arithmetic  implies  that  higher  taxes 
+                       the income distribution captured fully 52%                       and/or lower transfers  reduces  the  growth 
+                       of  the  income  gains  during  that  15-year                    rate  of  real  household  disposable  income 
+                       period.  If what we care about when we talk                      relative to that of real GDP.  
+                       about “consumer well-being” is the bottom 
+                       99%, then we must deduct 0.55% from the 
+                       average growth rates of real GDP per capita  12  2010 estimated CO  emissions were 10.3 billion tons for 
+                       presented here and elsewhere.                                                   2
+                                                                                    China and India compared to 5.5 billion for the US  The 
+                                                                                    source is the Carbon Dioxide Information Analysis Center, 
+         CEPR POLICY INSIGHT No                                                     cdiac.omi.gov.
+                                       To download this and other Policy Insights, visit www.cepr.org
+                        SEPTEmbER 2012                                                                                                                                                                                     11
+                        8.  An exercise in subtraction                                                                          If  inequality  continues  to  rise  as  it  did  in  the 
+                        We began with the tantalising (and frightening)  last two decades, income for the bottom 99% of 
+                        suggestion in the green line of Figure 2 that per-                                                      the  income  distribution  will  grow  about  half  a 
+                        capita real GDP growth could slow down to a rate  point  slower  than  1.4%,  bringing  us  down  to 
+                        of a mere 0.2% by 2100. How large might be the  0.9%.    Globalisation  could  continue  to  hollow 
+                        numerical effect of the six headwinds?  A plausible                                                     out middle-level jobs, bringing the rate down to 
+                                                                                                                                           13
+                        set of numbers can be constructed to reduce the  0.7%.   Higher energy taxes could bring the rate 
+                        growth rate of real per-capita consumption of the  down to 0.5%.  And a combination of consumer 
+                        bottom 99% of the income distribution down to  debt  repayments,  income  tax  increases,  and 
+                        0.2% per year, but this “exercise in subtraction”  reduced transfer payments, could plausibly reach 
+                        needs to be qualiifed carefully (the qualiifcations  the 0.2% annual rate assumed by the hypothetical 
+                        come at the end).                                                                                       green line in Figure 2.  These ifnal subtractions 
+                                                                                                                                would not necessarily reduce real GDP growth but 
+                        Although the central theme of this paper is that  would force real consumption of the bottom 99% 
+                        innovation  does  not  have  the  same  potential  of the income distribution to grow more slowly 
+                        to  create  growth  in  the  future  as  in  the  past,                                                 than real GDP as debt is repaid.
+                        nevertheless let us start by assuming that future 
+                        innovation  propels  growth  in  per-capita  real  The  particular  numbers  don’t  matter,  and  there 
+                        GDP  at  the  same  rate  as  in  the  two  decades  is no magic in the choice of 0.2% as the long-run 
+                        before  2007,  about  1.8%  per  year.    This  strains                                                 growth rate.  That was chosen for “shock value” as 
+                        credulity as a forecast for the future, in that the  the rate of growth for the UK between 1300 and 
+                        ICT-driven internet productivity revival of 1996-                                                       1700.  Any other number below 1.0% could be 
+                        2000 is included in the performance outcome of  chosen and it would represent an epochal decline 
+                        the two decades 1987-2007.  To start a forecast for  in growth from the US record of the last 150 years 
+                                                                                                                                                                                                                              14
+                        2007-27 at the same growth ratemakes the heroic  of 2.0% annual growth rate in output per capita.  
+                        assumption that another invention with the same 
+                        productivity impact of the internet revolution is  9.  What to do about it?
+                        about to appear on the near-term horizon.  Thus 
+                        our starting point is quite optimistic.                                                                 Volumes  have  been  and  will  be  written  on  all 
+                                                                                                                                the issues identiifed here, and thus it is beyond 
+                        Baby-boomer  retirement  (the  reversal  of  the  the scope of this short paper to make any serious 
+                        demographic dividend) brings us down to 1.6%  attempt to provide solutions.  
+                        and  the  failure  of  educational  attainment  to 
+                        continue its historical rise takes us to 1.4%.   These                                                  Some  of  the  headwinds  contain  a  sense  of 
+                        estimates  come  from  government  estimates  of  inevitability.    The  most  daunting  is  headwind 
+                        future labour-force growth in the wake of baby-                                                         (4),  the  interplay  between  globalisation  and 
+               63       boomer retirements, and the impact of the plateau  modern technology, which accelerates the process 
+              .         in educational attainment comes from the work of  of catching up of the emerging markets and the 
+                        Dale Jorgenson and his collaborators.  In Figure 6  downward  pressure  on  wages  and  real  incomes 
+                        the ifrst (black) bar registers future growth of 1.8%                                                   in the advanced nations.  In the US the process 
+                        per year, the same as during 1987-2007.  The next  of  downward  wage  adjustment  continues  apace 
+                        two grey bars reduce growth to take account of  as southern states lure foreign auto and aircraft 
+                        demography and education.                                                                               manufacturers with the promise that pesky unions 
+                                                                                                                                will not be a problem and that wages can be lower 
+                        Figure 6            Components of the exercise in subtraction,                                          than in northern unionised states.  This in turns puts 
+                                            from 1987-2007 growth in per-capita real                                            pressure on legacy ifrms in the north to introduce 
+                                            GDP, to hypothetical future growth in real                                          two-tier wage systems that pay new entrants half 
+                                            consumption per capita for the bottom 99%                                           the traditional union wage, as has occurred in the 
+                               2                                                                                                Midwest auto industry in the past few years.  The 
+                                         1.8                                                                                    “revival of American manufacturing” is heralded 
+                             1.6                     1.6                                                                        in the media without recognition that this is part 
+                                                                 1.4                                                            of an ongoing process that erodes the number of 
+                           t1.2                                                                                                 high-paying middle-class jobs available to those 
+                           n                                                                                                    without a college education.    
+                           e                                                  0.9
+                           c
+                           r
+                           e 0.8
+                           P                                                              0.7
+                                                                                                       0.5
+                             0.4                                                                                                13  In this interpretation, globalization has two effects.  One is 
+                                                                                                                   0.2                that it increases inequality, but the other is that it reduces 
+                               0                                                                                                      the  overall  growth  rate  of  average  income  through  the 
+                                  Actual growth Subtract      Subtract     Subtract    Subtract    Subtract     Subtract              factor-price-equalization process.
+                                                demography educaon       inequality globalizaon   energy   debt reversal      14  Real GDP per capita was $2,605 in 1860 and $43,728 in 
+                                                                                                                                      2007, for a compound annual growth rate of 1.91%.  That 
+              CEPR POLICY INSIGHT No                                                                                                  growth rate was a higher 2.17% between 1929 and 2007.
+                                                              To download this and other Policy Insights, visit www.cepr.org
+                SEPTEmbER 2012                                                                                                                    12
+                Globalisation does not reduce the growth of all  As a matter of arithmetic, this could be achieved by 
+                                                                         15
+                American wages; it hits the middle hardest.   Top  a more rapid inlfow of immigration.  
+                executives of multinational industrial and ifnancial 
+                ifrms can enjoy rising incomes based on their ifrms’                 One  potential  option  would  be  unlimited 
+                reach across the world.  The CEOs of Coca-Cola  immigration  of  high-skilled  workers.    As  Steve 
+                and Boeing enjoy a worldwide market, and the rise  Jobs is reported to have told Barack Obama shortly 
+                of the emerging markets is an opportunity rather  before he died, “we should staple a green card to 
+                than a threat to them and adds to their bonuses  the diploma of every foreign worker who attains 
+                and value of their stock options.                                    a graduate degree in science or engineering.”  For 
+                                                                                     decades Canada has encouraged the immigration 
+                Energy and environmental issues (headwind 4) are  not only of skilled applicants but also those who 
+                also related to the rise of the emerging markets.   are already rich and by so doing has transformed 
+                China and India contribute more to the growth  its  culture  from  British  colonial  blandness  to 
+                of carbon emissions and to global warming than  international world-class diversity.  
+                does the US but are naturally reluctant to have 
+                their chance to leap into the ranks of the advanced  Much more controversial is the question of unskilled 
+                nations set back by high carbon taxes.  They argue  immigration,  which  suggests  a  provocative 
+                with some justiifcation that “no foreign power in  question.  Why was unlimited immigration into 
+                1900 told American steel mills to install expensive  the US so successful throughout the 19th century, 
+                emissions-reducing  devices,  so  why  should  we  until it was stopped by restrictive legislation in the 
+                at the same stage of development be asked to do  1920s, yet could not be considered as a plausible 
+                so?”  Beijing’s notoriously polluted air, at least so                public  policy  today?    Unlimited  immigration 
+                far, does not prevent San Francisco from enjoying  before 1913 did not cause mass unemployment.  
+                sparkling  skies  but  it  does  contribute  to  global              Immigrants were extremely well-informed about 
+                warming.                                                             the availability of employment in the US economy.  
+                                                                                     They arrived when the economy was strong and 
+                There  is  also  an  inevitability  to  the  subtraction             postponed their arrival (or returned to their home 
+                                                                                                                                          16
+                from growth implied by headwind (6), the future  countries) when the economy was weak.
+                repayment  of  consumer  and  government  debt.   
+                US consumption grew faster than real GDP over  There are more than enough provocative ideas in 
+                a long period, fueled by increasing consumer and  this paper, but I conclude with another.  My guess 
+                government debt, a process that cannot continue  is that a Canadian or Swedish economist looking 
+                forever.   Over a substantial number of years in the                 at the past and future of his or her country would 
+                future consumption must grow more slowly than  not be nearly so alarmed.  Why not?  What are 
+                production.                                                          the differences in environment, resources, legacy 
+                                                                                     history,  policies,  and  culture  that  create  their 
+           63   Regarding the educational headwind (2), successive  relative optimism?  Experts on other countries are 
+          .     American  governments  have  attempted  to  ifnd  welcome to contribute their own reactions to this 
+                solutions to inadequate educational outcomes at  diagnosis  of  the  successful  “American  century” 
+                the elementary and secondary level, including “No  and the possibility that future economic growth 
+                Child Left Behind” and “Race to the Top,” without  may gradually sputter out.  
+                as  yet  achieving  convincing  improvements, 
+                especially for low-income children.  Less attention  References
+                has been paid to cost inlfation in higher education, 
+                which has resulted in part from an arms-war-like  Acemoglu, Daron and Autor, David (2012).  “What 
+                explosion  of  expenditure  by  many  universities,                     Does Human Capital Do?  A Review of Goldin 
+                private and public alike, to raise their league table                   and  Katz’s  The  Race  between  Education  and 
+                ranking by building ever more lavish laboratory                         Technology,”  Journal  of  Economic  Literature  50 
+                and athletic facilities.                                                (June, no. 2), 426-63.
+                                                                                     Autor, David H., Katz, Lawrence F., and Kearney, 
+                It is headwind (1), the demographic turnaround,                         Melissa S. (2008).  “Trends in US Wage Inequality:  
+                that seems on the surface to be the most inevitable                     Re-Assessing the Revisionists,” Review of Economics 
+                but  it  could  potentially  be  counteracted.    The                   and Statistics 90 (May, no. 2), 300-23.
+                retirement of the baby boomers causes hours per  Balke, Nathan S., and Gordon, Robert J. (1989).  
+                capita to decline and thus reduces growth of income                     “The Estimation of Prewar GDP:  Methodology 
+                per capita relative to productivity.  A method to                       and New Results,” Journal of Political Economy  97 
+                raise  hours per capita is to increase the ratio of                     (February), 38-92.
+                those of working age to those of retirement age.  
+                15    David  Autor  and  his  co-authors  capture  best  the 
+                    “polarization”  hypothesis  that  divides  employees  into  a    16    I  have  found  in  unpublished  work  a  surprisingly  high 
+                    top, a middle, and a bottom, and predicts losses of jobs and         correlation  between annual immigration as a percent of 
+                    relative wages in the middle.  See Autor, Katz, and Kearney          the US population and detrended annual real GDP for the 
+          CEPR POLICY INSIGHT No(2008) and Acemoglu and Autor (2012).                    period 1865-1913.  
+                                         To download this and other Policy Insights, visit www.cepr.org
+             SEPTEmbER 2012                                                                                            13
+             Broadberry, Stephen N., Campbell, Bruce, Klein,  Gordon,  Robert  J.  (2010).    “Revisiting  US 
+               Alexander, Overton, Mark, and van Leeuwen, Bas          Productivity Growth over the Past Century with 
+               (2010).  “British Economic Growth, 1270-1870.”          a  View  of  the  Future,”  NBER  Working  Paper 
+               University of Warwick working paper, July 14.           15834, March.
+               Accessed  from  Eh.net/eha/system/ifles/Broadberry.   Greene,  Ann  Norton  (2008).    Horses  at  Work:  
+               pdf.                                                    Harnessing Power in Industrial America.  Cambridge 
+             Field, Alexander J. (2011).  A Great Leap Forward:        and London:  Harvard University Press.
+               1930s Depression and US Economic Growth.    New  Kendrick, John W. (1961).  Productivity Trends in the 
+               Haven and London:  Yale University Press.               United States.  Princeton:  Princeton University 
+             Flink, James J. (1970). America Adopts the Automobile,    Press for NBER.
+               1895-1910. Cambridge: The MIT Press.                  Kremer,  Michael  (1993).    “Population  Growth 
+             Goldin,  Claudia,  and  Katz,  Lawrence  F.  (1998).      and Technological Change:  One Million B.C. to 
+               The  Race  Between  Education  and  Technology.         1990,” Quarterly Journal of Economics 108 (August, 
+               Cambridge  and  London:    Belknap  Press  of           no. 3), 681-716.
+               Harvard University Press.                             Sichel, Daniel (1997).  The Computer Revolution:  An 
+             Gordon, Robert J. (2000).  “Does the New Economy          Economic Perspective.  Washington: Brookings.
+               Measure Up to the Great Inventions of the Past?”  Strasser, Susan (1982).  Never Done:  A History of 
+               Journal of Economic Perspectives 14 (Fall, no. 4),      American Housework.  New York:  Pantheon.
+               49-74.
+              Robert J. Gordon is Stanley G. Harris Professor in the Social Sciences and Professor of Economics at Northwestern 
+              University. He is one of the world's leading experts on inlfation, unemployment, and productivity growth. His recent 
+              work on the rise and fall of the New Economy, the revival and “explosion” of U. S. productivity growth, the stalling 
+              of European productivity growth, and the widening of the U. S. income distribution, have been widely cited. Gordon 
+              did his undergraduate work at Harvard and then attended Oxford University on a Marshall Scholarship. He received 
+              his Ph.D. in 1967 at M.I.T. and taught at Harvard and the University of Chicago before coming to Northwestern in 
+              1973. He is a Research Associate of the National Bureau of Economic Research, a Research Fellow of the Centre for 
+              Economic Policy Research (London) and the Observatoire Français des Conjunctures Economiques (OFCE, Paris), 
+              and member of four U. S. government academic advisory committees.
+         63    The Centre for Economic Policy Research, founded in 1983, is a network of over 800 researchers based mainly 
+        .
+               in universities throughout Europe, who collaborate through the Centre in research and its dissemination. The Centre’s 
+               goal is to promote research excellence and policy relevance in European economics. Because it draws on such a large 
+               network of researchers, CEPR is able to produce a wide range of research which not only addresses key policy issues, 
+               but also relfects a broad spectrum of individual viewpoints and perspectives. CEPR has made key contributions to a 
+               wide range of European and global policy issues for almost three decades. CEPR research may include views on policy, 
+               but the Executive Committee of the Centre does not give prior review to its publications, and the Centre takes no 
+               institutional policy positions. The opinions expressed in this paper are those of the author and not necessarily those 
+               of the Centre for Economic Policy Research.
+        CEPR POLICY INSIGHT No
+                                  To download this and other Policy Insights, visit www.cepr.org

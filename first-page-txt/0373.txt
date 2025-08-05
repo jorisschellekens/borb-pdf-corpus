@@ -1,0 +1,53 @@
+                      Vuvuzela: Scalable Private Messaging Resistant to Traiffc Analysis
+                                           ∗Jelle van den Hooff, ∗David Lazar, Matei Zaharia, and Nickolai Zeldovich
+                                                                                           MITCSAIL
+                  Abstract                                                                             might come under suspicion. Recently, oiffcials at the NSA
+                  Private messaging over the Internet has proven challenging to                        have even stated that ªif you have enough metadata you don’t
+                  implement, because even if message data is encrypted, it is                          really need contentº [33: ¶7] and that ªwe kill people based
+                  diiffcult to hide metadata about who is communicating in the                         onmetadataº [23]. This suggests that protecting metadata in
+                  face of traiffc analysis. Systems that offer strong privacy guar-                    communication is critical to achieving privacy.
+                  antees, such as Dissent [36], scale to only several thousand                            Unfortunately, state-of-the-art private messaging systems
+                  clients, because they use techniques with superlinear cost in                        are unable to protect metadata for large numbers of users. Ex-
+                  the number of clients (e.g., each client broadcasts their mes-                       isting work falls into two broad categories. On the one hand
+                  sage to all other clients). On the other hand, scalable systems,                     are systems that provide strong, provable privacy guarantees,
+                  such as Tor, do not protect against traiffc analysis, making                         such as Dissent [36] and Riposte [12]. Although these sys-
+                  themineffective in an era of pervasive network monitoring.                           tems can protect metadata, they either rely on broadcasting
+                     Vuvuzela is a new scalable messaging system that offers                           all messages to all users, or use computationally expensive
+                  strong privacy guarantees, hiding both message data and meta-                        cryptographic constructions such as Private Information Re-
+                  data. Vuvuzela is secure against adversaries that observe and                        trieval (PIR) to trade off computation for bandwidth [34]. As
+                  tamper with all network traiffc, and that control all nodes ex-                      a result, these systems have scaled to just 5,000 users [36] or
+                  cept for one server. Vuvuzela’s key insight is to minimize                           hundreds of messages per second [12].
+                  the number of variables observable by an attacker, and to use                           On the other hand, scalable systems like Tor [16] and
+                  differential privacy techniques to add noise to all observable                       mixnets [9] provide little protection against powerful adver-
+                  variables in a way that provably hides information about which                       saries that can observe and tamper with network traiffc. These
+                  users are communicating. Vuvuzela has a linear cost in the                           systems require a large number of users to provide any degree
+                  numberofclients, and experiments show that it can achieve a                          of privacy, so as to increase the anonymity set for each user,
+                  throughput of 68,000 messages per second for 1 million users                         but even then are susceptible to traiffc analysis. Adding cover
+                  with a 37-second end-to-end latency on commodity servers.                            traiffc to try to obscure which pairs of users are communicating
+                  1     Introduction                                                                   has been shown to be expensive and to yield only limited pro-
+                                                                                                       tection against a passive adversary over time [14, 26], while
+                  Manyuserswouldliketheir communications over the Internet                             adversaries that can actively disrupt traiffc (e.g., inject delays)
+                  to be private, and for some, such as reporters, lawyers, or                          gain even more information [1].
+                  whistleblowers, privacy is of paramount concern. Encryption                             This paper presents Vuvuzela, a system that provides scal-
+                  software can hide the content of messages, but adversaries                           able private point-to-point text messaging. Vuvuzela prevents
+                  can still learn a lot from metadataÐwhich users are com-                             an adversary from learning which pairs of users are communi-
+                  municating, at what times they communicate, and so onÐby                             cating, as long as just one out of N servers is not compromised,
+                                                                                                                                                                               1
+                  observing message headers or performing traiffc analysis. For                        even for users who continue to use Vuvuzela for years. Vu-
+                  example, if Bob repeatedly emails a therapist, an adversary                          vuzela uses only simple, fast cryptographic primitives, and,
+                  might reasonably infer that he is a patient, or if a reporter is                     using commodity servers, can scale to millions of users and
+                  communicating with a government employee, that employee                              tens of thousands of messages per second. At the same time,
+                      ∗David and Jelle contributed equally to this work.                               Vuvuzela can provide guarantees at a small scale, without the
+                                                                                                       need for a large anonymity set: even if just two users are using
+                                                                                                       the system, an adversary will not be able to tell whether the
+                  Permission to make digital or hard copies of part or all of this work for            two users are talking to each other.
+                  personal or classroom use is granted without fee provided that copies are not           Vuvuzela works by routing user messages through a chain
+                  madeordistributed for proift or commercial advantage and that copies bear
+                  this notice and the full citation on the ifrst page. Copyrights for third-party      of servers, as shown in Figure 1, where each of the servers
+                  components of this work must be honored. For all other uses, contact the             adds cover traiffc to mask the communication patterns of users.
+                  owner/author.                                                                        Unlike prior systems, Vuvuzela’s design enables cover traiffc
+                  Copyright is held by the owner/author(s).
+                  SOSP’15, Oct. 4±7, 2015, Monterey, California, USA.                                     1Vuvuzela cannot hide the fact that a user is connected to Vuvuzela’s
+                  ACM978-1-4503-3834-9/15/10.                                                          network, but we expect that users will simply run the Vuvuzela client in the
+                  http://dx.doi.org/10.1145/2815400.2815417                                            background at all times to avoid revealing the timing of their conversations.
+                                                                                                   1

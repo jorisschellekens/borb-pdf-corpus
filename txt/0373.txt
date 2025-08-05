@@ -1,0 +1,997 @@
+                      Vuvuzela: Scalable Private Messaging Resistant to Traiffc Analysis
+                                           ∗Jelle van den Hooff, ∗David Lazar, Matei Zaharia, and Nickolai Zeldovich
+                                                                                           MITCSAIL
+                  Abstract                                                                             might come under suspicion. Recently, oiffcials at the NSA
+                  Private messaging over the Internet has proven challenging to                        have even stated that ªif you have enough metadata you don’t
+                  implement, because even if message data is encrypted, it is                          really need contentº [33: ¶7] and that ªwe kill people based
+                  diiffcult to hide metadata about who is communicating in the                         onmetadataº [23]. This suggests that protecting metadata in
+                  face of traiffc analysis. Systems that offer strong privacy guar-                    communication is critical to achieving privacy.
+                  antees, such as Dissent [36], scale to only several thousand                            Unfortunately, state-of-the-art private messaging systems
+                  clients, because they use techniques with superlinear cost in                        are unable to protect metadata for large numbers of users. Ex-
+                  the number of clients (e.g., each client broadcasts their mes-                       isting work falls into two broad categories. On the one hand
+                  sage to all other clients). On the other hand, scalable systems,                     are systems that provide strong, provable privacy guarantees,
+                  such as Tor, do not protect against traiffc analysis, making                         such as Dissent [36] and Riposte [12]. Although these sys-
+                  themineffective in an era of pervasive network monitoring.                           tems can protect metadata, they either rely on broadcasting
+                     Vuvuzela is a new scalable messaging system that offers                           all messages to all users, or use computationally expensive
+                  strong privacy guarantees, hiding both message data and meta-                        cryptographic constructions such as Private Information Re-
+                  data. Vuvuzela is secure against adversaries that observe and                        trieval (PIR) to trade off computation for bandwidth [34]. As
+                  tamper with all network traiffc, and that control all nodes ex-                      a result, these systems have scaled to just 5,000 users [36] or
+                  cept for one server. Vuvuzela’s key insight is to minimize                           hundreds of messages per second [12].
+                  the number of variables observable by an attacker, and to use                           On the other hand, scalable systems like Tor [16] and
+                  differential privacy techniques to add noise to all observable                       mixnets [9] provide little protection against powerful adver-
+                  variables in a way that provably hides information about which                       saries that can observe and tamper with network traiffc. These
+                  users are communicating. Vuvuzela has a linear cost in the                           systems require a large number of users to provide any degree
+                  numberofclients, and experiments show that it can achieve a                          of privacy, so as to increase the anonymity set for each user,
+                  throughput of 68,000 messages per second for 1 million users                         but even then are susceptible to traiffc analysis. Adding cover
+                  with a 37-second end-to-end latency on commodity servers.                            traiffc to try to obscure which pairs of users are communicating
+                  1     Introduction                                                                   has been shown to be expensive and to yield only limited pro-
+                                                                                                       tection against a passive adversary over time [14, 26], while
+                  Manyuserswouldliketheir communications over the Internet                             adversaries that can actively disrupt traiffc (e.g., inject delays)
+                  to be private, and for some, such as reporters, lawyers, or                          gain even more information [1].
+                  whistleblowers, privacy is of paramount concern. Encryption                             This paper presents Vuvuzela, a system that provides scal-
+                  software can hide the content of messages, but adversaries                           able private point-to-point text messaging. Vuvuzela prevents
+                  can still learn a lot from metadataÐwhich users are com-                             an adversary from learning which pairs of users are communi-
+                  municating, at what times they communicate, and so onÐby                             cating, as long as just one out of N servers is not compromised,
+                                                                                                                                                                               1
+                  observing message headers or performing traiffc analysis. For                        even for users who continue to use Vuvuzela for years. Vu-
+                  example, if Bob repeatedly emails a therapist, an adversary                          vuzela uses only simple, fast cryptographic primitives, and,
+                  might reasonably infer that he is a patient, or if a reporter is                     using commodity servers, can scale to millions of users and
+                  communicating with a government employee, that employee                              tens of thousands of messages per second. At the same time,
+                      ∗David and Jelle contributed equally to this work.                               Vuvuzela can provide guarantees at a small scale, without the
+                                                                                                       need for a large anonymity set: even if just two users are using
+                                                                                                       the system, an adversary will not be able to tell whether the
+                  Permission to make digital or hard copies of part or all of this work for            two users are talking to each other.
+                  personal or classroom use is granted without fee provided that copies are not           Vuvuzela works by routing user messages through a chain
+                  madeordistributed for proift or commercial advantage and that copies bear
+                  this notice and the full citation on the ifrst page. Copyrights for third-party      of servers, as shown in Figure 1, where each of the servers
+                  components of this work must be honored. For all other uses, contact the             adds cover traiffc to mask the communication patterns of users.
+                  owner/author.                                                                        Unlike prior systems, Vuvuzela’s design enables cover traiffc
+                  Copyright is held by the owner/author(s).
+                  SOSP’15, Oct. 4±7, 2015, Monterey, California, USA.                                     1Vuvuzela cannot hide the fact that a user is connected to Vuvuzela’s
+                  ACM978-1-4503-3834-9/15/10.                                                          network, but we expect that users will simply run the Vuvuzela client in the
+                  http://dx.doi.org/10.1145/2815400.2815417                                            background at all times to avoid revealing the timing of their conversations.
+                                                                                                   1
+                                                    Chain of Vuvuzela servers                      messages, the adversary’s conifdence about any given suspi-
+                                  Alice            (only one must be trusted)                      cion (e.g., whether Alice and Bob are talking) remains within
+                                                                                                   2×ofwhatitwasbeforetheadversary monitored Vuvuzela.
+                                                                                                      Toevaluate Vuvuzela, we implemented a prototype in Go
+                                  Bob
+                                                                                                   onseveral commodity servers (36-core VMs on EC2). Results
+                                 Charlie                  Adversary that observes                  show that Vuvuzela can support 1 million users exchanging
+                                                          all network traﬃc                        text messages (up to 240 bytes each) with an end-to-end la-
+                 Figure 1: Vuvuzela’s overall architecture. The Vuvuzela network consists of       tency of 37 seconds, achieving a throughput of 68,000 mes-
+                 a chain of servers, at least one of which is assumed to be trustworthy.           sages/sec, with the privacy level described in the previous
+                 to scale to millions of users, and allows us to prove strong                      paragraph. The cover traiffc needed for this level of privacy is
+                 guarantees about the level of privacy provided by cover traiffc.                  equivalent to about 1.2 million active users. More importantly,
+                 Weachievethis using two key techniques.                                           the cover traiffc is independent of the number of active users,
+                    First, Vuvuzela’s protocols are carefully structured to reveal                 which helps Vuvuzela scale up well. For instance, scaling up
+                 only a small, well-deifned set of observable variables to an                      to 2 million users increases the latency from 37 to 55 seconds.
+                 adversary. For instance, Vuvuzela’s conversation protocol,                           Vuvuzela’s results come at a non-trivial bandwidth cost. In
+                 used for sending messages, exposes just two variables: the                        the above conifguration, clients use an average of 12 KB/sec
+                 total number of users engaged in a conversation, and the total                    (adding up to 30 GB over a month of continuous use, which
+                 numberofusers not engaged in one. It does not reveal which                        maybehighfor a mobile phone with metered data service).
+                 users are in each group. This is signiifcantly smaller than the                   Servers use an average of 166 MB/sec, and Vuvuzela also
+                 numberofvariables exposed by previous systems, and enables                        requires an untrusted CDN or BitTorrent-like system to dis-
+                 Vuvuzela to focus on minimizing the useful information that                       tribute public dialing information to users (12 KB/sec per user,
+                 an adversary can learn from these variables.                                      or 12 GB/sec in aggregate). Nonetheless, Vuvuzela is the ifrst
+                    Second, Vuvuzela adopts ideas from differential pri-                           system to achieve private communication at this scale.
+                 vacy [18] to state precise privacy guarantees, and to bound                          In summary, the contributions of this paper are:
+                 information leakage over time by adding noise to the observ-                       • Anewapproachtohidingmetadatainmessagingsystems,
+                 able variables with cover traiffc. Vuvuzela ensures that any                          by minimizing the number of observable variables and
+                 observation that an adversary can perform will be ªalmost                             applying differential privacy techniques.
+                 independentº of whether some user is active or not,2 which
+                 meansthat the adversary cannot learn who, if anyone, a user                        • Thedesign of Vuvuzela, the ifrst private messaging system
+                 is talking to. Somewhat counter-intuitively, results from differ-                     that can hide metadatawhilescalingto2millionconversing
+                 ential privacy show that the amount of cover traiffc needed is                        users (which is about 100× higher than prior systems).
+                 constantÐindependent of the number of usersÐand we ifnd                            • An analysis of the privacy provided by Vuvuzela and an
+                 that the amount is manageable in practice. Adding noise to                            evaluation of Vuvuzela’s performance and scalability.
+                 achieve differential privacy is tractable for the small number
+                 of variables exposed by Vuvuzela, but it was not feasible for                     2    Motivation and Goals
+                 prior systems that expose many distinct variables.                                Vuvuzela aims to provide point-to-point messaging between
+                    Vuvuzela’s design applies these techniques to build a com-                     users in a way that is private in the face of a strong adversary,
+                 plete messaging system that uses two protocols: an eiffcient                      whocanobserveandtamperwiththeentire network and all
+                 point-to-point conversation protocol, for exchanging messages                     but one of Vuvuzela’s servers. That is, an adversary should not
+                 between users that have agreed to communicate, and a more                         be able to distinguish between a scenario where two particular
+                 expensive dialing protocol for starting conversations.                            users are communicating, and a scenario where they are not,
+                    Vuvuzela’s privacy guarantees are expressed in terms of                        even after interfering with the system. This section lays out
+                 differential privacy, which can be thought of as ªplausible                       the motivation for Vuvuzela and its security properties.
+                 deniability.º Each time a user sends a message in Vuvuzela,
+                 an adversary may be able to infer a small amount of statistical                   2.1     Motivation
+                 informationÐe.g., based on what the adversary observed, it                        Togetabetter sense of why privacy is hard to provide under
+                 seems a bit more likely that Alice and Bob were talking. How-                     Vuvuzela’s strong adversary model, consider a system with
+                 ever, Vuvuzela ensures that even the total information, over                      only one server, which is fully trusted. Even in this system,
+                 manymessages exchanged by a user, still provides a strong                         achieving privacy is nontrivial. For example, suppose that the
+                 level of differential privacy. For instance, our typical conifgu-                 server operates in ifxed rounds, and each round, it ifrst collects
+                 ration ensures that, for a user who sends and receives 200,000                    messagesfromallclientsthatwishtosendone,andthensends
+                     2Moreprecisely, the probability of an observation when the user is active     each message to its recipient. Although the adversary cannot
+                 is at most eϵ times the probability of the same observation when the user is      immediately tell which sender was responsible for a given
+                 inactive plus δ, for some small ϵ and δ.                                          recipient’s message, he can still discover relevant information.
+                                                                                               2
+                                                                                                                  3
+                                                                                                        Alice).     One of the inputs represents the real actions taken
+                        Alice  Bob Charlie      Alice  Bob Charlie       Alice  Bob Charlie             by Alice (e.g., that she exchanged messages with Bob), while
+                                                                                                        the other input represents Alice’s hypothetical ªcover story,º
+                                                                                                        which is an alternative set of actions that Alice could claim to
+                                                                                                        havemade,andwhichshouldappearalmostasplausibleasher
+                                                                                                        real actions (e.g., that she never communicated with anyone,
+                            Vuvuzela                  Vuvuzela                Vuvuzela ???              or that she exchanged messages with Charlie). The function
+                  Figure 2: Vuvuzela’s security goal. An adversary must not be able to distin-           Mrepresents the observations made by the adversary after he
+                  guish between various possible worlds. In one world, Alice is communicating           performs whatever manipulation he wishes of the system.
+                  through Vuvuzela with Bob. In another, she is connected but not exchanging                Intuitively, the deifnition says that any set of observations
+                  messages with other users. In a third, she is communicating with Charlie.             byanadversary (the payload of network packets, the state of
+                  VuvuzelagivesAlicedifferential privacy: any event observed by the adversary           compromised servers, etc.) is almost as likely given Alice’s
+                  has roughly equal probability in all worlds.
+                  For instance, if the adversary suspects that Alice and Bob                            real actions as it is given some cover story for Alice. As a
+                  are communicating, he can temporarily block network traiffc                           result, regardless of what the adversary suspects Alice is doing
+                  from Alice, and see whether Bob stops receiving messages.                             (e.g., talking to a reporter from the Guardian), monitoring Vu-
+                                                                                                        vuzela provides only a limited improvement in the adversary’s
+                  Or, in our model of a strong adversary, he can block traiffc                                                                                ε
+                  fromall clients except for Alice and Bob, and see whether any                         certainty of that suspicion (bounded by e and δ).
+                  messages got exchanged when just they are online.                                         Vuvuzeladoesnotrequireuserstoexplicitly specify a cover
+                                                                                                        story; rather, the deifnition says that all user actions (both real
+                      Asdiscussed in §1, previous systems handle this problem                           and any possible ªcover storiesº) will look about the same to
+                  using mechanisms that limit scaling, such as broadcasting                             an adversary. This covers all information that an adversary
+                  all messages to all users [12, 36] or cryptographic schemes                           might learn about Alice’s communications: not only whether
+                  like PIR [34]. As a result, these systems are limited to a few                        she’s talking to Bob, but whether she’s communicating at all
+                  thousand users or a few hundred messages per second.                                  (or just running an idle client). This deifnition subsumes most
+                      In fact, due to the attacks above, any system that reveals                        other privacy guarantees that Alice might want in practice: dis-
+                  someinformation about the number of messages exchanged                                tinguishing whether she is talking to Bob or Charlie, whether
+                  is vulnerable to our adversary over many rounds, because                              she has ever talked to a particular 100-person group, etc.
+                  he can use attacks like blocking one of Alice and Bob and                                 Vuvuzela operates in rounds during which each user can
+                  seeing how that changes the number of exchanged messages.                             send and receive one message. Despite hiding a lot of in-
+                  Furthermore, in Vuvuzela, unlike in the simpler setting above,                        formation, Vuvuzela does allow an adversary to learn some
+                  wemustprotectnotonlyagainst a network adversary but all                               information each round. Thus, the degree of privacy depends
+                  but one of the servers being compromised. Our security goals                          onhowmanyroundsAliceparticipatedinÐor,moreprecisely,
+                  take this into account to protect each user over many rounds.                         on the number of rounds in which her actions differ from her
+                  2.2     Security goals                                                                potential cover stories. We discuss this in more detail in §6.
+                                                                                                        In practice, we usually conifgure Vuvuzela to provide ε = ln2
+                                                                                                                       −4
+                  Informally, the security deifnition we want is the following:                         and δ = 10        for 200,000 rounds, which means that even after
+                  for each user (call her Alice), the adversary should not be able                      Alice exchanges 200,000 messages, an adversary should be-
+                  to distinguish between any of Alice’s possible communication                          lieve that the likelihood of Alice’s cover story is within 2× of
+                  patterns, even after Alice exchanges many messages.                                   the likelihood of what she actually did (unless the adversary
+                      We make this deifnition precise using differential pri-                           gets lucky, with probability 10−4, and learns a bit more).
+                  vacy [17], which can be thought of as a formalization of                                  Vuvuzela cannot hide the fact that a user is connected to
+                  ªplausible deniability.º Differential privacy says that for any                       the system. To limit the information disclosed by the fact that
+                  observation Othattheadversarymightmakeofthesystem,the                                 Alice connects to Vuvuzela, we recommend that users run the
+                  probability of observing O should be similar regardless of Al-                        Vuvuzela client at all times. In principle, users are allowed
+                  ice’s communication pattern, as shown in Figure 2. Formally,                          to connect at any time, but if this correlates with information
+                  wedeifne differential privacy for Vuvuzela as:                                        they are trying to hide, Vuvuzela cannot help. For instance, if
+                                                                                                        Alice and Bob always start their Vuvuzela clients before their
+                  Deifnition       1.    A randomized algorithm M is (ε,δ)-                             daily chat, and then promptly shut down their clients after, an
+                  differentially private for adjacent inputs x and y if, for all                        adversary could infer that they are talking. On the other hand,
+                  sets of outcomes S, Pr[M(x) ∈ S] ≤ eε · Pr[M(y) ∈ S] + δ.                             if their Vuvuzela clients are running at all times, an adversary
+                                                                                                        cannot learn when or with whom they are talking.
+                      In our case, inputs x and y are the user actions (i.e., which                         3As we describe in §4, when two users are communicating through Vu-
+                  users are communicating). We consider two inputs adjacent if                          vuzela, each one is performing a message exchange, so it makes sense to talk
+                  they differ only in the messages exchanged by one user (say,                          about the message exchanges of one user.
+                                                                                                     3
+                  2.3     Threat model
+                  Vuvuzela’s design assumes an adversary who controls all but
+                  one of the Vuvuzela servers (users need not know which one),                                 Alice
+                  controls an arbitrary number of clients, and can monitor, block,
+                  delay, or inject traiffc on any network link. Two users, Alice
+                  and Bob, communicating through Vuvuzela should have their                                     Bob
+                  communication protected if their two clients, and any one
+                  server, are uncompromised. Since users will communicate
+                  over multiple rounds, we assume that the adversary may also                                 Charlie
+                  monitor and interfere with them over multiple rounds.
+                     Our cryptographic assumptions are standard. We assume                                 (1) Users access    (2) Honest server      (3) Adversary can’t tell 
+                  secure public and symmetric key encryption, key-exchange                                 dead drops          unlinks users from     who is talking to who 
+                  mechanisms, signature schemes and hash functions. We also                                                    dead drops and         by looking at dead 
+                  assume that the Vuvuzela servers’ public keys are known to                                                   adds cover traﬃc       drop access patterns
+                  all users, and that two users who wish to communicate know                                  Figure 3: Overview of Vuvuzela’s conversation protocol.
+                  each other’s public keys. Separate mechanisms are needed                           Whenaclientifrst connects to Vuvuzela, it starts by listening
+                  to let users discover each other’s keys, but we consider these                     for incoming calls through the dialing protocol. When the
+                  orthogonal to the private communication problem in this paper,                     client receives an incoming call, the user can choose to enter
+                  which is diiffcult even with these assumptions.4                                   into a conversation with the caller, which enables them to
+                     Wefurther assume that honest Vuvuzela clients and servers                       exchange messages. Conversely, one can dial another user,
+                  faithfully implement the Vuvuzela protocol, and that there is                      and preemptively enter into a conversation with that user, in
+                  nodataleakagethroughsidechannels. Ofcourse,someclients                             anticipation that user will reciprocate.
+                  and servers may be controlled by an adversary (in which case,                      3.1     Protocol mechanics
+                  they need not follow the protocol), but honest clients and
+                  servers are assumed to be running bug-free implementations.                        Vuvuzela’s two protocols communicate through dead drops:
+                     In terms of availability, Vuvuzela assumes that clients can                     virtual locations on Vuvuzela’s servers where one client de-
+                  misbehave, but that each server will handle requests properly.                     posits a message, and another client picks it up. Figure 3 gives
+                  Any server can mount a denial-of-service (DoS) attack by                           an overview of Vuvuzela’s dead-drop-based design. For ex-
+                  blocking messages. This is unavoidable given our assump-                           ample, to hold a conversation, two Vuvuzela clients agree on
+                  tions that the adversary can actively tamper with the network,                     a randomly chosen conversation dead drop for each message
+                  and that at least one server is honest (thus, messages cannot                      exchange. The two clients can now exchange messages by
+                  bypass any server). However, even if an adversary mounts a                         placing them in (and retrieving them from) this dead drop.
+                  DoSattack on Vuvuzela, the adversary would not learn any                           Deaddropsarenamedby128-bitIDs,sohonestclientsshould
+                  additional information (unless the users, as a result of the DoS                   never collide in the dead drops they choose.
+                  attack, switch to a less-secure chat protocol).                                       Similarly, each user (identiifed by the user’s public key) is
+                  3    Overview                                                                      assigned to an invitation dead drop, based on a hash of the
+                                                                                                     user’s public key. This dead drop is shared with other users.
+                  Tohelp understand Vuvuzela’s design, this section provides a                       Dialing a user thus requires placing a message into that user’s
+                  high-level overview of the system, and the next two sections                       invitation dead drop. Each user’s client periodically polls its
+                  will dive into the details of Vuvuzela’s protocols.                                invitation dead drop, and checks if any of the messages there
+                     Vuvuzela consists of a single chain of servers to which                         are for it. As we describe in §5, we will prevent an adversary
+                  clients connect to communicate. We assume that the chain                           from learning whether Alice is receiving invitations by adding
+                  of servers, along with each server’s public key, is known to                       cover traiffc to invitation dead drops.
+                  clients ahead of time; all clients use the same chain. Clients                        Vuvuzela’s dead drops are ephemeral, meaning they do not
+                  always connect to the ifrst server in the chain, which in turn                     persist over time. Instead, Vuvuzela works in synchronous
+                  connects to the second server, and so on.                                          rounds, each with a new set of dead drops. The ifrst server
+                     Vuvuzela clients participate in two protocols. The ifrst                        in Vuvuzela’s chain is responsible for coordinating the round,
+                  protocol, called the conversation protocol, allows a pair of                       by announcing the start of a round to clients and waiting a
+                  users to exchange messages, assuming that they both decided                        ifxed amount of time for clients to declare what dead drop
+                  to communicate with one another. The second protocol, called                       they want to access. The servers collect all of the requests in a
+                  dialing, allows one user to request a conversation with another.                   given round, perform the accesses requested by clients (e.g.,
+                     4 Because Vuvuzela does rely on cryptography, it only provides computa-         put a message into a dead drop, or get the contents of a dead
+                  tional differential privacy [27], although we do not include a full formalization  drop), and return the results to each client. There is no way to
+                  of such in this paper.                                                             access a dead drop once the corresponding round is over. If
+                                                                                                 4
+               a client temporarily goes olffine, it might be unable to send a        (1) Alice and     (2) Alice sends 
+               message in a particular round, or might miss a message meant           Bob agree on      “Hi, Bob!”                Adversary can 
+                                                                                      a dead drop  Alice                          see Alice and 
+               for it; Vuvuzela deals with these issues through retransmission        to use                                      Bob talking
+               at a higher level (in the client itself). Vuvuzela’s round-based                                                   (3) Dead drop 
+               designmakesitdiiffcultforanadversarytocorrelatedeaddrop                             Bob (4) Bob reads              holds message
+               accesses over time; for instance, the conversation protocol                              message
+               chooses a new pseudo-random dead drop for each round.                              Charlie
+               3.2   Achieving privacy                                                   write          (2b) Charlie sends 
+               Building on the round-based dead drop design, Vuvuzela                    read           message, but his 
+               achievesprivacythroughacombinationofconstant-bandwidth                                   partner isn’t here
+               protocols, mixnets, and cover traiffc, as illustrated in Figure 3. Figure 4: Strawman conversation protocol that does not hide information
+               In particular, Vuvuzela addresses three classes of attacks as      about which users accessed a given dead drop.
+               follows; we discuss these defenses in more detail in §4 and §5,    4    Conversation Protocol
+               and formally analyze the resulting privacy in §6.                  Tounderstand the design of Vuvuzela’s conversation protocol,
+               Network traiffc. To limit the information that an adversary        consider a strawman version of the protocol shown in Figure 4,
+               can learn by watching the network traiffc between Vuvuzela         whereusersaccessdeaddropsbysendingmessagestoasingle
+               clients and Vuvuzela servers, Vuvuzela encrypts all messages.      server controlled by an adversary. In this protocol, clients
+               Furthermore, Vuvuzela ensures that message sizes, and the          issue just one kind of requestÐa message exchangeÐwhich
+               rate at which messages are sent, are independent of user ac-       deposits a message into a dead drop, and returns the other
+               tivity (via padding, splitting, etc). Vuvuzela clients also send   message(if any) that was deposited into the same dead drop in
+               messages at a ifxed rate (queueing messages if the user types      that round. While it forms the basis of the Vuvuzela protocol,
+               too fast, or generating empty messages if the user has not         this strawman allows an adversary to observe three variables:
+               typed anything). One implication of this design is that there’s     1. Which users participated in each round.
+               a ifxed number of conversations that a client can participate in    2. Which users accessed each dead drop, which allows the
+               per round (in our prototype, we set this to one).                      adversary to link users to one another. (The adversary can
+               Anonymizingdeaddropaccesses. Dealingwithservercom-                     compromise the server storing the dead drops to see this.)
+               promises is a challenge in Vuvuzela. Dead drops are stored in       3. How many messages were successfully exchanged each
+               memoryonthelastserver in the chain, and all requests to this           round, which is equivalent to how many dead drops were
+               server are encrypted. However, we assume that any serverÐ              accessed twice in that round. This is a subset of the in-
+               including this last serverÐcould be compromised. This can              formation that an adversary can derive from the above
+               be problematic if an adversary can determine which pair of             variables, but we list it separately because hiding it re-
+               users accessed a given dead drop.                                      quires a different approach.
+                 To address this attack, Vuvuzela uses a mixnet approach.            Vuvuzela’s conversation protocol, shown in Algorithms 1
+               In particular, all requests are recursively encrypted under the    and 2, hides all but the last variable from the strawman design,
+               public key of each server in Vuvuzela’s chain. Each server is      and for the last variable, obscures it with enough cover traiffc
+               responsible for decrypting incoming requests, and randomly         to provide a high degree of privacy. The rest of this section
+               shulffing all of the requests in a round before forwarding them    describes how Vuvuzela achieves this.
+               to the next server. This design ensures that, if there is an
+               honest server in the chain, an adversary cannot ifgure out         4.1    Hiding variables
+              which incoming request corresponds to an outgoing request,          Hiding which users are active. To eliminate the variable of
+               and thus prevents an adversary with access to the dead drops       which users are participating in each round, all users always
+               onthe last server from learning which users accessed them.         perform an exchange, even if they have no partner. For exam-
+               Hidingdeaddropaccesscounts. Evenwithamixnet,anad-                  ple, in Figure 4, Charlie performs an exchange with a random
+              versary can still learn some information from just the number       dead drop. To make sure that all exchange requests look the
+               of dead drops that are accessed each round. For instance, an       same to an adversary, all messages are padded to the same
+               adversary might correlate the fact that a conversation seems       length and encrypted using an indistinguishable encryption
+               to stop every time either Alice’s or Bob’s network discon-         scheme, and the last Vuvuzela server returns an empty mes-
+               nects. To obscure this information, Vuvuzela servers add noise     sage when it receives only one exchange for a dead drop.
+               requestsÐrandomly generated requests that are indistinguish-
+               able from real user requestsÐto prevent statistical correlation    Randomizing dead drop IDs. If Alice and Bob were to al-
+               attacks. As we show later, techniques from differential privacy    ways use the same dead drop ID, then an adversary might
+               allow us to precisely quantify the resulting level of privacy.     correlate the fact that Alice and Bob are online with the fact
+                                                                               5
+                      Algorithm 1 Conversation round: client                                                                Algorithm 2 Conversation round: server
+                      Consider a user Alice, with public key pk                        and secret key sk             .       1. Collect and decrypt requests: Server i receives many requests
+                                                                                  alice                         alice
+                      Eachserver i, ranging from 1 to n, has a public key pki                            . Alice’s               of the form e = (pk ,Enc(s ,e                  )), either from clients or from
+                                                                                                   server                                           i          i         i   i+1
+                      client takes the following steps for each round r:                                                         the previous server in the chain. The server ifrst computes all the
+                                                                                                                                 shared secrets s = DH(ski                  , pk ), and then decrypts e            .
+                     1a. Compute dead drop and encrypt message (if Alice is in                                                                         i              server     i                              i+1
+                           an active conversation with user Bob, whose public key is                                         2. Generate cover traiffc: The server samples a random n and n
+                           pk     ): Using Diiffe-Hellman, compute a shared secret s                               =                                                                                            1         2
+                               bob                                                                           n+1                 from Laplace(µ,b) capped below at 0. Then, the server gener-
+                           DH(sk         , pk     ). The dead drop will be b = H(s                       , r).  Pad
+                                    alice     bob                                                    n+1                         ates ⌈n ⌉ individual accesses to random dead drops with random
+                           and encrypt Alice’s message m using nonce r and secret key s                                                    1
+                                                                                                                 n+1             requests, and ⌈n2/2⌉ pairs of accesses. These fake requests are
+                           to get e         = (b,Enc(s           , m)). If Alice has not typed in any
+                                      n+1                    n+1                                                                 added to the pool of requests for this round.
+                           message this round, m is the empty message.                                                     3a. Shulffe the requests and send them to the next server (servers
+                     1b. Constructfakerequest(ifAliceisnotinanactiveconversation):                                               i < n): The server computes a permutation π for this round,
+                           Generate a random public key pkrand, and let m be the empty                                           shulffes all the requests according to π, and sends them to the
+                           message. Compute shared secret sn+1, dead drop b, and resulting                                       next server. After the next server returns the results, the server
+                           ciphertext e         as above, with pk             instead of pk         .                                                                                                         −1
+                                           n+1                           rand                   bob                              unshulffes them by applying the inverse permutation π .
+                      2. Onion wrap the request and send it to the servers: Alice’s                                        3b. Process all requests and dead drops (server i = n): The last
+                           client encrypts the request for each server in the chain. Encryption                                  server matches up all the accesses to each dead drop. For each
+                           happens in reverse, from server n to server 1, as server 1 will                                       pair of exchanges on the same dead drop, the server exchanges
+                           be the ifrst to decrypt the request. For each server i, generate                                      the contents of the requests and returns those.
+                           a temporary keypair (pk , sk ). Then, re-encrypt e                          with s =
+                                                              i    i                               i+1          i            4. Encrypt results and return them: Each resulting message e′
+                           DH(sk,pki            ) to get e = (pk ,Enc(s ,e              )).                                                                                                                             i+1
+                                    i     server            i         i          i   i+1                                                                   ′                ′
+                                                                                                                                 gets encrypted to e = Enc(si,e                 ), and all messages get returned.
+                      3. Receivetheresultfromtheserversandunwrapit: Aftersend-                                                                             i                i+1
+                           ing e to server 1, Alice’s client gets back e′. If she is not in an
+                                  1                                                      1                                  permutation. Sinceobtainingr requireseveryservertodecrypt
+                           active conversation, the result is irrelevant (it is an encryption
+                           of an empty message). If she is in an active conversation with                                   theonion,thismeansthatatleastoneserverwillshulfferalong
+                                                                                    ′                    ′                  with all other requests in the same round (since we assume
+                           Bob, Alice’s client decrypts the layers: e                    ←Dec(si,e ). After
+                                                                                    i+1                  i
+                                             ′
+                           decrypting e           and unpadding the message, Alice’s client can                             one server is honest and following the protocol).
+                                             n+1
+                           display the message Bob sent her (if it’s not the empty message).                                    This provides a strong degree of security. More precisely,
+                                                                                                                            if the honest server is the last one, then the adversary has no
+                      that a particular dead drop is active. To ensure that an adver-                                       visibility into which dead drops are being accessed by users. If
+                      sary cannot learn anything from the dead drops IDs accessed                                           the honest server is one of the mixing servers (i.e., not the last
+                      each round, Vuvuzela clients use a cryptographically secure                                           server), the adversary cannot correlate the requests going into
+                      pseudo-random number generator to generate a dead drop ID                                             the honest server with the ones coming out, as the adversary is
+                      each round based on a shared secret and the round number.                                             assumed not to have that server’s private key. Consequently, a
+                      (Twousers generate their shared secret based on their public                                          user cannot be linked to their dead drop requests after mixing.
+                      keys.) This ensures that an adversary cannot learn any in-                                                After processing the exchanges, the results get passed back
+                      formation from the dead drop IDs being accessed in a given                                            through the chain in reverse. Each server encrypts each result
+                      round, and cannot correlate the dead drop IDs across rounds.                                          with the temporary key that was left for it on the way in, ap-
+                      Unlinkingusersfromrequests. Toeliminatetheobservable                                                  plies the shulffing permutation in reverse, and sends it back to
+                      connection between the sender of a message, the dead drop                                             the previous server in the chain, or the original user for the ifrst
+                      that the message is placed in, and the eventual recipient of                                          server in the chain (Algorithm 2). Again, Vuvuzela’s assump-
+                      the message, Vuvuzela employs a mixnet design. To make                                                tion of at least one honest server prevents an adversary from
+                      sure that exchange requests get mixed, each client encrypts                                           linking any result to the corresponding dead drop exchange.
+                      their request with the public key of each server. If there are                                        4.2       Obscuring the number of messages exchanged
+                      three servers, with public keys pk1, pk2, and pk3, then a user                                        Atifrst glance, it might seem as if the mixnet already provides
+                                                                                                          5
+                      encrypts their request r to form Epk (Epk (Epk (r))).                                   This
+                                                                                1       2       3                           strong privacy guarantees. Every round, each user picks a
+                      onion construction ensures that the request r can be decrypted                                        randomdeaddrop, sends an indistinguishable request, and the
+                      onlyif each server removes its encryption layer in turn. Within                                       protocol ensures the adversary cannot tie the user to the dead
+                      each server’s layer of encryption, the user also includes a                                           drop that was accessed. How is this protocol insecure?
+                      temporary key for that server to use to encrypt the user’s                                                Theproblemlies in the one remaining observable variable:
+                      result on the way back, as shown in Algorithm 1. Each server                                          the histogram of dead drop access counts. While the dead drop
+                      waits for all of the round’s requests to come in, decrypts its                                        IDs and dead drop contents are all indistinguishable from our
+                      layer of encryption, and shulffes all the requests with a random                                      adversary’s perspective, some dead drops still look different.
+                          5Of course, r’s contents is also encrypted with the recipient’s key.                              For example, in Figure 4, one dead drop is accessed twice in
+                                                                                                                        6
+                  a round, while another dead drop is accessed just once. As                          noise. This meets our security goal, which is to prevent an
+                  wedescribed in §2.1, this can provide valuable information by                       adversaryfromlearninginformationaboutasingleindividual.
+                  exposing the number of messages exchanged.
+                     Oneattack possible with a mixnet design involves the ad-                         5     Dialing Protocol
+                  versary controlling, for example, the ifrst and third Vuvuzela                      Vuvuzela’s conversation protocol is useful for pairs of users
+                  servers. Suppose the adversary wants to know whether Alice                          that have agreed to talk to each other. However, users need a
+                  and Bob are communicating. To ifgure this out, he collects                          waytostart conversations with new partners or restart conver-
+                  requests from all users at the ifrst server, but then throws away                   sations with previous partners (users can have a ifxed number
+                  all requests except those from Alice and Bob. Then, he passes                       of conversations per round, so a user may end one conversa-
+                  these requests to the second server. The second server will                         tion to make room for another). This is handled by Vuvuzela’s
+                  mixtherequestsandsendthemtothethirdserver. Iftheadver-                              dialing protocol. We expect that users use dialing each time
+                  sary controls the third server, he can now ifgure out whether                       they want to start a new conversation with a partner, even if
+                  Alice and Bob are talking! Speciifcally, if Alice and Bob are                       they have talked to this partner before (but have since stopped
+                  communicating, the third server will see two exchanges for                          exchanging messages through the conversation protocol).
+                  the same dead drop; otherwise, it will not.                                            In principle, combining the conversation and dialing pro-
+                     An adversary who might not be willing to perform such                            tocols could improve privacy, by making conversation and
+                  invasive attacks could still learn a lot from dead drop access                      dialing requests indistinguishable from one another. However,
+                  patterns. For example, the adversary can simply wait for Alice                      as we show in the rest of this section, dialing has signiifcantly
+                  to go olffine, and look at the difference in dead drop access                       different message size requirements, which led to our decision
+                  counts between rounds. If the number of dead drops with two                         to expose two distinct protocols in Vuvuzela.
+                  exchanges decreases, the adversary can infer that Alice was
+                  probably talking to someone in the previous round.                                  5.1     Overview
+                     These attacks demonstrate that even a small amount of                            In Vuvuzela’s dialing protocol, a user can send an invitation
+                  observable information can be valuable. Luckily, we can                             to talk to another user identiifed by a long-term public key.
+                  completely describe the variables observable to an adversary                        Theinvitation itself consists of the sender’s public key. Then,
+                  with two numbers: the number of dead drops that had one                             the two users can derive a shared secret from their keys using
+                  exchange request, and the number of dead drops that had two                         Diiffe-Hellman and use the conversation protocol to chat. The
+                  exchange requests. Beyond their number of accesses, the dead                        challenge Vuvuzela’s dialing protocol addresses is, once again,
+                                                                             6
+                  drops are cryptographically indistinguishable.                                      to reveal as few variables to an adversary as possible, and to
+                     Tohidetheselast two variables, each server generates cover                       add the right amount of noise to those variables.
+                  traiffc requests that look like accesses to random dead drops.                         Unliketheconversationprotocol,dialingcannotuserandom
+                  Theserverdrawstwosamples,n1 andn2,fromthedistribution                               dead drop IDs, because users do not know which other users
+                  max(0,Laplace(µ,b)), and adds ⌈n ⌉ requests that each access
+                                                              1                                       may wish to dial them. Instead, the dialing protocol uses a
+                  a dead drop once, and ⌈n2/2⌉ pairs of requests that access                          numberoflarge invitation dead drops, as shown in Figure 5.
+                  the same dead drop. The server shulffes these requests along                        Each such dead drop receives all invitations for a ifxed set
+                  with the real ones before passing them to the next server, and                      of public keys; with m invitation dead drops, public key pk’s
+                  removes them when results come back. §6 explains why we                             invitations are stored in dead drop H(pk) mod m, where H is
+                  chose this distribution, and explains how to set µ and b.                           a standard cryptographic hash function. Each user downloads
+                     Cover traiffc adds random noise to the dead drop access                          all invitations from their dead drop (including noise invitations
+                  counts at the last server. As a result, an adversary will no                        added as cover traiffc) and tries to decrypt every invitation to
+                  longer learn much by throwing away all requests except those                        ifnd any that are meant for them. If a user wishes to accept
+                  fromAliceandBob,andanadversarywillalsonolongerlearn                                 a sender’s invitation, the user simply starts the conversation
+                  muchwhenAlicegoesolffine, as the cover traiffc hides those                                                                                7
+                                                                                                      protocol based on that sender’s public key.
+                  valuable small changes in the access counts.                                           Similar to the conversation protocol, Vuvuzela hides three
+                     Although cover traiffc hides the exact number of dead drops                      sets of variables from an adversary:
+                  accessed once or twice, an adversary can still tell roughly how                      1. Which users participated in the protocol each round?
+                  many people are talking, by looking at the number of dead                            2. What dead drop did some sender add an invitation to?
+                  drops accessed twice and subtracting the average amount of
+                                                                                                       3. Given a dead drop, how many invitations are in it (since
+                     6It is possible for a dead drop to get more than two exchanges if an adver-           the adversary can link recipients to dead drop IDs)?
+                  sary issues many exchanges for a dead drop. However, uncompromised users
+                  choose random dead drops, making the probability of a collision negligible.            7 To tie the sender’s public key to an identity, the Vuvuzela client software
+                  Thus, we focus on dead drop access patterns of uncompromised users; the             can use either manually entered out-of-band veriifed public keys, or a local
+                  adversary already knows the accesses by compromised users.                          copy of a public database of keys such as a PGP key server.
+                                                                                                  7
+                                                 (3) Users retrieve their                                        on the number of invitations in dead drop H(pkalice) mod m.
+                                                 invitations directly                          1                 Onecrucial difference from the conversation protocol is that
+                                                                                                                 an adversary can observe the size of the invitation dead drop
+                                                                                               2                 based on the sizes of responses (or simply by asking to down-
+                               Alice                                                           3                 load it, since invitation dead drops are shared by many users).
+                                                                                               4                 Thus, every server (including the last one) must add a random
+                                                                                                                 numberofnoise invitations to every invitation dead drop.
+                                Bob
+                                                                                               5                    Like in conversations, each server adds noise drawn from a
+                              Charlie                                                          6                 truncated Laplace distribution ⌈max(0,Laplace(µ,b))⌉ to each
+                                                                                                                 invitation dead drop. The parameters µ and b can be different
+                           (1) Users send                              (2) Honest server mixes                   from the conversation protocol, as we discuss in §6.
+                           invitations                                 and adds cover traﬃc                      5.4     Tuningthenumberofdeaddrops
+                                  Figure 5: Overview of Vuvuzela’s dialing protocol.                             In the dialing protocol, the amount of noise that needs to be
+                       As in the conversation protocol, Vuvuzela hides the ifrst                                 added to each invitation dead drop turns out to be constant,
+                    set of variables using fake invitations, the second set using a                              based only on the desired security parameters and not on the
+                    mixnet, and the third set by adding cover traiffc.                                           number of users. However, the number of invitation dead
+                       However,therearethreeimportantdifferences from the con-                                   drops, m, presents a trade-off between the amount of cover
+                    versation protocol. First, Vuvuzela does not hide which dead                                 traiffc that will be generated by the servers and the amount of
+                    drop a client downloads; this is because Vuvuzela assumes                                    data that will be downloaded by clients.
+                    the user’s public key is well known, and thus the adversary                                     Tostrikeabalancebetweenthesefactors,weproposesetting
+                    knowsthe client’s invitation dead drop. Second, the responses                                msothat each dead drop has roughly equal amounts of real
+                    are variable length (since there can be a varying number of                                  invitations and noise. In particular, suppose that the average
+                    invitations in a dead drop). Third, the observable variable                                  noise per dead drop required by our security parameters is
+                    is now the number of invitations in a dead drop, rather than                                 µ, and that there are n users, of which a fraction f send real
+                    simply the histogram of dead drop access counts.                                             invitations each round. Then Vuvuzela can set m = nf/µ. This
+                       Eventhoughthe dialing protocol has more observable state                                  ensures that each dead drop has roughly µ real invitations and
+                    that needs noising, we show that the noise required is man-                                  µnoise invitations, and that the overall processing load on the
+                    ageable because invitations are smaller and less frequent than                               servers is only 2× the load of the real invitations.
+                    conversation messages. By carefully choosing the number of                                      Thevalueofmispurelyanoptimization: regardless of m,
+                    dead drops, Vuvuzela can also make the total noise propor-                                   each user is protected by the level of noise, µ, added to their
+                    tional to the number of actual invitations; each client needs to                             invitation dead drop. Thus, the last server (which hosts the
+                    download just one dead drop worth of noise.                                                  invitation dead drops) can compute the optimal value of m as
+                    5.2      Unlinking senders from invitations                                                  above, and propose this value of m for upcoming rounds to
+                                                                                                                 other servers (which have to generate noise for each of the m
+                    Like conversations, dialing in Vuvuzela take place in rounds.                                invitation dead drops). The ifrst server then informs clients of
+                    Our prototype starts a new dialing round every 10 minutes,                                   the value of m for a given dialing round.
+                    whichtranslates into the latency of starting a new conversation.                             5.5     Downloadinginvitations
+                       For each round, the Vuvuzela servers ifx a number m of
+                    invitation dead drops to create (§5.4 describes how to best set                              In Vuvuzela’s dialing protocol, each dead drop contains a large
+                    m). Then, each client chooses an invitation dead drop (e.g.,                                 amount of data (on the order of megabytes, as we show in §8),
+                    the dead drop of a friend that the user wants to communicate                                 andeachdeaddropisdownloadedbyalargenumberofclients
+                    with), and sends an invitation to it. If a user does not want                                whosepublic keys map to that dead drop ID. This traiffc can
+                    to start a conversation in a given round, the client writes into                             overwhelm Vuvuzela’s servers, but at the same time, requests
+                    a special no-op dead drop that is not used by any recipient.                                 for downloading invitations do not need to be routed through
+                    Each invitation consists of the sender’s public key, a nonce,                                Vuvuzela’s servers, since they do not need to be mixed or
+                    and a MAC, all encrypted with the recipient’s public key. An                                 noised. Thus, we envision that Vuvuzela could use a CDN or
+                    invitation for a recipient with public key pk is placed in dead                              BitTorrent-like design to distribute the contents of invitation
+                    drop H(pk) mod m. Invitations are also onion-encrypted and                                   dead drops to clients. However, we have not implemented this
+                    shulffed, so that they are unlinked from their sender.                                       in our prototype so far, so we avoid further speculating about
+                    5.3      Hidingthenumberofinvitationsperdeaddrop                                             the detailed design of this extension.
+                    Toachieve differential privacy, Vuvuzela must mask the num-                                  6     Analysis
+                    berofinvitationsineachinvitationdeaddrop;otherwise,anad-                                     In this section, we analyze how much privacy a given level of
+                    versary could infer whether people are talking to Alice, based                               noise provides in Vuvuzela. We start by analyzing one round
+                                                                                                             8
+                 of the conversation protocol, then expand to multiple rounds                                                              Alice’s real action
+                 andtodialing. Wealsocomputethenoiserequiredforrealistic                                                         Idle     Conversation     Conversation
+                 security parameters.                                                                                                        with b            with x
+                                                                                                  s                     Idle     0,0         −2,+1              0,0
+                 6.1    Observable variables                                                        storyConversation with b    +2,−1          0,0             +2,−1
+                                                                                                  Alice’erConversation with c   +2,−1          0,0             +2,−1
+                 Recall from §2.2 that our goal is to provide (ε,δ)-differential                    v  Conversation with x       0,0         −2,+1              0,0
+                                                                                                    co  Conversation with y      0,0         −2,+1              0,0
+                 privacy, where every event observed by our adversary is nearly
+                 equally likely if we change the actions of one user.                           Figure 6: Difference in the number of dead drops with one access (∆m ) and
+                                                                                                                                                                   1
+                                                                                                two accesses (∆m ) between a user’s (call her Alice) real action and her cover
+                    To understand what observations an adversary can make                                       2
+                                                                                                story, shown as ∆m ,∆m in each table entry. b and c denote distinct other
+                 from one round, consider the client and server pseudocode                                         1    2
+                 shown in Algorithms 1 and 2. The client sends a ifxed-size                     users in a conversation with Alice. x and y denote distinct other users not in a
+                 request regardless of who the user is communicating with,                      conversation with Alice.
+                 and the request is encrypted in an onion, using fresh Diiffe-                  adversary (which might use arbitrary dead drop IDs), since
+                 Hellman keys exchanged with each of the servers’ public                        their contents gives the adversary no additional information.
+                 keys. The client also receives a ifxed-size response from the                     Thus, the only variables the adversary can see are the set
+                 servers, similarly encrypted in an onion with the same keys.                   of users connected to the system, the number of dead drops
+                 Assuming that our encryption scheme is cryptographically                       that are accessed twice, and the number of dead drops that are
+                 secure, an adversary cannot learn anything from these requests                 accessed once. We now show that, based on these observable
+                 and responses (except for the set of client machines that are                  variables, the protocol can be made (ε,δ)-differentially private.
+                 connected to Vuvuzela), unless the adversary has also compro-                  6.2    Oneroundofconversations
+                 mised some of the servers.
+                    Suppose an adversary compromises all servers except the                     Let m and m be the number of dead drops that are accessed
+                 last server (which is responsible for storing the dead drops). In                     1        2
+                                                                                                once and twice in a given round, respectively. Figure 6 shows
+                 this case, the adversary learns no information. This is because                howthedifference between the real actions of a user (call her
+                 the adversary cannot decrypt the last layer of the onion in                    Alice) and her cover story for that round would affect m and
+                 the requests or responses (since the adversary does not have                                                                                      1
+                                                                                                m . The columns represent what Alice really did that round:
+                 the key of the last server), and consequently, all requests and                  2
+                                                                                                she either (1) was idle, (2) performed a dead drop exchange
+                 responses are indistinguishable, owing to their ifxed size.                    with some user b who was likewise doing an exchange with
+                    Suppose instead that an adversary compromises the last                      Alice, or (3) performed an exchange with some user x who did
+                 server. Then by our assumption, there must exist at least one                  not reciprocate the exchange. The rows describe her possible
+                 honest server, which is not the last server. For the purposes of               cover story: she (1) was idle, (2) exchanged messages with
+                 our security proof, we rely on this honest server to perform                   either the same user b or a different user c who reciprocated
+                 twofunctions: generating cover traiffc (server step 2) and shuf-               the exchange, or (3) did an exchange with the same user x or
+                 lfing the requests and responses (server step 3a). Since the                   a different user y who did not reciprocate. In all cases, m is
+                 honest server shulffes the responses, and since our encryption                                                                                      1
+                                                                                                affected by at most 2 and m2 by at most 1.
+                 scheme is secure, once the responses pass through the hon-                        Wenowshowthat the noise added to m1 and m2 in §4.2,
+                 est server, they become indistinguishable to any adversaries                   which was generated with Laplace distributions capped below
+                 that have compromised the subsequent (earlier in the chain)                    at 0, provides differential privacy.
+                 servers. However, requests may provide the adversary with
+                 someinformation, as we now discuss.                                            Theorem 1. Consider the algorithm M that adds noise
+                    Theissue is that the adversary may have compromised all                     ⌈max(0,Laplace(µ,b))⌉ to m and ⌈max(0,Laplace(µ, b))⌉ to
+                 of the subsequent servers in Vuvuzela’s chain, and thus may                                                      1                           2 2
+                                                                                                m . Then M is (ε,δ)-differentially private with respect to
+                                                                                                  2
+                 be able to trace each request. The adversary does not know                     changes of up to 2 in m and 1 in m , for ε = 4 and
+                                                                                                                              1                 2               b
+                 whosenteachrequest (due to shulffing), but we must consider                    δ = exp 2−µ .
+                 what information can be learned from the request itself. The                               b
+                 request’s message payload is encrypted, and thus reveals no                    Proof. Given in Appendix A.                                            □
+                 information. The dead drop ID is chosen at random, and is not
+                 reused across rounds, so the only possible information that the
+                 adversary learns is when the dead drop IDs from two different                     This theorem gives ε and δ in terms of the parameters µ and
+                 requests are equal. Since the dead drop ID space is large (128                 b of our noise, but we can also use it to compute the µ and b
+                 bits), legitimate users will almost never choose the same dead                 needed for a target level of privacy:
+                 drop IDs by accident; two users choose the same dead drop
+                 ID only if they are in an active conversation. Without loss                                        b = 4/ε         µ = 2− 4lnδ                       (1)
+                 of generality, we can ignore any requests generated by the                                                                     ε
+                                                                                            9
+               6.3   Multiple rounds of conversations                                  5                              3e-4
+               Adversaries will try to learn information about users across            4
+               multiple rounds of communication, possibly perturbing the                                              2e-4
+               system each round (e.g., knocking Alice olffine) based on ob-           3
+               servations in earlier ones. This scenario is known as adaptive       eε'                           δ'
+                                                                                       2                              1e-4
+               composition in the differential privacy literature. Fortunately,        1
+               differential privacy provides a bound on ε and δ after k rounds
+               of composition, with the property that the average amount of            0                                 0
+               noise (i.e., µ) needed for a given ε and δ grows only with √k:         10,000    100,000      1M         10,000    100,000     1M
+                                                                                                   k                                 k
+               Theorem 2. Consider the algorithm M that adds noise                    µ = 150,000          µ = 300,000         µ = 450,000
+               ⌈max(0,Laplace(µ,b))⌉ to m and ⌈max(0,Laplace(µ, b))⌉ to
+                                             1                       2 2                              ′     ′
+                                                           ′  ′                    Figure 7: Values of ε and δ after k rounds conversations under the three
+               m over k Vuvuzela rounds. Then M is (ε ,δ )-differentially          noise functions considered in the text, with means µ =150K, 300K, and 450K.
+                 2
+                                                                                            ′
+                                                                                           ε           ′
+               private with respect to the actions of one user in these rounds,    Weplote insteadofε toletthe reader easily see the level of deniability.
+               with parameters                                                     This δ arises in Vuvuzela because we cannot ªsubtractº noise.
+                     ′    p                    ε              ′                                                                                   9
+                    ε =     2kln(1/d)ε+kε(e −1) and δ = kδ+d,                      However, a low δ ensures such events are extremely unlikely.
+                                                                                      Asaconcreteexample, consider an adversary Eve that be-
+                                                                   8
+               for any d > 0, where ε and δ are as in Theorem 1.                   lieves that two users, Alice and Bob, might be talking using
+               Proof. Direct application of Theorem 3.20 in [18].            □     Vuvuzela. In general, Eve will already have a certain prior
+                                                                                   belief that Alice and Bob are talking, say p        = 50%. We
+                                                                                                                                  prior
+                 Equation 1 shows that µ is proportional to 1/ε and only log-      can apply Bayes’ rule to compute Eve’s posterior belief that
+               arithmically dependent on b. Theorem 2 shows that, to support       the two users are talking based on any observation in Vuvuzela.
+                        ′      ′                                                   With ε = ln2, Eve’s posterior belief increases to 67%. With
+               a given ε and δ , the (per-round) δ must shrink proportionally
+               to k and the (per-round) ε must shrink proportionally to √k.        ε = ln3, it goes up to 75%. In any case, we see that observing
+               This means the per-round µ grows proportionally to √k.              Vuvuzela can aid Eve, but does not provide damning evidence
+                                                                                   even with high ε. If p     were smaller, Eve’s posterior proba-
+                 Although this theorem considers k rounds, it can also be                                 prior
+               applied in cases when the user was running the Vuvuzela             bility would increase by a larger factor, but not more than eε.
+               client for more than k rounds. In that case, Theorem 2 still        For example, if pprior = 1% and ε = ln3, it would increase to
+                           ′  ′                                                    3%,butthis probability is still small.
+               provides (ε ,δ )-differential privacy for any cover story that                                           ′      ′
+               differs from the user’s real actions in at most k rounds. This         Given this background, we plot ε and δ as functions of the
+               allows a user that is idle a signiifcant fraction of the time to    numberofroundsk for three different distributions of noise in
+                                                                                                                                  ′             ′
+               extend Vuvuzela’s privacy guarantees to many more rounds,           Figure 7, each chosen to provide acceptable ε = ln2 and δ =
+               by having the cover story match the real actions during idle        10−4 for varying k between tens and hundreds of thousands of
+               rounds.                                                             rounds. The distributions chosen were (µ = 150K,b = 7300),
+               6.4   Noise needed in practice                                      (µ = 300K,b = 13800), and (µ = 450K,b = 20000). µ is the
+                                                                                   mean of the Laplace distribution (i.e., the average noise per
+               Toset the level of noise (determined by µ and b) in practice,       server), and √2b is its standard deviation.
+               weneedtoknowthevaluesofεandδthatwillbeacceptable                       Wechose these distributions using Theorems 1 and 2 as
+               to users of an (ε,δ)-differentially private algorithm.                                                            −5
+                                                                                   follows. First, we set d in Theorem 2 to 10      in order to get
+                 In differential privacy, ε gives a multiplicative change in the   δ′ values close to this (neither ε′ nor δ′ is very sensitive to
+               probability of each event based on the user’s actions, while δ      d). Then, for each mean µ, we set b, the scale parameter, to
+               gives an additive change. Usually, ε is recommended to be set                 ′              ′       −4
+                                                                            −4     achieve ε = ln2 and δ = 10          for as large a value of k as
+               between 0.1 and ln3 [17], and δ should be small, e.g., 10      .                                         10
+                                                                                   possible, using a parameter sweep.      Weseethatinall cases,
+               Themultiplicative ε provides plausible deniability: any event       it is possible to support a fairly large number of rounds at
+               observed if, say, two speciifc users are talking has within         ε′ = ln2 and δ′ = 10−4: this number of rounds is 70,000 for
+                ε
+               e times the probability if they were doing something else           µ = 150K, 250,000 for µ = 300K, and 500,000 for µ = 450K.
+               (e.g., within 1.1× for ε = 0.1 and within 2× for ε = ln2), so       In addition, both ε′ and δ′ change smoothly with different k.
+               users always have a plausible ªcover story.º In contrast, δ cov-
+               ers events that might have zero probability under some actions         9 In a large population of suspected users, some individuals might have
+               but happen under others. For example, if the number of dead         metadata revealed under this deifnition. However, the extra risk per user
+               drops accessed twice is 0 in some rounds after adding noise,        is likely negligible compared to other security risks that whistleblowers or
+               the adversary will know for sure that no users communicated.        reporters already face, and it is fairly inexpensive to reduce δ (the average
+                                                                                   amountofnoise needed grows only logarithmically with 1/δ).
+                  8                                            ′     ′               10           ′                ′
+                   d is a free parameter that lets one trade off between ε and δ .      In general, δ grows with b and ε falls with it.
+                                                                                10
+                     5                                  3e-4                                  2,700 lines of code. The source code will be available at
+                     4                                                                        https://github.com/davidlazar/vuvuzela.
+                                                        2e-4                                     The most computationally expensive part of Vuvuzela’s
+                     3                                                                        implementation is the repeated use of Diiffe-Hellman in the
+                 eε'                                δ'                                        wrapping and unwrapping of encryption layers. Vuvuzela
+                     2                                  1e-4                                  must use new keys for each individual message, as otherwise
+                     1                                                                        the same key appearing twice would be a variable visible to
+                     0                                     0                                  an adversary. For performance, we use an optimized assembly
+                     1,000      4,000      16,000          1,000      4,000      16,000       implementation of Curve25519 from Go’s crypto library.
+                                   k                                     k                       There are a few differences between our prototype imple-
+                       µ = 8,000           µ = 13,000             µ = 20,000                  mentation and the design described in this paper. First, we
+                                      ′      ′                                                implement an additional entry server, whose job is to handle
+                 Figure 8: Values of ε and δ after k rounds dialing under the three noise     a large number of connections from clients, multiplex client
+                 functions considered in the text, with means µ=8K, 13K, and 20K.
+                    Finally, from Theorems 1 and 2, we can also derive how the                requests into a single round that’s sent to the chain of Vu-
+                 mean noise µ required to meet a given ε′ and δ′ scales with                  vuzela servers, and to demultiplex the results to individual
+                 each parameter. We see that:                                                 clients. The entry server is not trusted. Second, we have not
+                  • µincreases proportionally to √k.                                          yet implemented either the client-side retransmission logic, or
+                                                                                              the adaptive choice of the number of invitation dead drops (at
+                  • µincreases linearly with 1/ε′.                                            the scale we are operating Vuvuzela in our experiments, the
+                                                                 ′                            optimal numberofintroductiondeaddropsisone). Finally, we
+                  • µincreases proportionally to log(1/δ ).                                   have not implemented CDN- or BitTorrent-based distribution
+                  • µis independent of the total number of users.                             for the dialing protocol.
+                 6.5    Dialing protocol                                                      8     Evaluation
+                 In Vuvuzela’s dialing protocol, we need to add noise to every                Ourevaluation quantitatively answers the following questions:
+                 dialing dead drop because adversaries can distinguish between
+                 them. Nonetheless, the total amount of noise per second can                   • CanVuvuzelaservers support a large number of users and
+                 be smaller than in conversations, for three reasons:                             messages? (§8.2)
+                 1. Dialing rounds can be longer than conversation rounds,                     • DoesVuvuzelaprovide acceptable performance? (§8.3)
+                     say 10 minutes.                                                          8.1     Experimental setup
+                 2. Dialing is less common than conversation messages, de-                    Toanswertheabovequestions, we run a series of experiments
+                     creasing the values of k we might worry about.                           onAmazonEC2virtualmachines(VMs). Allserversusedare
+                 3. Invitations (just a public key) are shorter than messages.                c4.8xlargemachineswith36IntelXeonE5-2666v3CPU
+                    Theanalysis for dialing is similar to Theorems 1 and 2, ex-               cores, 60 GB of RAM, and 10 Gbps of network bandwidth.
+                 cept that modifying each user’s action in a round only changes               ThemachinesrunLinuxkernelversion 3.14 and Go 1.5.
+                 up to two dead drop counts by 1 each, which gives ε = 2 and                     Weusethe following parameters across our experiments.
+                            1−µ                                                 b           Ourchain consists of 3 Vuvuzela servers, each corresponding
+                 δ = 1 exp         . As a result, the number of noise messages is
+                      2        b                                            ′       ′         to one VM. Anadditional VMrunstheentryserver. Conversa-
+                 about half as large as in conversations for a given ε and δ . In             tion messagesare256byteslong(including16byteencryption
+                 addition, for dialing, k represents the number of invitations the            overhead). Invitations are 80 bytes long (including 48 bytes
+                 user participated in, which can likely be smaller (e.g., a user              of overhead). To ensure that clients are not the bottleneck, we
+                whotakes5calls per day only needs k = 1800 for one year).11
+                    Figure 8 plots ε′ and δ′ in dialing for different levels of               use an additional ifve VMs to simulate user clients, and we
+                 noise using the same methodology as Figure 7. We chose                       multiplex several Vuvuzela clients onto a single TCP connec-
+                 the parameters (µ=8000, b=500), (µ=13000, b=7700) and                        tion to the entry server, to avoid running out of source TCP
+                (µ=20000, b=1130), which let us cover 1200, 3500 and 8000                     port numbers. Every simulated user sends a message each
+                                                         ′               ′      −4            conversation round to another user (although Vuvuzela’s per-
+                 dialing rounds respectively with ε = ln2 and δ = 10              .           formance is the same regardless of whether users are actively
+                 7    Implementation                                                          communicating or are idle). Each dialing round, 5% of the
+                                                                                              users dial another user. Since we have not implemented a
+                Toevaluate Vuvuzela’s design, we implemented a prototype                      CDN/BitTorrent for downloading the dialing dead drops, only
+                 of Vuvuzela in Go. Our prototype consists of approximately                   100 clients fetch their dialing dead drop. This lets us estimate
+                   11If an adversary purposefully sends many invitations to the same user,    the dialing latency, and we extrapolate the bandwidth needed
+                 they will not count against this boundÐsince the invitations are sent by the for distributing the dialing dead drops to all clients. We pick
+                 adversary, they do not convey any new information about the user.            µ = 300,000 for the conversation protocol and µ = 13,000 for
+                                                                                          11
+               the dialing protocol. Finally, to not let noise affect the clar-           60 s
+               ity of the graphs, we conifgure servers to always add exactly          r s        µ=300,000
+                                                                                      o e 50 s   µ=200,000
+                                                                                      f g
+               µ noise, rather than sampling the Laplace distribution; this             a
+                                                                                      y s        µ=100,000
+                                                                                      c s
+               produces the same average results with less variance.                  n e 40 s
+                                                                                      e
+                                                                                      t m
+                                                                                      a  
+                                                                                      l n
+                 All our experiments run on servers in the same data center.            o 30 s
+                                                                                      d i
+               In an actual deployment, servers should run in different data          n t
+                                                                                      e a
+                                                                                      - s 20 s
+                                                                                      o r
+               centers so that no single operator controls all servers. Running       t e
+                                                                                      - v
+                                                                                      d n 10 s
+               in multiple data centers would increase the latency between            n o
+               servers, but network latency has little effect on Vuvuzela’s           E c
+                                                                                           0 s10        500,000       1M         1.5M         2M
+               performance, as each round is largely dominated by the CPU
+               cost of cryptography on the servers and by the bandwidth for                                  Number of online users
+               transferring all of the encrypted requests in a round.              Figure 9: Performance of Vuvuzela’s conversation protocol when varying the
+               8.2   Server performance                                            numberofusers online. Every user sends a message every round.
+               To evaluate whether Vuvuzela can support many users and                r   60 s   µ=13,000
+               messages, we measure the end-to-end latency and throughput             o   50 s
+                                                                                      f s
+                                                                                       
+               of Vuvuzela’s conversation and dialing protocols when faced            y n
+                                                                                      c o
+                                                                                      n i
+                                                                                      e t 40 s
+               with anywhere from ten users to two million users. With one            t a
+                                                                                        t
+                                                                                      a i
+                                                                                      l v
+               million users, our prototype achieves a throughput of approx-            n 30 s
+                                                                                      d i
+                                                                                      n  
+               imately 68,000 conversation messages per second. We then               e g
+                                                                                      - n 20 s
+                                                                                        i
+                                                                                      o l
+                                                                                      t a
+               evaluate the underlying costs behind Vuvuzela’s performance.           - i
+                                                                                      d d 10 s
+                                                                                      n
+               Conversation protocol. Figure 9 shows the total latency of             E
+               a conversation round, with the number of online users ranging               0 s10        500,000       1M         1.5M         2M
+               from ten users to two million users. The latency is end-to-end:                               Number of online users
+               it includes shulffing, generation of cover traiffc, encryption      Figure 10: Performance of Vuvuzela’s dialing protocol when varying the
+               and decryption, RPC overhead, and so forth, and is thus repre-      number of users online. 5% of the users dial someone every round. The
+               sentative of overall performance.                                   conversation protocol is running concurrently with µ=300,000.
+                 Our results show that Vuvuzela scales linearly with the           36-core machine can perform about 340,000 Curve25519
+               number of users and messages. As mentioned in §6, the               Diiffe-Hellman operations per second. In the conversation
+               cover traiffc required for Vuvuzela’s conversation protocol         protocol, with two million users, each server must perform one
+               is constant: the amount for ten users is the same as for two        Diiffe-Hellman operation for each of the 3.2 million messages.
+               million users. The baseline time to process cover traiffc can       Toavoid leaking information about a server’s permutation of
+               be seen with ten users (20 seconds end-to-end latency). Even        messages, one server cannot start processing a round until the
+               though there are only ten real users and messages, Vuvuzela         previous server ifnishes, so the best-case end-to-end conversa-
+               servers must process an entire round worth of requests at once,                                           6             5
+               so the latency is dominated by the noise requests introduced        tion round latency would be (3.2·10 ×3)/(3.4·10 ) ≈ 28 sec-
+               byVuvuzelaservers. Each server in the chain, except for the         onds. This shows that Vuvuzela’s full protocol (serialization,
+               last one, adds µ × 2 noise requests on average, for a total of      shulffing, cover traiffc generation, etc), is within 2× of the
+               1.2 million requests when there are no users. With 2 million        cost of the inevitable cryptographic operations. Vuvuzela’s
+               users, each adding one request, we get 3.2 million messages         dialing protocol is similarly close to the lower-bound cost of
+               on the right side of the graph, for an end-to-end latency of        the underlying cryptographic operations.
+               55 seconds (and a throughput of 84,000 messages/second).               Vuvuzela servers also require a signiifcant amount of band-
+               This demonstrates that Vuvuzela’s costs scale linearly with the     width. With 1M users, servers use an average of 166 MB/sec
+               numberofrequests processed.                                         (excluding invitation dead drop downloads). This is domi-
+                                                                                   nated by the total size of conversation messages (message
+               Dialing protocol. Figure 10 shows the end-to-end latency            exchange requests and responses) from real users and from
+               for Vuvuzela’s dialing protocol. Here, we have 5% of users          server-generated cover traiffc, with RPC and encoding over-
+               dialing another user each round, and the other 95% of users         head. Vuvuzela’s server bandwidth requirements are compara-
+               are not actively dialing (and thus their client sends a dialing     ble to any other messaging system with the same number of
+               request to the special idle dead drop). Like the conversation       users and messages (albeit where one server must be capable
+               protocol, the dialing protocol scales linearly, from 13 seconds     of processing all messages).
+               with ten users to 50 seconds with two million users.                Addingmorelogicalservers to the chain. Deployments of
+               Dominantcosts. Most of the CPU time on Vuvuzela servers             VuvuzelacanvarythenumberofVuvuzelaservers. Increasing
+               is spent wrapping and unwrapping of encryption layers. Each         the number of servers provides stronger security. On the other
+                                                                                12
+                                                                                             about 7 MB per round. With 10-minute rounds, a client uses
+                   r s  140 s                                                                an average of 12 KB/sec for downloading invitations. While
+                   o e
+                   f g
+                     a  120 s                                                                not insigniifcant, Vuvuzela’s design crucially avoids down-
+                   y s
+                   c s
+                   n e  100 s                                                                loading the noise invitations generated by the rest of the users
+                   e
+                   t m
+                   a  
+                   l n   80 s
+                     o                                                                       that are not dialing in a given round, since they are directed
+                   d i
+                   n t   60 s                                                                to a separate ªidleº invitation dead drop (in our example, this
+                   e a
+                   - s
+                   o r
+                   t e   40 s                                                                would be 950,000 more noise invitations).
+                   - v
+                   d n
+                   n o   20 s                                                                   Thecost for both protocols is independent of the number of
+                   E c                                                                       users, so that even with many millions of users, a single DSL
+                           0 s 1         2         3          4         5          6
+                                                                                             or 3G phone could keep up with the required tens of kilobytes
+                                           Number of servers in chain                        per second of bandwidth (although bandwidth charges may be
+                Figure 11: Performance of Vuvuzela’s conversation protocol when varying      prohibitive, depending on the user’s service agreement).
+                the number of servers with 1 million active users and µ=300,000.
+                hand, adding more servers increases end-to-end latency (since                9    Discussion and Limitations
+                each message must travel through more servers) and increases                 EventhoughVuvuzelaprovides strong guarantees regarding
+                the number of messages each server has to process each round                 the inferences an adversary can make about each user, the
+                (due to cover traiffc from each previous server). Figure 11                  systems still has limitations that require care.
+                showstotalend-to-endlatencyfordifferentnumbersofservers.
+                Performance scales roughly quadratically with the number of                  Bandwidthuse. Vuvuzela’s ifxed chain of servers enables a
+                servers in the chain. This is to be expected, since each of the              simple analysis of Vuvuzela’s privacy guarantees, but trans-
+                s servers must decrypt cover traiffc from all previous servers               lates into signiifcant bandwidth requirements for each server
+                in the chain, with O(s) work for all O(s) servers, leading to                (since every server must process every message). In future
+                     2
+                O(s ) scaling.                                                               work, we hope to explore a more Tor-like distributed design
+                8.3     Client requirements                                                  where the bandwidth costs are spread out over a larger net-
+                To evaluate whether Vuvuzela is practical for end users, we                  workofservers, without requiring that each message traverse
+                measure the latency and throughput achievable by a single                    every server. We expect the main challenges will be in coming
+                user, and also measure the bandwidth requirements that the                   up with a suitable security deifnition for this setting, and in
+                Vuvuzela client places on the user’s network connection.                     constructing a provable analysis of privacy.
+                Latency and throughput. In our analysis we assumed 10-                       Deploymentcosts. A signiifcant roadblock to a practical de-
+                minute dialing rounds, which means a client must wait on                     ployment of Vuvuzela is the bandwidth cost incurred by every
+                the order of 10 minutes to start a conversation. This makes                  server, as mentioned above. Using Amazon’s EC2 prices
+                Vuvuzela well-suited for slower-paced, e-mail-like, communi-                 as of September 2015, a Vuvuzela server would cost about
+                cation patterns where users queue up messages to send. We                    $10,000/month, dominated by bandwidth costs, although
+                could increase the frequency of dialing rounds (the servers                  bulk bandwidth prices may be about an order of magnitude
+                complete a dialing round in less than a minute), at the cost                 lower [19]. Relying on volunteers to run Vuvuzela servers
+                of increasing required client bandwidth. Conversations them-                 seems infeasible. On the other hand, if the cost of running
+                selves move fairly quickly, with sub-minute end-to-end laten-                Vuvuzela servers is amortized over 1M users, it comes out to
+                cies for 240-byte text messages, even with 2 million active                  less than $1 per year per user. Whether such a business model
+                users. Clients can pipeline conversation messages, sending                   would work in practice is outside of the scope of this paper.
+                a new message every round even before receiving responses                    Treating users as noise. Vuvuzela’s use of differential pri-
+                from previous rounds; in our experiment with 1M users, this                  vacy is conservative: to ensure privacy for two users, Alice
+                amounts to a throughput of 4 messages per minute per client.                 andBob,thatmightormightnotbecommunicating,Vuvuzela
+                Bandwidthusage. For the conversation protocol, each client                   assumes that the adversary might control (or know everything
+                sends and downloads a 256-byte message per round (tens of                    about) every other user in the system. This forces Vuvuzela
+                seconds). Thus, the bandwidth requirements for sending and                   to add a signiifcant amount of noise in order to mask the in-
+                receiving conversation messages are negligible.                              formation about whether Alice and Bob are communicating.
+                   Thedialing protocol is more expensive, as each client must                In a system with many users, it may be reasonable to assume
+                download an entire dead drop worth of invitations. With                      that some fraction of users are honest (i.e., the adversary does
+                µ = 13,000 and 3 servers, that comes out to about 39,000                     not know what they are doing), formalized with the help of
+                noise invitations, in addition to any real invitations (for in-              coupled-worlds privacy [3] or noiseless database privacy [5].
+                stance, 50,000 real invitations if there are 1M users and 5% of              This could allow Vuvuzela to achieve its security goals while
+                themaredialing any given round). This adds up to a total of                  adding less cover traiffc.
+                                                                                         13
+               PKIfordialing. Vuvuzela’s dialing protocol requires a pub-          Multiple conversations. To enable multiple concurrent con-
+               lic key infrastructure in two situations. First, to start a con-    versations, Vuvuzela clients can perform multiple conversation
+               versation, a user must know the public key of the other party.      protocol exchanges in each round. To ensure that the number
+               Looking up this key on-demand over the Internet via some            of exchanges does not disclose how many active conversa-
+               key server would disclose who the user is dialing, so Vuvuzela      tions a user has, the client should pick a maximum number
+               clients should store public keys for contacts ahead of time.        of conversations a priori (say, 5), and always send that many
+               Second, when receiving a call via the dialing protocol, the         conversation protocol exchange messages per round.
+               recipient needs to identify who is calling, based on the caller’s   10 RelatedWork
+               public key. Here, the caller can supply a certiifcate along with
+               the invitation, if the recipient does not already know the caller;  Secure messaging. Recent work has shown that secure mes-
+               this avoids the need for the recipient to contact a key server.     saging systems can provide end-to-end encryption at scale,
+               Forwardsecrecy. Vuvuzeladoesnotachieveforwardsecrecy                starting from systems such as OTR [6, 22], Axolotl [31], and
+               for metadata in the dialing protocol. This is because invita-       TextSecure [30], and now being deployed by WhatsApp [29].
+               tions are encrypted under the long-term public key of the           However, these systems encrypt only the content of the mes-
+               recipient, so an adversary who compromises a user’s private         sage; metadata about what users are communicating is still
+               key (and saves old invitations, which are publicly accessible)      observable to an adversary. For example, even Pond [25]
+               can decrypt all past invitations with the user’s private key to     explicitly states that it ªseeks to prevent leaking traiffc infor-
+               determine who called this user in the past. On the other hand,      mation against everyone except a global passive attackerº. In
+               Vuvuzela’s communication protocol provides forward secrecy          contrast, Vuvuzela is able to protect metadata even in the face
+               by choosing new server keys each round, and existing tech-          of such strong adversaries.
+               niques can achieve forward secrecy for message contents [31].       Anonymouscommunicationsystems. Anonymouscommu-
+                 It may be possible to achieve forward secrecy for dialing         nication has been studied since Chaum’s work on mixnets [9]
+               by rotating user public and private keys. One approach would        and DC-nets [8]. Unlike Vuvuzela, however, previous systems
+               be to rely on a more sophisticated PKI system that supports         donotsimultaneously provide both scalability and protection
+               rotation of user keys, although contacting an external PKI          against traiffc analysis.
+               requires care to avoid disclosing information about what users         Mixnet-style systems [9, 15, 20], Crowds [32], Freenet [11],
+               are communicating. Another approach would be to use a               and onion routing [16, 35] can scale to millions of users, but
+               forward-secure public-key encryption scheme [7].                    are amenable to traiffc analysis by a strong adversary. For
+                                                                                   example, an adversary may learn communication partners by
+               Messagesize. Vuvuzela’s ifxed message sizes are a good ift          passively observing traiffc at each node [13, 28] or by actively
+               for text communication, but they are not well-suited for trans-     delaying some users’ packets to see the effect on others [1].
+               ferring large ifles. Providing privacy for large ifle transfers is  In principle, cover traiffc can help defeat traiffc analysis, but
+               an interesting area for future work.                                it is diiffcult to determine how much cover traiffc is enough
+               Groupprivacy. Differential privacy makes guarantees about           (and the design of these systems it not amenable to reasoning
+                                                                                   about the privacy guarantees provided by cover traiffc); this is
+               individual users, but not about groups [18]. For example, if an     precisely the problem addressed by Vuvuzela.
+               adversary suspects that a group of 1,000 people communicate            Ontheother hand, systems with provably strong security
+               frequently with each other, he can block all other users from       guarantees have relied on mechanisms that scale quadratically
+               the system. If the adversary now observes a signiifcant number      in the number of users. Herbivore [21] and Dissent [36] form
+               of dead drops being accessed twice, it would conifrm his sus-       broadcast groups of up to 5,000 users each, which limits each
+               picion. However, he cannot distinguish whether any speciifc         user’s anonymity and requires signiifcant overhead to be used
+               individual in the isolated group is actually communicating.         for point-to-point communication (as each message is broad-
+               Denial of service attacks. As mentioned in §2.3, Vuvuzela’s         cast to all users in its group). Riposte [12] can scale anonymity
+               availability should be resilient to misbehaving usersÐe.g.,         sets to a few million users over many hours, but still relies
+               users that send many requests or open many connections.             onbroadcasts and limits writes to a few hundred per second.
+               Since all clients must communicate with Vuvuzela’s entry            Systems based on private information retrieval [10], such as
+               server, the entry server can mitigate client DoS attacks through    the Pynchon Gate [34], decrease the amount of data each user
+                                                                                                              2
+               existing approaches: requiring users to sign up for an account,     reads but still require O(n ) computation for n users.
+               requiring proof of an account on other systems (e.g., Face-         Covertraiffc. Severalmixnetandonionroutingsystemshave
+               book), proof-of-work, or even payment. Requiring the user           sought to make traiffc analysis more diiffcult using cover traf-
+               to identify themselves to the ifrst server does not weaken Vu-      ifc, i.e., fake traiffc on each communication link [4, 20], or
+               vuzela’s privacy guarantees since we assume the adversary           delaying messages [24]. However, it has been shown that all
+               already knows which users are using Vuvuzela.                       these schemes still reveal information after multiple rounds of
+                                                                                14
+               observation [26]. To add suiffcient noise to cover users for hun-    dead drop count m and N ∼ ⌈max(0,Laplace(µ, b))⌉ to m
+                                                                                                         1       2                      2 2         2
+               dreds of thousands of rounds of communication, one would             provides differential privacy. We begin by looking at the effect
+               need tens of thousands of noise messages per link. The key in-       of this form of noise on a single variable x, then examine m1
+               sight in Vuvuzela is to reduce the number of variables that an       and m together.
+                                                                                           2
+               adversary can observe, which subsequently allows Vuvuzela
+               to add adequate noise (enough to provably protect hundreds           Lemma3. Considerthealgorithm M(x) that adds noise N ∼
+               of thousands of message exchanges) with an acceptable cost.          ⌈max(0,Laplace(µ,b))⌉ to a value x ≥ 0. Then M is (ε,δ)-
+                                                                                    differentially private with respect to changes of up to t in x,
+               Differential privacy. Several authors have used a differential-      for parameters ε = t and δ = 1 expt−µ.
+               privacy-like approach to analyze existing anonymous com-                                  b          2       b
+               munication schemes. However, to our knowledge, none have             Proof. We will show the result for noise N′                    ∼
+               designed new schemes that minimize the amount of noise re-           max(0,Laplace(µ,b)) without the ceiling,            since   post-
+               quired, and none provide strong privacy over many rounds             processing the result of a differentially private function (in
+               with similar performance. One key insight in Vuvuzela is that        this case rounding it up) keeps it differentially private [18].
+               techniques used to ensure differential privacy, namely, adding          Consider x,y ≥ 0 such that |x−y| ≤ t, and let z = max(x,y).
+               Laplacenoise, can be applied in practice to messaging systems                                          ′          ε          ′
+               (as long as the systems minimize the number of observable            For any set T ⊆ (z,∞), Pr[x + N ∈ T] ≤ e Pr[y + N ∈ T] by
+                                                                                    properties of the Laplace distribution (Theorem 3.6 in [18]). In
+               variable, so that reasonable amounts of noise can protect users      particular, to reach values in T, N′ has to add positive noise to
+               over many rounds).                                                   both x and y, and the shape of the Laplace distribution ensures
+                  AnoA[2]offersatheoretical framework for formalizing the                                                            ε          t
+                                                                                    that these probabilities are within a factor of e for ε = b.
+               privacy of protocols, but limits the analysis to one round, and         Ontheother hand,
+               does not say how one might achieve privacy in practice. In
+               contrast, Vuvuzela’s formalization captures many rounds, and                Pr[x + N′ ≤ z] ≤ Pr[x + N′ ≤ x + t] = Pr[N′ ≤ t]
+               Vuvuzela presents a new design that achieves strong privacy                                 =Pr[Laplace(µ,b) ≤ 2]
+               guarantees in a practical system.                                                           = 1 expt −µ = δ
+                  Danezis[14]usesadifferentialprivacyovermultiplerounds                                       2        b
+               in a mixnet. However, he does not study how to reduce the
+               amount of information leakage each round to make strong lev-            Thusfor any arbitrary set of values S, we have
+               els of privacy possible over hundreds of thousands of rounds.
+                                                                                            Pr[x + N′ ∈ S] = Pr[x + N′ ∈ S ∩ (−∞,z]]
+               11 Conclusion                                                                                   +Pr[x+N′ ∈ S ∩(z,∞)]
+               Vuvuzela is the ifrst system to scale private messaging to mil-                              ≤δ+Pr[x+N′ ∈S ∩(z,∞)]
+                                                                                                                    ε          ′
+               lions of users and tens of thousands of messages per second,                                 ≤δ+e Pr[y+N ∈S ∩(z,∞)]
+                                                                                                                    ε          ′
+               while protecting against traiffc analysis by a powerful adver-                               ≤δ+e Pr[y+N ∈S]
+               sary who can compromise all but one of the system’s servers.                                                                        □
+               Vuvuzela achieves this through a novel approach consisting
+               of two steps. First, Vuvuzela’s protocol is designed to clearly
+               identify and minimize the number of observable variables in             In the conditions of Theorem 1, an adversary can observe
+               the system. Second, Vuvuzela’s protocol hides these variables        both m1 and m2, and we add noise separately to each of them,
+                                                                                    with Laplace distribution parameters (µ,b) for m and µ, b
+               using noise with quantiifable security properties, leveraging                                                             1      2 2
+                                                                                    for m . |m | changesbyatmost2whenwemodifytheactionof
+               tools from differential privacy. Together, these techniques                2    1
+                                                                                    oneuserinoneround,and|m |changesbyatmost1. Thus,the
+               let Vuvuzela achieve private messaging at a scale orders of                                         2
+               magnitude higher than prior systems.                                 overall mechanism provides privacy parameters ε = 2 + 2 = 4
+                                                                                                    2−µ         1−µ/2        2−µ     b   b    b
+                                                                                    and δ = 1 exp         + 1 exp         =exp         .
+               Acknowledgments                                                                2       b     2        b/2           b
+               ThankstoM.FransKaashoek,NickMathewson,DavidWolin-                    References
+               sky, and Ben Yuan for feedback that helped improve this paper.         [1] A. Back, U. Möller, and A. Stiglic. Traiffc analysis attacks
+               Thanks also to the anonymous reviewers, and to our shepherd,               and trade-offs in anonymity providing systems. In Proceed-
+               Michael Walifsh. This work was supported by NSF awards                     ings of the Workshop on Information Hiding, pages 245±257,
+               CNS-1053143andCNS-1413920,andbyGoogle.                                     Pittsburgh, PA, Apr. 2001.
+                                                                                      [2] M. Backes, A. Kate, P. Manoharan, S. Meiser, and E. Moham-
+               A ProofofTheorem1                                                          madi. AnoA: A framework for analyzing anonymous commu-
+               In this appendix, we prove Theorem 1 from Section 6.2, which               nication protocols. In Proceedings of the 26th IEEE Computer
+                                                                                          Security FoundationsSymposium,pages163±178,NewOrleans,
+               states that adding noise N ∼ ⌈max(0,Laplace(µ,b))⌉ to the                  LA,June2013.
+                                           1
+                                                                                 15
+                 [3] R. Bassily, A. Groce, J. Katz, and A. Smith. Coupled-worlds         [19] D. Fitzgerald.     Bulk bandwidth prices get steadier after
+                     privacy: Exploiting adversarial uncertainty in statistical data           long swoon.      Wall Street Journal, Sept. 2014.       http:
+                     privacy. In Proceedings of the 54th Annual IEEE Symposium                //www.wsj.com/articles/bulk-bandwidth-prices-
+                     on Foundations of Computer Science (FOCS), Berkeley, CA,                  get-steadier-after-long-plunge-1411602100.
+                     Oct. 2013.                                                          [20] M. J. Freedman and R. Morris.         Tarzan: A peer-to-peer
+                 [4] O. Berthold and H. Langos. Dummy traiffc against long term                anonymizing network layer. In Proceedings of the 9th ACM
+                     intersection attacks. In Proceedings of the Workshop on Privacy           Conference on Computer and Communications Security (CCS),
+                     Enhancing Technologies, pages 110±128, Dresden, Germany,                  pages 193±206, Washington, DC, Nov. 2002.
+                     Mar. 2003.                                                          [21] S. Goel, M. Robson, M. Polte, and E. G. Sirer. Herbivore: A
+                 [5] R. Bhaskar, A. Bhowmick, V. Goyal, S. Laxman, and                         scalable and eiffcient protocol for anonymous communication.
+                     A. Thakurta. Noiseless database privacy. In Proceedings of the            Technical Report 2003-1890, Cornell University, Computing
+                     17th Annual International Conference on the Theory and Appli-             and Information Science, Ithaca, NY, 2003.
+                     cation of Cryptology and Information Security (ASIACRYPT),          [22] I. Goldberg and The OTR Development Team. Off-the-record
+                     pages 215±232, Seoul, South Korea, Dec. 2011.                             messaging, 2015. https://otr.cypherpunks.ca/.
+                 [6] N. Borisov, I. Goldberg, and E. Brewer. Off-the-record commu-       [23] M. Hayden. The price of privacy: Re-evaluating the NSA.
+                     nication, or, why not to use PGP. In Proceedings of the 2004              Johns Hopkins Foreign Affairs Symposium, Apr. 2014. https:
+                     Workshop on Privacy in the Electronic Society, Washington,               //www.youtube.com/watch?v=kV2HDM86XgI&t=17m50s.
+                     DC,Oct.2004.                                                        [24] D. Kesdogan, J. Egner, and R. Büschkes. Stop-and-go-MIXes
+                 [7] R. Canetti, S. Halevi, and J. Katz. A forward-secure public-key           providing probabilistic anonymity in an open system. In Pro-
+                     encryption scheme. Journal of Cryptology, 20(3):265±294, July             ceedings of the Workshop on Information Hiding, pages 83±98,
+                     2007.                                                                     Portland, OR, Apr. 1998.
+                 [8] D. Chaum. The dining cryptographers problem: unconditional          [25] A. Langley. Pond, 2015. https://pond.imperialviolet.
+                     sender and recipient untraceability. Journal of Cryptology, 1             org/.
+                     (1):65±75, 1988.                                                    [26] N. Mathewson and R. Dingledine. Practical traiffc analysis:
+                 [9] D. L. Chaum. Untraceable electronic mail, return addresses,               Extending and resisting statistical disclosure. In Proceedings of
+                     and digital pseudonyms. Communications of the ACM, 24(2),                 the Privacy Enhancing Technologies Workshop, pages 17±34,
+                     Feb. 1981.                                                                May2004.
+                [10] B. Chor, E. Kushilevitz, O. Goldreich, and M. Sudan. Private        [27] I. Mironov, O. Pandey, O. Reingold, and S. Vadhan. Computa-
+                     information retrieval. Journal of the ACM, 45(6):965±981, Nov.            tional differential privacy. In Proceedings of the 29th Annual
+                     1998.                                                                     International Cryptology Conference (CRYPTO), pages 126±
+                [11] I. Clarke, O. Sandberg, B. Wiley, and T. W. Hong. Freenet: A             142, Santa Barbara, CA, Aug. 2009.
+                     distributed anonymous information storage and retrieval system.     [28] S. J. Murdoch and G. Danezis. Low-cost traiffc analysis of Tor.
+                     In Proceedings of the Workshop on Design Issues in Anonymity              In Proceedings of the 26th IEEE Symposium on Security and
+                     and Unobservability, pages 46±66, Berkeley, CA, July 2000.                Privacy, pages 183±195, Oakland, CA, May 2005.
+                [12] H. Corrigan-Gibbs, D. Boneh, and D. Mazières. Riposte: An           [29] Open Whisper Systems.        Open Whisper Systems partners
+                     anonymous messaging system handling millions of users. In                 with WhatsApp to provide end-to-end encryption, Nov. 2014.
+                     Proceedings of the 36th IEEE Symposium on Security and Pri-               https://whispersystems.org/blog/whatsapp/.
+                     vacy, San Jose, CA, May 2015.                                       [30] Open Whisper Systems.         TextSecure protocol v2, 2015.
+                [13] G. Danezis. Statistical disclosure attacks: Traiffc conifrmation          https://github.com/WhisperSystems/TextSecure/
+                     in open environments. In Proceedings of the 18th International            wiki/ProtocolV2.
+                     Conference on Information Security, pages 421±426, Athens,          [31] T. Perrin and M. Marlinspike. Axolotl ratchet, 2014. https:
+                     Greece, May 2003.                                                        //github.com/trevp/axolotl/wiki.
+                [14] G. Danezis. Measuring anonymity: a few thoughts and a differ-       [32] M. K. Reiter and A. D. Rubin. Crowds: Anonymity for web
+                     entially private bound. In Proceedings of the DIMACS Work-                transactions. ACM Transactions on Information and System
+                     shop on Measuring Anonymity, May 2013.                                    Security, 1(1):66±92, Nov. 1998.
+                [15] G.Danezis,R.Dingledine,andN.Mathewson. Mixminion: De-               [33] A. Rusbridger. The Snowden leaks and the public. The New
+                     sign of a type III anonymous remailer protocol. In Proceedings           York Review of Books, Nov. 2013.
+                     of the 24th IEEE Symposium on Security and Privacy, pages
+                     2±15, Oakland, CA, May 2003.                                        [34] L. Sassaman, B. Cohen, and N. Mathewson. The Pynchon
+                [16] R. Dingledine, N. Mathewson, and P. Syverson. Tor: The                    gate: A secure method of pseudonymous mail retrieval. In Pro-
+                     second-generation onion router. In Proceedings of the 13th                ceedings of the Workshop on Privacy in the Electronic Society,
+                     Usenix Security Symposium, pages 303±320, San Diego, CA,                  Arlington, VA, Nov. 2005.
+                     Aug. 2004.                                                          [35] P. F. Syverson, D. M. Goldschlag, and M. G. Reed. Anonymous
+                [17] C. Dwork. Differential privacy: a survey of results. In Pro-              connectionsandonionrouting. InProceedingsofthe18thIEEE
+                     ceedings of the 5th International Conference on Theory and                Symposium on Security and Privacy, pages 44±54, Oakland,
+                     Applications of Models of Computation, Xi’an, China, Apr.                 CA,May1997.
+                     2008.                                                               [36] D. I. Wolinsky, H. Corrigan-Gibbs, B. Ford, and A. Johnson.
+                [18] C.DworkandA.Roth. Thealgorithmicfoundationsofdifferen-                    Dissent in numbers: Making strong anonymity scale. In Pro-
+                     tial privacy. Foundations and Trends in Theoretical Computer              ceedings of the 10th Symposium on Operating Systems Design
+                     Science, 9(3-4):211±407, 2014.                                            and Implementation (OSDI), Hollywood, CA, Oct. 2012.
+                                                                                     16

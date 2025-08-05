@@ -1,0 +1,79 @@
+              ++
+            A
+              +
+            A
+            A
+            B
+AAAAA       A                   A
+XXSXSSMLXL  C             XXL
+BBBBB       B                   B
+XXSXSSMLXL  D             XXL                                 Comfort Classic
+            E
+CCCCC       C                   C
+XXSXSSMLXL  F             XXL                                 veel tapwater en 
+DDDDD       GD                  D                             de beste energielabels 
+XXSXSSMLXL                XXL
+EEEEE       E                   E
+XXSXSSMLXL                XXL
+FFFFF       F                   F
+XXSXSSMLXL                XXL
+GGGGG       G                   G
+             De beste energielabels voor cv én tapwater!
+XXSXSSMLXL                XXL
+             De Comfort Classic van Itho Daalderop is de cv-ketel die alles in huis heeft. Voor íeder huis, want 
+             met drie verschillende types is er voor iedere woning en warmwaterwens een passende oplossing. 
+             Met het twee cv-zones-systeem kunt u ruimtes separaat verwarmen. Dat is comfortabel en 
+             energiezuinig, omdat u niet de gehele woning hoeft te verwarmen. En omdat de Comfort Classic een 
+             voorraadtoestel is, heeft u altijd voldoende warm water tot uw beschikking met een snelle badvultijd. 
+             Bovendien kunt u op twee punten in huis gelijktijdig warm water tappen. Natuurlijk voldoet de 
+             cv-ketel aan de hoogst mogelijke keurmerken. Maar wat de Comfort Classic écht uniek maakt, 
+             is de bijzonder hoge energiezuinigheid in combinatie met het warmwatercomfort. De ketel heeft 
+             voor zowel de cv- als tapwaterzijde de hoogste energielabels: A en XL. Dat maakt onze 
+             Comfort Classic een ware verwarmings- en tapwaterkanjer in het voorraadsegment. 
+             De voordelen van de Comfort Classic op een rij:
+             -  Direct warm water tot 27 liter per minuut
+             -  Gelijktijdig warm water en verwarming
+             -  Twee cv-zones voor afzonderlijke verwarming
+             -  Comfortabel en energiezuinig met A-labels gemeten bij een XL tapwaterprofiel
+                                                                                             Comfort Classic
+                                                                                             Technische speciifcaties
+           Specificaties Comfort Classic:
+            Omschrijving                                                           Symbool        Eenheid         24/80+           32/80+           38/80+
+            Afmetingen (HxBxD)                                                         -            mm                         1090 x 530 x 507
+            Gewicht leeg/gevuld                                                        -             kg                            70 / 150
+            Inhoud boiler                                                              -             l                               80
+            Voedingsspanning                                                           -             -                          ~ 230V - 50Hz
+            Opgenomen vermogen (vollast)                                               -             W              90               100              130
+            RUIMTEVERWARMING
+            Nominale belasting bovenwaarde                                            Q             kW           7,5 - 25,0       10,0 - 32,7      11,4 - 38,1
+                                                                                        n
+            Nominaal vermogen 80/60 °C                                                P             kW              22,0             28,1             32,2
+                                                                                        n
+            Nominaal vermogen 50/30 °C                                                P             kW             23,0              32,7            34,2
+                                                                                        n
+            WATERVERWARMING
+            Nominale belasting bovenwaarde                                            Q             kW           7,5 - 30,0       10,0 - 32,7      11,4 - 37,8
+                                                                                       nw
+            Nominaal vermogen                                                         Pnw           kW             25,9              27,6             32,2
+            Effectieve toestelwachttijd                                                -             s               0                0                0
+            Tapdebiet (40 °C / ΔT=30K)                                                D          liter/min           18              20               20
+            Badcapaciteit (40 °C / ΔT=30K)                                             -            liter        150 / 200        150 / 200           200
+            KEURMERKEN
+            Hoog Rendement Verwarming                                                  -             -              HR               HR               HR
+            Comfort Warm Water                                                         -             -             CW6              CW6              CW6
+            Schonere Verbranding                                                       -             -              SV               SV               SV
+            Naverwarming Zonneboiler                                                   -             -              NZ               NZ               NZ
+            Temperatuurtoepassing ruimteverwarming                                     -             -            Midden           Midden           Midden
+            Opgegeven capaciteitsproifel waterverwarming                               -             -              XL               XL               XL
+            Seizoensgebonden energie-efifciëntieklasse ruimteverwarming                -             -               A                A                A
+            Energie-efifciëntieklasse waterverwarming                                  -             -               A                A                A
+            Nominale warmteafgifte ruimteverwarming                                  Prated         kW             7 - 22           9 - 28          10 - 32
+            Jaarlijkse energieverbruik ruimteverwarming                               QHE           GJ              48               64               75
+            Jaarlijkse elektriciteitsverbruik waterverwarming                        AEC            kWh             39               39               42
+            Jaarlijkse brandstofverbruik waterverwarming                             AFC            GJ               19               19               19
+            Seizoensgebonden energie-efifciëntie ruimteverwarming                     hs             %              92               92                91
+            Energie-efifciëntie waterverwarming                                      hwh             %              80               80               80
+            Geluidsvermogensniveau binnen                                             L             dB              48               50               52
+                                                                                       WA
+            Speciifeke voorzorgsmaatregelen voor assemblage, installatie of onderhoud                          Lees de handleiding voor installatie en gebruik
+                            www.ithodaalderop.nl/dealerlocator

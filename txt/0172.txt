@@ -1,0 +1,85 @@
+                                                                          Technisch bureau de Heer bv      Tel.:+31-10-8503940 
+                                                                          Westhavenkade 87                 Fax:+31-10-4358163                           
+                                                                          3133AV Vlaardingen               e-mail: info@tbdeheer.nl  
+                                                                           
+                                                    
+                                                                                                                     BIM in de praktijk 
+                                                                                                        Stadskantoor Delft – Baffle Plafond 
+                                                                                                          Architect: Mecanoo Architecten 
+                                                                                                                                                                                                                                                                  1 
+                  
+                                                                          Technisch bureau de Heer bv      Tel.:+31-10-8503940 
+                                                                          Westhavenkade 87                 Fax:+31-10-4358163                           
+                                                                          3133AV Vlaardingen               e-mail: info@tbdeheer.nl  
+                                                                           
+                 
+              Onze visie:                                                                                                                   
+                  
+              Technische ontwikkeling is van levensbelang omdat natuurlijke 
+              grondstoffen en fossiele brandstoffen op raken. Duurzame en 
+                  
+              innovatief ontworpen constructies zijn noodzaak en hebben de 
+              toekomst, daar zijn wij van overtuigd. 
+                  
+              Door middel van integraal constructief ontwerp zorgen wij voor 
+                  
+              veilige constructies, gaan verspilling van grondstoffen tegen en 
+              minimaliseren faalkosten. 
+                  
+               
+              Wij zijn er van overtuigd en er ons van bewust dat onze rol als 
+                  
+              adviseur constructies, past binnen het totale bouwproces. 
+                  
+              Bouwen doe je met elkaar, het blijft mensenwerk en dat vergt 
+              communicatie. 
+                  
+              Alles wat wij ontwerpen visualiseren wij met als doel de 
+                  
+              communicatie transparant en efficiënt te laten verlopen.  
+              Building Information Model (BIM) is een ontwikkeling in ons 
+                  
+              vakgebied die wij in praktijk brengen. Van voorontwerp tot 
+              uitvoeringsontwerp kunnen alle stappen 3D inzichtelijk worden 
+                  
+              gemaakt. 
+                  
+              De medewerkers van ons bureau zijn goed opgeleid, vakkundig en 
+              getraind in creatief teamwork met collega’s en partijen buiten het 
+                  
+              bureau. Door het bedenken van constructieve oplossingen nemen 
+              wij onze opdrachtgevers zorg uit handen. Dit vertaalt zich in het 
+                  
+              eindresultaat: wij zijn pas tevreden als onze opdrachtgever dat 
+                  
+              ook is. 
+                  
+                  
+                  
+                  
+                                                                                                                                                                               2D Bovenaanzicht Baffle plafond. De kleuren omschrijven  de 
+                                                                                                                                                                               verschillende niveaus  en vormen samen de organische vorm. 
+                  
+                                                    
+                                                                                                                                                                                                                                                                  2 
+                  
+                                                                          Technisch bureau de Heer bv      Tel.:+31-10-8503940 
+                                                                          Westhavenkade 87                 Fax:+31-10-4358163                           
+                                                                          3133AV Vlaardingen               e-mail: info@tbdeheer.nl  
+                                                                           
+                  
+                  
+                                                                                                              3D/ IFC model export van de architect uit Revit . 
+                                                                                                              Model bevat de organische vormen van het  te 
+                                                                                                              realiseren Baffle plafond.  Het betreffende 
+                                                                                                              bouwdeel is blauw weergegeven. 
+                                                                                                                            Uitwisselingen van bouwinformatie 
+                                                                                                                            via IFC exports  maken het mogelijk 
+                                                                                                                            meerdere aspectmodellen samen te 
+                                                                                                                            voegen en te coördineren. 
+                                                                                                         3D/ IFC model geïmporteerd in Tekla Structures. 
+                                                                                                         Hiermee kan de engineering een vervolg krijgen, 
+                                                                                                         waarbij randvoorwaarden  en interfaces  direct 
+                                                                                                         gewaarborgd kunnen worden.                                                                                                                               3 
+                  
+                  

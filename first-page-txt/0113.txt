@@ -1,0 +1,41 @@
+                                                                             Chapter-  
+                                                   TAX INVOICE, CREDIT AND DEBIT NOTES  
+                    1.       Tax invoice  
+                     Subject to rule 7, a tax invoice referred to in section 31 shall be issued by the registered person containing 
+                    the following particulars:-  
+                             (a)       name, address and GSTIN of the supplier;  
+                             (b)       a consecutive serial number not exceeding sixteen characters, in one or multiple series, 
+                                       containing alphabets or numerals or special characters hyphen or dash and slash symbolised 
+                                       as  “-” and “/” respectively, and any combination thereof, unique for a financial year;  
+                             (c)       date of its issue;   
+                             (d)       name, address and GSTIN or UIN, if registered, of the recipient;  
+                             (e)       name and address of the recipient and the address of delivery, along with the name of State 
+                                       and its code, if such recipient is un-registered and where the value of taxable supply is fifty 
+                                       thousand rupees or more;  
+                             (f)       HSN code of goods or Accounting Code of services;  
+                             (g)       description of goods or services;  
+                             (h)       quantity in case of goods and unit or Unique Quantity Code thereof;  
+                             (i)       total value of supply of goods or services or both;  
+                             (j)       taxable  value  of  supply  of  goods  or  services  or  both  taking  into  account  discount  or 
+                                       abatement, if any;  
+                             (k)       rate of tax (central tax, State tax, integrated tax, Union territory tax or cess);     
+                             (l)       amount  of  tax  charged  in  respect  of  taxable  goods  or  services  (central  tax,  State  tax, 
+                                       integrated tax, Union territory tax or cess);  
+                             (m)       place of supply along with the name of State, in case of a supply in the course of inter-State 
+                                       trade or commerce;   
+                             (n)       address of delivery where the same is different from the place of supply;  
+                             (o)       whether the tax is payable on reverse charge basis; and  
+                             (p)       signature or digital signature of the supplier or his authorized representative:  
+                             Provided that the Commissioner may, on the recommendations of the Council, by notification, 
+                             specify -  
+                             (i)       the number of digits of HSN code for goods or the Accounting Code for services, that a 
+                             class of registered persons shall be required to mention, for such period as may be specified in the 
+                             said notification, and  
+                             (ii)      the class of registered persons that would not be required to mention the HSN code for 
+                             goods  or  the  Accounting  Code  for  services,  for  such  period  as  may  be  specified  in  the  said 
+                             notification:  
+                             Provided further that where an invoice is required to be issued under clause (f) of sub-section (3) of 
+                             section  31,  it  shall  bear  the  signature  or  digital  signature  of  the  recipient  or  his  authorized 
+                             representative: 
+                                                                                   1	 
+                    	 

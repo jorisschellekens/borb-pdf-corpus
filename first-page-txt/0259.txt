@@ -1,0 +1,44 @@
+                               Bigtable: A Distributed Storage System for Structured Data
+                           Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach
+                                     MikeBurrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber
+                                              {fay,jeff,sanjay,wilsonh,kerr,m3b,tushar,ﬁkes,gruber}@google.com
+                                                                     Google, Inc.
+                                         Abstract                             achieved scalability and high performance, but Bigtable
+                     Bigtable is a distributed storage system for managing    providesadifferentinterfacethansuchsystems. Bigtable
+                  structured data that is designed to scale to a very large   does not support a full relational data model; instead, it
+                  size: petabytes of data across thousands of commodity       provides clients with a simple data model that supports
+                  servers. Many projects at Google store data in Bigtable,    dynamic control over data layout and format, and al-
+                  including web indexing, Google Earth, and Google Fi-        lows clients to reason about the locality properties of the
+                  nance. These applications place very different demands      data represented in the underlying storage. Data is in-
+                  on Bigtable, both in terms of data size (from URLs to       dexedusingrowandcolumnnamesthatcanbearbitrary
+                  webpagestosatellite imagery)andlatencyrequirements          strings. Bigtable also treats data as uninterpreted strings,
+                  (frombackendbulkprocessingtoreal-timedataserving).          although clients often serialize various forms of struc-
+                  Despite these varied demands, Bigtable has successfully     tured and semi-structured data into these strings. Clients
+                  provided a ﬂexible, high-performance solution for all of    can control the locality of their data through careful
+                  theseGoogleproducts. Inthispaperwedescribethesim-           choices in their schemas. Finally, Bigtable schema pa-
+                  ple data model providedbyBigtable, which gives clients      rameters let clients dynamically control whether to serve
+                  dynamiccontroloverdatalayoutandformat,andwede-              data out of memoryor from disk.
+                  scribe the design and implementation of Bigtable.              Section 2 describes the data model in more detail, and
+                                                                              Section 3 provides an overview of the client API. Sec-
+                  1 Introduction                                              tion 4 brieﬂy describes the underlyingGoogleinfrastruc-
+                                                                              ture on which Bigtable depends. Section 5 describes the
+                  Over the last two and a half years we have designed,        fundamentals of the Bigtable implementation, and Sec-
+                  implemented, and deployed a distributed storage system      tion 6 describes some of the reﬁnements that we made
+                  for managing structured data at Google called Bigtable.     to improve Bigtable’s performance. Section 7 provides
+                  Bigtable is designed to reliably scale to petabytes of      measurements of Bigtable’s performance. We describe
+                  data and thousands of machines. Bigtable has achieved       several examples of how Bigtable is used at Google
+                  several goals: wide applicability, scalability, high per-   in Section 8, and discuss some lessons we learned in
+                  formance, and high availability.   Bigtable is used by      designing and supporting Bigtable in Section 9.      Fi-
+                  more than sixty Google products and projects, includ-       nally, Section 10 describes related work, and Section 11
+                  ing Google Analytics, Google Finance, Orkut, Person-        presents our conclusions.
+                  alized Search, Writely, and Google Earth. These prod-
+                  ucts use Bigtable for a variety of demanding workloads,     2 DataModel
+                  which range from throughput-oriented batch-processing
+                  jobs to latency-sensitive serving of data to end users.
+                  TheBigtableclustersusedbytheseproductsspanawide             A Bigtable is a sparse, distributed, persistent multi-
+                  range of conﬁgurations, from a handful to thousands of      dimensional sorted map. The map is indexed by a row
+                  servers, andstore upto severalhundredterabytesofdata.       key, columnkey,anda timestamp; eachvaluein the map
+                     Inmanyways,Bigtableresemblesadatabase: itshares          is an uninterpreted array of bytes.
+                  many implementation strategies with databases. Paral-
+                  lel databases [14] and main-memorydatabases [13] have       (row:string, column:string, time:int64) → string
+                   ToappearinOSDI2006                                                                                               1

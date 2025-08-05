@@ -1,0 +1,54 @@
+                             ImageStyleTransfer Using Convolutional Neural Networks
+                                                                 LeonA.Gatys
+                                                                                              ¨
+                                Centre for Integrative Neuroscience, University of Tubingen, Germany
+                                                                                              ¨
+                                Bernstein Center for Computational Neuroscience, Tubingen, Germany
+                                                                                                       ¨
+                       Graduate School of Neural Information Processing, University of Tubingen, Germany
+                                                          leon.gatys@bethgelab.org
+                                                              Alexander S. Ecker
+                                                                                              ¨
+                                Centre for Integrative Neuroscience, University of Tubingen, Germany
+                                                                                              ¨
+                                Bernstein Center for Computational Neuroscience, Tubingen, Germany
+                                                                                             ¨
+                                 MaxPlanckInstitute for Biological Cybernetics, Tubingen, Germany
+                                             Baylor College of Medicine, Houston, TX, USA
+                                                                Matthias Bethge
+                                                                                              ¨
+                                Centre for Integrative Neuroscience, University of Tubingen, Germany
+                                                                                              ¨
+                                Bernstein Center for Computational Neuroscience, Tubingen, Germany
+                                                                                             ¨
+                                 MaxPlanckInstitute for Biological Cybernetics, Tubingen, Germany
+                                     Abstract                                there exist a large range of powerful non-parametric algo-
+                                                                             rithms that can synthesise photorealistic natural textures by
+                Rendering the semantic content of an image in different      resamplingthepixelsofagivensourcetexture[7,30,8,20].
+             styles is a difﬁcult image processing task. Arguably, a major   Mostprevioustexturetransferalgorithmsrelyonthesenon-
+             limiting factor for previous approaches has been the lack of    parametric methods for texture synthesis while using differ-
+             image representations that explicitly represent semantic in-    ent ways to preserve the structure of the target image. For
+             formation and, thus, allow to separate image content from       instance, Efros and Freeman introduce a correspondence
+             style. Here we use image representations derived from Con-      map that includes features of the target image such as im-
+             volutional Neural Networks optimised for object recogni-        age intensity to constrain the texture synthesis procedure
+             tion, which make high level image information explicit. We      [8]. Hertzman et al. use image analogies to transfer the tex-
+             introduceANeuralAlgorithmofArtisticStylethatcansep-             ture from an already stylised image onto a target image[13].
+             arate and recombine the image content and style of natural      Ashikhmin focuses on transferring the high-frequency tex-
+             images. The algorithm allows us to produce new images of        ture information while preserving the coarse scale of the
+             high perceptual quality that combine the content of an ar-      target image [1]. Lee et al. improve this algorithm by addi-
+             bitrary photograph with the appearance of numerous well-        tionally informing the texture transfer with edge orientation
+             known artworks. Our results provide new insights into the       information [22].
+             deep image representations learned by Convolutional Neu-
+             ral Networks and demonstrate their potential for high level        Although these algorithms achieve remarkable results,
+             image synthesis and manipulation.                               they all suffer from the same fundamental limitation: they
+                                                                             use only low-level image features of the target image to in-
+                                                                             form the texture transfer. Ideally, however, a style transfer
+             1. Introduction                                                 algorithm should be able to extract the semantic image con-
+                                                                             tent from the target image (e.g. the objects and the general
+                Transferring the style from one image onto another can       scenery)andtheninformatexturetransferproceduretoren-
+             beconsideredaproblemoftexturetransfer. Intexturetrans-          der the semantic content of the target image in the style of
+             fer the goal is to synthesise a texture from a source image     the source image. Therefore, a fundamental prerequisite is
+             while constraining the texture synthesis in order to preserve   toﬁndimagerepresentationsthatindependentlymodelvari-
+             the semantic content of a target image. For texture synthesis   ations in the semantic image content and the style in which
+                                                                         1
+                                                                          2414

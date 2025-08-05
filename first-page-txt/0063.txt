@@ -1,0 +1,57 @@
+                                         2016 IEEE 36th International Conference on Distributed Computing Systems
+                                                 CryptoLock (and Drop It):
+                           Stopping Ransomware Attacks on User Data
+                        Nolen Scaife                     Henry Carter                      Patrick Traynor             Kevin R.B. Butler
+                     University of Florida           Villanova University                University of Florida        University of Florida
+                        scaife@u.edu             henry.carter@villanova.edu             traynor@cise.u.edu             butler@u.edu
+                    Abstract—Ransomware is a growing threat that encrypts a              methods of detecting ransomware, which inspect pro-
+                users les and holds the decryption key until a ransom is               grams and their activity for malicious characteristics.
+                paid by the victim. This type of malware is responsible for              Our system is the rst ransomware detection system that
+                tens of millions of dollars in extortion annually. Worse still,          monitors user data for changes that may indicate trans-
+                developing new variants is trivial, facilitating the evasion of many     formation rather than attempting to identify ransomware
+                antivirus and intrusion detection systems. In this work, we present      by inspecting its execution (e.g., API call monitoring)
+                CryptoDrop, an early-warning detection system that alerts a user         or contents. This allows CryptoDrop to detect suspicious
+                during suspicious le activity. Using a set of behavior indicators,      activity regardless of the delivery mechanism or previous
+                CryptoDrop can halt a process that appears to be tampering with          benign activity. Our system does not attempt to prevent
+                a large amount of the users data. Furthermore, by combining             all les from loss and is not intended to replace a users
+                a set of indicators common to ransomware, the system can be
+                parameterized for rapid detection with low false positives. Our          normal anti-malware software; rather, CryptoDrop is de-
+                experimental analysis of CryptoDrop stops ransomware from                signed to be effective even when the users anti-malware
+                executing with a median loss of only 10 les (out of nearly              software has failed to block the malware. Our system
+                5,100 available les). Our results show that careful analysis of         is built on Windows, a platform frequently targeted for
+                ransomware behavior can produce an effective detection system            ransomware attacks, providing a realistic solution to “in-
+                that signicantly mitigates the amount of victim data loss.              the-wild” threats. In doing so, we attack the core behavior
+                                                                                         of ransomware in a novel and practical manner that other
+                                      I.  INTRODUCTION                                   anti-malware technologies fundamentally cannot.
+                    Encrypting ransomware (a.k.a. crypto ransomware) at-               • Identify three primary indicators suited to detect
+                tempts to extort users by holding their les hostage. Such               malicious le changes: These indicators each measure
+                ransomware differs from other types of malware in that its               an aspect of a les transformation, and when all three
+                effects are reversible only via the cryptographic keys held by           have manifested, a ransomware le transformation has
+                a remote adversary. Users can only regain access to their les           likely occurred. This union indication assists CryptoDrop
+                through the use of anonymous payment mechanisms (e.g., Bit-              in reliably detecting ransomware while incurring few
+                coin), further frustrating efforts to take down these campaigns.         false positives. These indicators have not been previously
+                While this class of malware has existed for well over a decade,          employed in a ransomware detection system, and our
+                its increasingly widespread use now causes tens of millions of           analysis of their effectiveness in isolation and unison
+                dollars in consumer losses annually [37]. Compounding this               provides insight into the ability to detect ransomware.
+                problem, an increasing number of law enforcement agencies              • Perform most extensive analysis of encrypting ran-
+                have also been the victim of ransomware [4], [18], losing                somware to date: Demonstrate a 100% true positive rate
+                valuable case les and forcing these organizations to ignore             over 492 distinct ransomware samples across 14 families
+                their own advice and pay the attackers. As such, ransomware              after as few as 0 and a median of 10 (0.2%) les lost from
+                represents one of the most visible threats to all users.                 our test corpus. Finally, we discuss the observed behavior
+                                                                                         of our samples and discuss how CryptoDrop remains ro-
+                    Combating ransomware is difcult for a number of reasons.            bust despite the signicant behavioral differences between
+                First, this malware is easy to obtain or create [48] and                 families. Through reduction of the number of les lost,
+                elicits immediate returns, creating lucrative opportunities for          we demonstrate that CryptoDrop reduces the need for the
+                attackers. Second, the operations performed by such malware              victim to pay the ransom, choking attackers revenue and
+                are often difcult to distinguish from those of benign software.         rendering the malware ineffective.
+                Finally, ransomware often intentionally targets unsophisticated         The remainder of the paper is structured as follows: In
+                users who are unlikely to follow best practices such as regular     Section II, we perform a literature analysis. In Section III,
+                data backups. Accordingly, a solution to automatically protect      we dene and classify ransomware behaviors, our systems
+                such users even in the face of previously unknown samples is        indicators, and demonstrate how these are insufcient for
+                critical.                                                           fast detection in isolation. Section IV details CryptoDrops
+                    In this paper, we make the following contributions:             implementation and its scoring and detection mechanisms. In
+                                                                                    Section V, we obtain live ransomware samples, demonstrate
+                   • Develop an early-warning system for ransomware:                CryptoDrops effectiveness against real-world attacks, and an-
+                     CryptoDrop is fundamentally different from existing            alyze the behavior of the samples. We conclude in Section VI.
+              1063-6927/16 $31.00 © 2016 IEEE                                   303
+              DOI 10.1109/ICDCS.2016.46

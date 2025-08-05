@@ -1,0 +1,110 @@
+                  MYBILL  
+                  E-INVOICE FAQS
+                  We hope that the most commonly asked questions listed below will make everything  
+                  clear but if you have any questions that we haven’t covered, we’ll be happy to help.
+                  HOW DOES MYBILL WORK?                                               IS IT VAT COMPLIANT? 
+                  MyBill is DHL’s e-invoicing portal that allows you to view,         DHL e-invoices are certiifed and legally compliant in the 
+                  dispute and pay your invoices online in a user friendly             country the invoice is issued in. It meets the relevant EU and 
+                  manner. When an invoice has been raised an email                    Swiss VAT legislation laws, whereby the e-invoice will have 
+                  notiifcation is sent to you with the invoice attached in a PDF      a form of electronic signature attached to the data that 
+                  format and contains the link to the MyBill website where you        enables the invoice to be uniquely identiifable from DHL. 
+                  can view and download your invoice in several formats.              This electronic authentication allows the signatory (i.e. DHL) 
+                                                                                      to detect any changes that may have been made to the data. 
+                  I AM REGISTERED, BUT I HAVE FORGOTTEN                               This can be viewed in the PDF image of the invoice.
+                  MY USERNAME AND PASSWORD.                                           WHAT SOFTWARE / HARDWARE  
+                  WHAT DO I DO?                                                       MUST I HAVE TO USE MYBILL?
+                  Your username will be the e-mail address you registered.            Access to the internet is the only requirement you need to 
+                  Your password is personal to you. If you have forgotten your        log into MyBill and Adobe Acrobat to view the invoice.  
+                  password, simply enter your username in the MyBill website 
+                  and click on the ‘Forgotten your password’ hyperlink.  
+                  An email will be sent to you with a temporary password.             HOW DO I KNOW THE INVOICE  
+                                                                                      ORIGINATES FROM DHL?
+                                                                                      The invoice in PDF has an electronic signature. The electronic 
+                                                                                      signature guarantees, through its technology, that the 
+                                                                                      invoice is issued by DHL.
+                                                                                      I AM NOT RECEIVING MY INVOICE?
+                                                                                      Please ensure that your spam/junk iflter will not block  
+                                                                                      emails from the following address: e-billing.uk1@dhl.com
+                                                                                      If you continue to experience dififculties please ‘white list’ 
+                  HOW CAN I VIEW MY INVOICE ONLINE?                                   the following IP addresses and domain names that are used  
+                  Step 1    Click on the MyBill link mybill.dhl.com/login/            for sending out invoices:
+                            this will take you directly to the DHL MyBill website.    85.90.252.62 
+                            Enter your username and password.                         109.234.201.208
+                  Step 2    Within MyBill you can view your invoice online.           Domain names we send from are:  
+                                                                                      fundtech.com, accountis.com, accountis.net and dhl.com
+                  Step 3    Click on the invoice to import the data downloads 
+                             and view your invoice from the list.                     WILL I STILL RECEIVE MY PAPER INVOICE?
+                  WHAT FORMAT CAN I RECEIVE                                           DHL will not supply a paper invoice but you have the  
+                  MY INVOICE IN?                                                      option to print.
+                  Invoices can be downloaded in a variety of formats including        MY EMAIL ADDRESS HAS CHANGED. 
+                  PDF, XML, CSV ifle (for importing into other applications such      WHAT DO I NEED TO DO TO ENSURE  
+                  as Excel). Please see below different types of CSV available in 
+                  MyBill:                                                             I STILL RECEIVE MY INVOICES?
+                  CSV – details with multiple lines per waybill to split freight      You can amend your email address online via the  
+                  and surcharge on individual rows.                                   “My Account” tab on the MyBill website and this should  
+                                                                                      be done as quickly as possible. However we strongly 
+                  STANDARD CSV – details presented all in one line built              recommend that you contact DHL to conifrm changes,  
+                  for future development.                                             so that we can remove any old email addresses from the 
+                                                                                      system to avoid any issues. For MyBill questions call us on 
+                  DUTY AND VAT – details presented all in one line for the            03442 480 777 or alternatively email ebillinguk@dhl.com
+                  customers charges. 
+                                                                                      HOW DO I ADD OR REMOVE EMAIL 
+                  IS MYBILL SECURE?                                                   ADDRESSES? 
+                  Yes, it is. We use a combination of digital signatures and          You can go to ‘My Account’ and add / remove multiple users.
+                  powerful encryption technology to protect your account 
+                  information and card payment details.
+        DHL Express – MyBill FAQs                                                                                                                             1
+                  WHAT INVOICES WILL BE AVAILABLE                                      CAN I SEE THE PAYMENT DETAILS ON 
+                  ONLINE?                                                              MYBILL? 
+                  Your online history will start with the ifrst invoice you receive    Yes. The online history will display the payment transaction 
+                  electronically. There will be no history available for invoices      reference and total paid.
+                  received prior to registration.   
+                  WHY HAS MY INVOICE BEEN REMOVED?                                     HOW LONG WILL IT TAKE TO SUBMIT   
+                                                                                       THE PAYMENT? 
+                  Once the invoice has been paid it will be moved to the               Timing will depend on your card payment provider and the 
+                  ‘Archive’ tab.                                                       status of the invoice will be updated on receipt of payment 
+                                                                                       conifrmation.
+                  AM I ABLE TO VIEW WAYBILLS ONLINE?  
+                  Simply click on the hyperlink for the waybill to view the            IS THERE A LIMIT FOR THE TOTAL AMOUNT 
+                  image. Should an image not be available, a request will              OF INVOICES SELECTED FOR PAYMENT?
+                  automatically be logged and passed to our Customer 
+                  Enquiries team for action. The query response will be sent           The total limit of invoices selected must not exceed 
+                  via email. Please note that for security reasons you will not        £99,999.98.
+                  be able to access waybill images from the email version of 
+                  your invoices you will need to log into the website.                 HOW CAN I MAKE SURE THAT I WILL  
+                  CAN I QUERY MY INVOICE ONLINE?                                       NOT DUPLICATE A PAYMENT? 
+                  Yes to register an enquiry against your invoice(s) please            The system will not allow a payment to be processed on  
+                  complete the following actions:                                      a closed invoice.
+                     Click on the invoice number in question                          WHAT CREDIT CARDS CAN I MAKE  
+                    Click on the ‘Create Dispute’ icon                                A PAYMENT ON?
+                    Complete the information within the query details                 Payments can be made via UK registered Credit or  
+                      screen followed by the ‘Submit dispute’ button.                  Debit Card i.e. Master Card, Visa.
+                  The information you enter will be sent to DHL for full 
+                  investigation and the status of the enquiry will always be           ARE THERE ANY ADDITIONAL                      
+                  available i.e. open or clariifcation sent. For a more detailed 
+                  explanation of how to follow this process, please refer to the       CHARGES WHEN USING THE ONLINE 
+                  user guide section ‘How do I raise an invoice query online?’         PAYMENT SERVICE?
+                  CAN I UPDATE MY COMPANY                                              No.
+                  DETAILS ONLINE?                                                      CAN I SETUP DIRECT DEBIT THROUGH  
+                  For the time being any change to your ofifcial company               MYBILL?
+                  data has to be done via Customer Services or your Account 
+                  Manager. You can change your language preference for                 Yes, the process to set up an account on Direct Debit has 
+                  MyBill and your password online (see My Account tab).                been simpliifed as an “option” and has now been added 
+                                                                                       to the invoice page to select the Direct Debit mandate. 
+                  HOW CAN I PAY FOR MY                                                 Alternatively, you can retrieve the mandate via our website 
+                  E-INVOICE ONLINE?                                                    on: www.dhl.co.uk/payment_options
+                  1.  Login into MyBill using your login details (email address)       IF I PAY ONLINE, DO I HAVE TO USE  
+                  2.  Indicate the invoice(s) to be paid                               THIS METHOD EVERY MONTH?
+                  3.  Select the ‘Pay Now’ option                                      There is no requirement to pay by this method every month 
+                  4.  Enter your card details and submit your payment                  you can pay by various methods when using DHL Express.  
+                                                                                       For ease of use we recommend this method.
+                  HOW CAN I SEE THAT MY INVOICE                                        STILL HAVE A QUESTION?
+                  HAS BEEN PAID?                                                       Call us on 03442 480 777 for general information and 
+                                                                                       technical support or you can email the MyBill team directly 
+                  Once an invoice has been paid the invoice will be marked             on ebillinguk@dhl.com
+                  as closed and will be moved to the ‘Archive’ tab.
+                  IS E-PAYMENT SECURE?
+                  Yes, it is. We use a combination of digital signature and 
+                  powerful encryption technologies to protect all your card 
+                  payment details.
+         DHL Express – MyBill FAQs                                                                                                                               2

@@ -1,0 +1,96 @@
+           
+           
+                                               Invoice Instructions 
+          NRG’s Suppliers are a critical link in our vision to build a more sustainable future. We are committed to 
+          paying our Suppliers accurately and on time, so we use scanners and optical character recognition to read 
+          invoices. Invoices from Suppliers that follow these instructions can be scanned, processed, and paid more 
+          efficiently. 
+                   Invoice Content Requirements 
+                                                  Suppliers must prepare invoices containing the following information 
+                                                  taken from Buyer’s Purchase Order: 
+                                                           Purchase Order number (Contact your NRG point of contact 
+                                                            if you have questions about the purchase order that you should 
+                                                            use on your invoices) 
+                                                           PO line item number 
+                      Purchase Order                       PO part number (if applicable) 
+                           Invoices                        Description of the product or service exactly as it appears on 
+                                                            the NRG PO 
+                                                           Unit of measure 
+                                                           Unit price 
+                                                           Item quantity 
+                                                           Total invoice value 
+                                                   
+                                                  Suppliers submitting invoices for goods or services that fall into one of 
+                                                  the exempted categories may invoice NRG without a valid NRG PO 
+                       Non-Purchase               number. 
+                      Order Invoices                       For non-PO invoices, Supplier must include the name and 
+                                                            email address for the NRG employee requesting the product 
+                                                            or service (e.g. John Smith, john.smith@nrg.com) 
+                                                   
+                                                           Suppliers shall prepare a separate invoice for each shipment or 
+                                                            service order. 
+                                                           The first page of the attachment should be the first page of the 
+                            General                         invoice. 
+                          Invoicing                        Suppliers shall also provide such evidence as the Buyer may 
+                          Guidelines                        reasonably require in support of the invoice. 
+                                                           No invoice shall be issued prior to completion of services or 
+                                                            shipment of products. 
+                                                  One and only one of the below methods for sending invoices should be 
+                                                  used. 
+                                                  Supplier’s invoice shall also include 
+                                                           Supplier’s phone number and remit-to address 
+                                                           Invoice number 
+                         All Invoices                      Date prepared 
+                                                           E-mail address where we can contact you if there are issues 
+                                                            with the invoice 
+                                                   
+           
+          Rev. 4/2015                                                                                                                                                 Page 1 of 2 
+           
+           
+           
+          Preferred Submittal Method (Email) 
+                   Invoices may be emailed to invoices@nrg.com 
+                   Invoices are to be attached as PDF files and one PDF is to contain one invoice. Sending invoices in 
+                    any other format is not allowed and will not be processed. 
+                   Only invoices should be delivered to the invoices@nrg.com email address and any other 
+                    information is discarded. 
+                   There can be multiple PDF invoices included in one email and each of the PDF files will be 
+                    processed as one invoice. One and only one PO per invoice should be used. 
+          Alternate Submittal Method (Fax/Mail) 
+          The alternate method for invoice submittal is via mail or facsimile. The preferred method (noted above) 
+          should be used whenever possible in order to minimize transaction costs for both the Supplier and NRG. If 
+          invoices are submitted via mail or facsimile, Suppliers must not send duplicate invoices via email. Do not 
+          use multiple methods for submitting the same invoice. 
+                   Each invoice must contain all information (Purchase Order Number and corresponding Purchase 
+                    Order Line items) as indicated in the General Instructions (noted above). 
+                   Suppliers shall only submit invoices to the NRG Accounts Payable, regardless of any approvals 
+                    which may be indicated on Purchase Order. NRG Accounts Payable will be responsible for routing 
+                    invoice for appropriate internal approvals. 
+                   Invoices may be faxed to 225-618-4039. 
+                   Invoices may be mailed to 112 Telly St, New Roads, LA  70760. 
+          Supplier Invoices not Doing the Above Will be Rejected (or Delayed) 
+          NRG wants to pay your firm in accordance with agreed upon terms. We greatly appreciate your 
+          cooperation in adhering to these requirements as it will help us to process your invoice faster. Any 
+          exception to these rules may result in invoice rejection or delayed payment as well as additional 
+          communication and coordination between our companies. The following examples lead to delays: 
+                   Sending the same invoice multiple times. 
+                   Sending an invoice to an email address other than invoices@nrg.com. 
+                   Faxing or mailing an invoice as opposed to emailing the invoice. 
+                   Emailing a single PDF file with multiple invoices (the invoices after the first will not be processed). 
+                   Emailing a ZIP file invoice or similarly unreadable format. 
+                   Not including a PO number or an NRG contact’s email on the invoice; invoices without a PO number 
+                    or NRG email address cannot be matched to goods receipts or routed for approval. 
+                   Sending documents that aren’t invoices, such as statements, inquiries, and notices, to 
+                    invoices@nrg.com 
+          Preferred Method of Payment 
+          NRG prefers to pay Suppliers electronically via the ACH (Automated Clearing House) payment system. To 
+          receive payments via ACH, log into your existing supplier profile at http://apps.adaptone.com/nrg/ and 
+          provide your company’s banking instructions and remittance advice email address. 
+          We’re Here to Help You 
+          For general Accounts Payable questions, contact NRG Accounts Payable at accountspayable@nrg.com or 
+          call our Supplier Hotline at 225-618-4030. For specific PO questions, you should contact your NRG Buyer 
+          or NRG Field Representative directly. 
+           
+          Rev. 4/2015                                                                                                                                                Page 2 of 2 
+           

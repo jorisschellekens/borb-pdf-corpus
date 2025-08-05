@@ -1,0 +1,46 @@
+                                              Analysis of the SSL 3.0 protocol
+                                            David Wagner                               Bruce Schneier
+                                University of California, Berkeley                 Counterpane Systems
+                                       daw@cs.berkeley.edu                     schneier@counterpane.com
+                  Abstract                                                 gives some background on SSL 3.0 and its predeces-
+                                                                           sor SSL 2.0. Sections 3 and 4 explore several possible
+                  The SSL protocol is intended to provide a practi-        attacks on the SSL protocol and oﬀer some technical
+                  cal, application-layer, widely applicable connection-    discussion on the cryptographic protection aﬀorded
+                  oriented mechanism for Internet client/server com-       by SSL 3.0; this material is divided into two parts,
+                  munications security.   This note gives a detailed       with the SSL record layer analyzed in Section 3 and
+                  technical analysis of the cryptographic strength of      the SSL key-exchange protocol considered in Sec-
+                  the SSL 3.0 protocol. A number of minor ﬂaws in          tion 4. Finally, Section 5 concludes with a high-level
+                  the protocol and several new active attacks on SSL       viewoftheSSLprotocol’sstrengthsandweaknesses.
+                  are presented; however, these can be easily corrected
+                  without overhauling the basic structure of the pro-
+                  tocol. We conclude that, while there are still a few     2 Background
+                  technical wrinkles to iron out, on the whole SSL 3.0
+                  is a valuable contribution towards practical commu-      SSL is divided into two layers, with each layer us-
+                  nications security.                                      ing services provided by a lower layer and provid-
+                                                                           ing functionality to higher layers. The SSL record
+                                                                           layer provides conﬁdentiality, authenticity, and re-
+                  1 Introduction                                           play protection over a connection-oriented reliable
+                                                                           transport protocol such as TCP. Layered above the
+                  The recent explosive growth of the Internet and the      record layer is the SSL handshake protocol, a key-
+                  World Wide Web has brought with it a need to se-         exchange protocol which initializes and synchronizes
+                  curely protect sensitive communications sent over        cryptographic state at the two endpoints. After the
+                  this open network. The SSL 2.0 protocol has be-          key-exchange protocol completes, sensitive applica-
+                  come a de facto standard for cryptographic protec-       tion data can be sent via the SSL record layer.
+                  tion of Web http traﬃc. But SSL 2.0 has several          SSL2.0hadmanysecurityweaknesseswhichSSL3.0
+                  limitations—both in cryptographic security and in        aims to ﬁx. We brieﬂy describe a short list of the
+                  functionality—so the protocol has been upgraded,         ﬂaws in SSL 2.0 which we have noticed. In export-
+                  with signiﬁcant enhancements, to SSL 3.0. This new       weakened modes, SSL 2.0 unnecessarily weakens the
+                  version of SSL will soon see widespread deployment.      authentication keys to 40 bits. SSL 2.0 uses a weak
+                  The IETF Transport Layer Security working group          MACconstruction, although post-encryption seems
+                  is also using SSL 3.0 as a base for their standards      to stop attacks. SSL 2.0 feeds padding bytes into the
+                  eﬀorts. In short, SSL 3.0 aims to provide Internet       MACinblockciphermodes,butleavesthepadding-
+                  client/server applications with a practical, widely-     length ﬁeld unauthenticated, which may potentially
+                  applicable connection-oriented communications se-        allow active attackers to delete bytes from the end
+                  curity mechanism.                                        of messages.    There is a ciphersuite rollback at-
+                  This note analyzes the SSL 3.0 speciﬁcation              tack, where an active attacker edits the list of ci-
+                  [FKK96], with a strong focus on its cryptographic        phersuite preferences in the hello messages to in-
+                  security. We assume familiarity with the SSL 3.0         visibly force both endpoints to use a weaker form
+                  speciﬁcation. Explanations of some of the crypto-        of encryption than they otherwise would choose;
+                  graphic concepts can be found in [Sch96].                this serious ﬂaw limits SSL 2.0’s strength to “least
+                                                                           common denominator” security when active attacks
+                  The paper is organized as follows. Section 2 brieﬂy      are a threat. Others have also discovered some of

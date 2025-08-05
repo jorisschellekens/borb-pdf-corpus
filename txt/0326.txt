@@ -1,0 +1,1049 @@
+                                                                    
+                                      
+                                      
+        
+        
+                     School of Physics and Astronomy 
+                         University of St Andrews 
+                                      
+                       Health & Safety Policy 
+                                    & 
+                             Safety Guide 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                                            Version 3.07 
+                                                             March 2018 
+                          
+      Table of Contents 
+      Table of Contents ........................................................................................................................................................... 2 
+      Introduction .................................................................................................................................................................... 3 
+      Safety Policy statement ............................................................................................................................................... 3 
+      Emergency ........................................................................................................................................................................ 4 
+      Safety self-check .......................................................................................................................................................... 4 
+      School Safety Duties .................................................................................................................................................... 4 
+      Fire .................................................................................................................................................................................... 5 
+       FIRE ACTION ............................................................................................................................................................. 5 
+       Fire prevention ............................................................................................................................................................ 5 
+      Medical Emergency ........................................................................................................................................................ 5 
+       Medical Emergencies Procedure ............................................................................................................................. 6 
+      Accident reporting ......................................................................................................................................................... 6 
+      Gas Escape or Toxic Spill ............................................................................................................................................. 6 
+      Consultation with Employees ........................................................................................................................................ 6 
+      Smoking Policy ................................................................................................................................................................. 6 
+      New and Expectant Mothers ....................................................................................................................................... 6 
+      Risk Assessment ............................................................................................................................................................. 7 
+      Electricity ........................................................................................................................................................................ 7 
+      Cryogenics ........................................................................................................................................................................ 8 
+      High pressure systems .................................................................................................................................................. 8 
+      High Pressure Water ..................................................................................................................................................... 9 
+      Vacuum systems .............................................................................................................................................................. 9 
+      Lasers ................................................................................................................................................................................ 9 
+      Ionising Radiation ......................................................................................................................................................... 10 
+      Non-ionising Radiation ................................................................................................................................................. 10 
+      Electromagnetic fields ................................................................................................................................................ 10 
+      Static Magnetic Fields ................................................................................................................................................ 11 
+      Hazardous Substances ................................................................................................................................................ 11 
+      Waste disposal .............................................................................................................................................................. 12 
+       Glass disposal. ............................................................................................................................................................ 12 
+       Waste disposal classes. ........................................................................................................................................... 12 
+      Personal Protective Equipment .................................................................................................................................. 13 
+      Security .......................................................................................................................................................................... 13 
+      Out of Hours working .................................................................................................................................................. 13 
+      Lone-working .................................................................................................................................................................. 13 
+      Noise ................................................................................................................................................................................ 13 
+      Visual display workstations (Display Screen Equipment) ..................................................................................... 14 
+       Getting started with Cardinus & Training ........................................................................................................... 14 
+       Risk Assessment ....................................................................................................................................................... 14 
+       User Action report ................................................................................................................................................... 15 
+      Manual Handling ............................................................................................................................................................ 15 
+       Handling Gas Cylinders ............................................................................................................................................ 15 
+       Handling large or awkward boxes and parcels ................................................................................................... 15 
+      Confined Spaces............................................................................................................................................................ 16 
+      Access to Roof .............................................................................................................................................................. 16 
+      Work Equipment ............................................................................................................................................................ 16 
+      Appendix A: General Safety Check List .................................................................................................................. 17 
+      Appendix B: General Risk Assessment Pro-forma ................................................................................................. 19 
+      Appendix C: Local rules for work on the roof of the Physical Sciences Building .......................................... 21 
+      Appendix D: Permit-to-work certificate for work on the roof of the Physical Sciences Building........... 22 
+                                                      2 
+      Introduction 
+      This booklet gives some basic health and safety guidance as well as giving the local rules operating within the School. 
+      This policy gives details of significant hazards in the workplace, the control measures implemented and monitoring 
+      procedures carried out to check that these measures are effective. A list of those members of staff who provide safety 
+      advice for particular hazards is provided on page 4. 
+      The rules and guidance given in this booklet are derived from risk assessments carried out during regular School and 
+      University safety audits, in compliance with the relevant statutory requirements. This booklet is kept under review and 
+      updated as required. They form the “definitive version”. Printed copies of this document may be out-of-date. 
+      The policies and guidance given here are to be considered as being in addition to the University Safety Policy and 
+      Guidance Notes. They are also to comply with University local rules and all relevant legislation. 
+      Relevant links to the Government’s Health and Safety Executive will appear throughout the policy. One particular source 
+      of information that you may want to consult is the HSE leaflet on "Health and Safety Law - what you should know". 
+      The University’s Environmental, Health & Safety Services web pages also have information you may find useful. 
+      INDUCTION - Everyone in the School must read the on-line Health & Safety Induction and complete the quiz at the end 
+      within 1 month of starting. There are two induction options – one for office based staff and one for everyone working 
+      in a laboratory or a workshop etc. - the inductions can be found on the School web pages under Students & Staff, then 
+      Safety at:  https://www.st-andrews.ac.uk/physics/safety/index.php , the inductions are at the bottom of the page under 
+      ‘Other safety documents’. 
+       
+      Safety Policy statement 
+      Matters of Health and Safety within the School are the responsibility of the Head of School. 
+      There shall be a safety management structure for the school. There will be a School Safety Coordinator appointed by 
+      the Head of School, delegated to deal with the day-to-day management of safety. There will also be specialists in specific 
+      fields with delegated duties to advise the coordinator and the Head of School on their special area. See the list of school 
+      safety duties for details. 
+      There will be a School Safety Committee. This committee will meet at least twice a year and comprise representatives 
+      of all categories of staff and students within the School. The Head of School will normally chair this committee. 
+      The School Safety Committee shall determine and co-ordinate the safety policy for the School paying due regard to the 
+      relevant governing legislation, the recommendation of the various University safety policies and committees and the 
+      Safety Office. 
+      The School will carry out a general risk assessment and endeavour to minimise risks to employees and students by acting 
+      on appropriate legislation, providing training and adequate safety equipment, and encouraging safety consciousness 
+      within the School. 
+      The School shall endeavour to minimise risks to visitors, contract labour, and service engineers who may come into 
+      contact with materials associated with the School both within the buildings and elsewhere. 
+      The School shall keep appropriate records and risk assessments to comply with legislation. 
+      Accidents and incidents will be reported to the Safety Office and thoroughly investigated by the School Safety personnel 
+      or the University Safety Adviser. 
+      The School shall carry out safety inspections at least once per year and at any time if required for current updating. The 
+      inspection team will include the Safety Coordinator but may co-opt other specialist members, including the chairman. 
+      Reports of these inspections will be made available to the Safety Office. 
+      Signed by the Head of School: 
+        
+                    
+       
+      Professor Graham A Turnbull 
+       
+                                                      3 
+               Emergency 
+               In case of emergency dial 9-999 from any telephone. 
+               Safety self-check 
+               To help you do a self-audit before a building inspection is made, a checklist has been produced. The checklist is available 
+               in Appendix A. 
+               Since the checklist is for formative use, if you find you will be giving the wrong answer, then you should consider how 
+               you could fix the problem, enabling you to give the right answer. This is much better than having an inspection team 
+               demand you fix the problem before you can continue with any other work! 
+               School Safety Duties 
+               The Head of School has responsibility for safety in the School. The following list shows those members of the School 
+               with delegated duties in particular areas of safety. These safety advisers must be consulted before designing any 
+               experiment that may create a hazard. 
+                 Head of School                                                     Graham Turnbull 
+                 Safety Coordinator                                                 Derek Milroy 
+                 Security, Building Fabric and Fire Safety                          Derek Milroy 
+                 Radiation (Laser, Ionising, Non-ionising)                          Cameron Rae 
+                 Electromagnetic Radiation                                          Duncan Robertson 
+                 Static Magnetic Fields                                             Robert Hunter 
+                 Pressure Systems                                                   Callum Smith 
+                 Cryogenics                                                         Callum Smith 
+                 COSHH, Chemicals and Waste Disposal                                Paul Donaldson 
+                 Manual and Mechanical Handling                                     Stephen King 
+                 Mechanical Safety                                                  Mark Robertson 
+                 Electrical Safety                                                  Mark Ross 
+                 Display Screen Equipment                                           Aly Gillies 
+                 Graduate Student Representative                                    James Burch / Josh Argyle 
+                 Janitorial Representative                                          Garry Muir 
+                 Post Doctorate Representative                                      Duncan Robertson 
+                 Disability Coordinator                                             Bruce Sinclair 
+                 Biological Safety                                                  Andrew Morton 
+                
+                                                                                                                                           4 
+                Fire 
+                If you discover a fire you should follow the standard fire actions displayed on blue notices around the building. The text 
+                of this notice is reproduced below. 
+                Any disabled person who believes that they require assistance in the event of an emergency evacuation should contact 
+                the School Safety Coordinator (Derek Milroy). 
+                If you have left an experiment running that could be dangerous, meet the Fire Brigade and warn them. 
+                The Fire Alarm is a continuous electronic siren. 
+                The Fire Alarm is tested on a Monday at 14:00hrs when the alarm is activated for approx. 10 seconds. You should take 
+                no action when this test is activated. 
+                FIRE ACTION 
+                Any person discovering a fire: 
+                Sound the alarm by operating the nearest call point. If none, shout “FIRE!” 
+                Call the fire brigade - Dial 9-999 (University Telephone System) or 999 
+                         State precise location of fire. (Wait for confirmation of the message.) 
+                         If safe to do so - attack the fire yourself with a suitable appliance. (Do not endanger yourself or others in doing 
+                          so.) 
+                On hearing the fire alarm: 
+                         Leave the building by the nearest available exit. 
+                         Close all doors behind you. 
+                         Report to the person in charge at your assembly point:                
+                          The car park in front of the main entrance (level 2). 
+                Do Not: 
+                         Take risks. 
+                         Stop to collect personal belongings. 
+                         Use any lifts. 
+                         Re-enter the building until authorised by a Fire Brigade Officer. 
+                Fire prevention 
+                Storage of cardboard boxes, particularly those containing packing materials e.g. Styrofoam, is strongly discouraged. In 
+                the event of a fire the cardboard provides excellent fuel, and the packing materials are a source of extremely toxic gas. 
+                Medical Emergency 
+                Follow the procedures given on the Medical Emergency notices around the building. The text is reproduced below for 
+                completeness. 
+                The following are trained First-Aiders within the Physical Sciences building: 
+                         Paul Donaldson             Teaching Laboratories                      Rm 324                     Tel 3148 / 3132 
+                         Mark Clifford              Teaching Laboratories                      Rm 324                     Tel 3148 / 3132 
+                         Steve King                 Photonics Innovation Centre                Rm 132b                    Tel 7309 
+                         Mark Robertson             Mechanical Workshop                        Rm 130                     Tel 3276 
+                         Mrs Linda Cousins          School Office                              Rm 211                     Tel 3111 
+                 
+                First aid boxes are located at: 
+                         Adjacent to the lift doors on each floor 
+                         The south entrance to the teaching labs on level 3 
+                         Outside Room 301, level 3 
+                         Outside the janitors office adjacent to the main entrance, level 2 
+                         In the north-east corner outside the electronics technicians workshop, level 1 
+                 
+                Do not move the casualty, unless they are exposed to further danger. Do not risk injury to yourself while trying to help 
+                the casualty. 
+                                                                                                                                                  5 
+                 Medical Emergencies Procedure 
+                 If the condition requires further treatment either refer the casualty to the Community Hospital, Largo Road, St. Andrews 
+                 (minor injuries) 
+                 or if immediate medical attention is required telephone an ambulance on 9-999 (University extensions) or 999 call box 
+                 Advise ambulance control of the location of the incident and of the type, seriousness and number of casualties involved. 
+                 Accident reporting 
+                 All accidents, unless obviously trivial, must be reported on the official University Accident Report form as soon as 
+                 possible, and always within twelve hours, to enable fulfilment of statutory obligations. By law, major accidents (e.g. 
+                 broken bones, electrical near-misses, etc.) and accidents causing the person to take seven or more days off work, must 
+                 be reported by the University to the Health & Safety Executive. Reporting forms can be obtained from the University 
+                 EHSS web page or the School Safety Coordinator. 
+                 The online form should be completed, printed and then signed by the person concerned and the School Safety 
+                 Coordinator. The form should then be sent to the Director of EHSS. One copy of this form should be kept by the injured 
+                 person as their record, a second kept by the School as their record of the incident with the original copy sent to the 
+                 Director of EHSS. An investigation to determine the cause of the accident will be carried out to comply with the legal 
+                 requirements. 
+                 All dangerous occurrences or “near miss” incidents should also be reported. These reports are used as part of the 
+                 ongoing monitoring of Health & Safety around the University and can indicate areas where further safety action is 
+                 required. 
+                 Gas Escape or Toxic Spill 
+                 The following procedure should be followed in case of any escape of gas (compressed gas, cryogenic spill, or “quench” 
+                 of a superconducting magnet) or a major spillage of a hazardous substance: 
+                      1.   Evacuate the room, or if considered necessary, the building. 
+                      2.   Do not attempt a clean-up operation unless you are confident this can be carried out without risk to health. 
+                      3.   If necessary, call the Fire Brigade: Dial 9-999, ask for the Fire Brigade and state:  
+                           University of St. Andrews, School of Physics & Astronomy, North Haugh, Nearest Access and Your Name, 
+                           (alternatively if at Observatory state Buchanan Gardens) 
+                      4.   Meet the Fire Brigade, or delegate somebody who knows the exact location and nature of the accident. 
+                      5.   Do not return to the room until it is declared safe by the senior fire officer present. 
+                 Consultation with Employees 
+                 The  University  has  issued  the  following  statement  under  the  Health  and  Safety  (Consultation  with  Employees) 
+                 Regulations 1996: 
+                 By agreement with the three recognised trade unions, Safety Representatives appointed by these Unions will also 
+                 represent, with respect to the requirements of the above legislation, non-union members within their employment 
+                 group. 
+                 Smoking Policy 
+                 The University Policy bans smoking in all University buildings. 
+                 New and Expectant Mothers 
+                 Many of the safety considerations for expectant mothers are important from the very early stages of pregnancy (e.g. 
+                 inhalation of chemical agents). It is therefore desirable for expectant mothers to give early, informal, notice to the 
+                 School. This will enable their working environment to be assessed for possible hazards. 
+                 There are statutory requirements to carry out specific risk assessments on the working environment of new and 
+                 expectant mothers. Thus it is in the interest of an expectant mother to notify the school as soon as possible so that 
+                 these assessments can be made. 
+                 Any early informal notification will be treated in confidence. The school would prefer to carry out confidential risk 
+                 assessments than to discover too late that an expectant mother is working in an unsuitable environment. 
+                                                                                                                                                           6 
+                The University has issued guidance notes on health and safety aspects for new and expectant mothers at work. The 
+                procedures laid down will only be acted upon when the University is formally notified that an employee is an expectant 
+                mother. 
+                Risk Assessment 
+                The Management of Health and Safety at Work Regulations 1999 require that assessment be made of all significant risks 
+                to health and safety. 
+                A hazard is anything that can cause an injury or harm. The risk is the chance of that injury or harm happening. In risk 
+                assessment, all the hazards should be identified and then the chances of these hazards causing injury are judged. The 
+                regulations require that a risk assessment is suitable and sufficient and should identify the significant risks. This requires 
+                a systematic identification of the hazards and evaluation of the risks involved, considering the precautions already in 
+                place. Once the risks have been identified they should be minimised by either removing the hazard, and hence the risk, 
+                or by setting up controls that minimise the risk. 
+                It is important to keep a record of these assessments to show how the conclusions were reached. Any new working 
+                practices that are devised to control the risk identified should also be recorded. 
+                A booklet is available that gives guidance on this procedure and includes the five step procedure published by the HSE: 
+                         Look for the hazards. 
+                         Decide who might be harmed and how. 
+                         Evaluate the risks arising from the hazards and decide whether existing precautions are adequate or whether 
+                          more should be done. 
+                         Record your findings. 
+                         Review your assessment from time to time and revise it as necessary. 
+                 
+                When carrying out an assessment, various possible control measures should be considered. These are, in order of 
+                desirability: 
+                         Elimination - eliminate the hazard. 
+                         Substitution - substitute a less hazardous substance/device. 
+                         Engineering - put in place an engineered ‘barrier’ to the hazard e.g. screens or interlocks. 
+                         System of work - use a written and agreed procedure, which minimises the risk. 
+                         Personal Protective Equipment - as a last resort, use protective clothing. 
+                A standard risk assessment pro-forma has been produced by the University Safety Office. This is reproduced in Appendix 
+                B of this booklet. Copies can be printed from this booklet, or obtained from the School Safety Coordinator. The form 
+                will give guidance on those items that should be considered in an assessment. This record should then be passed to the 
+                School Safety Coordinator for comment before any work is undertaken. 
+                Electricity 
+                Electricity is dangerous because relatively small currents, a few milliamps, passing through the body can upset the heart, 
+                stop breathing and disrupt the nervous system. 
+                The Electricity at Work Act 1989 covers electrical safety. The University produces two booklets on this subject: 
+                         Electricity  at  Work  Regulations  1989  (Guidance  notes  on  inspection  and  testing  of  portable  electrical 
+                          equipment) is a slim booklet of guidance on the inspection and testing of portable electrical equipment. 
+                         The University local rules for electrical safety, this is a weighty tome. 
+                Both of these are available from the School Safety Coordinator or the University Environmental Health and Safety 
+                Services. 
+                All electrical equipment, including personal equipment, entering the school must be electrically safe. To ensure this, 
+                electrical equipment must be inspected and tested regularly. All equipment has a label attached giving the date of the 
+                last test. Any equipment without a label may be unsafe and must be checked/tested by Electronic Services. 
+                Any faulty, or suspected faulty, equipment must be taken, or reported, to Electronic Services who will arrange testing 
+                and/or repair. 
+                What follows is a short reminder to be careful; the rules and regulations are set out in the booklets mentioned and 
+                these should be consulted. 
+                         A competent person must fit all plugs (e.g. Electronic Services). 
+                         Where possible a Residual Current Device (RCD) should be fitted. 
+                         All cables must be capable of handling the required current. 
+                                                                                                                                                  7 
+                         All live parts must be insulated, or guarded so that they cannot be touched when live. 
+                         To reduce tripping hazards, and to prevent damage through kicking or flooding, all trailing extension sockets 
+                          must be kept off the floor. 
+                         In a laboratory, know where the main isolation switch is and how to operate it in an emergency. 
+                 
+                You can see the HSE version of these regulations, and other booklets relating to electrical and electronics safety, on the 
+                HSE’s publications webpage. 
+                Cryogenics 
+                Liquefied gases, and cold objects in general, are hazardous. 
+                Specialised training covering the following will be given to honours and research students. Anyone else requiring to 
+                work with liquefied gases should contact the School Safety Coordinator for training. After this training you can work, 
+                under supervision, with systems operating down to liquid nitrogen temperatures. Further training must be undertaken 
+                from Cryogenics before working with liquid helium. 
+                Anything that is below 273K (0°C) can cause burns, and the lower the temperature the more serious the skin-damage. 
+                Loose fitting non-absorbent gloves should be worn if there is any chance of touching cold surfaces, since bare skin can 
+                stick/freeze to the surface. Appropriate Personal Protective Equipment should always be used when handling cryogenic 
+                materials. 
+                A container of liquid gas holds the equivalent of about 800 times its volume of that gas. While few of our cryogenic 
+                gases are toxic, only oxygen is any use for breathing. If a large volume of any other liquid gas is evaporated, this will 
+                displace air, and you may be short of oxygen. Only carbon dioxide will warn you of this; inert gases cause suffocation 
+                without warning. For this reason you must never travel in the lift with a Dewar containing liquid gas. Users should place 
+                the Cryogenic Dewar in the lift initially, then proceed to the relevant floor via the stairs, call the lift and remove the 
+                Dewar. 
+                Since a small volume of liquid produces a large volume of gas, make sure that the gas boiling off has an easy escape 
+                route. A liquid gas container will explode if not vented. Ensure that ice frozen out of the atmosphere (or solid air if the 
+                liquid is helium) cannot block the vent. 
+                Liquid nitrogen in an open-topped container is cold enough to condense out oxygen from the air; after a while there 
+                can be more than half liquid oxygen in your liquid nitrogen. Increasing the concentration of  atmospheric oxygen 
+                increases the risk of fire. Oil and grease should never be used on equipment for use with oxygen. 
+                Plastics become brittle when cold and liquid nitrogen can cause them to shatter. For example, an electrical cable may 
+                become bare wires when its plastic insulation shatters. Liquid nitrogen spills are also very good at lifting floor tiles. This 
+                can generate a tripping hazard. 
+                High pressure systems 
+                These are defined to be any system operating at more than 0.5 bar above atmospheric pressure containing a fluid, as 
+                described in the Pressure Systems and Transportable Gas Containers Regulations 2000. If the (pressure x volume) of the 
+                largest vessel in the system is greater than 250 bar-litres this must be notified to the University’s nominated “competent 
+                person”, who is Mr Robert Watson of Estates & Buildings. 
+                Note, however, that all other pressure systems within the School, which fall outside the regulations, must be maintained 
+                to the same standard. The School is responsible for the inspection and testing of all such systems. 
+                All pressure systems under these regulations must be inspected by the insurers every 14 months, and be tested and 
+                have their test pressure marked on them. Suitable overpressure relief valves must be fitted, and consideration given to 
+                bursting discs as a backup. Any new, or modified, pressure systems must be notified to the School Safety Coordinator. 
+                The University guidelines on the use of pressure systems should be consulted and followed in all cases. These guidelines 
+                include the regular inspection and periodic replacement of all gas lines. All valves must be suitable for the gas being 
+                handled. All regulators should be to BSEN 585 or BS 7650, inspected regularly, and serviced/replaced periodically, 
+                probably at least every five years. The school is responsible for inspection/maintenance and replacement of all high 
+                pressure equipment. 
+                All cylinders must be kept securely restrained, transported on a trolley and never dropped. The weakest part of a 
+                cylinder is the valve. If this is broken off, for example by the cylinder falling over, the cylinder will become very hazardous 
+                due to the large escape of energy (cylinders are normally charged to 200 bar and weigh around 60kg). Supervisors must 
+                give basic training before work is undertaken with a pressure system. 
+                Always know the contents of any cylinder in your care. The colour codes on cylinders are unreliable, so check the label. 
+                                                                                                                                                  8 
+                You can see the HSE version of these regulations, and other booklets relating to high-pressure system safety, on the 
+                HSE’s publications webpage. 
+                High Pressure Water 
+                The building has a high-pressure water supply used for cooling research and teaching apparatus. When demand on the 
+                system is low the pressure rises to over 100 psi. 
+                There is always a risk of flooding with any water supply. However, because of the high pressure of this supply, a leak 
+                may spray water over a very large area. This water spray can reach electrical equipment and give a high risk of electric 
+                shock. 
+                All valves, fittings and hoses used on the high-pressure water system must be able to withstand pressures well in excess 
+                of 100 psi. Hose connections should be rifled and the hoses clamped securely. These fittings should be regularly checked 
+                to ensure that they are secure. 
+                Vacuum systems 
+                The greatest danger in vacuum systems comes from the use of glass components. Bell jars on coating units are a 
+                particular hazard. 
+                If glass is being used: 
+                         Steps must be taken in the design of the system to minimise the strain on the glass. 
+                         Any glass component must be surrounded by an implosion shield sufficient to contain a worst-case collapse. 
+                Vacuum systems are not generally hostile provided the potential danger of an implosion is considered and precautions 
+                taken to avoid a sudden inrush into the system. An inrush could be of gas, liquid or loose solid objects drawn in by the 
+                gas and/or liquid. The danger is not so much the inrush, as the tendency of such material to continue in a straight line 
+                and come out of the other side. 
+                It is important to ensure that the vacuum pump exhaust is vented outside of the building to prevent build-up of oil-mist. 
+                This mist is hazardous to health (coating inside of lungs) and will trip the fire alarm sensor resulting in a visit from the 
+                emergency services. 
+                Supervisors have a responsibility to give training and guidance to all members of their group. 
+                Lasers 
+                Coherent light sources (i.e. lasers) and high brightness light emitting diodes (LEDs) can generate significant quantities of 
+                power over small areas, and at significant distances from the light source. As a consequence there are potential risks 
+                associated with the use of such equipment. These include thermal injuries to the eyes and skin, photochemical reactions 
+                in the eyes and skin and also the risk of fire.  
+                The Control of Artificial Optical Radiation at Work Regulations 2010 requires that all work with lasers and high brightness 
+                LEDs must be risk assessed and appropriate control measures implemented to eliminate or minimise the risk of injury. 
+                All work involving lasers and high brightness LED’s within the School must then be carried out in accordance with the 
+                University Local Rules For Work With Lasers, a copy of which can be found in each designated laser area.  This document 
+                is based on the international/British Standards for work with lasers BS EN 60825. 
+                It is essential for your safety, and the safety of others, that the School Safety Policy in relation to work with lasers is 
+                adhered to. The School Laser Safety Policy requires all laser workers to follow at all times the rules given in the University 
+                Local Rules for Work with Lasers, together with the following procedural requirements: 
+                     1.        Any person working with lasers of Class 1M, 2M, 3R, 3B and 4 must be registered as a laser worker. 
+                     2.        Any newly registered laser worker must be supervised by a skilled laser worker until, to the satisfaction of 
+                               the Research/Service Group Head, they are sufficiently skilled as to operate safely & independently. 
+                     3.        Research/Service Group Heads must notify the School Laser Safety Supervisor of all new lasers brought in 
+                               and perform a suitable and sufficient risk assessment prior to their use. 
+                     4.        Research/Service Group Heads must notify the School Laser Safety Supervisor of all lasers decommissioned 
+                               or otherwise disposed of. 
+                     5.        Research/Service Group Heads must complete and return to the School Laser Safety Supervisor an Annual 
+                               Laser Safety Checklist. 
+                     6.        Research/Service Group Heads must ensure there is an adequate supply of appropriate laser safety 
+                               eyewear where required and that said eyewear is accessible without placing the worker at risk, e.g. outside 
+                               laboratory. 
+                                                                                                                                                  9 
+                      7.         Research/Service Group Heads must notify the School Laser Safety Supervisor of all visiting laser workers 
+                                 prior to their starting work with lasers.  
+                      8.         Laser Workers visiting another institution must operate to safety standards on a par with those of the 
+                                 University of St Andrews or where the other institutions procedures are more stringent to those of the 
+                                 other institution. 
+                      9.         Recipients  of  laser  equipment  loaned  by  the  School  to  other  Schools/Units  must  be  alerted  to  the 
+                                 requirements of the University Local Rules for Work with Lasers.  Compliance with these rules is the 
+                                 responsibility of the School/Unit to which the laser equipment is loaned. 
+                      10.        Interlocks on doors to laser designated areas shall be inspected and tested regularly and a record of these 
+                                 tests maintained by the School. 
+                 In the event of an accident where eye damage is suspected, the casualty must present themselves as soon as possible 
+                 to the Eye Clinic (during working hours) or Ophthalmic Ward (out of hours) at Ninewells Hospital, Dundee. 
+                 Supervision of compliance with the School Laser Safety Policy is delegated by the Head of School to the School Laser 
+                 Safety Supervisor, Cameron Rae, who should be consulted and provide advice on laser safety matters and maintain 
+                 appropriate records. 
+                 Ionising Radiation 
+                 Ionising Radiation includes radioactive emissions (alpha, beta & gamma rays) and X-rays. The sources of these radiations 
+                 vary enormously in intensity but should all be treated with respect. 
+                 The University publishes a book of Local Rules for working with Ionising Radiation. The School’s Radiation Protection 
+                 Adviser, Cameron Rae, should be consulted early in the planning for any experiment involving radioactive or X-ray work. 
+                 All persons working with ionising radiation must be registered with the University Safety Office as a ‘radiation worker’. 
+                 The University’s Radiation Protection adviser must approve all projects (forms from the School’s Radiation Protection 
+                 Adviser). 
+                 Ionising Radiation can be both dangerous and emotive. Care must be taken to follow the procedures laid down in the 
+                 local rules to ensure safe and acceptable working conditions. 
+                 The School Radiation Protection Adviser must be consulted before ordering any source of ionising radiation. Also 
+                 handling and disposal needs to be certified by the Scottish Environment Protection Agency (SEPA). 
+                 You can see the HSE regulations, and other booklets relating to ionising radiation safety on the HSE’s publications 
+                 webpage. 
+                 Non-ionising Radiation 
+                 The University publishes a booklet of local rules for working with non-ionising radiation (University Local Rules for work 
+                 with Non-ionising Radiations Part 2 - ultraviolet radiation). A copy of this can be obtained from the School Safety 
+                 Coordinator or Environmental Health and Safety Services. 
+                 When working with Ultraviolet Radiation a copy of this booklet should be obtained and the procedures laid down in it 
+                 should be followed. 
+                 The dangers of exposure to ultraviolet radiation can be cumulative, and thus the exposure time limits for given levels of 
+                 radiation must be followed carefully. 
+                 Since ultraviolet radiation is invisible, a suitable method of detecting it must be available and should be used. 
+                 Other forms of non-ionising radiation require different procedures for their detection and control. In particular the 
+                 levels of exposure to microwaves and infra-red radiation fields must be considered if these are being generated. At 
+                 present  there  is  no  published  University  Local  Rules  booklet  for  these  radiations,  but  the  National  Radiological 
+                 Protection Board has specified safety levels and these should be followed. 
+                 You can see the HSE regulations, and other booklets relating to non-ionising radiation safety on the HSE’s publications 
+                 webpage. 
+                 Electromagnetic fields 
+                 There are at present no specific regulations in the United Kingdom governing the exposure of either workers or 
+                 members of the public to electromagnetic fields at frequencies below 300 GHz. 
+                                                                                                                                                          10 
+                The acceptable level of exposure to fields in this frequency range is a very controversial subject. There have been a 
+                number of articles in the press that suggest low limits should be imposed, e.g. Electronics World & Wireless World, Feb 
+                1990 pp96-124. 
+                A  paper  produced  in  1982  by  the  National  Radiological  Protection  Board  (NRPB)  gives  the  range  of  national 
+                recommendations for maximum exposure for given frequencies below 300 GHz. At the time these ranged from  
+                         -2                    -2
+                0.5 Wm  (USSR) to 100 Wm  (UK), a factor of 200. 
+                The UK recommendation was based on thermal effects on body tissue, while the USSR recommendation was based on 
+                functional disturbance to laboratory animals, i.e. do not upset the nervous system. The latest recommendations from 
+                the NRPB are published in ‘Broad Statement on Restriction on Human Expose to Static and Time Varying Electromagnetic 
+                Fields and Radiation’ ISBN 0 85951 366 1 from HMSO. These are based on the field required to avoid 3 different effects: 
+                         Thermal effects on body tissue, especially the eyes. 
+                         Maximum current in limbs 
+                         Electric shock and RF burns. 
+                           
+                The NRPB recommendations are different for near-field and far-field, and for different parts of the body. It would be 
+                best to consult them yourself for each experimental set-up. 
+                These radiation levels are only recommendations and it is up to the individual experimenter to set and monitor their 
+                own limits, probably after consulting the literature. However, the recommended safety levels should not be exceeded 
+                in any circumstances. 
+                Static Magnetic Fields 
+                Strong magnetic fields require to be treated with considerable respect. Apart from the obvious danger of loose magnetic 
+                objects flying towards the poles of a strong magnet, there are other possible dangers. For example, blood is a conducting 
+                fluid and it moves as it circulates around the body. Thus your circulation is a moving conductor in a magnetic field. Any 
+                magnetic field should not be strong enough to affect the circulation. 
+                The recommended limits for exposure to static magnetic fields given by the National Radiological Protection Board are 
+                as follows: 
+                     1.   Short-term exposure to the head and trunk should not exceed 2 tesla (T), and for the limbs 4 T. A ‘short’ period 
+                          is defined as less than 15 minutes, not repeated for at least an hour. 
+                     2.   Long-term  exposure  (8  hours  per  day)  should  not  exceed  1  mT.  (e.g.  the  immediate  environment  of 
+                          superconducting magnets is often close to this limit.) 
+                     3.   Metal surgical implants should be kept away from strong fields and strong fields may affect pacemakers. 
+                          Notices should be posted to warn people with these devices to keep away. 
+                Consideration is being given to having areas with fields greater than 1 mT classified as controlled areas. However, 
+                specialists at Ninewells Hospital have suggested that the maximum field for heart pacemakers should be 0.5 mT. It is 
+                suggested that the 1 mT limit should be determined and the extent of the 0.5 mT field should be marked clearly on the 
+                floor of labs containing superconducting magnet systems. 
+                When working with superconducting magnets ensure your working practice allows for a rapid evacuation in case the 
+                magnet should ‘quench’ (revert to normal resistance) and evaporate the contents of the Dewar. To protect the user 
+                from the high voltages generated during the dissipation of electrical energy during a ‘quench’, care should be taken with 
+                the earthing of the system. 
+                Hazardous Substances 
+                The Control of Substances Hazardous to Health (COSHH) regulations require that the school carries out risk assessments 
+                for all procedures within the school involving the use of substances which pose a significant risk to health. 
+                The assessment is required for the procedure, not the substance. The supervisor of the project is responsible for doing 
+                the assessment, which must be done before any new substances are ordered. The assessment will require information 
+                on all the substance to be used, any generated by reactions, and on the proposed disposal of any residues. This 
+                assessment is completed electronically on the CHARM system but is not valid until electronically signed by the worker 
+                and the supervisor. 
+                It is important to plan the disposal of surplus chemicals and residues from reactions at this stage. It is possible that the 
+                disposal may incur a substantial cost. 
+                                                                                                                                                  11 
+                All chemicals (and any other ‘hazardous substance’) must be brought into the school via the Stores. They may only be 
+                collected from the Stores by persons named on the risk assessment form. All substances entering the school should 
+                have hazard information on the label or have a product safety data sheet. When ordering any chemicals, ensure that 
+                this safety information is provided. Separate data sheets, or copies of them, may be lodged with the School Safety 
+                Coordinator if there is any likelihood of them getting lost. 
+                If you have ordered chemicals, and they did not come with a product safety data sheet, check with the School Safety 
+                Coordinator. Sometimes suppliers send the data sheets under separate cover to the 'safety officer'. 
+                A product safety data sheet must accompany any hazardous materials passed to the workshop. 
+                Waste disposal 
+                The duty of care in disposal of all waste rests with the waste producer until safe disposal has been carried out. The 
+                Special  Waste  Regulations  controls  the  transport  of  waste  and  adds  new  categories  of  waste  and  controls  their 
+                movement. The responsibility for waste does not end when it leaves the building, and liability may continue for some 
+                time if the method of disposal used was not suitable. 
+                The school has an agreement with Fife Council, as the local waste disposal authority, for the removal and disposal of 
+                “domestic” type waste. This specifically excludes any waste that could be classed as hazardous. The University has 
+                published a combined document giving guidance on the routes for recycling of different types of waste and also on 
+                disposal  of  hazardous  substances  from  laboratories.  This  document  is  available  on  the  EHSS  website  at  URL: 
+                http://www.st-andrews.ac.uk/staff/policy/healthandsafety/publications/  
+                 Any waste that is not non-hazardous “domestic” waste must be disposed of by other means. The University Safety 
+                Office can arrange disposal of these substances. You will however have to pay the commercial rate for their disposal 
+                and this should be considered when applying for funding for the research in the first instance. 
+                Disposal of sharps also requires special care. We have a sharps container, which is held in the main Stores. This should 
+                be used for the disposal of all sharps. Because of the type of danger caused by sharps, the container must be taken to 
+                the sharp that is to be disposed of. DO NOT take the sharp through the building to the container. 
+                Radioactive sharps must not be disposed of by this route. If you expect to produce any radioactive sharps you must 
+                contact the School Safety Coordinator. Arrangements for their disposal can then be made before any sharps are 
+                produced. 
+                The School Safety Coordinator acts as a clearing house for requests for waste disposal and will arrange for the required 
+                paperwork. Disposal must be done by this route as records have to be kept centrally by the University. There are now 
+                heavy fines for not following the correct disposal procedures. 
+                Consignments for disposal must be accompanied by a completed form. The form should be e-mailed to the University 
+                Safety  Office,  ehss@st-andrews.ac.uk.  The  consignment  form  can  be  downloaded  from  http://www.st-
+                andrews.ac.uk/physics/safety/resources/Blank-Lab-Smalls-List.xls. The Safety Office will not accept hand-written forms, 
+                “it is taking up a lot of time trying to decipher some members of staff handwriting”. 
+                Glass disposal. 
+                Winchester/Glass bottles which cannot be returned to the suppliers must be disposed of as follows:  
+                                        Plastic cap must be removed and discarded in the normal waste bin. 
+                                        The original contents must be completely removed, and then the bottle must be thoroughly 
+                                         washed with excess water to remove all traces of chemicals. 
+                                        The labels should be removed from the bottles or defaced to indicate that the bottle no longer 
+                                         contains the specified substance. 
+                                        The clean bottle must then be placed in the appropriate waste/recycling bin. 
+                                          
+                No other materials may be placed in this container.  
+                Some types of glass are not accepted for recycling, e.g. pyrex, quickfit glass. Please check this before placement in glass 
+                recycling bins. 
+                It is essential that this bin be kept free of contamination otherwise Fife Council will simply refuse to uplift it. 
+                Waste disposal classes. 
+                The school has a commercial waste disposal agreement with Fife Council for waste transfer. This covers the rubbish that 
+                goes out in black bags. 
+                The agreement specifies that Fife Council will accept for transfer and disposal the following waste: 
+                                                                                                                                                 12 
+                         Office debris; food scraps; paper & plastic packing material; floor sweeping and other cleaning waste; wood, 
+                          metal and plastic waste from mechanical and electrical workshops. 
+                           
+                Any waste not described in the above must be disposed of by special arrangement. 
+                Waste is classified as ‘special’ or ‘controlled’. All ‘special’ waste must be disposed of through the University Safety Office, 
+                this can be arranged by the School Safety Coordinator. 
+                Personal Protective Equipment 
+                The Personal Protective Equipment at Work (PPE) Regulations 1992 are now in force. Supervisors are expected to 
+                provide personal protective equipment and the training in its use. It is expected that people will use personal protective 
+                equipment as required when undertaking any hazardous operation. 
+                Within  the  Physical  Sciences  building  there  are  areas  where  personal  protective  equipment  must  be  used.  The 
+                mechanical workshop must not be entered unless eye protection is worn. Part of the cryogenics area is a noisy area and 
+                ear defenders should be worn when working in this area. 
+                Gloves should be worn to protect your hand when manual-handling containers or materials. 
+                Rubber-gloves should be worn when handling chemicals or biological samples. These should be removed and disposed 
+                of prior to leaving the laboratory. This eliminates any contamination of other building areas. 
+                Manual-handling gloves and rubber-gloves can be obtained from the School’s Stores. 
+                You can see the HSE regulations, and other booklets relating to personal protective equipment on the HSE’s publications 
+                webpage. 
+                Security 
+                The security of the building has a direct influence on the safety of the working environment. There are many areas in 
+                the building that, while not directly hazardous, could be made dangerous by the untrained person. 
+                The security of the building requires the cooperation of everybody working in it. If you see a stranger wandering round, 
+                offer to help them. 
+                Outside normal working hours the building is locked. 
+                Keys are issued where required, a £10.00 deposit is taken at the time of issue and refunded when the key is returned. 
+                You are reminded that when you stop working in the school you are required to return your keys. 
+                Out of Hours working 
+                If you are working outside normal working hours (after 10pm) you must sign-in on one of the sheets provided at the 
+                main entrance or at the back door (by the Stores). When leaving you must sign out to indicate you are no longer in the 
+                building. 
+                This list is essential if there is a fire: 
+                         if you are signed in then you will be searched for. 
+                         if you are not signed in then no-one will know to search for you. 
+                           
+                Similarly, failure to sign out puts at risk the lives of those searching for you. I am sure you do not want your failure to 
+                sign out to cause injury to others. 
+                Lone-working 
+                The School has a Lone Working policy and this can be found on the School web pages under Students & Staff, then 
+                Safety at:  https://www.st-andrews.ac.uk/physics/safety/index.php , the policy is at the bottom of the page under 
+                ‘Other safety documents’. 
+                Noise 
+                There is a general duty to reduce all noise levels as much as is reasonably possible. 
+                There are statutory thresholds for working in a noisy environment. There are also limits for transients and pressure 
+                pulses. 
+                                                                                                                                                 13 
+               Where a noise hazard is suspected, a competent person (e.g. University Safety Adviser) must assess the noise hazard. 
+               When one of the thresholds is exceeded then appropriate action must be taken to reduce such noise to permitted levels. 
+               Where ear defenders are provided they must be worn. 
+               Hearing loss can be irreversible if the total and/or peak exposure has exceeded some threshold (which varies from 
+               person to person). This threshold is usually close to the action levels defined above. You can see the HSE regulations, 
+               and other booklets relating to noise safety on the HSE’s publications webpage. 
+               Visual display workstations (Display Screen Equipment) 
+               Regulations  are  in  force  which  require  users  of  workstations  to  undergo  basic  training,  and  to  have  a  working 
+               environment that satisfies certain safety criteria. These criteria relate to seating, lighting and organisation of equipment. 
+               The criteria are designed to reduce the stresses and strains of using the workstation. 
+               The regulations require that the DSE user be trained in the use of their DSE equipment and that their workstation should 
+               be risk assessed. A DSE user is defined as anyone who uses a VDU for prolonged periods; this is taken as regular, 
+               continuous spells of an hour or more. In the School of Physics and Astronomy that is likely to be the majority of staff. 
+               All DSE users are required to take a DSE training course and to have their workstations risk-assessed. 
+               DSE training and workstation risk assessment is undertaken by means of completion of the Cardinus online course. The 
+               Cardinus course is available at the following URL:      
+                                        https://secure.cardinus.com/launch.asp?id=ustan22439  
+               The training will take around 30 minutes to complete; thereafter you will be required to undertake a ten question 
+               multiple-choice test in which you must achieve 80% to be deemed to have passed. 
+               Getting started with Cardinus & Training 
+                                                             When you first try to use the Cardinus package you will have to register 
+                                                             your details. You should use your IT Services username / email address as 
+                                                             the User ID, enter your Surname and check the box to agree to the Privacy 
+                                                             Statement. Click Submit to proceed. 
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                   The Cardinus Login screen (v7.1.0)         
+                                                             Now  fill  in 
+               your  Personal  details  as  requested.  Ensure  that  you 
+               associate  yourself  with  the  School  of  Physics  and 
+               Astronomy by choosing Physics and Astronomy as your                                                                     
+               department and Physics Institute as your location.                           Cardinus Personal details 
+                                         You can now work through the 
+                                         Safety Training and Risk Assessment at your own pace, logging out and into the system 
+                                         whenever you like using your IT Services username as you identity. 
+                                         The Cardinus system ensures that you are actually reading the information by giving you little 
+                                         interactive sequences to complete at the end of certain blocks of text, e.g. “Place mouse over 
+                                         picture”, “Click to view”, etc. It is best just to read through the text rather than to “try to get 
+                                         the training over as quickly as possible”! 
+                                         At the end of the four training modules you will be given a few conclusions, and then a multiple 
+                                         choice test consisting of ten questions. You need to get eight of the ten questions correct to 
+                                         be deemed to have passed the training. 
+                    Cardinus user        Risk Assessment 
+                 status information 
+                                         Once you have finished the Safety Training, you can move straight on to the Risk Assessment. 
+               The risk assessment consists of 53 questions about your workstation environment. These are a sequence of Yes/No 
+               answers – be careful to read the questions and not just keep to the Yes, Yes, Yes sequence as there are a couple of 
+               curve-balls in there. 
+                                                                                                                                       14 
+                Document Holder 
+                During the risk assessment questionnaire you will be asked about your document holder. If you do not have, and do not 
+                need one, then it is probably best to pretend that the one you don’t have, or need, is: adjustable for height and tilt 
+                (Q31), suitable for purpose (Q32), satisfactorily sited (Q33). This will save you having a User Action at the end to rectify 
+                problems with your non-existent document holder! 
+                User Action report 
+                At the end of the Risk Assessment you will be given a “User Action Report”. This gives you information on issues that 
+                you need to resolve in order to ensure that your Workstation is not causing you any Health or Safety problems. Where 
+                appropriate, you should speak to your supervisor to request that appropriate changes be made, or equipment be 
+                purchased or replaced. 
+                More details on the safe use of DSE equipment are given in the Health and Safety Executive’s Display Screen Equipment 
+                web pages at the URL: http://www.hse.gov.uk/msd/dse/. 
+                Manual Handling 
+                The Manual Handling Operations Regulations 1992 came into force in January 1993, and were amended in 2002. The 
+                purpose of the regulations is to reduce the risk of injury from manual handling operations involving heavy or awkward 
+                loads. The University has published a set of guidance notes based on these regulations. 
+                To comply with these regulations an employer must, among other things, identify all manual-handling operations 
+                undertaken by its employees. 
+                To this end it is required that all members of the school are aware of this requirement and co-operate in identifying 
+                such operations. The great majority of manual handling within the school is the one-off lifting and/or moving of single 
+                items. Before any such job is undertaken the risk must be assessed. This risk assessment must be done by a trained 
+                assessor (see list of safety duties). 
+                When considering a manual handling operation the following options for reducing the load should be considered (in 
+                this order): 
+                         Split the load into smaller, more manageable units. 
+                         Get help to move the load. 
+                         Use a mechanical aid (barrow or hoist). There are barrows provided. These are kept inside the loading bay and 
+                          must be returned after use. 
+                           
+                If in doubt, ask for help and don't do the job by yourself. 
+                Advice on manual handling operation can be found in the university booklet Guidance Notes for Manual Handling 
+                Operations, obtainable from the School Safety Coordinator or Environmental Health and Safety Services. 
+                Handling Gas Cylinders 
+                The handling of gas cylinders is a regular job in the School so a guide to risk and handling procedures are as follows: 
+                There are two main hazards in the handling of a gas cylinder. They are heavy and a difficult shape to control, thus they 
+                can fall over and cause damage or injury. If they fall over the valve may get damaged and if broken off, the cylinder will 
+                become very hazardous; when the cylinder is full (200bar) it contains a large amount of stored energy. 
+                To minimise these problems, all cylinders must be transported on an approved trolley. These trolleys are shaped to hold 
+                the cylinder and have extensions to the rear at the bottom to prevent them falling backwards onto the person pushing 
+                them. The cylinder must be secured to the trolley during transit and kept secured before and after being moved. 
+                Anybody handling a cylinder must have been trained by a person competent in moving a cylinder safely. 
+                Handling large or awkward boxes and parcels 
+                The School gets regular deliveries of large and awkward boxes. These often contain equipment ordered by research 
+                groups. A guide to the risk involved in handling these follows: 
+                Many items come well packaged in large boxes. While these are not heavy they are difficult to lift. The major hazard 
+                from handling these boxes is personal injury due to incorrect posture during the lift/carry. The handling of any box larger 
+                than an A4 paper box should be considered hazardous. Similarly anything heavier than about 5kg may be hazardous, 
+                especially if it is bigger than the A4 paper box mentioned above. 
+                To reduce the danger of injury from moving large or awkward loads, barrows are available. They should be kept in, and 
+                returned to, the loading bay next to the workshop door. These barrows should be used to move all large or awkward 
+                loads around the building. 
+                                                                                                                                                 15 
+        Any item that cannot easily be lifted by two people onto one of these barrows is classed as a difficult lift and advice 
+        must be obtained from the appropriate person listed on the list of School Safety Duties. 
+        Confined Spaces 
+        Regulations are now in force concerning work in confined spaces. A confined space is defined as one with either limited 
+        ventilation or restricted access. 
+        The main areas for working in confined spaces are under the floor on level one (foundations of the building) and in the 
+        pipe duct from the boiler house to the west. When working in such areas a second person must be present at the 
+        entrance to the area to ensure assistance can be called immediately in case of an accident. When working in these areas 
+        you should either carry two torches in case of failure, or use a lamp with a trailing flex (this may be followed to lead you 
+        out or a rescuer in). 
+        If you have to work in one of these areas then the School Safety Coordinator should be consulted to ensure that the 
+        scheme of work to be followed would be within the regulations. 
+        The HSE’s publications webpages contain information on this subject. It is recommended that this site should be 
+        consulted as it gives very good guidance on this topic. 
+        Access to Roof 
+        Access to the roof of the Physical Sciences building is controlled by a permit-to-work system. There are a number of 
+        hazards involved in accessing the roof and so local rules have been produced and a permit-to-work must be obtained. 
+        The roof has an unprotected edge, and a number of fume cupboard discharge flues. These are all covered in the local 
+        rules and before work starts a permit-to-work certificate must be completed. 
+        The local rules, and the permit-to-work certificate can be found in Appendix C and Appendix D of this booklet. 
+        Work Equipment 
+        The Provision and Use of Work Equipment Regulations 1998 replace several acts covering the operation of specific types 
+        of equipment. 
+        The regulations cover the safety aspects of all Work Equipment. This is everything from a screwdriver, hammer or drill 
+        bit, through portable drills, computers, lasers and tractors to cooling towers and blast furnaces. 
+        The regulations require that the equipment should be suitable for the purpose, be installed safely and be safe to 
+        operate. For example, the law requires that guards be fitted to pillar drills and other rotating machinery. Authorisation 
+        must be obtained before using powered equipment in workshops. For each machine used proper certificated training 
+        and a demonstration of competence must be shown to supervisors of workshops and labs. 
+        The HSE’s publications webpages have leaflets relating to safety and Work equipment. 
+                                                                       16 
+              Appendix A: General Safety Check List 
+              Please complete the following check list of safety items and use it as a way of doing a self-audit of your safety practice. 
+              The list is as full as possible; if you think there are things missing, please feel free to add them. All relevant sections 
+              should be completed. However, you may skip some sections if they are not applicable to you. Completed forms should 
+              be returned to the School’s Safety Coordinator. 
+               
+               This form refers to the following areas/rooms: 
+               This form was completed by:                                            Date:          
+               
+               1.  Emergency situations                                                                             Yes    No 
+                   1.1.  Is the Fire Exit route from your area known by its occupants?                               Y     N 
+                   1.2.  Do they know where their nearest First Aid box is kept?                                     Y     N 
+                   1.3.  Are all the telephones easily accessible to summon help?                                    Y     N 
+                   1.4.  Can the fire alarm be heard throughout the area?                                            Y     N 
+                   1.5.  Do all your workers know the rules for out-of-hours working?                                Y     N 
+               2.  Access & movement                                                                                         
+                   2.1.  Are all exit routes free of obstructions?                                                   Y     N 
+                   2.2.  Are all cables/pipes/etc that have to cross the floor covered by suitable bridges?          Y     N 
+                   2.3.  Are all cables/pipes/etc that are not on the floor well clear above head height?            Y     N 
+                   2.4.  Are there any sharp corners of protrusions that could be walked into?                       Y     N 
+               3.  Electrical                                                                                                
+                   3.1.  Are all multi-way sockets off the floor?                                                    Y     N 
+                   3.2.  Are all mains supplies suitable for the equipment being supplied?                           Y     N 
+                   3.3.  Are all power cables run along safe tidy routes?                                            Y     N 
+                   3.4.  Do all high voltage/current supplies have working interlocks on them?                       Y     N 
+                   3.5.  Are all high voltages suitably screened?                                                    Y     N 
+               4.  Water - If you have high pressure water in your area check the following:                                 
+                   4.1.  Are all water pipes and fittings designed for the pressure they are working at?             Y     N 
+                   4.2.  Are all water supplies routed to keep water away from electrical equipment?                 Y     N 
+               5.  Gas - If you have any gas systems in your area check the following:                                       
+                   5.1.  Are all gas cylinders restrained?                                                           Y     N 
+                   5.2.  Are all gas lines made of a suitable material and fitted with approved unions?              Y     N 
+                   5.3.  Are all gas lines inspected regularly and replaced periodically?                            Y     N 
+                   5.4.  Are all gas valves suitable for the gas being handled?                                      Y     N 
+                   5.5.  Are all regulators to BSEN 585 or BS 7650?                                                  Y     N 
+                   5.6.  Are all regulators inspected regularly and serviced/replaced periodically (max every 5      Y     N 
+                         years)?  
+                   5.7.  Are all toxic gases in areas with extract ventilation?                                      Y     N 
+                   5.8.  Are all flammable gases in areas with extract ventilation?                                  Y     N 
+                   5.9.  Have all pressure systems been checked?                                                     Y     N 
+                   5.10. Have all pressure systems got safety valves?                                                Y     N 
+                   5.11. Have all glass vacuum systems got implosion screens?                                        Y     N 
+                   5.12. Have all vacuum pumps got venting and oil mist filters on their outlets?                    Y     N 
+               6.  Cryogenics - If you have any cryogenic systems check the following                                        
+                   6.1.  Is there sufficient ventilation in case of spill?                                           Y     N 
+                   6.2.  Can the ventilation be increased quickly in case of a quench or major spill?                Y     N 
+                   6.3.  Are goggles and non-absorbent gloves available?                                             Y     N 
+               7.  Magnetism                                                                                                 
+                   7.1.  Is the maximum stray magnetic field in the lab above the 1mT?                               Y     N 
+                        If YES then check the following:                                                                     
+                   7.2.  Is the area where the stray field exceeds long term exposure limits indicated?              Y     N 
+                   7.3.  Is there any way of monitoring fields?                                                      Y     N 
+                   7.4.  Are there warning notices for strong fields?                                                Y     N 
+                   7.5.  Do you know the field strength within your working area around the magnet?                  Y     N 
+                                                                                                  Continued on the next page …                                    
+                                                                                                                             17 
+                  8.    Ionising Radiation - If there are any sources of ionising radiation in your area then check the                                 
+                        following: 
+                        8.1.  Are all radioactive sources labelled and kept in a safe?                                                         Y       N 
+                        8.2.  Is the area of work with radioactive substances correctly signed?                                                Y       N 
+                        8.3.  Is dose monitoring available?                                                                                    Y       N 
+                        8.4.  Are procedures laid down in the University Local Rules followed?                                                 Y       N 
+                  9.    Microwaves - If you have any R.F. radiation fields above 30 MHz in your area check the following.                               
+                        9.1.  Is the maximum accessible electromagnetic field in your area below 0.5 Wm-2 or, if pulsed,                       Y       N 
+                              0.4 Jm-2 ? 
+                             If NO then check the following points:                                                                                     
+                        9.2.  Do you know the maximum field strength generated?                                                                Y       N 
+                        9.3.  Are all beam lines well defined?                                                                                 Y       N 
+                        9.4.  Is leakage/scatter away from beam lines screened and kept to a minimum?                                          Y       N 
+                        9.5.  Do you have any way of monitoring the fields being generated?                                                    Y       N 
+                  10.  COSHH                                                                                                                            
+                        10.1. Are all procedures covered by a signed risk assessment form generated by the on-line                             Y       N 
+                              COSHH database system? 
+                        10.2. Do you have an inventory of all ‘substances’ in this area?                                                       Y       N 
+                        10.3. Have all workers been trained in the handling of all ‘substances’ they may have to use?                          Y       N 
+                        10.4. Are all ‘substances’ stored in obvious, suitable & labelled places?                                              Y       N 
+                        10.5. Is ventilation provided in the storage area, if required?                                                        Y       N 
+                        10.6. Are all flammable solvents in a correctly designed and labelled cabinet?                                         Y       N 
+                        10.7. If latex gloves are used, has the possibility of latex sensitization been considered?                            Y       N 
+                  11.  Waste disposal                                                                                                                   
+                        11.1. Do you know which materials you work with are special (or controlled) waste?                                     Y       N 
+                        11.2. Is there a procedure for the safe disposal of ALL waste?                                                         Y       N 
+                  12.  Environment - Check only those sections which apply to your area.                                                                
+                  DUST - If there is a source of dust in your area then:                                                                                
+                        12.1. Is the dust controlled, if possible, at source?                                                                  Y       N 
+                        12.2. Are dust masks available and have the users been trained in their use?                                           Y       N 
+                  NOISE - If there is noise in your area then:                                                                                          
+                        12.3. Is all noise kept to a minimum?                                                                                  Y       N 
+                        12.4. Are ear defenders available for use during noisy work?                                                           Y       N 
+                  FUMES - If any fumes are generated:                                                                                                   
+                        12.5. Do you do any soldering in this area?                                                                            Y       N 
+                        12.6. Do you have an extraction system for soldering flux fumes?                                                       Y       N 
+                        12.7. Is there suitable ventilation (fume cupboard, extract fan, etc) for other tasks?                                 Y       N 
+                        12.8. Is a suitable mask available if needed and have the users been trained?                                          Y       N 
+                  GENERAL- to be checked by all:                                                                                                        
+                        12.9. Is there any ventilation?                                                                                        Y       N 
+                        12.10.  Is eye protection available if needed?                                                                         Y       N 
+                        12.11.  If there is a sink, is it, and the area around it, clean and tidy?                                             Y       N 
+                  13.  Manual handling - If any heavy/repetitive manual operations are carried out check the following:                                 
+                        13.1. Are all heavy items, which have to be moved, located where they are easy to lift?                                Y       N 
+                        13.2. Are mechanical aids available for moving heavy/awkward items?                                                    Y       N 
+                  14.  Computer screens - If you have any computer screens in your area check the following                                             
+                        14.1. Are screens placed to eliminate reflections on them?                                                             Y       N 
+                        14.2. Can the screen be seen easily all users, including any with bifocal glasses?                                     Y       N 
+                        14.3. Are keyboards installed at a good working height?                                                                Y       N 
+                        14.4. Is any seating used with the computer suitable?                                                                  Y       N 
+                        14.5. Is the work area round the machine uncluttered - a mouse needs space to run around?                              Y       N 
+                  15.  Controls & outside influences                                                                                                    
+                        15.1. Do you use computers for instrument control?                                                                     Y       N 
+                        15.2. Could there be any hazard produced if an instrument control computer acted in an                                 Y       N 
+                              unpredictable fashion? 
+                        15.3. Could your equipment become hazardous if supplies from an outside organisation were                              Y       N 
+                              delayed/disrupted? (e.g.. Power cut) 
+                  16.  General                                                                                                                          
+                        16.1. Are you satisfied that best working practices are being followed in your area?                                   Y       N 
+                                                                                                                                                        18 
+                       Appendix B: General Risk Assessment Pro-forma 
+                        
+                        
+                       School/Unit/Residence .......................................................................................................... 
+                        
+                       Title of work activity ............................................................................................................ 
+                        
+                       Description of work activity: ...................................................................................... 
+                       .....................................................................................................................................................................................................
+                       ................................................................................................   .....................................................................................................
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       .................... 
+                        
+                       Description of significant hazards: (e.g. Slipping/tripping; Stress; Fire; Work at Height; Pressure Systems; Electricity; Dust; 
+                       Fumes; Manual Handling; Noise; Poor Lighting; Low temperatures; Vehicles; Moving parts of machinery) 
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       ..................................................................................................................................................... 
+                        
+                       Groups who may be at risk: Staff with disabilities Inexperienced Staff 
+                        
+                       Academic Staff Office Staff Maintenance Staff Technicians 
+                        
+                       Cleaning Staff Postgraduates Undergraduates Lone Workers 
+                        
+                       Contractors Visitors Members of the Public 
+                        
+                       Others (Please specify) ..................................................  .
+                        
+                       List existing controls and decide whether these precautions are adequate or more are required. 
+                        
+                       Has adequate information, instruction and training been given? 
+                       Are adequate systems or procedures in place? 
+                       Check that                    - Standards set by legal requirements are being met 
+                                                     - Generally accepted industrial standards are in place 
+                                                     - Precautions represent good practice 
+                                                     - Precautions reduce risk as far as reasonably practicable 
+                        
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       .....................................................................................................................................................................................................
+                       ................................................................................................................................. 
+                                                                                                                                                                                Continued on the next page … 
+                                                                                                                                                                                                                      19 
+                List outstanding risks and the action to be taken where it is reasonably practicable to do more: 
+                 
+                Give priority to those risks which affect large numbers of people and/or could result in serious harm. Apply the following 
+                principles, if possible, in the following order: 
+                 
+                         Remove the risk completely; 
+                         Try a less risky option; 
+                         Prevent access to the hazard (e.g. guarding); 
+                         Organise work to reduce exposure to the hazard; 
+                         Issue personal protective equipment; 
+                         Provide welfare facilities (e.g. washing facilities for removal of contamination and first-aid); 
+                 
+                                  Risks not adequately controlled                                      Further action to be taken 
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                 
+                 
+                Signature of Assessor ............................................................ Date ..................................... 
+                 
+                Name of Assessor ................................................................. Review Date ........................ 
+                 
+                Note: 
+                         
+                     1.   The completed risk assessment form must be kept by the assessor and a copy given to the School/Unit/Residence 
+                          Safety Officer. 
+                     2.   This assessment must be reviewed and where appropriate revised if there is reason to suspect it is no longer valid 
+                          or there has been a significant change to the task procedure. 
+                     3.   This assessment must be made available to and discussed with all staff engaged on activities to which it relates. 
+                                                                                                                                                 20 
+      Appendix C: Local rules for work on the roof of the Physical Sciences 
+      Building  
+       
+       
+      A permit-to-work must be obtained for all access/work on the roof 
+       
+      The following local rules must be observed by all persons (University employees & outside Contractors) when on the 
+      roof of the Physical Sciences building. 
+       
+      1) Access to the whole roof will be subject to permission being granted by the School Safety Coordinator. 
+       
+      2) The roof has an unguarded edge except for small areas by the access door. If working within 2m of an edge (as 
+      indicated by the marked line), a safety barrier must be erected and/or safety lines used (by suitably qualified persons).  
+       
+      3) There are low level fume cupboard extract vents in the SW & NE corners of the roof. Before work is done in these 
+      areas appropriate warning notices must be in place in a prominent position at the fume cupboards banning use while 
+      the permit-to-work is in operation. 
+       
+      4) Any person on the roof experiencing an unpleasant smell from a flue outlet must immediately leave the roof and 
+      contact the School Safety Coordinator (Derek Milroy). Nobody should re-enter the roof unless they have received 
+      permission to do so from the School Safety Coordinator (Derek Milroy). 
+       
+      5) There are 3m high discharge flues from the clean room in the SE corner of the building. Before work is done down-
+      wind of these the clean room staff must be notified and all toxic discharges stopped. 
+       
+       
+      Emergency Procedure 
+       
+      On hearing the fire alarm (an electronic siren), quickly make safe any equipment (e.g. hot work), then evacuate the 
+      building and assemble outside the main entrance. If the escape stair is smoke filled retreat to a safe area and wait for 
+      instructions from the Emergency Services. 
+       
+      Note: Every other Monday at 3pm the alarm will sound for up to 30 seconds to conduct a weekly test. At all other times 
+      the building must be evacuated if the alarm is heard. 
+                                                      21 
+      Appendix D: Permit-to-work certificate for work on the roof of the Physical 
+      Sciences Building 
+       
+      This form must be used if any work is to be carried out on the roof of the Physical Sciences building. 
+       
+      Part A (To be completed by contractor or, if University worker, supervisor) 
+           
+          On which part of the roof will the work be carried out? 
+           
+          -------------------------------------------------------------------------------- 
+           
+          Description of work covered by this permit 
+           
+          -------------------------------------------------------------------------------- 
+           
+          -------------------------------------------------------------------------------- 
+           
+          Permission is sought to carry out this work between _____hours and _____hours 
+          on _________ (date). 
+           
+          Signed (for Contractor): --------------------------------------------------- 
+           
+          (In capacity as) ____________________________________ Date _________ 
+           
+      Part B (To be completed by the School) 
+       
+          1) Arrangements have been made to ensure there are no discharges or radiation close to the work area covered 
+          by this permit between ______hours and _______hours on ________ date. 
+           
+          2) The following special precautions will be required 
+           
+          ------------------------------------------------------------------------------- 
+           
+          -------------------------------------------------------------------------------- 
+           
+          Signed (for the School): ----------------------------------------------------------------------------- 
+           
+          (In capacity as) _______________________________________ Date __________ 
+           
+      Part C (To be completed by Contractor or, if University worker, supervisor) 
+       
+          The work has been completed. 
+           
+          Signed -------------------------------------------------------------------------------- 
+           
+          (In capacity as) ______________________________________ Time _____Date _____ 
+       
+      (This form to be returned to the School Safety Coordinator after the work is finished) 
+       
+                                                      22 

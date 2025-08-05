@@ -1,0 +1,1568 @@
+                                          EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES
+                                                ThePrecautionary Principle
+                   (with Application to the Genetic Modiﬁcation of
+                                                                          Organisms)
+                                                         ⇤                     §                           ‡                         †                         †
+                        Nassim Nicholas Taleb , Rupert Read , Raphael Douady , Joseph Norman ,Yaneer Bar-Yam
+                             ⇤School of Engineering, New York University †New England Complex Systems Institute
+                                            ‡ Institute of Mathematics and Theoretical Physics, C.N.R.S., Paris
+                                                          §School of Philosophy, University of East Anglia
+                                                                                           F
+               Abstract—The precautionary principle (PP) states that if an action             PP states that if an action or policy has a suspected risk
+               or policy has a suspected risk of causing severe harm to the public            of causing severe harm to the public domain (such as
+               domain(affecting general health or the environment globally), the action       general health or the environment), and in the absence
+               should not be taken in the absence of scientiﬁc near-certainty about its       of scientiﬁc near-certainty about the safety of the action,
+               safety. Under these conditions, the burden of proof about absence of           the burden of proof about absence of harm falls on those
+               harm falls on those proposing an action, not those opposing it. PP is          proposing the action. It is meant to deal with effects of
+               intended to deal with uncertainty and risk in cases where the absence
+               of evidence and the incompleteness of scientiﬁc knowledge carries              absence of evidence and the incompleteness of scientiﬁc
+               profound implications and in the presence of risks of "black swans",           knowledge in some risky domains.1
+               unforeseen and unforeseable events of extreme consequence.                        We believe that the PP should be evoked only in
+                  This non-naive version of the PP allows us to avoid paranoia and            extreme situations: when the potential harm is systemic
+               paralysis by conﬁning precaution to speciﬁc domains and problems.              (rather than localized) and the consequences can involve
+               Here we formalize PP, placing it within the statistical and probabilistic      total irreversible ruin, such as the extinction of human
+               structure of “ruin” problems, in which a system is at risk of total failure,
+               and in place of risk we use a formal"fragility" based approach. In these       beings or all life on the planet.
+               problems, what appear to be small and reasonable risks accumulate                 The aim of this paper is to place the concept of
+               inevitably to certain irreversible harm. Traditional cost-beneﬁt analyses,     precaution within a formal statistical and risk-analysis
+               which seek to quantitatively weigh outcomes to determine the best              structure, grounding it in probability theory and the
+               policy option, do not apply, as outcomes may have inﬁnite costs. Even          properties of complex systems. Our aim is to allow
+               high-beneﬁt, high-probability outcomes do not outweigh the existence           decision makers to discern which circumstances require
+               of low probability, inﬁnite cost options—i.e. ruin. Uncertainties result in    the use of the PP and in which cases evoking the PP is
+               sensitivity analyses that are not mathematically well behaved. The PP
+               is increasingly relevant due to man-made dependencies that propagate           inappropriate.
+               impacts of policies across the globe. In contrast, absent humanity the
+               biosphere engages in natural experiments due to random variations              2DECISIONMAKINGANDTYPESROFISK
+               with only local impacts.
+                  Our analysis makes clear that the PP is essential for a limited set         Takingrisksisnecessaryforindividualsaswellasforde-
+               of contexts and can be used to justify only a limited set of actions.          cision makersaffecting the functioning and advancement
+               We discuss the implications for nuclear energy and GMOs. GMOs                  of society. Decision and policy makers tend to assume all
+               represent a public risk of global harm, while harm from nuclear energy         risks are created equal. This is not the case. Taking into
+               is comparatively limited and better characterized. PP should be used to        account the structure of randomness in a given system
+               prescribe severe limits on GMOs.
+                                                                                              can have a dramatic effect on which kinds of actions are,
+                                           September 4, 2014                                  or are not, justiﬁed. Two kinds of potential harm must be
+                                                                                              considered when determining an appropriate approach
+                                                                                              to the role of risk in decision-making: 1) localized non-
+               1INTRODUCTION                                                                  spreading impacts and 2) propagating impacts resulting
+                                                                                              in irreversible and widespread damage.
+                     He aim of the precautionary principle (PP) is to
+               Tprevent decision makers from putting society as a                               1. The Rio Declaration on Environment and Development presents
+               whole—or a signiﬁcant segment of it—at risk from the                           it as follows: "In order to protect the environment, the precautionary
+               unexpected side effects of a certain type of decision. The                     approach shall be widely applied by States according to their capabil-
+                                                                                              ities. Where there are threats of serious or irreversible damage, lack
+                                                                                              of full scientiﬁc certainty shall not be used as a reason for postponing
+               Corresponding author: N N Taleb, email NNT1@nyu.edu                            cost-effective measures to prevent environmental degradation."
+                                                                                           1
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                             2
+               Traditional decision-making strategies focus on the            Standard Risk Management    Precautionary Approach
+            case where harm is localized and risk is easy to calculate       localized harm              systemic ruin
+            from past data. Under these circumstances, cost-beneﬁt           nuanced cost-beneﬁt         avoid at all costs
+                                                                             statistical                 fragility based
+            analyses and mitigation techniques are appropriate. The          statistical                 probabilistic non-statistical
+            potential harm from miscalculation is bounded.                   variations                  ruin
+               On the other hand, the possibility of irreversible and        convergent probabibilities  divergent probabilities
+                                                                             recoverable                 irreversible
+            widespread damage raises different questions about the           independent factors         interconnected factors
+            nature of decision making and what risks can be reason-          evidence based              precautionary
+            ably taken. This is the domain of the PP.                        thin tails                  fat tails
+                                                                             bottom-up, tinkering        top-down engineered
+               Criticisms are often levied against those who argue           evolved                     human-made
+            for caution portraying them as unreasonable and pos-           Table 1: Two different types of risk and their respective
+            sibly even paranoid. Those who raise such criticisms           characteristics compared
+            are implicitly or explicitly advocating for a cost beneﬁt
+            analysis, and necessarily so. Critics of the PP have also      Probability of Ruin
+            expressed concern that it will be applied in an overreach-         1.0
+            ing manner, eliminating the ability to take reasonable
+            risks that are needed for individual or societal gains.            0.8
+            While indiscriminate use of the PP might constrain
+            appropriate risk-taking, at the same time one can also             0.6
+            make the error of suspending the PP in cases when it is
+            vital.                                                             0.4
+               Hence, a non-naive view of the precautionary princi-
+            ple is one in which it is only invoked when necessary,             0.2
+            andonlytopreventacertainvarietyofverypreciselyde-
+            ﬁned risks based on distinctive probabilistic structures.                     2000     4000     6000     8000     10000Exposure
+            But, also, in such a view, the PP should never be omitted
+            when needed.                                                   Figure 1: Why Ruin is not a Renewable Resource. No
+               The remainder of this section will outline the differ-      matter how small the probability, in time, something
+            ence between the naive and non-naive approaches.               bound to hit the ruin barrier is about guaranteed to hit
+                                                                           it.
+            2.1   Whatwemeanbyanon-naivePP
+            Risk aversion and risk-seeking are both well-studied           occur within a system, even drastic ones, fundamentally
+            humanbehaviors. However, it is essential to distinguish        differ from ruin problems: a system that achieves ruin
+            the PP so that it is neither used naively to justify any act   cannot recover. As long as the instance is bounded, e.g.
+            of caution, nor dismissed by those who wish to court           a gambler can work to gain additional resources, there
+            risks for themselves or others.                                may be some hope of reversing the misfortune. This is
+               The PP is intended to make decisions that ensure            not the case when it is global.
+            survival when statistical evidence is limited—because             Ourconcernis with public policy. While an individual
+            it has not had time to show up —by focusing on the             maybeadvised to not "bet the farm," whether or not he
+            adverse effects of "absence of evidence."                      does so is generally a matter of individual preferences.
+               Table 1 encapsulates the central idea of the paper and      Policy makers have a responsibility to avoid catastrophic
+            shows the differences between decisions with a risk of         harmforsocietyasawhole;thefocusisontheaggregate,
+            harm (warranting regular risk management techniques)           not at the level of single individuals, and on global-
+            and decisions with a risk of total ruin (warranting the        systemic, not idiosyncratic, harm. This is the domain of
+            PP).                                                           collective "ruin" problems.
+                                                                              Precautionary considerations are relevant much more
+            2.2   Harmvs.Ruin:WhenthePPisnecessary                         broadly than to ruin problems. For example, there was
+            ThepurposeofthePPistoavoidacertain class of what,              a precautionary case against cigarettes long before there
+            in probability and insurance, is called “ruin" problems        wasanopen-and-shutevidence-basedcaseagainstthem.
+            [1]. A ruin problem is one where outcomes of risks             Our point is that the PP is a decisive consideration for
+            haveanon-zeroprobabilityofresulting in unrecoverable           ruin problems, while in a broader context precaution is
+            losses. An often-cited illustrative case is that of a gambler  not decisive and can be balanced against other consid-
+            who loses his entire fortune and so cannot return to           erations.
+            the game. In biology, an example would be a species             3WHYRUINISSERIOUSBUSINESS
+            that has gone extinct. For nature, "ruin" is ecocide: an
+            irreversible termination of life at some scale, which could    The risk of ruin is not sustainable. By the ruin theorems,
+            be planetwide. The large majority of variations that           if you incur a tiny probability of ruin as a "one-off" risk,
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                        3
+            survive it, then do it again (another "one-off" deal), you   State
+            will eventually go bust with probability 1. Confusion
+            arises because it may seem that the "one-off" risk is
+            reasonable, but that also means that an additional one
+            is reasonable. This can be quantiﬁed by recognizing that
+            the probability of ruin approaches 1 as the number of                                                              Time
+            exposures to individually small risks, say one in ten                   20        40        60        80        100
+            thousand, increases (see Fig. 1). For this reason a strategy
+            of risk taking is not sustainable and we must consider
+            any genuine risk of total ruin as if it were inevitable.
+              The good news is that some classes of risk can be                                                Absorbing 
+            deemed to be practically of probability zero: the earth                                            Barrier
+            survived trillions of natural variations daily over 3 bil-
+            lion years, otherwise we would not be here. By recog-        Figure 2: A variety of temporal states for a process
+            nizing that normal risks are not in the category of ruin     subjected to an absorbing barrier. Once the absorbing
+            problems, we recognize also that it is not necessary or      barrier is hit, the process terminates, regardless of its
+            even normal to take risks that involve a possibility of      future potential.
+            ruin.
+            3.1  PPisnotRiskManagement                                   here is on the case where destruction is complete for
+            It is important to contrast and not conﬂate the PP and       a system or an irreplaceable aspect of a system.
+            risk management. Risk management involves various              Figure 2 shows ruin as an absorbing barrier, a point
+            strategies to make decisions based upon accounting for       that does not allow recovery.
+            the effects of positive and negative outcomes and their        For example, for humanity global devastation cannot
+            probabilities, as well as seeking means to mitigate harm     be measured on a scale in which harm is proportional
+            andoffset losses. Risk management strategies are impor-      to level of devastation. The harm due to complete de-
+            tant for decision-making when ruin is not at stake. How-     struction is not the same as 10 times the destruction
+            ever, the only risk management strategy of importance        of 1/10 of the system. As the percentage of destruction
+            in the case of the PP is ensuring that actions which can     approaches 100%, the assessment of harm diverges to
+            result in ruin are not taken, or equivalently, modifying     inﬁnity (instead of converging to a particular number)
+            potential choices of action so that ruin is not one of the   due to the value placed on a future that ceases to exist.
+            possible outcomes.                                             Because the “cost” of ruin is effectively inﬁnite, cost-
+              Moregenerally, we can identify three layers associated     beneﬁt analysis (in which the potential harm and po-
+            with strategies for dealing with uncertainty and risk.       tential gain are multiplied by their probabilities and
+            The ﬁrst layer is the PP which addresses cases that          weighed against each other) is no longer a useful
+            involve potential global harm, whether probabilities are     paradigm. Even if probabilities are expected to be zero
+            uncertain or known and whether they are large or small.      but have a non-zero uncertainty, then a sensitivity anal-
+            Thesecondisriskmanagementwhichaddressesthecase               ysis that considers the impact of that uncertainty results
+            of known probabilities of well-deﬁned, bounded gains         in inﬁnities as well. The potential harm is so substantial
+            and losses. The third is risk aversion or risk-seeking       that everything else in the equation ceases to matter. In
+            behavior, which reﬂects quite generally the role of per-     this case, we must do everything we can to avoid the
+            sonal preferences for individual risks when uncertainty      catastrophe.
+            is present.
+            3.2  Ruin is forever                                         4SCIENTIFIC METHODS AND THE PP
+            Awaytoformalize the ruin problem in terms of the de-         How well can we know either the potential conse-
+            structive consequences of actions identiﬁes harm as not      quences of policies or their probabilities? What does
+            about the amount of destruction, but rather a measure        science say about uncertainty? To be helpful in policy
+            of the integrated level of destruction over the time it      decisions, science has to encompass not just expectations
+            persists. When the impact of harm extends to all future      of potential beneﬁt and harm but also their probability
+            times, i.e. forever, then the harm is inﬁnite. When the      and uncertainty.
+            harm is inﬁnite, the product of any non-zero probability       Just as the imperative of analysis of decision-making
+            and the harm is also inﬁnite, and it cannot be balanced      changes whenthere is inﬁnite harm for a small, non-zero
+            against any potential gains, which are necessarily ﬁnite.    risk, so is there a fundamental change in the ability to
+            This strategy for evaluation of harm as involving the        apply scientiﬁc methods to the evaluation of that harm.
+            duration of destruction can be used for localized harms      This inﬂuences the way we evaluate both the possibility
+            for better assessment in risk management. Our focus          of and the risk associated with ruin.
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                          4
+              Theideaofprecautionistheavoidanceofadversecon-              possible systemic consequences under real-world con-
+            sequences. This is qualitatively different from the idea of   ditions. In these circumstances, efforts to provide assur-
+            evidentiary action (from statistics). In the case of the PP,  ance of the "lack of harm" are insufﬁciently reliable. This
+            evidence may come too late. The non-naive PP bridges          runs counter to both the use of empirical approaches
+            the gap between precaution and evidentiary action using       (including controlled experiments) to evaluate risks, and
+            the ability to evaluate the difference between local and      to the expectation that uncertainty can be eliminated by
+            global risks.                                                 any means.
+            4.1   Precautionary vs. Evidentiary Action
+            Statistical-evidentiary approaches to risk analysis and
+            mitigation count the frequency of past events (robust
+            statistics), or calibrate parameters of statistical distribu-
+            tions to generate probabilities of future events (para-
+            metric approach), or both. Experimental evidentiary
+            methods follow the model of medical trials, computing
+            probabilities of harm from side effects of drugs or in-
+            terventions by observing the reactions in a variety of
+            animal and human models. Generally they assume that
+            the risk itself (i.e. nature of harm and their probabil-
+            ity) is adequately determined by available information.
+            However, the level of risk may be hard to gauge as            Figure 3: Thin Tails from Tinkering, Bottom-Up, Evolu-
+            its probability may be uncertain, and, in the case of         tion. In nature no individual variation represents a large
+            potential inﬁnite harm, an uncertainty that allows for        share of the sum of the variations. Natural boundaries
+            a non-zero probability results in inﬁnities so that the       prevent cascading effects from propagating globally.
+            problem is ill-deﬁned mathematically.                         Mass extinctions arise from the rare cases where large
+              While evidentiary approaches are often considered to        impacts (meteorite hits and vulcanism) propagate across
+            reﬂect adherence to the scientiﬁc method in its purest        the globe through the atmosphere and oceans.
+            form, it is apparent that these approaches do not apply
+            to ruin problems. In an evidentiary approach to risk
+            (relying on evidence-based methods), the existence of
+            a risk or harm occurs when we experience that risk or
+            harm. In the case of ruin, by the time evidence comes it
+            will by deﬁnition be too late to avoid it. Nothing in the
+            past may predict one fatal event as illustrated in Fig. 4.
+            Thus standard evidence-based approaches cannot work.
+              More generally, evidentiary action is a framework
+            based upon the quite reasonable expectation that we
+            learn from experience. The idea of evidentiary action is
+            embodied in the kind of learning from experience that is
+            found in how people often react to disasters—after the
+            fact. When a disaster occurs people prepare for the next      Figure 4: Fat Tails from a Top-Down, Engineered De-
+            one, but do not anticipate it in advance. For the case of     sign In human made variations the tightly connected
+            ruin problems, such behavior guarantees extinction.           global system implies a single deviation will eventually
+                                                                          dominate the sum of their effects. Examples include
+            4.2   Invalid Empirical Arguments Against Ruin                pandemics, invasive species, ﬁnancial crises and mono-
+            In the case of arguments about ruin problems, claims          culture.
+            that experience thus far has not provided evidence for
+            ruin, and thus it should not be considered, are not valid.
+                                                                          4.4   Distinguishing Global and Local Risks
+            4.3   Unknowability, Uncertainty and Unpredictability         Since there are mathematical limitations to predictability
+            It has been shown that the complexity of real world           of outcomes in a complex system, the central issue
+            systems limits the ability of empirical observations to       to determine is whether the threat of harm is local
+            determine the outcomes of actions upon them [2]. This         (hence globally benign) or carries global consequences.
+            means that a certain class of systemic risks will remain      Scientiﬁc analysis can robustly determine whether a risk
+            inherently unknown. In some classes of complex sys-           is systemic, i.e. by evaluating the connectivity of the
+            tems, controlled experiments cannot evaluate all of the       system to propagation of harm, without determining the
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                             5
+            speciﬁcs of such a risk. If the consequences are systemic,     the central limit theorem, guaranteeing thin-tailed distri-
+            the associated uncertainty of risks must be treated differ-    butions. When there is interdependence, the central limit
+            ently than if it is not. In such cases, precautionary action   theorem does not apply, and aggregate variations may
+            is not based on direct empirical evidence but on analyti-      become much more severe due to mutual reinforcement.
+            cal approaches based upon the theoretical understanding        Interdependencearisesbecauseofthecouplingofbehav-
+            of the nature of harm. It relies on probability theory         ior in different places. Under these conditions, cascades
+            without computing probabilities. The essential question        propagate through the system in a way that can cause
+            is whether or not global harm is possible or not. Theory       large impacts. Whether components are independent or
+            enables generalizing from experience in order to apply it      dependent clearly matters to systemic disasters such as
+            to new circumstances. In the case of the PP, the existence     pandemicsandﬁnancialorothercrises.Interdependence
+            of a robust way to generalize is essential.                    increases the probability of ruin, ultimately to the point
+               The relevance of the precautionary principle today is       of certainty.
+            greater than in the past, owing to the global connectivity        Consider the global ﬁnancial crash of 2008. As ﬁnan-
+            of civilization that makes the spreading of effects to         cial ﬁrms became increasingly interdependent during
+            places previously insulated.                                   the latter part of the 20th century, small ﬂuctuations
+                                                                           during periods of calm masked the vulnerability of the
+            5FATTAILSANDFRAGILITY                                          system to cascading failures. Instead of a local shock in
+            5.1   Thin and Fat Tails                                       an independent area of the system, we experienced a
+            To ﬁgure out whether a given decision involves the risk        global shock with cascading effects. The crisis of 2008,
+            of ruin and thus warrants the use of the PP, we must           in addition, illustrates the failure of evidentiary risk
+            ﬁrst understand the relevant underlying probabilistic          management. Since data from the time series beginning
+            structures.                                                    in the 1980s exhibited stability, causing the period to be
+               There are two classes of probability distributions of       dubbed"the great moderation," it deceived those relying
+            events: one in which events are accompanied by well            on historical statistical evidence.
+            behaved,mildvariations(e.g.Gaussianorthintails),and             6WHAT IS THE RISK OF HARM TO THE
+            the other where small probabilities are associated with
+            large variations that have no characteristic scale (e.g.        EARTH?
+            power law or fat tails). Allegorically these are illustrated   At the systemic largest scale on Earth, nature has thin
+            by Mediocristan and Extremistan (Figs. 3 and 4), the           tails, though tails may be fat at smaller length scales or
+            former being typical of human weight distributions, and        sufﬁciently long time scales; occasional mass extinctions
+            the latter of human wealth distributions. Given a series       occur at very long time scales. This is characteristic of a
+            of events (a sequence of measurements of weight or             bottom-up, local tinkering design process, where things
+            wealth), in the case of thin tails the sum is proportional     change primarily locally and only mildly and iteratively
+            to the average, and in the case of fat tails a sum over        on a global scale.
+            them may be entirely dominated by a single one. Thus,             In recent years, it has been shown that natural systems
+            while no human being can be heavier than, say, ten             often have fat tail (power law) behaviors associated with
+            average adults (since weight is thin-tailed), a single         the propagation of shocks [3]. This, however, applies to
+            individual can be richer than the poorest two billion          selected systems that do not have barriers (or circuit-
+            humans (since wealth is fat tailed).                           breakers) that limit those propagations. The earth has
+               In thin tailed domains (Fig 3) harm comes from the          an intrinsic heterogeneity of oceans/continents, deserts,
+            collective effect of many, many events; no event alone         mountains, lakes, rivers and climate differences that
+            can be consequential enough to affect the aggregate. It        limit the propagation of variations from one area to
+            is practically impossible for a single day to account for      another. There are also smaller natural boundaries as-
+            99%ofallheart attacks in a given year (the probability is      sociated with organism sizes and those of local groups
+            small enough to be practically zero), for an illustration).    of organisms. Among the largest propagation events we
+            Statistical distributions that belong to the thin-tailed       commonly observe are forest ﬁres, but even these are
+            domain include: Gaussian, Binomial, Bernoulli, Poisson,        bounded in their impacts compared to a global scale.
+            Gamma, Beta and Exponential.                                   The various forms of barriers limit the propagation of
+               In fat tailed domains of risk (Fig. 4) harm comes from      cascades that enable large scale events.
+            the largest single event. Examples of relevant statistical        At longer time scales of millions of years, mass extinc-
+            distributions include: Pareto, Levy-Stable distributions       tions can achieve a global scale. Connectivity of oceans
+            with inﬁnite variance, Cauchy, and power law distribu-         and the atmosphere enables propagation of impacts, i.e.
+            tions, especially with larger exponents.                       gas, ash and dust propagating through the atmosphere
+            5.2   Whyinterdependencebringsfattails                         due to meteor impacts and volcanism, is considered a
+                                                                           scenario for these extinction events [4]. The variability
+            Whenvariations lead to independent impacts locally, the        associated with mass extinctions can especially be seen
+            aggregate effect of those variations is small according to     in the fossil record of marine animal species; those of
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                          6
+            plants and land insects are comparatively robust. It is
+            not known to what extent these events are driven extrin-
+            sically, by meteor impacts, geological events including
+            volcanos, or cascading events of coupled species extinc-
+            tions, or combinations of them. The variability associated
+            with mass extinctions, however, indicates that there are
+            fat tail events that can affect the global biosphere. The
+            major extinction events during the past 500 million years
+            occur at intervals of millions of years [5]. While mass ex-
+            tinctions occur, the extent of that vulnerability is driven
+            by both sensitivity to external events and connectivity
+            among ecosystems.
+              The greatest impact of human beings on this natural
+            system connectivity is through dramatic increases in          Figure 5: Nonlinear response compared to linear re-
+            global transportation. The impact of invasive species and     sponse. The PP should be evoked to prevent impacts
+            rapid global transmission of diseases demonstrates the        that result in complete destruction due to the nonlin-
+            role of human activity in connecting previously much          ear response of natural systems, it is not needed for
+            more isolated natural systems. The role of transporta-        smaller impacts where risk management methods can
+            tion and communication in connecting civilization itself      be applied.
+            is apparent in economic interdependence manifest in
+            cascading ﬁnancial crises that were not possible even a
+            hundred years ago. The danger we are facing today is          7FRAGILITY
+            that we as a civilization are globally connected, and the
+            fat tail of the distribution of shocks extends globally, to   We deﬁne fragility in the technical discussion in Ap-
+            our peril.                                                    pendix C as "is harmed by uncertainty", with the math-
+              Had nature not imposed sufﬁciently thin-tailed varia-       ematical result that what is harmed by uncertainty has
+            tions in the aggregate or macro level, we would not be        a certain type on nonlinear response to random events.
+            here today. A single one of the trillions, perhaps the tril-    The PP applies only to the largest scale impacts due
+            lions of trillions, of variations over evolutionary history   to the inherent fragility of systems that maintain their
+            wouldhaveterminatedlifeontheplanet.Figures1and2               structure. As the scale of impacts increases the harm
+            show the difference between the two separate statistical      increases non-linearly up to the point of destruction.
+            properties. While tails can be fat for subsystems, nature
+            remains predominantly thin-tailed at the level of the
+            planet [6]. As connectivity increases the risk of extinction  7.1   Fragility as Nonlinear Response
+            increases dramatically and nonlinearly [7].
+                                                                          Everything that has survived is necessarily non-linear to
+                                                                          harm. If I fall from a height of 10 meters I am injured
+            6.1   Risk and Global Interventionism                         morethan10timesthanifIfell from a height of 1 meter,
+                                                                          or more than 1000 times than if I fell from a height
+            Currently, global dependencies are manifest in the ex-        of 1 centimeter, hence I am fragile. In general, every
+            pressed concerns about policy maker actions that nom-         additional meter, up to the point of my destruction, hurts
+            inally appear to be local in their scope. In just recent      me more than the previous one.
+            months,headlineshavebeenaboutRussia’sinvolvement                Similarly, if I am hit with a big stone I will be harmed
+            in Ukraine, the spread of Ebola in east Africa, expansion     a lot more than if I were pelted serially with pebbles of
+            of ISIS control into Iraq, ongoing posturing in North Ko-     the same total weight.
+            rea and Israeli-Palestinian conﬂict, among others. These        Everything that is fragile and still in existence (that
+            events reﬂect upon local policy maker decisions that          is, unbroken), will be harmed more by a certain stressor
+            are justiﬁably viewed as having global repercussions.         of intensity X than by k times a stressor of intensity
+            The connection between local actions and global risks         X/k, up to the point of breaking. If I were not fragile
+            compels widespread concern and global responses to            (susceptible to harm more than linearly), I would be
+            alter or mitigate local actions. In this context, we point    destroyed by accumulated effects of small events, and
+            out that the broader signiﬁcance and risk associated          thus would not survive. This non-linear response is
+            with policy actions that impact on global ecological and      central for everything on planet earth.
+            human survival is the essential point of the PP. Paying         This explains the necessity of considering scale when
+            attention to the headline events without paying attention     invoking the PP. Polluting in a small way does not
+            to these even larger risks is like being concerned about      warrant the PP because it is essentially less harmful than
+            the wine being served on the Titanic.                         polluting in large quantities, since harm is non-linear.
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                     7
+            7.2  Whyisfragility a general rule?                        virtue of responses observed only in relatively small
+            The statistical structure of stressors is such that small  doses.
+            variations are much, much more frequent than large
+            ones. Fragility is intimately connected to the ability to  8THELIMITATION OF TOP-DOWN ENGINEE-R
+            withstand small impacts and recover from them. This        INGINCOMPLEXENVIRONMENTS
+            ability is what makes a system retain its structure. Every In considering the limitations of risk-taking, a key ques-
+            system has a threshold of impact beyond which it will      tion is whether or not we can analyze the potential
+            be destroyed, i.e. its structure is not sustained.         outcomes of interventions and, knowing them, identify
+              Consider a coffee cup sitting on a table: there are      the associated risks. Can’t we just "ﬁgure it out?” With
+            millions of recorded earthquakes every year; if the coffee such knowledge we can gain assurance that extreme
+            cup were linearly sensitive to earthquakes and accumu-     problems such as global destruction will not arise.
+            lated their effects as small deteriorations of its form, it   Since the same issue arises for any engineering effort,
+            would not persist even for a short time as it would have   we can ask what is the state-of-the-art of engineering?
+            been broken down due to the accumulated impact of          Does it enable us to know the risks we will encounter?
+            small vibrations. The coffee cup, however, is non-linear   Perhaps it can just determine the actions we should,
+            to harm, so that the small or remote earthquakes only      or should not, take. There is justiﬁably widespread re-
+            make it wobble, whereas one large one would break it       spect for engineering because it has provided us with
+            forever.                                                   innovations ranging from infrastructure to electronics
+              This nonlinearity is necessarily present in everything   that have become essential to modern life. What is not
+            fragile.                                                   as well known by the scientiﬁc community and the
+              Thus, when impacts extend to the size of the sys-        public, is that engineering approaches fail in the face of
+            tem, harm is severely exacerbated by non-linear effects.   complex challenges and this failure has been extensively
+            Small impacts, below a threshold of recovery, do not       documented by the engineering community itself [8].
+            accumulate for systems that retain their structure. Larger The underlying reason for the failure is that complex
+            impactscauseirreversible damage. We should be careful,     environments present a wide range of conditions. Which
+            however, of actions that may seem small and local but      conditions will actually be encountered is uncertain.
+            then lead to systemic consequences.                        Engineering approaches involve planning that requires
+                                                                       knowledge of the conditions that will be encountered.
+            7.3  Fragility, Dose response and the 1/n rule             Planning fails due to the inability to anticipate the many
+                                                                       conditions that will arise.
+            Anotherareawhereweseenon-linearresponsestoharm                This problem arises particularly for “real-time” sys-
+            is the dose-response relationship. As the dose of some     tems that are dealing with large amounts of information
+            chemical or stressor increases, the response to it grows   and have critical functions in which lives are at risk. A
+            non-linearly. Many low-dose exposures do not cause         classic example is the air trafﬁc control system. An effort
+            great harm, but a single large-dose can cause irreversible to modernize that system by traditional engineering
+            damage to the system, like overdosing on painkillers.      methods cost $3-6 billion and was abandoned without
+              In decision theory, the 1/n heuristic is a simple rule   changing any part of the system because of the inability
+            in which an agent invests equally across n funds (or       to evaluate the risks associated with its implementation.
+            sources of risk) rather than weighting their investments      Signiﬁcantly, the failure of traditional engineering to
+            according to some optimization criterion such as mean-     address complex challenges has led to the adoption of
+            variance or Modern Portfolio Theory (MPT), which dic-      innovation strategies that mirror evolutionary processes,
+            tates some amount of concentration in order to increase    creating platforms and rules that can serve as a basis
+            the potential payoff. The 1/n heuristic mitigates the risk for safely introducing small incremental changes that
+            of suffering ruin due to an error in the model; there      are extensively tested in their real world context [8].
+            is no single asset whose failure can bring down the        This strategy underlies the approach used by highly-
+            ship. While the potential upside of the large payoff is    successful, modern, engineered-evolved, complex sys-
+            dampened, ruin due to an error in prediction is avoided.   tems ranging from the Internet, to Wikipedia, to iPhone
+            This heuristic works best when the sources of variations   App communities.
+            are uncorrelated and, in the presence of correlation or
+            dependencebetweenthevarioussourcesofrisk,thetotal          9SKEPTICISMANDPRECAUTION
+            exposure needs to be reduced.
+              Hence, because of non-linearities, it is preferable to   We show in Figures 6 and 7 that an increase in uncer-
+            diversify our effect on the planet, e.g. distinct types of tainty leads to an increase in the probability of ruin,
+            pollutants, across the broadest number of uncorrelated     hence "skepticism" is that its impact on decisions should
+            sources of harm, rather than concentrate them. In this     lead to increased, not decreased conservatism in the
+            way, we avoid the risk of an unforeseen, disproportion-    presence of ruin. More skepticism about models im-
+            ately harmful response to a pollutant deemed "safe" by     plies more uncertainty about the tails, which necessitates
+             EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                8
+                                                                              Hence skepticim about climate models should lead to
+                                                       Low model              more precautionary policies.
+                                                       uncertainty              In addition, such increase uncertainty matters far more
+                                                                              in Extremistan –and has benign effects in Mediocristan.
+                Ruin                                                          Figure 7 shows th asymmetries between costs and ben-
+                                                                              eﬁts as far as ruin probabilities, and why these matter
+                                                          High model          moreforfat-tailed domainsthanthin-tailedones.Inthin-
+               Ruin                                       uncertainty         tailed domains, an increase in uncertainty changes the
+                                                                              probability of ruin by several orders of magnitude, but
+               probability                                                    the effect remains small: from say 10 40 to 10 30 is not
+                                                                              quite worrisome. In fat-tailed domains, the effect is size-
+                                                                              able as we start with a substantially higher probability
+             -5                            5              10             15   of ruin (which is typically underestimated, see [6]).
+             Figure 6: The more uncertain or skeptical one is of              10 WHY SHOULDGMOSBEUNDERPPBUT
+             "scientiﬁc" models and projections, the higher the risk          NOTNUCLEARENERGY?
+             of ruin, which ﬂies in the face of the argument of
+             the style "skeptical of climate models". No matter how           As examples that are relevant to the discussion of the
+             increased the probability of beneﬁts, ruin as an absorbing       different types of strategies, we consider the differences
+             barrier, i.e. causing extinction without further recovery,       between concerns about nuclear energy and GM crops.
+             can more than cancels them out. This graph assumes                 In short nuclear exposure in nonlinear –and can be
+             changes in uncertainty without changes in beneﬁts (a             local (under some conditions) – while GMOs are not and
+             mean-preserving sensitivity) –the next one isolates the          present systemic risks even in small amounts.
+             changes in beneﬁts.
+                                                                              10.1   Nuclear energy
+                                                                              Many are justiﬁably concerned about nuclear energy.
+                                                                              It is known that the potential harm due to radiation
+                                                                              release, core meltdowns and waste can be large. At the
+                                                                              same time, the nature of these risks has been extensively
+                                                                              studied, and the risks from local uses of nuclear energy
+                                                                              have a scale that is much smaller than global. Thus,
+                                                                              even though some uncertainties remain, it is possible
+                                                                              to formulate a cost beneﬁt analysis of risks for local
+                                                                              decision-making.Thelargepotentialharmatalocalscale
+                                                                              meansthatdecisionsaboutwhether,howandhowmuch
+                                                                              to use nuclear energy, and what safety measures to use,
+                                                                              shouldbemadecarefullysothatdecisionmakersandthe
+             Figure 7: The graph shows the asymmetry between                  public can rely upon them. Risk management is a very
+             beneﬁtsandharmandtheeffectontheruinprobabilities.                serious matter when potential harm can be large and
+             Shows the effect on ruin probability of changes the              should not be done casually or superﬁcially. Those who
+             Information Ratio, that is, expected beneﬁt (or signal divided   perform the analysis must not only do it carefully, they
+                                            uncertainty                       must have the trust of others that they are doing it care-
+             by noise). Beneﬁts are small compared to negative ef-            fully. Nevertheless, the known statistical structure of the
+             fects. Three cases are considered, two from Extremistan:         risks and the absence of global systemic consequences
+             extremely fat-tailed (↵ =1), and less fat-tailed (↵ =2),         makes the cost beneﬁt analysis meaningful. Decisions
+             and one from Mediocristan.                                       can be made in the cost-beneﬁt context—evoking the PP
+                                                                              is not appropriate for small amounts of nuclear energy,
+                                                                              as the local nature of the risks is not indicative of the
+             more precaution about newly implemented techniques,              circumstances to which the PP applies.
+             or larger size of exposures. As we said, Nature might              In large quantities, we should worry about an unseen
+             not be smart, but its longer track record means smaller          risk from nuclear energy and invoke the PP. In small
+             uncertainty in following its logic.                              quantities, it may be OK—how small we should deter-
+               Mathematically, more uncertainty about the future –            mine by direct analysis, making sure threats never cease
+             or about a model –increases the scale of the distribution,       to be local.
+             hence thickens the "left tail" (as well as the "right one")        In addition to the risks from nuclear energy use
+             which raises the potential ruin. The survival probability        itself, we must keep in mind the longer term risks
+             is reduced no matter what takes place in the right tail.         associated with the storage of nuclear waste, which are
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                          9
+            compoundedbytheextendedlengthoftimetheyremain
+            hazardous. The problems of such longer term “lifecycle”
+            effects is present in many different industries. It arises
+            not just for nuclear energy but also for fossil fuels and
+            other sources of pollution, though the sheer duration of
+            toxicity effects for nuclear waste, enduring for hundreds
+            of thousands of years in some cases, makes this problem
+            particularly intense for nuclear power.
+              As we saw earlier we need to remain careful in
+            limiting nuclear exposure –as other sources of pollution
+            – to sources that owing to their quantity do not allow
+            for systemic effects.
+                                                                          Figure 8: A simpliﬁed illustration of the mechanism
+            10.2   GMOs                                                   behind the potato famine of the 19th C. showing how
+            Genetically Modiﬁed Organisms (GMOs) and their risk           concentration from monoculture increases the risk of
+            are currently the subject of debate [9]. Here we ar-          ruin. Inspired by Berkeley’s Understanding Evolution.
+            gue that they fall squarely under the PP because their
+            risk is systemic. There are two aspects of systemic
+            risk, the widespread impact on the ecosystem and the          risks. Monoculture in combination with genetic engi-
+            widespread impact on health.                                  neering dramatically increases the risks being taken.
+              Ecologically, in addition to intentional cultivation,       Instead of a long history of evolutionary selection, these
+            GMOshavethepropensitytospreaduncontrollably,and               modiﬁcations rely not just on naive engineering strate-
+            thustheirriskscannotbelocalized.Thecross-breedingof           gies that do not appropriately consider risk in complex
+            wild-typeplantswithgeneticallymodiﬁedonesprevents             environments,butalsoexplicitlyreductionistapproaches
+            their disentangling, leading to irreversible system-wide      that ignore unintended consequences and employ very
+            effects with unknown downsides. The ecological impli-         limited empirical testing.
+            cations of releasing modiﬁed organisms into the wild are        Ironically, at a time when engineering is adopting
+            not tested empirically before release.                        evolutionary approaches due to the failure of top-down
+              Healthwise, the modiﬁcation of crops impacts every-         strategies, biologists and agronomists are adopting top-
+            one. Corn, one of the primary GMO crops, is not only          down engineering strategies and taking global systemic
+            eaten fresh or as cereals, but is also a major component of   risks in introducing organisms into the wild.
+            processed foods in the form of high-fructose corn syrup,        One argument in favor of GMOs is that they are no
+            corn oil, corn starch and corn meal. In 2014 in the US        more "unnatural" than the selective farming our ances-
+            almost 90% of corn and 94% of soybeans are GMO [11].          tors have been doing for generations. In fact, the ideas
+            Foods derived from GMOs are not tested in humans              developed in this paper show that this is not the case.
+            before they are marketed.                                     Selective breeding over human history is a process in
+              The widespread impacts of GMOs on ecologies and             which change still happens in a bottom-up way, and can
+            human health imply they are in the domain of the              be expected to result in a thin-tailed distribution. If there
+            PP. This should itself compel policy makers to take           is a mistake, some harmful variation, it will not spread
+            extreme caution. However, there is a difﬁculty for many       throughout the whole system but end up dying out due
+            in understanding the abstract nature of the engagement        to local experience over time. Human experience over
+            in risks and imagining the many possible ways that harm       generations has chosen the biological organisms that are
+            can be caused. Thus, we summarize further the nature          relatively safe for consumption. There are many that are
+            of the risks that are involved.                               not, including parts of and varieties of the crops we do
+                                                                          cultivate [12]. Introducing rapid changes in organisms is
+            10.3   GMOsindetail                                           inconsistent with this process. There is a limited rate at
+                                                                          which variations can be introduced and selection will be
+            The systemic global impacts of GMOs arise from a              effective [13].
+            combination of (1) engineered genetic modiﬁcations, (2)         There is no comparison between tinkering with the
+            monoculture—the use of single crops over large areas.         selective breeding of genetic components of organisms
+            Global monoculture itself is of concern for potential         that have previously undergone extensive histories of
+            global harm, but the evolutionary context of traditional      selection and the top-down engineering of taking a gene
+            crops provides important assurances (see Figure 8). In-       fromaﬁshandputtingitintoatomato.Sayingthatsuch
+            vasive species are frequently a problem but one might         a product is natural misses the process of natural selec-
+            at least argue that the long term evolutionary testing        tion by which things become “natural." While there are
+            of harmful impacts of organisms on local ecological           claims that all organisms include transgenic materials,
+            systems mitigates if not eliminates the largest potential     those genetic transfers that are currently present were
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                       10
+            subject to selection over long times and survived. The       washed away). Rather than recognizing the limitations
+            success rate is tiny. Unlike GMOs, in nature there is no     of current understanding, poorly grounded perspectives
+            immediatereplication of mutated organisms to become a        aboutthepotentialdamagewithunjustiﬁedassumptions
+            large fraction of the organisms of a species. Indeed, any    are being made. Limited empirical validation of both
+            one genetic variation is unlikely to become part of the      essential aspects of the conceptual framework as well
+            long term genetic pool of the population. Instead, just      as speciﬁc conclusions are being used because testing is
+            like any other genetic variation or mutation, transgenic     recognized to be difﬁcult.
+            transfers are subject to competition and selection over        Weshouldexerttheprecautionaryprinciplehere–our
+            many generations before becoming a signiﬁcant part of        non-naive version – because we do not want to discover
+            the population. A new genetic transfer engineered today      errors after considerable and irreversible environmental
+            is not the same as one that has survived this process of     and health damage.
+            selection.
+              An example of the effect of transfer of biologically       10.4   Redherring:Howabouttheriskoffaminewith-
+            evolved systems to a different context is that of zoonotic   out GMOs?
+            diseases. Even though pathogens consume their hosts,
+            they evolve to be less harmful than they would oth-          An argument used by those who advocate for GMOs is
+            erwise be. Pathogens that cause highly lethal diseases       that they will reduce the hunger in the world. Invoking
+            are selected against because their hosts die before they     the risk of famine as an alternative to GMOs is a deceitful
+            are able to transmit to others. This is the underlying       strategy, no different from urging people to play Russian
+            reason for the greater dangers associated with zoonotic      roulette in order to get out of poverty.
+            diseases—caused by pathogens that shift from the host          The evocation of famine also prevents clear thinking
+            that they evolved in to human beings, including HIV,         about not just GMOs but also about global hunger. The
+            Avian and Swine ﬂu that transferred from monkeys             idea that GMO crops will help avert famine ignores
+            (through chimpanzees), birds and hogs, respectively.         evidence that the problem of global hunger is due to
+              Moregenerally, engineered modiﬁcations to ecological       poor economic and agricultural policies. Those who care
+            systems (through GMOs) are categorically and statisti-       about the supply of food should advocate for an imme-
+            cally different from bottom up ones. Bottom-up modiﬁ-        diate impact on the problem by reducing the amount
+            cations do not remove the crops from their long term         of corn used for ethanol in the US, which burns food
+            evolutionary context, enabling the push and pull of          for fuel consuming over 40% of the US crop that could
+            the ecosystem to locally extinguish harmful mutations.       provide enough food to feed 2/3 of a billion people [14].
+            Top-down modiﬁcations that bypass this evolutionary            One of the most extensively debated cases for GMOs
+            pathway unintentionally manipulate large sets of inter-      is a variety of rice—"golden rice"—to which has been
+            dependent factors at the same time, with dramatic risks      added a precursor of vitamin A as a potential means
+            of unintended consequences. They thus result in fat-         to alleviate this nutritional deﬁciency, which is a key
+            tailed distributions and place a huge risk on the food       medical condition affecting impoverished populations.
+            system as a whole.                                           Since there are alternatives, including traditional vitamin
+              For the impact of GMOs on health, the evaluation of        fortiﬁcation, one approach is to apply a cost beneﬁt
+            whether the genetic engineering of a particular chemical     analysis comparing these approaches. Counter to this
+            (protein) into a plant is OK by the FDA is based upon        approach stands both the largely unknown risks asso-
+            considering limited existing knowledge of risks associ-      ciated with the introduction of GMOs, and the need
+            ated with that protein. The number of ways such an eval-     and opportunities for more systemic interventions to
+            uation can be in error is large. The genetic modiﬁcations    alleviate not just malnutrition but poverty and hunger
+            are biologically signiﬁcant as the purpose is to strongly    worldwide. While great attention should be placed on
+            impact the chemical functions of the plant, modifying its    immediate needs, neglecting the larger scale risks is un-
+            resistance to other chemicals such as herbicides or pesti-   reasonable [10]. Here science should adopt an unyielding
+            cides, or affecting its own lethality to other organisms—    rigor for both health beneﬁt and risk assessment, in-
+            i.e. its antibiotic qualities. The limited existing knowl-   cluding careful application of the PP. Absent such rigor,
+            edge generally does not include long term testing of         advocacy by the scientiﬁc community not only fails to
+            the exposure of people to the added chemical, even in        be scientiﬁc, but also becomes subject to challenge for
+            isolation. The evaluation is independent of the ways the     short term interests, not much different from corporate
+            protein affects the biochemistry of the plant, including     endorsers. Thus, cutting corners on tests, including tests
+            interactions among the various metabolic pathways and        without adequate consent or approvals performed on
+            regulatory systems—and the impact of the resulting           Chinese children [15], undermines scientiﬁc claims to
+            changes in biochemistry on health of consumers. The          humanitarian ideals. Given the promotion of "golden
+            evaluation is independent of its farm-ecosystem com-         rice" by the agribusiness that also promote biofuels, their
+            bination (i.e. pesticide resistant crops are subject to in-  interest in humanitarian impacts versus proﬁts gained
+            creaseduseofpesticides,whicharesubsequentlypresent           through wider acceptance of GMO technology can be
+            in the plant in larger concentrations and cannot be          legitimately questioned [16].
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                              11
+               We can frame the problem in our probabilistic argu-          headlong experimentation with global ruin by those
+            ment of Section 9. This asymmetry from adding another           with short-term, self-centered incentives and perspec-
+            risk, here a technology (with uncertainty attending some        tives. Two approaches for policy action are well justiﬁed.
+            of its outcomes), to solve a given risk (which can be           In the ﬁrst, actions that avoid the inherent sensitivity of
+            solved by less complicated means) are illustrated in            the systemtopropagationofharmcanbeusedtofreethe
+            Figures 6 and 7. Model error, or errors from the tech-          system to enable local decision-making and exploration
+            nology itself, i.e., its iatrogenics, can turn a perceived      with only local harm. This involves introducing bound-
+            "beneﬁt" into a highly likely catastrophe, simply because       aries, barriers and separations that inhibit propagation of
+            anerror from, say, "golden rice" or some such technology        shocks, preventing ruin for overly connected systems. In
+            would have much worse outcomes than an equivalent               the second, where such boundaries don’t exist or cannot
+            beneﬁt. Most of the discussions on "saving the poor from        be introduced due to other effects, there is a need for
+            starvation" via GMOs miss the fundamental asymmetry             actions that are adequately evaluated as to their global
+            shown in 7.                                                     harm. Scientiﬁc analysis of such actions, meticulously
+            10.5    GMOsinsummary                                           validated, is needed to prevent small risks from causing
+                                                                            ruin.
+            In contrast to nuclear energy (which, as discussed in              What is not justiﬁed, and dangerous, are actions that
+            section 10.1 above, may or may not fall under the               are intended to prevent harm by additional intervention.
+            PP, depending on how and where (how widely) it is               The reason is that indirect effects are likely to create
+            implemented), Genetically Modiﬁed Organisms, GMOs,              precisely the risks that one is intending to avoid.
+            fall squarely under the PP because of their systemic risk.         When existing risks are perceived as having the po-
+            The understanding of the risks is very limited and the          tential for ruin, it may be assumed that any preventive
+            scope of the impacts are global both due to engineering         measure is justiﬁed. There are at least two problems
+            approach replacing an evolutionary approach, and due            with such a perspective. First, localized harm is often
+            to the use of monoculture.                                      mistaken for ruin, and the PP is wrongly invoked where
+               Labeling the GMO approach “scientiﬁc" betrays a very         risk management techniques should be employed. When
+            poor—indeed warped—understanding of probabilistic               a risk is not systemic, overreaction will typically cause
+            payoffs and risk management. A lack of observations of          more harm than beneﬁts, like undergoing dangerous
+            explicit harm does not show absence of hidden risks.            surgery to remove a benign growth. Second, even if the
+            Current models of complex systems only contain the              threat of ruin is real, taking speciﬁc (positive) action in
+            subset of reality that is accessible to the scientist. Nature   order to ward off the perceived threat may introduce
+            is much richer than any model of it. To expose an               newsystemic risks. It is often wiser to reduce or remove
+            entire system to something whose potential harm is              activity that is generating or supporting the threat and
+            not understood because extant models do not predict a           allow natural variations to play out in localized ways.
+            negative outcome is not justiﬁable; the relevant variables         Preventive action should be limited to correcting sit-
+            may not have been adequately identiﬁed.                         uations by removing threats via negativa in order to
+               Given the limited oversight that is taking place on          bring them back in line with a statistical structure that
+            GMO introductions in the US, and the global impact              avoids ruin. It is often better to remove structure or
+            of those introductions, we are precisely in the regime          allow natural variation to take place rather than to add
+            of the ruin problem. A rational consumer should say:            something additional to the system.
+            Wedonotwishtopay—orhaveourdescendants pay—                         Whenonetakestheopposite approach, taking speciﬁc
+            for errors made by executives of Monsanto, who are              action designed to diminish some perceived threat, one
+            ﬁnancially incentivized to focus on quarterly proﬁts            is almost guaranteed to induce unforeseen consequences.
+            rather than long term global impacts. We should exert           Even when there appears to be a direct link from a
+            the precautionary principle—our non-naive version—              speciﬁc action to a speciﬁc preventive outcome, the
+            simply because we otherwise will discover errors with           web of causality extends in complex ways with con-
+            large impacts only after considerable damage.                   sequences that are far from the intended goal. These
+            10.6    Vaccination, Antibiotics, and Other Exposures           unintended consequences may generate new vulnerabil-
+            Our position is that while one may argue that vaccina-          ities or strengthen the harm one is hoping to diminish.
+            tion is risky, or risky under some circumstances, it does       Thus, whenpossible, limiting fragilizing dependencies is
+            not fall under PP owing to the lack of systemic risk.           better than imposing additional structure that increases
+            The same applies to such interventions as antibiotics,          the fragility of the system as a whole.
+            provided the scale remains limited to the local.
+            11 PRECAUTION ASPOLICY ANDNAIVEIN- 12                                   FALLACIOUSARGUMENTSAGAINSTPP
+            TERVENTION
+            When there is a risk of ruin, obstructionism and policy         In this section we respond to a variety of arguments that
+            inaction are important strategies, impeding the rapid           have been made against the PP.
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                            12
+            12.1   Crossing the road (the paralysis fallacy)                  The proper consideration of risk involves both prob-
+            Many have countered the invocation of the PP with              ability and consequence, which should be multiplied
+            “nothing is ever totally safe.” “I take risks crossing the     together. Consequences in many domains have thick
+            road every day, so according to you I should stay home         tails, i.e. much larger consequences can arise than are
+            in a state of paralysis.” The answer is that we don’t cross    considered in traditional statistical approaches. Overre-
+            the street blindfolded, we use sensory information to          acting to small probabilities is not irrational when the
+            mitigate risks and reduce exposure to extreme shocks.          effect is large, as the product of probability and harm
+               Even more importantly in the context of the PP, the         is larger than expected from the traditional treatment of
+            probability distribution of death from road accidents at       probability distributions.
+            the population level is thin-tailed; I do not incur the risk   12.3   TheLochNessfallacy
+            of generalized human extinction by crossing the street—
+            a humanlife is bounded in duration and its unavoidable         Many have countered that we have no evidence that
+            termination is an inherent part of the bio-social system       the Loch Ness monster doesn’t exist, and, to take the
+            [17]. The error of my crossing the street at the wrong         argument of evidence of absence being different from
+            time and meeting an untimely demise in general does            absence of evidence, we should act as if the Loch Ness
+            not cause others to do the same; the error does not            monster existed. The argument is a corruption of the
+            spread. If anything, one might expect the opposite effect,     absence of evidence problem and certainly not part of
+            that others in the system beneﬁt from my mistake by            the PP.
+            adapting their behavior to avoid exposing themselves to           The relevant question is whether the existence of the
+            similar risks. Equating risks a person takes with his or       Loch Ness monster has implications for decisions about
+            her own life with risking the existence of civilization is     actions that are being taken. We are not considering a
+            an inappropriate ego trip. In fact, the very idea of the       decision to swim in the Loch Ness. If the Loch Ness
+            PP is to avoid such a frivolous focus.                         monster did exist, there would still be no reason to
+               Theparalysis argument is often used to present the PP       invoke the PP, as the harm he might cause is limited
+            as incompatible with progress. This is untrue: tinkering,      in scope to Loch Ness itself, and does not present the
+            bottom-up progress where mistakes are bounded is how           risk of ruin.
+            progress has taken place in history. The non-naive PP
+            simplyasserts that the risks we take as we innovate must       12.4   Thefallacy of misusing the naturalistic fallacy
+            not extend to the entire system; local failure serves as       Some people invoke “the naturalistic fallacy,” a philo-
+            information for improvement. Global failure does not.          sophical concept that is limited to the moral domain.
+               This fallacy illustrates the misunderstanding between       According to this critique, we should not claim that
+            systemic and idiosyncratic risk in the literature. Individ-    natural things are necessarily good; human innovation
+            uals are fragile and mortal. The idea of sustainability is     can be equally valid. We do not claim to use nature to
+            to stike to make systems as close to immortal as possible.     derive a notion of how things "ought" to be organized.
+                                                                           Rather, as scientists, we respect nature for the extent of
+            12.2   ThePsychologyofRiskandThickTailedDistri-                its experimentation. The high level of statistical signiﬁ-
+            butions                                                        cance given by a very large sample cannot be ignored.
+                                                                           Nature may not have arrived at the best solution to a
+            One concern about the utility of the PP is that its evoca-     problem we consider important, but there is reason to
+            tion may become commonplace because of risk aversion.          believe that it is smarter than our technology based only
+            Is it true that people overreact to small probabilities        on statistical signiﬁcance.
+            and the PP would feed into human biases? While we                 The question about what kinds of systems work (as
+            have carefully identiﬁed the scope of the domain of            demonstrated by nature) is different than the question
+            applicability of the PP, it is also helpful to review the      about what working systems ought to do. We can take
+            evidence of risk aversion, which we ﬁnd not to be based        a lesson from nature—and time—about what kinds of
+            upon sound studies.                                            organizations are robust against, or even beneﬁt from,
+               Certain empirical studies appear to support the exis-       shocks, and in that sense systems should be structured in
+            tence of a bias toward risk aversion, claiming evidence        waysthatallowthemtofunction. Conversely, we cannot
+            that people choose to avoid risks that are beneﬁcial,          derive the structure of a functioning system from what
+            inconsistent with cost-beneﬁt analyses. The relevant ex-       we believe the outcomes ought to be.
+            periments ask people questions about single probability           To take one example, Cass Sunstein—who has written
+            events, showing that people overreact to small probabil-       an article critical of the PP [19]—claims that there is a
+            ities. However, those researchers failed to include the        "false belief that nature is benign." However, his concep-
+            consequences of the associated events which humans             tual discussion fails to distinguish between thin and fat
+            underestimate. Thus, this empirical strategy as a way          tails, local harm and global ruin. The method of analysis
+            of identifying effectiveness of response to risk is funda-     misses both the statistical signiﬁcance of nature and the
+            mentally ﬂawed [18].                                           fact that it is not necessary to believe in the perfection of
+             EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                               13
+             nature, or in its "benign" attributes, but rather in its track   12.7   TheRussianroulette fallacy (the counterexam-
+             record, its sheer statistical power as a risk evaluator and      ples in the risk domain)
+             as a risk manager in avoiding ruin.                              The potato example, assuming potatoes had not been
+                                                                              generated top-down by some engineers, would still not
+             12.5   The"Butterﬂy in China" fallacy                            be sufﬁcient. Nobody says "look, the other day there
+                                                                              was no war, so we don’t need an army," as we know
+             The statement “if I move my ﬁnger to scratch my nose,            better in real-life domains. Nobody argues that a giant
+             by the butterﬂy-in-China effect, owing to non-linearities,       Russian roulette with many barrels is "safe" and a great
+             I mayterminatelifeonearth,"isknowntobeﬂawed.The                  money making opportunity because it didn’t blow up
+             explanation is not widely understood. The fundamental            someone’s brains last time.
+             reason arises because of the existence of a wide range             There are many reasons a previous action may not
+             in levels of predictability and the presence of a large          have led to ruin while still having the potential to do
+             number of ﬁne scale degrees of freedom for every large           so. If you attempt to cross the street with a blindfold
+             scale one [20]. Thus, the traditional deterministic chaos,       and earmuffs on, you may make it across, but this is not
+             for which the butterﬂy effect was named, applies specif-         evidence that such an action carries no risk.
+             ically to low dimensional systems with a few variables             More generally, one needs a large sample for claims
+             in a particular regime. High dimensional systems, like           of absence of risk in the presence of a small probability
+             the earth, have large numbers of ﬁne scale variables for         of ruin, while a single “n =1" example would be suf-
+             every large scale one. Thus, it is apparent that not all         ﬁcient to counter the claims of safety—this is the Black
+             butterﬂy wing ﬂaps can cause hurricanes. It is not clear         Swanargument[27]. Simply put, systemic modiﬁcations
+             that any one of them can, and, if small perturbations            require a very long history in order for the evidence of
+             can inﬂuence large scale events, it happens only under           lack of harm to carry any weight.
+             speciﬁc conditions where ampliﬁcation occurs.
+               Empirically, our thesis rebuts the butterﬂy fallacy with       12.8   TheCarpenterFallacy
+             the argument that, in the aggregate, nature has experi-          Risk managers skeptical of the understanding of risk
+             enced trillions of small variations and yet it survives.         of biological processes, such as GMOs, by the experts
+             Therefore, we know that the effects of scratching one’s          are sometimes asked "are you a biologist?" But nobody
+             nose fall into the thin tailed domain and thus do not            asks a probabilist dealing with roulette sequences if he is
+             warrant the precautionary principle.                             a carpenter. To understand the gambler’s ruin problem
+               As described previously, barriers in natural systems           by roulette betting, we know to ask a probabilist, not
+             lead to subsystems having a high-degree of indepen-              a carpenter. No amount of expertise in carpentry can
+             dence. Understanding how modern systems with a high-             replace rigor in understanding the properties of long
+             degree of connectivity have cascading effects is essential       sequences of small probability bets. Likewise, no amount
+             for understanding when it is and isn’t appropriate to use        of expertise in the details of biological processes can be
+             the PP.                                                          a substitute for probabilistic rigor.
+                                                                                The context for evaluating risk is the extent of knowl-
+             12.6   Thepotatofallacy                                          edge or lack of knowledge. Thus, when considering
+                                                                              GMO risks, a key question is what is the extent to
+             Many species were abruptly introduced into the Old               whichweknowtheimpactsofgeneticchangesinorgan-
+             World starting in the 16th Century that did not cause            isms. Claims that geneticists know these consequences
+             environmental disasters (perhaps aside from diseases             as a basis for GMOs do not recognize either that their
+             affecting Native Americans). Some use this observation           knowledge is not complete in its own domain nor is
+             in defense of GMOs. However, the argument is fallacious          genetics complete as a body of knowledge. Geneticists
+             at two levels:                                                   do not know the developmental, physiological, medical,
+               First, by the fragility argument, potatoes, tomatoes           cognitive and environmental consequences of genetic
+             and similar "New World" goods were developed locally             changes in organisms. Indeed, most of these are not part
+             through progressive, bottom-up tinkering in a complex            of their training or competency. Neither are they trained
+             system in the context of its interactions with its envi-         in recognizing the impact of the limitations of knowledge
+             ronment. Had they had an impact on the environment,              on risk.
+             it would have caused adverse consequences that would               Someadvocates dismiss the very existence of risk due
+             have prevented their continual spread.                           to the role of scientiﬁc knowledge in GMOs. According
+               Second, a counterexample is not evidence in the risk           to this view scientists from Monsanto and similar com-
+             domain, particularly when the evidence is that taking            panies can be trusted to provide safe foods without risk
+             a similar action previously did not lead to ruin. Lack of        andevenaquestionaboutriskiswithoutbasis.Scientiﬁc
+             ruin due to several or even many trials does not indicate        knowledge as a source of engineering innovation has a
+             safety from ruin in the next one. This is also the Russian       long tradition. At the same time, engineering itself is a
+             roulette fallacy, detailed below.                                different discipline and has different imperatives. While
+            EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                         14
+            construction of bridges and buildings relies upon well        In contrast, traditional engineering of technological solu-
+            established rules of physics, the existence of risks does     tions does not. Thus, the more technological a solution to
+            not end with that knowledge and must be considered            a current problem—the more it departs from solutions
+            directly in planning and construction as it is in other       that have undergone evolutionary selection—the more
+            forms of engineering. The existence of risk in engineer-      exposedonebecomestoiatrogenicsowingtocombinato-
+            ing even where knowledge is much better established           rial branching of conditions with adverse consequences.
+            than genetics is widely recognized. That proponents             Our concern here isn’t mild iatrogenics, but the sys-
+            dismiss the very existence of risk, attests to their poor     temic case.
+            understandingorblindextrinsicallymotivatedadvocacy.
+              The FDA has adopted as a policy the approach that           12.10 Thepathologization fallacy
+            current scientiﬁc knowledge assures safety of GMOs,
+            and relies upon Monsanto or similar companies for             Today many mathematical or conceptual models that
+            assurances. It therefore does not test the impact of          are claimed to be rigorous are based upon unvalidated
+            chemical changes in GMO plants on human health or             and incorrect assumptions. Such models are rational
+            ecological systems. This despite experiments that show        in the sense that they are logically derived from their
+            that increased concentrations of neurotoxins in maternal      assumptions, except that it is the modeler who is using
+            bloodarelinkedtoGMOs[21].Avarietyofstudiesshow                an incomplete representation of the reality. Often the
+            experimental evidence that risks exist [22], [23], [24],      modelers are not familiar with the dynamics of com-
+            [25] and global public health concerns are recognized         plex systems or use Gaussian statistical methods that
+            [26]. We note that it is possible that there are signiﬁcant   do not take into account fat-tails and make inferences
+            impacts of neurotoxins on human cognitive function as         that would not be acceptable under different classes of
+            a result of GMO modiﬁcation, as FDA testing does not          probability distributions. Many biases, such as the ones
+            evaluate this risk.                                           used by Cass Sunstein (mentioned above), about the
+              Consistent with these points, the track record of the       overestimation of the probabilities of rare events in fact
+            experts in understanding biological and medical risks         correspond to the testers using a bad probability model
+            hasbeenextremelypoor.Weneedpoliciestoberobustto               that is thin-tailed. See Ref. [6] for a deeper discussion.
+            such miscalculations. The "expert problem" in medicine          It has became popular to claim irrationality for GMO
+            by which experts mischaracterize the completeness of          and other skepticism on the part of the general public—
+            their own knowledgeismanifestinaverypoorhistorical            not realizing that there is in fact an "expert problem"
+            record of risks taken with innovations in biological prod-    and such skepticism is healthy and even necessary for
+            ucts. These range from biofuels to transfat to nicotine,      survival. For instance, in The Rational Animal, the authors
+            etc. Consider the recent major drug recalls such as           pathologize people for not accepting GMOs although
+            Thalidomide, Fen-Phen, Tylenol and Vioxx—all of these         "the World Health Organization has never found evi-
+            showblindness on the part of the specialist to large scale    dence of ill effects," a standard confusion of evidence
+            risks associated with absence of knowlege, i.e., Black        of absence and absence of evidence. Such pathologizing
+            Swan events. Yet most of these risks were local and not       is similar to behavioral researchers labeling hyperbolic
+            systemic (with the exception of biofuel impacts on global     discounting as "irrational" when in fact it is largely the
+            hunger and social unrest). Since systemic risks would         researcher who has a very narrow model and richer
+            result in a recall happening too late, we need the strong     models make the "irrationality" go away.
+            version of the PP.                                              These researchers fail to understand that humans may
+                                                                          haveprecautionaryprinciplesagainstsystemicrisks,and
+            12.9   Thetechnological salvation fallacy                     can be skeptical of the untested consequences of policies
+            Iatrogenics is harm done by a healer despite positive         for deeply rational reasons, even if they do not express
+            intentions, see Appendix A for a list of innovations          such fears in academic format.
+            in care that have extensive documentation of adverse
+            consequences. Each of these underwent best practices          13 CONCLUSIONS
+            testing that did not reveal the iatrogenic consequences
+            prior to widespread application. The controlled tests         This formalization of the two different types of un-
+            that are used to evaluate innovations for potential harm      certainty about risk (local and systemic) makes clear
+            cannot replicate the large number of conditions in which      when the precautionary principle is, and when it isn’t,
+            interventions are applied in the real world. Adverse          appropriate. The examples of GMOs and nuclear energy
+            consequences are exposed only by extensive experience         help to elucidate the application of these ideas. We hope
+            with the combinatorial number of real world condi-            this will help decision makers to avoid ruin in the future.
+            tions. Natural, i.e. evolutionary, selection implements as
+            a strategy the use of selection of lack of harm under         ACKNOWLEDGMENTS
+            such conditions in a way that bounds the consequences
+            because the number of replicates is increased only grad-      Gloria Origgi, William Goodlad, Maya Bialik, David
+            ually during the process in which success is determined.      Boxenhorn, Jessica Woolley, Phil Hutchinson...
+                EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                                                      15
+                CONFLICTS OF INTEREST                                                                [26] Sears, M. E., Genuis, S. J., 2012, Environmental determinants of
+                Oneofthe authors (Taleb) reports having received mon-                                      chronic disease and medical approaches: recognition, avoidance,
+                                                                                                           supportive therapy, and detoxiﬁcation. Journal of environmental
+                etary compensation for lecturing on risk management                                        and public health, 356798, doi:10.1155/2012/356798
+                and Black Swan risks by the Institute of Nuclear Power                               [27] Taleb, N.N., 2010, The Black Swan:: The Impact of the Highly
+                Operations, INPO, the main association in the United                                       Improbable Fragility. Random House LLC.
+                States, in 2011, in the wake of the Fukushima accident.
+                REFERENCES
+                [1]   Asmussen, S., & Albrecher, H., 2010, Ruin probabilities (Vol. 14).
+                      World Scientiﬁc.
+                [2]   Bar-Yam, Y., 2013, The Limits of Phenomenology: From Behaviorism
+                      to Drug Testing and Engineering Design, arXiv 1308.3094
+                [3]   Bak, P., 2009, How nature works. Copernicus.
+                [4]   Schulte, P., Alegret, L., Arenillas, I., Arz, J. A., Barton, P. J., Bown,
+                      P. R., ... & Willumsen, P. S., 2010. The Chicxulub asteroid impact
+                      and mass extinction at the Cretaceous-Paleogene boundary. Sci-
+                      ence, 327(5970), 1214-1218.
+                [5]   Alroy, J., 2008. Dynamics of origination and extinction in the
+                      marine fossil record. Proceedings of the National Academy of
+                      Sciences, 105(Supplement 1), 11536-11542.
+                [6]   Taleb, N.N., 2014, Silent Risk: Lectures on Fat Tails, (Anti)Fragility,
+                      and Asymmetric Exposures, SSRN
+                [7]   Rauch, E.M. and Y. Bar-Yam, 2006, Long-range interactions and
+                      evolutionary stability in a predator-prey system, Physical Review E
+                      73, 020903
+                [8]   Bar-Yam, Y., 2003, When Systems Engineering Fails — Toward
+                      Complex Systems Engineering in International Conference on
+                      Systems, Man & Cybernetics Vol. 2, IEEE Press, Piscataway, NJ,
+                      2003, pp. 2021- 2028.
+                [9]   Thompson, P.B. (Ed.), 2007. Food biotechnology in ethical per-
+                      spective (Vol. 10). Springer.
+                [10] Read, R., Hutchinson, P., 2014. What is Wrong With GM Food?,
+                      Philosophers’ Magag.
+                [11] Recent Trends in GE Adoption, Adoption of Genetically Engi-
+                      neered Crops in the U.S., USDA Economics Research Service,
+                [12] See e.g. List of poisonous plants, Wikipedia
+                [13] Nowak, M., Schuster, P.,1989. Error thresholds of replication in
+                      ﬁnite populations mutation frequencies and the onset of Muller’s
+                      ratchet. Journal of Theoretical Biology, 137, 375-395.
+                [14] Albino, D.K., Bertrand, K.Z., Bar-Yam, Y., 2012, Food for fuel: The
+                      price of ethanol. arXiv:1210.6080.
+                [15] Qiu, J., 2012, China sacks ofﬁcials over Golden Rice controversy.
+                      Nature News, 10.
+                [16] Harmon, A., 2013, Golden Rice: Lifesaver?
+                [17] Taleb, N.N., 2007, Black swans and the domains of statistics. The
+                      American Statistician, 61, 198-200.
+                [18] Taleb, N.N. and Tetlock, P.E., 2014, On the Difference be-
+                      tween Binary Prediction and True Exposure with Implications
+                      for Forecasting Tournaments and Decision Making Research
+                      http://dx.doi.org/10.2139/ssrn.2284964
+                [19] Sunstein, C.R., Beyond the Precautionary Principle (January 2003).
+                      UChicago Law & Economics, Olin Working Paper No. 149; U of
+                      Chicago, Public Law Working Paper No. 38.
+                [20] Bar-Yam, Y., Complex Systems: The Science of Prediction,
+                [21] Aris, A., Leblanc, S., 2011, Maternal and fetal exposure to pesti-
+                      cides associated to genetically modiﬁed foods in Eastern Town-
+                      ships of Quebec, Canada. Reproductive Toxicology, 31(4), 528-533.
+                [22] Mesnage, R., Clair, E., Gress, S., Then, C., SzÃl’kÃacs,˛             A., &
+                      SÃl’ralini, G. E. (2013). Cytotoxicity on human cells of Cry1Ab and
+                                                                                        ˘ ˇ
+                      Cry1AcBtinsecticidal toxins alone or with a glyphosateâARbased
+                      herbicide. Journal of Applied Toxicology,33(7), 695-699.
+                [23] Mesnage, R., Bernay, B., & Séralini, G. E. (2013). Ethoxylated
+                      adjuvants of glyphosate-based herbicides are active principles of
+                      human cell toxicity.Toxicology, 313(2), 122-128.
+                [24] López, S. L., Aiassa, D., Benitez-Leite, S., Lajmanovich, R., Manas,
+                      F., Poletta, G., ... & Carrasco, A. E. (2012). Pesticides used in South
+                      American GMO-based agriculture: A review of their effects on
+                      humans and animal models. Advances in Molecular Toxicology,
+                      6, 41-75.
+                [25] Mezzomo, B. P., Miranda-Vilela, A. L., & Friere, I. S. (2013).
+                      Hematotoxicity of Bacillus thuringiensis as spore-crystal strains
+                      Cry1Aa, Cry1Ab, Cry1Ac or Cry2Aa in Swiss albino mice. J
+                      Hematol Thromb Dis, 1(1).
+              EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                        16
+               Medical Intervention                     Intended Effects                         Unintended Effects
+               Rofecoxib (Vioxx, Ceoxx, Ceeoxx)         relieve osteoarthritis, dysmenorrhoea    myocardial infarctions [1]
+               Thalidomide(Immunoprin,Talidex,Tal-      sedative                                 severe birth defects [2]
+               izer, Thalomid)
+               Fen-phen (Pondimin)                      weight loss                              valvular heart disease, pulmonary hy-
+                                                                                                 pertension [3]
+               Diethylstilbestrol         (Distilbene,  reduce miscarriage                       cancerous tumors in daughters exposed
+               Stilbestrol, Stilbetin)                                                           in utero [4]
+               Cerivastatin (Baycol, Lipobay)           lowercholesterol, reduce cardiovascular  Rhabdomyolysis leading to renal failure
+                                                        disease                                  [5]
+               lobotomy                                 improve mental disorder                  loss of personality, intellect [6]
+               Troglitazone     (Rezulin,    Resulin,   antidiabetic, antiinﬂammatory            drug-induced hepatitis [7]
+               Romozin, Noscal)
+               Terfenadine (Seldane, Triludan, Tel-     antihistamine                            cardiac arrhythmia [8]
+               dane)
+               Phenylpropanolamine (Accutrim)           appetite suppressant, stimulant, decon-  increased stroke [9]
+                                                        gestant
+               hospitalization                          patient treatment and monitoring         nosocomial infection; medication errors
+                                                                                                 [10]
+               antibiotics                              clear bacterial infections               treatment-resistant bacteria [11]
+               antidepressants                          relieve depression                       increased suicide risk [12]
+               Encainide (Enkaid), ﬂecainide (Tambo-    reduced arrhythmia                       increased mortality [13]
+               cor)
+               Acetaminophen (Tylenol)                  pain relief                              liver damage [14]
+               coronary angioplasty                     increased blood ﬂow                      increased risk of death/myocardial in-
+                                                                                                 farction [15]
+               cosmetic surgery                         improved aesthetics                      infection, death, deformity, other mal-
+                                                                                                 function [16]
+               obsessive hygiene                        keeping safe from ‘germs’                autoimmune disorders [17]
+               ear-tubes                                otitis media with effusion               tympanosclerosis [18]
+              Table 2: Examples of iatrogenics in the medical ﬁeld. The upper portion of the table shows medications and
+              treatments whose use has been signiﬁcantly reduced or completely discontinued due to their undesired effects
+              (which were discovered only after signiﬁcant damage had been done). The lower portion of the table lists examples
+              where unintended side effects are signiﬁcant but treatment continues to be applied due to expected beneﬁts.
+              APPENDIXA
+              ASAMPLEOFIATROGENICS,"UNFORESEEN"CRITICALERRORS
+           EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                    17
+            APPENDIXB                                                 Indeed, one can show that subexponential distributions
+                                                                      have no exponential moments:
+            DEFINITION OF FAT TAILS AND DISTINCTION
+            BETWEENMEDIOCRISTANANDEXTREMISTAN                                             Z 1e✏xdF(x)=+1
+           Probability distributions range between extreme thin-                            0
+           tailed (Bernoulli) and extreme fat tailed [6]. Among the   for all values of " greater than zero. However,the con-
+           categories of distributions that are often distinguished   verse isn’t true, since distributions can have no ex-
+           due to the convergence properties of moments are: 1)       ponential moments, yet not satisfy the subexponential
+           Having a support that is compact but not degenerate, 2)    condition.
+           Subgaussian, 3) Gaussian, 4) Subexponential, 5) Power         We note that if we choose to indicate deviations as
+           law with exponent greater than 3, 6) Power law with        negative values of the variable x, the same result holds
+           exponent less than or equal to 3 and greater than 2, 7)    by symmetry for extreme negative values, replacing
+           Power law with exponent less than or equal to 2. In        x ! +1 with x ! 1. For two-tailed variables, we
+           particular, power law distributions have a ﬁnite mean      can separately consider positive and negative domains.
+           only if the exponent is greater than 1, and have a ﬁnite
+           variance only if the exponent exceeds 2.                   APPENDIXC
+              Our interest is in distinguishing between cases where   MATHEMATICAL DERIVATIONSOFFRAGILITY
+           tail events dominate impacts, as a formal deﬁnition of
+           the boundary between the categories of distributions       In this Section we provide a formal deﬁnition of fragility
+           to be considered as Mediocristan and Extremistan. The      as the detrimental (negative) expected response from
+           natural boundary between these occurs at the subexpo-      increasing uncertainty. Uncertainty itself arises from de-
+           nential class which has the following property:            viations from expected conditions. We also show why
+              Let X =(Xi)1in be a sequence of independent and       fragility is necessarily linked to increasing impact of
+           identically distributed random variables with support in   larger deviations, i.e. how “size matters.” The deriva-
+           the positive real numbers (R+), with cumulative distri-    tions explain, among other things,
+           bution function F. The subexponential class of distribu-      • How risk associated with events that spread across
+           tions is deﬁned by [19],[20].                                   the system are much more dangerous than those
+                                         ⇤2                                that are limited to local areas; the derivations char-
+                              lim 1 F (x) =2                               acterize risk spreading as a non-concave response.
+                             x!+1 1 F(x)                                 • Whyerrorsofanalysisareaprobleminthepresence
+           where F⇤2 = F0 ⇤ F is the cumulative distribution of            of nonlinearity.
+           X1 + X2, the sum of two independent copies of X.              • Why polluting "a little" is qualitatively different
+           This implies that the probability that the sum X + X            from pollution "a lot."
+                                                             1     2     • Why fat tails can arise from accelerating response.
+           exceeds a value x is twice the probability that either        Our analysis is designed to characterize the response
+           one separately exceeds x. Thus, every time the sum         of a system to a distribution of environmental pertur-
+           exceeds x, for large enough values of x, the value of      bations. It differs from traditional response theory that
+           the sum is due to either one or the other exceeding x—     considers a system’s behavior resulting from a single
+           the maximum over the two variables—and the other of        precisely deﬁned perturbation [23], and from stochastic
+           them contributes negligibly.                               system dynamics that typically considers noise as a well
+              More generally, it can be shown that the sum of n       characterized Normal or other thin tailed distribution
+           variables is dominated by the maximum of the values        [24], or thermodynamics which considers contact with a
+           over those variables in the same way. Formally, the        reservoir at a speciﬁed temperature [25]. These analyses
+           following two properties are equivalent to the subex-      do not adequately characterize a system in a far from
+           ponential condition [21],[22]. For a given n   2, let
+                   n                                                  equilibrium real world environment often having fat
+           Sn = ⌃     xi and Mn = max1inxi
+                   i=1                                                tailed distributions of perturbations, and whose distri-
+              a) lim     P(Sn>x) = n,                                 butions may be poorly characterized.
+                   x!1 P(X>x)                                            In order to describe the system response we assume a
+                                                                      single dimensional measure of the structural integrity of
+              b) lim      P(Sn>x) =1.
+                    x!1 P(Mn>x)                                       the system, s. The damage, dissolution or destruction of
+                                                                      the system is measured by the deviation from a reference
+              Thus the sum Sn has the same magnitude as the           value, described by negative values of s of increasing
+           largest sample Mn, which is another way of saying that     magnitude. No assumption is made of the existence
+           tails play the most important role.                        of corresponding positive values of improvement in
+                                                                      structure, though such may exist.
+              Intuitively, tail events in subexponential distributions   We note that this mathematical framework enables
+           should decline more slowly than an exponential distri-     physical system damage to be mapped onto a single
+           bution for which large tail events should be irrelevant.   dimension, as is done in market pricing of value, and
+               EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                                     18
+                  Prob Density                                                                Taking z as a stress level and ⇧(z) the harm function,
+                                                                                           it sufﬁces to see that, with n>1,
+                                    "     "     K
+                              Ξ!K, s #$s "%# !x"'" f Λ!s_#$s""!x")x                                                                                  ⇤
+                                               "&                                                        ⇧(nz) <n⇧(z) for all 0 <nz<Z
+                                     K                                                        where Z⇤ is the level (not necessarily speciﬁed) at
+                         Ξ!K, s""%#   !x "'" f   _ !x" )x                                  which the item is broken. Such inequality leads to ⇧(z)
+                                    "&         Λ!s "                                       having a negative second derivative at the initial value
+                                                                                           z.
+                                                                                                 So if a coffee cup is less harmed by n times a
+                                                                                           stressor of intensity Z than once a stressor of nZ, then
+                                                                      K                    harm (as a negative function) needs to be concave to
+                                                                                           stressors up to the point of breaking; such stricture is
+               Figure 9: A deﬁnition of fragility as left tail-vega sensi-                 imposed by the structure of survival probabilities and
+               tivity, in other words how an increase in uncertainty                       the distribution of harmful events, and has nothing to
+               (which includes errors) affects adverse outcomes. The                       do with subjective utility or some other ﬁgments. Just
+               ﬁgure shows the effect of the perturbation of a mesure of                   as with a large stone hurting more than the equivalent
+               the lower semi-deviation s  on the tail integral ⇠ of (x –                  weight in pebbles, if, for a human, jumping one mil-
+               ⌦) below K, ⌦ being a centering constant. Centrally, our                    limeter caused an exact linear fraction of the damage
+               detection of fragility does not require the speciﬁcation of                 of, say, jumping to the ground from thirty feet, then the
+               f the probability distribution.                                             person would be already dead from cumulative harm.
+                                                                                           Actually a simple computation shows that he would
+                                                                                           have expired within hours from touching objects or
+               thus we adopt for fragility the terminology, “vega,” of                     pacing in his living room, given the multitude of such
+               price sensitivity to uncertainty associated with deriva-                    stressors and their total effect. The fragility that comes
+               tives contracts.                                                            from linearity is immediately visible, so we rule it out
+                  Intrinsic and Inherited Fragility: Our deﬁnition of                      because the object would be already broken and the
+               fragility is two-fold. First, of concern is the intrinsic                   person already dead. The relative frequency of ordinary
+               fragility, the shape of the probability distribution of a                   events compared to extreme events is the determinant.
+                                                       -                                   In the ﬁnancial markets, there are at least ten thousand
+               variable and its sensitivity to s , a parameter controlling
+               the left side of its own distribution. But we do not often                  times more events of 0.1% deviations than events of
+               directly observe the statistical distribution of objects,                   10%. There are close to 8,000 micro-earthquakes daily
+               and, if we did, it would be difﬁcult to measure their                       on planet earth, that is, those below 2 on the Richter
+               tail-vega sensitivity.       Nor do we need to specify such                 scale —about 3 million a year. These are totally harmless,
+               distribution: we can gauge the response of a given object                   and, with 3 million per year, you would need them to
+               to the volatility of an external stressor that affects it. For              be so. But shocks of intensity 6 and higher on the scale
+               instance, an option is usually analyzed with respect to                     make the newspapers. Accordingly, we are necessarily
+               the scale of the distribution of the “underlying” security,                 immune to the cumulative effect of small deviations, or
+               not its own; the fragility of a coffee cup is determined                    shocksofverysmallmagnitude,whichimpliesthatthese
+               as a response to a given source of randomness or stress;                    affect us disproportionally less (that is, nonlinearly less)
+               that of a house with respect of, among other sources, the                   than larger ones.
+               distribution of earthquakes. This fragility coming from                        Model error is not necessarily mean preserving. s-,
+               the effect of the underlying is called inherited fragility.                 the lower absolute semi-deviation does not just express
+               The transfer function, which we present next, allows                        changes in overall dispersion in the distribution, such
+               us to assess the effect, increase or decrease in fragility,                 as for instance the “scaling” case, but also changes in
+               coming from changes in the underlying source of stress.                     the mean, i.e. when the upper semi-deviation from ⌦ to
+                  Transfer Function: A nonlinear exposure to a certain                     inﬁnity is invariant, or even decline in a compensatory
+               source of randomness maps into tail-vega sensitivity                        manner to make the overall mean absolute deviation
+               (hence fragility). We prove that                                            unchanged. This would be the case when we shift the
+                                                                                           distribution instead of rescaling it. Thus the same vega-
+               Inherited Fragility , Concavity in exposure on the left                     sensitivity can also express sensitivity to a stressor (dose
+                                    side of the distribution                               increase) in medicine or other ﬁelds in its effect on either
+               and build H, a transfer function giving an exact map-                       tail. Thus s (l) will allow us to express the sensitivity
+               ping of tail vega sensitivity to the second derivative                      to the "disorder cluster" in Antifragile: i) uncertainty,
+               of a function. The transfer function will allow us to                       ii) variability, iii) imperfect, incomplete knowledge, iv)
+               probe parts of the distribution and generate a fragility-                   chance, v) chaos, vi) volatility, vii) disorder, viii) entropy,
+               detection heuristic covering both physical fragility and                    ix) time, x) the unknown, xi) randomness, xii) turmoil,
+               model error.                                                                xiii) stressor, xiv) error, xv) dispersion of outcomes.
+               EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                                   19
+               C.1 Tail Sensitivity to Uncertainty                                        function of  . Indeed, denoting
+               The analysis of ruin problems led in the main paper to                                                                Z x
+               a number of conclusions based upon considering events                                   F (x)=P (X<x)=                      f (t)dt,            (2)
+                                                                                                                    f                         
+               causing destruction above a well deﬁned level K, the                                                                     1
+               ruin threshold, and their cumulative probability F(K).                     an integration by parts yields:
+                 Here we show that the same conclusions apply to the                                                       Z ⌦
+               case of events with different levels of damage where                                             s ( )=            F (x)dx
+               the extent of that damage matters. We continue to apply                                                        1
+               a threshold that differentiates events that do not cause                   This is the case when   is a scaling parameter, i.e., X ⇠
+               high levels of devastation from those that do. The anal-                   ⌦+ (X1 ⌦)indeed one has in this case
+               ysis thus also applies to "near ruin" problems, i.e, the                                                     ✓       x ⌦◆
+               difference between destruction of 20% and 30% of the                                           F (x)=F1 ⌦+                     ,
+               worlds forests matters and our conclusions apply to this                                                                 
+               case as well. This will also allow us to examine how                                @F           ⌦ x
+                                                                                                       (x)=             f (x) and s ( )= s (1).
+               systems approach ruin.                                                               @              2      
+                 Formally, we consider a system where events cause                           It is also the case when   is a shifting parameter, i.e.
+               a certain level of losses, X. The losses can be anything                   X⇠X   ,indeed,inthis case F (x)=F (x+ ) and
+                                                                                                   0                                              0
+               that can be quantiﬁed and is undesirable. The variable                      @s (x)=F (⌦).
+               X can be an economic measure (a P/L for a portfolio,                        @              
+               unemployment or GDP for a country, value of a com-                            For K<⌦ and s2R+, let:
+               pany’s assets), or epidemiological (number of victims                                                   Z K                  
+               of a pandemic), ecological (deforestation, biodiversity                                  ⇠(K,s )= 1(⌦ x)f (s )(x)dx                             (3)
+               loss), or other measures consisting of a single measure
+                                                                                                                        –        –
+               for which larger values correspond to an undesirable                          In particular, ⇠(⌦, s )=s . We assume, in a ﬁrst
+                                                                                                                                   –
+               outcome. For consistency with conventions in economic                      step, that the function ⇠(K,s ) is differentiable on
+               value, we treat the increasing levels of loss to be repre-                 ( 1,⌦]⇥R+.TheK-left-tail-vegasensitivityofX atstress
+               sented by negative numbers.                                                level K<⌦ and deviation level s  > 0 for the pdf f 
+                 We construct a measure of "vega", that is, the sensi-                    is:
+               tivity to uncertainty, in the left tails of the distribution
+               that depends on the variations of s the semi-deviation                                                 @⇠
+                                                                   1                                                             
+               below a certain level W, chosen in the L norm in order                        V(X,f ,K,s )=                (K,s )=
+                                                                                                                     @s 
+               to ensure its existence under "fat tailed" distributions                                           Z ⌦              @f )      !✓ds ◆ 1
+               with ﬁnite ﬁrst semi-moment. In fact s would exist as                                                      (⌦ x)          dx                    (4)
+               a measure even in the case of undeﬁned moments to the                                                  1              @             d 
+               right side of W.                                                              As in the many practical instances where threshold
+                 Let X be a random variable, the distribution of which                    effects are involved, it may occur that ⇠ does not depend
+               is one among a one-parameter family of pdf, f ,  2 I ⇢                                       –
+               R. We consider a ﬁxed reference value ⌦ and, from this                     smoothly on s . We therefore also deﬁne a ﬁnite difference
+                                                                             2            version of the vega-sensitivity as follows:
+               reference, the "raw" left-semi-absolute deviation:
+                                            Z ⌦                                                                       1                                            
+                                                                                             V(X,f ,K,s )=                 ⇠(K,s + s) ⇠(K,s   s)
+                                 s ( )=          (⌦ x)f (x)dx                      (1)                               2 s
+                                                                                              Z
+                                              1                                                  K            f (s  + s)(x) f (s   s)(x)
+                                               –                                           =        (⌦ x)                                                dx (5)
+               We assume that   ! s ( ) is continuous, strictly in-                              1                              2 s
+               creasing and spans the whole range R+ =[,0+1),                                Hence omitting the input  s implicitly assumes that
+               so that we may use the left-semi-absolute deviation                         s ! 0.
+                –
+               s  as a parameter by considering the inverse function                                               
+                                                                                             Note that ⇠(K,s )= E(X|X<K) Pf (X<K). It
+                (s):R+ !I, deﬁned by s ( (s)) = s for s 2 R+.                                                                                     
+                   Thisconditionisforinstancesatisﬁedif,foranygiven                       can be decomposed into two parts:
+               x < ⌦, the probability is a continuous and increasing                                                 
+                                                                                                      ⇠ K,s ( ) =(⌦ K)F (K)+P (K)                              (6)
+                 2. We use a measure related to the left-semi absolute deviation, or                                   Z K
+               roughly the half the mean absolute deviation (the part in the negative                      P (K)= 1(K x)f (x)dx                                (7)
+               domain) because 1) distributions are not symmetric and might have
+               changes on the right of ⌦ that are not of interest to us, 2) standard      Where the ﬁrst part (⌦ K)F (K) is proportional to the
+               deviation requires ﬁnite second moment.                                                                           
+                 Further, we do not adjust s  by its probability –with no loss of         probability of the variable being below the stress level
+               generality. Simply, probability in the negative domain is close to 1 and   K and the second part P (K) is the expectation of the
+                                                                                 2                                          
+               would not change signiﬁcantly in response to changes in parameters.        amount by which X is below K (counting 0 when it is
+               Probabilities in the tails are nonlinear to changes, not those in the body                                                                     –
+               of the distribution.                                                       not). Making a parallel with ﬁnancial options, while s ( )
+             EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                      20
+                                                                                  These consequences are even more ampliﬁed when the
+                                                                                  risk measure applies to a variable that is derived from
+                                                                                  that used for estimation, when the relation between the
+                                                                                  two variables is strongly nonlinear, as is often the case.
+                                                                                  C.2.1   Deﬁnition of Fragility: The Intrinsic Case
+                                                                                  The local fragility of a random variable X  depending on
+                                                                                  parameter  , at stress level K and semi-deviation level
+                                                                                   –
+                                                                                  s ( ) with pdf f  is its K-left-tailed semi-vega sensitivity
+                                                                                                 
+                                                                                  V(X,f ,K,s ).
+                                                                                          
+                                                                                    The ﬁnite-difference fragility of X  at stress level K and
+                                                                                  semi-deviation level s ( )± s with pdf f  is its K-left-tailed
+                                                                                                                                          
+                                                                                  ﬁnite-difference semi-vega sensitivity V (X,f ,K,s , s).
+                                                                                                                                  
+                                                                                    In this deﬁnition, the fragility relies in the unsaid
+             Figure 10: The different curves of F (K) and F 0(K)                  assumptions made when extrapolating the distribution
+             showing the difference in sensitivity to changes at dif-             of X from areas used to estimate the semi-absolute
+             ferent levels of K.                                                        
+                                                                                              –
+                                                                                  deviation s ( ), around ⌦, to areas around K on which
+                                                                                  the risk measure ⇠ depends.
+                                               –
+             is a “put at-the-money”, ⇠(K,s ) is the sum of a put struck
+             at K and a digital put also struck at K with amount ⌦ –              C.2.2   Deﬁnition of Fragility: The Inherited Case
+             K; it can equivalently be seen as a put struck at ⌦ with             Next we consider the particular case where a random
+             a down-and-in European barrier at K.                                 variable Y = '(X) depends on another source of risk X,
+                                 –
+                Letting   =  (s ) and integrating by part yields                  itself subject to a parameter  . Let us keep the above
+                                                     Z K                          notations for X, while we denote by g  the pdf of
+                ⇠ K,s ( ) =(⌦ K)F (K)+                     F (x)dx =              Y,⌦Y = '(⌦) and u ( ) the left-semi-deviation of Y.
+                                                        1                         Given a “strike” level
+                                                        Z ⌦ FK(x)dx (8)             L = '(K), let us deﬁne, as in the case of X :
+                                                                 
+                                                           1                                                  Z K
+                Where FK(x)=F (min(x,K)) = min(F (x),F(K)),                                           
+                                                                                             ⇣ L,u ( ) =            (⌦Y  y)g (y)dy            (11)
+             so that                                                                                             1
+                                     @⇠                                           The inherited fragility of Y with respect to X at stress
+                V(X,f ,K,s )= (K,s )                                                                                                     
+                                     @s                                           level L = '(K) and left-semi-deviation level s ( ) of X
+                                                       R⌦ @FK                     is the partial derivative:
+                                                                 (x)dx
+                                                    =  1 @                 (9)
+                                                       R⌦ @F (x)dx                                            @⇣              
+                                                          1 @                       V    Y,g ,L,s ( ) =            L,u ( ) =
+                                                                                      X                       @s
+                For ﬁnite differences                                                             Z                           !✓       ◆
+                                                                                                     K (⌦  Y)@g (y)dy             ds   1 (12)
+                                                 Z                                                         Y        @              d 
+                                             1      ⌦                                                1
+                                                           K
+                  V(X,f ,K,s , s)=                      F      (x)dx      (10)
+                                           2 s              , s
+                                                    1                               Note that the stress level and the pdf are deﬁned
+                        +                                  +                      for the variable Y, but the parameter which is used
+             Where  s and  s are such that s( s )=s +  s,
+             s(   )=s   s and  FK (x)=FK (x) FK (x).                              for differentiation is the left-semi-absolute deviation of
+                                             , s                      
+                 s                                         +                          –
+                                                          s           s           X, s ( ). Indeed, in this process, one ﬁrst measures the
+                                                                                  distribution of X and its left-semi-absolute deviation,
+                                                                                  then the function ' is applied, using some mathematical
+                                                                                  model of Y with respect to X and the risk measure ⇣ is
+             C.2 Mathematical Expression of Fragility                             estimated. If an error is made when measuring s–( ), its
+             In essence, fragility is the sensitivity of a given risk mea-        impact on the risk measure of Y is ampliﬁed by the ratio
+             sure to an error in the estimation of the (possibly one-             given by the “inherited fragility”.
+             sided) deviation parameter of a distribution, especially                 Onceagain, one may use ﬁnite differences and deﬁne
+             duetothefactthattherisk measure involves parts of the                the ﬁnite-difference inherited fragility of Y with respect to
+             distribution – tails – that are away from the portion used           X, by replacing, in the above equation, differentiation by
+                                                                                                                         +        –          –   +
+             for estimation. The risk measure then assumes certain                ﬁnite differences between values   and   , where s (  )
+                                                                                     –              –  –      –
+             extrapolation rules that have ﬁrst order consequences.               = s +  s and s (  )=s –  s.
+             EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                     21
+             C.3 Effect of Nonlinearity on Intrinsic Fragility                   and for any x<⌦, d'(x) > 0. The random variable
+                                                                                                           dx
+             Let us study the case of a random variable Y = '(X); the            Y ='(X) is more fragile at level L = '(K) and pdf g 
+             pdf g  of which also depends on parameter  , related                than X at level K and pdf f  if, and only if, one has:
+             to a variable X by the nonlinear function '. We are                                   Z ⌦     K     d2'
+             now interested in comparing their intrinsic fragilities.                                   H  (x)     2 (x)dx<0
+             We shall say, for instance, that Y is more fragilefragile                               1           dx
+             at the stress level L and left-semi-deviation level u ( )              Where
+             than the random variable X, at stress level K and left-                               K      K                      
+                                                                                      K        @P          @P          @P          @P
+             semi-deviation level s ( ) if the L-left-tailed semi-vega              H (x)=   (x)                 (⌦)        (x)        (⌦) (19)
+             sensitivity of Y     is higher than the K-left-tailed semi-                        @            @          @          @ 
+                                
+             vega sensitivity of X :                                                and where
+                                                                                                               Z x
+                           V(Y,g ,L,µ ) >V(X,f ,K,s )                     (13)
+                                                                                                      P (x)=         F (t)dt                  (20)
+                                                                                                                        
+                One may use ﬁnite differences to compare the                                                      1
+             fragility of two random variables:V(Y,g ,L, µ) >                       is the price of the “put option” on X  with “strike” x
+                                                                                 and
+             V(X,f ,K, s). In this case, ﬁnite variations must be                                              Z x
+                      
+                                                    –         –                                      PK(x)=          FK(t)dt
+             comparable in size, namely  u/u =  s/s .                                                                   
+                 Let us assume, to start, that ' is differentiable, strictly                                      1
+             increasing and scaled so that ⌦Y = '(⌦)=⌦. We also                  is that of a "put option" with "strike" x and "European
+             assume that, for any given x < ⌦, @F (x) > 0.                       down-and-in barrier" at K.
+                                                      @          –                  H can be seen as a transfer function, expressed as the
+                  In this case, as observed above,   ! s ( ) is also             difference between two ratios. For a given level x of
+             increasing.
+                Let us denote G (y)=P (Y<y) . We have:                           the random variable on the left hand side of ⌦, the
+                                  y         g 
+                                                                                 second one is the ratio of the vega of a put struck at
+                G ( (x)) = P       (Y< (y))=P (X<x)=F (x).                       x normalized by that of a put "at the money" (i.e. struck
+                                g                   f                            at ⌦), while the ﬁrst one is the same ratio, but where puts
+                                                                          (14)   struck at x and ⌦ are "European down-and-in options"
+                                  –                                          
+                Hence, if ⇣(L, u ) denotes the equivalent of ⇠(K),s              with triggering barrier at the level K.
+             with variable (Y,g ) instead of (X,f ), we have:
+                                                         
+                                           Z ⌦    K     d                           The proof is detailed in [26] and [6].
+                         ⇣ L,u ( ) =            F  (x)dx(x)dx             (15)      Fragility Exacerbation Theorem
+                                             1                                      Theorem 2: With the above notations, there exists a
+             Because     ' is increasing         and     min('(x),'(K))     = threshold ⇥  < ⌦ such that, if K  ⇥  then HK(x) > 0
+                                                                                                                                        
+             '(min(x,K)). In particular                                          for x 2 (1, ] with K<ambda < ⌦.As a con-
+                                                                                                                      l
+                                                                                 sequence, if the change of variable ' is concave on
+                                             Z ⌦                                 ( 1, ] and linear on [ ,⌦], then Y is more fragile
+                                                           d                                                     
+                                                     K
+                  µ ( )=⇣ ⌦,µ ( ) =                F  (x)dx(x)dx          (16)   at L = '(K)than X at K.
+                                                1                                   One can prove that, for a monomodal distribution,
+                The L-left-tail-vega sensitivity of Y is therefore:              ⇥ <  < ⌦ (see discussion below), so whatever the
+                                                                                           
+                                                                                 stress level K below the threshold ⇥ , it sufﬁces that the
+                                            R⌦ @FK        d                      changeofvariable'beconcaveontheinterval( 1,⇥ ]
+                                                      (x)    (x)dx
+                                              1 @         dx                     and linear on [⇥lambda,⌦] for Y to become more fragile
+                   V Y,g ,L,u ( ) = R                                     (17)
+                                              ⌦ @F        d 
+                                                     (x)    (x)dx                at L than X at K. In practice, as long as the change of
+                                              1 @         dx                     variable is concave around the stress level K and has
+             For ﬁnite variations:                                               limited convexity/concavity away from K, the fragility
+                                                 Z                               of Y is greater than that of X.
+                                             1     ⌦               d                Figure 11 shows the shape of HK(x) in the case of
+                                                           K                                                                
+               V(Y,g ,L,u ( ), u)=                      F      (x)    (x)dx
+                                           2 u             , u     dx            a Gaussian distribution where   is a simple scaling
+                                                   1                      (18)   parameter (  is the standard deviation  ) and ⌦ = 0.
+                Where  + and    are such that u( + )=u  + u,                     Werepresented K = –2  while in this Gaussian case, ⇥
+                                                                                                                                                 
+                 +        u         u                       u
+             u(     )=u   uandFK (x)=FK(x) FK(x).                                = –1.585 .
+                 u                         , u           +           
+                                                         u          u               DISCUSSION
+                Next, Theorem1proveshowaconcavetransformation
+             '(x) of a random variable x produces fragility.                        Monomodal case
+                                                                                    We say that the family of distributions (f ) is left-
+                Fragility Transfer Theorem                                       monomodal if there exists K < ⌦ such that @f  > 0 on (–
+                                                                                                                                   @ 
+                                                                                              @f                                 @P
+                Theorem 1: Let, with the above notations, ' : R ! R              1, ]and          6 0on[µ ,⌦].Inthiscase            is a convex
+                                                                                               @                                  @ 
+             be a twice differentiable function such that '(⌦)=⌦                 function on the left half-line (–1, µ ], then concave
+             EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                     22
+                                                                                                    ✓       x ⌦◆                        
+                                                                                      P (x)= P        ⌦+              and s ( )= s (1).
+                                                                                                   1           
+                                                                                 Hence
+             Figure 11: The Transfer function H for different portions                                           ✓      K ⌦◆
+             of the distribution: its sign ﬂips in the region slightly              ⇠(K,s ( )) = (⌦ K)F1 ⌦+                 
+             below ⌦                                                                                                      ✓      K ⌦◆
+                                                                                                                   + P1 ⌦+                    (21)
+                                                                                     @⇠                1    @⇠
+                                                                                        (K,s )=                (K, )
+                                                                                    @s      ⇣        s (1)@                                   ⌘
+                                                                                  = 1         P (K)+(⌦ K)F (K)+(⌦ K)2f (K)
+                                                                                     s ( )                                               
+                                                                                                                                              (22)
+                                                                                    When we apply a nonlinear transformation ', the
+                                                                                 action of the parameter   is no longer a scaling: when
+                                                                                 small negative values of X are multiplied by a scalar  ,
+                                                                                 so are large negative values of X. The scaling   applies to
+                                                                                 small negative values of the transformed variable Y with
+                                                                                 a coefﬁcient d'(0), but large negative values are subject
+             Figure 12: The distribution of G  and the various deriva-                          dx           d'
+             tives of the unconditional shortfalls                               to a different coefﬁcient dx(K), which can potentially be
+                                                                                 very different.
+             after the inﬂexion point µ . For K  µ , the function
+             @PK                      @P
+                    coincides with         on (–1, K], then is a linear
+              @                        @                               @P        C.4 Fragility Drift
+             extension, following the tangent to the graph of              in
+                                                         K             @ 
+             K (see graph below). The value of @P  (⌦) corresponds               Fragility is deﬁned at as the sensitivity – i.e. the ﬁrst
+                                                       @                         partial derivative – of the tail estimate ⇠ with respect to
+             to the intersection point of this tangent with the vertical                                     –
+             axis. It increases with K, from 0 when K ! –1 to a                  the left semi-deviation s . Let us now deﬁne the fragility
+             value above @P (⌦) when K = µ . The threshold ⇥                     drift:
+                              @                                               
+                                                                   @PK
+             correspondstotheuniquevalueofKsuchthat                    (⌦)=
+                                                                    @ 
+             @P                                             @P      .@P                         0                     @2⇠          
+                 (⌦) . When K < ⇥ then G (x)=                   (x)       (⌦)                 V (X,f ,K,s )=                 (K,s )           (23)
+              @                                              @         @                       K                    @K@s 
+                     K        @PK      .@PK
+             and G (x)=   (x)                 (⌦) are functions such that
+                               @          @                                         In practice, fragility always occurs as the result of
+             G (⌦)=GK(⌦)=1andwhichareproportional for x                                                                                  –     –
+                                                                                 fragility, indeed, by deﬁnition, we know that ⇠(⌦, s )=s ,
+             K, the latter being linear on [K, ⌦]. On the other hand,                                  –
+                               @PK          @P                         K         hence V(X, f , ⌦, s ) = 1. The fragility drift measures the
+             if K < ⇥  then         (⌦) <      (⌦) and G (K) <G(K),
+                                @           @                                    speed at which fragility departs from its original value
+                                                    K
+             which implies that G (x) <G(x) for x  K. An
+                                                                                 1 when K departs from the center ⌦.
+             elementary convexity analysis shows that, in this case,                Second-order Fragility
+             the equation G (x)=GK(x) has a unique solution  
+                                                                                    The second-order fragility is the second order derivative
+             with µlambda <   < ⌦. The “transfer” function HK(x)
+             is positive for x <  , in particular when x  µ  and               of the tail estimate ⇠ with respect to the semi-absolute
+                                                                                              –
+             negative for      < x < ⌦.                                         deviation s :
+                              
+                Scaling Parameter                                                                                      @2⇠
+                                                                                                0                                  
+                                                                                              V  (X,f ,K,s )=                (K,s )
+                Weassumeherethat isascalingparameter,i.e.X  =                                  s                     (@s )2
+             ⌦+ (X1 ⌦). In this case, as we saw above, we have
+                              ✓             ◆               ✓             ◆      As we shall see later, the second-order fragility drives the
+                         1           x ⌦                           x ⌦           bias in the estimation of stress tests when the value of
+               f (x)= f        ⌦+             ,F(x)=F ⌦+                          –
+                           1                               1                     s is subject to uncertainty, through Jensen’s inequality.
+              EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                        23
+              C.5 Deﬁnitions of Robustness and Antifragility                        when K ! –1, then R           =+1andX isconsidered as
+                                                                                                               exp                
+              Antifragility is not the simple opposite of fragility, as we          not a-exponentially robust.
+              saw in Table 1. Measuring antifragility, on the one hand,               Similarly, for a given power ↵ > 0, and assuming that
+                                                                                                 –↵
+              consists of the ﬂipside of fragility on the right-hand side,          f (x) = O(x     ) when x ! –1, the ↵-power asymptotic
+              but on the other hand requires a control on the robustness            robustness of X  below the level K is:
+              of the probability distribution on the left-hand side.
+              From that aspect, unlike fragility, antifragility cannot be                                   
+                                                                                      R (X ,f,K,s( ),a)=
+              summarized in one single ﬁgure but necessitates at least                  pow               ⇣                                       ⌘
+              two of them.                                                                                          0 ↵ 2                0   
+                                                                                                    max (⌦ K)             V(X ,f,K,s( ))
+                  Whenarandomvariable depends on another source                                    K06K                              
+              of randomness: Y  = '(X ), we shall study the an-                       If one of the two quantities
+              tifragility of Y  with respect to that of X  and to the
+              properties of the function '.                                                                (⌦ K0)↵f (K0)
+                                                                                                          0 ↵ 2                0   
+                DEFINITION OF ROBUSTNESS                                                          (⌦ K)         V(X ,f,K,s( ))
+                                                                                                                           
+                Let (X ) be a one-parameter family of random vari-                  is not bounded from above when K0 ! 1, then
+              ables with pdf f . Robustness is an upper control on the              R     =+1andX isconsideredasnot↵-powerrobust.
+              fragility of X, which resides on the left hand side of the              pow                  
+              distribution.                                                         Note the exponent ↵ – 2 used with the fragility, for
+                We say that f      is b-robust beyond stress level K < ⌦ if         homogeneity reasons, e.g. in the case of stable distribu-
+                                                                                    tions, when a random variable Y = '(X ) depends on
+              V(X , f , K’, s( ))  b for any K’  K. In other words, the                                                             
+              robustness of f   on the half-line (–1, K] is                         another source of risk X .
+                                                                                      Deﬁnition 1: Left-Robustness (monomodal distribu-
+                                                                     0    
+              R         (X ,f,K,s ( ))= max V(X ,f,K,s ( )),                        tion). A payoff y = '(x) is said (a,b)-robust below
+                ( 1,K]                          K06K             
+                                                                            (24)    L = '(K) for a source of randomness X with pdf
+              so that b-robustness simply means                                     f  assumed monomodal if, letting g  be the pdf of
+                                                                                    Y ='(X), one has,for any K0  K and L = '(K):
+                                                       
+                             R         (X ,f,K,s ( ))6b
+                               ( 1,K]          
+                Wealso deﬁne b-robustness over a given interval [K1, K2]                            0                            0         
+                                                                                      V    Y,g ,L,s( ) 6aV X,f ,K,s( ) +b (27)
+              by the same inequality being valid for any K’ 2 [K , K ].                X                                     
+                                                                         1    2
+              In this case we use                                                     The quantity b is of order deemed of “negligible
+                                                                                    utility” (subjectively), that is, does not exceed some
+                                         
+                R         (X ,f,K,s ( ))=
+                  [K1,K2]                                                           tolerance level in relation with the context, while a is
+                                                               0                    a scaling parameter between variables X and Y.
+                                        max      V(X ,f,K,s( )). (25)
+                                     K 6K06K               
+                                      1        2                                      Notethatrobustness is in effect impervious to changes
+                Note that the lower R, the tighter the control and the              of probability distributions. Also note that this measure
+              more robust the distribution f .                                      robustness ignores ﬁrst order variations since owing to
+                 Onceagain,thedeﬁnitionofb-robustnesscanbetrans-                    their higher frequency, these are detected (and remedied)
+                                                                   –
+              posed, using ﬁnite differences V(X , f , K’, s ( ),  s).              very early on.
+                 In practical situations, setting a material upper bound
+              b to the fragility is particularly important: one need to             REFERENCES
+              be able to come with actual estimates of the impact
+              of the error on the estimate of the left-semi-deviation.              [1] R. Horton, “Vioxx, the implosion of merck, and aftershocks at the
+              However, when dealing with certain class of models,                       {FDA},” The Lancet, vol. 364, no. 9450, pp. 1995 – 1996, 2004.
+              such as Gaussian, exponential of stable distributions,                [2] J. H. Kim and A. R. Scialli, “Thalidomide: the tragedy of birth de-
+              we may be lead to consider asymptotic deﬁnitions of                       fects and the effective treatment of disease,” Toxicological Sciences,
+                                                                                        vol. 122, no. 1, pp. 1–6, 2011.
+              robustness, related to certain classes.                               [3] A. P. Fishman, “Aminorex to fen/phen an epidemic foretold,”
+                   For instance, for a given decay exponent a > 0,                      Circulation, vol. 99, no. 1, pp. 156–161, 1999.
+                                               ax                                   [4] A. L. Herbst, H. Ulfelder, and D. C. Poskanzer, “Adenocarcinoma
+              assuming that f (x)=O(e ) when x ! –1, the a-                             of the vagina,” New England Journal of Medicine, vol. 284,
+              exponential asymptotic robustness of X  below the level                   no. 16, pp. 878–881, 1971, pMID: 5549830. [Online]. Available:
+              K is:                                                                     http://www.nejm.org/doi/full/10.1056/NEJM197104222841604
+                                                                                    [5] C. D. Furberg and B. Pitt, “Withdrawal of cerivastatin from the
+                                                                                        world market,” Curr Control Trials Cardiovasc Med, vol. 2, no. 5,
+                R (X ,f,K,s( ),a)                                                       pp. 205–7, 2001.
+                  exp               ⇣                                   ⌘
+                                       a(⌦ K0)                0                     [6] R. P. Feldman and J. T. Goodrich, “Psychosurgery: a historical
+                           = max e              V(X ,f,K,s( ))              (26)        overview,” Neurosurgery, vol. 48, no. 3, pp. 647–659, 2001.
+                              K06K                        
+                                                                                    [7] P.  B. Watkins and R. W. Whitcomb, “Hepatic dysfunction
+              If  one of the two quantities ea(⌦ K0)f (K0) or                           associated with troglitazone,” New England Journal of Medicine, vol.
+                                                                                        338, no. 13, pp. 916–917, 1998, pMID: 9518284. [Online]. Available:
+               a(⌦ K0)                0   
+              e         V(X ,f,K,s( ))isnotboundedfromabove                             http://www.nejm.org/doi/full/10.1056/NEJM199803263381314
+                                  
+                EXTREMERISKINITIATIVE—NYUSCHOOLOFENGINEERINGWORKINGPAPERSERIES                                                                                                      24
+                [8]   W.    RL,    C.    Y,   F.   JP,   and    G.    RA,     “Mechanism       of
+                      the   cardiotoxic    actions    of   terfenadine,”    JAMA, vol. 269,
+                      no.    12,    pp.    1532–1536,      1993.    [Online].    Available:     +
+                      http://dx.doi.org/10.1001/jama.1993.03500120070028
+                [9]   W. N. Kernan, C. M. Viscoli, L. M. Brass, J. P. Broderick, T. Brott,
+                      E. Feldmann, L. B. Morgenstern, J. L. Wilterdink, and R. I. Hor-
+                      witz, “Phenylpropanolamine and the risk of hemorrhagic stroke,”
+                      New England Journal of Medicine, vol. 343, no. 25, pp. 1826–1832,
+                      2000.
+                [10] J. T. James, “A new, evidence-based estimate of patient harms
+                      associated with hospital care,” Journal of patient safety, vol. 9, no. 3,
+                      pp. 122–128, 2013.
+                [11] J. Davies and D. Davies, “Origins and evolution of antibiotic
+                      resistance,” Microbiology and Molecular Biology Reviews, vol. 74,
+                      no. 3, pp. 417–433, 2010.
+                [12] D. Fergusson, S. Doucette, K. C. Glass, S. Shapiro, D. Healy,
+                      P. Hebert, and B. Hutton, “Association between suicide attempts
+                      and selective serotonin reuptake inhibitors: systematic review of
+                      randomisedcontrolled trials,” Bmj, vol. 330, no. 7488, p. 396, 2005.
+                [13] D. S. Echt, P. R. Liebson, L. B. Mitchell, R. W. Peters, D. Obias-
+                      Manno, A. H. Barker, D. Arensberg, A. Baker, L. Friedman, H. L.
+                      Greene et al., “Mortality and morbidity in patients receiving en-
+                      cainide, ﬂecainide, or placebo: the cardiac arrhythmia suppression
+                      trial,” New England Journal of Medicine, vol. 324, no. 12, pp. 781–
+                      788, 1991.
+                [14] A. M. Larson, J. Polson, R. J. Fontana, T. J. Davern, E. Lalani, L. S.
+                      Hynan, J. S. Reisch, F. V. Schiødt, G. Ostapowicz, A. O. Shakil
+                      et al., “Acetaminophen-induced acute liver failure: results of a
+                      united states multicenter, prospective study,” Hepatology, vol. 42,
+                      no. 6, pp. 1364–1372, 2005.
+                [15] R. T. Participants, “Coronary angioplasty versus coronary artery
+                      bypass surgery: the randomised intervention treatment of angina
+                      (rita) trial,” The Lancet, vol. 341, no. 8845, pp. 573–580, 1993.
+                [16] K. P. Morgan, “Women and the knife: Cosmetic surgery and the
+                      colonization of women’s bodies,” Hypatia, vol. 6, no. 3, pp. 25–53,
+                      1991.
+                [17] G. A. Rook, C. A. Lowry, and C. L. Raison, Evolution, Medicine,
+                      and Public Health, vol. 2013, no. 1, pp. 46–64, 2013.
+                [18] I. F. Wallace, N. D. Berkman, K. N. Lohr, M. F. Harrison, A. J.
+                      Kimple, and M. J. Steiner, “Surgical treatments for otitis media
+                      with effusion: A systematic review,” Pediatrics, pp. peds–2013,
+                      2014.
+                [19] J. L. Teugels, “The class of subexponential distributions,” The
+                      Annals of Probability, vol. 3, no. 6, pp. 1000–1011, 1975.
+                [20] E. Pitman, “Subexponential distribution functions,” J. Austral.
+                      Math. Soc. Ser. A, vol. 29, no. 3, pp. 337–347, 1980.
+                [21] V. Chistyakov, “A theorem on sums of independent positive
+                      random variables and its applications to branching random pro-
+                      cesses,” Theory of Probability & Its Applications, vol. 9, no. 4, pp.
+                      640–648, 1964.
+                [22] P. Embrechts, C. M. Goldie, and N. Veraverbeke, “Subexponential-
+                      ity and inﬁnite divisibility,” Probability Theory and Related Fields,
+                      vol. 49, no. 3, pp. 335–347, 1979.
+                [23] B. Kuo, Automatic Control Systems.         Prentice Hall, 1982.
+                [24] C. W. Gardiner, Stochastic Methods.         Springer Berlin/Heidelberg,
+                      1985.
+                [25] E. A. Guggenheim, Thermodynamics—An advanced treatment for
+                      chemists and physicists.    North-Holand, 1985.
+                [26] N. N. Taleb and R. Douady, “Mathematical deﬁnition, mapping,
+                      and detection of (anti) fragility,” Quantitative Finance, 2013.
+                                                                                                                                  1
+                         Precaution and GMOs: an Algorithmic
+                                             Complexity Approach
+                                                      †                   †                               ⇤
+                                   Yaneer Bar-Yam , Joseph Norman ,and Nassim Nicholas Taleb
+                                                †NewEnglandComplexSystemsInstitute,
+                                                         ⇤Real World Risk Institute
+                                                                      F
+              SUMMARY: This is a supplement to our Precaution-           to the absence of boundaries of GMO use in human
+            ary Principle paper presenting the problem from the          consumption or ecological systems globally.
+            perspective of Computational/Algorithmic Complexity,
+            whichcanclarify the risks of GMOs. The point is that—        Boundednessofconventionalbreeding
+            in additional to the change in risk classes—the difference   Counter to the idea that GMOs are similar to natural
+            between conventional breeding and transgenics may            evolution or breeding, the viability and other qualities
+            changethecomplexityclassassociatedwiththeproblem             of offspring from the mating of two members of the
+            of harm evaluation.                                          same species implies the range of outcomes of breeding
+                                                                         is bounded. Offspring that arise within a species must
+            OurPPapproach                                                have high probability of long term compatibility with
+                                                                         other members of the species and contextual ecology.
+            Our analysis of the risk of GMOs in the preliminary          Otherwise the species and the ecosystem of which it is
+            version of the PP paper [1] was probabilistic, based upon    part would not have persisted over many generations.
+            the conjunction of three problems                            The same statement need not be true of GMOs.
+              • the opacity of tail risks: the difﬁculty of obtaining in-  Indeed the reason that GMOs are being introduced
+                formation now about potential deferred future harm       is that (1) GMOs depart signiﬁcantly from the set of
+                to health or the environment                             organisms that can arise through breeding, (2) Many
+              • the systemic consequences of fat tailed events in        of the advantages of breeding have been explored and
+                GMO risks that are not present in conventional           exploited.
+                breeding and agricultural technology innovation—           Unfortunately, the FDA does not require testing of
+                the difference lies in the absence of passive barriers   GMOs as it has accepted industry claims that GMOs
+                or reactive circuit-breakers (a term also used in mar-   are no different from conventional breeding. This means
+                ket regulation) that limit the propagations of errors    there are few, and surely insufﬁcient, tests of the harm
+                for GMOs to prevent wider damage.                        that might be caused—or monitoring of the effects.
+              • that measures of harm scale nonlinearly with mea-          Some believe—and have convinced others—that they
+                sures of impact, e.g., a reduction of 10% in crop        can "ﬁgure out" what the effect of GMO modiﬁcations
+                production or genetic diversity can multiply the         is and consider that unintended consequences will not
+                harm to social systems or ecologies by orders of         occur. This is a stretch: "Figuring out" the impact of GMO
+                magnitude.                                               modiﬁcations may very well not be possible. We do not
+              Theproblemofidentifyingtheharmanalyticallyarises           mean unlikely due to current computational restrictions
+            because of the many ways that, e.g., insertion of a gene     and the state of science, but literally impossible.
+            fromanotherspecies, can affect molecular, cellular, phys-    NPcomputationallimits and impossibility
+            iological, and other organismal aspects of the organism,
+            and those modiﬁcations may impact long term health or        There are many problems that are intractable because
+            agricultural and ecological systems—impacts that may         the level of effort to solve them grows rapidly with the
+            be unobserved due to the complexity of societal changes      dimensionoftheproblem.Thus,forexample,itiswidely
+            in the absence of monitoring. Unintended effects arise       believed by mathematicians that NP-complete problems
+            fromthemanyinteractionsthatarepossible,andincreas-           (e.g. traveling salesman problem, boolean satisﬁability
+            ing global connectivity that converts local to systemic      problem) cannot be solved for large enough problems
+            risks. The ecosystem and civilization are at risk due        because the level of effort grows more than polynomially
+                                                                                                                              2
+           in the size of the system. We may check a solution if we   tal impact of breeding suggests a much lower if not
+           know it in polynomial time but cannot guarantee that       well characterized computational effort to determine it.
+           wecanderive it. Whether NP-complete or not, there is a     Therefore outcomes of breeding are more amenable to
+           wide range of problems whose computation time grows        testing or analysis in comparison to GMOs, including
+           exponentially.                                             the projection of future harm.
+              These problems—those exponential rather than poly-         Advancedcomplexsystemssciencemethodologiesex-
+           nomial growth—are deemed impossible to solve for           ist that can identify large scale impacts without char-
+           large systems.                                             acterizing all details of a system [3]. However their
+              Is the determination of harm from GMOs such a           application to the system of harm and risk in the context
+           “hard" problem? Identifying all of the possible conse-     of genetic modiﬁcation that is pervasively present in the
+           quences of GMO modiﬁcations may very well involve          system has to be established, and is not yet available to
+           combinatorially many effects to consider in the interac-   address the current risks being taken.
+           tion of one (or more) new genes with the other genes,
+           other organisms, agricultural and ecological processes.    REFERENCES
+           (The need for combinatorial numbers of observations        [1] N. N. Taleb, R. Read, R. Douady, J. Norman, and Y. Bar-Yam, “The
+           for behavioral characterizations of such complex systems       precautionary principle (with application to the genetic modiﬁca-
+           has been previously discussed [2].) On the other hand,         tion of organisms),” arXiv preprint arXiv:1410.5787, 2014.
+           the limitations that exist on the traits of members of     [2] Y. Bar-Yam, “The limits of phenomenology: From behaviorism to
+           the same species suggest that the probability of harm          drug testing and engineering design,” Complexity, 2015.
+           in breeding is constrained, and the generally incremen-    [3] Y. Bar-Yam and M. Bialik, “Beyond big data: Identifying important
+                                                                          information for real world challenges,” ArXiv, 2013.

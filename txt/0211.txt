@@ -1,0 +1,165 @@
+      Manage E-invoice 
+      User Guide
+      Learn how to View, Edit, Delete, Copy and Print E-Invoices at Vendors@Gov. 
+       Agenda
+       Click on the topics to learn more about:
+             1 E-Invoice Status at Vendors@Gov
+                2 View/ Edit E-Invoice
+                3 Delete E-Invoice
+                4 Copy E-Invoice
+             5 Print E-Invoice
+     2
+                                                                                                                Click here for more topics.
+                 1. E-Invoice Status
+                 Status        Description
+                 Draft         E-Invoices that are saved as ‘Draft’ are not submittedto your client agency.
+                               NOTE: To submit the draft e-Invoice, please edit the e-invoice and click on ‘Submit’ instead of ‘Save as
+                               Draft’. For more information, please refer to ‘Edit E-invoice User Guide’.
+                 Submitted     TheE-Invoiceis successfully submitted.
+                 Processing    TheE-Invoiceis extracted to your client agency’s financial system for processing.
+                               NOTE: As there are some Statutory Boards (SBs) that do not provide status update to Vendors@Gov portal,
+                               the E-Invoice status will remain as ‘Processing’ even after the E-Invoice is paid or rejected at your client
+                               agency’s financial system.
+                               AsE-Invoices submitted at the Vendors@Gov portal are processed by your client agency, you should contact
+                               the liaison officer at your client agency to check on your e-invoice status if you do not receive the payment
+                               after the payment schedule date¹.
+                 Approved/     TheE-Invoicehasbeenapprovedbyyourclientagency.
+                 Certified
+                               NOTE:Thepaymentshouldbemadetoyouonthepaymentscheduledate¹.
+                 ¹ The paymentscheduledateiscalculatedbasedonthepaymenttermyouhaveselectedforyourE-Invoice.
+                 Example: If your e-invoice payment term is 30 days and the E-Invoice date is 1st July, your E-Invoice payment schedule date will be on
+            3      st
+                 31 July.
+                                                                                                                Click here for more topics.
+                 1. E-Invoice Status
+                 Status        Description
+                 Paid          The E-Invoice has been paid.
+                               NOTE: E-Invoice paid status will be interfaced to Vendors@Gov portal 2 working days before the actual 
+                               payment date. 
+                               Vendors who have registered an EFT bank account will receive the payment on the actual payment date 
+                               before midnight. To check your e-invoice payment date, you may generate the remittance advice at 
+                               Vendors@Govportal. Pleaserefer to ‘View and Print Remittance Advice’ User Guide.
+                 Rejected      The E-Invoice has been rejected.
+                               NOTE: Please contact the liaison officer at your client agency if you need further clarification on your e-
+                               invoice rejection reason. 
+                               •  After your client agency has rejected your e-invoice at their financial system, please allow up to 2 
+                                  working days for e-invoice rejection status to update at the Vendors@Gov portal. You can only edit the 
+                                  rejected e-invoice for resubmission if the status of the e-invoice is shown as “Rejected” at the 
+                                  Vendors@Govportal.
+                               •  Rejected e-invoices re-submission will not be applicable to e-invoices that are submitted to Statutory 
+                                  Boards that do not provide status update to Vendors@Gov portal as the E-Invoice status will remain as 
+                                  ‘Processing’ even after the E-Invoice is paid or rejected at your client agency’s financial system. Please 
+                                  create a new e-Invoice to re-submit the rejected e-invoice.
+                               •  You can only retrieve rejected e-Invoices for e-invoice date that are within 180 days. E-invoice that had 
+                                  passed 180 days will not be retrievable at the Vendors@Gov portal. Please create a new e-Invoice to re-
+                                  submit the rejected e-invoice.
+                 ¹ The paymentscheduledateiscalculatedbasedonthepaymenttermyouhaveselectedforyourE-Invoice.
+            4    Example:If youre-invoice payment term is30daysandtheE-Invoicedateis1st July, yourE-Invoice payment scheduledateshould be on
+                   st
+                 31 July.
+                                                                                                                                                                        Click here for more topics.
+                         2. View/ Edit E-Invoice User Guide
+                         NOTE:  
+                         •   You can view or retrieve E-Invoices with invoice date that is within the past 180 days.
+                         •   E-invoices that had passed 180 days will not be retrievable at the portal.
+                         •   You can edit E-Invoices on the day of submission before 6.30pm, E-Invoices that are saved as ‘Draft’ or E-Invoices status that are ‘Rejected’.
+                         •   E-invoices that are “Processing”, “Certified”, “Approved” or “Paid” are not allowed for edit as it has been extracted to your client agency’s 
+                             financial system for processing or are processed. You are required to approach your client agency to reject the E-Invoice at their financial 
+                             system if the e-invoice details was incorrectly entered.
+                                                                                                                                         Tips: You can filter the e-invoice status
+                                                                                                                                         (Eg: Draft) when searching for the e-
+                                                                                                                                         Invoice.
+                          Step 1 – Login to Vendors@Gov portal. 
+                          For more information on how to login, please refer to ‘Login/ Create New Vendor User Guide’.
+                          Step 2 – Navigate to ‘View e-Invoices & Payments’.
+                          Step 3 – Enter the E-invoice ID.
+                          Step 4 – Click ‘Search’.
+                 5        You should be able to retrieve the e-invoice if it was successfully saved or submitted.
+                                                                                                                                                                        Click here for more topics.
+                         2. View/ Edit E-Invoice User Guide (Continue)
+                         NOTE:  
+                         •   You can view or retrieve E-Invoices with invoice date that is within the past 180 days.
+                         •   E-invoices that had passed 180 days will not be retrievable at the portal.
+                         •   You can edit E-Invoices on the day of submission before 6.30pm, E-Invoices that are saved as ‘Draft’ or E-Invoices status that are ‘Rejected’.
+                         •   E-invoices that are “Processing”, “Certified”, “Approved” or “Paid” are not allowed for edit as it has been extracted to your client agency’s 
+                             financial system for processing or are processed. You are required to approach your client agency to reject the E-Invoice at their financial 
+                             system if the e-invoice details was incorrectly entered.
+                         Step 5 – At the search result, you can view details such as the e-invoice status or e-invoice rejection reason. You may click on 
+                         the transaction to view the full transaction details. 
+                         Step 6 – To edit your e-invoice, please click on the ‘Pencil’ icon.
+                 6
+                                                                                                                                                                        Click here for more topics.
+                         2. View/ Edit E-Invoice User Guide (Continue)
+                         NOTE:  
+                         •   You can edit E-Invoices on the day of submission before 6.30pm, E-Invoices that are saved as ‘Draft’ or E-Invoices status that are ‘Rejected’.
+                         •   E-invoices that are “Processing”, “Certified”, “Approved” or “Paid” are not allowed for edit as it has been extracted to your client agency’s 
+                             financial system for processing or are processed. You are required to approach your client agency to reject the E-Invoice at their financial 
+                             system if the e-invoice details was incorrectly entered.
+                         Step 7 – You will be directed to ‘Edit e-Invoice page’. After editing your E-Invoice information, click on “Submit” to submit your 
+                         E-invoice. Upon successful submission, you will see the following message ‘Your Invoice has been successfully submitted.”.
+                                                                                                          Note: Invoice date must not be backdated
+                                                                                                          for more than 7 days or later than today’s
+                                                                                                          date. If your e-Invoice date had passed 7
+                                                                                                          days, please select the invoice date as of
+                                                                                                          today’s date.
+                 7
+                                                                                                                                                                        Click here for more topics.
+                         3. Delete E-Invoice User Guide
+                         NOTE:
+                         •   You can delete E-Invoices on the day of submission before 6.30pm or E-Invoices that are saved as ‘Draft’. Please note that once the e-invoice is 
+                             deleted it can no longer be retrievable.
+                         •   E-invoices that are “Processing”, “Certified”, “Approved "or “Paid” are not allowed for deletion as it has been extracted to your client agency’s 
+                             financial system for processing or are processed. You are required to approach your client agency to reject your E-Invoice at their payment 
+                             system if the e-invoice details was incorrectly entered.
+                         •   E-invoices status that are “Rejected” are not allowed for deletion. The rejected e-invoice will be removed from the portal after the e-invoice 
+                             date has passed 180 days.
+                                                                                                                                       Tips: You can filter the e-invoice status
+                                                                                                                                       (Eg: Draft) when searching for the e-
+                                                                                                                                       Invoice.
+                         Step 1 – Login to Vendors@Gov portal. 
+                         For more information on how to login, please refer to ‘Login/ Create New Vendor User Guide’.
+                         Step 2 – Navigate to ‘View e-Invoices & Payments’.
+                         Step 3 – Enter the E-invoice ID and Click ‘Search’.
+                 8       Step 4 – Select the E-invoice and click ‘Delete Selected Tax Invoices’ to delete the E-invoice.
+                                                                                                                                                                        Click here for more topics.
+                         4. Copy E-Invoice User Guide
+                         NOTE:
+                         •   You can view or retrieve E-Invoices with invoice date that is within the past 180 days.
+                         •   E-invoices that had passed 180 days will not be retrievable at the portal.
+                                                                                                                                         Tips: You can filter the e-invoice status
+                                                                                                                                         (Eg: Draft) when searching for the e-
+                                                                                                                                         Invoice.
+                         Step 1 – Login to Vendors@Gov portal. 
+                         For more information on how to login, please refer to ‘Login/ Create New Vendor User Guide’.
+                         Step 2 – Navigate to ‘View e-Invoices & Payments’.
+                         Step 3 – Enter the E-invoice ID and Click ‘Search’.
+                 9       Step 4 – Click on the ‘Copy’ icon to copy your e-Invoice.
+                                                                                                                                                                        Click here for more topics.
+                         4. Copy E-Invoice User Guide (Continued)
+                         NOTE:
+                         •   You can view or retrieve E-Invoices with invoice date that is within the past 180 days.
+                         •   E-invoices that had passed 180 days will not be retrievable at the portal.
+                         Step 5 – You will be directed to ‘Copy e-Invoice page’. After editing your E-Invoice information, click on “Submit” to submit your 
+                         E-invoice. Upon successful submission, you will see the following message ‘Your Invoice has been successfully submitted.”.
+                                                                                                         Note: Invoice date must not be backdated
+                                                                                                         for more than 7 days or later than today’s
+                                                                                                         date. If your e-Invoice date had passed 7
+                                                                                                         days, please select the invoice date as of
+                                                                                                         today’s date.
+                10
+                                                                                                                                                                        Click here for more topics.
+                         5. Print E-Invoice User Guide
+                         NOTE:
+                         •   You can view or retrieve E-Invoices with invoice date that is within the past 180 days.
+                         •   E-invoices that had passed 180 days will not be retrievable at the portal.
+                                                                                                                                           Tips: You can filter the e-invoice status
+                                                                                                                                           (Eg: Draft) when searching for the e-
+                                                                                                                                           Invoice.
+                         Step 1 – Login to Vendors@Gov portal.
+                         For more information on how to login, please refer to ‘Login/ Create New Vendor User Guide’.
+                         Step 2 – Navigate to ‘View e-Invoices & Payments’.
+                         Step 3 – Enter the E-invoice ID and Click ‘Search’.
+                11       Step 4 – Select the E-invoice and click ‘Print Selected Tax Invoices’ to print the E-invoice.
+                            - END -
+     12
+                                               Updated on 15 December 2017

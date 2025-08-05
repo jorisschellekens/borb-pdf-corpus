@@ -1,0 +1,215 @@
+                      EXTERNAL GUIDELINE FOR THE APPLICATION OF ARTICLE 62 
+                                                 OF THE BELGIAN BANKING LAW 
+                     
+                     
+                    TYPES OF ACCUMULATION RESTRICTIONS - STRUCTURE OF ARTICLE 62 
+                     
+                    The legal accumulation restrictions, as stated in Article 62 of the Law of 25 April 2014 on the legal 
+                    status and supervision of credit institutions and stockbroking firms (hereinafter the "Banking Law"), 
+                    can be divided into two categories, namely: 
+                         >    qualitative restrictions: see Article 62, §4, §5, first sentence, and §6, first sentence, of the 
+                              Banking Law; 
+                         >    quantitative restrictions: see overarching principle in Article 62, §1, and further elaboration 
+                              in Article 62, §5, second sentence, §6, second sentence, in conjunction with Article 62, §7 
+                              and §9. 
+                    According to Article 62, §3, of the Banking Law, all credit institution are required to develop an 
+                    internal policy on external mandates. This policy may include both qualitative and quantitative 
+                    provisions. 
+                     
+                    With respect to the (mixed) financial holding companies and third country branches, Articles 212 
+                    and 335, 3°, of the Banking Law contain references to the aforementioned Article 62. 
+                     
+                     
+                    SCOPE OF APPLICATION 
+                     
+                    The scope of application varies depending on whether the accumulation restrictions are qualitative 
+                    or quantitative. Quantitative restrictions have a narrower scope of application than qualitative 
+                    restrictions. The scope of each of these two categories will be further elucidated below on the basis 
+                    of the following four criteria: 
+                          1)  Which external mandates? 
+                          2)  Within which entities? 
+                          3)  Exercised by whom? 
+                          4)  Significant or non-significant credit institution or (mixed) financial holding company? 
+                     
+                     
+                    A.      QUALITATIVE RESTRICTIONS 
+                          1)  external mandates as director or manager or participant in administration or policy-making, 
+                              whether or not representing the credit institution or (mixed) financial holding company, 
+                          2)  ... of a commercial company, a company having a commercial form, a company with 
+                              another Belgian or foreign legal form or a Belgian or foreign public institution with industrial, 
+                              commercial or financial activities 
+                                  o  associations fall outside the scope of these restrictions; 
+                                  o  "company" implies a motive of profit 
+                          3)  ... exercised by members of the bodies of the credit institution or (mixed) financial holding 
+                              company and any person who, under whatever name and in whatever capacity, participates 
+                              in the administration or policy-making 
+                          4)  ... regardless of whether the credit institution or the (mixed) financial holding company is 
+                              significant. 
+                                                           
+                      B.       QUANTITATIVE RESTRICTIONS 
+                             1)  external mandates as director or manager or participant in administration or policy-making, 
+                                 whether or not representing the credit institution or (mixed) financial holding company, 
+                             2)  ... in commercial companies ... 
+                             3)  ... exercised by members of the statutory governing body who are not members of the 
+                                 management committee of the credit institution (Article 62, §5, of the Banking Law) and 
+                                 members of the management committee or in the absence of a management committee, 
+                                 the senior management of the credit institution, (mixed) financial holding company or third 
+                                 country branch (Article 62, §6, Article 212 and Article 335, 3° of the Banking Law), except 
+                                 for the mandates representing a Member State, 
+                             4)  ...where the credit institution or the (mixed) financial holding company is significant. 
+                       
+                      Where a director within one and the same group both exercises a mandate in a significant institution 
+                      (credit institution or (mixed) financial holding company) and in a non-significant institution (credit 
+                      institution or (mixed) financial holding company), it may be that an accumulation of external 
+                      mandates is not allowed from the first perspective because of the applicability of the quantitative 
+                      restrictions of Article 62 of the Banking Law, but is allowed from the second perspective because 
+                      the quantitative restrictions do not apply there. In that case, the strictest perspective shall apply to 
+                      this person. 
+                       
+                       
+                      QUALITATIVE RESTRICTIONS 
+                       
+                             x  The company representatives who are appointed on the recommendation of the credit 
+                                  institution, must be members of the management committee of the institution or persons 
+                                  designated by the management committee (Article 62, §4, of the Banking Law). 
+                             x    The members of the statutory governing body who are not members of the management 
+                                  committee of the credit institution can only be a director of a company in which the 
+                                  institution holds a participating interest if they do not participate in the day-to-day 
+                                  management of that company (Article 62, §5, 1st sentence, of the Banking Law). 
+                             x  The members of the management committee or, in the absence of a management 
+                                  committee, the persons participating in the senior management of the credit institution, 
+                                  shall only carry a mandate that implies participation in the day-to-day management of 
+                                  other companies in the limitative cases stated in the Law (Article 62, §6, 1st sentence, of 
+                                  the Banking Law). 
+                      The foregoing also applies to the (mixed) financial holding companies and third country branches 
+                      (Articles 212 and 335, 3°, of the Banking Law). 
+                       
+                      These qualitative restrictions, as they appeared in the former Banking Law of 22 March 1993, were 
+                      further specified in the External Mandates Circular of. 13/11/2006. 
+                       
+                       
+                      QUANTITATIVE RESTRICTIONS 
+                       
+                      A. BASIC RULES 
+                           x   The Banking Law contains two quantitative limits: One executive and two non-executive 
+                                mandates OR 4 non-executive mandates. 
+                           x   However, these limits are not a right. As a prudential supervisor, the NBB may always 
+                                require less mandates, following the principle of time commitment. 
+                           x    All mandates held within the same group count as one. For the concrete interpretation of the 
+                                term "group", see below. 
+                           x   The NBB may, by way of derogation, allow one additional non-executive mandate. Should 
+                                the institution wish to make use of this option, it must submit a documented file to the NBB. 
+                                The NBB will analyse and assess this from the perspective of "time commitment". 
+                            B. CONCEPT OF GROUP & PRIVILEGED COUNTING 
+                             
+                            For the purpose of the quantitative accumulation limits, the exercise of several mandates, whether 
+                            or not involving participation in day-to-day management, in companies that are part of the group to 
+                            which the credit institution belongs or of another group is considered as one single mandate (Article 
+                            62, §9, first paragraph, of the Banking Law). The effect of this rule is simply referred to as 
+                            "privileged counting " here. 
+                                  a) Definition of "group" – starting point and scope 
+                                     x     Article 62, § 9, second paragraph, of the Banking Law contains the definition of "group" for 
+                                           the purposes of Article 62. A “group” is defined as a set of companies that consists of a 
+                                           parent company, its subsidiaries, the companies in which the parent company or its 
+                                           subsidiaries have a direct or indirect holding within the meaning of Article 3, 26°, of this 
+                                           Law, as well as companies forming a consortium and the companies controlled by the 
+                                           latter companies or in which the latter companies have a holding within the meaning of 
+                                           Article 3, 26°, of this Law". 
+                                     x     It can be concluded from the above definition that "group" may designate both a downward 
+                                           constellation (starting from a parent company one looks down to its subsidiaries), and a 
+                                           lateral constellation (in the case of a consortium). Both constellations also include the 
+                                           holdings. 
+                                     x     In the event of a downward constellation, the highest point of departure for the group to 
+                                           which the credit institution itself belongs is the entity that is the starting point of the 
+                                                                                                                     1 1
+                                           prudential consolidated position at EEA-level .  For this, reference can be made to the 
+                                           definitions contained in Article 164, §2, 3°, 4°, 6°, 7°, 9° and 10° of the Banking Law. 
+                                     x     The scope in the event of a downward constellation is based on accounting consolidation. 
+                                           The above definition of "group" after all contains a number of terms which are further 
+                                           defined in Article 3, 26°, of the Banking Law, i.e. the terms "parent company", "subsidiary" 
+                                           and "holding". This article also contains the definition of "control", which is required for the 
+                                           terms "parent company" and "subsidiary". Finally, Article 3, 26°, of the Banking Law also 
+                                           contains the definition of "affiliated companies", leading to the definition of "consortium". 
+                                           There is a further referral to the general company law definitions contained in the 
+                                           implementing decrees of Article 106, §1, of the Banking Law (Royal Decrees of 23 
+                                           September 1992 on the annual accounts and consolidated annual accounts of credit 
+                                           institutions). 
+                                              
+                                  b)     Types of groups that can benefit from privileged counting 
+                                     x  Unlike in the past2, Article 62, §9, first paragraph of the Banking Law refers to all groups, 
+                                           i.e. the group to which the credit institution belongs and other groups 
+                                  c)     Method of counting 
+                                     x     A single mandate that implies participation in the day-to-day management means that all 
+                                           mandates which are exercised in companies or entities that are part of that group, are 
+                                           indeed considered as one single mandate implying participation in the day-to-day 
+                                           management3. In other words, if there is a combination of executive and non-executive 
+                                           mandates, then the executive mandate outweighs the non-executive mandate. After all, an 
+                                           executive mandate involves a greater time commitment. 
+                                     x     It is possible that a director has recourse to several privileged countings from one single 
+                                           perspective (i.e. viewed from one single credit institution). In that case, the various 
+                                           privileged countings are considered separately, and are therefore not further reduced to 
+                                           one mandate. 
+                                   
+                                   
+                                  d)     Application at holding company level 
+                             
+                            1   See explanatory notes to the amendment to Article 62 of 21 March 2014. 
+                            2    Article 62, §9, first paragraph, was amended by the Law of 18 December 2015. Prior to that date, its scope was limited to 
+                                 the group to which the credit institution belongs and "groups a company of which has close links with the credit institution 
+                            3    or its parent company". 
+                                See explanatory notes to the amendment to Article 62 dd. 21 March 2014.  
+                         
+                         x    Article 212 of the Banking Law contains governance provisions that have a direct effect on 
+                             the legal personality of the (mixed) financial holding company. As regards Article 62 of the 
+                             Banking Law, Article 212 refers to: "62, §§1 to 4, §5, first sentence, and §§6 to 9, ...". The 
+                             executive directors of such holding companies, to whom the accumulation restrictions apply 
+                             (as opposed to the non-executive directors to whom the accumulation restrictions do not 
+                             apply), can therefore also benefit from privileged counting if they exercise several mandates 
+                             within the group. 
+                             
+                             
+                    C.     ESTATE PLANNING COMPANIES 
+                             
+                         x    Only mandates in estate planning companies that qualify as commercial companies shall be 
+                             taken into account. This is in line with Article 91, paragraph 5, of CRD IV, which states that 
+                             managerial positions in organizations that do not primarily pursue commercial goals shall 
+                             not be taken into account for applying quantitative accumulation restrictions (“zero 
+                             counting”). The general company law principles apply: qualification as a commercial 
+                             company depends on the object clause in the company's articles of association, analysed in 
+                             light of the acts of commerce as stated in Article 2 of the Commercial Code. Moreover, 
+                             Article 62, §9, last paragraph, of the Banking Law, explicitly refers to the Articles of 
+                             Association. 
+                         x   In this sense, estate planning companies whose purpose is limited to the regular 
+                             management of family assets fall outside the scope of the quantitative accumulation 
+                             restrictions. 
+                         x   Institutions shall request all necessary information from their (prospective) directors so that 
+                             they can verify whether the company where the external mandate is exercised is a 
+                             commercial company. 
+                              
+                              
+                    D.     MANAGEMENT COMPANIES 
+                             
+                         x   Principle of transparency (« look through »): a management company shall not be used to 
+                             circumvent the counting of mandates in respect of a natural person. A mandate within a 
+                             commercial management company must, for example, not be a cover for several mandates 
+                             where the natural person acts as permanent representative of the management company. 
+                         x   For the purposes of the quantitative restrictions of Article 62 of the Banking Law, the NBB 
+                             will take into account all mandates where the natural person acts as permanent 
+                             representative of a management company. 
+                         x   The mandate in the management company itself, on the other hand, does not have to be 
+                             counted, on the condition that the sole purpose of the management company is to exercise 
+                             director mandates, this in order to avoid "double counting" of mandates. 
+                              
+                              
+                    E.     THE EXCEPTION OF ONE ADDITIONAL NON-EXECUTIVE MANDATE 
+                             
+                         x   In individual cases, the supervisory authority may grant a derogation from the maximum 
+                             number of mandates provided for in §§ 5 and 6 of Article 62 of the Banking Law, by allowing 
+                             one additional mandate to be exercised that does not imply participation in the day-to-day 
+                             management (Article 62, §7, of the Banking Law). 
+                         x   The supervisory authority shall inform the European Banking Authority on a regular basis 
+                             about the use it makes of the authority to derogate. 
+                         x   The NBB will allow these derogations by way of exception and only if the institution/the 
+                             person involved can motivate the derogation by making clear that sufficient time is available 
+                             for the exercise of the mandate within the credit institution /the (mixed) financial holding 
+                             company / the third country branch. 

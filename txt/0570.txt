@@ -1,0 +1,711 @@
+                          Finding a needle in Haystack: Facebook’s photo storage
+                                    DougBeaver, Sanjeev Kumar, Harry C. Li, Jason Sobel, Peter Vajgel,
+                                                                      Facebook Inc.
+                                                 {doug, skumar, hcli, jsobel, pv}@facebook.com
+                   Abstract: ThispaperdescribesHaystack,anobjectstor-            and thereby wastes storage capacity. Yet the more sig-
+                   age system optimized for Facebook’s Photos applica-           niﬁcant cost is that the ﬁle’s metadata must be read from
+                   tion. Facebook currently stores over 260 billion images,      disk into memory in order to ﬁnd the ﬁle itself. While
+                   which translates to over 20 petabytes of data. Users up-      insigniﬁcant on a small scale, multiplied over billions
+                   load one billion new photos (∼60 terabytes) each week         of photos and petabytes of data, accessing metadata is
+                   and Facebook serves over one million images per sec-          the throughput bottleneck. We found this to be our key
+                   ond at peak. Haystack provides a less expensive and           problem in using a network attached storage (NAS) ap-
+                   higher performing solution than our previous approach,        pliancemountedoverNFS.Severaldiskoperationswere
+                   which leveraged network attached storage appliances           necessarytoreadasinglephoto: one(ortypicallymore)
+                   over NFS. Our key observation is that this traditional        to translate the ﬁlename to an inode number, another to
+                   design incurs an excessive number of disk operations          read the inode from disk, and a ﬁnal one to read the
+                   because of metadata lookups. We carefully reduce this         ﬁle itself. In short, using disk IOs for metadata was the
+                   per photo metadata so that Haystack storage machines          limiting factor for our read throughput. Observe that in
+                   canperformallmetadatalookupsinmainmemory. This                practice this problem introduces an additional cost as we
+                   choice conserves disk operations for reading actual data      have to rely on content delivery networks (CDNs), such
+                   and thus increases overall throughput.                        as Akamai [2], to serve the majority of read trafﬁc.
+                   1 Introduction                                                   Given the disadvantages of a traditional approach,
+                                                                                 wedesigned Haystack to achieve four main goals:
+                   Sharing photos is one of Facebook’s most popular fea-
+                   tures. To date, users have uploaded over 65 billion pho-      High throughput and low latency. Our photo storage
+                   tos making Facebook the biggest photo sharing website         systems have to keep up with the requests users make.
+                   in the world. For each uploaded photo, Facebook gen-          Requests that exceed our processing capacity are either
+                   erates and stores four images of different sizes, which       ignored, which is unacceptable for user experience, or
+                   translates to over 260 billion images and more than 20        handled by a CDN, which is expensive and reaches a
+                   petabytes of data. Users upload one billion new photos        point of diminishing returns. Moreover, photos should
+                   (∼60 terabytes) each week and Facebook serves over            be served quickly to facilitate a good user experience.
+                   one million images per second at peak. As we expect           Haystack achieves high throughput and low latency
+                   these numbers to increase in the future, photo storage        by requiring at most one disk operation per read. We
+                   poses a signiﬁcant challenge for Facebook’s infrastruc-       accomplish this by keeping all metadata in main mem-
+                   ture.                                                         ory, which we make practical by dramatically reducing
+                     This paper presents the design and implementation           the per photo metadatanecessarytoﬁndaphotoondisk.
+                   of Haystack, Facebook’s photo storage system that has
+                   been in production for the past 24 months. Haystack is        Fault-tolerant. In large scale systems, failures happen
+                   an object store [7, 10, 12, 13, 25, 26] that we designed      everyday. Ourusersrelyontheirphotosbeingavailable
+                   for sharing photos on Facebook where data is written          and should not experience errors despite the inevitable
+                   once, read often, never modiﬁed, and rarely deleted. We       server crashes and hard drive failures. It may happen
+                   engineered our own storage system for photos because          that an entire datacenter loses power or a cross-country
+                   traditional ﬁlesystems perform poorly under our work-         link is severed.   Haystack replicates each photo in
+                   load.                                                         geographically distinct locations. If we lose a machine
+                     In our experience, we ﬁnd that the disadvantages of         weintroduce another one to take its place, copying data
+                   a traditional POSIX [21] based ﬁlesystem are directo-         for redundancy as necessary.
+                   ries and per ﬁle metadata. For the Photos application
+                   most of this metadata, such as permissions, is unused         Cost-effective.  Haystack performs better and is less
+                       expensive than our previous NFS-based approach. We
+                       quantify our savings along two dimensions: Haystack’s                              Web 
+                       cost per terabyte of usable storage and Haystack’s read                           Server                       Photo        Photo         Photo
+                       rate normalized for each terabyte of usable storage1.                                                         Storage      Storage       Storage
+                       In Haystack, each usable terabyte costs ∼28% less
+                       and processes ∼4x more reads per second than an                                  1      2                                             4    5
+                       equivalent terabyte on a NAS appliance.
+                       Simple. In a production environment we cannot over-                                                   3
+                       state the strength of a design that is straight-forward                          Browser                                    CDN
+                       to implement and to maintain. As Haystack is a new                                                    6
+                       system, lacking years of production-level testing, we
+                       paid particular attention to keeping it simple.                 That
+                       simplicity let us build and deploy a working system in a                                        Figure 1: Typical Design
+                       few months instead of a few years.
+                          This work describes our experience with Haystack                          site. Figure 1 depicts the steps from the moment when
+                       from conception to implementation of a production                            a user visits a page containing an image until she down-
+                       quality system serving billions of images a day. Our                         loadsthatimagefromitslocationondisk. Whenvisiting
+                       three main contributions are:                                                a page the user’s browser ﬁrst sends an HTTP request
+                          • Haystack, an object storage system optimized for                        to a web server which is responsible for generating the
+                             the efﬁcient storage and retrieval of billions of pho-                 markup for the browser to render. For each image the
+                             tos.                                                                   web server constructs a URL directing the browser to a
+                                                                                                    location from which to download the data. For popular
+                          • Lessons learned in building and scaling an inex-                        sites this URL often points to a CDN. If the CDN has
+                             pensive, reliable, and available photo storage sys-                    the image cached then the CDN responds immediately
+                             tem.                                                                   with the data. Otherwise, the CDN examines the URL,
+                          • A characterization of the requests made to Face-                        which has enough information embedded to retrieve the
+                             book’s photo sharing application.                                      photo from the site’s storage systems. The CDN then
+                                                                                                    updatesits cached data and sends the image to the user’s
+                          We organize the remainder of this paper as fol-                           browser.
+                       lows.    Section 2 provides background and highlights                        2.2     NFS-basedDesign
+                       the challenges in our previous architecture.                We de-
+                       scribe Haystack’s design and implementation in Sec-                          In our ﬁrst design we implemented the photo storage
+                       tion 3. Section 4 characterizes our photo read and write                     system using an NFS-based approach. While the rest
+                       workloadanddemonstratesthatHaystackmeetsourde-                               of this subsection provides more detail on that design,
+                       signgoals. WedrawcomparisonstorelatedworkinSec-                              the major lesson we learned is that CDNs by themselves
+                       tion 5 and conclude this paper in Section 6.                                 do not offer a practical solution to serving photos on a
+                       2 Background&PreviousDesign                                                  social networking site. CDNs do effectively serve the
+                                                                                                    hottest photos— proﬁle pictures and photos that have
+                       In this section, we describe the architecture that ex-                       been recently uploaded—but a social networking site
+                       isted before Haystack and highlight the major lessons                        like Facebook also generates a large number of requests
+                       we learned. Because of space constraints our discus-                         for less popular (often older) content, which we refer to
+                       sion of this previous design elides several details of a                     asthelongtail. Requestsfromthelongtailaccountfora
+                       production-level deployment.                                                 signiﬁcant amount of our trafﬁc, almost all of which ac-
+                       2.1     Background                                                           cesses the backing photo storage hosts as these requests
+                                                                                                    typically miss in the CDN. While it would be very con-
+                       We begin with a brief overview of the typical design                         venient to cache all of the photos for this long tail, doing
+                       for howwebservers,contentdeliverynetworks(CDNs),                             so would not be cost effective because of the very large
+                       andstoragesystemsinteracttoservephotosonapopular                             cache sizes required.
+                          1The term ‘usable’ takes into account capacity consumed by fac-              Our NFS-based design stores each photo in its own
+                       tors such as RAID level, replication, and the underlying ﬁlesystem           ﬁle on a set of commercial NAS appliances. A set of
+                                                                                         One could argue that an approach in which all ﬁle han-
+                          Web                                                            dles are stored in memcache might be a workable solu-
+                         Server                  NAS          NAS           NAS          tion. However, that only addresses part of the problem
+                                                                                         as it relies on the NAS appliance having all of its in-
+                                                                                         odes in main memory, an expensive requirement for tra-
+                                                               NFS       6    5          ditional ﬁlesystems. The major lesson we learned from
+                                                                                         the NAS approach is that focusing only on caching—
+                                                  Photo Store       Photo Store          whether the NAS appliance’s cache or an external cache
+                         1     2                    Server            Server             like memcache—has limited impact for reducing disk
+                                                                                         operations. The storage system ends up processing the
+                                                                    7    4               long tail of requests for less popular photos, which are
+                                                                                         not available in the CDN and are thus likely to miss in
+                                           3                                             our caches.
+                        Browser                                CDN                       2.3    Discussion
+                                           8                                             It would be difﬁcult for us to offer precise guidelines
+                                                                                         for when or when not to build a custom storage system.
+                                                                                         However, we believe it still helpful for the community
+                                   Figure 2: NFS-based Design                            to gain insight into why we decided to build Haystack.
+                                                                                            Faced with the bottlenecks in our NFS-based design,
+                                                                                         we explored whether it would be useful to build a sys-
+                     machines, Photo Store servers, then mount all the vol-              tem similar to GFS [9]. Since we store most of our user
+                     umesexported by these NAS appliances over NFS. Fig-                 data in MySQL databases, the main use cases for ﬁles
+                     ure 2 illustrates this architecture and shows Photo Store           in our system were the directories engineers use for de-
+                     servers processing HTTP requests for images. From an                velopment work, log data, and photos. NAS appliances
+                     image’s URL a Photo Store server extracts the volume                offer a very good price/performance point for develop-
+                     and full path to the ﬁle, reads the data over NFS, and              ment work and for log data. Furthermore, we leverage
+                     returns the result to the CDN.                                      Hadoop [11] for the extremely large log data. Serving
+                       Weinitially stored thousands of ﬁles in each directory            photo requests in the long tail represents a problem for
+                     of an NFS volume which led to an excessive number of                whichneitherMySQL,NASappliances,norHadoopare
+                     disk operations to read even a single image. Because                well-suited.
+                     of how the NAS appliances manage directory metadata,                   One could phrase the dilemma we faced as exist-
+                     placing thousands of ﬁles in a directory was extremely              ing storage systems lacked the right RAM-to-disk ra-
+                     inefﬁcient as the directory’s blockmap was too large to             tio. However, there is no right ratio. The system just
+                     be cached effectively by the appliance. Consequently                needs enough main memory so that all of the ﬁlesystem
+                     it was common to incur more than 10 disk operations to              metadata can be cached at once. In our NAS-based ap-
+                     retrieve a single image. After reducing directory sizes to          proach, one photo corresponds to one ﬁle and each ﬁle
+                     hundreds of images per directory, the resulting system              requires at least one inode, which is hundreds of bytes
+                     would still generally incur 3 disk operations to fetch an           large. Having enough main memory in this approach is
+                     image: one to read the directory metadata into memory,              notcost-effective. Toachieveabetterprice/performance
+                     a second to load the inode into memory, and a third to              point, we decided to build a custom storage system that
+                     read the ﬁle contents.                                              reduces the amount of ﬁlesystem metadata per photo so
+                       To further reduce disk operations we let the Photo                that having enough main memory is dramatically more
+                     Store servers explicitly cache ﬁle handles returned by              cost-effective than buying more NAS appliances.
+                     the NAS appliances. When reading a ﬁle for the ﬁrst                 3 Design&Implementation
+                     time a Photo Store server opens a ﬁle normally but also
+                     caches the ﬁlename to ﬁle handle mapping in mem-                    Facebook uses a CDN to serve popular images and
+                     cache [18]. When requesting a ﬁle whose ﬁle handle                  leverages Haystack to respond to photo requests in the
+                     is cached, a Photo Store server opens the ﬁle directly              long tail efﬁciently. When a web site has an I/O bot-
+                     using a custom system call, open by filehandle, that                tleneck serving static content the traditional solution is
+                     we added to the kernel. Regrettably, this ﬁle handle                to use a CDN. The CDN shoulders enough of the bur-
+                     cache provides only a minor improvement as less pop-                densothatthestoragesystemcanprocesstheremaining
+                     ular photos are less likely to be cached to begin with.             tail. At Facebook a CDN would have to cache an unrea-
+                    sonably large amount of the static content in order for
+                    traditional (and inexpensive) storage approaches not to                 Haystack            Haystack
+                    be I/O bound.                                                           Directory             Store
+                       UnderstandingthatinthenearfutureCDNswouldnot
+                    fully solve our problems, we designed Haystack to ad-                     2   3
+                    dress the critical bottleneck in our NFS-based approach:                                                        7   8
+                    disk operations. We accept that requests for less popu-
+                    lar photos may require disk operations, but aim to limit                  Web                    Haystack
+                    the number of such operations to only the ones neces-                    Server                   Cache
+                    sary for reading actual photo data. Haystack achieves
+                    this goal by dramatically reducing the memory used for                                      ct                  6   9
+                    ﬁlesystem metadata, thereby making it practical to keep                  1   4           dire
+                    all this metadata in main memory.
+                       Recall that storing a single photo per ﬁle resulted                                     5
+                    in more ﬁlesystem metadata than could be reasonably                     Browser           10                 CDN
+                    cached.    Haystack takes a straight-forward approach:
+                    it stores multiple photos in a single ﬁle and therefore
+                    maintains very large ﬁles. We show that this straight-
+                    forwardapproachisremarkablyeffective. Moreover,we                                  Figure 3: Serving a photo
+                    argue that its simplicity is its strength, facilitating rapid
+                    implementation and deployment. We now discuss how
+                    this core technique and the architectural components                 Figure 3 illustrates how the Store, Directory, and
+                    surrounding it provide a reliable and available storage            Cachecomponentsﬁtintothecanonicalinteractionsbe-
+                    system. In the following description of Haystack, we               tween a user’s browser, web server, CDN, and storage
+                    distinguish between two kinds of metadata. Applica-                system. In the Haystack architecture the browser can be
+                    tion metadata describes the information needed to con-             directed to either the CDN or the Cache. Note that while
+                    struct a URL that a browser can use to retrieve a photo.           the Cache is essentially a CDN, to avoid confusion we
+                    Filesystem metadata identiﬁes the data necessary for a             use ‘CDN’ to refer to external systems and ‘Cache’ to
+                    host to retrieve the photos that reside on that host’s disk.       refer to our internal one that caches photos. Having an
+                    3.1    Overview                                                    internal caching infrastructure gives us the ability to re-
+                                                                                       duce our dependence on external CDNs.
+                    The Haystack architecture consists of 3 core compo-                  Whenauservisits a page the web server uses the Di-
+                    nents:   the Haystack Store, Haystack Directory, and               rectory to construct a URL for each photo. The URL
+                    Haystack Cache. For brevity we refer to these com-                 contains several pieces of information, each piece cor-
+                    ponents with ‘Haystack’ elided.       The Store encapsu-           responding to the sequence of steps from when a user’s
+                    lates the persistent storage system for photos and is the          browser contacts the CDN (or Cache) to ultimately re-
+                    only component that manages the ﬁlesystem metadata                 trieving a photo from a machine in the Store. A typical
+                    for photos. We organize the Store’s capacity by phys-              URLthat directs the browser to the CDN looks like the
+                    ical volumes. For example, we can organize a server’s              following:
+                    10terabytes of capacity into 100 physical volumes each
+                    of which provides 100 gigabytes of storage. We further                http://hCDNi/hCachei/hMachine idi/hLogical volume, Photoi
+                    groupphysical volumes on different machines into logi-
+                    cal volumes. When Haystack stores a photo on a logical               The ﬁrst part of the URL speciﬁes from which CDN
+                    volume, the photo is written to all corresponding physi-           to request the photo. The CDN can lookup the photo
+                    cal volumes. This redundancy allows us to mitigate data            internally using only the last part of the URL: the logical
+                    loss due to hard drive failures, disk controller bugs, etc.        volume and the photo id. If the CDN cannot locate the
+                    TheDirectorymaintainsthelogicaltophysicalmapping                   photo then it strips the CDN address from the URL and
+                    along with other application metadata, such as the log-            contacts the Cache. The Cache does a similar lookup to
+                    ical volume where each photo resides and the logical               ﬁnd the photo and, on a miss, strips the Cache address
+                    volumeswithfreespace. TheCachefunctionsasourin-                    fromtheURLandrequeststhephotofromthespeciﬁed
+                    ternal CDN, which shelters the Store from requests for             Store machine. Photo requests that go directly to the
+                    the most popular photos and provides insulation if up-             Cache have a similar workﬂow except that the URL is
+                    stream CDNnodesfail and need to refetch content.                   missing the CDN speciﬁc information.
+                                                                                  to reduce latency. In the event that we lose the data on
+                        Haystack           Haystack                               a Store machine we remove the corresponding entry in
+                        Directory            Store                                the mapping and replace it when a new Store machine is
+                                                                                  brought online.
+                          2  3                                                    3.3    Haystack Cache
+                                                                                  The Cache receives HTTP requests for photos from
+                          Web         4                                           CDNs and also directly from users’ browsers. We or-
+                         Server                                                   ganize the Cache as a distributed hash table and use a
+                                                                                  photo’s id as the key to locate cached data. If the Cache
+                                                                                  cannot immediately respond to the request, then the
+                         1   5                                                    Cache fetches the photo from the Store machine iden-
+                                                                                  tiﬁed in the URL and replies to either the CDN or the
+                                                                                  user’s browser as appropriate.
+                        Browser                                                      We now highlight an important behavioral aspect of
+                                                                                  the Cache. It caches a photo only if two conditions
+                                                                                  are met: (a) the request comes directly from a user and
+                                 Figure 4: Uploading a photo                      not the CDN and (b) the photo is fetched from a write-
+                                                                                  enabled Store machine. The justiﬁcation for the ﬁrst
+                                                                                  condition is that our experience with the NFS-based de-
+                      Figure 4 illustrates the upload path in Haystack.           sign showed post-CDN caching is ineffective as it is un-
+                   Whenauseruploadsaphotosheﬁrstsendsthedatatoa                   likely that a request that misses in the CDN would hit in
+                   web server. Next, that server requests a write-enabled         our internal cache. The reasoning for the second is in-
+                   logical volume from the Directory. Finally, the web            direct. We use the Cache to shelter write-enabled Store
+                   server assigns a unique id to the photo and uploads it         machines from reads because of two interesting proper-
+                   to each of the physical volumes mapped to the assigned         ties: photos are most heavily accessed soon after they
+                   logical volume.                                                are uploaded and ﬁlesystems for our workload gener-
+                   3.2    Haystack Directory                                      ally perform better when doing either reads or writes
+                                                                                  but not both (Section 4.1). Thus the write-enabled Store
+                   The Directory serves four main functions. First, it pro-       machines would see the most reads if it were not for
+                   vides a mapping from logical volumes to physical vol-          the Cache. Given this characteristic, an optimization we
+                   umes. Web servers use this mapping when uploading              plan to implement is to proactively push recently up-
+                   photos and also when constructing the image URLs for           loaded photos into the Cache as we expect those photos
+                   a page request. Second, the Directory load balances            to be read soon and often.
+                   writes across logical volumes and reads across physi-          3.4    Haystack Store
+                   cal volumes. Third, the Directory determines whether
+                   a photo request should be handled by the CDN or by             The interface to Store machines is intentionally basic.
+                   the Cache. This functionality lets us adjust our depen-        Reads make very speciﬁc and well-contained requests
+                   dence on CDNs. Fourth, the Directory identiﬁes those           asking for a photo with a given id, for a certain logical
+                   logical volumes that are read-only either because of op-       volume, and from a particular physical Store machine.
+                   erationalreasonsorbecausethosevolumeshavereached               Themachinereturns the photo if it is found. Otherwise,
+                   their storage capacity. We mark volumes as read-only at        the machine returns an error.
+                   the granularity of machines for operational ease.                 Each Store machine manages multiple physical vol-
+                      WhenweincreasethecapacityoftheStorebyadding                 umes.    Each volume holds millions of photos.        For
+                   new machines, those machines are write-enabled; only           concreteness, the reader can think of a physical vol-
+                   write-enabled machines receive uploads. Over time the          ume as simply a very large ﬁle (100 GB) saved as
+                   available capacity on these machines decreases. When a         ‘/hay/haystack <logical volume id>’. A Store machine
+                   machine exhausts its capacity, we mark it as read-only.        can access a photo quickly using only the id of the cor-
+                   In the next subsection we discuss how this distinction         responding logical volume and the ﬁle offset at which
+                   has subtle consequences for the Cache and Store.               the photo resides. This knowledge is the keystone of
+                      TheDirectory is a relatively straight-forward compo-        the Haystack design: retrieving the ﬁlename, offset, and
+                   nent that stores its information in a replicated database      size for a particular photo without needing disk opera-
+                   accessed via a PHP interface that leverages memcache           tions. A Store machine keeps open ﬁle descriptors for
+                                                                       Header Magic Number              bytes, and volume offset. After a crash, a Store machine
+                             Superblock                                        Cookie                   can reconstruct this mapping directly from the volume
+                              Needle 1                                           Key                    ﬁle before processing requests. We now describe how
+                                                                            Alternate Key               a Store machine maintains its volumes and in-memory
+                                                                                Flags                   mapping while responding to read, write, and delete re-
+                              Needle 2                                           Size                   quests (the only operations supported by the Store).
+                                                                                                        3.4.1    PhotoRead
+                              Needle 3                                          Data                    WhenaCachemachinerequests a photo it supplies the
+                                                                                                        logical volume id, key, alternate key, and cookie to the
+                                                                        Footer Magic Number             Store machine. The cookie is a number embedded in
+                                                                           Data Checksum                the URL for a photo. The cookie’s value is randomly
+                                  .                                            Padding                  assigned by and stored in the Directory at the time that
+                                  .                                                                     the photo is uploaded. The cookie effectively eliminates
+                                  .                                                                     attacks aimed at guessing valid URLs for photos.
+                                   Figure 5: Layout of Haystack Store ﬁle                                  WhenaStoremachinereceivesaphotorequestfroma
+                                                                                                        Cachemachine,theStoremachinelooksuptherelevant
+                          Field                   Explanation                                           metadata in its in-memory mappings. If the photo has
+                          Header                  Magicnumberusedforrecovery                            not been deleted the Store machine seeks to the appro-
+                          Cookie                  Randomnumbertomitigate                                priate offset in the volume ﬁle, reads the entire needle
+                                                  brute force lookups                                   from disk (whose size it can calculate ahead of time),
+                          Key                     64-bit photo id                                       and veriﬁes the cookie and the integrity of the data. If
+                          Alternate key           32-bit supplemental id                                these checks pass then the Store machine returns the
+                          Flags                   Signiﬁes deleted status                               photo to the Cache machine.
+                          Size                    Data size                                             3.4.2    PhotoWrite
+                          Data                    Theactual photo data                                  WhenuploadingaphotointoHaystackwebserverspro-
+                          Footer                  Magicnumberforrecovery                                vide the logical volume id, key, alternate key, cookie,
+                          Data Checksum           Usedtocheckintegrity                                  and data to Store machines.                  Each machine syn-
+                          Padding                 Total needle size is aligned to 8 bytes               chronously appends needle images to its physical vol-
+                                                                                                        ume ﬁles and updates in-memory mappings as needed.
+                                 Table 1: Explanation of ﬁelds in a needle                              While simple, this append-only restriction complicates
+                                                                                                        some operations that modify photos, such as rotations.
+                        each physical volume that it manages and also an in-                            As Haystack disallows overwriting needles, photos can
+                        memory mapping of photo ids to the ﬁlesystem meta-                              only be modiﬁed by adding an updated needle with the
+                        data (i.e., ﬁle, offset and size in bytes) critical for re-                     same key and alternate key. If the new needle is written
+                        trieving that photo.                                                            to a different logical volume than the original, the Direc-
+                                                                                                        tory updates its application metadata and future requests
+                           Wenowdescribe the layout of each physical volume                             will never fetch the older version. If the new needle is
+                        and how to derive the in-memory mapping from that                               written to the same logical volume, then Store machines
+                        volume. A Store machine represents a physical volume                            appendthenewneedletothesamecorrespondingphysi-
+                        as a large ﬁle consisting of a superblock followed by                           cal volumes. Haystackdistinguishessuchduplicatenee-
+                        a sequence of needles. Each needle represents a photo                           dles based on their offsets. That is, the latest version of a
+                        stored in Haystack. Figure 5 illustrates a volume ﬁle and                       needle within a physical volume is the one at the highest
+                        the format of each needle. Table 1 describes the ﬁelds                          offset.
+                        in each needle.                                                                 3.4.3    PhotoDelete
+                           Toretrieveneedlesquickly,eachStoremachinemain-                               Deleting a photo is straight-forward. A Store machine
+                        tains an in-memory data structure for each of its vol-                          sets the delete ﬂag in both the in-memory mapping
+                        umes. That data structure maps pairs of (key, alter-                            and synchronously in the volume ﬁle. Requests to get
+                                    2
+                        nate key) to the corresponding needle’s ﬂags, size in                           deleted photos ﬁrst check the in-memory ﬂag and return
+                           2Forhistoricalreasons,aphoto’sidcorrespondstothekeywhileits                  errors if that ﬂag is enabled. Note that the space occu-
+                        type is used for the alternate key. During an upload, web servers scale
+                        each photo to four different sizes (or types) and store them as separate        needles is the alternate key ﬁeld, which in decreasing order can be ‘n,’
+                        needles, but with the same key. The important distinction among these           ‘a,’ ‘s,’ or ‘t’.
+                      Superblock                                               Field           Explanation
+                       Needle 1                                                Key             64-bit key
+                                                             Key               Alternate key   32-bit alternate key
+                       Needle 2                          Alternate Key         Flags           Currently unused
+                       Needle 3                             Flags              Offset          Needle offset in the Haystack Store
+                                                            Offset             Size            Needle data size
+                       Needle 4                              Size
+                                                                                    Table 2: Explanation of ﬁelds in index ﬁle.
+                          .
+                          .
+                          .
+                                                                                We refer to needles without corresponding index
+                          Figure 6: Layout of Haystack Index ﬁle              records as orphans. During restarts, a Store machine
+                                                                              sequentially examines each orphan, creates a match-
+                                                                              ing index record, and appends that record to the index
+                  pied by deleted needles is for the moment lost. Later,      ﬁle. Note that we can quickly identify orphans because
+                  wediscusshowtoreclaimdeletedneedlespacebycom-               the last record in the index ﬁle corresponds to the last
+                  pacting volume ﬁles.                                        non-orphan needle in the volume ﬁle. To complete the
+                                                                              restart, the Store machine now initializes its in-memory
+                  3.4.4  TheIndexFile                                         mappings using only the index ﬁles.
+                  Store machines use an important optimization—the in-          Since index records do not reﬂect deleted photos, a
+                  dex ﬁle—when rebooting. While in theory a machine           Store machine may retrieve a photo that has in fact been
+                  can reconstruct its in-memory mappings by reading all       deleted. To address this issue, after a Store machine
+                  of its physical volumes, doing so is time-consuming as      reads the entire needle for a photo, that machine can
+                  the amount of data (terabytes worth) has to all be read     then inspect the deleted ﬂag. If a needle is marked as
+                  from disk. Index ﬁles allow a Store machine to build its    deleted the Store machine updates its in-memory map-
+                  in-memory mappings quickly, shortening restart time.        ping accordingly and notiﬁes the Cache that the object
+                    Store machines maintain an index ﬁle for each of          wasnotfound.
+                  their volumes. The index ﬁle is a checkpoint of the in-     3.4.5  Filesystem
+                  memorydatastructuresusedtolocateneedlesefﬁciently
+                  on disk. An index ﬁle’s layout is similar to a volume       We describe Haystack as an object store that utilizes
+                  ﬁle’s, containing a superblock followed by a sequence       a generic Unix-like ﬁlesystem, but some ﬁlesystems
+                  of index records corresponding to each needle in the su-    are better suited for Haystack than others. In partic-
+                  perblock. These records must appear in the same order       ular, the Store machines should use a ﬁlesystem that
+                  as the corresponding needles appear in the volume ﬁle.      does not need much memory to be able to perform ran-
+                  Figure 6 illustrates the layout of the index ﬁle and Ta-    dom seeks within a large ﬁle quickly. Currently, each
+                  ble 2 explains the different ﬁelds in each record.          Store machine uses XFS [24], an extent based ﬁle sys-
+                    Restarting using the index is slightly more compli-       tem. XFS has two main advantages for Haystack. First,
+                  cated than just reading the indices and initializing the    the blockmaps for several contiguous large ﬁles can
+                  in-memory mappings. The complications arise because         be small enough to be stored in main memory. Sec-
+                  index ﬁles are updated asynchronously, meaning that         ond, XFS provides efﬁcient ﬁle preallocation, mitigat-
+                  index ﬁles may represent stale checkpoints. When we         ing fragmentation and reining in how large block maps
+                  write a new photo the Store machine synchronously ap-       can grow.
+                  pends a needle to the end of the volume ﬁle and asyn-         Using XFS, Haystack can eliminate disk operations
+                  chronously appends a record to the index ﬁle. When          for retrieving ﬁlesystem metadata when reading a photo.
+                  wedeleteaphoto,theStoremachinesynchronouslysets             This beneﬁt, however, does not imply that Haystack can
+                  the ﬂag in that photo’s needle without updating the in-     guarantee every photo read will incur exactly one disk
+                  dex ﬁle. These design decisions allow write and delete      operation. There exists corner cases where the ﬁlesys-
+                  operations to return faster because they avoid additional   tem requires more than one disk operation when photo
+                  synchronous disk writes. They also cause two side ef-       data crosses extents or RAID boundaries. Haystack pre-
+                  fects we must address: needles can exist without corre-     allocates 1 gigabyte extents and uses 256 kilobyte RAID
+                  sponding index records and index records do not reﬂect      stripe sizes so that in practice we encounter these cases
+                  deleted photos.                                             rarely.
+                   3.5   Recoveryfromfailures                                    ﬂags by setting the offset to be 0 for deleted photos. In
+                   Like many other large-scale systems running on com-           addition, Store machines do not keep track of cookie
+                   modity hardware [5, 4, 9], Haystack needs to tolerate         values in main memory and instead check the supplied
+                   a variety of failures: faulty hard drives, misbehaving        cookie after reading a needle from disk. Store machines
+                   RAID controllers, bad motherboards, etc. We use two           reduce their main memory footprints by 20% through
+                   straight-forward techniques to tolerate failures—one for      these two techniques.
+                   detection and another for repair.                                Currently, Haystack uses on average 10 bytes of main
+                     To proactively ﬁnd Store machines that are having           memory per photo. Recall that we scale each uploaded
+                   problems,wemaintainabackgroundtask,dubbedpitch-               imagetofourphotosallwiththesamekey(64bits),dif-
+                   fork, that periodically checks the health of each Store       ferent alternate keys (32 bits), and consequently differ-
+                   machine.   Pitchfork remotely tests the connection to         ent data sizes (16 bits). In addition to these 32 bytes,
+                   each Store machine, checks the availability of each vol-      Haystack consumes approximately 2 bytes per image
+                   ume ﬁle, and attempts to read data from the Store ma-         in overheads due to hash tables, bringing the total for
+                   chine. If pitchfork determines that a Store machine con-      four scaled photos of the same image to 40 bytes. For
+                   sistently fails these health checks then pitchfork auto-      comparison, consider that an xfs inode t structure in
+                   matically marks all logical volumes that reside on that       Linux is 536 bytes.
+                   Store machine as read-only. We manually address the           3.6.3  Batch upload
+                   underlying cause for the failed checks ofﬂine.                Since disks are generally better at performing large se-
+                     Once diagnosed, we may be able to ﬁx the prob-              quential writes instead of small random writes, we batch
+                   lemquickly. Occasionally, the situation requires a more       uploads together when possible.      Fortunately, many
+                   heavy-handed bulk sync operation in which we reset the        users upload entire albums to Facebook instead of single
+                   data of a Store machine using the volume ﬁles supplied        pictures, providing an obvious opportunity to batch the
+                   by a replica.  Bulk syncs happen rarely (a few each           photos in an album together. We quantify the improve-
+                   month)andaresimplealbeitslowtocarryout. Themain               mentofaggregating writes together in Section 4.
+                   bottleneck is that the amount of data to be bulk synced is
+                   often orders of magnitude greater than the speed of the       4 Evaluation
+                   NIConeachStoremachine,resultinginhoursformean                 Wedivide our evaluation into four parts. In the ﬁrst we
+                   time to recovery. We are actively exploring techniques        characterize the photo requests seen by Facebook. In
+                   to address this constraint.                                   the second and third we show the effectiveness of the
+                   3.6   Optimizations                                           Directory and Cache, respectively. In the last we ana-
+                   We now discuss several optimizations important to             lyze how well the Store performs using both synthetic
+                   Haystack’s success.                                           and production workloads.
+                   3.6.1  Compaction                                             4.1    Characterizing photo requests
+                   Compaction is an online operation that reclaims the           Photosareoneoftheprimarykindsofcontentthatusers
+                   space used by deleted and duplicate needles (needles          share on Facebook. Users upload millions of photos ev-
+                   with the same key and alternate key). A Store machine         ery day and recently uploaded photos tend to be much
+                   compacts a volume ﬁle by copying needles into a new           more popular than older ones. Figure 7 illustrates how
+                   ﬁlewhileskippinganyduplicateordeletedentries. Dur-            popular each photo is as a function of the photo’s age.
+                   ing compaction, deletes go to both ﬁles. Once this pro-       To understand the shape of the graph, it is useful to dis-
+                   cedure reaches the end of the ﬁle, it blocks any further      cuss what drives Facebook’s photo requests.
+                   modiﬁcations to the volume and atomically swaps the           4.1.1  Features that drive photo requests
+                   ﬁles and in-memory structures.                                Two features are responsible for 98% of Facebook’s
+                     Weusecompactiontofreeupspacefromdeletedpho-                 photorequests: NewsFeedandalbums. TheNewsFeed
+                   tos. The pattern for deletes is similar to photo views:       feature showsusersrecentcontentthattheirfriendshave
+                   young photos are a lot more likely to be deleted. Over        shared. Thealbumfeatureletsauserbrowseherfriends’
+                   thecourseofayear,about25%ofthephotosgetdeleted.               pictures. She can view recently uploaded photos and
+                   3.6.2  Saving more memory                                     also browse all of the individual albums.
+                   Asdescribed, a Store machine maintains an in-memory              Figure 7 shows a sharp rise in requests for photos that
+                   data structure that includes ﬂags, but our current system     are a few days old. News Feed drives much of the trafﬁc
+                   only uses the ﬂags ﬁeld to mark a needle as deleted. We       for recent photos and falls sharply away around 2 days
+                   eliminate the need for an in-memory representation of         whenmanystoriesstopbeingshowninthedefaultFeed
+                                 100
+                                                                                                                            1200
+                                  80
+                                                                                                                            1000
+                                  60                                                                                         800
+                                                                                                                             600
+                                  40
+                                                                                                                        Operations per Minute 400
+                              Cumulative % of accesses
+                                  20
+                                                                                                                             200
+                                    0                                                                                          0
+                                      0      200     400      600      800     1000    1200     1400    1600                        4/19      4/20      4/21      4/22      4/23     4/24      4/25
+                                                                   Age (in days)                                                                                  Date
+                           Figure 7: Cumulative distribution function of the num-                                    Figure 8: Volume of multi-write operations sent to 9
+                           berofphotosrequestedinadaycategorizedbyage(time                                           different write-enabled Haystack Store machines. The
+                           since it was uploaded).                                                                   graph has 9 different lines that closely overlap each
+                                                                                                                     other.
+                             Operations                                          Daily Counts
+                             Photos Uploaded                                     ∼120Million                         ages are shown in albums and can be prefetched to hide
+                             Haystack Photos Written                             ∼1.44Billion                        latency.
+                             Photos Viewed                                      80-100 Billion                       4.2       Haystack Directory
+                                           [ Thumbnails ]                               10.2 %
+                                                   [ Small ]                            84.4 %                       The Haystack Directory balances reads and writes
+                                               [ Medium ]                                0.2 %                       acrossHaystackStoremachines. Figure8depictsthatas
+                                                   [ Large ]                             5.2 %                       expected, the Directory’s straight-forward hashing pol-
+                             Haystack Photos Read                                  10Billion                         icy to distribute reads and writes is very effective. The
+                                                                                                                     graph shows the number of multi-write operations seen
+                                       Table 3: Volume of daily photo trafﬁc.                                        by9different Store machines which were deployed into
+                                                                                                                     production at the same time. Each of these boxes store a
+                                                                                                                     different set of photos. Since the lines are nearly indis-
+                           view. There are two key points to highlght from the ﬁg-                                   tinguishable, we conclude that the Directory balances
+                           ure. First, the rapid decline in popularity suggests that                                 writes well. Comparing read trafﬁc across Store ma-
+                           caching at both CDNs and in the Cache can be very ef-                                     chines shows similarly well-balanced behavior.
+                           fective for hosting popular content. Second, the graph                                    4.3       Haystack Cache
+                           has a long tail implying that a signiﬁcant number of re-
+                           quests cannot be dealt with using cached data.                                            Figure 9 shows the hit rate for the Haystack Cache. Re-
+                           4.1.2      Trafﬁc Volume                                                                  call that the Cache only stores a photo if it is saved on
+                                                                                                                     a write-enabled Store machine. These photos are rel-
+                           Table 3 shows the volume of photo trafﬁc on Facebook.                                     atively recent, which explains the high hit rates of ap-
+                           The number of Haystack photos written is 12 times the                                     proximately 80%. Since the write-enabled Store ma-
+                           number of photos uploaded since our application scales                                    chines would also see the greatest number of reads, the
+                           each image to 4 sizes and saves each size in 3 different                                  Cache is effective in dramatically reducing the read re-
+                           locations. The table shows that Haystack responds to                                      quest rate for the machines that would be most affected.
+                           approximately 10% of all photo requests from CDNs.                                        4.4       Haystack Store
+                           Observe that smaller images account for most of the
+                           photos viewed. This trait underscores our desire to min-                                  Recall that Haystack targets the long tail of photo re-
+                           imize metadata overhead as inefﬁciencies can quickly                                      quests and aims to maintain high-throughput and low-
+                           add up. Additionally, reading smaller images is typi-                                     latency despite seemingly random reads. We present
+                           cally a more latency sensitive operation for Facebook as                                  performanceresultsofStoremachinesonbothsynthetic
+                           they are displayed in the News Feed whereas larger im-                                    and production workloads.
+                                                                          Reads                               Writes
+                   Benchmark    [ Conﬁg # Operations ]       Throughput      Latency (in ms)     Throughput       Latency (in ms)
+                                                             (in images/s)   Avg.     Std. dev.  (in images/s)   Avg.     Std. dev.
+                    RandomIO    [ Only Reads ]                   902.3       33.2       26.8          −            −         −
+                     Haystress  [ A # Only Reads ]               770.6       38.9       30.2          −            −         −
+                     Haystress  [ B # Only Reads ]               877.8       34.2       28.1          −            −         −
+                     Haystress  [ C # Only Multi-Writes ]         −           −          −          6099.4        4.9       16.0
+                     Haystress  [ D # Only Multi-Writes ]         −           −          −          7899.7        15.2      15.3
+                     Haystress  [ E # Only Multi-Writes ]         −           −          −          10843.8       43.9      16.3
+                     Haystress  [ F # Reads & Multi-Writes ]     718.1       41.6       31.6         232.0        11.9       6.3
+                     Haystress  [ G # Reads & Multi-Writes ]     692.8       42.8       33.7         440.0        11.9       6.9
+                  Table 4: Throughput and latency of read and multi-write operations on synthetic workloads. Conﬁg B uses a mix of
+                  8KBand64KBimages. Remainingconﬁgsuse64KBimages.
+                      100                                                   crash or power loss.
+                                                                            4.4.2  Benchmarkperformance
+                       80                                                   WeassesstheperformanceofaStoremachineusingtwo
+                                                                            benchmarks: Randomio [22] and Haystress. Randomio
+                       60                                                   is an open-source multithreaded disk I/O program that
+                                                                            we use to measure the raw capabilities of storage de-
+                   Hit Rate (%) 40                                          vices. It issues random 64KB reads that use direct I/O to
+                                                                            make sector aligned requests and reports the maximum
+                       20                                                   sustainable throughput. We use Randomio to establish a
+                                                                            baseline for read throughput against which we can com-
+                                                                            pare results from our other benchmark.
+                       0
+                          4/26   4/27  4/28   4/29  4/30   5/1   5/2          Haystress is a custom built multi-threaded program
+                                              Date                          that we use to evaluate Store machines for a variety of
+                                                                            synthetic workloads. It communicates with a Store ma-
+                  Figure 9: Cache hit rate for images that might be poten-  chine via HTTP (as the Cache would) and assesses the
+                  tially stored in the Haystack Cache.                      maximum read and write throughput a Store machine
+                                                                            can maintain.  Haystress issues random reads over a
+                                                                            large set of dummy images to reduce the effect of the
+                  4.4.1 Experimental setup                                  machine’s buffer cache; that is, nearly all reads require
+                  We deploy Store machines on commodity storage             a disk operation. In this paper, we use seven different
+                  blades. The typical hardware conﬁguration of a 2U stor-   Haystress workloads to evaluate Store machines.
+                  age blade has 2 hyper-threaded quad-core Intel Xeon         Table 4 characterizes the read and write throughputs
+                  CPUs, 48 GB memory, a hardware raid controller with       and associated latencies that a Store machine can sus-
+                  256–512MBNVRAM,and12x1TBSATAdrives.                       tain under our benchmarks. Workload A performs ran-
+                    Each storage blade provides approximately 9TB of        domreadsto64KBimagesonaStoremachinewith201
+                  capacity, conﬁgured as a RAID-6 partition managed by      volumes. The results show that Haystack delivers 85%
+                  the hardware RAID controller. RAID-6 provides ade-        of the raw throughput of the device while incurring only
+                  quate redundancy and excellent read performance while     17%higherlatency.
+                  keeping storage costs down. The controller’s NVRAM          Weattribute a Store machine’s overhead to four fac-
+                  write-back cache mitigates RAID-6’s reduced write per-    tors: (a) it runs on top of the ﬁlesystem instead of access-
+                  formance. Since our experience suggests that caching      ing disk directly; (b) disk reads are larger than 64KB as
+                  photos on Store machines is ineffective, we reserve the   entire needles need to be read; (c) stored images may
+                  NVRAMfully for writes. We also disable disk caches        not be aligned to the underlying RAID-6 device stripe
+                  in order to guarantee data consistency in the event of a  size so a small percentage of images are read from more
+                  than one disk; and (d) CPU overhead of Haystack server          3500
+                                                                                             Read-Only Machine           Deletes
+                  (index access, checksum calculations, etc.)                                                            Reads
+                    In workload B, we again examine a read-only work-             3000                                Multi-Writes
+                  load but alter 70% of the reads so that they request            2500
+                  smaller size images (8KB instead of 64KB). In practice,
+                  we ﬁnd that most requests are not for the largest size          2000
+                  images(aswouldbeshowninalbums)butratherforthe
+                  thumbnails and proﬁle pictures.                                 1500
+                    Workloads C, D, and E show a Store machine’s write          Operations per Minute
+                                                                                  1000
+                  throughput. Recall that Haystack can batch writes to-
+                  gether. Workloads C, D, and E group 1, 4, and 16 writes          500
+                  into a single multi-write, respectively. The table shows
+                  that amortizing the ﬁxed cost of writes over 4 and 16              0
+                                                                                      4/5           4/12           4/19          4/26
+                  images improves throughput by 30% and 78% respec-                                           
+                  tively. As expected, this reduces per image latency, as
+                  well.                                                           9000     Write-Enabled Machine
+                    Finally, we look at the performance in the presence           8000
+                  of both read and write operations. Workload F uses a            7000
+                  mix of 98% reads and 2% multi-writes while G uses               6000
+                  a mix of 96% reads and 4% multi-writes where each
+                  multi-write writes 16 images. These ratios reﬂect what          5000
+                  is often observed in production. The table shows that the       4000
+                  Store delivers high read throughput even in the presence      Operations per Minute 3000
+                  of writes.                                                      2000
+                  4.4.3  Production workload                                      1000
+                  The section examines the performance of the Store on               0
+                  production machines.    As noted in Section 3, there                4/5           4/12           4/19          4/26
+                  are two classes of Stores–write-enabled and read-only.                                   Date
+                  Write-enabled hosts service read and write requests,
+                  read-only hosts only service read requests. Since these     Figure 10: Rate of different operations on two Haystack
+                  two classes have fairly different trafﬁc characteristics,   Store machines: One read-only and the other write-
+                  weanalyze a group of machines in each class. All ma-        enabled.
+                  chines have the same hardware conﬁguration.
+                    Viewedataper-secondgranularity, there can be large
+                  spikes in the volume of photo read and write operations     a photo album. As a combination of these two factors,
+                  that a Store box sees. To ensure reasonable latency even    the average number of images written per multi-write
+                  in the presence of these spikes, we conservatively allo-    for this write-enabled machine is 9.27.
+                  cate a large number of write-enabled machines so that         Section4.1.2explainedthatbothreadanddeleterates
+                  their average utilization is low.                           are high for recently uploaded photos and drop over
+                    Figure 10 shows the frequency of the different types      time. This behavior can be also be observed in Fig-
+                  of operations on a read-only and a write-enabled Store      ure 10; the write-enabled boxes see many more requests
+                  machine. Note that we see peak photo uploads on Sun-        (even though some of the read trafﬁc is served by the
+                  day and Monday, with a smooth drop the rest of the          Cache).
+                  week until we level out on Thursday to Saturday. Then         Anothertrendworthnoting: asmoredatagetswritten
+                  a new Sunday arrives and we hit a new weekly peak. In       to write-enabled boxes the volume of photos increases,
+                  general our footprint grows by 0.2% to 0.5% per day.        resulting in an increase in the read request rate.
+                    As noted in Section 3, write operations to the Store        Figure 11 shows the latency of read and multi-write
+                  are always multi-writes on production machines to           operations on the same two machines as Figure 10 over
+                  amortize the ﬁxed cost of write operations.    Finding      the same period.
+                  groups of images is fairly straightforward since 4 dif-       The latency of multi-write operations is fairly low
+                  ferent sizes of each photo is stored in Haystack. It is     (between 1 and 2 milliseconds) and stable even as the
+                  also common for users to upload a batch of photos into      volume of trafﬁc varies dramatically.   Haystack ma-
+                           14                                                                 large social networking website.
+                                                       Read  [ Write-Enabled Machine ]
+                                                   Multi-Write  [ Write-Enabled Machine ]
+                           12                          Read  [ Read-Only       Machine ]
+                                                                                              Filesystems Haystack takes after log-structured ﬁlesys-
+                           10                                                                 tems [23] which Rosenblum and Ousterhout designed
+                                                                                              to optimize write throughput with the idea that most
+                            8                                                                 reads could be served out of cache. While measure-
+                                                                                              ments [3] and simulations [6] have shown that log-
+                        Latency (ms) 6                                                        structured ﬁlesystems have not reached their full poten-
+                            4                                                                 tial in local ﬁlesystems, the core ideas are very relevant
+                                                                                              to Haystack. Photos are appended to physical volume
+                            2                                                                 ﬁles in the Haystack Store and the Haystack Cache shel-
+                                                                                              ters write-enabled machines from being overwhelmed
+                            0
+                             4/5               4/12              4/19               4/26      by the request rate for recently uploaded data. The key
+                                                        Date                                  differences are (a) that the Haystack Store machines
+                                                                                              write their data in such a way that they can efﬁciently
+                      Figure 11: Average latency of Read and Multi-write op-                  serve reads once they become read-only and (b) the read
+                      erations on the two Haystack Store machines in Fig-                     request rate for older data decreases over time.
+                      ure 10 over the same 3 week period.                                        Several works [8, 19, 28] have proposed how to
+                                                                                              manage small ﬁles and metadata more efﬁciently. The
+                                                                                              common thread across these contributions is how to
+                      chines have a NVRAM-backed raid controller which                        group related ﬁles and metadata together intelligently.
+                      buffers writes for us. As described in Section 3, the                   Haystack obviates these problems since it maintains
+                      NVRAMallowsustowriteneedlesasynchronouslyand                            metadata in main memory and users often upload
+                      thenissueasinglefsynctoﬂushthevolumeﬁleoncethe                          related photos in bulk.
+                      multi-write is complete. Multi-write latencies are very
+                      ﬂat and stable.                                                         Object-based storage Haystack’s architecture shares
+                         The latency of reads on a read-only box is also fairly               many similarities with object storage systems proposed
+                      stable even as the volume of trafﬁc varies signiﬁcantly                 byGibsonetal.[10]inNetwork-AttachedSecureDisks
+                      (up to 3x over the 3 week period). For a write-enabled                  (NASD).TheHaystackDirectoryandStoreareperhaps
+                      box the read performance is impacted by three primary                   most similar to the File and Storage Manager concepts,
+                      factors. First, as the number of photos stored on the ma-               respectively, in NASD that separate the logical storage
+                      chine increases, the read trafﬁc to that machine also in-               units from the physical ones. In OBFS [25], Wang et
+                      creases (compare week-over-week trafﬁc in ﬁgure 10).                    al. build a user-level object-based ﬁlesystem that is          1
+                                                                                                                                                             th
+                                                                                                                                                           25
+                      Second, photos on write-enabled machines are cached                     the size of XFS. Although OBFS achieves greater write
+                      in the Cache while they are not cached for a read-only                  throughput than XFS, its read throughput (Haystack’s
+                      machine3. This suggests that the buffer cache would be                  mainconcern) is slightly worse.
+                      more effective for a read-only machine. Third, recently
+                      written photos are usually read back immediately be-                    Managing metadata Weil et al. [26, 27] address
+                      causeFacebookhighlightsrecentcontent. Suchreadson                       scaling metadata management in Ceph, a petabyte-scale
+                      Write-enabled boxes will always hit in the buffer cache                 object store. Ceph further decouples the mapping from
+                      and improve the hit rate of the buffer cache. The shape                 logical units to physical ones by introducing generating
+                      of the line in the ﬁgure is the result of a combination of              functions instead of explicit mappings. Clients can cal-
+                      these three factors.                                                    culate the appropriate metadata rather than look it up.
+                         The CPU utilization on the Store machines is low.                    ImplementingthistechniqueinHaystackremainsfuture
+                      CPUidletimevaries between 92-96%.                                       work. Hendricks et. al [13] observe that traditional
+                      5 RelatedWork                                                           metadata pre-fetching algorithms are less effective for
+                                                                                              object stores because related objects, which are identi-
+                      To our knowledge, Haystack targets a new design point                   ﬁed by a unique number, lack the semantic groupings
+                      focusing on the long tail of photo requests seen by a                   that directories implicitly impose. Their solution is to
+                                                                                              embedinter-object relationships into the object id. This
+                         3Note that for trafﬁc coming through a CDN, they are cached in       idea is orthogonal to Haystack as Facebook explicitly
+                      the CDNs and not in the Cache in both instances                         stores these semantic relationships as part of the social
+                        graph. In Spyglass [15], Leung et al. propose a design                              A distributed storage system for structured data. ACM Trans.
+                        for quickly and scalably searching through metadata                                 Comput. Syst., 26(2):1–26, 2008.
+                        of large-scale storage systems. Manber and Wu also                              [5] B. F. Cooper, R. Ramakrishnan, U. Srivastava, A. Silberstein,
+                        propose a way to search through entire ﬁlesystems in                                P. Bohannon, H.-A. Jacobsen, N. Puz, D. Weaver, and R. Yer-
+                        GLIMPSE [17]. Patil et al. [20] use a sophisticated                                 neni. Pnuts: Yahoo!’s hosted data serving platform. Proc. VLDB
+                        algorithm in GIGA+ to manage the metadata associated                                Endow., 1(2):1277–1288, 2008.
+                        with billions of ﬁles per directory.            We engineered a                 [6] M. Dahlin, R. Wang, T. Anderson, and D. Patterson. Cooper-
+                        simpler solution than many existing works as Haystack                               ative Caching: Using Remote Client Memory to Improve File
+                        does not have to provide search features nor traditional                            SystemPerformance. In Proceedings of the First Symposium on
+                                                                                                            Operating Systems Design and Implementation, pages 267–280,
+                        UNIXﬁlesystemsemantics.                                                             Nov1994.
+                                                                                                        [7] M. Factor, K. Meth, D. Naor, O. Rodeh, and J. Satran. Object
+                        Distributed ﬁlesystems Haystack’s notion of a logi-                                 storage: the future building block for storage systems. In LGDI
+                        cal volume is similar to Lee and Thekkath’s [14] vir-                               ’05: Proceedings of the 2005 IEEE International Symposium on
+                        tual disks in Petal. The Boxwood project [16] explores                              Mass Storage Systems and Technology, pages 119–123, Wash-
+                                                                                                            ington, DC, USA, 2005. IEEE Computer Society.
+                        using high-level data structures as the foundation for                          [8] G. R. Ganger and M. F. Kaashoek. Embedded inodes and ex-
+                        storage.    While compelling for more complicated al-                               plicit grouping: exploiting disk bandwidth for small ﬁles. In
+                        gorithms, abstractions like B-trees may not have high                               ATEC ’97: Proceedings of the annual conference on USENIX
+                        impact on Haystack’s intentionally lean interface and                               Annual Technical Conference, pages 1–1, Berkeley, CA, USA,
+                        semantics. Similarly, Sinfonia’s [1] mini-transactions                              1997. USENIXAssociation.
+                        and PNUTS’s [5] database functionality provide more                             [9] S. Ghemawat, H. Gobioff, and S.-T. Leung. The google ﬁle
+                        features and stronger guarantees than Haystack needs.                               system. In Proc. 19th SOSP, pages 29–43. ACM Press, 2003.
+                        Ghemawat et al. [9] designed the Google File System                           [10] G. A. Gibson, D. F. Nagle, K. Amiri, J. Butler, F. W. Chang,
+                        for a workload consisting mostly of append operations                               H. Gobioff, C. Hardin, E. Riedel, D. Rochberg, and J. Zelenka.
+                        and large sequential reads. Bigtable [4] provides a stor-                           Acost-effective, high-bandwidth storage architecture. SIGOPS
+                        age system for structured data and offers database-like                             Oper. Syst. Rev., 32(5):92–103, 1998.
+                        features for many of Google’s projects. It is unclear                         [11] The hadoop project. http://hadoop.apache.org/.
+                        whether many of these features make sense in a system                         [12] S. He and D. Feng. Design of an object-based storage device
+                        optimized for photo storage.                                                        based on i/o processor. SIGOPS Oper. Syst. Rev., 42(6):30–35,
+                                                                                                            2008.
+                        6 Conclusion                                                                  [13] J. Hendricks, R. R. Sambasivan, S. Sinnamohideen, and G. R.
+                        This paper describes Haystack, an object storage sys-                               Ganger.    Improving small ﬁle performance in object-based
+                                                                                                            storage.   Technical Report 06-104, Parallel Data Laboratory,
+                        temdesignedforFacebook’sPhotosapplication. Wede-                                    Carnegie Mellon University, 2006.
+                        signed Haystack to serve the long tail of requests seen                       [14] E.K.LeeandC.A.Thekkath. Petal: distributedvirtualdisks. In
+                        by sharing photos in a large social network. The key                                ASPLOS-VII: Proceedings of the seventh international confer-
+                        insight is to avoid disk operations when accessing meta-                            ence on Architectural support for programming languages and
+                        data. Haystackprovidesafault-tolerantandsimplesolu-                                 operating systems, pages 84–92, New York, NY, USA, 1996.
+                        tion to photo storage at dramatically less cost and higher                          ACM.
+                        throughputthanatraditionalapproachusingNASappli-                              [15] A.W.Leung,M.Shao,T.Bisson,S.Pasupathy,andE.L.Miller.
+                        ances. Furthermore, Haystack is incrementally scalable,                             Spyglass: fast, scalable metadata search for large-scale storage
+                                                                                                            systems. In FAST ’09: Proccedings of the 7th conference on File
+                        a necessary quality as our users upload hundreds of mil-                            and storage technologies, pages 153–166, Berkeley, CA, USA,
+                        lions of photos each week.                                                          2009. USENIXAssociation.
+                                                                                                      [16] J. MacCormick, N. Murphy, M. Najork, C. A. Thekkath, and
+                        References                                                                          L. Zhou. Boxwood: abstractions as the foundation for storage
+                         [1] M. K. Aguilera, A. Merchant, M. Shah, A. Veitch, and C. Kara-                  infrastructure. In OSDI’04: Proceedings of the 6th conference
+                             manolis. Sinfonia: a new paradigm for building scalable dis-                   onSymposiumonOpeartingSystemsDesign&Implementation,
+                             tributed systems. In SOSP ’07: Proceedings of twenty-ﬁrst ACM                  pages 8–8, Berkeley, CA, USA, 2004. USENIX Association.
+                             SIGOPS symposium on Operating systems principles, pages                  [17] U. Manber and S. Wu. Glimpse: a tool to search through entire
+                             159–174, New York, NY, USA, 2007. ACM.                                         ﬁle systems. In WTEC’94: Proceedings of the USENIX Winter
+                         [2] Akamai. http://www.akamai.com/.                                                1994 Technical Conference on USENIX Winter 1994 Technical
+                         [3] M. G. Baker, J. H. Hartman, M. D. Kupfer, K. W. Shirriff, and                  Conference,pages4–4,Berkeley,CA,USA,1994.USENIXAs-
+                             J. K. Ousterhout. Measurements of a distributed ﬁle system. In                 sociation.
+                             Proc. 13th SOSP, pages 198–212, 1991.                                    [18] memcache. http://memcached.org/.
+                         [4] F. Chang, J. Dean, S. Ghemawat, W. C. Hsieh, D. A. Wallach,              [19] S. J. Mullender and A. S. Tanenbaum. Immediate ﬁles. Softw.
+                             M.Burrows, T. Chandra, A. Fikes, and R. E. Gruber. Bigtable:                   Pract. Exper., 14(4):365–368, 1984.
+          [20] S.V.Patil, G. A. Gibson, S. Lang, and M. Polte. Giga+: scalable
+            directories for shared ﬁle systems. In PDSW ’07: Proceedingsof
+            the 2ndinternationalworkshoponPetascaledatastorage,pages
+            26–29, New York, NY, USA, 2007. ACM.
+          [21] Posix. http://standards.ieee.org/regauth/posix/.
+          [22] Randomio.http://members.optusnet.com.au/clausen/ideas/randomio/index.html.
+          [23] M.RosenblumandJ.K.Ousterhout. Thedesignandimplemen-
+            tation of a log-structured ﬁle system. ACM Trans. Comput. Syst.,
+            10(1):26–52, 1992.
+          [24] A. Sweeney, D. Doucette, W. Hu, C. Anderson, M. Nishimoto,
+            and G. Peck. Scalability in the xfs ﬁle system. In ATEC ’96:
+            Proceedings of the 1996 annual conference on USENIX Annual
+            Technical Conference, pages 1–1, Berkeley, CA, USA, 1996.
+            USENIXAssociation.
+          [25] F. Wang, S. A. Brandt, E. L. Miller, and D. D. E. Long. Obfs: A
+            ﬁle system for object-based storage devices. In In Proceedings
+            of the 21st IEEE / 12TH NASA Goddard Conference on Mass
+            Storage Systems and Technologies, pages 283–300, 2004.
+          [26] S. A. Weil, S. A. Brandt, E. L. Miller, D. D. E. Long, and
+            C. Maltzahn. Ceph: a scalable, high-performance distributed
+            ﬁle system. In OSDI ’06: Proceedings of the 7th symposium on
+            Operating systems design and implementation, pages 307–320,
+            Berkeley, CA, USA, 2006. USENIX Association.
+          [27] S. A. Weil, K. T. Pollack, S. A. Brandt, and E. L. Miller. Dy-
+            namic metadata management for petabyte-scale ﬁle systems. In
+            SC’04: Proceedings of the 2004 ACM/IEEE conference on Su-
+            percomputing,page4,Washington,DC,USA,2004.IEEECom-
+            puter Society.
+          [28] Z. Zhang and K. Ghose. hfs: a hybrid ﬁle system prototype for
+            improving small ﬁle and metadata performance. SIGOPS Oper.
+            Syst. Rev., 41(3):175–187, 2007.

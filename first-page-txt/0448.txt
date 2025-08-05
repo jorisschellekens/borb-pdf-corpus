@@ -1,0 +1,47 @@
+                Servicepoint Kuopio Oy 
+                 
+                 
+                 
+                 
+                PO Box. 1033 / Volttikatu 5 
+                FI-70701 KUOPIO 
+                Finland 
+                                                                                                                                           1 / 1 
+                Invoice instruction 
+                          Our esteemed supplier and partner, 
+                          We have changed to the online processing of invoices and therefore ask you to submit your 
+                          invoices to the address below. We hope you will send your invoices primarily as electronic 
+                          invoice.  
+                Our e-invoice address: 
+                 
+                          EDI: 003720659881 
+                          E-invoice address: 003720659881 
+                          Operator ID: BAWCFI22 
+                          Operator: Basware 
+                          If  you  are  unable  to  deliver  your  invoices  as  e-invoices,  we  ask  you to  send  the  paper 
+                          invoices to the address below (address information needs to be written in the invoice): 
+                          Servicepoint Kuopio Oy 
+                          ##003720659881##             (Please note that the # signs are in accordance with the instructions) 
+                          PO Box. 683 
+                          00026 BASWARE  
+                           
+                          You can deliver the invoice as attached PDF-file via email to the address below. NB! The 
+                          above-mentioned address for paper invoices needs to be written in the invoice 
+                          lemonsoft.ostolaskut@bscs.basware.com 
+                           
+                          All other mail is still being delivered to our offices, so we kindly ask that you send only our 
+                          purchase invoices to the above-mentioned addresses. Mail that is sent to billing address, 
+                          other than invoices, will be automatically destroyed and thus may not reach us. 
+                           
+                          Kind regards 
+                           
+                          Pekka Luosujärvi 
+                          Chief Financial Officer  
+                          pekka.luosujarvi@servicepoint.fi 
+                          Tel. +358 44 7868 205 
+                          Servicepoint Kuopio Oy 
+                  ____________________________________________________________________________________________________________________________________________________________________________________________________________________
+                                                                                      
+                                           Servicepoint Kuopio Oy, PO Box. 1033 / Volttikatu 5, FI-70701  KUOPIO, Finland  
+                                                       tel. +358 44-7868 500, firstname.lastname@servicepoint.fi 
+                                                                      www.servicepoint.fi 

@@ -1,0 +1,61 @@
+                                                   HowtoGetYourSIGGRAPHPaperRejected
+                                                                    Jim Kajiya, SIGGRAPH 93 Papers Chair
+                 1 Introduction                                                                 code, and feeding slides to your local photoﬁnisher. SIGGRAPH
+                                                                                                fever rises to absurd heights at the last week: “Let’s see I only have
+                 Everyone knows what acceptable SIGGRAPH papers look like:                      105hoursuntilthedeadline...” Youputeverythingtogether,accom-
+                 just look in the proceedings. When one only sees the accepted pa-              plishing superhuman tasks to make the Federal Express deadline at
+                 pers and not the rejected ones, it is easy to get the wrong impression         the very last minute. Your six copies are taken by the courier safely
+                 of what it is that SIGGRAPH likes and doesn’t like.                            to the papers chair, then you-and everyone around you-collapse.
+                 I’ve submitted a lot of papers that SIGGRAPH didn’t like, as well              The next day, as you and hundreds of other morlocks around the
+                 as a few they did. Also, I’ve been on the papers committee a few               world come out of sub-basements to blink at the ﬁrst natural sun-
+                 times and know what it is they look for. This note tells you some-             light you’ve seen in weeks, is deadline day. Fully 85% of the 200
+                 thing about what happens to your paper as it goes through the re-              or so SIGGRAPH submissions arrive at the papers chair doorstep.
+                 viewing process as well as what people discuss when they’re trying             Everyone else has worked until the last possible minute, too. The
+                 to decide whether to accept or reject your paper. I’ll try to tell you         papers chair and several dedicated assistants then spend their long
+                 everything I’ve learned about the SIGGRAPH secret: What SIG-                   all-nighter giving your paper a number, entering it into the database,
+                 GRAPHwants, and how you can give it to them so they’ll accept                  and typing and mailing a letter acknowledging receipt of your pa-
+                 your paper. I’ll also talk about some of the ﬂaws in the reviewing             per.
+                 process and how you can protect yourself against them. Finally, I
+                 wanttosharesomethoughtsonthepresentcourseandthefutureof                        Immediately after this, the papers chair, along with two or three
+                 technical papers for SIGGRAPH.                                                 others on the papers committee, sorts through all the papers and
+                                                                                                assigns your paper to the pile for a particular senior reviewer. The
+                 Before we do this, I would like to say why SIGGRAPH reviews are                papersprogramcommitteeismadeupof25orsooftheseseniorre-
+                 done the way they are. There are two reasons.                                  viewers. With the large number of papers, this partitioning process
+                                                                                                takes a full day.
+                 The ﬁrst reason is the principal feature of the SIGGRAPH confer-
+                 ence publication that makes it very attractive: speed. SIGGRAPH                One copy of your paper is retained by the papers chair. One copy
+                 is one of the few high-quality publications that can publish a paper           is mailed to the secondary reviewer, and four copies are mailed to
+                 in less than a year. In 10 weeks, SIGGRAPH can do what other                   the senior reviewer. Thus each reviewer receives a large Federal
+                 majorpublications take 10 months to do. In a fast-moving ﬁeld like             Express box of your papers and video tapes. This usually happens
+                 computer graphics, this is crucial.                                            a week after the deadline.
+                 The second reason is that SIGGRAPH has chosen a very differ-                   The senior reviewers receive a set of 14-18 papers. For half of
+                 ent quality strategy than most other conferences. While other con-             these they act as secondary reviewer and for half as senior reviewer.
+                 ferences will accept papers of incomplete work in progress, SIG-               As senior reviewers, they look at your paper and choose three ad-
+                 GRAPHhaschosentoshootforthehighestquality papers of com-                       ditional reviewers-at least two of whom are external to his or her
+                 plete results.  Because of this, 80% of submitted papers are re-               institution. The senior reviewer sends a list of these reviewers to
+                 jected. The MacArthur Foundation is more generous with its “ge-                the chair within two weeks.
+                 nius” awards than SIGGRAPH is with its papers. There are more
+                 MacArthur awards each year than SIGGRAPH technical papers.                     The reviewers then each receive a copy of your paper, slides, and
+                                                                                                video. The reviewer reads your paper, evaluates it, and ﬁlls out
+                 The emphasis on both speed and quality makes the reviewing pro-                the review form that eventually makes its way back to you. He or
+                 cess for SIGGRAPH very different from of a journal or another                  she may ﬁll out the hard copy or may email the review back to the
+                 conference. Thespeedandqualityemphasisalsoputsseverestrains                    senior reviewer. The reviewer has four weeks to do this.
+                 onthereviewingprocess. Inajournal, the reviewer and authors can
+                 haveadialogwhereshortcomingsandmisunderstandingscanbere-                       After the senior reviewer gets each review of your paper, a review
+                 solvedoveraleisurelypace. Also,eveniftherearesigniﬁcantﬂaws                    summaryismadeandascoreiscomputed. Copies are made of the
+                 in a paper for another conference, the chances are that strengths will         summaries and reviews. The originals are then Federal Expressed
+                 overcome the weaknesses in the judging. In SIGGRAPH, if the re-                to the chair.
+                 viewers misunderstand your paper, or if some ﬂaw in your paper is              The chair tabulates all the scores, sorts your paper according to
+                 found, you’re dead.                                                            score, records it in a database, and prints out a set of custom lists
+                 ThereviewingprocessforSIGGRAPHisfarfromperfect,although                        for each senior reviewer summarizing all the papers.
+                 most everyone is giving it their best effort. The very nature of the           Thefollowingweek,thepaperselectionmeetingoccurs. Thismeet-
+                 process is such that many reviewers will not be able to spend nearly           ing, where the fate of your paper is determined, lasts for two full
+                 enoughtimeweighingthenuancesofyourpaper. Thisissomething                       days. If your paper is on the very bottom or very top of the list, very
+                 for which you must compensate in order to be successful. But I’ll              little discussion is given to your paper (unless the senior reviewer
+                 get to that later. First, let’s talk about what happens to your paper.         wantsashortdiscussionbyfullcommittee). This no-discussion ac-
+                                                                                                ceptance/rejection eats away at the top and bottom of the list until
+                 2 Thereviewingprocess                                                          the density of discussion slows the process.
+                 How does your paper get accepted or rejected by SIGGRAPH?                      Then a “triage” session occurs. During this time, the senior and
+                 Let’s follow it through the entire process.                                    secondary reviewers, as well as others who might share expertise
+                                                                                                in the subject area, discuss your paper. They then decide to accept,
+                 First, you work for months, slaving away at equations, hacking                 reject, or discuss your paper. If they decide to accept or reject, your
