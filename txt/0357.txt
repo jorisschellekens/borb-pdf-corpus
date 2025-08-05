@@ -1,0 +1,78 @@
+                Strategy      Government of Canada Bond Futures
+                Futures invoice spread
+              Invoice spread transactions allow investors to express an opinion on the perceived credit risk of two ifnancial debt 
+              instruments (for example, a sovereign government bond and an interest rate swap). A widening invoice spread 
+              relfects a perceived increase of credit risk. A narrowing invoice spread relfects a perceived diminishing of credit risk.
+              The futures invoice spread strategy is based on the forward-starting interest rate swap that begins on the last 
+              delivery date of the futures contract and ends at the maturity date of the underlying cash bond (the cheapest-to-
+              deliver bond or CTD). The spread represents the difference between the ifxed rate of the swap for the same maturity 
+              and the yield of the bond futures’ CTD. Futures invoice spreads can be traded on-exchange through an Exchange for 
+              Risk (EFR) facility.
+              Government bond asset swap spread exposure can be achieved cost efifciently using interest rate futures instead 
+              of cash bonds. To initiate a long/short position in the bond futures market, only an initial margin is required. Bond 
+              futures, such as the CGB contract, also have a narrower bid/ask spread than that of the underlying cash bond 
+              market. Furthermore, bond futures contracts are a great alternative to investors who cannot short bonds or foreign 
+              investors that don’t have easy access to the Canadian government bond market. Futures contracts also eliminate 
+              the need to do any ifnancing transactions in the repo/reverse repo market.
+              Invoice spread analysis – two strategy examples
+              Hedging a forward interest rate swap with CGB contracts
+              Bloomberg’s futures invoice spread analysis (IVSP) function calculates the forward bond futures yield against 
+              a corresponding forward-starting interest rate swap so that investors can evaluate potential invoice spread 
+              transactions. The IVSP analytics function can also be used to determine the number of CGB contracts required to 
+              hedge a notional amount of $10 million of forward interest rate swaps. In this analysis, we used the CGB June 2012 
+              contract and the CTD reference bond is the Can 3½% June 1, 2020 bond.
+              Cont’d... >>
+                                  Considering current market implied yields, an investor must take a position in 82 CGB contracts to hedge a notional 
+                                  amount of $10 million of corresponding forward-starting swap. Speciifcally, it takes 82 CGB contracts for the position 
+                                  to be duration neutral—where the dollar value of one basis point (DV01) of the ifxed leg of the swap ($7,549 per $10 
+                                  million of notional) is equal to the DV01 of the CGB contract ($7,587 per $10 million of notional). Note that the slight 
+                                  difference in the DV01 of the position is due to the rounding of the 82 CGB contracts. With this position, the overall 
+                                  interest rate level change is hedged and the remaining exposure is the spread (swap spread of 0.382% or 38.2 basis 
+                                  points) between the futures yield (1.902%) and the swap ifxed rate (2.284%). 
+                                  This analysis can be done on different segments on the yield curve using the CGZ and the CGF contracts coupled with 
+                                  the corresponding matched-maturity forward-starting swap. As per results obtained, an investor may choose to be 
+                                  long or short the relevant futures and take the opposite position on the matched-maturity swap. At expiration of the 
+                                  futures contracts, the investor can choose to roll the contracts, close-out the position or take physical delivery of the 
+                                  cash bond. 
+                                  Taking a view on the swap spread using the futures invoice spread
+                                  An investor can also be long or short the relevant bond futures and take the same position on the matched-maturity 
+                                  swap through the Exchange for Risk (EFR) facility.
+                                  An EFR is a basis trade. Investors execute an EFR on the view that the price difference between the cash leg (an OTC 
+                                  derivative in the case of an EFR) and the futures leg of the transaction will either widen (long the basis) or narrow (short 
+                                  the basis). Speciifcally, an investor who executes an EFR using a bond futures contract and a matched-maturity interest 
+                                  rate swap is taking a view on the direction of the swap spread.
+                                  An EFR is a transaction that provides market participants with a way to unwind an existing OTC position or to initiate 
+                                  a new OTC position via the futures market. Speciifcally, an EFR represents the simultaneous exchange of a long/short 
+                                  bond futures position against a receiver/payer interest rate swap position, while the two legs have a related comparable 
+                                  sensitivity to interest rate changes (normally expressed through a hedge ratio based on the basis point value of the 
+                                  futures and the swap). 
+                                  Conceptually, an EFR is similar to an Exchange for Physical (EFP) transaction, except that at the time the EFR is arranged                   
+                                  it involves the exchange of a futures position for an interest rate swap (where the interest rate swap represents the                   
+                                  “cash leg” of the EFR) rather than the exchange for a physical bond.
+                                   
+                                  EFR example using the CGB contract
+                                     1.   Original  position:                                             1.   Original  position: 
+                                         Trader A: Long CGB futures                                          Trader B : Receive ifxed swap (OTC position)
+                                     2.   EFR  trade:                                                     2.   EFR  trade: 
+                                          a. Sell CGB to Trader B                                             a.  Buy CGB from Trader A 
+                                         b. Buy receive ifxed swap from Trader B                             b.  Sell receive ifxed swap to Trader A
+                                     Result    Trader A exchanges a long CGB futures                      Result    Trader B exchanges a receive ifxed swap  
+                                               position for a receive ifxed swap                                    (OTC position) for a long CGB futures  
+                                               (OTC position).                                                      position.
+                                  Cont’d... >>
+            How to report an EFR transaction?
+            An EFR transaction must be reported to the Market Operations Department (MOD) for approval and subsequent 
+            input into the SOLA trading system. Approved participants for both the seller and buyer must complete and submit 
+            to MOD the EFP/EFR reporting form prescribed by MX.
+            This form is available at http://www.m-x.ca/efp_formulaire_en.php. If the EFR (or EFP) transaction is executed before 
+            the close of the futures contract trading session, the EFP/EFR reporting form must be submitted immediately upon 
+            the execution of the transaction. If the transaction is done after the close, the EFP/EFR reporting form must be 
+            submitted no later than 10:00 a.m. (Montréal time) on the next trading day.
+            Results
+            The futures invoice spread is a simple and efifcient way to take a view on the credit risk associated between the 
+            Government of Canada bond market and the corresponding matched-maturity interest rate swap. The exposure is 
+            the spread between the CTD bond underlying of the futures contract and the corresponding forward starting swap 
+            yield. 
+            It is possible to set-up the trade with the new IVSP Bloomberg function and execute an EFR transaction on-exchange 
+            to unwind an existing OTC interest rate swap position or to initiate a new OTC interest rate swap position via the 
+            futures market.

@@ -1,565 +1,0 @@
-                          RobustRandomCutForestBasedAnomalyDetectionOnStreams
-               Sudipto Guha                                                                                      SUDIPT@OCIS.UPENN.EDU
-               University of Pennsylvania, Philadelphia, PA 19104.
-               NinaMishra                                                                                         NMISHRA@AMAZON.COM
-               Amazon,PaloAlto, CA94303.
-               GouravRoy                                                                                          GOURAVR@AMAZON.COM
-               Amazon,Bangalore, India 560055.
-               OkkeSchrijvers                                                                                   OKKES@CS.STANFORD.EDU
-               Stanford University, Palo Alto, CA 94305.
-                                         Abstract                                  a point is data dependent and corresponds to the external-
-                     In this paper we focus on the anomaly detection               ity imposed by the point in explaining the remainder of the
-                     problem for dynamic data streams through the                  data. Weextendthisnotionofexternalitytohandle“outlier
-                     lens of random cut forests. We investigate a ro-              masking” that often arises from duplicates and near dupli-
-                     bust random cut data structure that can be used               cate records. Note that the notion of model complexity has
-                     as a sketch or synopsis of the input stream. We               to be amenable to efﬁcient computation in dynamic data
-                     provide a plausible deﬁnition of non-parametric               streams. This relates question (1) to question (2) which we
-                     anomalies based on the inﬂuence of an unseen                  discuss in greater detail next. However it is worth noting
-                     point on the remainder of the data, i.e., the exter-          that anomaly detection is not well understood even in the
-                     nality imposed by that point. We show how the                 simpler context of static batch processing and (2) remains
-                     sketch can be efﬁciently updated in a dynamic                 relevant in the batch setting as well.
-                     data stream. We demonstrate the viability of the              For question (2), we explore a randomized approach, akin
-                     algorithm on publicly available real data.                    to (Liu et al., 2012), due in part to the practical success re-
-                                                                                   ported in (Emmott et al., 2013). Randomization is a pow-
-                                                                                   erful tool and known to be valuable in supervised learn-
-               1. Introduction                                                     ing (Breiman, 2001). But its technical exploration in the
-                                                                                   context of anomaly detection is not well-understood and
-               Anomaly detection is one of the cornerstone problems in             the samecommentappliestothealgorithmputforthin(Liu
-               data mining. Even though the problem has been well stud-            et al., 2012).   Moreover that algorithm has several lim-
-               ied over the last few decades, the emerging explosion of            itations as described in Section 4.1.       In particular, we
-               data from the internet of things and sensors leads us to re-        show that in the presence of irrelevant dimensions, cru-
-               consider the problem. In most of these contexts the data            cial anomalies are missed. In addition, it is unclear how
-               is streaming and well-understood prior models do not ex-            to extend this work to a stream. Prior work attempted so-
-               ist. Furthermore the input streams need not be append only,         lutions (Tanetal,.2011) that extend to streaming, however
-               there may be corrections, updates and a variety of other dy-        those were not found to be effective (Emmott et al., 2013).
-               namic changes. Two central questions in this regard are             To address these limitations, we put forward a sketch or
-               (1) how do we deﬁne anomalies? and (2) what data struc-             synopsis termed robust random cut forest (RRCF) formally
-               ture do we use to efﬁciently detect anomalies over dynamic          deﬁned as follows.
-               data streams? In this paper we initiate the formal study of         Denition 1 A robust random cut tree (RRCT) on point
-               both of these questions. For (1), we view the problem from          set S is generated as follows:
-               the perspective of model complexity and say that a point is
-                                                                                                                                             ℓi
-               an anomaly if the complexity of the model increases sub-              1. Choose a random dimension proportional to  ℓ ,
-               stantially with the inclusion of the point. The labeling of                                                                   j j
-                                                                                        where ℓ =max x −min                  x .
-                                                                                                i         x∈S i          x∈S i
-                                      rd                                             2. Choose X ∼Uniform[min             x , max       x ]
-               Proceedings of the 33     International Conference on Machine                       i                  x∈S i         x∈S i
-               Learning, New York, NY, USA, 2016. JMLR: W&CP volume                  3. Let S = {x|x ∈ S,x ≤ X } and S = S \S and
-               48. Copyright 2016 by the author(s).                                           1                 i      i        2           1
-                                                                                        recurse on S1 and S2.
-                                             RobustRandomCutForestBasedAnomalyDetectionOnStreams
-               Arobust random cut forest (RRCF) is a collection of inde-         to T (S); if we delete the node containing the isolated point
-               pendent RRCTs.                                                    x and its parent (adjusting the grandparent accordingly,
-               The approach in (Liu et al., 2012) differs from the above         seeFigure2),thentheresultingtreeT′ hasthesameproba-
-               procedureinStep(1)andchoosesthedimensiontocutuni-                 bility as if being drawn from T (S−{x}). Likewise, we can
-               formly at random. We discuss this algorithm in more detail        produce a tree T′′ as if drawn at random from T(S ∪{x})
-               in Section 4.1 and provide extensive comparison.                  is time which is O(d) times the maximum depth of T, which
-               Followingquestion(2), weask: DoestheRRCFdatastruc-                is typically sublinear in |T|.
-               ture contain sufﬁcient information that is independent of         Theorem 2 demonstrates an intuitively natural behavior
-               the speciﬁcs of the tree construction algorithm? In this pa-      when points are deleted  as shown in the schematic in
-               per we prove that the RRCF data structure approximately           Figure 1. In effect, if we insert x, perform a few more op-
-               preserves distances in the following sense:                       erations and then delete x, then not only do we preserve
-                                                                                 distributions but the trees remain very close to each other
-               Theorem1 Consider the algorithm in Denition 1. Let               asif the insertion never happened. This behavior is a
-               the weight of a node in a tree be the corresponding sum           classic desiderata of sketching algorithms.
-               of dimensions iℓi. Given two points u,v ∈ S, dene                            a
-               the tree distance between u and v to be the weight of the
-               least common ancestor of u,v. Then the tree distance is                                                       a
-               always at least the Manhattan distance L1(u,v), and in
-               expectation, at most Odlog       |S|  times L1(u,v).                              b
-                                              L1(u,v)
-                                                                                             x
-               Theorem 1 provides a low stretch distance preserving em-               c                                 c         b
-               bedding, reminiscent of the Johnson-Lindenstrauss Lemma
-               (Johnson&Lindenstrauss,1984)usingrandomprojections
-               for L2() distances (which has much better dependence on                 (a) Before: T                   (b) After: T′
-               d).  The theorem is interesting because it implies that if
-               a point is far from others (as is the case with anomalies)                 Figure 1. Decremental maintenance of trees.
-               that it will continue to be at least as far in a random cut
-               tree in expectation. The proof of Theorem 1 follows along         The natural behavior of deletions is not true if we do not
-               the same lines of the proof of approximating ﬁnite metric         choose the dimensions as in Step (1) of RRCF construc-
-               spaces by a collection of trees (Charikar et al., 1998). Most     tion. For example, if we choose the dimensions uniformly
-               of the proofs appear in the supplementary material.               at random as in (Liu et al., 2012), suppose we build a tree
-               The theorem shows that if there is a lot of empty space           for (1,0),(ǫ,ǫ),(0,1) where 1 ≫ ǫ>0 and then delete
-                                                 L (u,v) is large, then we       (1,0). The probability of getting a tree over the two re-
-               around a point, i.e., γ =min
-                                               v  1                              maining points that uses a vertical separator is 3/4 − ǫ/2
-               will isolate the point within O(dlog|S|/γ) levels from the        and not 1/2 as desired. The probability of getting that tree
-               root. Moreover since for any p ≥ 1, the p-normed dis-             in the RRCF process (after applying Theorem 2)is1 − ǫ,
-               tance satisﬁes d1−1/pLp(u,v) ≥ L1(u,v) ≥ Lp(u,v) and              as desired. This natural behavior under deletions is also not
-               therefore the early isolation applies to all large Lp() dis-      true of most space partitioning methods –such as quadtrees
-               tances simultaneously. This provides us a pointer towards         (Finkel & Bentley, 1974), kd-trees (Bentley, 1975), and R-
-               the success of the original isolation forest algorithm in low     trees (Guttman, 1984). The dynamic maintenance of a dis-
-               to moderate dimensional data, because d is small and the          tribution over trees in a streaming setting is a novel contri-
-               probability of choosing a dimension is not as important if        bution to the best of our knowledge and as a consequence,
-               they are small in number. Thus the RRCF ensemble con-             wecanefﬁcientlymaintainatreeoverasampleofastream:
-               tains sufﬁcient information that allows us to determine dis-
-               tance based anomalies, without focusing on the speciﬁcs           Theorem3 Wecanmaintainarandomtreeoverasample
-               of the distance function. Moreover the distance scales are        SevenasthesampleS isupdateddynamicallyforstream-
-               adjusted appropriately based on the empty spaces between          ing data using sublinear update time and O(d|S|) space.
-               the points since the two bounding boxes may shrink after          Wecannowusereservoirsampling(Vitter, 1985) to main-
-               the cut.                                                          tain a uniform random sample of size |S| or a recency-
-               Suppose that we are interested in the sample maintenance          biased weighted random sample of size |S| (Efraimidis &
-               problem of producing a tree at random (with the correct           Spirakis, 2006), in space proportional to |S| on the ﬂy.
-               probability) from T (S −{x}) or from T (S ∪{x}).In In effect, the random sampling process is now orthogo-
-               this paper we prove that we can efﬁciently insert and delete      nal from the robust random cut forest construction. For
-               points into a random cut tree.                                    example to produce a sample of size |S| for <1,
-                                                                                 in an uniform random sampling we can perform straight-
-               Theorem2(Section3) Given a tree T drawn according                 forward rejection sampling; in the recency biased sample
-                                                RobustRandomCutForestBasedAnomalyDetectionOnStreams
-                in (Efraimidis & Spirakis, 2006) we need to delete the                data. Therefore the number of bits required to express a
-                (1−)|S|lowestpriority points. This notion of downsam-                point corresponds to its depth in the tree.
-                pling via deletions is supported perfectly by Theorem 2 –             Given a set of points Z and a point y ∈ Z let f(y,Z,T) be
-                even for downsampling rates that are determined after the             the depth of y in tree T. Consider now the tree produced
-                trees have been constructed, during postprocessing. Thus,             by deleting x as in Theorem 2 as T(Z −{x}). Note that
-                Theorem4 GivenatreeT(S)forsampleS,ifthereexists                       givenT andxthetreeT(Z−{x})isuniquely1 determined.
-                a procedure that downsamples via deletion, then we have               Let the depth of y in T(Z −{x}) be f(y,Z−{x},T) (we
-                an algorithm that simultaneously provides us a downsam-               drop the qualiﬁcation of the tree in this notation since it is
-                pled tree for every downsampling rate.                                uniquely deﬁned).
-                                                                                                     q ,...,q
-                Theorems 3 and 4 taken together separate the notion of                                0        r
-                sampling from the analysis task and therefore eliminates                           a
-                                                                                                                                     q ,...,q
-                the need to ﬁne tune the sample size as an initial parameter.                  0                                      0        r
-                Moreover the dynamic maintenance of trees in Theorem 3                                 1
-                provides a mechanism to answer counterfactual questions                                                            a
-                as given in Theorem 5.                                                     0      1      b                     0        1
-                Theorem5 Given a tree T(S) for sample S, and a point                              x
-                pwecanefciently compute a random tree in T (S ∪{p}),                      c                                   c         b
-                and therefore answer questions such as: what would have
-                beentheexpecteddepthhadpbeenincludedinthesample?                             (a) Tree T(Z)                 (b) Tree T(Z −{x})
-                The ability to answer these counterfactual questions are
-                critical to determining anomalies. Intuitively, we label a                           Figure 2. A correspondence of trees
-                point p as an anomaly when the joint distribution of in-              Consider now a point y in the subtree c in Figure 2a. Its
-                cluding the point is signiﬁcantly different from the distri-          bit representation in T would be q ,...,q,0,0,.... The
-                bution that excludes it. Theorem 5 allows us to efﬁciently                                                    0       r
-                (pretend) sketch the joint distribution including the point           model complexity, denoted as |M(T)| the number of bits
-                                                                                      required to write down the description of all points y in
-                p. However instead of measuring the effect of the sampled             tree T therefore will be |M(T)| = y∈Z f(y,Z,T).If
-                data points on p to determine its label (as is measured by            weweretoremovexthenthenewmodelcomplexityis
-                notions such as expected depth), it stands to reason that we
-                should measure the effect of p on the sampled points. This                              ′                                 ′
-                leads us to the deﬁnition of anomalies used in this paper.                       |M(T )| =               f(y,Z−{x},T)
-                                                                                                              y∈Z−{x}
-                2. Dening Anomalies                                                  where T′ = T(Z −{x}) is a tree over Z −{x}.Now
-                Consider the hypotheses:                                              consider the expected change in model complexity under
-                                                                                      a random model. However since we have a many to one
-                (a) Ananomalyisofteneasytodescribe–considerWaldo                      mapping from T(Z) to T(Z −{x}) as a consequence of
-                     wearing a red fedora in a sea of dark felt hats. While           Theorem 2, we can express the second sum over T(Z) in-
-                     it may be difﬁcult for us to ﬁnd Waldo in a crowd, if            stead of T′ = T(Z −{x}) and we get
-                     we could forget the faces and see the color (as is the             ET(Z)[|M(T)|]−ET(Z−{x})[|M(T(Z −{x})|]
-                     case when Waldo is revealed by someone else) then                                                                            ′ 
-                     the recognition of the anomaly is fairly simple.                   =                Pr[T] f(y,Z,T)−f(y,Z−{x},T)
-                (b) An anomaly makes it harder to describe the remainder                    T y∈Z−{x}
-                     of the data – if Waldo were not wearing the red fedora,            +Pr[T]f(x,Z,T)                                              (1)
-                     wemaynothaveadmitted the possibility that hats can                     T
-                     be colored. In essence, an anomaly displaces our at-             Denition 2 Dene the bit-displacement or displacement
-                     tention from the normal observation to this new one.             of a point x to be the increase in the model complexity of
-                                                                                      all other points, i.e., for a set Z, to capture the externality
-                The fundamental task is therefore to quantify the shift in            introduced by x, dene, where T′ = T(Z −{x}),
-                attention. Suppose that we assign left branches the bit 0
-                andright branches the bit 1 in a tree in a random cut forest.                                                                        
-                Now consider the bits that specify a point (excluding the                                                                          ′
-                bits that are required to store the attribute values of the point     DISP(x,Z)= Pr[T] f(y,Z,T)−f(y,Z−{x},T)
-                itself). This deﬁnes the complexity of a random model MT                           T,y∈Z−{x}
-                whichinourcasecorrespondstoatreeT thatﬁtstheinitial                       1The converse is not true, this is a many-to-one mapping.
-                                           RobustRandomCutForestBasedAnomalyDetectionOnStreams
-              Notethetotalchangeinmodelcomplexityis DISP(x,Z)+
-                                        
-              g(x,Z) where g(x,Z)= T Pr[T]f(x,Z,T) is the ex-                     ⎡                                              ⎤
-              pected depth of the point x in a random model. Instead of           ⎣         1                                    ′′  ⎦
-              postulating that anomalies correspond to large g(), we fo-      E     max               f(y,S,T)−f(y,S−C,T )
-              cus on larger values of DISP(). The name displacement is      S⊆Z,T x∈C⊆S |C|y∈S−C
-              clearer based on this lemma:                                  Lemma2 CODISP(x,Z,|S|)canbeestimatedefciently.
-              Lemma1 Theexpecteddisplacement caused by a point x            While CODISP(x,Z,|S|) is dependent on |S|, the depen-
-              is the expected number of points in the sibling node of the   dence is not severe. We envision using the largest sample
-              leaf node containing x, when the partitioning is done ac-     size which is permitted under the resource constraints. We
-              cording to the algorithm in Denition 1.                      arrive at the central characterization we use in this paper:
-              Shortcomings.     While Deﬁnition 2 points towards a pos-     Denition 4 Outliers correspond to large CODISP().
-              sible deﬁnition of an anomaly, the deﬁnition as stated are
-              not robust to duplicates or near-duplicates. Consider one     3. Forest Maintenance on a Stream
-              dense cluster and a point p far from away from the cluster.
-              Thedisplacementofpwillbelarge. Butifthereisapointq            In this section we discuss how Robust Random Cut Trees
-              veryclosetop,thenq’sdisplacementinthepresenceofpis            can be dynamically maintained.      In the following, let
-              small. This phenomenon is known as outlier masking. Du-       RRCF(S)beathedistributionovertreesbyrunningDef-
-              plicates and near duplicates are natural and therefore the    inition 1 on S. Consider the following operations:
-              semantics of any anomaly detection algorithm has to ac-       Insertion: Given T drawn from distribution RRCF(S)
-              commodatethem.
-              Duplicate Resilience.    Consider the notion that Waldo       and p 
-∈ S produce a T′ drawn from RRCF(S ∪{p}).
-              has a few friends who help him hide – these friends are       Deletion: GivenT drawnfromdistributionRRCF(S)and
-              colluders; and if we were to get rid of all the colluders     p ∈ S produceaT′ drawnfromRRCF(S−{p}). Weneed
-              then the description changes signiﬁcantly. Speciﬁcally, in-   the following simple observation.
-              stead of just removing the point x we remove a set C with     Observation 1 Separating a point set S and p using an
-              x∈C.AnalogoustoEquation(1),                                   axis-parallel cut is possible if and only if it is possible to
-                                                                            separate the minimal axis-aligned bounding box B(S) and
-                 ET(Z)[|M(T)|]−ET(Z−C)[|M(T(Z −C)|]                         pusing an axis-parallel cut.
-                        =D                                                ThenextlemmaprovidesastructuralpropertyaboutRRCF
-                             ISP(C,Z)+            Pr[T]f(y,Z,T) (2)         trees. We are interest in incremental updates with as few
-                                          T y∈C                             changes as possible to a set of trees. Note that given a spe-
-              where DISP(C,Z) is the notion of displacement extended        ciﬁc tree we have two exhaustive cases, that (i) the new
-              to subsets denoted as, where T′′ = T(Z − C),                  point which is to be deleted (respectively inserted) is not
-                                                                         separated by the ﬁrst cut and (ii) the new point is deleted
-                          Pr[T] f(y,Z,T)−f(y,Z−C,T′′)                (3)    (respective inserted) is separated by the ﬁrst cut. Lemma 3
-                                                                            addresses these for collections of trees (not just a single
-                 T,y∈Z−C                                                    tree) that satisfy (i) and (ii) respectively.
-              Absent of any domain knowledge it appears that the dis-       Lemma3 Given point p and set of points S with an axis
-              placement should be attributed equally to all the points in   parallel minimal bounding box B(S) such that p 
-∈ B:
-              C. Therefore a natural choice of determining C seems to
-              be maxDISP(C,Z)/|C| subject to x ∈ C ⊆ Z. However               (i) For any dimension i, the probability of choosing an
-              twoproblemsarise. FirsttherearetoomanysubsetsC,and                 axis parallel cut in a dimension i that splits S using
-              second, in a streaming setting it is likely we would be using      the weighted isolation forest algorithm is exactly the
-              a sample S ⊂ Z. Therefore the supposedly natural choice            same as the conditional probability of choosing an
-              does not extend to samples. To avoid both issues, we al-           axis parallel cut that splits S ∪{p} in dimension i,
-              lowthechoice of C to be different for different samples S;         conditioned on not isolating p from all points of S.
-              in effect we are allowing Waldo to collude with different      (ii) Given a random tree of RRCF(S ∪{p}), condi-
-              membersindifferent tests! This motivates the following:            tionedonthefacttherstcutisolatespfromallpoints
-              Denition 3 TheCollusiveDisplacementofxdenotedby                   of S, the remainder of the tree is a random tree in
-              CODISP(x,Z,|S|)ofapointxisdenedas                                 RRCF(S).
-                                                                            3.1. Deletion of Points
-                                                                            WebeginwithAlgorithm1whichisdeceptively simple.
-                                             RobustRandomCutForestBasedAnomalyDetectionOnStreams
-               Algorithm 1 Algorithm ForgetPoint.                               Algorithm 2 Algorithm InsertPoint.
-                1: Find the node v in the tree where p is isolated in T.          1: We have a set of points S′ and a tree T(S′). We want
-                2: Let u be the sibling of v. Delete the parent of v (and of         to insert p and produce tree T′(S′ ∪{p}.
-                   u) and replace that parent with u (i.e., we short circuit      2: If S′ =  then we return a node containing the single
-                   the path from u to the root).                                     node p.
-                3: Updateallboundingboxesstartingfromu’s(new)par-                                 ′                          ′       ℓ  h
-                                                                                  3: Otherwise S has a bounding box B(S )=[x ,x]×
-                                                                                                                                     1  1
-                   ent upwards – this state is not necessary for deletions,            ℓ   h          ℓ  h         ℓ    h
-                                                                                     [x ,x]×···[x ,x]. Letx ≤ x foralli.
-                                                                                       2   2          d  d         i    i
-                   but is useful for insertions.                                                  ℓ              ℓ        h            h
-                                                                                  4: For all i let x =min{p ,x} and x =max{x ,p}.
-                                                                                                  i           i  i        i            i  i
-                4: Return the modiﬁed tree T′.                                                                          
-                                                                                                                              h     ℓ
-                                                                                  5: Choose a random number r ∈ [0,        (x  −x )].
-                                                                                                                          i   i     i
-                                                                                  6: This r corresponds to a speciﬁc choice of a cut in the
-               Lemma4 If T were drawn from the distribution                          construction of RRCF(S′∪{p}). Forinstancewecan
-               RRCF(S) then Algorithm 1 produces a tree T′ which                                          j       h     ℓ
-                                                                                     compute argmin{j|           (x −x ) ≥ r} and the cut
-               is drawn at random from the probability distribution                                          i=1   i  i
-                                                                                                                ℓ       j     h     ℓ
-                                                                                     corresponds to choosing x +          (x  −xi) − r in
-               RRCF(S−{p}).                                                          dimension j.               j       i=1   i
-               Lemma5 The deletion operation can be performed in                  7: If this cut separates S′ and p (i.e., is not in the interval
-                                                                                       ℓ   h
-                                                                                     [x ,x]) then and we can use this as the ﬁrst cut for
-               time O(d) times the depth of point p.                                   j   j
-                                                                                     T′(S′ ∪{p}). We create a node – one side of the cut is
-               Observethatifwedeletearandompointfromthetree,then                     pandtheother side of the node is the tree T(S′).
-               the running time of the deletion operation is O(d) times the       8: If this cut does not separate S′ and p then we throw
-               expected depth of any point. Likewise if we delete points             away the cut! We choose the exact same dimension as
-               whose depth is shallower than most points in the tree then            T(S′) in T′(S′ ∪{p}) and the exact same value of the
-               wecanimprovetherunningtimeofLemma5.                                   cut chosen by T(S′) and perform the split. The point p
-                                                                                     goes to one of the sides, say with subset S′′. We repeat
-               3.2. Insertion of Points                                              this procedure with a smaller bounding box B(S′′) of
-                                                                                     S′′. For the other side we use the same subtree as in
-               GivenatreeT fromRRCF(S)weproduceatreeT′ from                          T(S′).
-               the distribution RRCF(S ∪{p}). The algorithm is pro-               9: In either case we update the bounding box of T′.
-               vided in Algorithm 2. Once again we will couple the deci-
-               sions that is mirror the same split in T′ as in T, as long as
-               p is not outside a bounding box in T. Up to this point we        Example1(IRRELEVANTDIMENSIONS.) Suppose                   we
-               are performing the same steps as in the construction of the      have two clusters of 1000 points each corresponding to
-               forest on S ∪{p}, with the same probability.                     x1 = ±5 in the rst dimension, and xi =0in all remain-
-               Lemma6 If T were drawn from the distribution                     ing dimensions i.    In all coordinates (including x1)we
-               RRCF(S) then Algorithm 1 produces a tree T′ which                add a random Gaussian noise with mean 0 and standard
-               is drawn at random from the probability distribution             deviation 0.01 simulating white noise. Now consider 10
-               RRCF(S∪{p}).                                                     points with x1 =0and the same behavior in all the other
-                                                                                coordinates. When d =2the small cluster of points in the
-                                                                                center is easily separated by the isolation forest algorithm
-               4. Isolation Forest and Other Related Work                       which treats the dimensions independently. When d =30
-                                                                                the vast majority of cuts are in irrelevant dimensions, and
-               4.1. The Isolation Forest Algorithm                              the algorithm fails (when run on entire data) as shown in
-               Recall that the isolation forest algorithm uses an ensem-        Figure 1a for a single trial over 100 trees. For 10 trials
-               ble of trees similar to those constructed in Deﬁnition 1,        (for the same data set), the algorithm determined that 430,
-               with the modiﬁcation that the dimension to cut is chosen         270, 147, 220, 48, 244, 193,158, 250 and 103 points had
-               uniformly at random. Given a new point p, that algorithm         the same of higher anomaly score than the point with the
-               follows the cuts and compute the average depth of the point      highest anomaly score among the 10 points (the identity of
-               acrossacollectionoftrees. Thepointislabeledananomaly             this point varied across the trials).
-               if the score exceeds a threshold; which corresponds to av-       In essence, the algorithm either produces too many false
-               erage depth being small compared to log|S| where S is            alarms or does not have good recall. Note that AUC is
-               suitably sized sample of the data.                               not a relevant measure here since the class sizes between
-               The advantage of the isolation forest is that different di-      anomalous and non-anomalous are skewed, 1 : 200. The
-               mensionsaretreatedindependentlyandthealgorithmisin-              results were consistent across multiple data sets generated
-               variant to scaling different dimensions differently. How-        according to the example. Figure 3b shows a correspond-
-               ever consider the following example.                             ing single trial using CODISP(). The CODISP() measure
-                                                                                places the 10 points in the largest 20 values most of the
-                                                      RobustRandomCutForestBasedAnomalyDetectionOnStreams
-                  time. Example 1 shows that scale independence therefore                        4.2. Other Related Work
-                  can be negative feature if distance is a meaningful concept                    The problem of (unsupervised) outlier detection has a rich
-                  in the dataset. However in many tasks that depend on de-                       literature. We survey some of the work here; for an exten-
-                  tecting anomalies, the relevance of different dimensions is                    sive survey see (Aggarwal, 2013; Chandola et al., 2009)
-                  often unknown. The question of determining the appro-                          and references therein.         We discuss some of techniques
-                  priate scale of measurement often has far reaching conse-                      which are unrelated to the concepts already discussed.
-                  quences in data analysis.
-                                                                                                 Perhaps the most obvious deﬁnition of an anomaly is
-                                    0.1                                    0.3                   density based outlier detection, which posits that a low-
-                                     0                                     0.2                   probability events are likely anomalous. This has led to dif-
-                                                                           0.1                   ferent approaches based on estimating the density of data
-                                   -0.1                                                          sets. For points in Rn, Knorr & Ng (1997; 1998; 1999);
-                                     -6 -4  -2  0                 0     0.1
-                                                   2   4  6-0.1                                  Knorr et al. (2000) estimate the density by looking at the
-                  (a) Performance of Isolation Forest (Liu et al., 2012). Note that              numberofpointsthatarewithinaballofradiusdofagiven
-                  the score never exceeds 0.3 whereas a score of 0.5 corresponds to              data point. The lower this number, the more anomalous the
-                  an outlier. Note also that the two clusters are not distinguishable            data point is. This approach may break down when differ-
-                  from the 10 points near origin outliers in depth values (color).               ent parts of the domain have different scales. To remedy
-                                                                                                 this, there a methods (Breunig et al., 1999; 2000) that look
-                                                                                                 at the density around a data point compared to its neigh-
-                                                                           200
-                                     0.1                                   150                   borhood. A variation of the previous approach is to con-
-                                                                           100
-                                      0                                    50                    sider a ﬁxed k number of nearest neighbors and base the
-                                    -0.1                                   0                     anomaly score on this (Eskin et al., 2002; Zhang & Wang,
-                                                                       0.1                       2006). Here the anomaly score is monotonically increas-
-                                     -6 -4  -2                    0
-                                                0   2  4   -0.1                                  ing in the distances to the k nearest-neighbors. Taking the
-                                                           6
-                  (b) Performance of CODISP(x,Z,|Z|). Observe that the clus-                     idea of density one step further, some authors have looked
-                  ters and outliers are separated; some of the extremal points in the            at ﬁnding structure in the data through clustering. The intu-
-                  clusters have the same (collusive) displacement as the 10 points               ition here is that for points that cannot easily be assigned to
-                  near the origin, which is expected.                                            a cluster, there is no good explanation for their existence.
-                                                                                                 There are several clustering algorithms that work well to
-                  Figure 3. The result of running isolation forest and CODISP() on               cluster part of the data, such as DBSCAN (Ester et al.,
-                  the input in Example 1 for d =30.                                              1996) and STREAM (Guha et al., 2003). Additionally,
-                                                                                                 FindOut (Yu et al., 2002) removes points it cannot clus-
-                  Amodiﬁedversion of the above example also is helpful in                        ter, and then recurses. Finally the notion of sketching used
-                  arguingwhydepthofapointisanotalwayshelpfulinchar-                              in this paper is orthogonal to the notion used in (Huang
-                  acterizing anomalies, even in low dimensions. Consider,                        &Kasiviswanathan, 2015) which uses streaming low rank
-                                                                                                 approximation of the data.
-                  Example2(HELDOUTDATA.) Consider                           the      same
-                  dataset as in Example 1 in d =2dimensions. Suppose                             5. Experiments
-                  that we have only sampled 100 points and all the samples                       In the experiments, we focus on datasets where anomalies
-                  correspondtox1 = ±5. Supposewenowwanttoevaluate:                               are visual, veriﬁable and interpretable. We begin with a
-                  is the point (0,0) an anomaly? Based on the samples the                        synthetic dataset that captures the classic diurnal rhythm of
-                  natural answer is yes. The scoring mechanism of isolation                      human activity. We then move to a real dataset reﬂecting
-                  forest algorithm fails because once the two clusters are                       taxi ridership in New York City. In both cases, we compare
-                  separated, this new point (0,0) behaves as a point in one                      the performance of RRCF with IF.
-                  of the two other clusters! The situation however changes
-                  completely if we include (0,0) to build the trees.                             Atechniquethatturnsouttobeusefulfordetectinganoma-
-                  The example explains why the isolation forest algorithm                        lies in streams is shingling. If a shingle of size 4 is passed
-                  is sensitive to sample size. However most anomalies are                        over a stream, the ﬁrst 4 values of the stream received
-                                                                                                 at time t ,t,t,t are treated as a 4-dimensional point.
-                  notusuallyseeninsamples–anomalydetectionalgorithms                                        1   2   3   4
-                                                                                                 Then, at time t , the values at time t ,t,t,t are treated
-                  should be measured on held out data. Note that Theorem 5                                          5                          2   3   4   5
-                  can efﬁciently solve the issue raised in Example 2 by an-                      as as the next four-dimensional point. The window slides
-                  swering the contrafactual question of what is the expected                     over one unit at each time step. A shingle encapsulates a
-                  height has we observed (0,0) in the sample (without re-                        typical shape of a curve – a departure from a typical shape
-                  building the trees). However expected depth seems to gen-                      could be an anomaly.
-                  erate more false alarms, as we investigate this issue further
-                  in the supplementary material.
-                                                                                                                                        RobustRandomCutForestBasedAnomalyDetectionOnStreams
-                                            5.1. Synthetic Data                                                                                                                                                                                    Figure 4b which shows the result of running RRCF on the
-                                            Many real datasets implicitly reﬂect human circadian                                                                                                                                                   same sine wave. Observe that the two highest scoring mo-
-                                            rhythms. For example, an eCommerce site may monitor                                                                                                                                                    ments in the stream are the end and the beginning of the
-                                            the number of orders it receives per hour. Search engines                                                                                                                                              anomaly. The anomaly is successfully detected by RRCF.
-                                            may monitor search queries or ad clicks per minute. Con-                                                                                                                                               While the result of only a single run is shown, the exper-
-                                            tent delivery networks may monitor requests per minute. In                                                                                                                                             iment was repeated many times and the picture shown in
-                                            these cases, there is a natural tendency to expect higher val-                                                                                                                                         Figure 4 is consistent across all runs.
-                                            ues during the day and lower values at night. An anomaly                                                                                                                                               5.2. Real Life Data: NYC Taxicabs
-                                            mayreﬂect an unexpected dip or spike in activity.
-                                            In order to test our algorithm, we synthetically generated a                                                                                                                                           Next we conduct a streaming experiment using taxi rid-
-                                            sine wave where a dip is artiﬁcially injected around times-                                                                                                                                            ership data from the NYC Taxi Commission2. We con-
-                                            tamp 500 that lasts for 20 time units. The goal is to deter-                                                                                                                                           sider a stream of the total number of passengers aggregated
-                                            mine if our anomaly detection algorithm can spot the be-                                                                                                                                               over a 30 minute time window. Data is collected over a 7-
-                                            ginning and end of the injected anomaly. The experiments                                                                                                                                               month time period from 7/14 – 1/15. Note while this is a
-                                            were run with a shingle of length four, and one hundred                                                                                                                                                1-dimensionaldatasets, wetreatitasa48-dimensionaldata
-                                            trees in the forest, where each tree is constructed with a                                                                                                                                             set where each point in the stream is represented by a slid-
-                                            uniform random reservoir sample of 256 points. We treat                                                                                                                                                ing window or shingle of the last day of data, ignoring the
-                                            the dataset as a stream, scoring a new point at time t +1                                                                                                                                              ﬁrst day of data. The intuition is that the last day of activity
-                                            with the data structure built up until time t.                                                                                                                                                         captures a typical shape of passenger ridership.
-                                                                                                                                                                                                                                                   The following dates were manually labeled as anomalies
-                                                                                                               
-
-	
-                                                                                    based on knowledge of holidays and events in NYC (Lavin
-                                                "                                                                                                                                                                                             & Ahmad, 2015): Independence Day (7/4/14-7/6/14),
-                                                                                                                                                                                                                         %!
-                                                                                                                                                                                                                            %                   Labor Day (9/1/14), Labor Day Parade (9/6/14), NYC
-                                                
-                                                                                                                                                                                                                            $!                  Marathon (11/02/14), Thanksgiving (11/27/14), Christmas
-                                                                                                                                                                                                                        $
-                                                 $                                                                                                                                                                        #!                  (12/25/14), NewYearsDay(1/1/15),NorthAmericanBliz-
-                                                 "                                                                                                                                                                        #                   zard (1/26/15-1/27/15).                                                            For simplicity, we label a 30-
-                                                                                                                                                                                                                            "!
-                                                  
-                                                                                                                                                                                                                            "                   minutewindowananomalyifitoverlapsoneofthesedays.
-                                                                                                                                                                                                                         !!
-                                                                                                                                                                                                                        !
-                                                           # !""#%%!$  !##$%"%! $"# $#"%!"!#$%   #    !" "% $ %!!$!! ! #!"!#!$"!%%""!"$"!"" "##"%##"#%
-                                                                                                                                                                                                                                               Stream We treat the data as a stream – after observing
-                                            (a) The bottom red curve reﬂects the anomaly score produced by                                                                                                                                         points 1,...,i, our goal is to score the (i +1)st point. The
-                                            IF. Note that the start of the anomaly is missed.                                                                                                                                                      score that we produce for (i +1)is based only on the pre-
-                                                                                                                                                                                                                                                   vious data points 1,...,i, but not their labels. We use IF as
-                                                                                                               			
-         	                                                                            the baseline. While a streaming version was subsequently
-                                                                                                                                                                                                                                           published (Tan et al., 2011), since it was not found to im-
-                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                                prove over IF (Emmott et al., 2013), we consider a more
-                                                   
-                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                            straightforward adaptation. Since each tree in the forest is
-                                                                                                                                                                                                                                             created based on a random sample of data, we simply build
-                                                                                                                                                                                                                       
-                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                eachtreebasedonarandomsampleofthestream,e.g.,uni-
-                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                             form or time-decayed as previously referenced. Our aim
-                                                                                                                                                                                                                      
-                                                                             here is to compare to the baseline with respect to accuracy,
-                                                                                                                                                                                                                                               not running time. Each tree can be updated in an embar-
-                                            (b) The bottom red curve represents the anomaly score produced                                                                                                                                         rassingly parallel manner for a faster implementation.
-                                            byRRCF.Boththebeginningandendoftheanomalyarecaught.
-                                                                                                                                                                                                                                                   Metrics                          To quantitatively evaluate our approach, we re-
-                                            Figure 4. Thetopbluecurverepresentsasinewavewithanartiﬁ-                                                                                                                                               port on a number of precision/recall-related metrics. We
-                                            cially injected anomaly. The bottom red curve shows the anomaly                                                                                                                                        learn a threshold for a good score on a training set and re-
-                                            score over time.                                                                                                                                                                                       port the effectiveness on a held out test set. The training set
-                                                                                                                                                                                                                                                   contains all points before time t and the test set all points
-                                            In Figure 4a, we show the result of running IF on the sine                                                                                                                                             after time t. The threshold is chosen to optimize the F1-
-                                            wave. For anomalies, detecting the onset is critical – and                                                                                                                                             measure (harmonic mean of precision and recall). We fo-
-                                            even more important than detecting the end of an anomaly.                                                                                                                                              cusourattentiononpositiveprecisionandpositiverecallto
-                                            Note that IF misses the start of the anomaly at time 500.                                                                                                                                              avoid“boywhocriedwolf”effects(Tsien&Fackler,1997;
-                                            The end of the anomaly is detected, however, by then the                                                                                                                                               Lawless, 1994).
-                                            systemhascomebacktoitsnormalstate–itisnotusefulto
-                                            ﬁre an alarm once the anomaly has ended. Next, consider                                                                                                                                                          2http://www.nyc.gov/html/tlc/html/about/trip record data.shtml
-                                                                      RobustRandomCutForestBasedAnomalyDetectionOnStreams
-                                                        Table 1. Comparison of Baseline Isolation Forest to proposed Robust Random Cut Forest
-                                             Method          Sample              Positive             Positive            Negative            Negative            Accuracy                   AUC
-                                                                  Size         Precision                Recall           Precision                Recall
-                                             IF                    256       0.42 (0.05)          0.37 (0.02)         0.96 (0.00)          0.97 (0.01)          0.93 (0.01)          0.83 (0.01)
-                                             RRCF                  256       0.87 (0.02)          0.44 (0.04)         0.97 (0.00)          1.00 (0.00)          0.96 (0.00)          0.86 (0.00)
-                                             IF                    512       0.48 (0.05)          0.37 (0.01)         0.97 (0.01)          0.96 (0.00)          0.94 (0.00)          0.86 (0.00)
-                                             RRCF                  512       0.84 (0.04)          0.50 (0.03)         0.99 (0.00)          0.97 (0.00)          0.96 (0.00)          0.89 (0.00)
-                                             IF                  1024        0.51 (0.03)          0.37 (0.01)         0.96 (0.00)          0.98 (0.00)          0.94 (0.00)          0.87 (0.00)
-                                             RRCF                1024        0.77 (0.03)          0.57 (0.02)         0.97 (0.00)          0.99 (0.00)          0.96 (0.00)          0.90 (0.00)
-                              Method             Segment              Segment                  Timeto                 Timeto              Prec@5             Prec@10              Prec@15              Prec@20
-                                                Precision                Recall        Detect Onset              Detect End
-                              IF              0.40 (0.09)          0.80 (0.09)          22.68 (3.05)           23.30 (1.54)           0.52 (0.10)          0.50 (0.00)         0.34 (0.02)          0.28 (0.03)
-                              RRCF            0.65 (0.14)          0.80 (0.00)          13.53 (2.05)           10.85 (3.89)           0.58 (0.06)          0.49 (0.03)         0.39 (0.02)          0.30 (0.00)
-                                                                                    Table 2. Segment-Level Metrics and Precision@K
-                       For the ﬁner granularity data in the taxi cab data set, we                                            morealarms,butalsocatchesthemmorequickly. Theunits
-                       view the ground truth as segments of time when the data is                                            are measured in 30 minute increments – so 11 hours on av-
-                       in an anomalous state. Our goal is to quickly and reliably                                            erage to catch an alarm on the baseline and 7 hours for the
-                       identify these segments. We say that a segment is identiﬁed                                           RRCFmethod. These actual numbers are not as important
-                       in the test set if the algorithm produces a score over the                                            here, since anomaly start/end times are labeled somewhat
-                       learned threshold anytime during the segment (including                                               loosely. The difference in time to catch does matter. Preci-
-                       the sliding window, if applicable).                                                                   sion@Kisalsoreported in Table 2.
-                       Results         In the experiments, there were 200 trees in the                                       Discussion: Shingle size, if used, matters in the sense
-                       forest, each computed based on a random sample of 1K                                                  that shingles that are too small may catch naturally vary-
-                       points. Note that varying the sample size does not alter the                                          ing noise in the signal and trigger false alarms. On the
-                       nature of our conclusions. Since ridership today is likely                                            other hand, shingles that are too large may increase the
-                       similar to ridership tomorrow, we set our time-decayed                                                time it takes to ﬁnd an alarm, or miss the alarm altogether.
-                       samplingparametertothelasttwomonthsofridership. All                                                   Timedecayrequiresknowledgeofthedomain. Samplesize
-                       results are averaged over multiple runs (10). Standard de-                                            choice had less effect – with varying sample sizes of 256,
-                       viation is also reported. Figure 5 shows the result of the                                            512and1Ktheconclusionsareunchangedonthisdataset.
-                       anomaly scores returned by CODISP().
-                                                        	    	
-                                     6. Conclusions and Future Work
-                            !"         		                                	             
-                            !                                                                             &           We introduced the robust random cut forest sketch and
-                             "                                                                 %
-                                                                           	                     $           proved that it approximately preserves pairwise distances.
-                                                                                                               #
-                            "                                                                                           If the data is recorded in the correct scale, distance is
-                                                                                                               "
-                            
-                                                                                                               !           crucially important to preserve for computations, and not
-                            "                                                                              
-                                                                                                                    just anomaly detection. We adopted a model-based def-
-                            "                                                                                         inition of an anomaly that captures the differential effect
-                                                                                                             
-                                                                                                                             of adding/removing a point on the size of the sketch. Ex-
-                                                                                                                             periments suggest that the algorithm holds great promise
-                                !&# !&&!& !&!$!&$$ !&&! !" !$$ !%! !" !%  !%! % !" !%  ! !!% !"&!$  !!! ! !"&!%& !! ! !#"!%& !!! !#"!&" !!! !$!&" !#!! !$!  "#"!# "#"& ""!# "$$"& """ "$$" $ for ﬁghting alarm fatigue as well as catching more missed
-                                                                                                            
-                                                                                                                             alarms.
-                       Figure 5. NYC taxi data and CODISP(). Note that Thanksgiving                                          Webelieve that the random cut forest sketch is more bene-
-                       is not captured.                                                                                      ﬁcial than what we have established. For example, it may
-                                                                                                                             also be helpful for clustering since pairwise distances are
-                       In a more detailed evaluation, the ﬁrst set of results (Ta-                                           approximately preserved. In addition, it may help detect
-                       ble 1) show that the proposed RRCF method is more accu-                                               changepoints in a stream. A changepoint is a moment in
-                       rate than the baseline. Particularly noteworthy is RRCF’s                                             time t where before time t the data is drawn from a distri-
-                       higherpositiveprecision, whichimpliesalowerfalsealarm                                                 bution D1 and after time t the data is drawn from a distri-
-                       rate.      In Table 2, we show the segment-based results.                                             bution D2, and D1 is sufﬁciently different from D2 (Kifer
-                       Whereas Table 1 may give more credit for catching a long                                              et al., 2004; Dasu et al., 2006). By maintaining a sequence
-                       anomaly over a short one, the segment metric weighs each                                              of sketches over time, one may be able to compare two
-                       alarm equally. The proposed RRF method not only catches                                               sketches to determine if the distribution has changed.
-                                           RobustRandomCutForestBasedAnomalyDetectionOnStreams
-              Acknowledgments                                                                                            ¨
-                                                                            Ester, Martin, Kriegel, Hans-Peter, Sander, Jorg, and Xu,
-              WethankRogerBarga,CharlesElkan, and Rajeev Rastogi              Xiaowei.    A density-based algorithm for discovering
-              for many insightful discussions. We also thank Dan Blick,       clusters in large spatial databases with noise. In KDD,
-              Praveen Gattu, Gaurav Ghare and Ryan Nienhuis for their         volume 96, pp. 226–231, 1996.
-              help and support.                                             Finkel, R. A. and Bentley, J. L. Quad trees a data structure
-                                                                              for retrieval on composite keys. Acta Informatica, 4(1):
-              References                                                      1–9, 1974.
-              Aggarwal, Charu C. Outlier Analysis. Springer New York,       Guha, Sudipto, Meyerson, Adam, Mishra, Nina, Mot-
-                 2013.                                                        wani, Rajeev, and O’Callaghan, Liadan. Clustering data
-                                                                              streams: Theory and practice. IEEE Trans. Knowl. Data
-              Bentley, Jon Louis. Multidimensional binary search trees        Eng., 15(3):515–528, 2003.
-                 used for associative searching. Commun. ACM, 18(9):        Guttman, Antonin. R-trees: A dynamic index structure for
-                 509–517, September 1975. ISSN 0001-0782.                     spatial searching. In SIGMOD, pp. 47–57, 1984.
-              Breiman, Leo. Random forests. Machine Learning, pp.           Huang, Hao and Kasiviswanathan, Shiva Prasad. Stream-
-                 5–32, 2001.                                                  ing anomaly detection using randomized matrix sketch-
-              Breunig, Markus M, Kriegel, Hans-Peter, Ng, Raymond T,          ing. Proceedings of the VLDB Endowment, 9(3):192–
-                              ¨                                               203, 2015.
-                 and Sander, Jorg. Optics-of: Identifying local outliers.
-                 In PKDD,pp.262–270,1999.                                   Johnson, William B. and Lindenstrauss, Joram. Extensions
-                                                                              oflipschitz mappingsintoahilbertspace. Contemporary
-              Breunig, Markus M, Kriegel, Hans-Peter, Ng, Raymond T,          Mathematics 26. Providence, RI: American Mathemati-
-                              ¨
-                 and Sander, Jorg. Lof: identifying density-based local       cal Society, 1984.
-                 outliers. In ACM sigmod record, volume 29, pp. 93–104,
-                 2000.                                                      Kifer, Daniel, Ben-David, Shai, and Gehrke, Johannes. De-
-                                                                              tecting change in data streams. In VLDB, pp. 180–191,
-              Chandola, Varun, Banerjee, Arindam, and Kumar, Vipin.           2004.
-                 Anomaly detection: A survey. ACM computing surveys         Knorr, Edwin M and Ng, Raymond T. A uniﬁed notion of
-                 (CSUR), 41(3):15, 2009.                                      outliers: Properties and computation. In KDD, pp. 219–
-              Charikar, Moses, Chekuri, Chandra, Goel, Ashish, Guha,          222, 1997.
-                 Sudipto, and Plotkin, Serge. Approximating a ﬁnite met-    Knorr, Edwin MandNg,RaymondT. Algorithmsformin-
-                 ric by a small number of tree metrics. Proceedings of        ing distancebased outliers in large datasets. In VLDB,
-                 Foundations of Computer Science, pp. 379–388, 1998.          pp. 392–403, 1998.
-              Dasu, Tamraparni, Krishnan, Shankar, Venkatasubrama-          Knorr, Edwin M and Ng, Raymond T. Finding intensional
-                 nian, Suresh, and Yi, Ke. An information-theoretic ap-       knowledge of distance-based outliers.    In VLDB, vol-
-                 proach to detecting changes in multi-dimensional data        ume99,pp.211–222,1999.
-                 streams. In In Proc. Symp. on the Interface of Statistics,
-                 Computing Science, and Applications. Citeseer, 2006.       Knorr, Edwin M, Ng, Raymond T, and Tucakov, Vladimir.
-                                                                              Distance-based outliers: algorithms and applications.
-              Efraimidis, Pavlos S. and Spirakis, Paul G. Weighted ran-       VLDBJournal,8(3-4):237–253, 2000.
-                 domsampling with a reservoir. Information Processing       Lavin, Alexander and Ahmad, Subutai.           Evaluating
-                 Letters, 97(5):181–185, 2006.                                real-time anomaly detection algorithms-the numenta
-              Emmott,AndrewF.,Das,Shubhomoy,Dietterich,Thomas,                anomaly benchmark. arXiv:1510.03336, 2015.
-                 Fern, Alan, and Wong, Weng-Keen. Systematic con-           Lawless, Stephen T. Crying wolf: false alarms in a pedi-
-                 struction of anomaly detection benchmarks from real          atric intensive care unit. Critical care medicine, 22(6):
-                 data. In ACM SIGKDD Workshop on Outlier Detection            981–985, 1994.
-                 andDescription, pp. 16–21, 2013.
-              Eskin, Eleazar, Arnold, Andrew, Prerau, Michael, Portnoy,     Lindvall, T. Lectures on the coupling method. Wiley, New
-                 Leonid, and Stolfo, Sal. A geometric framework for un-       York, 1992.
-                                                          ´
-                 supervised anomaly detection. In Barbara, Daniel and       Liu, Fei Tony, Ting, Kai Ming, and Zhou, Zhi-Hua.
-                 Jajodia, Sushil (eds.), Applications of Data Mining in       Isolation-based anomaly detection. ACM Trans. Knowl.
-                 ComputerSecurity, pp. 77–101, Boston, MA, 2002.              Discov. Data, 6(1):3:1–3:39, March 2012.
-                                            RobustRandomCutForestBasedAnomalyDetectionOnStreams
-               Tan, Swee Chuan, Ting, Kai Ming, and Liu, Fei Tony.
-                 Fast anomaly detection for streaming data. In IJCAI, pp.
-                 1511–1516, 2011.
-               Tsien, Christine L and Fackler, James C. Poor prognosis
-                 for existing monitors in the intensive care unit. Critical
-                 care medicine, 25(4):614–619, 1997.
-               Vitter, Jeffrey S.   Random sampling with a reservoir.
-                 ACM Transactions on Mathematical Software, 11(1):
-                 3757, 1985.
-               Yu, Dantong, Sheikholeslami, Gholamhosein, and Zhang,
-                 Aidong. Findout: ﬁnding outliers in very large datasets.
-                 Knowledge and Information Systems, 4(4):387–412,
-                 2002.
-               Zhang, Ji and Wang, Hai. Detecting outlying subspaces
-                 for high-dimensional data: the new task, algorithms, and
-                 performance. Knowledge and information systems,10
-                 (3):333–355, 2006.

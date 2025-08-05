@@ -1,6 +1,0 @@
-       HOW TO WRITE PAPERS 
-     SO PEOPLE CAN READ THEM
-             Derek Dreyer 
-          MPI for Software Systems 
-             PLMW@POPL 2016 
-             St. Petersburg, Florida
