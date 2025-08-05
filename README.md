@@ -34,7 +34,7 @@ The repository also includes automated metrics to help understand the overall st
 | Average PDF | 1.17 MB |
 | Largest PDF  | 55.19 MB |
 
-## 1. Creation Year
+## 2. Creation Year
 
 | Property      | Value |
 | ------------- | ----- |
