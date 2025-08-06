@@ -8,38 +8,32 @@ ROOT: pathlib.Path = pathlib.Path(__file__).parent
 PDF_DIR: pathlib.Path = ROOT / "pdf"
 TXT_DIR: pathlib.Path = ROOT / "txt"
 
-
-def file_size_to_legible(s: int) -> str:
+def file_size_to_legible(s: int ) -> str:
     # smaller than 1Kb
     if s < 1024:
         return f"{s:.2f} KB"
     # Smaller than 1 Mb
     elif s < 1024 * 1024:
-        s /= 1024 * 1024
+        s /= (1024*1024)
         return f"{s:.2f} MB"
     # Smaller than 1 Gb
     elif s < 1024 * 1024 * 1024:
-        s /= 1024 * 1024
+        s /= (1024*1024)
         return f"{s:.2f} MB"
     # Default
     else:
-        s /= 1024 * 1024 * 1024
+        s /= (1024*1024*1024)
         return f"{s:.2f} GB"
-
 
 def get_creation_year(pdf_file: pathlib.Path) -> typing.Optional[int]:
     try:
         from PyPDF2 import PdfReader, DocumentInformation
-
         reader: PdfReader = PdfReader(pdf_file)
         metadata: typing.Optional[DocumentInformation] = reader.metadata
-        creation_date = getattr(metadata, "creation_date", None) or metadata.get(
-            "/CreationDate"
-        )
+        creation_date = getattr(metadata, 'creation_date', None) or metadata.get('/CreationDate')
         return creation_date.year
     except:
         return None
-
 
 def main():
     content: str = ""
@@ -69,7 +63,7 @@ def main():
 
     content += "```mermaid\n"
     content += "---\n"
-    content += "config:\n"
+    content +=  "config:\n"
     content += "theme: default\n"
     content += "---\n"
     content += "graph TD\n"
@@ -142,7 +136,7 @@ def main():
             continue
         if not f.name.endswith(".pdf"):
             continue
-        year: typing.Optional[int] = get_creation_year(f)
+        year: typing.Optional[int] =  get_creation_year(f)
         if year is None:
             continue
         avg_year += year
@@ -176,13 +170,13 @@ def main():
             continue
         if not f.name.endswith(".txt"):
             continue
-        txt: str = ""
+        txt: str = ''
         try:
-            with open(f, "r") as fh:
+            with open(f, 'r') as fh:
                 txt = fh.read()
         except:
             pass
-        nof_words: int = len(re.split("[^a-zA-Z0-9]+", txt))
+        nof_words: int = len(re.split('[^a-zA-Z0-9]+', txt))
         avg_word_count += nof_words
         count += 1
         if largest_word_count is None or nof_words > largest_word_count:
@@ -205,6 +199,5 @@ def main():
     with open(ROOT / "README.md", "w") as f:
         f.write(content)
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
