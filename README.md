@@ -38,7 +38,15 @@ The repository also includes automated metrics to help understand the overall st
 
 | Property      | Value |
 | ------------- | ----- |
-| Youngest PDF | 2025 |
-| Average PDF | 2025 |
-| Oldest PDF  | 2025 |
+| Youngest PDF | 2020 |
+| Average PDF | 2014 |
+| Oldest PDF  | 1999 |
+
+## 3. Word Count
+
+| Property      | Value |
+| ------------- | ----- |
+| Largest PDF | 111173 |
+| Average PDF | 4296 |
+| Smallest PDF  | 1 |
 

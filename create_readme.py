@@ -1,27 +1,45 @@
 import datetime
 import os
 import pathlib
+import re
 import typing
 
-ROOT: pathlib.Path = pathlib.Path("borb-pdf-corpus")
+ROOT: pathlib.Path = pathlib.Path(__file__).parent
 PDF_DIR: pathlib.Path = ROOT / "pdf"
+TXT_DIR: pathlib.Path = ROOT / "txt"
 
-def file_size_to_legible(s: int ) -> str:
+
+def file_size_to_legible(s: int) -> str:
     # smaller than 1Kb
     if s < 1024:
         return f"{s:.2f} KB"
     # Smaller than 1 Mb
     elif s < 1024 * 1024:
-        s /= (1024*1024)
+        s /= 1024 * 1024
         return f"{s:.2f} MB"
     # Smaller than 1 Gb
     elif s < 1024 * 1024 * 1024:
-        s /= (1024*1024)
+        s /= 1024 * 1024
         return f"{s:.2f} MB"
     # Default
     else:
-        s /= (1024*1024*1024)
+        s /= 1024 * 1024 * 1024
         return f"{s:.2f} GB"
+
+
+def get_creation_year(pdf_file: pathlib.Path) -> typing.Optional[int]:
+    try:
+        from PyPDF2 import PdfReader, DocumentInformation
+
+        reader: PdfReader = PdfReader(pdf_file)
+        metadata: typing.Optional[DocumentInformation] = reader.metadata
+        creation_date = getattr(metadata, "creation_date", None) or metadata.get(
+            "/CreationDate"
+        )
+        return creation_date.year
+    except:
+        return None
+
 
 def main():
     content: str = ""
@@ -51,7 +69,7 @@ def main():
 
     content += "```mermaid\n"
     content += "---\n"
-    content +=  "config:\n"
+    content += "config:\n"
     content += "theme: default\n"
     content += "---\n"
     content += "graph TD\n"
@@ -124,7 +142,9 @@ def main():
             continue
         if not f.name.endswith(".pdf"):
             continue
-        year: int =  datetime.datetime.fromtimestamp(os.path.getctime(f)).year
+        year: typing.Optional[int] = get_creation_year(f)
+        if year is None:
+            continue
         avg_year += year
         count += 1
         if largest_year is None or year > largest_year:
@@ -141,11 +161,50 @@ def main():
     content += "\n"
 
     #
+    # word count
+    #
+
+    content += "## 3. Word Count\n"
+    content += "\n"
+
+    largest_word_count: typing.Optional[int] = None
+    smallest_word_count: typing.Optional[int] = None
+    avg_word_count: int = 0
+    count: int = 0
+    for f in TXT_DIR.iterdir():
+        if not f.is_file():
+            continue
+        if not f.name.endswith(".txt"):
+            continue
+        txt: str = ""
+        try:
+            with open(f, "r") as fh:
+                txt = fh.read()
+        except:
+            pass
+        nof_words: int = len(re.split("[^a-zA-Z0-9]+", txt))
+        avg_word_count += nof_words
+        count += 1
+        if largest_word_count is None or nof_words > largest_word_count:
+            largest_word_count = nof_words
+        if smallest_word_count is None or nof_words < smallest_word_count:
+            smallest_word_count = nof_words
+    avg_word_count /= count
+
+    content += "| Property      | Value |\n"
+    content += "| ------------- | ----- |\n"
+    content += f"| Largest PDF | {largest_word_count} |\n"
+    content += f"| Average PDF | {int(avg_word_count)} |\n"
+    content += f"| Smallest PDF  | {smallest_word_count} |\n"
+    content += "\n"
+
+    #
     # WRITE TO FILE
     #
 
     with open(ROOT / "README.md", "w") as f:
         f.write(content)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
