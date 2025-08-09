@@ -1,0 +1,841 @@
+Denon PerL Pro
+True Wireless In-Ear Headphones AH-C15PL
+Owner’s Manual
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+1
+
+Basic part
+Part names and functions 4
+What’s in the box 5
+Fitting your earbuds 6
+Turning your earbuds on/off 7
+Downloading the Denon Headphones app 7
+Bluetooth® operation 8
+Personalizing your earbuds 9
+Updating your Denon PerL Pro 10
+Advanced part
+Charging the earbuds and charging case 11
+Checking the earbuds battery and charging case battery 12
+Using the earbuds touch buttons 12
+Making and receiving voice calls with your earbuds 14
+Multipoint - Connecting your earbuds to multiple devices 15
+Changing ear tips and wings attachments 16
+Cleaning the earbuds 17Headphones app
+Denon Headphones app features 18
+Choosing the level of immersion 19
+ANC (Active Noise Cancellation) and social mode 20
+Changing the earbuds voice language 21
+Enabling EU volume limiter 21
+Switching and adding hearing profiles 22
+Lossless audio & Audio codecs 23
+Enabling “Spatial Audio” 24
+Enabling “High-gain mode” 24
+Enabling “ProEQ” 25
+Enabling “Multipoint” 25
+Enabling “Music Takeover” 26
+Changing “Mode” 26
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+2
+
+Troubleshooting
+Troubleshooting 27
+Resetting your earbuds 27
+If your Denon PerL Pro won't charge 27
+If your earbuds won’t perform the personalization process 28
+If your earbuds won’t connect to the Denon Headphones app 29
+If you’re having trouble connecting your earbuds via Bluetooth 29
+Bluetooth cutting in and out? 30
+If you’re having trouble making calls with your earbuds 30
+If you’re having trouble with sound quality 31
+If the touch buttons aren’t working correctly 31
+Can’t find what you’re looking for? Try the following 32
+Appendix
+Trademark information 33
+Specifications 34
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+3
+
+Part names and functions
+oCharging case
+ALED charging light
+BUSB-C charging port
+qwoEarbuds
+AVoice call microphones (x2)
+BRemovable ear tip
+CRemovable wing attachment
+DTouch buttons
+r ewqq
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+4
+
+What’s in the box
+Your Denon PerL Pro will come with:
+1. Earbuds
+2. USB-A to USB-C charging cable
+3. Charging case
+4. Multi-sized silicone ear tips (x4)
+5. Foam tips (x1)
+6. Wing attachments (x2)
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+5
+
+Fitting your earbuds
+oPut your earbuds on
+1Left and Right - Hold the ear bud marked L in your left
+hand, and the ear bud marked R in your right hand.
+2Adjust the fit - Insert the earbuds into your ears and
+slightly twist backwards to find the right fit. Your
+earbuds should feel secure and comfortable.
+3To ensure your earbuds fits comfortably, try the
+different sized ear tips and wing attachments to find
+what works best for you.
+oIf you’re using foam tips, you’ll need to:
+1Compress the foam tip by rolling your fingers.
+2Pull your ear back. Insert the entire foam tip into your
+ear and slightly twist backwards.
+3Hold in place for 15-30 seconds for foam to expand and
+create a seal.
+123
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+6
+
+Turning your earbuds on/off
+To power on:  Remove your earbuds from the charging case.
+To power off:  Place your earbuds into the charging case.
+Auto-pause behavior:  By default, your earbuds will pause playback
+when removed from your ears and resume when placed back on. Your
+earbuds will automatically power off after 60 seconds if one or both
+earbuds have been removed from your ears. You can customize the auto-
+pause behavior within the Denon Headphones app.Downloading the Denon
+Headphones app
+To set up your earbuds, you will need to personalize it via the Denon
+Headphones app.
+You can download the Denon Headphones app from:
+0iOS — the App Store
+0Android — Google Play
+Denon Headphones app system requirements:
+0iOS — iOS 9.3+ and Bluetooth® 4
+0Android — Android 5.0+ and Bluetooth® 4
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+7
+
+Bluetooth® operation
+oConnecting your earbuds with Bluetooth
+You will need to connect your earbuds to your mobile device via Bluetooth
+to access the Denon Headphones app and personalize your earbuds.
+To connect your earbuds via Bluetooth for the first time:
+1Remove your earbuds from the charging case and
+place them in your ears to turn them on.
+Your earbuds will automatically enter discoverable mode and be
+pairable if it has not been previously connected to a device.
+2On your mobile device go to “Settings” > “Bluetooth”
+3Select “Denon PerL Pro XXX”.
+XXX is the Denon PerL Pro unique pairing number.oSwapping between Bluetooth devices
+You can pair to your earbuds by entering discoverable mode. Your
+earbuds will automatically enter discoverable mode and be pairable for 2
+minutes when removed from the charging case if it has not been
+previously connected to a device. Alternatively, you can also enter
+discoverable mode by tapping and holding the touch buttons on both
+earbuds simultaneously for 2 seconds, or via “Device Settings” in the
+Denon Headphones app.
+When your earbuds is in discoverable mode, select “Denon PerL Pro XXX”
+in the Bluetooth settings of any device you would like to switch to. A voice
+prompt will announce “Bluetooth device changed.” You have now
+swapped your connection. Your earbuds will remember up to 8 devices,
+allowing you to easily switch between them without having to re-enter
+discoverable mode after initial pairing. Simply select “Denon PerL Pro
+XXX” in the Bluetooth menu of any previously paired device to reconnect.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+8
+
+Personalizing your earbuds
+Before you can start using your earbuds, you will need to create your
+unique hearing profile. Your earbuds automatically learns how you hear by
+running a quick hearing test.
+oBefore personalizing your earbuds
+1Download the Denon Headphones app.
+2In the Denon Headphones app, tap “Create an account”
+and enter your details. If you already have a Denon
+account, then tap “Log in” instead.
+3Select “Denon PerL Pro”.
+4Pair your earbuds with your mobile device.oPersonalizing your earbuds
+1In the Denon Headphones app, tap “Begin” to begin
+personalization.
+2Adjust your earbuds by rotating them back and forth
+until you see two constant ticks on the Denon
+Headphones app screen. Once you have a good fit,
+personalization starts and takes about a minute.
+3Tap “Personalised” to hear music with your hearing
+profile applied.
+4Tap the “Social Mode” button to hear your
+surroundings.
+5Customize your earbuds touch buttons. You can also
+do this later via “Device Settings”.
+Your earbuds is now personalized with your unique hearing profile.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+9
+
+Updating your Denon PerL Pro
+In order to access the latest features for your Denon PerL Pro make sure
+you update:
+oYour Denon Headphones app
+To update the Denon Headphones app, open the App Store (for iOS
+devices) or Google Play (for Android devices) to check for available
+updates.
+oYour Denon PerL Pro
+Some improvements may be added to the Denon PerL Pro with a firmware
+upgrade. These will be either automatically applied to your device or you
+may need to perform the below.
+1Open the Denon Headphones app.
+2A message will appear that an update is available, tap
+“Start update”, or, tap menu icon (
+ ) > “Device
+Settings” > “Software update” > “Start update”
+3Your upgrade will begin.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+10
+
+Charging the earbuds and charging case
+The earbuds battery provides 8 hours of wireless use, and up to 32 hours of use when using the charging case.
+0To charge your earbuds
+Place them in the charging case and close the lid. Your earbuds shuts down and charges when placed inside the charging case. Your charging case
+holds multiple full charges for your earbuds so you can charge on the move. To keep your earbuds charged, put them in the charging case when you're
+not using them. The earbuds take approximately two hours to fully charge via the charging case.
+0To charge your charging case via USB
+Connect the case to the included USB-C charging cable and plug it into a computer or wall adapter. The LED lights will pulse when charging. Once fully
+charged, the LED lights will turn green. The charging case takes approximately one hour to fully charge via the charging cable.
+0To charge your charging case via wireless charging
+Place the charging case on the wireless charging pad with the Denon logo facing upward. When charging, refer to the operating instructions supplied
+with the wireless charging pad. The charging case takes approximately two hours to fully charge via a compatible wireless charging pad.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+11
+
+Checking the earbuds battery and
+charging case battery
+The charging case has 3 RGB LEDs which turn on for 4 seconds when
+opening the lid. They indicate the level of charge of:
+wqe
+ALeft earbud
+BCharging case
+CRight earbud
+0Red LED = battery below 30%
+0Yellow LED = battery between 30% - 70%
+0Green LED = battery above 70%
+You can check the exact battery level of your earbuds via the Denon
+Headphones app: while wearing your earbuds, open the Denon
+Headphones app and check the battery indicator in the top-right corner of
+the screen.
+A voice prompt will announce “battery low” when your earbuds needs
+charging.
+A voice prompt will announce “battery critical” when your earbuds is about
+to power off.Using the earbuds touch buttons
+The earbuds has touch buttons on each side that you can tap to perform
+useful functions.
+oYou can customize your touch buttons in the
+Denon Headphones app
+1Open the Denon Headphones app with your earbuds
+connected via Bluetooth to your device.
+2 Tap on the menu icon at the top left (
+ ) .
+3Tap on “Device Settings” > “Configure touch buttons”.
+4Choose the tap controls you wish to adjust.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+12
+
+oTap/Double tap/Triple tap/Double tap and hold
+gestures
+In the Denon Headphones app, the following functions can be assigned to
+each Tap/Double tap/Triple tap/Double tap and hold operation.
+0Enable/disable social mode
+0Enable/disable social mode and pause
+0Voice assistant
+0Play/Pause
+0Play/Pause music & Answer calls/Hang-up calls
+0Play/Pause music & Answer calls
+0Next Track
+0Previous Track
+0Enable/disable Immersion Mode
+0Increase immersion level
+0Decrease immersion level
+0Volume up
+0Volume down
+0Enable/disable SpatialoTap and hold
+Tap and hold both touch buttons for 2 seconds to enter discoverable
+mode.
+Tap and hold one of the touch buttons for 10 seconds to perform a hard
+reset on the corresponding earbud. Earbuds reset independently. To reset
+both sides, tap and hold both touch buttons for 10 seconds, or return them
+to the charging case.
+Tap and hold touch button gestures are not user configurable.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+13
+
+Making and receiving voice calls
+with your earbuds
+The earbuds includes highly sensitive microphones for enhanced voice
+call quality.
+When your earbuds is connected via Bluetooth, you can answer voice
+calls:
+0Directly on your phone;
+0Or by using the earbuds touch buttons, if the answer call function has
+been assigned to a touch button within the Denon Headphones app.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+14
+
+Multipoint - Connecting your earbuds to multiple devices
+Your earbuds can be connected to two devices simultaneously. To
+connect to a second device:
+1Enter discoverable mode by tapping and holding both
+touch buttons, or disconnect from the first device.
+2Select “Denon PerL Pro XXX” in the Bluetooth settings
+of the second device you want to connect to. You will
+hear “Bluetooth connected”.
+3Reconnect to the first device by selecting “Denon PerL
+Pro XXX” in the Bluetooth settings. You will hear
+“Multipoint connected”.oComputers
+Mac
+1On your Mac, choose “Apple menu” > “System
+Preferences”, then click Bluetooth.
+2Select “Denon PerL Pro XXX” on the device list.
+PC
+1Click the Bluetooth icon on your computer’s taskbar.
+2From Bluetooth & other devices, click add Bluetooth or
+other device.
+oTVs
+Audio configurations on TVs vary. Check your TV’s connectivity is
+compatible with Denon PerL Pro connectivity.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+15
+
+Changing ear tips and wings attachments
+oChanging your earbuds ear tips
+The Denon PerL Pro comes with five ear tip sizes. Try all the ear tip sizes
+to find the ones that best fit your ears. You’ll know you have a good seal if
+the sound around you quietens when you put on your earbuds.
+To remove an ear tip gently pull with your fingers at the base of the ear tip,
+where it is attached to the earbuds.
+To attach an ear tip, push the new ear tip all the way down over the
+opening and onto the earbuds.oChanging the earbuds wings attachments
+The Denon PerL Pro comes with two wing sizes/types.
+Try both wing sizes to find the ones that best fit your ears. The earbuds
+can also be used without the wings.
+To change the earbuds wings:
+1Gently pull the wing to remove.
+2Push the new wing onto the earbuds.
+3Check the new wing is pushed on all the way.
+4To check the wings are fitted correctly, the hole on the
+wing should be aligned with the notch on your
+earbuds. The earbuds should fit comfortably in your
+ear and create a seal. You will know you have a good
+seal if the sound around you quietens.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+16
+
+Cleaning the earbuds
+Your earbuds needs cleaning from time to time.
+Please note: Never use alcohol, cleaning solvents, or strong detergents
+when cleaning the earbuds.
+To clean the ear tips:
+1Remove the ear tips, and wash them with water and a
+mild detergent.
+2Rinse and dry the ear tips and set aside.
+3Reattach the ear tips.
+4Wipe the earbuds with a soft, damp cloth.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+17
+
+Denon Headphones app features
+Read on for everything that you need to know about the Denon Headphones app.
+With the Denon Headphones app, you can adjust the level of immersion, change or add hearing profiles, check battery status, enable/disable ANC and
+social mode, and more.
+To set up the earbuds with the Denon Headphones app, remove the earbuds from the charging case and connect them to the Denon
+Headphones app.
+AMenu
+BEqualizer
+CAdd new profile
+DShare profile
+EBattery
+FChange profile
+GUnique hearing profile
+HPersonalised mode
+ISpatial audio
+JImmersion
+KSocial mode
+qt
+y
+u
+oi
+Q1r
+Q0ew
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+18
+
+Choosing the level of immersion
+1Open the Denon Headphones app.
+2Use the immersion slider to choose your preferred
+level of bass.
+Please note: Always set your immersion to a comfortable, moderate level
+when using your earbuds for an extended period of time.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+19
+
+ANC (Active Noise Cancellation) and social mode
+ANC (Active Noise Cancellation) reduces outside noise so you can focus
+on your music.
+Social mode passes outside sound into your earbuds so you can hear
+conversations and your surroundings. ANC is enabled by default.
+You can toggle between ANC and social mode via the touch buttons or in-
+app:
+oTouch buttons
+You can configure the touch buttons to enable/disable social mode in the
+Denon Headphones app. This will toggle between social mode and ANC.
+oIn-app
+Tap the social mode button on the homepage of the Denon Headphones
+app.oEnabling/disabling social mode & ANC
+1Open the Denon Headphones app with your earbuds
+connected via Bluetooth to your device.
+2 Tap on the menu icon at the top left (
+ ) .
+3Tap on “Device Settings”.
+4Scroll down to “Enable Social Mode & ANC (Active
+Noise Cancellation)”.
+5Tap on the button to completely enable or disable
+social mode & ANC.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+20
+
+Changing the earbuds voice
+language
+The earbuds voice guides you through personalizing your earbuds,
+announces the battery level and identifies connected devices. To change
+the language:
+1Open the Denon Headphones app.
+2 Tap on the menu icon at the top left (
+ ) .
+3Tap on “Device Settings” > “Change voice language”.
+4Choose your preferred language.
+5To confirm the change, tap “Yes”.
+Please note: It takes approximately 10 minutes for the voice language to
+change.Enabling EU volume limiter
+To change the EU volume limit setting:
+1Open the Denon Headphones app with your earbuds
+connected via Bluetooth to your device.
+2 Tap on the menu icon at the top left (
+ ) .
+3Tap on “Device Settings”.
+4Scroll down to “Enable EU volume limiter”.
+5Tap on the setting to toggle it on or off.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+21
+
+Switching and adding hearing profiles
+You can store up to three hearing profiles on your earbuds at a time.
+oSwitching profiles
+1Open the Denon Headphones app.
+2Tap profile name on the Denon Headphones app
+homepage.
+3Tap the hearing profile you’d like to switch to.oAdding a hearing profile
+1Open the Denon Headphones app.
+2Tap “Add Profile” on the Denon Headphones app
+homepage at the top center.
+3If you own the earbuds you are using, select “Owner”.
+If you are using someone else’s earbuds, select
+“Another person”.
+4Follow the app prompts to add your new hearing
+profile.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+22
+
+Lossless audio & Audio codecs
+Your Denon PerL Pro will automatically use the highest quality audio
+codec that is supported by the connected device. To experience Lossless
+Audio over Bluetooth, simply connect your earbuds to a source device that
+supports Qualcomm aptX Lossless. Please check the manual of your
+source device for compatibility.
+Denon PerL Pro supports the following codecs:
+0aptX Lossless (44.1 kHz/16-bit)
+0aptX Adaptive (up to 96 kHz/24-bit)
+0aptX Classic
+0AAC
+0SBC
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+23
+
+Enabling “Spatial Audio”
+Spatial audio allows you to experience an expanded soundscape that
+includes all the spatial cues of the original stereo content as if it were
+coming from a pair of high-end studio monitors. Spatial audio does not
+have any head-tracking capabilities, but it can be used with any stereo
+Bluetooth source.
+You can enable “Spatial Audio” via the touch buttons or in-app:
+oTouch buttons
+You can assign “Spatial Audio” to the tap function on either side by
+customizing the tap functions within the Denon Headphones app.
+oIn-app
+Tap the spatial audio button on the homepage of the Denon Headphones
+app OR:
+1 Tap on the menu icon at the top left (
+ ) .
+2Tap on “Device Settings”.
+3Scroll down to “Spatial Audio”.
+4Tap on the setting to toggle it on or off.Enabling “High-gain mode”
+High-gain mode allows you to increase the volume output of your earbuds
+by +6db
+Turning “High-gain mode” On/Off:
+1Open the Denon Headphones app with your earbuds
+connected via Bluetooth to your device.
+2 Tap on the menu icon at the top left (
+ ) .
+3Tap on “Device Settings”.
+4Scroll down to “High-gain mode”.
+5Tap on the setting to toggle it on or off.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+24
+
+Enabling “ProEQ”
+ProEQ allows for manual fine tuning of your hearing profile via the Denon
+Headphones app, simply press the ProEQ icon and adjust the 5 sliders.Enabling “Multipoint”
+In the “Device Settings” you can find which devices are paired to your
+earbuds. If you do not want to use “Multipoint” you can turn it off in the
+Denon Headphones app:
+1 Menu icon at the top left (
+ ).
+2Tap on “Device Settings”.
+3Scroll down to “Multipoint”.
+4Tap on the setting to toggle it on or off.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+25
+
+Enabling “Music Takeover”
+This function controls the way you transition from “Device 1” to “Device 2”
+when you are using “Multipoint”.
+By default your earbuds is set to “Music Takeover” which allows you to
+switch from “Device 1” to “Device 2” by pressing play on the “Device 2”
+and vice versa.
+You can turn this setting off in the Denon Headphones app.
+When “Music Takeover” is off you will have to pause “Device 1” before
+being able to play on “Device 2”.
+You can turn “Music Takeover” off in the Denon Headphones app:
+1 Menu icon at the top left (
+ ).
+2Tap on “Device Settings”.
+3Scroll down to “Music Takeover”.
+4Tap on the setting to toggle it on or off.Changing “Mode”
+Your Denon PerL Pro has 2 setting preset modes to select from:
+1.Performance: “Multipoint” enabled, ANC/social mode enabled, “Spatial
+Audio” enabled
+2.Low Power: “Multipoint” disabled, ANC/social mode disabled, “Spatial
+Audio” disabled
+Performance mode is enabled by default.
+You can switch to “Low Power” mode in the Denon Headphones app:
+1 Menu icon at the top left (
+ ).
+2Tap on “Device Settings”.
+3Scroll down to “Mode”.
+4Select “Performance” or “Low Power” .
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+26
+
+Troubleshooting
+If you’re ever having trouble with your Denon PerL Pro, read the following troubleshooting.
+Resetting your earbuds
+Device reset
+1.Hold down the touch buttons on both sides of the earbuds for 10 seconds to reset.
+Factory reset
+1.Open the Denon Headphones app.
+2.Tap menu icon (
+ ) > “Device Settings” > “Perform factory reset”
+0This will delete your hearing profiles.
+If your Denon PerL Pro won't charge
+0Make sure you’re charging with the Denon PerL Pro USB-C cable only.
+0If you’re trying to charge with a computer, then try using a different USB port or a wall charger.
+0If you’re trying to charge with a wall charger, then try charging with a computer.
+0If you’re attempting to charge with a USB hub, then make sure it’s powered.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+27
+
+If your earbuds won’t perform the personalization process
+0Check our Fitting your earbuds guide in Basic part to ensure you have the correct fit.  ( v p. 6)
+0Make sure your earbuds is sitting securely in your ears, remove any accessories which sit near your ears, and if you have long hair, tie it back.
+0Check there are no obstructions blocking the mesh e.g. wax build up, packaging remnants etc. Any blockages will impact the ability of the Denon PerL
+Pro to detect your hearing.
+0Make sure you’re in a quiet place, sit still and try not to talk during personalization.
+0Check you have a stable internet and Bluetooth connection.
+0Check your mobile device and the Denon Headphones app have been updated to the latest version.
+Further troubleshooting:
+0‘Forget’ your Denon PerL Pro from your device's Bluetooth settings, and pair again.
+0Reset the device you are trying to connect to.
+0Delete and reinstall the Denon Headphones app.
+0Reset your earbuds.
+0Clean your earbuds.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+28
+
+If your earbuds won’t connect to the Denon Headphones app
+0Check your mobile device and the Denon Headphones app have been updated to the latest version.
+0Close and re-open the Denon Headphones app.
+0Check your earbuds is connected to your mobile device with Bluetooth. You need to be connected with Bluetooth to use the Denon Headphones app.
+Bluetooth will only activate when no cables are connected.
+0Check your internet connection is stable.
+0Delete the Denon Headphones app, restart your mobile device and then reinstall the Denon Headphones app.
+0Reset your earbuds.
+If you’re having trouble connecting your earbuds via Bluetooth
+0Check your earbuds and device are charged.
+0Ensure your earbuds and device are within 10 feet (about 3 m) of each other.
+0Check you’re connecting to Denon PerL Pro XXX, not Denon PerL Pro XXX [LE].
+0Denon PerL Pro XXX [LE] is the Denon PerL Pro low-energy mode, which will automatically connect after you’ve connected to Denon PerL Pro XXX.
+0Move away from other Bluetooth devices, microwaves and wireless routers to avoid interference.
+Further troubleshooting:
+0Re-start your device and try pairing your earbuds with Bluetooth again.
+0If you’ve previously paired your earbuds with Bluetooth, then remove your earbuds from your device’s paired device list and try pairing again.
+0Reset your earbuds.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+29
+
+Bluetooth cutting in and out?
+Bluetooth is designed for short distances, so you might experience some interference from time to time. To minimize Bluetooth interference, try the
+following:
+0Move your paired device closer to the earbuds.
+0Move your earbuds and device away from other Bluetooth devices, microwaves and wireless routers.
+0Update your earbuds and mobile device to the latest versions.
+If you’re having trouble making calls with your earbuds
+Follow these steps if you’re having trouble making and receiving phone calls, or calls via Skype, FaceTime or other calling apps.
+0Check your earbuds is connected with Bluetooth.
+0Check that nothing is blocking your earbuds microphones.
+0The microphones are located on each side of your earbuds.
+0Disconnect your earbuds from your device and then reconnect.
+0Check your Bluetooth connection.
+0Poor call quality can be caused by a poor Bluetooth connection.
+0Reset your earbuds.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+30
+
+If you’re having trouble with sound quality
+To get the highest sound quality from your earbuds:
+0Use a lossless file format, such as AIFF, WAV or FLAC.
+0Use a lossless streaming service, such as Tidal.
+0If you’re using Spotify or a similar streaming service, use the high-quality streaming option. Ensure to check the streaming quality options in the
+platform’s settings.
+0Check the device is not in Social Mode.
+0If you’re using MP3 or MP3-like files, use high-bitrate MP3, Ogg or AAC files. Or use minimum 256kbps (and preferably 320kbps) files with modern
+codecs.
+0Personalize your earbuds again.
+The earbuds uses sensitive microphones to personalize, so movements, outside noises and heavy breathing can affect your hearing profile.
+If the touch buttons aren’t working correctly
+0Check your earbuds touch buttons have been set-up correctly via the Denon Headphones app.
+0Reset your earbuds.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+31
+
+Can’t find what you’re looking for? Try the following
+0Check your earbuds is charged.
+0Check your mobile device and the Denon Headphones app have been updated to the latest version.
+0Check your Bluetooth is connected.
+Further Troubleshooting
+0Forget your earbuds from your device's Bluetooth settings, and pair again.
+0Reset the device which you are trying to connect to.
+0Delete and reinstall the Denon Headphones app.
+0Reset your earbuds.
+0Clean your earbuds.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+32
+
+Trademark information
+The Bluetooth® word mark and logos are registered trademarks owned
+by the Bluetooth SIG, Inc. and any use of such marks by D&M Holdings
+Inc. is under license. Other trademarks and trade names are those of
+their respective owners.
+Snapdragon Sound is a product of Qualcomm Technologies, Inc. and/or
+its subsidiaries.
+Snapdragon and Snapdragon Sound are trademarks or registered
+trademarks of Qualcomm Incorporated.
+© 2018 Dirac Research AB. All rights reserved. Dirac, Dirac Live and the
+Dirac logos are trademarks of Dirac Research AB.
+App Store® is registered in the U.S. and other countries.
+Google Play and the Google Play logo are trademarks of Google LLC.
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+33
+
+Specifications
+Power supply: 5V dc, 0.8A
+Wireless frequency band: 2400-2483.5 MHz
+Continuous playback time: Approx. 8 hours (Earbuds)
+Approx. 32 hours (with 3 × recharge via the charging case)
+Charging time: Approx. 2 hours (Earbuds)
+Approx. 1 hours (Charging case)
+Contents
+ Basic part
+ Advanced part
+ Headphones app
+ Troubleshooting
+ Appendix
+34
+
+www.denon.com3520 10917 00ASA
+©2023 DEI Sales, Inc. All Rights Reserved.
+35

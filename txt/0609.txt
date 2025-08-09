@@ -1,0 +1,158 @@
+Plaats de twee zwarte USB-
+sticks in de USB-poorten van 
+de elektronische stembus, 
+alvorens u de 
+voorzitterscomputer opstart.
+Als de gegevens correct zĳn, 
+kan u op het “ “ teken 
+drukken.Om verder te gaan, druk op: 
+“Aanmelden”.
+Na de initialisatie kan u 
+overgaan tot het installeren 
+van de stemcomputers. Druk 
+op: “Stemcomputers 
+installeren”. Wacht tot de computer 
+aangeeft dat u beide USB-
+sticks mag verwĳderen!Druk op “Stemmen afsluiten” 
+om het proces te beëindigen.
+Druk op:“Bevestigen” om het 
+stembureau definitief te 
+sluiten.
+Wacht geduldig tot de 
+computer is opgestart en vul 
+de ontvangen login en het 
+wachtwoord in.Houd de aan-/uitknop 
+voldoende Iang ingedrukt tot 
+de voorzitterscomputer aan 
+staat.
+De voorzitterscomputer sluit 
+de sessie af...
+De voorzitterscomputer vraagt 
+om één USB-stick uit de 
+stembus te trekken en in één 
+van de stemcomputers te 
+steken om het 
+kerncĳferrapport af te 
+drukken.Start één vooraf 
+uitgeschakelde stemcomputer 
+opnieuw op met de USB-stick 
+en volg de instructies op het 
+scherm.Controleer hoe de 
+randapparatuur is 
+aangesloten. Druk op ok om 
+verder te gaan.
+Na het afdrukken van het 
+kerncĳferrapport plaatst u de 
+USB-stick terug in de USB-
+poort van de elektronische 
+stembus. Druk op “einde”.Druk nu op :
+“Computer afsluiten”, De 
+voorzitterscomputer zal zich 
+automatisch uitschakelen. Na 
+het volledig uitschakelen
+kunt u de sticks uitnemen.G1NL
+BEKNOPTE HANDLEIDING STEMBUREAU
+OPSTARTEN
+Verwĳder één of beide USB-
+sticks om de stemcomputers 
+één per één op te starten. 
+Opgelet: enkel verwĳderen 
+als het voorzittersscherm 
+dit aangeeft.2 1 3
+4 5 6
+7 8 928 29 30
+31 32 33
+34 35
+Gemeenteraardsverkiezingen 13 oktober 2024
+Opgelet , verwĳder de USB-stick enkel wanneer de voorzitterscomputer dat expliciet aangeeft.
+Houd de aan-/uitknop van de 
+stemcomputer ingedrukt tot hĳ 
+is uitgeschakeld. Doe dit voor 
+alle stemcomputers.
+02 / 800 33 50
+Steek de USB-sticks samen met het kerncĳferrapport in de daartoe voorziene envelop,
+verzegel de envelop en breng deze naar het gemeentelĳk hoofdbureau.Helpdesk
+Het stembureau is opgestart, 
+u kan nu chipkaarten 
+activeren.Plaats de chipkaart in de 
+kaartlezer om  ze  te 
+activeren naargelang het 
+type kiezer. Zorg dat het 
+lampje naar u toestaat als u 
+deze activeert.Eens de kaart geactiveerd is, 
+kan u ze aan de kiezer 
+overhandigen zodat hĳ zĳn 
+stem kan uitbrengen.
+De kiezer kan nu stemmen 
+door zĳn chipkaart in de 
+stemcomputer te steken.
+Nadat de kiezer zĳn stem 
+heeft uitgebracht op de 
+stemcomputer, moet hĳ zĳn 
+geprinte stembiljet scannen.Houd de aan-/uitknop 
+ingedrukt tot de 
+stemcomputer opstart.
+De kiezer mag zĳn stembiljet 
+meermaals scannen, de 
+uitgebrachte stem wordt 
+immers slechts éénmaal 
+opgeslagen maar de 
+elektronische klep zal telkens 
+openen.
+Na het scannen van het 
+stembiljet verschĳnt de 
+melding op het scherm dat 
+de stem is opgeslagen. De 
+elektronische klep zal 
+opengaan. Het stembiljet 
+moet  in de stembus 
+gestoken worden.Om 16 uur moet u het 
+stembureau sluiten.Druk hiervoor op het “Exit” 
+teken om het scherm te 
+verlaten.
+Sluit beide klepjes.Wanneer ALLE 
+stemcomputers zĳn opgestart 
+kan u de USB-sticks 
+terugplaatsen in de USB-
+poorten van de elektronische 
+stembus, het programma gaat 
+automatisch verder.
+Eens de verkiezing is 
+geopend, kan u chipkaarten 
+voor de kiezers  activeren 
+door te drukken  op 
+:“Activeer kaarten”.
+STEMMEN AFSLUITEN
+STEMMEN
+10 19 11 12
+13 14 15
+16 17 1820 21
+22 23 24
+25 26 27
+ Wat als een stemcomputer opnieuw moet worden opgestart?
+ Plaats de USB-stick in de 
+poort aan de achterkant van 
+de computerHoud de aan-/uitknop 
+ingedrukt tot de 
+stemcomputer opstart.
+U kan nu de verkiezing 
+openen door te drukken op :
+“Verkiezing openen”Wanneer u het logo 
+:“Verwĳder de USB-stick uit de 
+stemcomputer” rechtsboven in 
+het scherm ziet…
+…dan kan u de USB-stick uit 
+de stemcomputer nemen om 
+er andere stemcomputers 
+mee op te starten.
+Stemming van de bureauleden :  De leden brengen in het geheim hun stem uit, elk in een ander 
+stemhokje in de mate van het mogelĳke. Daarna controleren ze hun stem met de handscanner en 
+vervolgens scannen ze hun ticket op de stembusscanner. Hun stem wordt op die manier opgeslagen en 
+geteld. De voorzitterscomputer 
+geeft aan wanneer de 
+installatiewizard is beëindigd, 
+druk dan op “Einde”.Let op:  Tĳdens het stemmen moet er steeds één USB-stick  in de stembus blĳven.
+Een stemcomputer opnieuw opstarten doet u door eerst de knop zoals hier rechts 
+afgebeeld te drukken en te wachten tot het scherm aangeeft dat u de USB-stick kunt 
+verwĳderen. Tĳdens de installatie kunt u doorgaan met het stemmen. U vindt deze knop 
+links onder op uw scherm.

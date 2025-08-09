@@ -31,22 +31,22 @@ The repository also includes automated metrics to help understand the overall st
 | Property      | Value |
 | ------------- | ----- |
 | Smallest PDF | 2.00 KB |
-| Average PDF | 1.17 MB |
+| Average PDF | 1.48 MB |
 | Largest PDF  | 55.19 MB |
 
 ## 2. Creation Year
 
 | Property      | Value |
 | ------------- | ----- |
-| Youngest PDF | 2020 |
-| Average PDF | 2014 |
+| Youngest PDF | 2025 |
+| Average PDF | 2015 |
 | Oldest PDF  | 1999 |
 
 ## 3. Word Count
 
 | Property      | Value |
 | ------------- | ----- |
-| Largest PDF | 111173 |
-| Average PDF | 4296 |
-| Smallest PDF  | 1 |
+| Largest PDF | 346574 |
+| Average PDF | 6682 |
+| Smallest PDF  | 14 |
 

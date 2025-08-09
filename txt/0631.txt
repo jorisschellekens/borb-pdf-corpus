@@ -1,0 +1,211 @@
+Owner’s Manual
+Hydraulische handdynamometer
+Gebruikershandleiding
+De erkende norm voor het meten van 
+de handknijpkracht
+Product Code: 5030J1 / 09 101 1725a Patterson Brand a Patterson Brand
+Inhoud
+Over de Jamar  1
+Kenmerken  2
+Gebruik/normatieve gegevens voor knijpkracht 3-5
+Onderhoudstips  6-7
+Reparatie/herkalibratie  8
+Referenties  9
+Over de Jamar®
+De JAMAR handdynamometer is al meer dan 40 jaar de industrienorm bij uitstek 
+voor het verzamelen van gegevens over de handknijpkracht. Verschillende Amerikaanse staten gebruiken de JAMAR handdynamometer als het standaard testinstrument voor compensatiebepalingen.
+op 089/710400 (BE) of 046/4369110 (NL).
+1
+2Kenmerken
+De JAMAR® handdynamometer biedt verschillende functies voor routinemetingen
+en voor de evaluatie van handtrauma en ziekte.
+Dubbele schaal – De JAMAR handdynamometer geeft de knijpkracht weer in pond 
+en kilogram tot 200 pond of 90 kilogram.Piekwaardenaald  – Geeft automatisch de hoogste waarde weer tot de naald wordt 
+gereset. Ideaal voor snelle meting.Accuraat en reproduceerbaar – De JAMAR handdynamometer is isometrisch 
+en vertoont vrijwel geen enkele waarneembare beweging van de handgrepen, 
+ongeacht de knijpkracht. Naast een comfortabele handgreep verzekert de JAMAR handdynamometer accurate en reproduceerbare resultaten.
+Verstelbare handgreep  – Voor verschillende handgroottes. De JAMAR handgreep 
+kan worden ingesteld op vijf greepposities 1  
+3/8˝ tot 3  3/8˝, met stapgroottes van 
+een halve inch.Met de verstelbare handgreep kunnen artsen de knijpkracht bepalen voor 
+objecten van verschillende afmetingen. De afmetingen van het object dat wordt vastgegrepen, kan invloed hebben op de kracht die een individuele patiënt op dat object kan uitoefenen
+3Gebruik
+Gebruik van de dynamometer:
+1. Stel de verstelbare handgreep in op de gewenste grootte. (Voordat u de
+handgreep van positie verandert, moet u ervoor zorgen dat de handgreepklem
+zich in de onderste positie bevindt (het verst verwijderd van de meter). Alsde handgreep niet in de correcte positie wordt teruggezet, zal de meting nietaccuraat zijn).
+2. Draai de rode piekwaardenaald linksom tot 0.
+3. Controleer of het instrument comfortabel in de hand van de patiënt past. Laat de
+patiënt met maximale kracht knijpen. De piekwaardenaald zal automatisch de
+grootste kracht weergeven.
+4. Schrijf de waarde op en stel de piekwaardenaald terug in op nul.
+OPMERKING : Door extreme temperatuurschommelingen tijdens het transport, 
+staat de meternaald van uw nieuwe JAMAR® hydraulische handdynamometer
+mogelijk niet op nul bij ontvangst van het instrument.Als dit het geval is, kan de meternaald eenvoudig worden teruggezet door de 
+volgende stappen te volgen.
+1. Schroef het glas los en zoek de middenschroef waarmee de meternaald is
+bevestigd.
+2. Houd de naald voorzichtig vast tussen uw duim en wijsvinger.3. Gebruik vervolgens een schroevendraaier en draai schroef rechtsom om de
+naald omlaag te brengen en linksom om de naald omhoog te brengen.
+4. Controleer of de naald niet verbogen is voordat u het glas terugplaatst.
+203040 50
+60
+70
+80
+9010
+0020406080100
+120
+140
+160
+200Piekwaarde-knop
+GlasPiekwaarde-naald
+Meternaald
+Een gelamineerde normenkaart van 46 x 61cm is bij ons verkrijgbaar.
+Bestelnummer: 091159490.
+4Gebruik (Vervolg)
+Normatieve knijpkrachtgegevens 2, 3  (KILOGRAMS)
+Mannen Vrouwen
+Leeftijd Hand Gemiddeld SD  Gemiddeld SD
+6-7 R  32,5  4,8 28,6  4,4
+L 30,7  5,4 27,1  4,4
+8-9 R  41,9  7,4 35,3  8,3
+L 39,0  9,3 33,0  6,9
+10-11 R  53,9  9,7 49,7  8,1
+L 48,4  10,8  45,2  6,8
+12-13 R  58,7  15,5  56,8  10,6
+L 55,4  16,9  50,9  11,9
+14-15 R  77,3  15,4  58,1  12,3
+L 64,4  14,9  49,3  11,9
+16-17 R  94,0  19,4  67,3  16,5
+L 78,5  19,1  56,9  14,0
+18-19 R  108,0  24,6  71,6  12,3
+L 93,0  27,8  61,7  12,5
+20-24 R  121,0  20,6  70,4  14,5
+L 104,5  21,8  61,0  13,1
+25-29 R  120,8  23,0  74,5  13,9
+L 110,5  16,2  63,5  12,2
+30-34 R  121,8  22,4  78,7  19,2
+L 110,4  21,7  68,0  17,7
+35-39 R  119,7  24,0  74,1  10,8
+L 112,9  21,7  66,3  11,7
+40-44 R  116,8  20,7  70,4  13,5
+L 112,8  18,7  62,3  13,8
+45-49 R  109,9  23,0  62,2  15,1
+L 100,8  22,8  56,0  12,7
+50-54 R  113,6  18,1  65,8  11,6
+L 101,9  17,0  57,3  10,7
+55-59 R  101,1  26,7  57,3  12,5
+L 83,2  23,4  47,3  11,9
+60-64 R  89,7  20,4  55,1  10,1
+L 76,8  20,3  45,7  10,1
+65-69 R  91,1  20,6  49,6  9,7
+L 76,8  19,8  41,0  8,2
+70-74 R  75,3  21,5  49,6  11,7
+L 64,8  18,1  41,5  10,2
+75+ R  65,7  21,0  42,6  11,0
+L 55,0  17,0  37,6  8,9
+3Gebruik
+Gebruik van de dynamometer:
+1. Stel de verstelbare handgreep in op de gewenste grootte. (Voordat u de
+handgreep van positie verandert, moet u ervoor zorgen dat de handgreepklem
+zich in de onderste positie bevindt (het verst verwijderd van de meter). Alsde handgreep niet in de correcte positie wordt teruggezet, zal de meting nietaccuraat zijn).
+2. Draai de rode piekwaardenaald linksom tot 0.
+3. Controleer of het instrument comfortabel in de hand van de patiënt past. Laat de
+patiënt met maximale kracht knijpen. De piekwaardenaald zal automatisch de
+grootste kracht weergeven.
+4. Schrijf de waarde op en stel de piekwaardenaald terug in op nul.
+OPMERKING : Door extreme temperatuurschommelingen tijdens het transport, 
+staat de meternaald van uw nieuwe JAMAR® hydraulische handdynamometer
+mogelijk niet op nul bij ontvangst van het instrument.Als dit het geval is, kan de meternaald eenvoudig worden teruggezet door de 
+volgende stappen te volgen.
+1. Schroef het glas los en zoek de middenschroef waarmee de meternaald is
+bevestigd.
+2. Houd de naald voorzichtig vast tussen uw duim en wijsvinger.3. Gebruik vervolgens een schroevendraaier en draai schroef rechtsom om de
+naald omlaag te brengen en linksom om de naald omhoog te brengen.
+4. Controleer of de naald niet verbogen is voordat u het glas terugplaatst.
+203040 50
+60
+70
+80
+9010
+0020406080100
+120
+140
+160
+200Piekwaarde-knop
+GlasPiekwaarde-naald
+Meternaald
+6Onderhoudstips
+De JAMAR® handdynamometer werkt betrouwbaar met minimaal onderhoud. Het is
+echter een goed idee om regelmatig enkele controles uit te voeren (zoals hieronder 
+vermeld) om te verzekeren dat de metingen van het apparaat accuraat zijn. Als u een probleem detecteert, contacteer SproFit.
+Staven
+Verwijder de verstelbare handgreep en controleer of elke staaf vrij op en neer 
+beweegt op zijn geleider (het deel waarop de staaf steunt), zelfs als u druk uitoefent op de zijkant van de staaf. Breng ongeveer eenmaal per jaar een kleine hoeveelheid vet aan op de twee geleiders. Als er te veel wrijving is tussen de staaf en de geleider, contacteer SproFit.*
+Hydraulisch systeem
+Om het hydraulische mechanisme te controleren, moet u eerst de verstelbare 
+handgreep verwijderen. Bekijk de bovenste staaf, terwijl u op de onderste staaf drukt. Normaal moeten beiden staven ongeveer 
+1/8˝ verplaatsen, waarbij beide 
+staven in tegengestelde richting bewegen. Minder verplaatsing dan 1/16˝ vereist 
+reparatie omdat dit betekent dat er mogelijk een lek is in het hydraulische systeem.*
+Handgreep
+Grijp het instrument normaal vast en kijk zorgvuldig hoe de vorken van de 
+verstelbare handgreep worden ondersteund door de staven. Elke vork moet de staaf ongeveer in het midden raken.  Afstelling is nodig indien dit niet het geval is. *
+* Zie pagina 8.
+7Onderhoudstips (Vervolg)
+Piekwaardenaald
+Draai de knop van de piekwaardenaald linksom om te controleren of er 
+te veel wrijving is op de piekwaardenaald. Als de piekwaardenaald de meternaald verbuigt, dan moet de meter gerepareerd worden. Als de piekwaardenaald van de steunpen valt, dan kan deze eenvoudig worden teruggezet. Schroef het glas los en draai het ondersteboven. Zoek de koperen pen in het midden van het glas (de pen maakt deel uit van de chromen knop op de buitenzijde van het glas). Zoek de sleuf op de koperen pen en plaats de piekwaardenaald in die sleuf.
+Kalibratie
+De JAMAR® handdynamometer wordt gekalibreerd door het midden te belasten
+met gewicht en de gepaste aanpassingen uit te voeren in de meter. Het is 
+niet aanbevolen dat de gebruiker deze bewerking zelf uitvoert. Het instrument moet gekalibreerd worden. De kalibratie moet regelmatig worden gecontroleerd. Als het instrument is gevallen of als er reden bestaat om te vermoeden dat de kalibratie  
+fout is, moet het apparaat onmiddellijk gerepareerd worden. Zie pagina 8 voor details. 
+203040 50
+60
+70
+80
+9010
+0020406080100
+120
+140
+160
+200Piekwaarde-knop
+GlasPiekwaarde-naald
+Meternaald
+8Garantie
+EENJARIGE BEPERKTE GARANTIE
+Sammons Preston Rolyan garandeert dat de JAMAR® 5030J1
+handdynamometer vrij is van defecten in fabricage en materialen 
+gedurende een jaar na de datum van aankoop. Sammons Preston Rolyan repareert of vervangt volgens eigen oordeel elk instrument dat tijdens die periode defect wordt bevonden. Als er zich storingen voordoen na de éénjarige garantieperiode, worden reparaties uitgevoerd tegen een serviceprijs. Deze garantie geeft u speci/f_ieke wettelijk rechten. 
+9Referenties
+De JAMAR® handdynamometer wordt al meer dan 40 jaar gebruikt, en heeft
+geleid tot talloze gegevensontwikkelingen. Hieronder vindt u een gedeeltelijke 
+lijst van naslagwerken waarin u meer gegevens kunt vinden over de JAMAR handdynamometer.
+1. Delheimer S., Focht D., Schapmire D., Stewart T., St. James J.D., Townsend R.
+“Simultaneous Bilateral Testing: Validation of a New Protocol to Detect Insincere
+Eﬀort During Grip and Pinch Strength Testing.” The Journal of Hand Therapy 15:242-250, 2002.
+2. Ewing-Fess, E. “A Method for Checking Jamar Dynamometer Calibration.”
+Journal of Hand Therapy 1. 1: 28-32, 1987.
+3. Gill D., Reddon J., Renney C., Stefanyk W. “Hand Dynamometer: Eﬀects of Trials
+and Session.” Perceptual and Motor Skills 61: 195-8, 1985.
+4. Mathiowetz V., Federman S., Wiemer D. “Grip and Pinch Strength: Norms for 6 to
+19 Year Olds.” The American Journal of Occupational Therapy 40: 705-11, 1986.
+5. Mathiowetz V., Donahoe L., Renells C. “Eﬀect of Elbow Position on Grip and Key
+Pinch Strength.” The Journal of Hand Surgery 10A: 694-7, 1985.
+6. Mathiowetz V., Dove M., Kashman N., Rogers S., Volland G., Weber K. “Grip and
+Pinch Strength: Normative Data for Adults.” Arch Phys Med Rehabilitation 66:69-72, 1985.
+7. Mathiowetz V., Weber K., Volland G., Kashman N. “Reliability and Validity of Grip
+and Pinch Strength Evaluations.” The Journal of Hand Surgery 9A: 22-6, 1984.
+a Patterson Brand a Patterson Brand
+70572 Is3 NL © Homecraft Rolyan 2013Manufactured for Patterson Medical Ltd.
+Nunn Brook Road, Huthwaite,  Sutton-in-Ashﬁeld, Nottinghamshire,  NG17 2HU, UK.
+UK:  T el: 08444 124 330  Fax: 08448 730 1000
+www.homecraft-rolyan.com  
+International:  T el: +44 1623 448 706  
+Fax: +44 1623 448 784 
+Patterson Medical Products, Inc. 
+1000 Remington Boulevard, Suite 210,  Bolingbrook, IL 60440-5071, USA.  T el: 1-800-323-5547  T elefax: 1-800-547-4333Patterson Medical Australia  PO Box 1006, North Ryde, NSW Australia 2113.T el: 1300 473 422  Fax: 1300 766 473
+Patterson Medical France  
+Zone Industrielle de Montjoly,11 Avenue de I’Industrie - CS 4071208013 Charleville-Mézières Cedex, France.T el: 03 24 52 61 15  Fax: 03 24 52 90 34These user in structions are available in l arge print , plea se contact Patt erson Medical  Customer Ser vices 
+for a  copy. Please retain these instructions for future reference.

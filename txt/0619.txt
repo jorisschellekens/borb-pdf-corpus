@@ -1,0 +1,782 @@
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+iClub  
+ 
+Webtool     voor     "Taalcheques    
+Overgang     naar     werkgelegenheid"  
+ 
+Manual     Partners  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+I n h o u d s o p g a v e  
+ 
+1 .     V o o r w e r p     v a n     d e     w e b t o o l  
+2 .     H o e     t o e g a n g     k r i j g e n     t o t     d e     w e b t o o l     ?  
+3 .     B e s c h r i j v i n g     v a n     h e t     w e r k g e b i e d  
+4 .     O p l e i d i n g s b e h e e r  
+4 . 1 .     E e n     b e h e e r s c h e r m     v a n     o p e n s t a a n d e     o p l e i d i n g e n  
+4 . 2 .     E e n     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     o p l e i d i n g  
+4 . 2 . 1 .     " A l g e m e e n ”     s c h e r m  
+4 . 2 . 2 .     " B e s c h r i j v i n g "     s c h e r m  
+4 . 2 . 3 .     “ O p m e r k i n g ”     s c h e r m  
+4 . 2 . 4 .     “ I n s c h r i j v i n g ”     s c h e r m  
+5 .     P a r t n e r s     b e h e e r  
+5 . 1 .     H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     p a r t n e r  
+6 .     B e h e e r     v o o r     w e r k z o e k e n d e  
+6 . 1 .     H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     w e r k z o e k e n d e  
+6 . 1 . 1 .     “ V e i l i g h e i d s s c h e r m ”  
+6 . 1 . 2 .     " G e s c h i e d e n i s "     s c h e r m  
+7 .     I n s c h r i j v i n g s     b e h e e r  
+7 . 1 .     D e     i n s c h r i j v i n g s l i j s t  
+7 . 2 .     H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     i n s c h r i j v i n g  
+7 . 2 . 1 .     “ I n s c h r i j v i n g ”     s c h e r m  
+7 . 2 . 2 .     “ E v a l u a t i e ”     s c h e r m  
+8 .     F A Q     b e h e e r  
+8 . 1         D e     l i j s t     v a n     F A Q  
+ 
+9 .     K E R N R E G E L S :     G E B R U I K     V A N     D E     I N S C H R I J V I N G S T O O L     I C L U B  
+A C T I R I S     V O O R     T A A L L E S S E N     M E T     T A A L C H E Q U E S     “ D O O R S T R O M I N G  
+N A A R     WE R K ”  
+ 
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+1.   Voorwerp   van   de   webtool  
+ 
+i C l u b     i s     e e n     w e b t o o l     w a a r m e e     A c t i r i s     d e     o r i ë n t a t i e     v a n     z i j n     “ T a a l c h e q u e s ,     O v e r g a n g     n a a r  
+w e r k g e l e g e n h e i d ”     k a n     b e h e r e n .  
+ 
+D e z e     w e b t o o l     h e e f t     t w e e     h o o f d d o e l s t e l l i n g e n     :  
+ 
+­ H i j     g e e f t     d e     m o g e l i j k h e i d     a a n     d e     a g e n t e n     v a n     A c t i r i s     o m     r e c h t s t r e e k s     d e     w e r k z o e k e n d e n     i n  
+t e     s c h r i j v e n     a a n     t a a l o p l e i d i n g e n     i n     h e t     k a d e r     v a n     “ T a a l c h e q u e s ”     ( o v e r g a n g     n a a r  
+w e r k g e l e g e n h e i d )     d i e       o p     h e t     p l a t f o r m     w o r d e n     v e r m e l d     e n     g e c o d e e r d     d o o r     d e     p a r t n e r s   .    
+­ H i j     m a a k t     h e t     m o g e l i j k     v o o r     d e     p a r t n e r s     e r k e n d     d o o r     A c t i r i s     o m     h u n     t a a l o p l e i d i n g e n     v o o r     d e  
+k o m e n d e     m a a n d e n     t e     c o d e r e n     e n     o o k     a c t i e s     i n     v e r b a n d     m e t     d e     o p l e i d i n g e n     ( r e s u l t a t e n     v a n  
+h e t     m o n d e l i n g     e x a m e n ,     r e s u l t a t e n     v a n     d e     o p l e i d i n g ,     w e r k e l i j k e     e i n d d a t u m ,     e n z . ) .  
+ 
+D e     w e b t o o l     m o e t     o o k     h e t     v o l g e n d e     t o e s t a a n     :    
+ 
+­ E e n     h e r i n n e r i n g     s y s t e e m     ( p e r     e ­ m a i l     e n     p e r     s m s )     v a n     d e     o p l e i d i n g     n a     d e     i n s c h r i j v i n g     v a n     d e  
+w e r k z o e k e n d e .  
+­ E e n     r e p o r t i n g     v a n     g e g e v e n s     d i e     t o e g a n k e l i j k     z i j n     o p     i e d e r     m o m e n t     v o o r     d e  
+" m a s t e r ­ a c c o u n t " .  
+ 
+M e t     i C l u b     k u n t     u     d u s     h e t     v o l g e n d e     b e h e r e n     :  
+­ D e     p a r t n e r s  
+­ D e     o p l e i d i n g e n  
+­ D e     v e i l i g h e i d     v a n     d e     w e r k z o e k e n d e n  
+­ D e     i n s c h r i j v i n g e n     v a n     d e     w e r k z o e k e n d e n     a a n     o p l e i d i n g e n  
+2.   Hoe   toegang   krijgen   tot   de   webtool   ? 
+O m     t o e g a n g     t e     h e b b e n     t o t     i C l u b     m o e t     u     :  
+ 
+­ E e n     w e b b r o w s e r     o p e n e n  
+­ D e     U R L     i n v o e r e n     :  
+h t t p s : / / a c t i r i s . i c l u b . b e    
+ 
+O m     i n     t e     l o g g e n     m o e t     u     :  
+ 
+U w     e ­ m a i l a d r e s     i n v u l l e n     ( F i g . 1 ­ 1 )  
+U w     w a c h t w o o r d     i n v o e r e n     ( F i g . 1 ­ 2 )  
+O p     " S i g n     I n "     k l i k k e n     o m     t e     b e v e s t i g e n  
+( F i g . 1 ­ 3 )  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+U     k u n t     d e     t a a l     v a n     d e     i n t e r f a c e     v e r a n d e r e n     ( F i g . 1 ­ 4 )  
+ 
+A l s     u     u w     w a c h t w o o r d     b e n t     v e r g e t e n     m o e t     u     o p     “ f o r g o t     p a s s w o r d ? ”     k l i k k e n     ( F i g . 1 ­ 5 )     e n     d e  
+p r o c e d u r e     v o l g e n .  
+ 
+3.   Beschrijving   van   het   werkgebied 
+ 
+N a     h e t     i n l o g g e n     w o r d t     u     d o o r g e s t u u r d     n a a r  
+d e     s c r e e n     v a n     d e     o p e n s t a a n d e     o p l e i d i n g e n  
+( F i g .     2 ) .     D i e     s c r e e n     i s     v e r d e e l d     i n     t w e e  
+h o o f d z o n e s     :  
+ 
+­     H e t     h o o f d m e n u     ( F i g . 2 ­ 1 )     d i e     a a n w e z i g     i s  
+o p     e l k e     p a g i n a     v a n     d e     a p p l i c a t i e     ( b e h a l v e     d e  
+i n l o g p a g i n a ) .  
+­     H e t     w e r k g e b i e d     ( F i g . 2 ­ 2 )     d i e     d e     i n h o u d     v a n  
+d e     h u i d i g e     p a g i n a     b e v a t .  
+ 
+H e t     h o o f d m e n u     b e v a t     :  
+ 
+­ D e     t o e g a n g     t o t     v e r s c h i l l e n d e     s c h e r m e n     ( F i g . 3 , 1 ­ 1 )  
+­ D e     s n e l l e     z o e k m a c h i n e     v o o r     w e r k z o e k e n d e n     ( F i g . 3 , 1 ­ 2 )  
+­ D e     t a l e n     m e n u     ( F i g . 3 , 1 ­ 4 )  
+­ D e     l i n k     o m     z i c h     u i t     t e     l o g g e n     ( F i g . 3 , 1 ­ 4 )  
+ 
+ 
+H e t     h o o f d m e n u     g e e f t     t o e g a n g     t o t     d e     b a s i c s     s c r e e n s     v a n     d e     a p p l i c a t i e    
+ 
+­ H e t     s c h e r m     v a n     d e     o p e n     o p l e i d i n g e n  
+­ H e t     i n s c h r i j v i n g s     b e h e e r s c h e r m    
+­ H e t     F A Q     s c h e r m  
+­ H e t     r a p p o r t a g e ­ s c h e r m  
+ 
+ 
+ 
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+4.   Opleidingsbeheer 
+4 . 1 .     E e n     b e h e e r s c h e r m     v a n     o p e n s t a a n d e     o p l e i d i n g e n    
+ 
+H e t     o p l e i d i n g     s c h e r m     ( F i g . 4 )     b e v a t     d e     l i j s t     v a n     a l l e     o p e n s t a a n d e     o p l e i d i n g e n ,     d w z     a l l e     l o p e n d e  
+o p l e i d i n g e n     e n     d i e     v a n     d e     k o m e n d e     t w e e     m a a n d e n .     E r     z i j n     v e r s c h i l l e n d e     f i l t e r s     ( F i g . 4 ­ 1 )     o m     h e t  
+o n d e r z o e k     t e     v e r g e m a k k e l i j k e n .  
+ 
+ 
+ 
+D e     o p l e i d i n g s l i j s t     ( F i g . 4 ­ 2 )     s t a a t     t o e     :  
+ 
+­ o m     d e     d e t a i l s     v a n     d e     o p l e i d i n g     t e     c o n s u l t e r e n       ( F i g . 4 ­ 6 ) .    
+>     d o o r     t e     k l i k k e n     o p     d e     l i n k     " t a a l "     o f     " n i v e a u "     v e r s c h i j n t     e r     e e n     p o p ­ u p     m e t     d e     d e t a i l s     v a n     d e  
+o p l e i d i n g .  
+­ o m     d e     d e t a i l s     v a n     d e     p a r t n e r     t e     c o n s u l t e r e n       ( F i g . 4 ­ 5 )    
+>     d o o r     t e     k l i k k e n     o p     d e     l i n k     v a n     d e     p a r t n e r     v e r s c h i j n t     e r     e e n     p o p ­ u p     m e t     d e     d e t a i l s     v a n     d e  
+p a r t n e r .  
+­ o m     t o e g a n g     t o t     d e     g e d e t a i l l e e r d e     f i c h e     v a n     d e     o p l e i d i n g     t e     h e b b e n       ( F i g . 4 ­ 7 )    
+>     d o o r     t e     k l i k k e n     o p     d e     l i n k     ' R a a d p l e g e n '  
+­ o m     t o e g a n g     t o t     d e     w a c h t l i j s t     d e     v o o r     d e     o p l e i d i n g e n     t e     h e b b e n       ( F i g . 4 ­ 9 )    
+>     d o o r     t e     k l i k k e n     o p     d e     l i n k     " W a c h t l i j s t "  
+­ o m     e e n     n i e u w e     o p l e i d i n g     t o e v o e g e n       ( F i g . 4 ­ 4 )    
+>     d o o r     t e     k l i k k e n     o p     d e     l i n k     " E e n     o p l e i d i n g     t o e v o e g e n ”  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+4 . 2 .     E e n     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     o p l e i d i n g    
+H e t     g e d e t a i l l e e r d e     s c h e r m     ( F i g . 5 )     b e v a t     a l l e     i n f o r m a t i e     o v e r     d e z e     o p l e i d i n g  
+ 
+ 
+ 
+H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     o p l e i d i n g     b e s t a a t     u i t     :  
+ 
+­ d e     t i t e l     v a n     d e     o p l e i d i n g     ( T a a l     +     n i v e a u     +     p a r t n e r )     ( F i g . 5 ­ 1 )  
+­ h e t     n a v i g a t i e m e n u     v a n     h e t     g e d e t a i l l e e r d e     s c h e r m     v a n     d e     o p l e i d i n g     d i e     t o e g a n g     ( F i g . 5 ­ 2 )  
+g e e f t     :  
+­ a a n     a l g e m e n e     g e g e v e n s     o v e r     d e     o p l e i d i n g     ( t a b b l a d     ' a l g e m e e n ' )  
+­ a a n     d e     u i t g a v e     v a n     d e     b e s c h r i j v i n g     ( d i e     z i c h t b a a r     i s     b i j     h e t     r a a d p l e g e n     v a n     d e  
+o p l e i d i n g     v a n a f     h e t     s c h e r m     v a n     d e     o p e n s t a a n d e     o p l e i d i n g e n )     ( t a b b l a d  
+" b e s c h r i j v i n g " )  
+­ a a n     d e     i n f o r m a t o r i s c h e     o p m e r k i n g     ( t a b b l a d     ' o p m e r k i n g ' )  
+­ a a n     d e     i n s c h r i j v i n g s l i j s t     v o o r     d i e     o p l e i d i n g     ( t a b b l a d     " i n s c h r i j v i n g " )  
+­ h e t     b e w e r k i n g s g e b i e d     v a n     d e     g e g e v e n s     ( F i g . 5 ­ 1 2 )  
+­ h e t     t o n e n     v a n     d e     i n t e r n e     o p m e r k i n g     ( F i g . 5 ­ 3 )  
+4 . 2 . 1 .     " A l g e m e e n ”     s c h e r m  
+ 
+O p     d i t     s c h e r m     k u n t     u     a l l e     a l g e m e n e     g e g e v e n s     v a n     d e     o p l e i d i n g     z i e n     o f     v e r a n d e r e n  
+ 
+D e     p e r i o d e     :       d i t     d r o p d o w n     m e n u     t o o n t     a l l e     a c t i e v e     p e r i o d e s ,     d e     M a s t e r ­ a c c o u n t     k a n     d e     p e r i o d e n  
+p r o g r a m m e r e n     v i a     d e     c o n f i g u r a t i e p a g i n a  
+ 
+D e     t a a l       v a n     d e     o p l e i d i n g  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+H e t     n i v e a u       v a n     d e     o p l e i d i n g  
+ 
+D e     c o d e     v a n     d e     o p l e i d i n g     :       d e z e     c o d e     i s     d e g e n e     g e d e f i n i e e r d     i n     I B I S ,     h i j     w o r d t     a u t o m a t i s c h  
+g e c r e ë e r d     o p     b a s i s     v a n     d e     p a r t n e r s     c o d e ,     d e     t a a l     e n     h e t     n i v e a u .  
+ 
+D e     d a t a     v a n     d e     o p l e i d i n g     :       d e z e     d a t a     z i j n     d e     d a t a     v a n     d e     p e r i o d e ,     m a a r     k u n n e n     w o r d e n  
+a a n g e p a s t     a l s     d e     o p l e i d i n g     l a t e r     b e g i n t     o f     v r o e g e r     e i n d i g t .  
+ 
+D e     m a x i m a l e     p l a a t s e n       v o o r     d e z e     t r a i n i n g .     B i j     h e t     m a k e n     v a n     d e     o p l e i d i n g     z i j n     e r     m a a r     6     p l a a t s e n ,  
+m a a r     d a t     k a n     a a n g e p a s t     w o r d e n .  
+ 
+D e     o p e n i n g s u r e n     v a n     d e       o p l e i d i n g ,     d i t     r a s t e r     b e p a a l t     d e     d a g e n     v a n     d e     w e e k     w a a r o p     d e     o p l e i d i n g  
+g e g e v e n     i s ,     m e t     d e     m o g e l i j k h e i d     o m     v o o r     e l k e     d a g     k i e z e n     o f     h e t     ' s     m o r g e n s     i s     ( A M )     o f     i n     d e  
+n a m i d d a g     ( P M )  
+ 
+" N i e t     p u b l i c e r e n "     :       a l s     u     e e n     o p l e i d i n g     i n     d e     o p e n s t a a n d e     o p l e i d i n g s l i j s t     n i e t     w i l t     z i e n ,     m a g     u     h e t  
+v a k j e     a a n k r u i s e n  
+ 
+W a c h t l i j s t     :       d e z e     i n f o r m a t i e ,     o n w i j z i g b a a r ,     t o o n t     o f w e l     d a t     h e t     w a c h t l i j s t     i s     o f w e l     d a t     h e t     e e n  
+e f f e c t i e v e     o p l e i d i n g     i s .     D e z e     i n f o r m a t i e     k a n     b e h e e r d     w o r d e n     d o o r     d e     M a s t e r     A c c o u n t .  
+4 . 2 . 2 .     " B e s c h r i j v i n g "     s c h e r m  
+ 
+O p     d i t     s c h e r m     k u n t     u     d e     b e s c h r i j v i n g     v a n     d e     f o r m u l e     b e w e r k e n .     D e z e     b e s c h r i j v i n g     i s     d o o r z o e k b a a r  
+o p     h e t     s c h e r m     “ o p e n s t a a n d e     o p l e i d i n g e n ”     d o o r     d e     c o n s u l e n t ,     o f     d o o r     e e n     a n d e r e     p a r t n e r     ( c f .     4 . 1 )  
+4 . 2 . 3 .     “ O p m e r k i n g ”     s c h e r m  
+ 
+O p     d i t     s c h e r m     k u n t     u     d e     o p m e r k i n g     v a n     d e     f o r m u l e     b e w e r k e n .     D e z e     o p m e r k i n g     i s     d o o r z o e k b a a r     o p  
+h e t     s c h e r m     “ o p e n s t a a n d e     o p l e i d i n g e n ”     d o o r     d e     c o n s u l e n t ,     o f     d o o r     e e n     a n d e r e     p a r t n e r     ( c f .     4 . 1 )     e n  
+w o r d t     o o k     p e r m a n e n t     w e e r g e g e v e n     i n     d e     r e c h t e r b o v e n h o e k     v a n     h e t     g e d e t a i l l e e r d e     s c h e r m     v a n  
+e e n     o p l e i d i n g .  
+4 . 2 . 4 .     “ I n s c h r i j v i n g ”     s c h e r m  
+ 
+D i t     s c h e r m     ( F i g . 6 )     b e v a t     d e     i n s c h r i j v i n g s l i j s t     v o o r     d e z e     o p l e i d i n g .     D e z e     l i j s t     b e v a t     d e     e f f e c t i e v e     e n  
+g e a n n u l e e r d e     i n s c h r i j v i n g e n     ( u i t g e s c h r e v e n ) .     G e a n n u l e e r d e     i n s c h r i j v i n g e n     w o r d e n     w e e r g e g e v e n     i n  
+h e t     r o o d     i n     d e     l i j s t     e n     w o r d e n     n i e t     m e e g e t e l d     i n     h e t     a a n t a l     b e z e t t e     p l a a t s e n .  
+ 
+ 
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+D e     l i n k     ' w i j z i g e n '     b i e d t     t o e g a n g     t o t     d e     g e g e v e n s     v a n     e e n     i n s c h r i j v i n g .  
+D e     l i n k     " i n s c h r i j v i n g     t o e v o e g e n "     c r e ë e r t     e e n     n i e u w     i n s c h r i j v i n g     v o o r     d e     o p l e i d i n g .  
+5.   Partners   beheer 
+5 . 1 .     H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     p a r t n e r  
+H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     p a r t n e r     ( F i g . 8 )     b e v a t     a l l e     i n f o r m a t i e     o v e r     d i e     p a r t n e r .  
+ 
+ 
+ 
+ 
+P a r t n e r     N a a m     :       s o c i a a l     v o o r w e r p     v a n     d e     p a r t n e r  
+ 
+C o d e       :     d e     I B I S     c o d e     d i e     g e b r u i k t     w o r d t     v o o r     d e     a u t o m a t i s c h e     s c h e p p i n g     v a n     d e     c o d e     v a n     f o r m u l e s  
+( c f . 4 . 2 . 1 )  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+A d r e s     :       a d r e s     w a a r     d e     o p l e i d i n g     v a n     d e     p a r t n e r     p l a a t s     h e e f t .  
+ 
+S t a t i o n     M I V B       :     h e t     i s     d e     m e t r o     o f     o p e n b a a r     v e r v o e r     s t a t i o n     h e t     d i c h t s t     b i j     h e t     a d r e s     v a n     d e     p a r t n e r  
+ 
+W e b s i t e       v a n     d e     p a r t n e r  
+ 
+C o n t a c t     :       g e g e v e n s     v a n     d e     t a a l c h e q u e     c o n t a c t     d i e     b i j     d e     p a r t n e r     i s  
+ 
+B e s c h r i j v i n g     e n     m e t h o d o l o g i e     :       d i t     v e l d     i s     v o o r     d e     p a r t n e r     a l s     h i j     m e e r     i n f o r m a t i e     o v e r     z i j n  
+w e r k m e t h o d e     w i l     g e v e n .     D e z e     i n f o r m a t i e     i s     z i c h t b a a r     v a n a f     h e t     s c h e r m     v a n     d e     o p e n s t a a n d e  
+o p l e i d i n g e n .  
+ 
+T o e g a n g s w e g     :       d e     p a r t n e r     k a n     d i t     v e l d     i n v u l l e n     o m     m e e r     i n f o r m a t i e     t e     g e v e n     o v e r     d e     w e g e n     t e  
+v o l g e n     o m     n a a r     d e     o p l e i d i n g e n     t e     g a a n .     I n d i e n     n o d i g     m o g e n     z e     o o k     f o t o ’ s     t o e v o e g e n .  
+ 
+U u r r o o s t e r     :       i n     d i t     v e l d     s c h r i j f t     d e     p a r t n e r     z i j n     o p e n i n g s u r e n     .  
+6.   Beheer   voor   werkzoekende 
+6 . 1 .     H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     w e r k z o e k e n d e  
+H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     w e r k z o e k e n d e     ( F i g . 1 0 )     b e v a t     a l l e     i n f o r m a t i e     o v e r     d e  
+w e r k z o e k e n d e  
+ 
+ 
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     W Z     b e s t a a t     u i t     :    
+­ D e     n a a m     v a n     d e     W Z  
+­ H e t     n a v i g a t i e m e n u     v a n     h e t     g e d e t a i l l e e r d e     s c h e r m     v a n     d e     W Z     d i e     t o e g a n g     b i e d t     :    
+­ a a n     d e     v e i l i g h e i d s g e g e v e n s     v a n     d e     W Z  
+­ a a n     d e     i n s c h r i j v i n g s     g e s c h i e d e n i s     v a n     d e     W Z  
+­ H e t     b e w e r k i n g s g e b i e d     v a n     d e     g e g e v e n s     ( F i g . 1 0     ­ 2 )  
+­ H e t     a a n p l a k k e n     v a n     d e     o p m e r k i n g     ( F i g . 1 0 ­ 8 )  
+6 . 1 . 1 .     “ V e i l i g h e i d s s c h e r m ”  
+ 
+O p     d i t     s c h e r m     ( F i g . 1 0 ­ 2 )     k u n t     u     d e     v e i l i g h e i d s g e g e v e n s     v a n     d e     W Z     b e w e r k e n  
+ 
+P o s t c o d e       :     i n     h e t     e e r s t e     v e l d     k u n t     u     d e     l i j s t     m e t     d e     B e l g i s c h e     p o s t c o d e s     z o e k e n .     A l s     d e     c o d e     n i e t  
+g e v o n d e n     w e r d     k a n     d i e     h a n d m a t i g     t o e g e v o e g d     w o r d e n .     ( F i g . 1 0 ­ 3 )  
+ 
+R i j k s r e g i s t e r n u m m e r     :       i s     n i e t     v e r p l i c h t ,     m a a r     t o c h     a a n b e v o l e n     ( n i e t     a l l e     W Z     h e b b e n     e e n  
+r i j k s r e g i s t e r n u m m e r ) .     ( F i g     1 0     ­ 4 )  
+ 
+I B I S     n u m m r     :       v e r p l i c h t     v e l d     ( F i g . 1 0 ­ 5 )  
+ 
+G e w e n s t e     b e r o e p     :       h e t     b e r o e p     d a t     d e     W Z     w i l t     v i n d e n     ( F i g . 1 0 ­ 6 ) .     D a n k z i j     d i t     g e g e v e n     k a n     d e  
+p a r t n e r     d e     i n h o u d     v a n     d e     o p l e i d i n g     b e g e l e i d e n     v o o r     e e n     b e p a a l d e     i n d u s t r i e .  
+ 
+O n d e r a a n     d i t     s c h e r m     k u n t     u     d e     d a t u m     e n     d e     v e r a n t w o o r d e l i j k e     v o o r     d e     l a a t s t e     u p d a t e     v a n     d e  
+g e g e v e n s     v a n     d e     W Z     ( F i g . 1 0 ­ 7 )  
+6 . 1 . 2 .     " G e s c h i e d e n i s "     s c h e r m  
+O p     d i t     s c h e r m     ( F i g . 6 )     v i n d t     u     d e     l i j s t     v a n     d e     i n s c h r i j v i n g e n     v a n     d e z e     W Z     a a n     o p l e i d i n g e n .     D e z e     l i j s t  
+b e v a t     d e     e f f e c t i e v e     e n     g e a n n u l e e r d e     i n s c h r i j v i n g e n     ( u i t g e s c h r e v e n ) .    
+ 
+ 
+K l i k     o p     " R a a d p l e g e n "     o m     t o e g a n g     t o t     h e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     i n s c h r i j v i n g     t e     h e b b e n  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+7.   Inschrijvings   beheer 
+7 . 1 .     D e     i n s c h r i j v i n g s l i j s t  
+D o o r     t e     k l i k k e n     o p     " I n s c h r i j v i n g "     i n     h e t     h o o f d m e n u     k o m t     u     t e r e c h t     o p     d e     i n s c h r i j v i n g s l i j s t     ( F i g . 1 2 ) .  
+ 
+ 
+ 
+ 
+D e     i n s c h r i j v i n g s l i j s t     i s     s a m e n g e s t e l d     :    
+ 
+­ V a n     h e t     m e n u     o m     d e     3     c a t e g o r i e ë n     v a n     i n s c h r i j v i n g e n     o p     t e     z o e k e n     ( F i g . 1 2 ­     1 )  
+­ H u i d i g e     i n s c h r i j v i n g e n     :       a l l e     l o p e n d e     o f     t o e k o m s t i g e     i n s c h r i j v i n g e n    
+­ G e s l o t e n     i n s c h r i j v i n g e n     :       a l l e     i n s c h r i j v i n g e n     w a a r v a n     d e     e i n d d a t u m     i n     h e t  
+v e r l e d e n     i s  
+­ W a c h t l i j s t e n     :       a l l e     i n s c h r i j v i n g e n     d i e     o v e r g e b r a c h t     w e r d e n     n a a r     w a c h t l i j s t e n     b i j  
+g e b r e k     v a n     p l a a t s  
+­ V a n     f i l t e r s     o m     d e     r e g i s t r a t i e     o p     t e     z o e k e n     p e r     d a t u m ,     t a a l ,     n i v e a u     o f     p a r t n e r     ( F i g . 1 2 ­ 1 )  
+­ V a n     d e     l i j s t     m e t     i n s c h r i j v i n g e n     d i e     o v e r e e n k o m e n     m e t     d e     z o e k c r i t e r i a     e n     d e     g e k o z e n  
+c a t e g o r i e .     P a s     o p ,     i n     d e     c a t e g o r i e     " w a c h t l i j s t "     z i j n     d e     k o l o m m e n     “ P e r i o d e s ” ,     “ D a t a ” ,  
+“ P a r t n e r s ”     e n     “ R e s u l t a t e n ”     n i e t     g e t o o n d     o m d a t     d e     o p l e i d i n g     n o g     n i e t     e f f e c t i e f     i s .  
+I n t e g e n d e e l ,     e e n     e x t r a     k o l o m     i s     w e e r g e g e v e n     m e t     d e     p e r i o d e     v a n a f     d e     d a t u m     v a n     d e  
+i n s c h r i j v i n g     :    
+­ A l s     d e     t e r m i j n     m e e r     d a n     6 0     d a g e n     d u u r t     i s     d e     l i j n     g e e l     g e k l e u r d .  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+­ A l s     d e     t e r m i j n     m e e r     d a n     9 0     d a g e n     d u u r t     i s     d e     l i j n     r o o d     g e k l e u r d .  
+­ A l s     d e     t e r m i j n     m e e r     d a n     1 8 0     d a g e n     d u u r t     i s     d e     i n s c h r i j v i n g     a u t o m a t i s c h     g e a n n u l e e r d  
+e n     e e n     e ­ m a i l     g e a n n u l e e r d e     i n s c h r i j v i n g "     w o r d t     n a a r     d e     W Z     g e s t u u r d .  
+7 . 2 .     H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     i n s c h r i j v i n g  
+H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     i n s c h r i j v i n g     ( F i g . 1 3 )     b e v a t     a l l e     i n f o r m a t i e     o v e r     d e     i n s c h r i j v i n g  
+ 
+ 
+ 
+ 
+ 
+ 
+H e t     g e d e t a i l l e e r d e     s c h e r m     v a n     e e n     i n s c h r i j v i n g     i s     s a m e n g e s t e l d     :  
+ 
+­ V a n     d e     t i t e l     m e t     d e     n a a m     v a n     d e     W Z ,     d e     b e t r o k k e n     o p l e i d i n g     e n     h e t     I D     v a n     d e     o p l e i d i n g  
+( F i g . 1 3 ­ 1 )  
+­ V a n     h e t     n a v i g a t i e m e n u     v a n     h e t     g e d e t a i l l e e r d e     s c h e r m     v a n     d e     i n s c h r i j v i n g e n     d i e     t o e g a n g  
+b i e d t     a a n     :    
+­ d e     v e i l i g h e i d s s c h e r m     v a n     d e     W Z  
+­ d e     i n s c h r i j v i n g s     g e s c h i e d e n i s     v a n     d e     W Z  
+­ d e     i n s c h r i j v i n g s g e g e v e n s     v a n     d e     i n s c h r i j v i n g     ( s t a n d a a r d s c h e r m )  
+­ d e     e v a l u a t i e g e g e v e n s    
+­ V a n     h e t     b e w e r k i n g s g e b i e d     v a n     d e     g e g e v e n s     v a n     d e z e     i n s c h r i j v i n g     ( F i g . 1 3 ­ 3 )     e n  
+a c t i e k n o p p e n     o p     d i t     b e r i c h t     ( F i g . 1 3 ­ 1 0     . . .     1 4 ) .  
+­ V a n     h e t     a a n p l a k k e n     v a n     d e     o p m e r k i n g     ( F i g . 1 3 ­ 6 )  
+7 . 2 . 1 .     “ I n s c h r i j v i n g ”     s c h e r m  
+D i t     s c h e r m     ( F i g . 1 3 ­ 3 )     i s     o m     d e     v e i l i g h e i d s g e g e v e n s     v a n     d e     W Z     t e     b e w e r k e n .  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+T a a l c h e q u e     :       d e     i d e n t i f i c a t i e n u m m e r     v a n     d e     a f g e g e v e n     t a a l c h e q u e     v o o r     e e n     o p l e i d i n g  
+D a t u m     v a n     d e     o p l e i d i n g     :       d e z e     d a t a     z i j n     d e     d a t a     v a n     d e     p e r i o d e ,     m a a r     k u n n e n     w o r d e n     a a n g e p a s t  
+a l s     d e     o p l e i d i n g     l a t e r     b e g i n t     o f     v r o e g e r     e i n d i g t .  
+ 
+B e g i n t e s t     :       m o n d e l i n g     e x a m e n     u i t g e v o e r d     d o o r     d e     p a r t n e r     v o o r     h e t     b e g i n     v a n     d e     o p l e i d i n g  
+ 
+O p m e r k i n g e n       i n     v e r b a n d     m e t     d e     i n s c h r i j v i n g     :  
+ 
+E r     i s     i n f o r m a t i e     o v e r     d e     i n s c h r i j v i n g s d a t u m     e n     d e     p e r s o o n     d i e     d e     i n s c h r i j v i n g     g e m a a k t     h e e f t .  
+ 
+A a n     d e     o n d e r k a n t     v a n     h e t     s c h e r m     i s     e r     i n f o r m a t i e     o v e r     d e     d a t u m     v a n     d e     l a a t s t e     w i j z i g i n g     e n     d e  
+v e r a n t w o o r d e l i j k e     v a n     d i e     v e r a n d e r i n g .  
+ 
+V e r s c h i l l e n d e     a c t i e k n o p p e n     b e t r e f f e n d     a a n     d e z e     i n s c h r i j v i n g     z i j n     v e r k r i j g b a a r     a a n     d e     o n d e r k a n t     v a n  
+h e t     s c h e r m  
+ 
+“ V e r z e t t e n ”     :           d e z e     k n o p     d i e n t     o m     u     d e     i n s c h r i j v i n g     n a a r     e e n     a n d e r e     o p l e i d i n g     t e     v e r z e t t e n .     D o o r  
+o p     d e z e     k n o p     t e     k l i k k e n     w o r d t     u     d o o r g e s t u u r d     n a a r     h e t     s c h e r m     “ o p e n s t a a n d e     o p l e i d i n g e n ”     o m     d e  
+n i e u w e     f o r m a t i e     t e     s e l e c t e r e n .     D a a r n a     h o e f t     u     g e w o o n     t e     k l i k k e n     o p     k n o p     " v e r z e t t e n "     a a n     d e  
+r e c h t e r k a n t     v a n     d e     l i j n     “ o p l e i d i n g ” .     D a n     z a l     d e     g e b r u i k e r     i n     s t a a t     z i j n     o m     d e     b e v e s t i g i n g s     e ­ m a i l     t e  
+w i j z i g e n     e n     d a t     z a l     d a n     n a a r     W Z     w o r d e n     v e r z o n d e n .  
+ 
+D e     r e g i s t r a t i e     z a l     e f f e c t i e f     w o r d e n     o v e r g e d r a g e n     w a n n e e r     d e     g e b r u i k e r     o p     “ V e r z e n d e n ”     k l i k t  
+ 
+D e     " P r i n t "           k n o p     w a a r m e e     d e     g e b r u i k e r     e e n     p d f ­ d o c u m e n t     k a n     d r u k k e n     t e r     b e v e s t i g i n g     v a n     d e  
+i n s c h r i j v i n g .  
+ 
+D e     " d u p l i c a a t "       k n o p     w a a r m e e     d e     g e b r u i k e r     e e n     d u p l i c a a t     v a n     d e     b e v e s t i g i n g s     e ­ m a i l     v a n     d e  
+i n s c h r i j v i n g     d i e     a u t o m a t i s c h     g e s t u u r d     w o r d t     b i j     d e     i n s c h r i j v i n g .  
+ 
+D e     " U i t s c h r i j v e n "           k n o p     w a a r m e e     d e     g e b r u i k e r     z i j n     i n s c h r i j v i n g     m a g     a n n u l e r e n .     D o o r     t e     k l i k k e n     o p  
+d e z e     k n o p     w o r d t     d e     g e b r u i k e r     d o o r g e s t u u r d     n a a r     h e t     s c h e r m     w a a r     h i j     d e     m o g e l i j k h e i d     h e e f t     o m     d e  
+b e v e s t i g i n g s     e ­ m a i l     t e     w i j z i g e n .    
+D e     i n s c h r i j v i n g     z a l     e f f e c t i e f     w o r d e n     g e a n n u l e e r d     w a n n e e r     d e     g e b r u i k e r     o p     “ v e r z e n d e n ”     k l i k t .  
+ 
+D e     " W a c h t l i j s t       "     k n o p     w a a r m e e     d e     g e b r u i k e r     d e     i n s c h r i j v i n g     o v e r d r a a g t     n a a r     e e n     w a c h t l i j s t .     D o o r  
+t e     k l i k k e n     o p     d e z e     k n o p     w o r d t     u     d o o r g e s t u u r d     n a a r     h e t     s c h e r m     “ w a c h t l i j s t e n ”     o m     u w     i n s c h r i j v i n g  
+o v e r     t e     b r e n g e n .     D a a r n a     k l i k t     u     g e w o o n     o p     d e     k n o p     " v e r z e t t e n "     a a n     d e     r e c h t e r k a n t     v a n     d e     l i j n  
+“ o p l e i d i n g ” .     D a n     z a l     d e     g e b r u i k e r     d e     m o g e l i j k h e i d     h e b b e n     o m     d e     b e v e s t i g i n g s     e ­ m a i l     t e     w i j z i g e n     i n  
+d e     w a c h t l i j s t     e n     d a t     z a l     d a n     n a a r     d e     W Z     g e s t u u r d     w o r d e n  
+ 
+D e     i n s c h r i j v i n g     z a l     e f f e c t i e f     w o r d e n     o v e r g e d r a g e n     w a n n e e r     d e     g e b r u i k e r     o p     “ v e r z e n d e n ”     k l i k t  
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+7 . 2 . 2 .     “ E v a l u a t i e ”     s c h e r m    
+ 
+ 
+O p     d i t     s c h e r m     ( F i g . 1 4 )     k u n t     u     h e t     u i t e i n d e l i j k e     r e s u l t a a t     v a n     d e     o p l e i d i n g     c o d e r e n ,     d a t     w i l     z e g g e n  
+h a a r     s t a t u s .     I n d i e n     d e     o p l e i d i n g     o n d e r b r o k e n     w o r d t ,     z a l     h e t     v e r p l i c h t     z i j n     o m     d e     r e d e n     v a n     d e  
+o n d e r b r e k i n g     t e     v e r m e l d e n .  
+I n d i e n     d e     t r a i n i n g     o p     n o r m a l e     w i j z e     w e r d     a f g e r o n d ,     d a t     w i l     z e g g e n     d a t     “ e i n d e     o p l e i d i n g "     g e c o d e e r d  
+i s ,     z a l     d e     p a r t n e r     d e     d e f i n i t i e v e     t e s t r e s u l t a t e n     m o g e n     c o d e r e n .  
+8.   FAQ   beheer  
+8 . 1         D e     l i j s t     v a n     F A Q  
+A l s     u     o p     " F A Q "     k l i k t     i n     h e t     h o o f d m e n u     k o m t     u     t e r e c h t     o p     d e     F A Q ­ l i j s t     ( F i g . 1 5 ) .  
+ 
+ 
+ 
+A l s     u     o p     " v i e w "     k l i k t     k r i j g t     u     d e     d e t a i l s     v a n     d e     F A Q     z o n d e r     h e t     t e     k u n n e n     w i j z i g e n .  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+ 
+ 
+   
+9 .     K E R N R E G E L S :     G E B R U I K     V A N     D E     I N S C H R I J V I N G S T O O L     I C L U B  
+A C T I R I S     V O O R     T A A L L E S S E N     M E T     T A A L C H E Q U E S     “ D O O R S T R O M I N G  
+N A A R     WE R K ”  
+D i t d o c u m e n t i s e e n a a n v u l l i n g o p d e g e b r u i k e r s h a n d l e i d i n g v a n d e t o o l . H e t v e r v o l l e d i g t d e t e c h n i s c h e                              
+g e b r u i k e r s a s p e c t e n     d i e     i n     v e r b a n d     s t a a n     m e t     u w     k e r n f u n c t i e .  
+ 
+1 . D e t a l e n s c h o l e n k u n n e n h u n  o p l e i d i n g s a a n b o d m a x i m a a l 3 m a a n d e n o p v o o r h a n d o p h e t p l a t f o r m                          
+i n g e v e n .  
+ 
+2 . D e s c h o l e n m o g e n e n k e l e e n n i e u w e i d e n t i e k e m o d u l e o p e n e n ( z e l f d e t a a l , z e l f d e s c h o o l , z e l f d e n i v e a u )                              
+a l s     d e     e e r s t e     m o d u l e       v o l g e b o e k t       i s     ( 6     d e e l n e m e r s ) .  
+ 
+3 . W a n n e e r d e s c h o o l h a a r o p l e i d i n g o p h e t p l a t f o r m a a n m a a k t , m o e t z e g e b r u i k m a k e n v a n h e t v e l d                              
+“ B e s c h r i j v i n g ” o m  h e t t i j d s t i p v a n a a n v a n g e n e i n d e v a n e l k e l e s t e v e r m e l d e n   . A a n g e z i e n h e t k l e i n e                                
+u u r r o o s t e r e n k e l a a n g e e f t o f d e l e s i n d e v o o r ­ ( A M ) o f i n d e n a m i d d a g ( P M ) p l a a t s v i n d t , i s h e t b e l a n g r i j k                                      
+h e t t i j d s t i p v a n a a n v a n g i n d i t v e l d “ B e s c h r i j v i n g ” t e v e r d u i d e l i j k e n . A l s d e o p l e i d i n g b i j v o o r b e e l d o m 9 u .                                  
+o f 9 . 3 0 u . b e g i n t , z a l d e d e e l n e m e r h i e r v a n o p d e h o o g t e w o r d e n g e b r a c h t e n z a l d e z e i n f o r m a t i e o p z i j n                                      
+i n s c h r i j v i n g s b e v e s t i g i n g w o r d e n a f g e d r u k t . A l s d e s c h o o l h e t t i j d s t i p v a n a a n v a n g v a n d e l e s s e n n i e t                            
+v e r d u i d e l i j k t i n h e t v e l d “ B e s c h r i j v i n g ” , z a l d i e n i e t o p d e i n s c h r i j v i n g s b e v e s t i g i n g v a n d e d e e l n e m e r                            
+w o r d e n a f g e d r u k t e n i s e r d u s m e e r k a n s d a t d e z e l a a t s t e n i e t o p t i j d k o m t , z e l f s a l h e e f t d e s c h o o l d e z e                                          
+i n f o r m a t i e     d o o r g e g e v e n     v i a     t e l e f o o n     o f     t i j d e n s     d e     m o n d e l i n g e     p r o e f .  
+ 
+4 . V e r g e e t n i e t d a t h e t b e l a n g r i j k i s o p d e k n o p “   O p s l a a n   ” t e k l i k k e n a l v o r e n s o v e r t e g a a n n a a r e e n n i e u w                                      
+s c h e r m ( b i j v o o r b e e l d b i j h e t a a n m a k e n v a n e e n o p l e i d i n g , t u s s e n d e s c h e r m e n “ A l g e m e e n ” e n                          
+“ B e s c h r i j v i n g ” ) . A l s u v a n s c h e r m v e r a n d e r t z o n d e r t e h e b b e n o p g e s l a g e n , z u l l e n d e g e g e v e n s n i e t                            
+w o r d e n     b e w a a r d .  
+ 
+5 . D e t a l e n s c h o l e n m o e t e n h e t  m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r s e v a l u e r e n V Ó Ó R d e a a n v a n g v a n                            
+d e o p l e i d i n g . Z e m o e t e n d e z e i n f o r m a t i e o p h e t p l a t f o r m i n v o e r e n , v i a h e t t a b b l a d “ E v a l u a t i e ” i n h e t                                
+i n s c h r i j v i n g s d o s s i e r     v a n     d e     d e e l n e m e r .  
+ 
+6 . D e s c h o l e n z i j n n i e t b e v o e g d o m d e  i n s c h r i j v i n g e n o p h e t p l a t f o r m u i t t e v o e r e n . E n k e l d e                                
+t e w e r k s t e l l i n g s c o n s u l e n t e n v a n A c t i r i s m o g e n d e w e r k z o e k e n d e n o p h e t p l a t f o r m i n s c h r i j v e n v o o r                      
+t a a l l e s s e n .  
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+7 . I n d i e n d e d e e l n e m e r  z i c h m e t z i j n t a a l c h e q u e r e c h t s t r e e k s b i j d e t a l e n s c h o o l z o u a a n m e l d e n ,                          
+z o n d e r i n g e s c h r e v e n t e z i j n o p h e t p l a t f o r m ( d e z e s i t u a t i e z o u n i e t m o g e n v o o r k o m e n o f e n k e l                              
+w a n n e e r h e t p l a t f o r m n e t w e r d i n g e v o e r d e n d e t e w e r k s t e l l i n g s c o n s u l e n t s l e c h t i s i n g e l i c h t o v e r h e t                            
+g e b r u i k e r v a n ) , m a g d e i n s c h r i j v i n g p e r t e l e f o o n g e b e u r e n , z o d a t d e w e r k z o e k e n d e n i e t m o e t w o r d e n                            
+g e v r a a g d o m o p n i e u w b i j A c t i r i s l a n g s t e k o m e n . D e s c h o o l m a g t e l e f o n i s c h c o n t a c t o p n e m e n m e t d e                                
+r e f e r e n t ­ c o n s u l e n t v a n A c t i r i s d i e d e c h e q u e h e e f t t o e g e k e n d ( z i j n g e g e v e n s s t a a n o p d e c h e q u e ) o f m e t                                
+d e T a a l h o e k v a n A c t i r i s ( 0 2 / 5 0 5 . 1 1 . 9 7 ) . D e i n s c h r i j v i n g z a l t e l e f o n i s c h g e b e u r e n a . d . h . v . d e i n f o r m a t i e o p                            
+d e     c h e q u e .  
+ 
+8 . A l s e e n o p l e i d i n g d e o n d e r g r e n s v a n d r i e i n s c h r i j v i n g e n n i e t h a a l t , m o e t d i e d o o r d e s c h o o l  m i n s t e n s 7 2                                  
+u u r  ( 3 k a l e n d e r d a g e n , b i j v o o r b e e l d d o n d e r d a g a v o n d a l s d e o p l e i d i n g m a a n d a g i s g e s t a r t ) v ó ó r d e                          
+v o o r z i e n e b e g i n d a t u m w o r d e n g e a n n u l e e r d . E e r s t m o e t d e s c h o o l m e t d e i n g e s c h r e v e n p e r s o n e n                        
+c o n t a c t o p n e m e n e n h e n h e t v o l g e n d e v o o r s t e l l e n : e e n a n d e r e o p l e i d i n g d i e w e l d r a b i j h a a r z a l s t a r t e n                                
+o f e e n a n d e r e o p l e i d i n g d i e w e l d r a b i j e e n a n d e r e s c h o o l z a l s t a r t e n . A l s d e s c h o o l e r v o o r k i e s t e e n                                    
+d e e l n e m e r o v e r t e p l a a t s e n n a a r e e n a n d e r e s c h o o l , w o r d t e r g e v r a a g d v ó ó r d e o v e r p l a a t s i n g                            
+o n m i d d e l l i j k m e t d e a n d e r e s c h o o l c o n t a c t o p t e n e m e n v o o r d e v a l i d e r i n g . D e o v e r p l a a t s i n g g e b e u r t d a n                                
+v i a d e k n o p “   V e r z e t t e n   ” , d i e d i e n t o m d e d e e l n e m e r ( s ) o v e r t e p l a a t s e n n a a r e e n a n d e r e o p l e i d i n g . A l s                                  
+g e e n e n k e l e v a n d e b o v e n v e r m e l d e o p l o s s i n g e n m o g e l i j k i s , k a n d e s c h o o l m e t d e d e e l n e m e r                            
+o v e r e e n k o m e n d a t d e z e l a a t s t e t i j d e l i j k o p d e w a c h t l i j s t w o r d t g e p l a a t s t , t o t m e n h e m s n e l e e n a n d e r e                                
+o p l o s s i n g k a n v o o r s t e l l e n . H e t o p d e w a c h t l i j s t p l a a t s e n v a n d e d e e l n e m e r o n t s l a a t d e s c h o o l n i e t v a n                                
+h a a r     v e r p l i c h t i n g     s n e l     e e n     o p l e i d i n g s o p l o s s i n g     v o o r     h e m     t e     v i n d e n .  
+ 
+9 . I n d i e n d e s c h o o l 7 2 u u r v ó ó r d e s t a r t v a n d e o p l e i d i n g g e e n d r i e i n g e s c h r e v e n d e e l n e m e r s h e e f t , m a g z e                                    
+o o k b e s l u i t e n  d e b e g i n d a t u m v a n d e o p l e i d i n g t e v e r s c h u i v e n   . M e n m o e t d a n d e b e g i n d a t u m i n d e                                
+r e e d s o p e n s t a a n d e o p l e i d i n g a a n p a s s e n .  O p g e l e t   ! H e t i s a b s o l u u t n o o d z a k e l i j k d e r e e d s i n g e s c h r e v e n                        
+d e e l n e m e r s o p v o o r h a n d o p d e h o o g t e t e b r e n g e n v a n d e w i j z i g i n g v a n d e b e g i n d a t u m . D e r e e d s                                
+i n g e s c h r e v e n d e e l n e m e r s z u l l e n g e e n a u t o m a t i s c h e e ­ m a i l m e t d e z e i n f o r m a t i e o n t v a n g e n . H e t i s d u s                          
+d e     t a a k     v a n     d e     s c h o o l     o m     h e n     o p     d e     h o o g t e     t e     b r e n g e n     v a n     d e     v e r a n d e r i n g .  
+ 
+1 0 . D e t a l e n s c h o o l m a g o p e l k o g e n b l i k d e  w a c h t l i j s t  r a a d p l e g e n o m e v e n t u e e l d e e l n e m e r s v o o r h a a r                            
+o p l e i d i n g e n o p t e v i s s e n , z e l f s a l s d e d e e l n e m e r s a a n v a n k e l i j k n i e t i n h a a r e i g e n s c h o o l w a r e n                              
+i n g e s c h r e v e n . D e w a c h t l i j s t , d i e d o o r a l l e s c h o l e n k a n w o r d e n g e r a a d p l e e g d , h e e f t j u i s t t o t d o e l z o s n e l                                
+m o g e l i j k a a n a l l e d e e l n e m e r s e e n o p l o s s i n g t e k u n n e n b i e d e n . O m e e n d e e l n e m e r u i t d e w a c h t l i j s t o p t e                                  
+v i s s e n , d i e n t m e n o p d e k n o p “ V e r z e t t e n ” t e k l i k k e n e n d e z e d e e l n e m e r i n t e s c h r i j v e n v o o r e e n                                  
+o p e n s t a a n d e     o p l e i d i n g .  
+ 
+1 1 . D e d e e l n e m e r d i e o p d e w a c h t l i j s t w e r d g e z e t , b l i j f t s t e e d s v e r b o n d e n a a n d e e e r s t e s c h o o l w a a r b i j h i j                                  
+w a s i n g e s c h r e v e n . A l s d e d e e l n e m e r  9 0 d a g e n o p d e w a c h t l i j s t b l i j f t s t a a n , z a l d e s c h o o l e e n                                
+v e r w i t t i g i n g s m a i l o n t v a n g e n d a t z e s n e l e e n o p l e i d i n g s o p l o s s i n g v o o r d e z e d e e l n e m e r m o e t v i n d e n , i n                          
+h a a r     e i g e n     s c h o o l     o f     i n     e e n     a n d e r e     s c h o o l .  
+ 
+1 2 . A l s d e d e e l n e m e r  6 m a a n d e n o p d e w a c h t l i j s t b l i j f t s t a a n , z u l l e n d e s c h o o l , d e c o n s u l e n t , d e C e l                                  
+C h e q u e s v a n A c t i r i s e n d e d e e l n e m e r e e n v e r w i t t i g i n g s m a i l o n t v a n g e n d a t d e g e l d i g h e i d s d u u r v a n d e                            
+c h e q u e v e r s t r e k e n i s . D e d e e l n e m e r z a l a u t o m a t i s c h u i t d e w a c h t l i j s t w o r d e n g e h a a l d e n e r z a l e e n                                
+n e g a t i e v e u i t s t r o o m w o r d e n g e r e g i s t r e e r d . D e d e e l n e m e r k a n d a n b i j d e C e l C h e q u e s v a n A c t i r i s e e n                              
+a f w i j k i n g     a a n v r a g e n     o m     o p n i e u w     r e c h t     t e     h e b b e n     o p     e e n     t a a l c h e q u e .  
+ 
+1 3 . E e n d e e l n e m e r m a g v r i j w i l l i g e e n  v e r a n d e r i n g v a n o p l e i d i n g a a n v r a g e n . D i t i s m o g e l i j k z o n d e r s a n c t i e                            
+t o t 7 2 u u r v ó ó r d e b e g i n d a t u m v a n d e o p l e i d i n g . D e s c h o o l m a a k t d a n g e b r u i k v a n d e k n o p “ V e r z e t t e n ”                                    
+o m d e d e e l n e m e r n a a r e e n a n d e r e o p l e i d i n g o v e r t e p l a a t s e n .  O p g e l e t   ! D e o v e r p l a a t s i n g m a g e n k e l                              
+v o o r d e z e l f d e o p l e i d i n g s t a a l g e b e u r e n . A l s d e d e e l n e m e r z i j n a a n v r a a g m i n d e r d a n 7 2 u u r v ó ó r d e                              
+a a n v a n g s d a t u m v a n d e l e s i n d i e n t , k a n h i j n i e t m e e r w o r d e n o v e r g e p l a a t s t e n z a l d e c h e q u e v e r l o r e n                                
+g a a n     a l s     h i j     z i c h     t i j d e n s     d e     e e r s t e     l e s     n i e t     a a n m e l d t     ( z i e     d e     t w e e     v o l g e n d e     p u n t e n ) .  
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+ 
+1 4 . A l s e r 7 2 u u r v ó ó r d e v o o r z i e n e a a n v a n g s d a t u m d r i e o f m e e r i n s c h r i j v i n g e n z i j n , k a n d e o p l e i d i n g                                
+s t a r t e n . A l s d e  u i t s c h r i j v i n g e n p l a a t s v i n d e n b i n n e n d e 7 2 u u r v ó ó r h e t b e g i n v a n d e o p l e i d i n g , z a l d e                                  
+o p l e i d i n g     t o c h     s t a r t e n     e n     k i j k t     A c t i r i s     n a a r     d e     i n s c h r i j v i n g e n     d i e     g e v a l i d e e r d     z i j n     o p     d e     d a g    
+D ­ 7 2   u . D e t a a l c h e q u e w o r d t d a n a l s “ g e b r u i k t ” b e s c h o u w d , z e l f s w a n n e e r d e d e e l n e m e r n i e t k o m t . D e                              
+b e t r o k k e n W Z w o r d t i n r e k e n i n g g e b r a c h t b i j d e b e r e k e n i n g v a n d e w e r k e l i j k e s u b s i d i e . D e s c h o o l m o e t                                
+d e     v o l g e n d e     i n f o r m a t i e     o p     h e t     p l a t f o r m     i n g e v e n :    
+● W e r k e l i j k     e i n d e     v a n     d e     o p l e i d i n g :     d e     d a t u m     v a n     d e     e e r s t e     d a g     v a n     d e     o p l e i d i n g  
+● R e s u l t a a t :     o p l e i d i n g     n i e t     g e s t a r t  
+● M o n d e l i n g e p r o e f b i j a a n v a n g : h e t m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r v ó ó r h e t b e g i n v a n d e                              
+o p l e i d i n g .     I n d i e n     d e     s c h o o l     g e e n     t i j d     h a d     o m     d e z e     t e s t     u i t     t e     v o e r e n ,     d i e n t     m e n     n i e t s     t e     n o t e r e n .  
+● H e t     r e s u l t a a t     v a n     d e     e i n d e v a l u a t i e     v a n     d e     4     v a a r d i g h e d e n     n i e t     i n v o e r e n  
+● O p m e r k i n g : v o e g g e r u s t a l l e i n f o r m a t i e t o e d i e r e l e v a n t i s v o o r d e c o n s u l e n t v a n A c t i r i s .                            
+B i j v o o r b e e l d :     r e d e n     v a n     d e     u i t s c h r i j v i n g     i n d i e n     b e k e n d     e n z .  
+ 
+1 5 . A l s e e n i n g e s c h r e v e n d e e l n e m e r z i c h t i j d e n s d e e e r s t e l e s n i e t a a n m e l d t   , z a l d e s c h o o l c o n t a c t m e t                                  
+h e m o p n e m e n . I n d i e n d e d e e l n e m e r d e o p l e i d i n g w e n s t v o o r t t e z e t t e n , z a l h i j w o r d e n u i t g e n o d i g d z i c h                                
+o p d e v o l g e n d e l e s d a g a a n t e m e l d e n . A l s d e s c h o o l e r n i e t i n s l a a g t o m d e d e e l n e m e r t e b e r e i k e n o f a l s                                          
+d e z e l a a t s t e h e e f t a a n g e g e v e n d a t h i j d e o p l e i d i n g n i e t l a n g e r w e n s t t e v o l g e n , n o t e e r t d e s c h o o l h e t                                  
+v o l g e n d e     i n     z i j n     d o s s i e r     o p     h e t     p l a t f o r m :    
+● W e r k e l i j k     e i n d e     v a n     d e     o p l e i d i n g :     d e     d a t u m     v a n     d e     e e r s t e     d a g     v a n     d e     o p l e i d i n g  
+● R e s u l t a a t :     o p l e i d i n g     n i e t     g e s t a r t  
+● M o n d e l i n g e p r o e f b i j a a n v a n g : h e t m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r v ó ó r h e t b e g i n v a n d e                              
+o p l e i d i n g .     I n d i e n     d e     s c h o o l     g e e n     t i j d     h a d     o m     d e z e     t e s t     u i t     t e     v o e r e n ,     d i e n t     m e n     n i e t s     t e     n o t e r e n .  
+● H e t     r e s u l t a a t     v a n     d e     e i n d e v a l u a t i e     v a n     d e     4     v a a r d i g h e d e n     n i e t     i n v o e r e n  
+● O p m e r k i n g : v o e g g e r u s t a l l e i n f o r m a t i e t o e d i e r e l e v a n t i s v o o r d e c o n s u l e n t v a n A c t i r i s .                            
+B i j v o o r b e e l d :     r e d e n     v a n     a f w e z i g h e i d     i n d i e n     b e k e n d ,     e n z .  
+ 
+1 6 . A l s d e d e e l n e m e r  d e v o l l e d i g e o p l e i d i n g h e e f t d o o r l o p e n ( m e t m a x . 2 a f w e z i g h e i d s d a g e n ) , v o e r t d e                            
+s c h o o l     d e     v o l g e n d e     g e g e v e n s     i n :  
+● W e r k e l i j k     e i n d e     v a n     d e     o p l e i d i n g :     d e     e i n d d a t u m     v a n     d e     o p l e i d i n g  
+● R e s u l t a a t :     e i n d e     o p l e i d i n g  
+● M o n d e l i n g e p r o e f b i j a a n v a n g : h e t m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r v ó ó r h e t b e g i n v a n d e                              
+o p l e i d i n g  
+● H e t r e s u l t a a t v a n d e e i n d e v a l u a t i e v a n d e 4 v a a r d i g h e d e n i n v o e r e n ( S p r e k e n , S c h r i j v e n , L e z e n &                            
+B e g r i j p e n )  
+● O p m e r k i n g :     v o e g     g e r u s t     a l l e     i n f o r m a t i e     t o e     d i e     r e l e v a n t     i s     v o o r     d e     c o n s u l e n t     v a n     A c t i r i s .  
+ 
+1 7 . A l s e e n d e e l n e m e r  o p g e e f t v ó ó r h e t e i n d e v a n d e o p l e i d i n g , m o e t d e s c h o o l d e v o l g e n d e i n f o r m a t i e o p                                  
+h e t     p l a t f o r m     i n g e v e n :  
+● W e r k e l i j k e i n d e v a n d e o p l e i d i n g : d e d a t u m w a a r o p d e d e e l n e m e r i s g e s t o p t m e t h e t v o l g e n v a n d e                                  
+l e s s e n . O p g e l e t ! A l s d e d e e l n e m e r n i e t d e v o l l e d i g e o p l e i d i n g h e e f t d o o r l o p e n , i s h e t b e l a n g r i j k d a t                              
+d e z e i n f o r m a t i e d u i d e l i j k w o r d t i n z i j n d o s s i e r . M e n m o e t d u s d e w e r k e l i j k e d a t u m v a n o p g a v e                              
+i n v o e r e n     e n     n i e t     d e     v o o r z i e n e     e i n d d a t u m     v a n     d e     o p l e i d i n g .  
+● R e s u l t a a t :     o p l e i d i n g     o n d e r b r o k e n  
+● R e d e n : D e s c h o o l g e e f t d e r e d e n v a n d e o n d e r b r e k i n g a a n a l s d i e b e k e n d i s ( t e w e r k s t e l l i n g ,                              
+o p l e i d i n g o f s t a g e e n z . ) . M e r k o p d a t d e d r i e e e r s t e r e d e n e n v a n o n d e r b r e k i n g ( t e w e r k s t e l l i n g ,                            
+i n d i v i d u e l e b e r o e p s o p l e i d i n g I B O o f s t a g e & c r e a t i e v a n e i g e n t e w e r k s t e l l i n g ) a l s p o s i t i e v e u i t s t r o o m                          
+w o r d e n b e s c h o u w d . D e k e u z e s “ N e g a t i e f ” o f “ A n d e r e R e d e n ” w o r d e n a l s n e g a t i e v e u i t s t r o o m                        
+b e s c h o u w d . D e k e u z e “ N e g a t i e f ” z a l w o r d e n g e b r u i k t w a n n e e r d e d e e l n e m e r n i e t m e e r v a n z i c h                            
+l a a t h o r e n o f g e e n a n t w o o r d g e e f t w a n n e e r d e s c h o o l c o n t a c t m e t h e m o p n e e m t . D e s c h o o l k e n t                                
+d u s d e r e d e n v a n o p g a v e v a n d e d e e l n e m e r n i e t . D e k e u z e “ N e g a t i e f ” z a l e v e n e e n s w o r d e n                              
+g e b r u i k t w a n n e e r d e d e e l n e m e r d u i d e l i j k a a n d e s c h o o l m e e d e e l t d a t h i j d e o p l e i d i n g n i e t m e e r                              
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+w e n s t v o o r t t e z e t t e n . D e k e u z e “ A n d e r e R e d e n ” z a l w o r d e n g e b r u i k t a l s d e d e e l n e m e r v o o r l a n g e                                
+t i j d     z i e k     i s     ( z i e     v o l g e n d     p u n t )     e n     d e     o p l e i d i n g     w e n s t     t e     k u n n e n     v o o r t z e t t e n     w a n n e e r     h i j     g e n e z e n     i s .  
+● M o n d e l i n g e p r o e f b i j a a n v a n g : h e t m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r v ó ó r h e t b e g i n v a n d e                              
+o p l e i d i n g  
+● H e t     r e s u l t a a t     v a n     d e     e i n d e v a l u a t i e     v a n     d e     4     v a a r d i g h e d e n     n i e t     i n v o e r e n  
+● O p m e r k i n g : v o e g g e r u s t a l l e i n f o r m a t i e t o e d i e r e l e v a n t i s v o o r d e c o n s u l e n t v a n A c t i r i s .                            
+B i j v o o r b e e l d : r e d e n v a n o p g a v e i n d i e n b e k e n d e n i n d i e n z e n i e t o p d e l i j s t m e t k e u z e m o g e l i j k h e d e n                              
+v o o r k o m t     e n z .  
+ 
+1 8 . A l s e e n d e e l n e m e r t i j d e n s d e o p l e i d i n g v o o r m e e r d a n t w e e v o l l e d i g e d a g e n  z i e k i s ( m e t b e w i j s s t u k )                                
+m o e t d e v o l g e n d e p r o c e d u r e w o r d e n g e v o l g d : d e e e r s t e i n s c h r i j v i n g v a n d e d e e l n e m e r b l i j f t o p e n s t a a n                            
+t o t h i j n a z i j n z i e k t e t e r u g k o m t ( o o k a l s d e o p l e i d i n g o n d e r t u s s e n i s a f g e l o p e n ) . M e n m o e t d u s g e e n                                  
+w e r k e l i j k e e i n d d a t u m e n g e e n r e s u l t a a t n o t e r e n . W a n n e e r h i j z i c h b e t e r v o e l t , n e e m t d e d e e l n e m e r m e t                              
+d e s c h o o l c o n t a c t o p e n d i e k a n h e m v o o r s t e l l e n z i c h a a n t e s l u i t e n b i j e e n o p l e i d i n g v a n h e t z e l f d e                                    
+n i v e a u d i e a l l o p e n d e i s ( o p v o o r w a a r d e d a t z e n o g n i e t v o l g e b o e k t i s , d u s n o g g e e n 6 d e e l n e m e r s                                    
+h e e f t )     o f     e e n     n i e u w e     o p l e i d i n g     v a n     n u l     t e     s t a r t e n     ( e e n     k e u z e     d i e     a a n     d e     s c h o o l     w o r d t     o v e r g e l a t e n ) .    
+ 
+A l s d e s c h o o l e r v o o r k i e s t d e d e e l n e m e r b i j e e n  r e e d s g e s t a r t e o p l e i d i n g t e l a t e n a a n s l u i t e n , i s i n d i e                                    
+s i t u a t i e g e e n e n k e l e i n s c h r i j v i n g s i n v o e r i n g n o d i g . D e e e r s t e i n s c h r i j v i n g v a n d e d e e l n e m e r s t a a t n o g                          
+s t e e d s o p e n . A l s h i j d e o p l e i d i n g h e e f t b e ë i n d i g d , g e e f t d e s c h o o l d e v o l g e n d e i n f o r m a t i e  i n z i j n r e e d s                                  
+o p e n s t a a n d e     d o s s i e r     i n   :  
+● W e r k e l i j k e i n d e v a n d e o p l e i d i n g : d e e i n d d a t u m v a n d e  t w e e d e o p l e i d i n g ( N B : d e b e g i n d a t u m b l i j f t                              
+d e     b e g i n d a t u m     v a n     d e       e e r s t e       o p l e i d i n g )  
+● R e s u l t a a t :     e i n d e     o p l e i d i n g  
+● M o n d e l i n g e p r o e f b i j a a n v a n g : h e t m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r v ó ó r h e t b e g i n v a n d e                              
+o p l e i d i n g  
+● H e t r e s u l t a a t v a n d e e i n d e v a l u a t i e v a n d e 4 v a a r d i g h e d e n i n v o e r e n ( S p r e k e n , S c h r i j v e n , L e z e n &                            
+B e g r i j p e n )  
+● O p m e r k i n g : D e s c h o o l v o e g t e e n o p m e r k i n g t o e d o o r d e c o d e v a n d e  t w e e d e o p l e i d i n g , w a a r h i j z i j n                                  
+t r a j e c t h e e f t v o l t o o i d , a a n t e g e v e n . E l k e o p l e i d i n g h e e f t e e n u n i e k e c o d e d i e m e n i n d e l i j s t m e t d e                                      
+o p e n s t a a n d e     o p l e i d i n g e n     v i n d t :     “ O p e n s t a a n d e     O p l e i d i n g e n ”     ­ >     “ R a a d p l e g e n ” .  
+ 
+ 
+A l s d e s c h o o l e r v o o r k i e s t d e d e e l n e m e r v o o r e e n  n i e u w e o p l e i d i n g d i e w e l d r a z a l b e g i n n e n i n t e                                  
+s c h r i j v e n , i s i n d e z e s i t u a t i e g e e n e n k e l e i n s c h r i j v i n g s i n v o e r i n g n o d i g . D e e e r s t e i n s c h r i j v i n g v a n d e                            
+d e e l n e m e r s t a a t n o g s t e e d s o p e n . R e s e r v e e r v o o r h e m e e n p l a a t s i n d e n i e u w e o p l e i d i n g d i e z a l                                
+b e g i n n e n ( “ R e s e r v e r e n ” ) , t e r w i j l u e r o p t o e z i e t d a t d e g r e n s v a n 6 i n s c h r i j v i n g e n n i e t w o r d t                            
+o v e r s c h r e d e n . H e t i s n i e t n o d i g h i e r v o o r e e n n i e u w e i n s c h r i j v i n g v o o r h e m a a n t e m a k e n ( d e s c h o l e n                                
+m o g e n t r o u w e n s g e e n i n s c h r i j v i n g e n u i t v o e r e n ) . D e s c h o o l z a l e e r d e r d e o p l e i d i n g a a n p a s s e n d o o r h e t                            
+m a x i m a l e a a n t a l p l a a t s e n e r v a n t e v e r m i n d e r e n . D e o p l e i d i n g z a l b i j v o o r b e e l d m a x i m a a l 5 i . p . v . 6                            
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+ 
+M a n u a l     P a r t n e r s     A c c o u n t     A c t i r i s     ­     i C l u b    
+v e r s i e     1 . 0     |     1 0 / 1 7 / 1 6  
+  
+ 
+p l a a t s e n t e l l e n . E é n v a n d e 6 p l a a t s e n w o r d t d u s g e r e s e r v e e r d v o o r d e z i e k e p e r s o o n d i e o p n i e u w e e n                                  
+o p l e i d i n g z a l b e g i n n e n . W a n n e e r d e d e e l n e m e r d e o p l e i d i n g h e e f t b e ë i n d i g d , v o e r t d e s c h o o l d e                            
+v o l g e n d e     g e g e v e n s       i n     z i j n     r e e d s     o p e n s t a a n d e     d o s s i e r     i n   :  
+● W e r k e l i j k e i n d e v a n d e o p l e i d i n g : d e e i n d d a t u m v a n d e  t w e e d e o p l e i d i n g ( N B : d e b e g i n d a t u m b l i j f t                              
+d e     b e g i n d a t u m     v a n     d e       e e r s t e       o p l e i d i n g )  
+● R e s u l t a a t :     e i n d e     o p l e i d i n g  
+● M o n d e l i n g e p r o e f b i j a a n v a n g : h e t m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r v ó ó r h e t b e g i n v a n d e                              
+o p l e i d i n g .  
+● H e t r e s u l t a a t v a n d e e i n d e v a l u a t i e v a n d e 4 v a a r d i g h e d e n i n v o e r e n ( S p r e k e n , S c h r i j v e n , L e z e n &                            
+B e g r i j p e n ) .  
+● O p m e r k i n g : D e s c h o o l v o e g t e e n o p m e r k i n g t o e d o o r d e c o d e v a n d e  t w e e d e o p l e i d i n g , w a a r h i j z i j n                                  
+t r a j e c t h e e f t v o l t o o i d , a a n t e g e v e n . E l k e o p l e i d i n g h e e f t e e n u n i e k e c o d e d i e m e n i n d e l i j s t m e t d e                                      
+o p e n s t a a n d e     o p l e i d i n g e n     v i n d t :     “ O p e n s t a a n d e     O p l e i d i n g e n ”     ­ >     “ R a a d p l e g e n ” .  
+ 
+1 9 . A l s d e d e e l n e m e r  n a z i j n z i e k t e n i e t t e r u g k o m t ( + 6 m a a n d e n n a d e d a t u m v a n u i t g i f t e v a n d e c h e q u e ) ,                                    
+d a n v e r v a l t d e c h e q u e . D e d e e l n e m e r k a n b i j A c t i r i s ( b i j d e C e l C h e q u e s ) e e n p r o c e d u r e v o o r a f w i j k i n g                                  
+a a n v r a g e n a l s h i j d e o p l e i d i n g w e n s t t e h e r v a t t e n n a h e t v e r v a l l e n v a n d e c h e q u e . D e s c h o o l s l u i t h e t                                    
+d o s s i e r     v a n     d e     d e e l n e m e r     a f     d o o r     d e     v o l g e n d e     g e g e v e n s     i n     t e     v o e r e n :  
+● W e r k e l i j k e i n d e v a n d e o p l e i d i n g : d e d a t u m w a a r o p d e d e e l n e m e r i s g e s t o p t m e t h e t v o l g e n v a n d e                                  
+l e s s e n . O p g e l e t ! A l s d e d e e l n e m e r n i e t d e v o l l e d i g e o p l e i d i n g h e e f t d o o r l o p e n , i s h e t b e l a n g r i j k d a t                              
+d e z e i n f o r m a t i e d u i d e l i j k w o r d t i n z i j n d o s s i e r . M e n m o e t d u s d e w e r k e l i j k e d a t u m v a n o p g a v e                              
+i n v o e r e n     e n     n i e t     d e     v o o r z i e n e     e i n d d a t u m     v a n     d e     o p l e i d i n g .  
+● R e s u l t a a t :     o p l e i d i n g     o n d e r b r o k e n  
+● R e d e n :     d e     s c h o o l     d u i d t     “ A n d e r e     R e d e n ”     a a n  
+● M o n d e l i n g e p r o e f b i j a a n v a n g : h e t m o n d e l i n g e n i v e a u v a n d e d e e l n e m e r v ó ó r h e t b e g i n v a n d e                              
+o p l e i d i n g  
+● H e t     r e s u l t a a t     v a n     d e     e i n d e v a l u a t i e     v a n     d e     4     v a a r d i g h e d e n     n i e t     i n v o e r e n  
+● O p m e r k i n g : v o e g g e r u s t a l l e i n f o r m a t i e t o e d i e r e l e v a n t i s v o o r d e c o n s u l e n t v a n A c t i r i s .                            
+B i j v o o r b e e l d :     o o r z a a k     v a n     d e     z i e k t e     i n d i e n     b e k e n d ,     d u u r     e n z .  
+ 
+2 0 . D e t a l e n s c h o o l m o e t z o s n e l m o g e l i j k n a d e o p l e i d i n g ( m a x . 3 0 d a g e n ) a a n d e d e e l n e m e r e e n p a p i e r e n                                  
+v e r s i e v a n d e  e i n d e v a l u a t i e b e z o r g e n . D e d e e l n e m e r z a l d e z e e i n d e v a l u a t i e n o d i g h e b b e n i n d i e n h i j                            
+e e n     t w e e d e     t a a l c h e q u e     w e n s t .  
+ 
+I n g e v a l v a n v r a g e n o f o p m e r k i n g e n o m t r e n t d e k e r n r e g e l s o f h e t g e b r u i k v a n h e t p l a t f o r m , k u n t u c o n t a c t                                    
+o p n e m e n m e t S t é p h a n i e L e c l a i r , r e f e r e n t k e r n p r o c e s s e n ,  s l e c l a i r @ a c t i r i s . b e o f 0 2 / 5 0 5 . 7 8 . 2 1 , o f m e t K r i s t o f                        
+D e v u y s t ,     p r o j e c t b e h e e r d e r ,       k d e v u y s t @ a c t i r i s . b e       o f     0 2 / 5 0 5 . 1 4 . 3 5 .  
+ 
+i C l u b s p o r t ,     3 4     A v e n u e     B e l ­ A i r ,     1 1 8 0     B r u s s e l ,     t e l     + 3 2     ( 0 )     2     3 4 4 . 9 7 . 1 6  
+      h t t p : / / w w w . i c l u b s p o r t . c o m  
+ 
+

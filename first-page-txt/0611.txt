@@ -1,0 +1,61 @@
+Discrete Mathematics 27(1979)47-57.
+@North-Holland Publishing Comp~ny
+r.
+II'BOUNDS FORSORTING BYPREFIX REVERSAL
+William H.GATES
+f:!Christos H.PAPADIMITRIOU*t
+Department ofElectricalEngineering, University ofCalifornia, Berkeley,CA94720,U.S.A.Microsoft, Albuquerque, NewMexico
+~
+Received 18danuary 1978
+Revised 28August19(8
+.,
+Forapermutation (J"oftheintegers from1ton,letf((J")bethesmallest numberofprefix
+reversalsthal'will transform (J"totheidentitypermutation, andletf(n)bethelargestsuchf(lr)
+forall(J"in(thesymmetric group)Sn'Weshowthatf(n)"'"(5n+5)/3,andthatf(n)~17n/16for
+namultiple of16.if,furthermore, eachintegerisrequired toparticipate inanevennumberof
+reversed prefixes, thecorresponding function g(n)isshowntoobey3n/2-1""'g(n)""'2n+3.
+1.Introduction
+Weintroduce OUEproblem bythefollowing quotation from[1]
+Thechefinourplaceissloppy,andwhenheprepares astackofpancakes theycome
+outalldifferent sizes.Therefore, whenIqeliverthemtoacustomer, onthewaytothe
+tableIrearrange them(sothatthesmallest windsupontop,andsoon,downtothe
+largest"at thebottom) bygrabbing severalfromthetopandflippingthemover,r~peating
+this(varying thenumberIflip)asmanytimesasnecessary. Iftherearenpancakes, what
+isthe,maximum nUmberofflips(asafunction f(n)ofn)thatIwillever.have touseto
+rearrange them?
+i
+[
+:IInthispaperwederiveupperand~lower boundsforfen).Certainboundswere
+alreadyknown.Forexample, consider anystackofpancakes. Anadjacency in
+thisstackisapairofpancakes thatareadjacent inthestask,andsuchthatno
+otherpancake hassizeintermediate~ between thetwo.Ifthelargestpancake ison
+thebottom, thisalsocountsasoneextraadjacency. Now,fOL;n~4there""'are
+stacksofnpancakes thathavenoadjaceIJcies whatsoever. Ontheotherhand,"a
+sortedstackmusthaveallnadjacencies andeachmove(flip)cancreate'at most
+oneadja~ency. Consequently, forn~4,f(n)~n..Byelaborating onthisargu-
+ment,M.R.Garey,D.S.Johnso-qand S.Lin[2]showedtl1atfen)~n+1dorn"F6.
+Forupperbounds-algorithms, thatis"itwasknqwnthatfen)~2n.Thiscan
+beseenasfollows.Givenanystackwemaystartbybringing thelargestpancake
+.ontopandthenflipthewholestack:thelargestpancakeisnow:;ttthebottom,
+*Research supported byNSFGrantMCS77-01193.
+tCurrentaddress:Laboratory forComputer Science,Massachusets, Institute of?Technology,
+Cambr.idge, Ma02139,USA.I
+I
+-0 ~
+47
+"
+.;
+Ie "'"~
+ill
+III
+;,;1
+~
+1
+'"
+;II
+..
+ii!11
+..11
+;II
+:11
+~

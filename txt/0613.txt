@@ -1,0 +1,1769 @@
+RLF012A110BSRK15ZS-WF
+SRK20ZS-WFSRK25ZS-WFSRK35ZS-WFSRK50ZS-WF
+SRK15ZS-WFB
+SRK20ZS-WFBSRK25ZS-WFBSRK35ZS-WFBSRK50ZS-WFB
+SRK15ZS-WFT
+SRK20ZS-WFTSRK25ZS-WFTSRK35ZS-WFTSRK50ZS-WFTORIGINAL INSTRUCTIONS
+MANUEL DE L ’UTILISATEUR
+CLIMATISEUR USER’S MANUAL
+AIR-CONDITIONER
+ANWENDERHANDBUCH
+KLIMAGERA ¨T
+ISTRUZIONI PER L ’USO
+CONDIZIONATORE D’ARIA
+MANUAL DEL PROPIETARIO
+ACONDICIONADOR DE AIRE
+GEBRUIKERSHANDLEIDING
+AIRCONDITIONING
+MANUAL DO UTILIZADOR
+APARELHO DE AR CONDICIONADO 
+РУКОВОДСТВО  ПО ЭКСПЛУАТАЦИИ
+КОНДИЦИОНЕР  ВОЗДУХАENGLISH
+DEUTSCH
+ITALIANO
+ESPAN ˜OL
+NEDERLANDS
+PORTUGUÊS
+РУССКИЙFRANÇAIS
+ΕΛΛΗΝΙΚΑ
+KULLANIM KILAVUZUΟΔΗΓΙΕΣ ΧΡΗΣΗΣ
+ΚΛΙΜΑΤΙΣΤΙΚΟ
+TÜRKÇEUSER’S MANUAL
+AIR-CONDITIONER
+202203
+MITSUBISHI HEAVY INDUSTRIES THERMAL SYSTEMS, LTD.
+2-3, Marunouchi 3-chome, Chiyoda-ku, Tokyo, 100-8332, Japan
+http://www.mhi-mth.co.jp/en/
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.
+5 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, United KingdomTel : +44-333-207-4072Fax : +44-333-207-4089http ://www.mhiae.com/
+MHIAE SERVICES B.V. 
+(Wholly-owned subsidiary of MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.)
+Herikerbergweg 238, Luna ArenA, 1101 CM Amsterdam, NetherlandsP .O.Box 23393 1100 DW Amsterdam, NetherlandsTel : +31-20-406-4535
+http ://www.mhiaeservices.com/
+3-'"#@$PWFSJOEE 3-'"#@$PWFSJOEE  
+UK DECLARATION OF CONFORMITY
+MITSUBISHI HEA VY INDUSTRIES THERMAL SYSTEMS, LTD. 
+2-3, Marunouchi 3-chome, Chiyoda-ku, Tokyo, 100-8332, Japan
+declare under our sole responsibility that the apparatus referred to in this declaration 
+conforms with the following directives.
+Description of apparatus:    Split Type Air Conditioner
+Model name:
+Relevant GB Directives :  
+Supply of Machinery Regulations S.I. 2008/1597
+Applied Standards / Regulations :Conformity model listDescription of apparatus:    Split Type Air Conditioner
+Model name:
+[Indoor Unit] [Outdoor Unit]
+Authorised Representative in the GB :
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.
+5 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, United KingdomEU DECLARATION OF CONFORMITY
+MITSUBISHI HEA VY INDUSTRIES THERMAL SYSTEMS, LTD. 
+2-3, Marunouchi 3-chome, Chiyoda-ku, Tokyo, 100-8332, Japan
+declare under our sole responsibility that the apparatus referred to in this declaration 
+conforms with the following directives.
+Relevant EU Directives :  
+Machinery 2006/42/EC
+Applied Standards / Regulations :
+EN 60335-1 
+EN 60335-2-40Conformity model list
+Authorised Representative in the EU :
+MHIAE SERVICES B.V .
+Herikerbergweg 238, Luna ArenA, 1101 CM Amsterdam, Netherlands
+P.O.Box 23393 1100 DW Amsterdam, Netherlands[Indoor Unit] [Outdoor Unit]
+Category Model
+SRC Series SRC20ZS-W
+SRC25ZS-W
+SRC35ZS-W
+SRC50ZS-W
+SRC20ZS-WA
+SRC25ZS-WA
+SRC35ZS-WACategory Model
+SRC Series SRC20ZS-W
+SRC25ZS-W
+SRC35ZS-W
+SRC50ZS-W
+SRC20ZS-WA
+SRC25ZS-WA
+SRC35ZS-WACategory Model
+SRK Series SRK15ZS-WF
+SRK20ZS-WF
+SRK25ZS-WF
+SRK35ZS-WF
+SRK50ZS-WF
+SRK15ZS-WFB
+SRK25ZS-WFBSRK20ZS-WFB
+SRK35ZS-WFB
+SRK15ZS-WFTSRK50ZS-WFB
+SRK20ZS-WFT
+SRK35ZS-WFTSRK25ZS-WFT
+SRK50ZS-WFTCategory Model
+SRK Series SRK15ZS-WF
+SRK20ZS-WF
+SRK25ZS-WF
+SRK35ZS-WF
+SRK50ZS-WF
+SRK15ZS-WFB
+SRK25ZS-WFBSRK20ZS-WFB
+SRK35ZS-WFB
+SRK15ZS-WFTSRK50ZS-WFB
+SRK20ZS-WFT
+SRK35ZS-WFTSRK25ZS-WFT
+SRK50ZS-WFT
+EN 60335-1 
+EN 60335-2-40
+3-'"#@$PWFSJOEE 3-'"#@$PWFSJOEE  
+NL-1Fijn dat uw keuze is gevallen op de MITSUBISHI HEAVY INDUSTRIES THERMAL SYSTEMS, LTD. 
+airconditioner. Om jarenlang plezier te kunnen beleven aan dit apparaat, lees aandachtig deze ge-bruikershandleiding voordat u gebruik maakt van deze airconditioner. Berg deze handleiding vervol-gens op een veilige plek op en raadpleeg hem bij vragen met betrekking tot bediening en problemen.
+Op uw air-conditioning product kan dit symbool afgebeeld staan. Dit betekent dat afgedankte elektrische en elektronische apparatuur (AEEA volgens richtlijn 2012/19/EU) niet gemengd mag worden met algemeen huishoudelijk afval. Air-conditioners moeten worden verwerkt in een geautoriseerde verwerkingsinstallatie voor hergebruik en recycling en mogen niet worden verwijderd via de gemeenteli-jke afvalstroom. Neem contact op met uw installateur of plaatselijke overheid voor meer informatie.
+Dit symbool, dat staat vermeld op de batterijen behorend bij uw air-conditioning, 
+dient ter informatie voor de eindgebruikers, volgens EU-richtlijn 2006/66/EG artikel 20 annex II.
+Batterijen die zijn opgebruikt moeten afzonderlijk van het gewone huisvuil worden verwerkt. Als er onder het bovenstaande symbool tevens een chemisch symbool staat afgedrukt, wijst dat erop dat de batterijen een bepaalde concentratie aan zware metalen bevatten. Dit wordt verder uiteengezet als volgt:Hg: kwik (0,0005%) , Cd: cadmium (0,002%) , Pb: lood (0,004%)Lever opgebruikte batterijen in bij een plaatselijk inzamelpunt of zorg dat ze afzonder-lijk worden verwerkt volgens de geldende voorschiften voor klein chemisch afval.
+Het afgegeven geluidsniveau van elke interne en externe unit is minder dan 70 dB(A).
+Inhoudsopgave
+Veiligheidsvoorschriften ...........................2
+Tips voor een effi ciënt gebruik ................7
+Naam en functie van de onderdelen ........8
+Afstandsbediening .................................10Wanneer de afstandsbediening niet 
+functioneert ............................................10
+Noodbediening ......................................10Twee airconditioners in dezelfde ruimte 
+installeren ..............................................11
+Kinderbeveiliging ...................................11
+Luchtstroombereik instellen ...................12
+Bedienings- en indicatiegedeelte van 
+de afstandsbediening ............................13
+Instelprocedure voor de huidige tijd .......14
+Gebruik van de werkingsmodus AUTO  .....14
+Temperatuuraanpassing tijdens de 
+modus AUTO .........................................15
+FAN SPEED ..........................................15Gebruik werkingsmodus COOL/HEAT/
+DRY/FAN ...............................................16
+Temperatuurbereik werkingsmodus 
+airconditioner .........................................16
+Kenmerken van werkingsmodus HEAT  .....16
+Procedure voor bijstellen luchtstroom  .....17
+3D AUTO werkingsmodus .....................17
+Gebruik werkingsmodus SLEEP TIMER  .....18
+Gebruik werkingsmodus OFF TIMER  .....18
+Gebruik werkingsmodus ON TIMER .....19NEDERLANDSGebruik werkingsmodi 
+SLEEP TIMER + ON TIMER .................19
+Gebruik werkingsmodus 
+ON TIMER + OFF TIMER .....................20
+Gebruik werkingsmodus ALLERGEN 
+CLEAR ...................................................20
+WEKELIJKSE TIMER-modus  ...............21Gebruik werkingsmodi HIGH POWER/
+ECONOMY ............................................25
+NIGHT SETBACK-modus ......................26
+SILENT-modus ......................................26MENU-functie
+Instelling draadloze LAN-verbinding ...27Helderheid aanpassen ........................27
+Gebruik werkingsmodus SELF CLEAN  .....28
+Ventilator tijdens verwarming thermo-UIT  ...29
+Werkingsmodus PRESET ...................30
+Instelling draadloze LAN-communicatie  ...31
+Initialisatie van de draadloze LAN-
+interface ..............................................31
+Onderhoud .............................................32
+Is het apparaat correct geïnstalleerd .....34Problemen oplossen  .............................34Goed onthouden ....................................34Neem contact op met uw leverancier ....36Automatische herstelfunctie ..................36Over de meervoudige airconditioner .....36Zelfdiagnosefunctie ...............................37
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-2Veiligheidsvoorschriften
+ Lees voor gebruik zorgvuldig de “Veiligheidsvoorschriften”, zodat u op de juiste manier met de 
+apparatuur kunt omgaan.
+ Bewaar de gebruikershandleiding, nadat u hem hebt gelezen, voor toekomstige referentie. Zorg 
+ervoor dat u de handleiding doorgeeft als iemand anders het gebruik van het apparaat overneemt.
+Volg deze voorschriften voor uw eigen veiligheid dus zorgvuldig op. 
+ Deze unit is ontworpen voor 2 types koelmiddelen (R32 of R410A). Raadpleeg het label op de 
+buitenunit voor informatie over het koelmiddel.
+ De symbolen die in de tekst voorkomen, betekenen het volgende: WAARSCHUWING
+ OPGELETGeeft een mogelijk gevaarlijke situatie aan die, indien de situ-
+atie niet wordt vermeden, kan resulteren in ernstige gevolgen zoals de dood of ernstig letsel.
+Geeft een mogelijk gevaarlijke situatie aan die, indien de situ-
+atie niet wordt vermeden, kan resulteren in persoonlijk letsel of eigendomsschade.
+Strikt verbodenZorg voor een goede 
+aarding.Volg de instructies 
+nauwlettend op
+Lees aandachtig de 
+gebruikershandleiding.
+Onderhoudspersoneel moet werken aan het apparaat uitvoeren volgens de installatiehandleiding.
+Er is informatie opgenomen in de gebruikershandleiding en/of installatiehandleiding.
+ ❚Het volgende veiligheidsvoorschrift geldt enkel voor R32.
+Deze apparatuur gebruikt brandbare koelmiddelen. Als er koelmiddel lekt en in 
+contact komt met een externe ontstekingsbron kan het mogelijk vuur vatten.
+ WAARSCHUWING
+ De geldende wetten moeten strikt worden 
+nageleefd als het apparaat wordt afgevoerd.
+ Gebruik geen andere middelen dan degene die door de 
+fabrikant worden aanbevolen om het ontdooiingsproces te versnellen of om schoon te maken.
+ Het apparaat moet in een ruimte worden 
+geplaatst waar er zich geen voortdurend werkende ontstekingsbronnen bevinden (bijvoorbeeld: open vuur, een werkend gastoestel of een werkend elektrisch verwarmingstoestel.)
+ Niet doorboren of verbranden.
+ Denk eraan dat koelmiddelen mogelijk 
+reukloos zijn. Het apparaat moet in een goed geventileerde 
+ruimte worden geplaatst, waarbij de grootte van de kamer overeenkomt met de ruimte zoals gede ﬁ nieerd voor de werking.
+ Het onderhoudspersoneel moet de nationale 
+beroepskwali ﬁ catie of andere relevante 
+kwali ﬁ caties bezitten.
+ De binnenunit moet in een ruimte van 
+minstens 4,0m2 worden geplaatst. *
+*Deze waarde geldt voor het gesplitste 
+systeem. Raadpleeg het installatieblad van de buitenunit in geval van een multisysteem.
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-3❚ VEILIGHEIDSVOORSCHRIFTEN VOOR INSTALLATIE
+ Het systeem is bedoeld voor huishoudelijk gebruik en gebruik in woningen.
+Bij gebruik in sommige omgevingen, zoals een werkplaats, kan het apparaat slecht 
+functioneren. WAARSCHUWING
+ Het systeem moet worden geïnstalleerd door uw dealer of gekwaliﬁ  ceerde in-
+stallateur.
+Het wordt niet aangeraden om het systeem zelf te installeren, aangezien foutieve 
+hantering kan leiden tot een elektrische schok of brand.
+ Installeer het apparaat niet op een plaats waar ontvlambaar gas kan lekken.
+Gaslekken kunnen brand veroorzaken.
+ Zorg ervoor dat er een aardlekschake-
+laar is geïnstalleerd.
+Als u geen stroomonderbreker instal-
+leert, kan dit een elektrische schok veroorzaken. Laat de slang helemaal leeglopen, 
+zodat er geen water in de slang achterblijft.
+Onzorgvuldige installatie kan waterlast 
+in de kamer veroorzaken, waardoor het meubilair nat kan worden.
+ Zorg ervoor dat het systeem goed is geaard.
+De aardedraad mag nooit worden aangesloten op een gasleiding, de waterleiding, 
+een bliksemafleider of de aardedraad van de telefoon. Als de aardedraad niet goed wordt geïnstalleerd, kan dit een elektrische schok veroorzaken. OPGELET
+Dit product bevat gefluorideerde broeikasgassen.
+ Laat geen R32 in de buitenlucht ontsnappen: R32 is een gefluorideerd broeikasgas met een aar-
+dopwarmingsvermogen (Global Warming Potential, GWP) van 675.
+ Laat geen R410A in de buitenlucht ontsnappen: R410A is een gefluorideerd broeikasgas met een 
+aardopwarmingsvermogen (Global Warming Potential, GWP) van 2088.
+Raadpleeg het buitendeellabel voor het gewicht van de gefluorideerde broeikasgassen en CO2-equiv-
+alent.❚ Veiligheidsvoorschriften
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-4❚ VEILIGHEIDSVOORSCHRIFTEN VOOR EEN VEILIGE WERKING
+ WAARSCHUWING
+ OPGELET Kinderen mogen niet spelen met de 
+airconditioner.
+ Stel uzelf niet bloot aan koele lucht 
+gedurende een lange tijd.Dit kan nadelig zijn voor uw lichamelijke gesteldheid en kan gezondheidsproble-men veroorzaken. Reiniging en gebruikersonderhoud 
+mag niet door kinderen worden uit-gevoerd zonder begeleiding. 
+ Steek niets in de luchtuitvoer.
+Dit kan letsel tot gevolg hebben omdat de interne ventilator snel ronddraait.
+ Deze airconditioner kan worden gebruikt door kinderen vanaf 8 jaar en door 
+personen met beperkte fysieke, sensorische of geestelijke capaciteiten of ge-brek aan ervaring en kennis, mits ze onder toezicht staan of instructies heb-
+ben gekregen met betrekking tot veilig gebruik van de airconditioner, en ze de gevaren ervan begrijpen.
+ Bewaar de afstandsbediening buiten het bereik van kinderen.
+Wanneer dit niet in acht wordt genomen, kan dit resulteren in het inslikken van batteri-
+jen of andere ongevallen.
+ Gebruik enkel goedgekeurde zekeringen.
+Het gebruik van stalen of koperen draden 
+in plaats van een goedgekeurde zekering is ten strengste verboden, omdat dit kan resulteren in een storing of brand.
+ Raak de schakelaars nooit aan met 
+natte handen.U kunt hierdoor een elektrische schok kri-jgen.
+ Ga niet aan het binnenapparaat hangen.
+Als de unit op de grond valt, kunt u ge-wond raken.
+ Plaats geen ontvlambare insecticide 
+of spuitverf in de buurt van de aircon-ditioner en spuit dit niet direct op het systeem.Dit kan brand veroorzaken.
+ Stel apparatuur die op verbrand-
+ing werkt niet direct bloot aan de luchtstroom van de airconditioner.Deze apparatuur kan defect raken.
+ Maak de airconditioner niet met water 
+schoon. 
+Dit kan elektrische schokken veroorzaken.Gebruik van een hogedrukreiniger kan schade veroorzaken aan de aluminium rib-ben, wat tot mindere prestaties kan leiden. Niet gebruiken voor de bewaring van 
+voedsel, planten of dieren, precisieap-paratuur of kunstwerken.
+Dit apparaat is alleen bedoeld voor ge-
+bruik in gewone huiskamers. Het gebruik van het apparaat op andere plaatsen kan schadelijk zijn voor de kwaliteit van voedsel, enzovoort.
+ Plaats geen voorwerpen met water, 
+zoals een vaas, op het apparaat.
+Wanneer er water in het apparaat terecht-komt, kan dit de installatie beschadigen en een elektrische schok veroorzaken.
+ Installeer de airconditioner niet op 
+een plek waar de luchtstroom direct is gericht op planten of dieren.
+Dit is schadelijk voor hun gezondheid.
+ Stap/zit niet op de unit en plaats er 
+niets op.
+Als de airconditioner omvalt of als er spullen vanaf vallen, kan dit letsel tot gevolg hebben.
+ Na een lange periode van gebruik 
+moet u de steunstructuur van de een-heid regelmatig controleren.
+Als u schade aan het apparaat niet on-
+middellijk laat repareren, kan het appa-raat naar beneden vallen en verwondin-gen veroorzaken.❚ Veiligheidsvoorschriften
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-5❚ Veiligheidsvoorschriften
+ OPGELET
+ Raak de aluminium ribben op lucht-
+warmtewisselaar niet aan.
+Dit kan resulteren in verwondingen.
+ Plaats geen huishoudelijke elek-
+trische apparaten of meubelen onder het binnen- of buitenapparaat.
+Condensatie die van het apparaat valt, 
+kan vlekken maken en een ongeval of een elektrische schok veroorzaken.
+ Stel het systeem niet zonder de 
+luchtﬁ  lter in werking.
+Dit kan storing aan het systeem veroor-
+zaken wegens het verstopt raken van de warmtewisselaar.
+ Sluit de stroomtoevoer niet meteen af 
+nadat u het gebruik stopt.Wacht minstens 5 minuten, anders 
+bestaat er een risico voor waterlekkage of storing.
+ Niet het systeem met de hoofdvoed-
+ingschakelaar besturen.
+Dit kan brand of waterlekkage veroor-
+zaken. Bovendien kan de ventilator on-verwachts starten wat persoonlijk letsel kan veroorzaken.
+ Giet geen vloeistof in de eenheid en 
+plaats geen waterkan op de eenheid.
+Wanneer er water in het apparaat ter-
+echtkomt, kan dit de installatie bescha-digen en een elektrische schok veroor-zaken.
+ Als u de airconditioner gebruikt in 
+combinatie met een apparaat dat op verbranding werkt, moet u de kamer regelmatig ventileren.
+Onvoldoende ventilatie kan ongelukken 
+door zuurstofgebrek veroorzaken.
+ Ga stevig op een huishoudtrapje 
+staan of een ander stabiel voorwerp wanneer u het inlaatpaneel en de ﬁ  l-
+ters verwijdert.
+Wanneer deze instructie niet in acht 
+wordt genomen, kan dit resulteren in let-sel doordat onveilige voorwerpen omval-len.
+ Wanneer u de airconditioner schoon-
+maakt, stopt u de eenheid en schakelt u de stroombron uit.
+Open het paneel nooit als de interne 
+ventilator nog draait.
+ Plaats geen voorwerpen vlakbij het 
+buitenapparaat en zorg dat er zich geen bladeren rond het buitenappa-raat ophopen.
+Als er zich voorwerpen of bladeren rond het apparaat bevinden, kan er ongedierte in het apparaat terecht komen die elektrische onderdelen kunnen aanraken en dat kan leiden tot een storing, rook of brand. Contacteer uw leverancier om de bin-
+nenzijde van het binnenapparaat te reinigen. Probeer dit zeker niet zelf te doen.
+Het gebruik van niet-geschikte reinig-
+ingsmiddelen of onjuiste reinigingsmeth-oden, zou de plastic onderdelen kunnen aantasten en lekkage kunnen veroor-zaken. Als het reinigingsmiddel in con-tact komt met de elektrische onderdelen of de motor van het apparaat kan er schade, rook of brand ontstaan.
+ Schakel het apparaat uit en koppel de 
+stroomtoevoer los als er kans is op onweer met donder en bliksem.
+Dit kan schade veroorzaken aan het ap-
+paraat.
+ Als de stroomkabel beschadigd raakt, 
+neemt u contact op met uw dealer of gekwaliﬁ  ceerde installateur.
+Als de kabel niet wordt vervangen, 
+kan resulteren in een storing of brand veroorzaken.
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-6 ❚VOORZORGSMAATREGELEN DRAADLOZE LAN
+ WAARSCHUWING
+ Schakel de communicatie van een draadloze LAN niet IN in de buurt van 
+bedieningsapparatuur zoals een automatische deur en een brandalarm. Dit kan immers leiden tot een ongeval wegens storing van de apparatuur.
+ Schakel de communicatie van een draadloze LAN niet IN in een ziekenhuis enz. 
+waar het gebruik van draadloze apparaten verboden is.Dit kan een storing van medische apparatuur door een draadloos apparaat veroorzaken.
+ Schakel de communicatie van een draadloze LAN niet IN in de buurt van een 
+persoon met een hartpacemaker of geïmplanteerde defibrillator. Dit kan een storing van een medisch apparaat veroorzaken.
+ OPGELET
+ Schakel de communicatie van een draadloze LAN niet IN in de buurt van een 
+ander draadloos apparaat, magnetron, draadloze telefoon, faxmachine enz.
+Dit kan een storing van een draadloos apparaat veroorzaken.
+ Wanneer u de airconditioner van buitenaf bedient, ga dan op voorhand de 
+statussen van het apparaat, zijn omgeving en de personen in de ruimte na.
+Dit kan uw gezondheid schaden, huishoudelijke apparaten verontreinigen of negatieve 
+effecten op dieren veroorzaken.
+ Als er iemand in de ruimte is, meld hem of haar dat de airconditioner van buitenaf 
+moet worden bediend.
+Dit kan uw gezondheid schaden.
+ Controleer regelmatig de werkingsmodus.
+Plotse veranderingen van de binnen-/buitentemperatuur kan een gevaar vormen voor 
+uw gezondheid.❚ Veiligheidsvoorschriften
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-7❚ VEILIGHEIDSVOORSCHRIFTEN VOOR HET VERPLAATSEN OF 
+HERSTELLEN
+ WAARSCHUWING
+ Niet zelf reparaties of modiﬁ  caties uitvoeren. Raadpleeg de dealer als de unit 
+moet worden gerepareerd.
+Als u zelf de unit repareert of modificeert, kan dit waterlekkage, elektrische schok 
+of brand veroorzaken.
+ Raadpleeg uw leverancier voor her-
+stellingen.
+Ondeskundige reparatie kan elektrische 
+schokken, brand enzovoort, tot gevolg hebben.
+ Als de airconditioner wordt verplaatst, 
+neemt u contact op met uw dealer of een gekwaliﬁ  ceerde installateur.
+Verkeerde installatie kan waterlekkage, 
+elektrische schokken, brand enzovoort, tot gevolg hebben.
+ Als u iets abnormaals merkt (brand-
+geur bijvoorbeeld), stop dan het sys-teem, schakel de stroomtoevoer uit en raadpleeg uw dealer.
+Als u het systeem onder abnormale 
+omstandigheden blijft gebruiken, kan dit defecten, elektrische schokken, brand, etc. tot gevolg hebben. Als de airconditioner niet goed koelt 
+of verwarmt, kan dat te wijten zijn aan een vloeistoﬂ  ek. Neem contact op met 
+uw leverancier.
+Als er koelmiddel bijgevuld moet 
+worden, raadpleeg dan uw dealer voor nadere instructies.Als het koelmiddel in contact komt met de blote huid, kan dit bevriezing veroorzaken.Als u teveel koelgas inademt, kan dit een een slechte werking van de zenu-wen veroorzaken, zoals duizeligheid en hoofdpijn of een slechte werking van de hartfunctie zoals een onregel-matige hartslag en hartkloppingen van voorbijgaande aard. Als er echter toch koelmiddel uit het apparaat zou lekken op een verwarmingselement, fornuis, oven of een andere warmtebron, kun-nen schadelijke gassen vrijkomen.❚ Veiligheidsvoorschriften
+Tips voor een efﬁ  ciënt gebruik
+■ Gebruik de onderstaande tips voor het meest zuinige en aangename gebruik van de airconditioner.
+ Stel een normale kamertemperatuur in.
+Extreem hoge of lage temperaturen zijn niet goed voor uw gezondheid en verspillen onnodig elektriciteit.
+ Maak de filters regelmatig schoon.
+Verstopte filters blokkeren de luchtstroom en veroorzaken een minder effectieve werking.          Pagina 32
+ Voorkom direct zonlicht en tocht.
+Sluit tijdens het koelen direct zonlicht buiten met gordijnen of blindering. Houd de ramen en deuren dicht, tenzij u ventileert .
+ Stel de richting van de luchtstroom goed in.
+Pas de luchtstroom naar boven/beneden en links/rechts aan zodat een regelmatige kamertemperatuur is gewaarborgd.
+ Gebruik het apparaat alleen wanneer het nodig is.
+Gebruik de tijdklok op de juiste manier zodat het apparaat alleen wordt ingeschakeld wanneer het nodig is.
+ Gebruik geen warmtebronnen tijdens het koelen.
+Houd warmtebronnen zoveel mogelijk buiten de kamer.
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-8Naam en functie van de onderdelen
+Deze apparatuur 
+gebruikt brandbare koelmiddelen.
+  Pagina 2
+Deze apparatuur gebruikt brandbare koelmiddelen.
+  Pagina 2 (alleen R32-modellen)Luchtinlaatpaneel Luchtinlaat
+Luchtfilter
+Luchtuitvoer
+LuchtuitvoerKamertemperatuur detector
+Warmtewisselaar(Aluminium vin)
+Warmtewisselaar
+(Aluminium vin)Ventilator
+ Binnen de 
+eenheid
+Louvers(Verticale bladen) Aanpassing luchtstroomrichting 
+links / rechts
+Kleppen(Horizontale bladen) Aanpassing luchtstroomrichting 
+omhoog / omlaag  Pagina 32
+  Pagina 32
+BUITENAPPARAATBINNENAPPARAAT
+Filterhouder
+FilterhouderLuchtreinigingsfilter
+ Allergeenverwijderend filter 
+(Licht oranje)
+ Fotokatalytisch, wasbaar, 
+geurverdrijvend filter (Oranje)
+Luchtinlaat
+(achterkant en zijkant)
+Ventilator
+ Binnen de eenheidAansluiting van koelvloeistofl eidingen en elektrische bedrading
+Aftapslang
+AfvoergatIT MIGHT CAUSE INJURY.DO NOT STEP ON TOP OF THIS UNIT.WARNING
+DO NOT INSERT ANYTHING
+INTO THE AIR OUTLET.
+IT MIGHT CAUSE INJURY.DO NOT TOUCH THE
+ALUMINUM FINS.
+IT MIGHT CAUSE INJURY.SHARP EDGE OF FINS MOVING FAN BLADESCAUTION
+Don't touch
+the terminal
+Don't touchrefrigerant pipings andconnections.block.Modelnaam
+Display van het 
+apparaat
+  Pagina 9DO NOT INSERT ANYTHING
+INTO THE AIR OUTLETWARNING
+%POPUXBTIUIFJOTJEFPGUIFBJS
+DPOEJUJPOFS8BUFSMFBLBHFBOEQFSNBOFOUEBNBHFNBZSFTVMU&MFDUSJDBMIB[BSEFYJTUT
+#ZUIFGPMMPXJOHPQFSBUJPOGPSDFEDPPMJOHPQFSBUJPOJTQPTTJCMF*TPMBUFUIFQPXFSTVQQMZ3FDPOOFDUQPXFSTVQQMZ)PMEUIF0/ʗ0''TXJUDIEPXOGPSTFDPOETVOUJMZPVIFBSBCFFQ$BVUJPOIJHIWPMUBHFTIVUP⒎QPXFSCFGPSFTFSWJDJOHGBOBOEGBONPUPS%POPUUPVDIUIFUFSNJOBMCMPDL
+Modelnaam en type koelmiddelQR-code 
+  U kunt de 
+SSID en KEY (Wachtwoord) controleren.
+3-'"#@/-JOEC3-'"#@/-JOEC 
+NL-9Vooraf ingestelde temperatuur Instelling luchtstroomNaam en functie van de onderdelen
+ Zoemer voor afstandsbediening
+Er klinkt een zoemer (PipPip) wanneer
+de vooraf ingestelde temperatuur 24 °C is, of als de werkingsmodus AUTO is geselecteerd, of als automatische luchtstroming is geselecteerd (behalve werkingsmodus FAN).
+Er klinkt een zoemer (Pip) wanneer de
+airconditioner wordt uitgeschakeld door op de knop ON/OFF te drukken (behalve SELF CLEAN-bewerking).
+Er klinkt een zoemer (Piep Pip) wanneer de
+Instelling draadloze LAN-verbinding,Instelling draadloze LAN-communicatie.OPMERKINGDisplay van het apparaat
+Afstandsbediening Houder 
+afstandsbedieningFilterhouder × 2Allergeenverwijderend filter 
+(Licht oranje)
+Fotokatalytisch, wasbaar, 
+geurverdrijvend filter (Oranje)Batterij × 2
+(R03 (AAA Micro-formaat))
+Wood screw × 2
+(for remote control holder mounting)TIMER lampje (geel)
+Verlicht tijdens de werkingsmodus TIMER.Met deze knop kunt u het apparaat in of uitschakelen wanneer de afstandsbediening niet beschikbaar is.
+ 
+  Pagina 10Ontvanger voor afstandsbedieningssignaal
+Knop ON/OFF op het apparaatRUN lampje (groen)
+Accessoires Verlicht tijdens de werking
+ Knippert langzaam tijdens de 
+werkingsmodus SELF CLEAN (3 seconden aan, 1 seconde uit).
+ Knippert wanneer de 
+luchtstroom wordt gestopt, om te voorkomen dat er koude lucht wordt uitgeblazen tijdens de werkingsmodus voor verwarming. (1,5 seconde aan, 0,5 seconde uit)  Pagina 28
+  Pagina 34
+ De lampjes voor RUN knipperen snel tijdens een ongeldige werkingsmodus.
+  Pagina 36
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-10
+1
+2
+3
+4Afstandsbediening
+  De batterijen instellen
+Verwijder het afdekplaatje.
+Plaats de nieuwe batterijen. 
+R03 (AAA Micro-formaat) x 2
+Plaats het afdekplaatje 
+terug.
+Druk op de ACL-schakelaar 
+met de punt van een balpen.
+ Laat de afstandsbediening niet val-
+len. Ga er voorzichtig mee om. Plaats de afstandsbediening niet 
+in ruimten met hoge temperaturen, zoals op een elektrisch verwarmd tapijt of een fornuis.
+ Plaats geen zware voorwerpen op 
+de afstandsbediening en ga er niet op staan. Plaats geen obstakels tussen de 
+airconditioner en de afstandsbedi-ening. Mors geen vloeistoffen op de af-
+standsbediening. Laat de afstandsbediening niet 
+liggen in direct zonlicht of ander sterk licht.Waarschuwing voor afstandsbediening Gebruik geen oude en nieuwe batterijen samen.
+ Verwijder de batterijen als u de afstandsbediening gedurende lange tijd niet gebruikt.
+ De batterijen zouden 6 tot 12 maanden moeten werken bij een normaal 
+gebruik, volgens JIS of IEC standaarden. Als de batterijen langer worden gebruikt, of als u ongespecificeerde batterijen gebruikt, kan er vloeistof uit de batterijen lekken, waardoor er een storing in de afstandsbediening kan optreden.
+ De aanbevolen gebruiksduur van de batterijen staat aangegeven op de bat-
+terijen zelf. Dit kan, afhankelijk van de productiedatum, korter zijn dan die van de airconditioner. De batterij kan echter nog steeds werkzaam zijn na het verstrijken van zijn nominale levensduur.
+■ Wanneer de display iets abnormaals weergeeft, drukt u op de ACL-schakelaar 
+met de punt van een balpen.
+De houder van de afstandsbediening gebruiken
+U kunt de afstandsbediening met de houder aan de muur of aan een pilaar bevestigen. Controleer, voordat u de afstandsbediening op deze manier bevestigt, of de airconditioner het signaal goed kan ontvangen.
+U plaatst of verwijdert de afstandsbediening door deze 
+in houder naar beneden of naar boven te bewegen.Let op de , 
+en - aanduid-
+ingen
+ Zijn de batterijen bijna leeg?  
+   “De batterijen instellen” hierboven.
+ Vervang de oude batterijen door nieuwe en probeer 
+opnieuw.Wanneer de afstandsbediening niet functioneert
+ Als de bediening mislukt, bedien de eenheid dan met de 
+tijdelijke bedieningsfunctie.
+ Raadpleeg uw leverancier om de afstandsbediening te laten controleren. Strikt verbodenOPMERKING
+ “Noodbediening” hieronder.
+Noodbediening
+ Met de knop ON/OFF op het apparaat schakelt u de aircondi-
+tioner in en uit zonder gebruikmaking van de afstandsbedien-ing.
+ Werkingsprogramma
+ OPERATION MODE : AUTO
+ FAN SPEED : AUTO
+ AIR FLOW : AUTO
+ 
+Het apparaat wordt ingeschakeld door te drukken op de knop ON/OFF op het 
+apparaat; het wordt weer uitgeschakeld door nogmaals op de knop te drukken.
+ Druk niet meer 5 seconden of langer op de knop ON/OFF van de eenheid. 
+ (Als u de knop 5 seconden of langer indrukt, wordt de geforceerde koelingsbewerking ingesteld tijdens onderhoud of bij het ver p-
+laatsen van de airconditioner.) Pagina 14 Instelprocedure 
+voor de huidige tijd stap 2
+OPMERKINGKnop ON/OFF op het apparaat Stel de huidige tijd in.
+De volgende gevallen duiden op lege batterijen. Vervang oude batterijen door nieuwe.
+ U hoort geen piep na het versturen van een signaal.
+ De weergave van de display is slecht zichtbaar.
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-11
+1
+2Twee airconditioners in dezelfde ruimte installeren
+   ■ Als u twee airconditioners in dezelfde ruimte installeert, gebruik dan deze instelling als de twee airconditioners niet bediend  worden 
+met één afstandsbediening. Stel de afstandsbediening en het binnenapparaat in.
+3Verwijder het afdekplaatje en neem 
+de batterijen eruit.
+Sluit de schakelaar naast de batterij af met behulp van een draadsnijtang.
+Plaats de batterijen.Sluit het afdekplaatje.De afstandsbediening instellen
+Afsluiten1
+2
+3Het binnenapparaat instellen
+Schakel de stroomtoevoer uit en schakel hem na 
+1 minuut weer in.
+Richt de afstandsbediening (die is ingesteld volgens de hier 
+links beschreven procedure) op het binnenapparaat en stuur een signaal door op de ACL-schakelaar op de afstandsbedien-ing te drukken.
+Controleer of er een zoemende piep van op het bin-nenapparaat wordt verzonden.Het signaal wordt pas 
+verzonden 6 seconden nadat u op de ACL-schakelaar heeft gedrukt. Houd de afstandsbedien-ing dan ook gedurende een tijdje gericht op het binnenapparaat.
+Nadat de instelling is voltooid, geeft het binnenapparaat een 
+zoemende piep weer. (Als er geen ontvangsttoon wordt weerge-geven, dient u de instelling van aan het begin opnieuw uit te vo-eren.)
+Kinderbeveiliging
+■ Deze functie vergrendelt de bediening van de afstandsbediening om te voorkomen dat deze ongewenst wordt bediend.
+ Zolang de kinderbeveiliging is ingesteld, kunnen de instellingen voor 
+de werkingsmodus, temperatuur, ventilatorsnelheid en richting van de 
+luchtstroom niet worden gewijzigd. Om de instellingen te wijzigen, dient u de kinderbeveiliging te resetten.
+ De kinderbeveiliging werkt niet tijdens het gebruik van de ALLERGEN 
+CLEAR-modus.1
+Schakel het lampje  uit door gedurende 3 seconden of langer op de SET-
+toets te drukken.UitschakelingsprocedureDruk gedurende 3 seconden of langer op de SET-
+toets.
+ wordt weergegeven. Zolang de Kinderbeveiliging ingesteld is, kan alleen 
+de ON/OFF-toets worden bediend.
+OPMERKINGpiep
+voor 
+ontvangst
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-12 Zodra de instelling van het luchtstroombereik is geconfigureerd, wordt deze opgeslagen in de airconditioner, zelfs als de stro om is 
+uitgeschakeld. Als u het bereik van de luchtstroom opnieuw wilt instellen, doe dit dan met de afstandsbediening.
+ Het is niet mogelijk om het bereik van de luchtstroom in te stellen tijdens het gebruik.
+ Wanneer de airconditioner is geïnstalleerd op een afstand van minder dan 50 cm van de muur, dan wordt aanbevolen om het 
+bereik van de luchtstroom in te stellen op “Rechterkant-installatie” of “Linkerkant-installatie”.
+4Luchtstroombereik instellen
+Als de airconditioner draait, moet u op de knop ON/OFF druk-ken om het apparaat te stoppen.
+Het bereik van de luchtstroom kan niet worden ingesteld wanneer de unit 
+draait.
+Houd de AIR FLOW U/D op/neer-toets en de AIR FLOW L/R 
+LEFT/RIGHT-toets beide tegelijk 5 seconden of langer inge-drukt.
+Het display voor het instellen van het luchtstroombereik licht op.
+Stel het bereik van de luchtstroom in.
+Druk op de AIR FLOW L/R (LEFT/RIGHT)-toets en stel hiermee in op de 
+gewenste stand.Telkens u op de AIR FLOW L/R (LEFT/RIGHT)-toets drukt, wordt de display in de volgende volgorde gewijzigd:
+Druk op de ON/OFF aan/uit-toets.
+Het bereik van de luchtstroom van de airconditioner is ingesteld. Druk op deze knop binnen 60 seconden na het instellen van het luchtstroombereik (zolang het display voor het instellen brandt).
+Airconditioning-installatieplaats en luchtstroom-bereik
+Het onderstaande schema toont het luchtstroom-bereik behorend bij de installatieplaats van de airconditioning. Houd rekening 
+met de layout van uw kamer en stel het luchtstroom-bereik zo in dat in dat de airconditioning optimaal doeltreffend werkt.
+Luchtstroom-bereik
+(Linkerkant-installatie)Luchtstroom-bereik
+(Midden-installatie)Luchtstroom-bereik
+(Rechterkant-installatie)31
+2■ Houd rekening met de locatie van de airconditioner en pas het luchtstroombereik naar links/rechts aan voor een maximaal result aat.
+(Linkerkant-installatie) (Rechterkant-installatie) (Midden-installatie)
+OPMERKING
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-13Bedienings- en indicatiegedeelte van de afstandsbediening
+Knop ALLERGEN CLEAR
+Met deze knop kiest u de werk ingsmo-
+dus ALLERGEN CLEAR (allergenen verwijderen).
+ Pagina 20Knop ON/OFF (verlicht)
+Druk om de werking te starten, druk nog een keer om te stoppen.
+Knop AIR FLOW (OMHOOG/OMLAAG)
+Met deze knop kunt u de richting van de 
+luchtstroom (omhoog/omlaag) wijzigen.    
+ Pagina 17
+Schakelaar TIME SET UP (tijd instellen)
+Met deze schakelaar stelt u de tijd in.
+ Pagina 14Knop SLEEP
+Deze knop selecteert de werkingsmodus 
+SLEEP. 
+ Pagina 18MENU-schakelaar
+Met deze schakelaar selecteert u de 
+MENU-functie.
+ Pagina 27Knop CANCEL
+Met deze knop annuleert u de instelling van de tijdklok voor ON, OFF en SLEEP. Selectietoets OPERATION MODE
+Elke keer dat u op de toets drukt, wijzigt de modus.
+ Pagina 14, 16
+ De bovenstaande afbeelding toont alle bediening-
+selementen, maar in de praktijk worden alleen de relevante onderdelen getoond.Knop TEMPERATURE
+Deze toets stelt de temperatuur van de ruimte in.
+Knop ON TIMER
+Met deze knop schakelt u de tijdklok in.
+ Pagina 19
+Knop OFF TIMER
+Met deze knop schakelt u de tijdklok uit.
+ Pagina 18
+ACL-schakelaar
+Met deze schakelaar reset u het programma naar de standaardinstelling.
+ Pagina 10, 14Knop HI/ECO
+Deze toets wijzigt het gebruik van de HIGH POWER/ECONOMY-modus.
+ Pagina 25
+Knop AIR FLOW (LINKS/RECHTS)
+Met deze knop kunt u de richting van de luchtstroom (Left/
+right) wijzigen.   
+ Pagina 17
+SILENT-toets
+Met deze knop stelt u de werkingsmodus 
+SILENT in.
+ Pagina 26
+WEEKLY-toets
+Deze toets schakelt de WEKELIJKSE TIMER naar ON/OFF.
+ Pagina 21Transmissiesectie
+Knop FAN SPEED
+Elke keer dat u op de toets drukt, wijzigt de ventilatorsnelheid.
+ Pagina 15
+3D AUTO toets
+Met deze toets kiest u de 3D AUTO 
+werkingsstand.    
+ Pagina 17
+NIGHT SETBACK-toets
+Deze toets stelt het gebruik van de NIGHT SETBACK-modus in.
+   
+ Pagina 26
+SET/Kinderbeveiliging-toets
+Gebruik deze toets om de timer en de kinderbeveiliging in te stellen.
+   
+ Pagina 11
+TIMER-toets
+Deze toets wordt gebruikt om de huidige 
+tijd en de timerfunctie in te stellen. 
+PROGRAM-toets
+Deze toets stelt WEKELIJKSE TIMER 
+in.   
+ Pagina 21
+Transmissieprocedure
+Wanneer u op eender welke toets van 
+de afstandsbediening drukt - terwijl u de afstandsbediening richt op het binnenap-paraat- wordt er een signaal verzonden.Wanneer het signaal op de juiste wijze wordt ontvangen, laat het apparaat een piep horen.De huidige tijd, dag van de week en de 
+huidige WERKINGSMODUS worden weergegeven terwijl de airconditioner uitgeschakeld is.Display in status UIT[Met geopende klep]
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-145Instelprocedure voor de huidige tijd
+■ Wanneer u de batterijen insteekt, maakt de huidige tijd automatisch plaats voor de tijdinstelstand. Mon en 13:00 worden weerge geven 
+als de huidige tijd. Stel de juiste dag van de week en het uur in.
+Voorbeeld: Stel in op Sat 10:30.
+Druk op de TIME SET UP schakelaar.
+Druk deze knop in met de punt van een balpen of iets dergelijks.
+Het dag van de week display knippert. U kunt nu de juiste dag van de week 
+instellen.
+Druk op “  of  (TIMER)”-toets.
+(Instellen op Sat)
+Druk op de SET-toets.
+De dag van de week display stopt met knipperen, de instelling van de dag van de week is voltooid en de tijddisplay begint nu te knipperen.Zorg ervoor dat u op de toets drukt binnen de 60 seconden vanaf de laatste bediening in stap 2, anders wordt de dag van de week niet ingesteld.1
+32
+4Druk op “  of  (TIMER)”-toets.
+(Ingesteld op 10:30)
+Druk op de SET-toets.
+Het tijddisplay stopt met knipperen waarna de instelling is voltooid.
+Druk binnen de 60 seconden op deze knop na de actie uit stap 4, anders wordt de tijd niet ingesteld.
+ De tijdklokfunctie werkt op basis van de klok. Stel 
+deze dus correct in.
+ De afstandsbedieningsgegevens worden terug-
+gesteld wanneer de huidige tijd wordt ingesteld. Wanneer de batterij van de afstandsbediening wordt vervangen of wan-
+neer u op de ACL-schakelaar drukt, wordt de initiële instelling van de afstandsbediening geprogrammeerd. Aangezien het WEKELIJKSE TIMER-programma niet is ingesteld in de initiële instelling, dient u het programma in te stellen volgens de instellingsprocedure.
+Druk op de knop MODE.
+De modus wijzigt telkens wanneer u op de toets drukt.
+Instellen op .
+Druk op de knop ON/OFF.Gebruik van de werkingsmodus AUTO
+■ De werkingsmodus AUTO selecteert automatisch de werkingsmodus (COOL, HEAT), afhankelijk van de kamertemperatuur op het mo-
+ment dat deze wordt ingeschakeld.
+ In het geval dat er geen lucht wordt 
+geblazen wanneer het apparaat is inge-schakeld.
+ Pagina 34 De richting van de luchtstroom bijstellen. Indien u de automatische programmamodus AUTO 
+niet wil gebruiken, wisselt u naar COOL, HEAT of FAN in plaats van AUTO.
+ Pagina 161
+2
+ Om te stoppen:    Druk op de knop ON/OFF.
+ Pagina 17OPMERKING
+OPMERKING
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-15Temperatuuraanpassing tijdens de modus AUTO
+■ De standaard vooraf ingestelde temperatuur tijdens de modus AUTO is 24 °C voor de modi voor koelen en verwarmen. Deze temper-
+atuur kan echter worden aangepast (minimaal 18 °C, maximaal 30 °C) via de knop  of . 
+■ Telkens als u op de knop  drukt, verandert de modus als volgt 
+18  19  ............ 23  24  25 ............  30.
+ Wanneer 30 wordt weergegeven, verandert de indicator niet, ook al drukt u op de knop  .Druk op de knop .
+Druk op de knop .Wanneer het een beetje warm isDruk op “  of  (TIMER)”-toets. 1
+Wanneer het een beetje koud is
+■ Telkens als u op de knop  drukt, verandert de modus als volgt 
+30  29  ............ 25  24  23 .........  18.
+ Wanneer 18 wordt weergegeven, verandert de indicator niet, ook al drukt u op de knop  .
+FAN SPEED
+■ De FAN SPEED kan worden ingesteld behalve voor de modus DRY.
+ Wanneer FAN SPEED (VENTILATORSNELHEID) wordt gewijzigd van 
+Hi (Hoog) in Lo (Laag) of ULo (UltraLaag), hoort u mogelijk het geluid van koelvloeistof.
+ Wanneer de modus COOL wordt gebruikt als de buitentemperaturen 
+laag zijn, kan de FAN SPEED (VENTILATORSNELHEID) automatisch wijzigen om de airconditioner te beschermen.Capaciteit volgens uw keuze FAN SPEED
+Automatisch ingesteld door computer AUTOStille werking ULo
+Energiespaarstand Lo
+Standaardinstelling MeKrachtig met grote capaciteit HiDruk op de knop FAN SPEED.
+Elke keer dat u op de toets drukt, wijzigt de ventilatorsnelheid.1
+OPMERKINGAUTO Hi Me Lo ULo
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-16Gebruik werkingsmodus COOL/HEAT/DRY/FAN
+Druk op de knop FAN SPEED.
+Stel de gewenste ventilatorsnelheid in.
+De ventilatorsnelheid kan niet worden ingesteld wanneer het apparaat zich in de DRY-modus bevindt. Procedure voor aanpassing richting luchtstroom. 
+ Pagina 17
+ In het geval dat er geen lucht wordt geblazen wanneer het 
+apparaat begint te verwarmen.
+Temperatuurbereik werkingsmodus airconditioner
+■ Gebruik het apparaat binnen het onderstaande werkingsbereik. Gebruik buiten dit bereik kan resulteren in de inschakeling van 
+beveiligingselementen waardoor het apparaat niet kan worden gebruikt.
+  Werkingsmodus COOL Werkingsmodus HEAT
+ Buitentemperatuur  Ca. -15 tot 46 °C Ca. -15 tot 24 °C
+ Binnentemperatuur  Ca. 18 tot 32 °C Ca. 10 tot 30 °C
+  Minder dan ca. 80 %
+  Het langdurig gebruik van het apparaat bij een  Vochtigheid binnen  vochtigheidsniveau van meer dan 80 % kan resulteren in 
+  condensvorming op het oppervlak van binnenapparaat,   wat waterdruppels tot gevolg heeft.
+Kenmerken van werkingsmodus HEAT
+   Mechanisme en capaciteit van werkingsmodus HEAT 
+ Het apparaat haalt warmte uit de koude buitenlucht, brengt die naar binnen en verwarmt de kamer. Een eigenschap van een warmte -
+pompsysteem is dat de verwarmingscapaciteit afneemt wanneer de temperatuur van de buitenlucht kouder wordt.
+ Het kan een tijdje duren voordat de airconditioner warme lucht afgeeft, wanneer u het apparaat inschakelt.
+ Indien de buitentemperatuur erg laag wordt, is het verstandig een aanvullende warmtebron te gebruiken.
+   Ontdooien
+Indien de buitentemperatuur laag wordt en de vochtigheid hoog is, kan de warmtewisselaar in het buitenapparaat bevriezen, hetge en ef-
+ficiënte verwarming verhindert. 
+Als dat gebeurt, is de automatische ontdooifunctie geactiveerd en tijdens het ontdooien stopt de verwarming gedurende 5 tot 15 minuten.
+ De ventilator in zowel het binnen- als het buitenapparaat stopt en de indicator RUN knippert langzaam (1,5 seconden ON, 0,5 se c-
+onden OFF) tijdens het ontdooien.
+ Het buitenapparaat kan stoom afgeven tijdens het ontdooien. Dit is om het ontdooien te helpen en is geen storing.
+ De werkingsmodus HEAT wordt hervat, zodra het ontdooien is voltooid.43
+ Om te stoppen:  Druk op de knop ON/OFF.21
+ De werkingsmodus kan ook worden ingesteld of gewijzigd 
+wanneer de airconditioner niet aangeschakeld is.
+—OPMERKINGCOOL HEAT DRY FAN
+26 °C - 28 °C 22 °C - 24 °C 24 °C - 26 °C —Druk op de knop MODE.
+Stel in op de gewenste modus.
+ (COOL),  (HEAT),  (DRY),  (FAN)
+Druk op de knop ON/OFF.
+Druk op de knop TEMP.
+Druk op de knop  of  voor de gewenste temperatuur.
+Aanbeveling
+ Pagina 34
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-17 Wanneer het verwarmen wordt gestart, staan de klep en louver vast in de horizontale / middelste positie om koude tocht te voor komen. Ze worden 
+weer in de ingestelde positie gezet wanneer de warme luchtstroom wordt gestart.
+ De richting van de flap en lamel worden in de horizontale positie in het midden gezet wanneer de kamer de gewenste temperatuur  bereikt en de com-
+pressor stopt of wanneer de ontdooifunctie actief is.
+ De richting van de luchtstroom kan niet worden gewijzigd in de bovenvermelde situaties. Wijzig de richting van de luchtstroom nadat de warme lucht 
+wordt uitgeblazen en de flap/lamel naar de ingestelde positie gaat.Procedure voor bijstellen luchtstroom
+■ U kunt de richting naar links of naar rechts aanpassen met de knop AIR FLOW L/R (LEFT/RIGHT) op de afstandsbediening. Elke 
+keer als u op deze knop drukt wijzigt de modus als volgt:
+ Bijstellen modus AIR FLOW (LEFT/RIGHT).
+Geheugen van klep (klep of lamel gestopt)
+Wanneer u éénmaal op de knop AIR FLOW (U/D of L/R) drukt terwijl de flap of lamel in beweging is, zullen deze stoppen op hun po sitie. Omdat deze 
+hoek wordt opgeslagen in de microcomputer, zullen de flap en lamel automatisch naar deze positie terugkeren als het apparaat ee n volgende keer wordt 
+opgestart. Aangezien deze hoek wordt opgeslagen in de microcomputer, wordt de flap of lamel automatisch weer op deze hoek inges teld wanneer het 
+apparaat opnieuw wordt ingeschakeld.OPMERKING VOOR HET VERWARMEN
+HEAT
+COOL, DRY Aanbevolen hoek voor de flap bij het stop-
+pen
+(Luchtstroom 
+schuin naar voren)
+(Horizontale 
+luchtstroom)  WAARSCHUWING
+ Stel objecten niet gedurende lange tijd bloot aan de luchtstroom van de airconditioning.
+ OPGELET
+ Wanneer in werkingsmodus COOL of DRY, laat dan het apparaat niet ge-
+durende een lange periode werken als de luchtuitvoer  naar beneden gericht 
+is. Anders kan er vocht condenseren op de buitenste rooster en naar beneden druppelen. Hierdoor kan er vocht condenseren op het buitenste rooster en er kan water gaan druppelen.
+ Probeer de flappen en lamellen niet met de hand te verstellen, omdat de con-
+trolehoek kan veranderen en de flap of lamel dan niet meer volledig kan sluiten.■ U kunt de richting naar boven/naar benedenaanpassen met de knop AIR FLOW U/D (OMHOOG/OMLAAG) op de afstandsbedien-
+ing. Elke keer als u op deze knop drukt wijzigt de modus als volgt:
+ Bijstellen modus AIR FLOW (OMHOOG/OMLAAG).
+(Schommelen) (Flap is gestopt)
+(Lamel gestopt)
+(Schommelen)
+ De feitelijke positie van de klep en het rooster kunnen afwijken van de illustratie.OPMERKING
+3D AUTO werkingsmodus
+■ De ventilatorsnelheid en de luchtstroomrichting worden automatisch geregeld, zodat het effect van de airconditioning doeltreffe nd en 
+gelijkmatig over de gehele kamer wordt gespreid.
+Start de operatie vanaf Stap 1 wanneer de airconditioner is uitgeschakeld. Start de operatie vanaf Stap 2 wanneer de airconditi oner draait.
+ De 3D AUTO-modus wordt geannuleerd wanneer u de werkingsmodus wijzigt.
+ Wanneer de 3D AUTO werking wordt uitgeschakeld, verandert de luchtstroomricht-
+ing naar die eerder werd gebruikt, voordat de 3D AUTO functie werd ingeschakeld.
+ De 3D AUTO-modus kan alleen worden ingesteld in de werkingsmodi 
+AUTO, COOL of HEAT.    Uitschakelingsprocedure
+Druk op de 3D AUTO-toets om de 3D AUTO-display uit te schakelen.Druk op de ON/OFF toets.
+21
+Druk op de 3D AUTO toets.
+Telkens u op de 3D AUTO-toets drukt, wordt de display in de volgende vol-
+gorde gewijzigd:
+(3D AUTO)Geen weergave
+(Normale werking)
+OPMERKING
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-18431■ Als u hierop drukt wanneer het apparaat is uitgeschakeld, 
+ SLEEP TIMER gaat in eerste instantie uit van de vorige instellingen en de air-
+conditioner gaat uit na het verstrijken van de ingestelde tijd.
+■ Als u hierop drukt wanneer het apparaat is ingeschakeld, 
+ Na het verstrijken van de ingestelde tijd gaat de airconditioner uit. 
+ Elke keer als u op deze knop drukt, wijzigt de aanduiding als volgt:
+ Voorbeeld: U wilt dat het apparaat na 3 uur wordt uitgeschakeld
+ Ingesteld op 
+Het lampje van de tijdklok brandt (geel).
+ Het apparaat stopt automatisch nadat de ingestelde tijdsduur is ver-
+streken.Gebruik werkingsmodus SLEEP TIMER
+■ De unit stopt automatisch na het verstrijken van de ingestelde tijd.
+ De ingestelde temperatuur wordt automatisch aangepast, op basis van de verstreken tijd, om te sterke afkoeling of opwarming te voorkomen.     Pagina 20
+De ingestelde tijd wijzigen
+Stel een nieuwe tijd in door op de knop SLEEP 
+te drukken.
+De ingestelde tijd wijzigen
+Stel een nieuwe tijd in met behulp van de knop OFF TIMER.
+Uitschakelingsprocedure
+Druk op de knop CANCEL om de tijdklok op de display uit te schakelen. 
+De SLEEP ruststand werkt niet tijdens de ALLERGEN CLEAR filterwerking.
+ SLEEP TIMER kan niet tegelijkertijd met OFF TIMER worden ingesteld.Uitschakelingsprocedure
+Druk op de CANCEL-toets om de SLEEP-dis-
+play uit te schakelen.
+Voorbeeld: U wilt het apparaat uitschakelen om 22:30.
+Druk op de knop ON/OFF.
+Druk op de knop OFF TIMER.
+De indicator OFF TIMER  knippert.
+Druk op “  of  (TIMER)”-toets.
+Elke keer er op een knop  wordt gedrukt, wordt de weergave gewijzigd in 
+de volgorde:
+0:00 0:10 0:20 ... 1:00 1:10 
+Elke keer er op een knop  wordt gedrukt, wordt de weergave gewijzigd in 
+de volgorde:
+0:00 23:50 23:40 ... 23:00 22:50 
+Ingesteld op  22:30.
+Druk op de SET-toets.
+Als de display stopt met knipperen en continue brandt, is de instelling vol-
+tooid.Het tijdkloklampje (geel) brandt.
+ Het apparaat stopt aan het einde van het ingestelde tijdvak.
+ Druk binnen 60 seconden op deze knop na de actie uit stap 3, anders 
+wordt de tijd niet ingesteld.
+ De huidige tijd wordt niet getoond tijdens de werkingsmodus OFF TIMER.
+ De OFF TIMER uitschakelklok werkt niet tijdens de ALLERGEN CLEAR 
+filterwerking.
+ Een verschil tussen de werkingsmodus SLEEP TIMER en OFF TIMER is 
+dat de temperatuur niet automatisch wordt ingesteld bij deze laatste.Druk op de knop SLEEP.1
+(Eenheden van 
+tien minuten)
+(Eenheden van 
+tien minuten)2(Eenheden van 
+één uur)
+Geen weergave
+ (geannuleerd)
+Gebruik werkingsmodus OFF TIMER
+■ Het apparaat stopt automatisch wanneer de ingestelde tijd wordt bereikt.
+Start de operatie vanaf Stap 1 wanneer de airconditioner is uitgeschakeld. Start de operatie vanaf Stap 2 wanneer de airconditi oner draait....
+OPMERKING
+OPMERKING
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-19Gebruik werkin gsmodus ON TIMER
+1
+2Voorbeeld: Wanneer de gewenste kamertemperatuur moet worden bereikt om 8:00 uur.
+Druk op de knop ON TIMER.
+De indicator ON TIMER  knippert.
+3■ Het apparaat wordt 5 tot 60 minuten voor de ingestelde tijd ingeschakeld, zodat de kamer een optimale temperatuur bereikt op h et in-
+gestelde tijdstip.   Pagina 20
+ De werking van de ON TIMER kan worden ingesteld ongeacht of het apparaat is ingeschakeld.  
+Druk op de SET-toets.
+Als de display stopt met knipperen en continue brandt, is de instelling vol-
+tooid. De schakelkloklamp (geel) brandt.Als de instelling ON TIMER wordt uitgevoerd terwijl de airconditioner actief is, stopt de airconditioner met werken.
+Gebruik werkingsmodi SLEEP TIMER + ON TIMER
+■ Dit is de gecombineerde werking van de SLEEP TIMER en ON TIMER.
+Voorbeeld: Het apparaat dient binnen 3 uur te worden uitgeschakeld, en rond 8:00 uur di-
+ent de ingestelde temperatuur terug bereikt te zijn.
+ Instelling SLEEP TIMER
+Instellen volgens de procedure op pagina 18.
+Ingesteld op 
+ Instelling van de werkingsmodus ON TIMER
+Stel de werkingsmodus ON TIMER in volgens bovenstaande procedure.
+Ingesteld op 
+Het instellen van het tijdkloklampje (geel) van dit apparaat is voltooid.
+ Nadat de ingestelde tijd voor  SLEEP TIMER bereikt is, stopt  het apparaat en dit 
+wordt 5 tot 60 minuten voor de ingestelde tijd van ON TIMER terug ingeschakeld.
+ Het tijdkloklampje wordt uitgeschakeld wanneer de ingestelde tijd van ON TIMER 
+wordt ingesteld.
+  Uitschakelingsprocedure
+Druk op de CANCEL-toets om de timerdisplay uit 
+te schakelen.De ingestelde tijd wijzigen
+Stel een nieuwe tijd in met behulp van de knop ON TIMER. De werking begint 5 tot 60 minuten voor de ingestelde tijd.
+ Het timer-lampje (geel) gaat op de ingestelde tijd uit.
+ Druk binnen 60 seconden op deze knop na de actie uit stap 2, anders is 
+de instelling niet voltooid.
+ De huidige tijd wordt niet getoond tijdens de werkingsmodus ON TIMER.
+ 
+De ON TIMER inschakelklok werkt niet tijdens de ALLERGEN CLEAR filterwerking.
+ Als de knop ON/OFF wordt ingedrukt na het instellen van de ON TIMER, 
+wordt de instelling geannuleerd.Druk op “  of  (TIMER)”-toets.
+Elke keer er op een knop  wordt gedrukt, wordt de weergave gewijzigd in de vol-
+gorde:
+0:00 0:10 0:20 ... 1:00 1:10
+Elke keer er op een knop  wordt gedrukt, wordt de weergave gewijzigd in de vol-
+gorde:
+0:00 23:50 23:40 ...23:00 22:50
+Ingesteld op 8:00.(Eenheden van 
+tien minuten)
+(Eenheden van 
+tien minuten)
+De ingestelde tijd wijzigen
+Stel een nieuwe tijd in met behulp van de knop 
+SLEEP of de knop ON TIMER.Uitschakelingsprocedure
+Druk op de knop CANCEL om de tijdklok op de display uit te schakelen.OPMERKING
+1
+2
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-20In werkingsmodus ON TIMER, schakelt het apparaat voor de ingestelde 
+tijd in, zodat de kamer de optimale temperatuur bereikt op het ingestel-de tijdstip. Dit wordt “Comfortstart” genoemd.
+ Mechanisme
+ 
+De kamertemperatuur wordt ongeveer 60 minuten voor het ingestelde tijdstip gecontroleerd. Afhankelijk van de temperatuur op dat moment, wordt de aircondition-er ingeschakeld 5 tot 60 minuten voordat de tijdklok op de ON-tijd staat.
+ De functie is beschikbaar in werk-
+ingsmodi COOL, HEAT en DRY (inclusief AUTO).Gebruik werkingsmodus ON TIMER + OFF TIMER
+■ Dit is de gecombineerde werking van de ON TIMER (TIMER INSCHAKELEN) en OFF TIMER (TIMER UITSCHAKELEN).
+Voorbeeld: Het is nu 21:00 uur. De airconditioner draait. 
+Wanneer het apparaat dient te worden uitgeschakeld om 22:30 en de kamer rond 8:00 uur de ingestelde temperatuur dient te bereiken.
+ Instellen van de OFF TIMER-werking
+Volg voor het instellen de procedures op 
+Pagina 18.     
+ Instelling van de ON TIMER-werking
+Volg voor het instellen de procedures op Pagina 19.      
+Het tijdkloklampje (geel) op het apparaat zal oplichten als de instelling 
+voltooid is.
+■ De ingestelde tijd wordt weergegeven op de afstandsbediening. De display 
+wijzigt in functie van de werkingsmodus.
+Uitschakelingsprocedure
+Druk op de knop CANCEL of ON/OFF om het timerdisplay uit te 
+schakelen.Wijzigen van de ingestelde tijd
+Stel een nieuwe tijd in met behulp van de knoppen OFF TIMER en ON TIMER.
+Wanneer SLEEP TIMER is geselecteerd, wordt de temperatuur na ver-
+loop van tijd automatisch aangepast, zodat de kamer niet te koud wordt tijdens het koelen of te warm wordt tijdens het verwarmen.Comfortstart
+Gebruik werkingsmodus ALLERGEN CLEAR
+Druk op de knop ALLERGEN CLEAR.1
+ Stoppen:Druk op de knop ON/OFF of 
+de knop ALLERGEN CLEAR.
+ Aangezien de kamertemperatuur hierdoor sterk kan veranderen, wordt 
+aanbevolen deze functie te gebruiken wanneer er niemand in de kamer is. (De functie wordt na ongeveer 90 minuten automatisch beëindigd).
+ Tijdens de werkingsmodus ALLERGEN CLEAR kunt u de temperatuur, 
+de ventilatorsnelheid, de richting van de luchtstroom en de tijdklok niet instellen.
+ In het geval van het SCM-multisysteem, is de controlefunctie van 
+ALLERGEN CLEAR ongeldig.
+ In het geval van het SCM-multisysteem, als de ALLERGEN CLEAR-knop 
+per ongeluk wordt ingedrukt, zal de binnenapparatuur die deze opdracht ontving stoppen.■ De kracht van enzymen wordt gebruikt om allergieveroorzakende allergenen te 
+verwijderen. Deze allergenen hopen zich op het allergeenverwijderende filter op.SLEEP TIMER
+Controleert 
+kamertemp. 1 uur van tevoren.
+ervoor.Ingestelde tijd (Ingeschakeld)▼
+ In de werkingsmodus COOL 
+(Stop) Apparaat ingeschakeld▼
+Ingestelde temperatuurIngesteld op  
+Ingesteld op
+OPMERKINGOPMERKING
+ De timer kan alleen worden ingesteld voor de volgende 24 uur.Eerst begint de airconditioner te draaien volgens de ON 
+TIMER. Daarna houdt de airconditioner op met draaien volgens de OFF TIMER.
+Eerst houdt de airconditioner op met draaien volgens de 
+OFF TIMER. Daarna begint de airconditioner te draaien volgens de ON TIMER.1
+2
+ De airconditioner stopt.
+ De airconditioner draait.
+Ingestelde 
+temperatuur
+Ingestelde tijd Ingestelde tijd+1,0 °C 
+1 uur 30 minuten 2 uur 1 uur 2 uur-1,0 °C -1,0 °C 
+-2,0 °C 
+-3,0 °C 
+-6,0 °C Ingestelde 
+temperatuurBediening COOL▼▼ Bediening HEAT▼▼
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-21WEKELIJKSE TIMER-modus 
+■ Er zijn maximaal 4 tijdstippen beschikbaar voor de timer (ON TIMER / OFF TIMER) voor iedere dag van de week. Er zijn maximaal 28 
+programma's per week beschikbaar. Zodra dit is ingesteld, wordt de werkingsmodus van de timer elke week herhaald voor dezelfde programma's tenzij de WEKELIJKSE TIMER geannuleerd wordt.
+Voorbeeld (In seizoen waarin gebruik wordt gemaakt van de koelfunctie)
+Instelling WEKELIJKSE TIMER ON/OFF
+■ Schakel de WEKELIJKSE TIMER in op ON/OFF door gebruik te maken van de WEEKLY-toets.
+1Druk op de WEEKLY-toets.
+De WEKELIJKSE TIMER wordt ingeschakeld.
+Telkens u op de WEEKLY-toets drukt, wordt de display in de volgende vol-gorde gewijzigd:
+(WEKELIJKSE TIMER aan)Geen weergave
+(WEKELIJKSE TIMER uit)
+Wanneer de WEKELIJKSE TIMER is ingesteld op ON, licht het lampje van 
+de timer (geel) op de airconditioner op.Wanneer de batterij van de afstandsbediening wordt vervangen of wanneer u op de ACL-schakelaar drukt, wordt de initiële instelling van de afstandsbe-diening geprogrammeerd. Aangezien het WEKELIJKSE TIMER-programma niet is ingesteld in de initiële instelling, dient u het programma in te stellen volgens de instellingsprocedure.
+ De WEKELIJKSE TIMER wordt ingeschakeld op ON/OFF 
+ongeacht de airconditioner in werking is of niet. 
+ De ON TIMER-modus van de WEKELIJKSE TIMER wordt 
+ingeschakeld ongeacht de airconditioner in werking is of niet.Wanneer de ON TIMER-insteltijd bereikt wordt, werkt de afstandsbediening volgens de geconfigureerde instellingen. De display van de afstandsbediening wordt ook gewijzigd in functie van de ingestelde werkingsmodus. De instelling kan worden gewijzigd van op de afstandsbediening wanneer de WEKELIJKSE TIMER zich in de ON TIMER-modus bevindt.De volgende configuraties kunnen worden ingesteld door de ON TIMER.
+ Werkingsmodus, ventilatorsnelheid, temperatuur, richting van 
+de luchtstroom, ECONOMY, 3D AUTO, NIGHT SETBACK, 
+SILENT. 
+ Comfort start-up wordt niet uitgevoerd voor de WEKELIJKSE 
+TIMER ON TIMER-modus.OPMERKING
+ De OFF TIMER-modus van de WEKELIJKSE TIMER wordt 
+alleen ingeschakeld wanneer de airconditioner werkt. Wan-neer de tijd die door de OFF TIMER wordt ingesteld wordt bereikt, schakelt de airconditioner uit. 
+ Wanneer meerdere programmanummers worden ingesteld 
+voor de huidige dag (dag van de week), begint het apparaat te werken vanaf de vroegst ingestelde tijd. 
+  Als naast de WEEKLY TIMER, een andere timer (ON 
+TIMER, OFF TIMER of SLEEP TIMER) is ingesteld, zal de werking niet starten volgens de ON TIMER/OFF TIMER-instellingen die bij WEEKLY TIMER zijn gespecificeerd. Schakel de WEEKLY TIMER in, nadat alle andere timers (ON TIMER, OFF TIMER en SLEEP TIMER) zijn uitgeschakeld.
+  De ON TIMER of OFF TIMER van dezelfde tijd op dezelfde 
+dag van de week kunnen niet worden ingesteld.
+  
+Als de WEEKLY TIMER niet wordt verzonden naar de eenheid, 
+wordt het lampje van de TIMER niet ingeschakeld, zelfs als u op de 
+knop WEEKLY drukt en als  wordt weergegeven op de afstands-
+bediening. : Instelling WEKELIJKSE 
+TIMER
+: Instelling HANDMATIG
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-22Instellingsmodus <Individuele instelling>
+6Druk op de ON TIMER- of de OFF TIMER-toets.
+De ON TIMER of OFF TIMER wordt bepaald en de tijddisplay knippert.
+  ON TIMER wordt geselecteerd    OFF TIMER wordt geselecteerd54Druk op “  of  (TIMER)”-toets.
+Selecteer een programmanummer.
+Elke keer er op een knop  wordt gedrukt, wordt de weergave 
+gewijzigd in de volgorde:
+Elke keer er op een knop  wordt gedrukt, wordt de weergave 
+gewijzigd in de volgorde:3Druk op de SET-toets.
+De dag van de week wordt bepaald en het programmanummer 
+knippert.Druk op de PROGRAM-toets .
+ en de huidige dag van de week knippert.
+Druk op “  of  (TIMER)”-toets.
+Selecteer een dag van de week die moet worden gereserveerd.
+Elke keer er op een knop  wordt gedrukt, wordt de weergave 
+gewijzigd in de volgorde:
+Mon Tue Wed ... Sun Weergave van alle dagen van de week.
+Elke keer er op een knop  wordt gedrukt, wordt de weergave 
+gewijzigd in de volgorde:
+Mon Sun ... Sat Weergave van alle dagen van de week. Tue1Instellen nadat de huidige dag van de week en de tijd werden ingesteld.
+2
+P1 P2 P3 P4
+P1 P4 P3 P2
+Druk op de SET-toets.
+Wanneer er geen ingestelde configuraties (ON TIMER of OFF 
+TIMER) beschikbaar zijn, knippert zowel  als .  
+Wanneer er vaste inhoud beschikbaar is (ON TIMER of OFF 
+TIMER) knippert de timer  of .
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-2310< Instellingen toepassen >
+Richt de afstandsbediening naar de signaalontvanger van de afstandsbediening van de binnenunit.
+Druk op de PROGRAM-toets .
+Instellingen worden naar de airconditioner verzonden.
+Richt de afstandsbediening naar de signaalontvanger voor de afstandsbediening van de binnenunit, druk op de PROGRAM-toets en wacht 3 seconden.Na 3 seconden worden de instellingen naar de airconditioner verzonden. Er wordt drie keer een zoemend geluid (pip, pip, pip) weergegeven. Als het zoemend geluid niet wordt weerge-geven, druk nog eens op de PROGRAM-toets om de instellingen te verzenden.
+< Meer instellingen ingeven >
+Druk op de SET-toets.
+Ga verder vanuit stap 2 om instellingen voor andere programma’s in te geven.9Druk op de SET-toets.
+De tijds- en werkingsmodus worden bepaald en  en  knip-
+pert.8Stel de werkingsmodus in.
+Als u ON TIMER selecteert, kan de werkingsmodus, de ventilatorsnelheid en de richting van 
+de luchtstroom gewijzigd worden en de ECONOMY-, SILENT- of NIGHT SETBACK-modus kunnen worden ingesteld. 7Druk op “  of  (TIMER)”-toets.
+Stel een tijd in.
+Wanneer u ON TIMER selecteert, ga naar stap 8. 
+Wanneer u OFF TIMER selecteert, ga naar stap 9.
+Instellingsmodus <Collectieve instelling>
+■ Stel dezelfde gebruiksconfiguraties in voor hetzelfde programmanummer van alle dagen van de week. In stap 2 hierboven, selecte er 
+“alle dagen van de week”. Als de configuratie die individueel werden ingesteld in hetzelfde programmanummer al bestaat, wordt d eze 
+configuratie overschreven.
+ Als het apparaat gedurende 60 seconden niet wordt bediend in de instellingsmodus, worden de instellingswijzigingen die tot dan  
+werden gemaakt, ongeldig en wordt de instellingsmodus beëindigd. Vervolgens gaan   en alle programmanummers (P1, P2, 
+P3 en P4) gedurende 10 seconden knipperen.
+ (Dit knipperen is niet zichtbaar als de instellingsmodus wordt beëindigd terwijl er slechts een programma wordt ingesteld.) 
+ Na het instellen dient u de afstandsbediening op de airconditioner te richten en te drukken op de PROGRAM-toets. U dient dan t e 
+controleren of de airconditioner een drievoudig zoemend geluid (pip, pip, pip) weergeeft om ontvangst aan te geven. Als u geen zoemend geluid hoort, stel de modus dan opnieuw in op de instellingsmodus door op de PROGRAM-toets te drukken en con-troleer of het zoemend geluid wordt weegegeven.OPMERKINGElke keer er op een knop  wordt gedrukt, wordt de weer-
+gave gewijzigd in de volgorde:
+0:00 0:10 0:20 ... 1:00 1:10  
+Elke keer er op een knop  wordt gedrukt, wordt de weer-
+gave gewijzigd in de volgorde:
+0:00 23:50 23:40 ... 23:00 22:50 (Eenheden van 
+tien minuten)
+(Eenheden van 
+tien minuten)
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-24De instelling annuleren <Individuele instelling>
+3Druk op de SET-toets.
+De dag van de week wordt bepaald en het programmanummer knippert.2
+5Druk op de CANCEL-toets.
+De instellingconfiguraties van de ON- of OFF TIMER worden geannuleerd 
+en  wordt weergegeven op de tijdsectie van de display.
+6Richt de afstandsbediening naar de signaalontvanger van de 
+afstandsbediening van de binnenunit.
+Druk op de PROGRAM-toets .
+Wanneer u op de PROGRAM-toets drukt, wordt de instelling naar de airconditioner verzonden. 
+Wanneer de instelling wordt ontvangen, wordt er een zoemend geluid (pip, 
+pip, pip) weergegeven. De instellingconfiguraties van elk programma worden geannuleerd. Voer de bovenstaande operatie voor elk te annuleren programma uit.Druk op de PROGRAM-toets .
+ en de huidige dag van de week knippert.1
+De instelling annuleren <Collectieve instelling>
+Conﬁ  rm-modus
+Uitschakelingsprocedure
+De Confirm-modus kan worden beëindigd door  op de ON/OFF-, CANCEL- of 
+SET-toets te drukken.Druk gedurende 3 seconden of langer op de PROGRAM-toets .
+ knippert en de instellingsconfiguratie licht op.1De WEKELIJKSE TIMER-instellingsconfiguratie kan worden bevestigd.
+2
+Mon P1 P2 P3 P4
+P1 P2 P3 P4 Tue
+Sun P1 P2 P3 P4
+P1 P2 P3 P4Weergave van alle 
+dagen van de week.Druk op “  of  (TIMER)”-toets.
+Selecteer een dag van de week en een te bevestigen programmanummer.
+De weergave begint vanaf de huidige dag van de week. Voor het programma zonder instelling, wordt 
+ weergegeven. Wanneer u op de PROGRAM-
+toets drukt in de Confirm-modus, wordt er een instellingsmodus ingesteld.Druk op “  of  (TIMER)”-toets.
+Selecteer een dag van de week die geannuleerd moet worden.
+4Druk op “  of  (TIMER)”-toets.
+Selecteer een programmanummer dat geannuleerd moet worden.Druk tijdens het annuleren niet op de SET-toets. Als u op de SET-toets drukt, wordt de modus gewijzigd naar de ingestelde modus.
+■ Als dezelfde gebruiksconfiguratie al bestaat in hetzelfde programmanummer van alle dagen van de week, is collectief wissen moge lijk. In stap 
+2 hierboven, selecteer “alle dagen van de week”. De procedure vanaf stap 3 is dezelfde als diegene die hierboven wordt aangegev en.
+ Als de gebruiksconfiguratie werden gewijzigd of gewist door individuele instelling na de collectieve instelling zoals beschrev en op 
+pagina 23, waardoor er verschillen ontstaan betreffende de configuratie voor de dagen van de week, is collectief wissen niet mo gelijk.
+ Als er gedurende 60 seconden geen operatie plaatsvindt in de Confirm-
+modus, wordt de Confirm-modus beëindigd.OPMERKING
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-25Druk op de knop ON/OFF.
+Druk op de knop HI/ECO.
+ Als de werkingsmodus is ingesteld op AUTO, COOL of HEAT
+Elke keer er op een knop HI/ECO wordt gedrukt, wordt de indicator gewi-
+jzigd in de volgorde:
+ Wanneer de werkingsmodus DRY of ON TIMER + OFF TIMER
+Elke keer er op een knop HI/ECO wordt gedrukt, wordt de indicator gewi-
+jzigd in de volgorde:
+Werking HIGH POWER
+Als u op de knop HI/ECO drukt, wordt het werkvermogen versterkt en wordt er 15 minuten onafgebroken met extra vermogen gekoeld 
+of verwarmd. De afstandsbediening geeft  weer en het scherm van de FAN SPEED is verdwenen. 
+ Tijdens de werkingsmodus HIGH POWER wordt de kamer-
+temperatuur niet geregeld. Wanneer deze overdadige koe-ling of verwarming veroorzaakt, drukt u op de knop HI/ECO om de werkingsmodus HIGH POWER te annuleren.
+ HIGH POWER-modus is niet beschikbaar tijdens de DRY- 
+en ON TIMER + OFF TIMER-modi.
+ Wanneer de HIGH POWER-modus ingesteld wordt nadat de 
+instelling ON TIMER-modus werd ingesteld, start de HIGH POWER-modus vanaf de ingestelde tijd.
+ Na HIGH POWER werking, kunt u koelvloeistof horen 
+stromen. Wanneer de volgende werkingsmodi zijn ingesteld, zal de 
+werkingsmodus HIGH POWER geannuleerd worden.
+1 Wanneer u opnieuw op de knop HI/ECO drukt.
+ (De bedrijfsmodus wordt gewijzigd in ECONOMY.)
+2 
+Wanneer een andere werkingsmodus wordt ingeschakeld.
+3 Wanneer er 15 minuten zijn verstreken sinds de werk-
+ingsmodus HIGH POWER is begonnen. 
+4 Wanneer de 3D AUTO toets is ingedrukt.
+5 Wanneer u op de SILENT-toets drukt.
+6 Wanneer u de NIGHT SETBACK-toets indrukt.
+ Werkt niet terwijl de airconditioner is uitgeschakeld.
+ Wanneer de volgende werkingsmodi zijn ingesteld, zal de 
+ECONOMY modus worden geannuleerd.
+1 Wanneer u opnieuw op de knop HI/ECO drukt.
+2 Wanneer u de werkingsmodus omschakelt van DRY 
+naar FAN.
+3 Wanneer u de NIGHT SETBACK-toets indrukt.
+ Werkt niet terwijl de airconditioner is uitgeschakeld.Gebruik werkingsmodi HIGH POWER/ECONOMY
+■ Start de operatie vanaf Stap 1 wanneer de airconditioner is uitgeschakeld. Start de operatie vanaf Stap 2 wanneer de aircondit ioner 
+draait.
+21
+OPMERKING
+OPMERKING(HIGH POWER ) (ECONOMY)
+(ECONOMY) (Normale werking)
+Werking ECONOMY
+Door op de HI/ECO-knop te drukken, start u een zachte werking met de voeding in de lage stand om excessief afkoelen of verwarme n te voorkomen.
+Het apparaat werkt 1,5 °C hoger dan de ingestelde temperatuur tijdens het koelen of 2,5 °C lager dan tijdens het verwarmen.
+De afstandsbediening geeft  weer en het scherm van de FAN SPEED is verdwenen. 
+ De werkingsmodus ECONOMY wordt ingeschakeld de vol-
+gende keer dat de airconditioner inschakelt, in het volgende geval. 
+1
+ Wanneer de airconditioner wordt gestopt door de knop 
+ON/OFF tijdens de werkingsmodus ECONOMY.
+2 Wanneer de airconditioner is gestopt in de werking-
+smodi SLEEP of OFF TIMER tijdens de ECONOMY werkingsmodus.
+3 Wanneer de werkingsmodus na de modi SELF CLEAN 
+of ALLERGEN CLEAR wordt hervat.(Normale werking)
+Geen weergaveGeen weergave
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-26Druk op de knop ON/OFF.
+Druk op de knop SILENT-toets.
+ Als de modus ingesteld is op AUTO, COOL of NIGHT SETBACK
+Elke keer er op een knop SILENT wordt gedrukt, wordt de indicator gewi-jzigd in de volgorde:NIGHT SETBACK-modus
+■ Tijdens de koude seizoenen, kan de temperatuur in de kamer op een comfortabel niveau worden gehouden wanneer u de kamer 's 
+nachts verlaat en wanneer de kamer niet gebruikt wordt. De airconditioner behoudt een constante temperatuur rond 10 °C.
+SILENT-modus
+■ Als de modus SILENT is ingeschakeld, functioneert de apparatuur stiller om het geluid van het buitenapparaat te beperken.
+Start de operatie vanaf Stap 1 wanneer de airconditioner is uitgeschakeld. Start de operatie vanaf Stap 2 wanneer de airconditi oner draait.
+1
+(SILENT aan)Geen weergave  
+(SILENT uit)1Druk op de NIGHT SETBACK-toets.
+Elke keer er op een NIGHT SETBACK wordt gedrukt, wordt de indicator 
+gewijzigd in de volgorde:
+(NIGHT SETBACK aan)Geen weergave
+(NIGHT SETBACK uit)
+ Tijdens de NIGHT SETBACK-modus behoudt de airconditioner de in-
+gestelde temperatuur op ongeveer 10 °C.
+ Tijdens de NIGHT SETBACK-modus kan de temperatuur niet worden ingesteld.
+ Aangezien de kamertemperatuur sterk kan schommelen, raden we u aan 
+dit te gebruiken wanneer niemand zich in de ruimte bevindt.
+ Tijdens NIGHT SETBACK kunnen HIGH POWER en ECONOMY niet worden ingesteld.
+ Wanneer de NIGHT SETBACK-modus geannuleerd wordt door op de 
+NIGHT SETBACK-toets te drukken, wordt de werkingsmodus die onmid-dellijk voorafgaat aan de NIGHT SETBACK-modus gereset.
+ Met deze functie onderhoudt de airconditioner de kamertemperatuur op 
+10 °C tijdens koude seizoenen (verwarmen).De airconditioner onderhoudt de temperatuur niet op 10 °C tijdens warme seizoenen (koelen).Als de kamertemperatuur hoger is dan 10 °C zal de ventilator stoppen of op een lage snelheid werken.OPMERKING
+Uitschakelingsprocedure
+Druk op de SILENT-toets om de SILENT-display uit te schakelen.
+ Tijdens de SILENT-modus vermindert de maximale koel- en verwarming-
+scapaciteit.
+ De SILENT-modus werkt niet tijdens de DRY- en FAN-modi.
+ In de volgende gevallen gaat de airconditioner verder in de modus SI-
+LENT na het opnieuw inschakelen (ON).
+1 Wanneer de airconditioner uitgeschakeld wordt door op de ON/OFF-
+toets te drukken tijdens de SILENT-modus.  
+2 Wanneer de airconditioner uitgeschakeld wordt in de SLEEP- of 
+OFF TIMER-modus tijdens de SILENT-modus. 
+3 Wanneer de werkingsmodus na de modi SELF CLEAN of AL-
+LERGEN CLEAR wordt hervat. 
+ Werkt niet terwijl de airconditioner is uitgeschakeld.
+ Het is mogelijk dat het geluid van het buitenapparaat niet vermindert, af-
+hankelijk van de omstandigheden.
+ In het geval van het SCM-multisysteem is de knop SILENT ongeldig.OPMERKINGUitschakelingsprocedure
+Druk op de NIGHT SETBACK-toets of de MODE-toets om de NIGHT SET-
+BACK-display uit te schakelen.
+2
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-27MENU-functie
+■ De MENU-functie wordt gebruikt om de Helderheid aanpassen, de Gebruik werkingsmodus SELF CLEAN, de Ventilator tijdens ver-
+warming thermo-UIT, de Werkingsmodus PRESET, de Instelling draadloze LAN-verbinding en de Instelling draadloze LAN-communi-catie in te stellen.
+2Selecteer de helderheid door op de knop “  of (TIMER)” te 
+drukken. Helderheid aanpassen
+■ U kunt deze functie gebruiken als u de helderheid van het scherm moet aanpassen.
+Selecteer het menu voor aanpassen van de helderheid door 
+op de MENU-schakelaar te drukken.1
+Druk op de knop SET.3100 %
+(Origineel)50 % 0 %
+(Uitgeschakeld)Helderheid 
+aanpassenGebruik werkingsmodus 
+SELF CLEAN
+Werkingsmodus PRESET1Elke keer dat met een balpen etc. op de MENU-schakelaar 
+wordt gedrukt, wordt het scherm in deze volgorde overge-schakeld:
+Instelling draadloze 
+LAN-communicatieInstelling draadloze 
+LAN-verbindingVentilator tijdens verwarm-
+ing thermo-UIT
+■ Raadpleeg de handleiding van een andere gebruiker  voor de instelling draadloze LAN-verbinding.
+ Als de communicatiestatus zwak is wegens radiogolfinterferentie door een obstakel, magnetron enzovoort, wordt de 
+gebruiksconfiguratie mogelijk niet weergegeven. Controleer regelmatig de werkingsmodus.
+ De gebruiksconfiguratie van uw smartphone wordt niet weergegeven op het scherm van de afstandsbediening. De door de 
+afstandsbediening ingestelde configuratie worden weergegeven in de toepassing (Smart M-Air).OPMERKINGInstelling draadloze LAN-verbinding
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-28Gebruik werkingsmodus SELF CLEAN
+■ De werkingsmodus SELF CLEAN dient te worden uitgevoerd nadat AUTO, COOL en DRY zijn gebruikt om vocht uit het apparaat te verw ijderen om 
+de groei van schimmel en bacteriën onder controle te houden.
+2Selecteer SELF CLEAN door op de knop “  of  (TIMER)” te 
+drukken. Selecteer de werkingsmodus SELF CLEAN via de MENU-
+schakelaar.1
+Druk op de knop SET.3(SELF CLEAN uit) (SELF CLEAN aan)
+ Twee uur later stopt de airconditioner de bedrijfsmodus SELF CLEAN 
+vanzelf. Om de airconditioner onmiddellijk te stoppen, drukt u op de aan-/uitknop.
+ Werkingsmodus SELF CLEAN kan niet worden gebruikt na de modi 
+HEAT, FAN, OFF TIMER, SLEEP en ALLERGEN CLEAR.
+ De ventilator van het binnenapparaat draait ongeveer twee uur in de 
+werkingsmodus SELF CLEAN.
+ Het RUN lampje brandt tijdens de SELF CLEAN reinigingsprocedure.
+ Als u op de SLEEP-toets, de ALLERGEN CLEAR-toets of de NIGHT 
+SETBACK-toets drukt tijdens de SELF CLEAN-modus wordt de SELF CLEAN-modus geannuleerd en wordt het apparaat vervolgens ingesteld op de SLEEP-, ALLERGEN CLEAR- of NIGHT SETBACK-modus.
+ Dit is geen functie voor het verwijderen van schimmel, bacteriën of vuil 
+dat zich al op het apparaat heeft afgezet.3 seconden
+1 secondenON
+OFFOPMERKING
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-29OPMERKING
+ Als de Ventilator tijdens verwarming thermo-UIT is geconfigureerd, wordt 
+deze in de airconditioner opgeslagen, zelfs als deze is uitgeschakeld. Als u de instelling Ventilator tijdens verwarming thermo-UIT wilt wijzigen, stel deze dan met de afstandsbediening opnieuw in.
+ In het geval van het SCM-multisysteem kan de Open haard-functie de 
+ruimte buitensporig verwarmen.Ventilator tijdens verwarming thermo-UIT
+■ Wanneer de kamertemperatuur de ingestelde temperatuur bereikt tijdens het verwarmen, wordt de verwarmingsthermostaat uitgescha keld.
+Ventilator tijdens verwarming thermo-UIT kan worden geselecteerd.
+2Selecteer de ventilatorbediening door op de knop “  of  
+(TIMER)” te drukken. 
+De airconditioner regelt de FAN SPEED automatisch.
+Het apparaat werkt op de door de afstandsbediening 
+ingestelde FAN SPEED.
+Warmte van andere warmtebronnen kan in de ruimte 
+worden gecirculeerd door de binnenventilator continu te laten werken.
+De binnenventilator start en stopt regelmatig met werken om een koude tocht te voorkomen tijdens 
+thermoverwarming - OFF.
+De interne ventilator stopt. Om deze functie te ge-bruiken is extra werk nodig, dus raadpleeg uw dealer.
+Anders kan het even duren om terug te keren naar verwarming en kan de verwarmingscapaciteit on-
+voldoende zijn.Selecteer de Ventilator tijdens verwarming thermo-UIT door 
+op de MENU-schakelaar te drukken.1
+Druk op de knop SET.3Normale functie Open haard-functie Intervalfunctie Stop-functie
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-30Werkingsmodus PRESET
+■ Met deze bewerking kan de voorkeursinstelling worden opgeslagen voor later.
+Selecteer de werkingsmodus PRESET via de MENU-schake-
+laar.
+Selecteer uw voorkeur voor OPERATION MODE, TEMPERA-
+TURE, FAN SPEED en de richting van AIR FLOW.
+Druk op de knop SET.1
+2
+3
+OPMERKING
+ Wanneer u op de knop MODE drukt voor de werkingsmodus PRESET ti-
+jdens de werkingsmodus 3D AUTO of HIGH POWER, wordt dit geannuleerd.
+ Wanneer u op de knop MODE drukt voor de werkingsmodus PRESET 
+tijdens de werkingsmodus ECONOMY, gaat dit door.4Wanneer de airconditioner werkt op AU TO, COOL, HEAT, DRY, 
+FAN en NIGHT SETBACK, drukt u 3 seconden of langer op de knop MODE. De werkingsmodus PRESET wordt gestart.
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-31Instelling draadloze LAN-communicatie
+Initialisatie van de draadloze LAN-interface■ De draadloze LAN-communicatie kan ON en OFF worden geschakeld.
+De instelling van de draadloze LAN-communicatie kan worden ingesteld ongeacht de airconditioner in werking is of niet.
+■ Als u de draadloze LAN-interface wilt resetten, kan ze worden geïnitialiseerd naar de status van bij de aankoop.
+Wanneer de draadloze LAN-interface geïnitialiseerd is, worden gegevens zoals de netwerkinstelling gewist.2Selecteer de draadloze LAN-communicatie door op de knop “
+ of  (TIMER)” te drukken.Selecteer de instelling van de draadloze LAN-communicatie 
+door op de MENU-schakelaar te drukken.1
+Druk op de knop SET.
+Druk gedurende 5 seconden op de knop SET.3
+3Draadloze LAN-
+communicatie ONDraadloze LAN-
+communicatie OFF
+1Als de airconditioner draait, drukt u op de knop ON/OFF druk 
+om hem te stoppen.
+De initialisatie van de draadloze LAN-interface kan niet worden uitgevoerd 
+wanneer het apparaat draait.
+2Druk tegelijkertijd gedurende minstens 5 seconden op de 
+knoppen OFF TIMER en 3D AUTO.
+Het AC-scherm op de afstandsbediening knippert.
+Uitschakelingsprocedure
+Druk op de knop CANCEL.
+ Initialiseer de interface wanneer de gebruiker van de airconditioner wijzigt 
+of wanneer de airconditioner wordt weggesmeten.OPMERKINGOPMERKING
+ Als de instelling draadloze LAN-communicatie is geconfigureerd, wordt 
+deze in de airconditioner opgeslagen, zelfs als deze is uitgeschakeld. Als u de instelling draadloze LAN-communicatie, stel deze dan met de afstandsbediening opnieuw in.
+ Als de instelling draadloze LAN-communicatie op UIT is ingesteld, is de 
+Wi-Fi-functie niet beschikbaar.
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-32 Mors geen vloeistoffen op de 
+eenheid.
+ Raak de aluminium koelribben 
+van de warmtewisselaar niet aan.
+ Zorg ervoor dat u stevig op 
+een ladder of een ander sta-biel voorwerp staat wanneer u het inlaatpaneel en het ﬁ  lter 
+verwijdert.Onderhoud
+Schakel de stroomtoevoer uit.Voor onderhoud
+Gebruik de volgende voorwer-pen niet:
+ Heet water (40 °C of meer) 
+Dit kan het apparaat vervormen of verkleuren.
+ Wasbenzine, verfverdunner, reinig-
+ingsproducten, enz… Deze kunnen het apparaat vervor-men of krassen.Tijdens het gebruiksseizoen
+Het paneel voor luchtinvoer openen en sluiten
+ Openen
+ Plaats uw vingers op de hoeken aan weerszijden van het paneel 
+en trek het paneel naar voren, zodat het paneel open staat op een hoek van ongeveer 70 graden.Sluiten
+Druk gelijkmatig op beide hoeken van het paneel en druk voor-zichtig verder in het midden.
+Het paneel voor luchtinvoer verwijderen en installeren
+ Verwijdering
+ Wanneer het luchtinlaatpaneel wordt verwijderd voor het reinigen van de binnenkant of een andere reden, open het paneel ongeveer 90 graden en trek het paneel naar voor. Installatie
+Plaats de arm van het paneel in de sleuf op het voorpaneel vanuit de hi-eronder weergegeven positie, houd het paneel vast aan beide zijden van de onderkant, laat het paneel voorzichtig zakken en druk dan voorzichtig totdat het paneel vergrendelt.Verwijder het luchtﬁ  lter.
+Het luchtﬁ  lter terugplaatsen
+ Houd de filter stevig vast aan beide zijden zoals rechts wordt 
+getoond, en plaats het stevig terug.
+ Als u de airconditioner bedient zonder de luchtfilters wordt 
+de eenheid stoffig, en dit kan schade veroorzaken.Schoonmaken
+Schoonmaken van het apparaat
+ Maak het apparaat schoon met een zachte, droge doek of gebruik een stofzuiger.
+ Als het apparaat erg vies is, maakt u het schoon met een doek die gedrenkt is in 
+warm water.
+Het luchtinlaatpaneel schoonmaken
+ Het paneel kan met water worden afgewassen. Nadat 
+het paneel met water is afgewassen, veegt u vocht van het paneel en laat het dan in de zon drogen. Maak de filters niet schoon met kokend water.
+ Droog ze niet boven een open vuur.
+ Trek ze voorzichtig naar buiten.1
+2
+3De standaardperiode is eenmaal 
+per twee weken
+ OPGELET Trek het luchtinlaatpaneel naar voren.
+ Houd het paneel vast aan de inkepingen en 
+til het een beetje op om het paneel te verwij-deren.Het luchtﬁ  lter schoonmaken
+Als het luchtfilter erg vies is, maakt u het met warm water 
+schoon (circa 30 °C) en droogt u het goed.
+Arm van paneel
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-33Aan het einde van het seizoen
+Stop de unit en schakel de stroomtoevoer uit.
+Het apparaat verbruikt ongeveer 4 W, zelfs wanneer het appa-
+raat niet in werking is.Door de stroomtoevoer uit te schakelen kunt u energie en dus kosten besparen.Aan het begin van het seizoen
+Zorg ervoor dat er geen objecten zijn die de 
+luchtstroom rond de luchtinlaat- en luchtuit-laatopeningen blokkeren bij het binnenappa-raat en buitenapparaat.
+Verwijder de batterijen uit de afstandsbedien-
+ing.Maak zowel het binnen- als het buitenappa-
+raat schoon.Maak de luchtﬁ  lters schoon en plaats ze ter-
+ug.Laat de ventilator 2 tot 3 uur werken.
+Droog de binnenkant van het apparaat.
+Zorg ervoor dat het basisframe van het 
+buitenapparaat geen corrosie of roest bevat.
+Plaats de batterijen in de afstandsbediening.Schakel de stroomtoevoer in.
+  Installeren, inspectie en vervanging van het luchtreinigingsﬁ  lter
+1. Open het luchtinlaatpaneel en verwijder de luchtfilters.   Pagina 32
+2. Verwijder de filterhouders, met daarin het luchtreinigingsfilter, uit de airconditioner.
+3. Verwijder het allergeenverwijderende (licht oranje) filter uit de filterhouder en in-
+specteer het filter. Verwijder met een stofzuiger alle stof en vuil uit het allergeen-verwijderende filter. Vervang het allergeenverwijderende filter als dit niet schoonge-maakt kan worden of ongeveer 1 jaar is gebruikt.(Het allergeenverwijderende filter dient na ongeveer 1 jaar gebruik te worden vervangen. De werkelijke vervangings-periode kan echter verschillen, afhankelijk van de omstandigheden waarin het filter is gebruikt.)
+ Verwijder het fotokatalytisch wasbaar, geurverdrijvend, filterh (oranje) uit de filter-
+houder en inspecteer het filter. Verwijder periodiek alle stof of vuil uit het fotokata-lytisch wasbaar, geurverdrijvend, filter. Als het fotokatalytisch wasbaar, geurver-drijvend, filter bijzonder vuil is, kunt u dit met water wassen. Het filter is echter breekbaar, zodat u dit filter altijd dient te wassen terwijl het in de filterhouder zit om te voorkomen dat u het beschadigd. Laat het filter in de zon drogen nadat u dit hebt gewassen. Als u het filter in de zon legt, wordt het reukverwijderende effect verst-erkt.
+ (Gooi de filterhouders niet weg. Ze kunnen hergebruikt worden. )
+4. Installeer het luchtreinigingsfilter in de filterhouders en installeer dan de filterhoud-
+ers in de airconditioner.1
+2
+3
+4
+51
+2
+53
+4
+ Het allergeenverwijderende filter en het fotokatalytisch, wasbaar, 
+geurverdrijvend filter kunnen zowel rechts als links in de aircondi-tioning worden geïnstalleerd.
+ Installeer de allergeenverwijderend filter met de licht oranje kant 
+naar voren.
+ Artikel Functie Kleur  
+De kracht van enzymen wordt gebruikt om allergieveroorzak-
+ende allergenen die zich op het filter ophopen te verwijderen.
+Reukbronnen op het filter worden afgebroken, met als re-sultaat een reukverwijderend effect.Fotokatalytisch, wasbaar,  geur-verdrijvend    filterOranjeAllergeenverwijderend 
+filterLicht oranjeVoor vervanging van het luchtreinigingsfilter, neemt u a.u.b. contact op met uw dealer.5. Installeer de luchtfilters en sluit het luchtinlaatpaneel.    Pagina 32Filterhouder
+FilterControleer de aarding en controleer of die niet 
+is gebroken of losgekomen.
+OPMERKING
+ U kunt uw vingers verwonden aan de warmtewisselaar.
+ Ga stevig op een huishoudtrapje staan of een ander stabiel voorwerp wanneer u het inlaatpa-
+neel en de ﬁlters verwijdert. OPGELET Een luchtfilter dat verstopt is door stof enz., kan het afkoelen/verwarmen beïnvloeden en resulteren in een hogere geluidsprod uc-
+tie van de airconditioner. Verder kan het apparaat meer elektriciteit gebruiken. Reinig het luchtfilter op de aangegeven tussen peri-
+odes.OPMERKING
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-34Is het apparaat correct geïnstalleerd
+   Let goed op geluiden tijdens gebruik
+ Wanneer u het apparaat installeert dient u een plaats te kiezen die het gewicht van de airconditioner makkelijk kan dragen en  
+geluiden en vibratie tijdens gebruik niet doet toenemen. Als er vibraties door het huis gaan, kunt u dat oplossen door vibratie -
+absorberende kussentjes tussen het apparaat en de bevestigingspunten te plaatsen.
+ Selecteer een plaats waar koude of warme lucht en geluid van het binnen of -buitenapparaat geen overlast veroorzaken bij uw b u-
+ren.
+ Laat geen hindernissen staan bij de luchtinlaat en -uitlaat van het buitenapparaat. Dit kan storingen veroorzaken en een toen ame 
+van geluid tijdens gebruik.
+ Indien u tijdens het gebruik een vreemd geluid hoort, dient u contact op te nemen met uw leverancier.   Goede installatieplaats
+ Plaats geen voorwerpen voor het binnenapparaat die een goede ventilatie of werking kunnen verhinderen.
+ Installeer het apparaat niet in één van de volgende plaatsen:
+ Plaatsen waar er ontvlambare gassen kunnen lekken.
+ Plaatsen waar veel olie wordt gespetterd.
+ Er kunnen storingen optreden vanwege corrosie wanneer de airconditioner in een kuuroord wordt geïnstalleerd waar zwavelgas-
+sen ontstaan, of in een ontspanningsoord aan de kust waar deze blootgesteld wordt aan zeewinden. Neem contact op met uw leverancier.
+ De airconditioner en de afstandsbediening dienen tenminste 1 meter van TV of radio te zijn verwijderd.
+ Voer het door het binnenapparaat aan de lucht onttrokken water af naar een plaats met goede afvoer.
+Problemen oplossen 
+ Controleer het volgende voordat u contact opneemt met de servicedienst.
+Als de airconditioner nog steeds 
+niet goed functioneert nadat u de punten, links van deze tekst, heeft gecorrigeerd of wanneer u, na het raadplegen van onderstaande pagina en pagina 35 nog steeds twijfels heeft, of als de omstandigheden zoals getoond op pagina 36 plaatsvinden, schakelt u de netstroom uit en neemt u contact op met uw leverancier.   Inspectie en onderhoud
+Afhankelijk van de natuurlijke omgeving, kan de binnenzijde van de airconditioner vuil worden na enkele jaren gebruik. Hierdoor  zul-
+len de prestaties verminderen. Naast de normale reiniging, raden we aan om eveneens een controle en onderhoud te laten uitvoere n. 
+(Hierdoor zal de levensduur van de airconditioner langer en probleemlozer zijn.) Neem contact op met uw leverancier, of een distributeur, voor inspectie en onderhoud. (Voor deze dienstverlening dient te wor den 
+betaald).
+ U wordt aangeraden inspectie en onderhoud buiten het seizoen te laten plaatsvinden. Indien het netsnoer van dit apparaat beschadigd is, dient het alleen te worden vervangen door een reparateur die is aangeweze n 
+door de fabrikant, aangezien speciaal gereedschap gebruikt moet worden.
+De airconditioner werkt helemaal niet. Is de netstroom ingeschakeld?
+ Staat de tijdklok in de positie “ON”?
+ Is er een stroomstoring of is er een zekering gesprongen?
+Slechte koeling of verwarming Heeft u de thermostaat op een goede temperatuur ingesteld?
+ Is het luchtfilter schoon? (Niet verstopt?)
+ Staan er deuren of ramen open?
+ Staat er direct zonlicht in de kamer?
+ Is er een warmtebron in de kamer?
+ Zijn er teveel mensen in de kamer?
+Goed onthouden
+Lucht wordt niet uitgeblazen wanneer de werkingsmodus 
+HEATING wordt gestart.
+De indicator RUN knippert langzaam 
+(1,5 seconden ON, 0,5 seconden OFF)De luchtstroom is gestopt totdat de warmtewisselaar is opge-
+warmd (2 tot 5 minuten) om te voorkomen dat koude lucht wordt uitgeblazen
+Lucht wordt niet uitgeblazen gedurende 5 tot 15 minuten 
+of koele lucht wordt kort uitgeblazen tijdens de werking-smodus HEATING.
+De indicator RUN knippert langzaam 
+(1,5 seconden ON, 0,5 seconden OFF)Wanneer de buitentemperatuur laag is en de vochtigheid 
+hoog, schakelt de airconditioner soms automatisch over op ontdooien. U moet dan even geduld hebben. Tijdens het ont-dooien kan er water of stoom uit het buitenapparaat komen.
+Lucht wordt niet uitgeblazen wanneer de werkingsmodus 
+DRY wordt gestart.
+(De indicator RUN brandt)De ventilator kan stoppen om te voorkomen dat uit de lucht 
+onttrokken vocht opnieuw verdampt en om energie te sparen.Luchtstroom
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-35Het apparaat start niet onmiddellijk terug op nadat u het 
+hebt gestopt.
+(Indicator RUN brandt)Het opnieuw inschakelen van het apparaat lukt niet tot 3 minuten na het uitschakelen, dit is om het apparaat te beschermen.
+De microcomputer zal het apparaat zelf opnieuw inschakelen wanneer de 3 minuten verstreken zijn.
+Er komt stoom vrij tijdens de werkingsmodus COOL. Dit kan gebeuren wanneer de kamertemperatuur en -vochtig-
+heid erg hoog zijn. Zodra de temperatuur en vochtigheid afne-men, zal dit verdwijnen.Sluit alle ramen en deuren zodat er geen vochtigheid van buiten naar binnen komt.
+U ruikt iets. De lucht die uit het apparaat geblazen wordt, ruikt vreemd. Dit wordt veroorzaakt door tabak of cosmetica die in het apparaat zijn terecht gekomen.
+Na een stroomonderbreking wordt het apparaat niet opnieuw ingeschakeld, zelfs wanneer de stroomtoevoer is hersteld.Als de automatische herstelfunctie niet is ingesteld, zal het apparaat niet automatisch terug inschakelen. Gebruik de af-standsbediening om het apparaat opnieuw in te schakelen.
+Er worden geen signalen van de afstandsbediening ont-vangen.Signalen van de afstandsbediening worden mogelijk niet ontvangen indien de ontvanger van de airconditioner is bloot-gesteld aan direct zonlicht of ander helder licht.Indien dit het geval is, schermt u het zonlicht af of vermindert u het andere licht.
+Er condenseert vocht op de luchtuitlaatroosters. Indien de airconditioner gedurende een lange periode in een ruimte met een hoge vochtigheidsgraad wordt gebruikt, kan er vocht condenseren op de luchtuitlaatroosters en hier vanaf druppelen.
+De ventilator stopt niet onmiddellijk nadat de werking van het apparaat wordt gestopt.Binnenventilator: De ventilator zal na 2 uur nog niet stoppen 
+als er is ingesteld op de SELF CLEAN reinigingsfunctie.
+Buitenventilator:  De ventilator zal na ongeveer 1 minuut 
+pas stoppen, om het apparaat te bescher-men.
+Het RUN lampje blijft branden, ook al is de werking gestopt. Het RUN lampje brandt tijdens de SELF CLEAN reinigings-
+functie.
+Het RUN lampje dooft wanneer  de SELF CLEAN reinigings-
+functie is afgelopen.U hoort een zacht gorgelend geluid. Dit komt doordat de koelvloeistof beweegt binnen de eenheid.
+U hoort een zacht krakend geluid. Dit wordt veroorzaakt door warmte-expansie of door contractie.
+U hoort een sissend of klikkend geluid. Dit wordt veroorzaakt door de werking van de koelmiddel-
+regelkleppen of de elektrische onderdelen.
+Het buitenapparaat maakt een ﬂ  uitend geluid. Dit betekent dat de rotatiesnelheid van de compressor versnelt of vertraagt.
+Het kan gebeuren dat u na het uitschakelen van het appa-raat een geluid hoort (“SHOEEE”).Dit is het normale geluid dat u hoort als er een andere aircon-ditioning wordt uitgeschakeld.Geluid
+Overig ❚Goed onthouden
+Werking
+De timerfunctie wordt geannuleerd. De timerfunctie gebruikt met de bedrade afstandsbediening / 
+WF-RAC (smartphone)
+De volgende via de draadloze afstandsbediening ingestelde 
+timerfuncties worden geannuleerd wanneer de bedrijfsstatus van de binnenunit wijzigt wegens signalen van de bedrade 
+afstandsbediening of WF-RAC (smartphone).
+Op dit ogenblik is de bedrijfsstatus van de binnenunit 
+verschillend van het scherm van de draadloze 
+afstandsbediening.Daarom wordt aanbevolen om slechts één van de timers in te 
+stellen. 
+ Gebruik werkingsmodi SLEEP TIMER
+ Gebruik werkingsmodi OFF TIMER
+ Gebruik werkingsmodi ON TIMER Gebruik werkingsmodi SLEEP TIMER + ON TIMER
+ Gebruik werkingsmodus ON TIMER + OFF TIMERHet scherm van de draadloze afstandsbediening en de 
+bedrijfsomstandigheden stemmen niet overeen.
+3-'"#@/-JOEC3-'"#@/-JOEC 
+NL-36Neem contact op met uw leverancier
+■ In elk van de onderstaande situaties dient u de netstroom onmiddellijk uit te schakelen en uw leverancier te informeren:
+Over de meervoudige airconditioner
+   Gelijktijdig gebruik
+ De airconditioners kunnen niet tegelijkertijd op verschillende werkingsstanden staan ingesteld, bijvoorbeeld één op KOELEN en de 
+andere op VERWARMEN.
+ Als u twee apparaten op twee verschillende standen instelt, heeft de airconditioner die het eerst werd ingesteld voorrang. De air-
+conditioner die als tweede wordt ingesteld, komt automatisch op luchtblazen te staan.
+ Wanneer u prioriteit wilt geven aan de airconditioner die later is gestart, stopt u de airconditioner die prioriteit heeft of wijzigt u het 
+bewerkingstype van de eenheid die als eerste is bediend zodat dit overeenkomt met de eenheid die als tweede is bediend.
+ Het RUN-lampje brandt wanneer andere binnenapparaten in verschillende modi werken (met een interval van 0,5 seconden).
+   Automatische bediening
+ Als de afstandsbediening op AUTO staat ingesteld, kiest de airconditioner bij inschakelen automatisch voor KOELEN of VERWAR-
+MEN, afhankelijk van de kamertemperatuur.
+ Tijdens gelijktijdig gebruik van meerdere airconditioners, kan de werkingsstand van een apparaat automatisch worden omge-
+schakeld als de kamertemperatuur verandert; hierdoor zal het buitenapparaat worden stopgezet. In een dergelijk geval dient u in  
+te stellen op KOELEN of VERWARMEN en niet op AUTO. (Dit is alleen van toepassing als er meer dan één airconditioner wordt gebruikt.)
+   Hergebruik van koelvloeistof (olie) 
+ Als de binnenapparaten allemaal langere tijd niet worden gebruikt, is het mogelijk dat de koel- of verwarmingsprestaties tijde lijk 
+verminderen. Dit komt door het rondpompen van de koelvloeistof (olie) in een of meerdere uitgeschakelde binnenapparaten. Wel-licht hoort u daardoor het geluid van stromende koelvloeistof in de uitgeschakelde binnenapparaten.Automatische herstelfunctie
+■ De automatische herstelfunctie slaat de werkingsmodus van de airconditioner op net voordat deze door een stroomstoring werd ui t-
+geschakeld, en herstelt de werking automatisch nadat de stroomtoevoer is hersteld.
+■ De volgende instellingen worden geannuleerd:
+1 Instellingen van de schakelklok
+2 Gebruik in de ‘HIGH POWER’-stand
+ De automatische herstelfunctie is ingeschakeld wanneer de airconditioner verscheept wordt uit de fabriek. Neem contact op met 
+uw dealer als deze functie moet worden uitgeschakeld.
+ Bij een stroomstoring wordt de instelling van de timer geannuleerd. Nadat de stroomstoring is opgeheven, moet u de timer weer 
+instellen.OPMERKING De zekering brandt vaak door of de aardlekschakelaar komt voortdurend in werking.
+ De kabel wordt extreem warm.
+Er zijn barsten in de bekleding van de kabel.
+ De TV, radio of andere apparatuur beginnen storingen te ondervinden.
+ Een schakelaar werkt niet goed.
+ Er klinkt een vreemd geluid tijdens de werking.
+ Schakel bij abnormale omstandigheden de stroomtoevoer meteen uit en schakel hem na 3 minuten weer in. Schakel het apparaat 
+opnieuw in met de knop ON/OFF op de afstandsbediening en controleer of het probleem is opgelost.
+ De lampjes voor RUN en TIMER op het scherm van de eenheid knipperen snel (0,5 seconde aan; 0,5 seconde uit) of de lampjes 
+werken niet.
+   Open haard-functie 
+ Afhankelijk van de werkingssituatie kan de ventilatorsnelheid van het op de Open haard-functie ingesteld apparaat automatisch 
+wisselen naar thermoverwarming - OFF om de airconditioner te beschermen.
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-37Zelfdiagnosefunctie
+■ Wij proberen onze klanten steeds een nog betere service te bieden, door de installatie van hulpmiddelen die afwijkingen in de w erking van het apparaat 
+onmiddellijk zichtbaar maken.   
+Storing in kamertemperatuursensor
+Warmtewisselaar binnen - 
+fout sensor 3
+TIMER-indicator AAN Draad van kamertemperatuursensor gebroken. Slechte 
+aansluiting
+ Gebroken draad warmtewisselaar sensor 3, slechte 
+verbindingBeschrijving van het probleem Oorzaak
+ Gebroken draad warmtewisselaar sensor 1, slechte 
+verbindingWarmtewisselaar binnen - fout sensor 1
+3-x knipperen1-x knipperenRUN-indicator
+2-x knipperen
+TIMER-indicator
+Warmtewisselaar buiten - fout sen-
+sorStoring in buitentemperatuursensor Draad van buitensensor gebroken. Slechte aansluiting
+RUN-indicator blijft knip-
+peren Gebroken draad van sensor warmtewisselaar, slechte 
+verbinding met connector
+Fout in afvoerpijpsensor  Draad van afvoerpijpsensor stuk, slechte aansluiting
+RUN-indicator AAN
+ Te weinig gas, sensor afvoerleiding defect, gesloten 
+serviceklep Gebroken compressordraad
+ Compressor geblokkeerd Compressor vastgelopen, open fase in uitgangsstroom 
+compressor, kortsluiting in voedingstransistor, gesloten onderhoudsklep
+ Defecte stroomtoevoer, gebroken signaaldraad, defecte 
+printplaat in binnen-/buitenunit Defecte voedingstransistor Werking overbelast, overbelasting van koeling
+Fout in de voedingstransistorStroomonderbreking
+Probleem met buitenapparaat
+Te hoge stroomsterkte
+Compressor oververhit
+Fout in signaaltransmissie
+Fout in buitenventilatormotor  Defecte ventilatormotor, slechte verbindingen
+Bescherming voor koeling onder 
+hoge druk Overbelasting van koeling, kortsluiting van buitenunit1-x knipperen
+2-x knipperen
+4-x knipperen
+1-x knipperen
+2-x knipperen
+3-x knipperen
+4-x knipperen
+5-x knipperen
+6-x knipperen
+7-x knipperen
+ Blijft knipperen
+De RUN-indicator knippert 
+tweemaalRotorvergrendeling Defecte compressor 
+ Open fase van compressor
+ Defecte kaarten op buitenapparaat2-x knipperenFout in detector zuigpijp  Gebroken draad zuigpijp detector, slechte verbinding 
+aansluiting5-x knipperenCircuitfout  Storing in circuit of slechte stekkerverbinding 5-x knipperen
+Storing in motor binnenventilator  Ventilatormotor defect. Slechte aansluiting 6-x knipperen
+Onvoldoende koelvloeistof
+Gesloten service-klep Onvoldoende koelvloeistof, lekkage
+ Gesloten service-klep7-x knipperen
+De RUN-indicator 7 x knip-
+perenGesloten service-klep  Gesloten service-klep 1-x knipperenProbleem met de draadloze LAN-
+interface Defecte interfacekaarten van draadloos LAN, slechte aan-
+sluiting verbinding4-x knipperen
+3-'"@/-JOEC 3-'"@/-JOEC  
+NL-38
+3-'"@/-JOEC 3-'"@/-JOEC  
+UK DECLARATION OF CONFORMITY
+MITSUBISHI HEA VY INDUSTRIES THERMAL SYSTEMS, LTD. 
+2-3, Marunouchi 3-chome, Chiyoda-ku, Tokyo, 100-8332, Japan
+declare under our sole responsibility that the apparatus referred to in this declaration 
+conforms with the following directives.
+Description of apparatus:    Split Type Air Conditioner
+Model name:
+Relevant GB Directives :  
+Supply of Machinery Regulations S.I. 2008/1597
+Applied Standards / Regulations :Conformity model listDescription of apparatus:    Split Type Air Conditioner
+Model name:
+[Indoor Unit] [Outdoor Unit]
+Authorised Representative in the GB :
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.
+5 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, United KingdomEU DECLARATION OF CONFORMITY
+MITSUBISHI HEA VY INDUSTRIES THERMAL SYSTEMS, LTD. 
+2-3, Marunouchi 3-chome, Chiyoda-ku, Tokyo, 100-8332, Japan
+declare under our sole responsibility that the apparatus referred to in this declaration 
+conforms with the following directives.
+Relevant EU Directives :  
+Machinery 2006/42/EC
+Applied Standards / Regulations :
+EN 60335-1 
+EN 60335-2-40Conformity model list
+Authorised Representative in the EU :
+MHIAE SERVICES B.V .
+Herikerbergweg 238, Luna ArenA, 1101 CM Amsterdam, Netherlands
+P.O.Box 23393 1100 DW Amsterdam, Netherlands[Indoor Unit] [Outdoor Unit]
+Category Model
+SRC Series SRC20ZS-W
+SRC25ZS-W
+SRC35ZS-W
+SRC50ZS-W
+SRC20ZS-WA
+SRC25ZS-WA
+SRC35ZS-WACategory Model
+SRC Series SRC20ZS-W
+SRC25ZS-W
+SRC35ZS-W
+SRC50ZS-W
+SRC20ZS-WA
+SRC25ZS-WA
+SRC35ZS-WACategory Model
+SRK Series SRK15ZS-WF
+SRK20ZS-WF
+SRK25ZS-WF
+SRK35ZS-WF
+SRK50ZS-WF
+SRK15ZS-WFB
+SRK25ZS-WFBSRK20ZS-WFB
+SRK35ZS-WFB
+SRK15ZS-WFTSRK50ZS-WFB
+SRK20ZS-WFT
+SRK35ZS-WFTSRK25ZS-WFT
+SRK50ZS-WFTCategory Model
+SRK Series SRK15ZS-WF
+SRK20ZS-WF
+SRK25ZS-WF
+SRK35ZS-WF
+SRK50ZS-WF
+SRK15ZS-WFB
+SRK25ZS-WFBSRK20ZS-WFB
+SRK35ZS-WFB
+SRK15ZS-WFTSRK50ZS-WFB
+SRK20ZS-WFT
+SRK35ZS-WFTSRK25ZS-WFT
+SRK50ZS-WFT
+EN 60335-1 
+EN 60335-2-40
+3-'"#@$PWFSJOEE 3-'"#@$PWFSJOEE  
+RLF012A110BSRK15ZS-WF
+SRK20ZS-WFSRK25ZS-WFSRK35ZS-WFSRK50ZS-WF
+SRK15ZS-WFB
+SRK20ZS-WFBSRK25ZS-WFBSRK35ZS-WFBSRK50ZS-WFB
+SRK15ZS-WFT
+SRK20ZS-WFTSRK25ZS-WFTSRK35ZS-WFTSRK50ZS-WFTORIGINAL INSTRUCTIONS
+MANUEL DE L ’UTILISATEUR
+CLIMATISEUR USER’S MANUAL
+AIR-CONDITIONER
+ANWENDERHANDBUCH
+KLIMAGERA ¨T
+ISTRUZIONI PER L ’USO
+CONDIZIONATORE D’ARIA
+MANUAL DEL PROPIETARIO
+ACONDICIONADOR DE AIRE
+GEBRUIKERSHANDLEIDING
+AIRCONDITIONING
+MANUAL DO UTILIZADOR
+APARELHO DE AR CONDICIONADO 
+РУКОВОДСТВО  ПО ЭКСПЛУАТАЦИИ
+КОНДИЦИОНЕР  ВОЗДУХАENGLISH
+DEUTSCH
+ITALIANO
+ESPAN ˜OL
+NEDERLANDS
+PORTUGUÊS
+РУССКИЙFRANÇAIS
+ΕΛΛΗΝΙΚΑ
+KULLANIM KILAVUZUΟΔΗΓΙΕΣ ΧΡΗΣΗΣ
+ΚΛΙΜΑΤΙΣΤΙΚΟ
+TÜRKÇEUSER’S MANUAL
+AIR-CONDITIONER
+202203
+MITSUBISHI HEAVY INDUSTRIES THERMAL SYSTEMS, LTD.
+2-3, Marunouchi 3-chome, Chiyoda-ku, Tokyo, 100-8332, Japan
+http://www.mhi-mth.co.jp/en/
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.
+5 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, United KingdomTel : +44-333-207-4072Fax : +44-333-207-4089http ://www.mhiae.com/
+MHIAE SERVICES B.V. 
+(Wholly-owned subsidiary of MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.)
+Herikerbergweg 238, Luna ArenA, 1101 CM Amsterdam, NetherlandsP .O.Box 23393 1100 DW Amsterdam, NetherlandsTel : +31-20-406-4535
+http ://www.mhiaeservices.com/
+3-'"#@$PWFSJOEE 3-'"#@$PWFSJOEE  

@@ -1,0 +1,519 @@
+447 215
+469North  
+User guide
+Anwenderleitfaden / Guide de l’utilisateur / Guía del 
+usuario / Användarguide / 
+Руководство  пользователя  / ユーザー ガイド  / 
+用户指导  / 使用者指南
+
+Builder’s  Guide
+Optional  Steps
+Additional  Info
+Support  and ServiceMontageanleitung  /  Guide de montage  /  Guía de montaje  /  Monteringsguide  /  Руководство по сборке  /  
+ビルダー ガイド  /  安装指导  /  安裝指南
+Optionale Schritte  /  Étapes facultatives  /  Pasos opcionales  /  Frivilliga moment  /  Возможные апгрейды  /  
+任意の手順  /  可选步骤  /  選項步驟
+Weitere Informationen  /  Informations supplémentaires  /  Información adicional  /  Övrig information  /  
+Дополнительная информация  /  追加情報  /  附加信息  /  其他資訊
+Support und Kundendienst  /  Assistance technique et maintenance  /  Soporte y servicio técnico  /  Support och 
+service  /  Поддержка и обслуживание  /  サポートとサービス  /  支持与服务  /  支援和服務Builder’s  Guide Optional  Steps Additional  Info SupportFor more information and product specifications, visit 
+fractal-design.comIntroduction
+Einführung / Présentation / Introducción / Introduktion  / Введение / はじめに / 介绍 / 簡介Introduction
+V1.2
+3 Introduction
+Case dimensions (LxWxH)  447 x 215 x 469 mm
+2.5”/3.5” drive positions  3 (2 included)
+Dedicated 2.5” drive positions  2 (included)
+Motherboard compatibility  ATX / mATX / Mini-ITX
+Power supply type    ATX
+Front ports   1 x USB 3.1 Gen 2 Type-C, 2 x USB 3.0, Audio & Mic
+Front radiator    360 mm  max (see p. 33-34 for more details)
+Rear radiator   120 mm max
+Top radiator    240 mm max (see p. 30 for more details)
+PSU max length   1 x HDD tray – 255 mm max 
+    2 x HDD tray – 155 mm max (see p. 26 for more details) 
+GPU max length   355 mm
+CPU cooler max height   170 mmSpecification
+Technische Daten / Spécifications  / Especificaciones / Specifikationer / Технические характеристики / 仕様 / 规范 / 規格
+4 Introduction
+5Case Overview
+Computer Gehäuse - Übersicht / Vue d’ensemble du boîtier de l’ordinateur / Resumen de la caja de la computadora / Datoröversikt / Обзор компьютерных случаев / コンピュータのケース情報 / 
+计算机案例概述 / 計算機案例概述
+Seitenteile / Panneaux latéraux /  
+Paneles laterales / Sidopaneler /  
+Боковые панели / 
+側面パネル / 侧面板 / 多個側面板Access Panel / Panneau d’accès / 
+Panel de acceso / Täckpanel / 
+Панель доступа / アクセスパネル / 
+接入面板 / 進出面板Bodenfilter / Filtre du bas / Filtro inferior / 
+Bottenfilter / Нижний фильтр / 
+底面フィルター / 底部过滤器 / 底部過濾器
+Frontfilter / Filtre frontal / Filtro delantero / 
+Frontfilter / Передний фильтр  / 
+前面フィルター / 前部过滤器 / 前置過濾器2 Aspect-Lüfter 14 / 2 ventilateur Aspect 14 /
+2x ventilador Aspect 14 / 2x Aspect 14 fläkt /
+2 вентилятор Aspect 14 / 2x Aspect 14ファン /
+2x Aspect 14 风扇 / 2x Aspect 14 風扇Chassis / Châssis / Armazón / Chassi / Шасси / 
+シャーシ / 机箱 / 機箱
+Frontpanel  / Panneau avant  / Panel frontal / 
+Frontpanel / Передняя панель  / 
+フロントパネル  / 前面板  / 前面板I/O Abdeckung / Couvercle E/S / 
+Placa de cubierta de E/S / I/O Täckplåt / 
+Пластина крышки ввода/вывода / 
+I/Oカバープレート / 
+I/O盖板 / 輸入/輸出蓋板
+2 x 3,5-/2,5-Zoll Träger / 
+2 plateaux 3,5” / 2,5” /
+2 bandejas de 3,5”/ 2,5” / 
+2x 3.5”/ 2.5” hårddiskvaggor /
+2 отсеков для накопителей 3,5”/ 2,5” /
+3.5インチ/2.5インチトレイ x2 /
+2个3.5英寸/2.5英寸的托盘 / 
+3.5英吋/2.5英吋托盤*2Obere Platte / Panneau supérieur / 
+Panel superior / Toppanel / 
+Верхняя панель / 
+上部パネル / 顶板 / 頂端面板2.5“ Träger / Plateau de 2,5 po  / 
+Bandeja de 2,5”  / 2.5” Fästplatta / 
+Лоток 2.5”  / 2.5トレー  / 
+2.5吋硬盘架 / 2.5吋硬盤架Lüfterhalterung / Support de ventilateur / 
+Soporte del ventilador / Monteringsplåt för fläkt / 
+Кронштейн вентилятора / ファンブラケット / 
+风扇支架 / 風扇支架Chassis 1 2 4 3
+2x Aspect 14 Fan
+Top PanelSide Panels
+Front Filter
+2 x 3.5”/ 2.5” TraysAccess Panel
+Front Panel
+2.5” Tray Fan Bracket *Bottom Filter
+I/O Cover Plate5 6 8 7
+9 10 11 12
+Introduction
+Included in mesh version / Enthalten in Mesh Version / Inclus dans la version maillée / 
+Incluido en la versión de malla / Ingår i mesh-version / Входит в комплект поставки / 
+メッシュバージョンに付属 / 包含在网格版本中 / 網格版本有包含之部分*
+6 Introduction
+678911
+12 10
+5
+1 2
+3
+4
+7 IntroductionAll-in-one  Water  Cooling  Build
+All-in-One-Wasserkühlung / Montage de watercooling tout-en-un / Sistema de refrigeración por agua todo en uno / Sluten vattenkylning / 
+Замкнутая система охлаждения «три в одном» / 簡易水冷クーラー構成例 /  一体式液冷配置 / 一體式水冷配置North  – TG
+2.5” Drives: 2 Top Fans: 2 x 140 mm
+3.5” Drives: 2
+  Front Radiator: 360 x 120 mm  
+GPU Length: 267 mm (up to 325 mm possible) 
+8 IntroductionAir Cooling  Tower  Build
+Luftkühlung / Montage de refroidissement par air / Sistema de refrigeración por aire / Luftkylningsbygge / Сборка воздушного охлаждения / 
+標準空冷クーラー構成例 / 风冷散热配置 / 風冷散熱配置North  – M esh
+2.5” Drives: 2 Front Fans: 2 x 140 mm
+3.5” Drives: 2 Top Fans: 2 x 140 mm
+  Side Fans: 2 x 140 mm 
+GPU Length: 267 mm (up to 355 mm possible) Rear Fan: 1 x 120 mm
+GPU width: 148 mm (including connectors)
+CPU Cooler Height: 159 mm (up to 170 mm possible) 
+9Accessory  Box Contents
+Zubehörbox - Inhalt / Contenu de la boîte d’accessoires / Contenido de la caja de accesorios / Innehåll i tillbehörsbox / Комплектация коробки с аксессуарами / アクセサリ ボックスの内容 / 
+配件包内容 / 配件包內容
+Introduction
+x8
+x8x4
+x8
+x4Mounting Screw (6-32) / Montageschraube (6-32) / Vis de montage (6-32) / 
+Tornillo de montaje (6-32) / Monteringsskruv (6-32) / 
+Винт крепления (6-32) / 取り付け用ねじ (6-32) / 
+安装螺钉 (6-32) / 安裝螺絲 (6-32)
+3.5” Drive Screw / 3,5-Zoll-Laufwerk-Schraube / Vis du disque dur 3.5 / 
+Tornillo para la unidad 3,5” / Skruv för 3,5″ enhet / Винты для привода 
+или диска 3,5″ / 3.5 インチ ドライブ用ネジ / 
+3.5″ 硬碟螺杆 / 3.5″ 硬碟螺桿Motherboard Standoff / Motherboard Abstandshalter / 
+Entretoise de la carte-mère / Separadores para la placa base / 
+Moderkortsdistans / Поддон для материнской платы / 
+マザーボード スタンドオフ / 主板铜柱 / 主機板螺柱Cable Tie / Kabelbinder / Serre-câbles / Sujetacables / Buntband / 
+Кабельная стяжка / ケーブルタイ / 束线带 / 束線帶
+Power Supply Screw / Netzteilschraube / Vis de l’alimentation / Tornillos 
+para la fuente de alimentación / Nätaggregatskruv / Винты для установки 
+блока питания / 電源装置用ネジ / 电源用螺丝 / 電源供應器用螺絲Hard Drive Damper / Laufwerksdämpfer / Amortisseur pour disque 
+dur / Amortiguador de unidad de disco duro / Hårddiskdämpare / 
+Виброизолятор накопителя  / ハードドライブ用ダンパー / 
+硬盘驱动器阻尼器 / 硬碟吸震器
+x16
+x1Mounting Screw (M3) / Montageschraube (M3) / Vis de montage (M3) / 
+Tornillo de montaje (M3) / Monteringsskruv (M3) / Винт крепления (M3) / 
+取り付け用ねじ (M3) / 安装螺钉 (M3) / 安裝螺絲 (M3)
+Builder’s  Guide
+Montageanleitung  /  Guide de montage  /  Guía de montaje  /  Monteringsguide  /  Руководство по сборке  /  
+ビルダー ガイド  /  安装指导  /  安裝指南Builder’s  Guide
+11
+ Builder’s  GuideRemove  Side Panels
+Ausbau Seitenbleche / Enlever les panneaux latéraux / Retire los paneles laterales / Montera av 
+sidopaneler / Снимите боковые панели / 側面パネルの取り外し / 拆下侧面板 / 拆除側面面板Install  the Power  Supply
+Installation Netzteil / Installer le bloc d’alimentation / Instale la fuente de alimentación / Installera 
+nätaggregatet / Установите блок питания / 電源装置の取り付け / 安装电源 / 安裝電源供應器
+4x PH2
+2
+31
+1.
+2.
+12
+ Builder’s  GuidePrepare  the Motherboard
+Vorbereitung Hauptplatine / Préparer la carte mère / Prepare la placa base / Förbered moder -
+kortet / Подготовьте материнскую плату / マザーボードの準備 / 准备主板 / 準備主機板Install  the I/O Shield
+Installieren Sie die I/O Schild  /  installer le plaque d’E/S  /  Instale la protección de E/S  /  Installera 
+I/O-plåten  /  Установите ввода / вывода пластину  /  I/O シールドの取り付け  /  
+安装I/O 挡板  /  安裝 I/O 擋板
+Included with motherboard / Im Lieferumfang des Motherboards enthalten / Fourni avec carte mère / 
+Incluido con la placa base / Inkluderad med moderkort / Включено с состав материнской платы / 
+マザーボードに同梱  / 随附于主板 / 隨附於主機板
+13Installation Hauptplatinenzubehör  /  Installer l’ensemble carte mère  /  Instale la placa base  /  Installera moderkortet  /  Установите сборку материнской платы  /  
+マザーボード アセンブリの取り付け  /  安装主板组件  /  安裝主機板組件Install  the Motherboard  Assembly
+Builder’s  Guide8x
+PH2
+!
+IMPORTANT: Match the motherboard mounting holes to the stand-offs / ACHTUNG: Achten Sie darauf, dass die Schraublöcher des Motherboards mit den Abstandshaltern übereinstimmen / IMPORTANT : Faites correspondre les trous de mon -
+tage de la carte mère aux entretoises / IMPORTANTE: Haga coincidir los orificios de montaje de la placa base con los separadores / VIKTIGT: Anpassa distanser efter moderkortets monteringshål / ВАЖНО: Совместите монтажные отверстия 
+материнской платы со стойками / 重要：マザーボードの取付穴とスタンドオフが一致することを確認してください / 重要：需要找到与主板安装孔相匹配的螺柱 / 重要：須找到跟主機板安裝孔相匹配的螺柱M-ATX:  A M5 mm
+3/16 in
+14 Builder’s  GuideConnect  Cables  for Front  I/O
+Anschlusskabel für Front-E/A  / Connecter les câbles aux E/S frontales  / Conecte los cables para E/S frontal / Koppla in kablar till fronten / Подсоедините кабели передних устройств ввода-вывода  / 
+前面 I/O 用の接続ケーブル / 为I/O 前面板连接电线 / 正面 I/O 的連接線 
+HD Audio USB 3.0 USB 3.1
+Gen 2Power  SW
+Power  LED
+15 Builder’s  Guide
+Installation Grafikkarte / Installer la carte graphique / Instale la tarjeta gráfica / Installera grafikkortet / Установите графическую плату / グラフィック カードの取り付け / 安装显卡 / 安裝顯示卡
+PH2Install  the Graphics  Card
+16 Builder’s  GuideRemove  Drive Trays
+Ausbau der Laufwerkträger / Retirez les plateaux de lecteur / Retire las bandejas de unidades /
+Avlägsna fästplattor för hårddiskar / Снять лотки дисков / ドライブトレイを取り外します /
+移除硬盘托盘 / 移除硬碟支架
+!
+17 Builder’s  Guide
+Install  a 2.5” Drive
+Installation 2,5-Zoll-Laufwerk / Installer un disque dur de 2,5” / Instale una unidad de 2,5” / Installera en 2.5” disk / Установите накопитель 2,5” / 
+2.5インチドライブの取り付け / 安装2.5英寸驱动器 / 安裝一個2.5英吋磁碟機
+PH24-8x
+18 Builder’s  Guide
+Installing  a 2.5” and/or 3.5” Drive
+Installation von 2,5‘‘- oder 3,5‘‘-Laufwerken / Installation d’un lecteur de 2,5 ou 3,5 pouces / Instalación de una unidad de 2.5” o 3.5” / Installera en 2.5” eller 3.5” Hårddisk / 
+Установка 2.5” или 3.5” жесткого диска / 2.5インチまたは3.5インチドライブのインストール / 安装2.5”或3.5” 硬盘 / 安裝 2.5” 或 3.5” 硬碟
+4xPH2 PH24x 4x
+19
+ Builder’s  GuideConnect  the Fans
+Lüfteranschlüsse / Branchement des ventilateurs / Conexión de los ventiladores / 
+Anslut fläktar / Подключите вентиляторы / ファンを接続する / 连接风扇 / 連接風扇
+2. 1.
+Optional  Steps
+Optionale Schritte  /  Étapes facultatives  /  Pasos opcionales  /  Frivilliga moment  /  Возможные апгрейды  /  
+任意の手順  /  可选步骤  /  選項步驟Optional  Steps
+21 Optional  StepsRemove  the Front  Panel
+Frontblech abnehmen / Retirez le panneau frontal / Retire el panel frontal / Ta bort frontpanelen / Удалить переднюю панель / フロントパネルを取り外します / 卸下前面板 / 卸下前面板
+22
+Optional  StepsRemove  the Top Panels
+Entfernen des Top Panels / Retirer les panneaux supérieurs / Retire los paneles superiores / Ta bort toppaneler / Снимите верхние панели / トップパネルを取り外す / 拆下顶板 / 移除頂部面板
+2
+1
+23Optional  StepsRemove  the Access  Panel
+21
+Entfernen des Access Panels / Retirer le panneau d’accès / Retire el panel de acceso / Ta bort täckpanel / Снимите панель доступа / アクセスパネルを取り外す / 拆下接入面板 / 移除進出面板
+24
+Optional  Steps
+Included in mesh version / Enthalten in Mesh Version / Inclus dans la version maillée / 
+Incluido en la versión de malla / Ingår i mesh-version / Входит в комплект поставки / 
+メッシュバージョンに付属 / 包含在网格版本中 / 網格版本有包含之部分*Alternative  Placement  of PWM  Fan Hub *
+Alternative Positionierung des PWM Lüfter Hubs / Emplacement alternatif du moyeu du ventilateur PWM / Colocación alternativa del cono del ventilador PWM / Alternativ placering av PWM-fläkthub / 
+Альтернативное размещение концентратора ШИМ вентилятора / PWMファンハブの代替配置 / PWM风扇毂的替代安装 / PWM 風扇輪轂的另一種安裝方式
+25Optional  StepsAlternative  Placement  of 3.5” Drive Trays
+Alternative Anordnung von 3,5“-Laufwerkseinschüben / Emplacement alternatif pour les plateaux de disques durs de 3,5” / Ubicación alternativa de las bandejas de unidades de 3,5” / 
+Alternativ placering av 3,5” fästplatta / Альтернативное размещение лотков для 3,5” дисков / 3.5”ドライブトレイの代替配置 / 可选择安装3.5英寸硬盘 / 3.5 吋磁碟架替代放置
+26Optional  Steps  
+Max PSU length – 155 mm Distance – 181 mm
+Distance – 167 mm
+Distance – 205 mm
+Distance – 243 mm
+Distance – 281 mm 
+Max PSU length – 140 mm
+ 
+Max PSU length – 180 mm
+ 
+Max PSU length – 215 mm
+ 
+Max PSU length – 255 mmABCAAE
+B C D
+DE
+ PSU 3.5 + Front
+ Length 2.5  Radiator
+A+D 140 ✕ 280
+A+E 155 ✕ 280
+A 255 ✕ 280
+B+E 155 ✓ 360
+B 215 ✓ 360
+C+E 155 ✓ 360
+C 180 ✓ 360
+D+E 140 ✓ 360
+D 140 ✓ 360
+E 155 ✓ 360
+27
+Optional  Steps
+Installing  a Rear 120 Fan Installing  a Rear 80 Fan
+Installation eines 120 mm Lüfters am Heck / Installation d’un ventilateur arrière de 120 mm / 
+Instalación de un ventilador trasero de 120 mm / Installera en bakre 120 mm fläkt / Установка заднего 
+120-мм вентилятора / 背面の120ファンの設置 / 安装后置120 mm风扇 / 安裝後方 120mm 風扇Installation eines 80 mm Lüfters am Heck / Installation d’un ventilateur arrière de 80 mm / 
+Instalación de un ventilador trasero de 80 mm / Installera en bakre 80 mm fläkt / Установка заднего 
+80-мм вентилятора / 背面の80ファンの設置 / 安装后置80 mm风扇 / 安裝後方 80mm 風扇
+28Optional  StepsPosition 1 – High Position 2 – Mid Position 3 – Low
+CPU cooler height   145 mm
+GPU width including connectors  178 mmCPU cooler height   145 mm
+GPU width including connectors slot 1-3 148 mm
+  slot 4-7 178 mmCPU cooler height   170 mm
+GPU width including connectors  148 mm
+Included in mesh version / Enthalten in Mesh Version / Inclus dans la version maillée / 
+Incluido en la versión de malla / Ingår i mesh-version / Входит в комплект поставки / 
+メッシュバージョンに付属 / 包含在网格版本中 / 網格版本有包含之部分*Install  Accessory  Fan Bracket  *
+Installation der zusätzlichen Lüfterhalterung / Installer le support du ventilateur auxiliaire / Instale el soporte del ventilador accesorio / Installera valfri monteringsplåt för fläkt / 
+Установка кронштейна дополнительного вентилятора / アクセサリーファンブラケットを設置する / 安装额外风扇支架 / 安裝附加風扇支架
+29
+Additional  Info
+Weitere Informationen  /  Informations supplémentaires  /  Información adicional  /  Övrig information  /  
+Дополнительная информация  /  追加情報  /  附加信息  /  其他資訊Additional  Info
+31
+Possible  Fan Locations
+Mögliche Lüfteranordnung / Emplacements possibles des ventilateurs / Posibles ubicaciones de los ventiladores / Möjliga fläktpositioner / Места для установки вентиляторов / ファンを設置できる場所 / 
+支援风扇的位置 / 支援風扇的位置
+Additional  Info120 mm 140 mm
+*NOTE: Fan bracket included only with mesh side panel! 
+32Additional  InfoCPU Cooler  Limitations
+CPU-Kühlung Grenzwerte / Limitations du refroidissement du processeur / Limitaciones del refrigerador de la CPU / Restriktioner för CPU-kylare / Ограничения для кулеров ЦП / 
+CPU クーラーの制限事項 / CPU冷却器的局限性 / CPU 散熱器限制
+170 mm max
+33Additional  InfoWater  Cooling  Radiator Options
+Optionen für Wasserkühlungen / Options de radiateurs de refroidissement par eau / Opciones de radiadores de refrigeración líquida / Vattenkylningsmöjligheter / 
+Установка радиатора водяного охлаждения / 水冷却ラジエーター オプション / 水冷却器选项 / 水冷散熱器選項
+280
+240240
+140
+120120120 151 mm max
+122 mm max35 mm max
+360
+Radiator width up to 125 mm  up to 151 mm
+Radiator thickness max 55 mm  max 35 mm 
+ 
+34Additional  InfoFront  360 Radiator Limitation
+Radiator
+End tank
+30 mm maxRadiator orientation 
+   Tubes up (AIO)
+  Tubes downEnd tank
+up to 30  mm
+End tank
+over 30  mm
+35Additional  InfoGraphics  Card Limitations
+Grafikkarte Grenzwert / Limitations de carte graphique / Limitaciones de la tarjeta gráfica / Restriktioner för grafikkort / Ограничения для графических плат / 
+グラフィック カードの制限事項 / 显卡的局限性 / 顯示卡的限制
+355 mm
+36Additional  InfoDust Maintenance
+Staubschutz / Dépoussiérage / Limpieza del polvo y mantenimiento / Underhåll av dammfilter / 
+Защита от пыли / 防塵メンテナンス / 防尘保养 / 防塵保養
+37Aspect  14 PWM
+Type of Fan:    4-pin DC
+Rated Voltage:    12V DC
+Maximum Rated Input Current:  0.24 A
+Max Speed:    1700 RPMFan Specification
+Technische Daten / Spécifications  / Especificaciones / Specifikationer / Технические характеристики / 仕様 / 规范 / 規格
+125
+Additional  Info
+Support  and Service
+Support und Kundendienst  /  Assistance technique et maintenance  /  Soporte y servicio técnico  /  Support och 
+service  /  Поддержка и обслуживание  /  サポートとサービス  /  支持与服务  /  支援和服務Support
+39SupportFor Assistance,  Please  Contact
+Unterstützung erhalten Sie hier: / Pour l’assistance technique, veuillez contacter / Para obtener ayuda, por favor contacte / För assistans, var god kontakta / 
+Если необходима помощь, пожалуйста, свяжитесь с нами / サポートが必要な場合は、お問い合わせください / 如需帮助，敬请联系 / 如需協助，敬請聯絡
+New Tab
+support .frac tal-design.com
+Submit a ticket
+Requester Email
+Type
+Where are you from?
+Produc t Categor y
+Subjec t
+Description of 
+ProblemB A IUSuppor t : Fr actal Design Suppor t
+https://suppor t.frac tal-design.com/suppor t/home
+New support ticket
+Checl ticket status Enter your search term here ...How can we help you today?
+SEARCH1
+2
+3STEP 1: Go to “support.fractal-design.com”
+STEP 2: Click on “New support ticket”
+STEP 3: Fill in ticket request and submit 
+40SupportGarantía limitada y limitación de responsabilidad
+Este producto es garantizadas durante veinticuatro (24) meses a partir de la fecha de entrega 
+al usuario final contra defectos materiales y/o de mano de obra. Dentro de este período de 
+garantía limitada, los productos se repararán o reemplazarán, lo que Fractal Design estime más 
+oportuno. Las reclamaciones de garantía se deben devolver al agente que vendió el producto, 
+con portes pagados.
+La garantía no cubre:
+• Productos que hayan sido utilizados para alquiler, que se hayan utilizado indebidamente, 
+que se hayan manipulado sin cuidado o que se hayan aplicado de una forma que no 
+esté contemplada en el uso indicado.
+• Productos dañados por la fuerza de la naturaleza como por ejemplo, sin limitación, 
+tormentas, incendios, inundaciones y terremotos.
+• Productos cuyo número de serie haya sido alterado o eliminado
+• Productos que no se han instalado de acuerdo con las instrucciones proporcionadas en 
+el manual del usuario
+La responsabilidad máxima de Fractal Design se limita al valor de mercado actual del producto 
+(valor depreciado, excluyendo los gastos de envío y de gestión, y otros gastos). Fractal Design 
+no será responsable de ningún daño o pérdida, incluyendo sin limitación la pérdida de benefi -
+cios, ingresos o datos, así como daños incidentales o derivativos, aunque Fractal Design haya 
+sido advertido de la posibilidad de dichos daños. Limited Warranty and Limitations of Liability
+This product is guaranteed for twenty four (24) months from the date of delivery to end-user, 
+against defects in materials and/or workmanship. Within this limited warranty period, the product 
+will either be repaired or replaced at Fractal Design’s discretion. Warranty claims must be 
+returned to the agent who sold the product, shipping prepaid.
+The warranty does not cover:
+• Products which have been used for rental purposes, misused, handled carelessly or ap -
+plied in such a way that is not in accordance with its stated intended use.
+• Products damaged from an Act of Nature including, but not limited to, lightning, fire, flood 
+and earthquake.
+• Products whose serial number have been tampered with or removed
+• Products which have not been installed in accordance to the user manual
+Fractal Design’s maximum liability is limited to the current market value of the product (depreci -
+ated value, excluding shipping, handling, and other fees). Fractal Design shall not be liable 
+for any other damage or loss, including but not limited to loss of profit, revenue, or data, or 
+incidental or consequential damage, even if Fractal Design has been advised of the possibility 
+of such damages.
+Eingeschränkte Garantie und Garantieeinschränkungen
+Bei dieses Produkt gewähren wir dem Endanwender eine Garantie von zwei Jahren ab Liefer -
+datum, die sich auf Material- und Verarbeitungsfehler erstreckt. Innerhalb der eingeschränkten 
+Garantiezeit werden Produkte nach Fractal Designs Ermessen repariert oder ausgetauscht. 
+Garantieansprüche müssen beim jeweiligen Händler geltend gemacht werden; Versandkosten 
+übernimmt der Käufer.
+Nicht von der Garantie abgedeckt werden:
+• Produkte, die falsch oder fahrlässig behandelt, entgegen ihres bestimmungsgemäßen 
+Einsatzzweckes oder zum Verleih eingesetzt wurden.
+• Produkte, die durch höhere Gewalt beschädigt wurden; dazu zählen unter anderem 
+Blitzschläge, Brände, Überschwemmungen und Erdbeben.
+• Produkte, deren Seriennummer modifiziert oder enfernt wurde
+• Von der Bedienungsableitung abweichend installierte Produkte
+Die Höchsthaftungssumme von Fractal Design ist auf den aktuellen Marktwert des Produk -
+tes begrenzt (Abschreibungswert, exklusive Versand-, Transport- und anderen Gebühren). 
+Fractal Design übernimmt keine Haftung für Schäden oder Verluste, insbesondere entgangene 
+Gewinne, Erträge oder Daten oder zufällige und Folgeschäden, auch nicht, wenn Fractal Design 
+auf die Möglichkeit solcher Schäden hingewiesen wurde.Garantie limitée et limites de responsabilité
+Ce produit est garantis pendant vingt quatre (24) mois, à compter de la date de livraison à 
+l’utilisateur final, contre les défauts de matériaux et/ou de fabrication. Dans cette période de 
+garantie limitée, les produits seront soit réparés ou remplacés, au choix de Fractal Design. 
+Les réclamations de garantie doivent être faites auprès de l’agent qui a vendu le produit, frais 
+prépayés.
+La garantie ne couvre pas ce qui suit :
+• Les produits qui ont été loués, utilisés incorrectement, utilisés avec négligence ou utilisés 
+d’une manière qui n’est pas en conformité avec l’usage prévu indiqué.
+• Les produits qui ont été endommagés par des causes naturelles, y compris mais sans s’y 
+limiter, la foudre, les incendies, les inondations et les tremblements de terre.
+• Produits dont le numéro de série a été altéré ou enlevé 
+• Produits installés de manière non conforme au mode d’emploi
+Le plafond de responsabilité de Fractal Design se limite à la valeur de marché actuelle du 
+produit (valeur dépréciée, ne comprenant ni les frais d’expédition, ni ceux de manutention ni 
+d’autres frais). Fractal Design ne se portera responsable d’aucun autre dommage ou perte, y 
+compris mais pas seulement tout manque à gagner, toute perte de revenus ou de données, ou 
+des dommages accessoires ou indirects, même si Fractal Design a été prévenu de la possibilité 
+de ces dommages.
+41限定保証と責任制限
+コンピュータケースは、素材および/または製造における欠陥に対して、最終消費者の元に届
+いた日付から24ヶ月間保証されています。この限定保証期間内に、製品はFractal Designの裁
+量で修理されるか、交換されます。保証請求は製品を販売した代理店に元払いで返却する必要
+があります。
+以下の場合は保証は適用されません。
+• 製品が賃貸の目的のために使われた、誤用された、不注意に扱われた、または明記された用途以外
+で利用された場合
+• 製品が稲妻、火災、洪水、および地震を含むがこれらに限定されない天災により損傷した場合
+• シリアル番号を改ざんまたは除去された製品。
+• ユーザー マニュアルに従って取り付けられていない製品
+Fractal Design の最大限の責任は、製品の現在の市場価値に制限されます (配送、取り扱い、その他の料金
+を除く減価)。Fractal Design は、損傷の可能性について通知を受けた場合でも、利益、収益、またはデータ
+の損失、偶然または必然の損傷を含む、その他のいかなる損傷や紛失に対して責任を負いません。
+有限质保及责任范围
+产品保修期为终端用户交付之日起的二十四个月。若在正常使用时若出现任何非人为产生的损坏(
+针对的是材料和/或工艺上的缺陷)，经Fractal Design鉴定为产品本身的问题后，在此保修期内，
+由Fractal Design决定对此产品进行维修或是更换。保修申请请提交给销售产品的代理商处，运
+费预付。
+• 产品用于出租用途，使用不当，处理不当或未按照既定的用途。
+• 产品因自然灾害损坏，包括但不限于雷击，火灾，洪水和地震。
+• 序列号已被篡改或删除的产品。
+• 产品未按照使用说明书安装
+          
+Fractal Design的责任仅限于产品当前的市场价值（折旧价值，不包括运费、安装费和其它费用）
+。Fractal Design对于任何其它损坏或损失不承担任何责任，包括但不限于利润、收入或数据损
+失，意外或间接的损坏，即使Fractal Design已被告知可能会发生上述损坏的可能性。
+產品保固服務說明
+產品保修期為消費者購買日起的二十四個月。若正常使用時出現任何非人為而產生的損壞(針對的
+材料和/或工藝上的缺陷)，經Fractal Design鑒定為產品本身的問題後，在此保修期內，由Fractal 
+Design決定對此產品進行維修或是更換。您可以向購買之經銷商提出保固申請(需要預付運費，詳
+情請洽經銷商)。
+本保固不包含：
+• 以租賃為目的產品、人為損壞或未按記載之用途應用及處理不當的產品。
+• 因自然災害導致產品受損的情況，包括雷擊、火災、水災和地震等自然災害。
+• 序號已修改或是移除的產品。
+• 未依使用手冊安裝的產品
+Fractal Design 需負的最大責任僅限產品的市場售價（折舊價值，含運費、處理費與其他費用）。 
+Fractal Design 不需對其他損壞或損失負責，包括但不限於利潤、營收的損失或資料遺失、意外或
+後續損壞，即使 Fractal Design 已被告知這類可能損壞亦然。Begränsad garanti och ansvarsbegränsningar
+Denna produkt från Fractal Design täcks av en tjugofyra (24) månaders garanti från leveransen 
+till första slutanvändaren, mot defekter i material och/eller tillverkning. Under denna period 
+med begränsad garanti kommer produkterna att antingen repareras eller bytas enligt Fractal 
+Designs gottfinnande. Garantianspråk måste returneras till ombudet som sålde produkten, med 
+försändelsen förskottsbetald.
+Garantin täcker inte:
+• Produkter som har använts för uthyrning, felanvänts, hanterats vårdslöst eller använts 
+på ett sådant sätt att det inte är i överensstämmelse med den angivna avsedda använ -
+dningen.
+• Produkter som skadats genom naturfenomen inklusive, men inte begränsat till, åskväder, 
+brand, översvämning och jordbävning.
+• Produkter vars serienummer har manipulerats eller tagits bort.
+• Produkter som inte installerats i enlighet med instruktionsmanualen
+Fractal Design maximala ansvar är begränsat till det aktuella marknadsvärdet av produkten 
+(nedskrivet värde, exklusive frakt, hantering och andra avgifter). Fractal Design är inte ansvarigt 
+för någon annan skada eller förlust, inklusive men inte begränsat till utebliven vinst eller intäkt, 
+förlorad data, eller följdskador, även om Fractal Design har informerats om risken för sådana 
+skador.
+Ограниченная гарантия и ограничения ответственности
+На этом продукте предоставляется гарантия отсутствия дефектов материалов и 
+производственного брака сроком двадцать четыре (24) месяца со дня доставки конечному 
+пользователю. В течение этого срока ограниченной гарантии компания Fractal Design 
+по собственному усмотрению осуществляет ремонт или замену неисправных изделий. 
+Изделия по гарантийным рекламациям необходимо вернуть первоначальному продавцу с 
+предоплатой доставки.
+Изделия, на которые не распространяется действие гарантии:
+• изделия, сдававшиеся в аренду, использовавшиеся с несоблюдением правил 
+эксплуатации, небрежно или не по прямому назначению;
+• изделия, поврежденные вследствие действия непреодолимой силы, в том числе, не 
+исключая прочего, молнии, пожара, наводнения или земл етрясения;
+• Продукты с повреждёнными или удалёнными серийными номерами 
+• Продукты, которые не были установлены в соответствии с инструкциями 
+Максимальная ответственность Fractal Design ограничивается к текущей рыночной 
+стоимости продукта (остаточная стоимости, за исключением доставки, обработки, и 
+другие сборы). Fractal Design не несет ответственности за любой другой ущерб или 
+убытки, включая, но не ограничиваясь, потерю прибыли, доходов, или данных, или 
+случайный или косвенный ущерб, даже если Fractal Design была предупреждена о 
+возможности таких убытков.
+Support
+
+© Fractal Design, All rights reserved.  
+Fractal Design, the Fractal Design logotypes, product names and other
+specific elements are trademarks of Fractal Design, registered in Sweden.
+Other product and company names mentioned herein may be trademarks
+of their respective companies. Contents and specifications as described or
+illustrated are subject to change without notice.
+Fractal Gaming AB,
+Victor Hasselblads Gata 16A,  
+S–421 31, Västra Frölunda, Sweden
+Designed in Sweden
+fractal-design.comRepresented by:
+Authorised Rep Compliance Ltd.
+ARC House
+Thurnham
+Lancaster
+LA2 0DT
+UK

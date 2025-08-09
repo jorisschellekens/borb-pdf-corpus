@@ -1,0 +1,1484 @@
+USER’S MANUAL
+AIR-CONDITIONER
+RKW012A412DSRK63ZM-S
+SRK71ZM-SSRK80ZM-S
+AIR-CONDITIONING & REFRIGERATION DIVISION
+3-1, Asahi, Nishibiwajima-cho, Kiyosu, Aichi, 452-8561, Japan
+http://www.mhi.co.jp
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.
+7 Roundwood Avenue, Stockley Park, Uxbridge, Middlesex, UB11 1AX, United Kingdom
+Tel: +44-20-7025-2750
+Fax: +44-20-7025-2751
+http://www.mhiae.com
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONERS AUSTRALIA, PTY. LTD.
+9C Commercial Road Kingsgrove NSW 2208     PO BOX 318 Kingsgrove NSW 1480Tel: +61-2-8571-7977
+Fax: +61-2-8571-7992
+http://www.mhiaa.com.auORIGINAL INSTRUCTIONS
+MANUEL DE L ’UTILISATEUR
+CLIMATISEUR
+ANWENDERHANDBUCH
+KLIMAGERA ¨T
+ISTRUZIONI PER L ’USO
+CONDIZIONATORE D’ARIA
+MANUAL DEL PROPIETARIO
+ACONDICIONADOR DE AIRE
+GEBRUIKERSHANDLEIDING
+AIRCONDITIONING
+MANUAL DO UTILIZADOR
+APARELHO DE AR CONDICIONADO
+РУКОВОДСТВО ПО ЭКСПЛУАТАЦИИ
+КОНДИЦИОНЕР ВОЗДУХА
+KULLANIM KILAVUZU
+ENGLISH
+DEUTSCH
+ITALIANO
+ESPAN ˜OL
+NEDERLANDS
+PORTUGUÊS
+РУССКИЙ
+TÜRKÇEFRANÇAIS
+ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ
+ΚΛΙΜΑΤΙΣΤΙΚΟΕΛΛΗΝΙΚΑ
+This air conditioner complies with EMC  Directive 2004/108/EC,
+LV Directive 2006/95/EC.
+Ce climatiseur est conforme à la Directive EMC : 2004/108/EC, LV
+Directive 2006/95/EC.
+Dieses Kimagerät erfüllt die EMC  Direktiven 2004/108/EC, LV
+Direktiven 2006/95/EC.
+Questo condizionatore d’aria è conforme alla Direttiva EMC : 2004/
+108/EC, LV Direttiva 2006/95/EC.Deze airconditioner voldoet aan EMC  Directive 2004/108/EC, LV
+Directive 2006/95/EC.Este acondicionador de aire cumple con la directiva EMC : 2004/
+108/EC, LV Directiva 2006/95/EC.
+Este aparelho de ar condicionado está em conformidade com a
+Directiva EMC  2004/108/EC e a Directiva LV 2006/95/EC.
+∞˘Ùﬁ ÙÔ ÎÏÈÌ·ÙÈÛÙÈÎﬁ Â›Ó·È Û‡ÌÊˆÓÔ ÌÂ ÙÈ˜ ÚÔ‰È·ÁÚ·Ê¤˜ ÙË˜
+√‰ËÁ›·˜ EMC  2004/108/EK  Î·È ÙË˜ √‰ËÁ›·˜ LV 2006/95/EK .
+RKW012A412D_Cover1,4 4/18/14, 11:00 1
+–1–Thank you for purchasing a MITSUBISHI HEAVY INDUSTRIES, LTD. Air-Conditioner. To
+get the best long-lasting performance, please read and follow this User’s Manual carefully
+before using your air-conditioner. After reading, please store the Manual in a safe placeand refer to it for operational questions or in the event of any irregularities.
+This air-conditioner is intended for domestic use.
+Do not vent R410A into the atmosphere: R410A is a fluorinated greenhouse gas,
+covered by the Kyoto Protocol with a Global Warming Potential (GWP) = 1975.
+contentsENGLISH
+Your Air Conditioning product may be marked with this symbol. It means
+that waste electrical and electronic equipment (WEEE as in directive 2012/
+19/EU) should not be mixed with general household waste. Air conditionersshould be treated at an authorized treatment facility for re-use, recycling
+and recovery and not be disposed of in the municipal waste stream. Please
+contact the installer or local authority for more information.
+This symbol printed in the batteries attached to your Air Conditioningproduct is information for end-users according to the EU directive 2013/56/
+EU article 20 annex II.
+Batteries, at their end-of-life, should be disposed of separately from general
+household waste. If a chemical symbol is printed beneath the symbol
+shown above, this chemical symbol means that the batteries contain a
+heavy metal at a certain concentration. This will be indicated as follows:Hg:mercury(0.0005%) , Cd:cadmium(0.002%) , Pb:lead(0.004%)Please, dispose of batteries correctly at your local community wastecollection or the recycling center.
+Safety precautions ........................................ 2
+Name of each part and its function ............... 6
+Remote control handling ............................... 8
+Operation failure with the remote control ...... 8
+Temporary run operation .............................. 8
+Installing two air conditioners in the same
+room .............................................................. 9
+Child Lock ..................................................... 9
+Operation and display section for
+remote control ............................................. 10
+Current time setting ..................................... 11
+AUTO mode operation ................................ 11
+Temperature adjustment during AUTO....... 12
+FAN SPEED ................................................ 12
+COOL/HEAT/DRY/FAN mode operation .... 13Air-conditioner operable
+temperature setting ..................................... 13
+Characteristics of HEAT mode operation ... 13
+Airflow direction adjustment ........................ 14
+3D AUTO operation .................................... 14
+SLEEP TIMER operation ............................ 15The emission sound pressure level from each Indoor and Outdoor unit is under 70 dB(A).
+OFF-TIMER operation ................................ 15
+ON-TIMER operation .................................. 16
+SLEEP TIMER + ON-TIMER operation ...... 16ON-TIMER + OFF-TIMER operation .......... 17
+ALLERGEN CLEAR operation .................... 17
+WEEKLY TIMER operation ......................... 18
+HIGH POWER/ECONOMY operation......... 22
+NIGHT SETBACK operation ....................... 23
+SILENT operation ....................................... 23
+SELF CLEAN operation .............................. 24
+Auto restart function .................................... 24
+Tips for effective operation ......................... 24
+Installation location setting .......................... 25
+Maintenance ............................................... 26
+Proper installation ....................................... 28
+Troubleshooting .......................................... 28
+Notice .......................................................... 29
+Contact your dealer ..................................... 30
+About the Multiple Air-conditioner ............... 30
+Self diagnosis function ................................ 31
+RKW012A412D_EN_001-032 7/22/14, 10:20 1
+–2–Safety precautions
+•Before starting to use the system, please read these “Safety precautions” carefully to ensure
+proper operation of the system.
+•When you have read this instruction manual, please keep it without missing. If someone elsetakes over as operator, make certain that the manual is also passed on to the new operator.
+❚ INSTALLATION PRECAUTIONS
+•The system is for domestic, residential etc. use.
+If used in severer environments, such as an engineering workplace, the equipment
+may function poorly.WARNINGPlease observe these precautions with great care, since they are essential to your safety.
+•Symbols which appear frequently in the text have the following meaning:WARNING
+CAUTIONImproper handling could lead to drastic result like death, se-rious injury, etc.
+Might pose a serious problem, depending on the circum-
+stances.
+Strictly prohibitedProvide proper earth-
+ingObserve instructions
+with great care
+•The system must be installed by your dealer or a qualified professional.
+It is not advisable to install the system by yourself, as faulty handling may cause leak-
+age of water, electric shock or fire.
+•Do not install it where flammable gas may leak.
+Gas leaks may cause fire.
+•Depending on the place of installa-
+tion, an earth leakage breaker may benecessary.
+If you do not install an earth leakage
+breaker, you may get an electric shock.•Make sure to install the drain hoseproperly so that all the water isdrained out.
+Improper installation may lead to water
+drop in the room resulting in wet furni-ture.
+•Make sure that the system has been properly earthed.
+Earth cables should never be connected to a gas pipe, water pipe, lightning conductor
+or telephone earth cable. Incorrect installation of the earth cable may produce an elec-tric shock.CAUTION
+RKW012A412D_EN_001-032 4/15/14, 13:55 2
+–3–❚ OPERATION PRECAUTIONS
+WARNING
+CAUTION•Cleaning and user maintenance shall
+not be made by children without su-pervision.
+•Do not insert anything into the air in-let.
+This may cause injury, as the internal fan
+rotates at high speed.
+•This appliance can be used by children aged from 8 years and above and persons
+with reduced physical, sensory or mental capabilities or lack of experience and
+knowledge if they have been given supervision or instruction concerning use ofthe appliance in a safe way and understand the hazards involved.
+•Store the remote control out of reach of infants.
+Failure to observe this may result in the batteries being swallowed or other accidents.
+•Only use approved fuses.
+Use of steel or copper wire instead of an
+approved fuse is strictly prohibited, as itmay cause a breakdown or fire.
+•Do not handle the switches with wethands.
+This may cause an electric shock.
+•Do not swing from the indoor unit.If the indoor unit falls down,you may get
+injured.
+•Do not place a flammable insecticideor paint spray near the blower, norspray it directly on the system.
+This may result in a fire.
+•You should not expose any combus-
+tion appliance directly to the air
+stream of the air-conditioner.
+The appliance may then work inad-
+equately.
+•Do not wash the air-conditioner withwater.
+This could cause an electric shock.•Children shall not play with the appli-
+ance.
+•Do not expose yourself to the coolingair for a long period.
+This could affect your physical condition
+and cause health problems.❚ Safety precautions
+•The system should only be used for
+its original purpose and not for any-thing else like, for instance, preserva-tion of food, plants or animals, preci-sion devices or works of art.
+The system is only intended for use in
+ordinary domestic rooms. Any other useof the system may damage the qualityof food, etc.
+•Do not place anything containing wa-
+ter, like vases, on top of the unit.
+Water entering the unit could damage
+the insulation and therefore cause an
+electric shock.
+•Do not install the system where the
+airflow direction is aimed directly atplants or animals.
+This will damage their health.
+•Do not sit on the outdoor unit nor put
+anything on it.
+If the unit falls down or things drop off it,
+people could get hurt.
+•After a long period of use, check theunit's support structure from time totime.
+If you do not repair any damage right
+away, the unit may fall down and causepersonal injury.
+RKW012A412D_EN_001-032 4/15/14, 13:55 3
+–4–❚ Safety precautions
+CAUTION
+•Do not touch the aluminum fins on the
+air heat exchanger.
+It may result in injury.
+•Do not place household electrical
+appliances or household items underneath the indoor or outdoor units.
+Condensation falling from the unit may
+stain objects and cause accidents orelectrical shock.
+•Do not operate the system withoutthe air filter.
+It can cause malfunction of the system
+due to clogging of the heat exchanger.•Do not shut off the power supply im-mediately after stopping the opera-tion.
+Wait at least 5 minutes, otherwise there
+is a risk of water leakage or breakdown.
+•Do not control the system with mainpower switch.
+It can cause fire or water leakage. In
+addition, the fan can start unexpectedly,which can cause personal injury.
+•Do not pour liquid into this unit and donot put water container on this unit.
+Water entering the unit could damage
+the insulation and therefore cause anelectric shock.
+•If you operate the system togetherwith a combustion appliance, youmust regularly ventilate the indoorair.
+Insufficient ventilation may cause acci-
+dents due to oxygen deficiency.
+•Stand firmly on a stepladder or otherstable object when removing the inletpanel and filters.
+Failure to observe this may result in
+injury through insecure objects topplingover.
+•When you clean the system, stop theunit and turn off the power supply.
+Never open the panel while the internal
+fan is rotating.
+•Do not place objects near the out-door unit or allow leaves to gatheraround the unit.
+If there are objects or leaves around the
+outdoor unit, small animals may enterunit and contact electrical parts and
+may cause a break-down, smoke or fire.•Contact your dealer to clean inside
+the indoor unit, do not attempt to doby yourself.
+The use of a non-approved detergent or
+improper washing method may damagethe unit’s plastic components and cause
+leaks. Damage, smoke, or fire may also
+happen if the detergent comes in con-tact with electrical parts or the unit’smotor.
+•Stop the unit and turn off the power ifyou hear thunder or there is a dangerof lightning.
+It may damage the unit.
+•Do not let the foreign matters enter
+the indoor unit through the air out-lets.
+This may cause the dumper inoperable.
+•If the power cord becomes damaged,
+contact your dealer or a qualified en-gineer.
+If it is not replaced, it may cause a
+breakdown or fire.
+RKW012A412D_EN_001-032 4/15/14, 13:55 4
+–5–❚ PRECAUTIONS FOR RELOCATION OR REPAIRS
+WARNING
+•Do not perform any repairs or modifications by yourself. Consult the dealer if
+the unit requires repair.
+If you repair or modify the unit, it can cause water leaks, electric shocks or fire.
+•Consult your dealer for repairs.Wrong repairs could cause an electric
+shock, fire, etc.
+•In case the air-conditioner is relo-cated elsewhere, contact your dealeror a professional fitter.
+Faulty installation may cause water
+leakage, electric shock, fire, etc.
+•If you notice anything abnormal(smell of burning, etc.), stop thesystem, turn off the power supplyand consult your dealer.
+Continued use of the system in abnor-
+mal circumstances may result in mal-functioning, electric shock, fire, etc.•If the air-conditioner fails to cool orwarm the room, it may have a refrig-
+erant leakage. Contact your dealer.
+If refrigerant needs to be added,check with your dealer for properinstructions.
+If the refrigerant comes in contact with
+the bare skin, it may cause cold injury.If the refrigerant gas is inhaled exces-sively, it may cause deterioration of nervefunction like dizziness and headache, ordeterioration of heart function like irregu-lar heartbeat and heart palpitation tempo-rarily.  If refrigerant unexpectedly leaksfrom the unit onto a fan heater, stove,hotplate or other heat source, harmfulgases could be generated.❚ Safety precautions
+RKW012A412D_EN_001-032 4/15/14, 13:55 5
+–6–Name of each part and its function
+INDOOR UNIT
+OUTDOOR UNIT
+Air outletAir inlet
+(On side & rear surface)
+Outdoor unit fan
+Heat exchangerAir inlet panel
+Draws in the indoor air.                            Page 26
+Indoor unit fan
+Air filter
+Removes dust or dirt from the inlet air.    Page 26Wireless remote control
+Drain hose
+Drains water from the indoor unit.Left/right air flow direction adjustment louver
+  Page 14
+Up/down air flow direction adjustment flap
+  Page 14Air outlet
+Air blows out of here.Unit operation switchRoom temperature sensorAir-cleaning filter
+Refrigerant piping connection and electric wireUnit display section
+  Page 7
+Heat exchanger
+RKW012A412D_EN_001-032 4/15/14, 13:55 6
+–7–RUN TIMER ECONO
+ON/OFFHI  POWERUnit display section
+ECONO light (orange)
+Illuminates during ECONOMY operation.
+HI POWER light (green)
+Illuminates during HIGH POWER operation.
+Blinks during heating preparation.
+TIMER light (yellow)
+Illuminates during TIMER operation.This button can be used for turning on/off the unit when
+remote control is not available.   
+  Page 8Remote control signal receiver
+Unit ON/OFF buttonName of each part and its function
+RUN (HOT KEEP) light (green)
+•Illuminates during operation.
+•Blinks when airflow stops due to the ‘HOT
+KEEP’ , ‘CLEAN operation ’and ‘ operation
+mode invalid ’.
+                        Page 24
+•Buzzer sound for remote control
+When preset temperature 24°C, automatic operation and automatic airflow are selected, the buzzer sound (PiPi) is produced.
+When turning off the air conditioner by pressing ON/OFF button (except CLEAN mode), the buzzer sound (Pi) is produced.This function is useful for operating the air conditioner in the darkness.NOTE
+Preset temperature Air flow settingON
+OFF1.5 sec.
+0.5 sec.HOT KEEP
+3 sec.
+1 sec.ON
+OFFCLEAN operation
+Operation mode
+invalidON
+OFF0.5 sec.
+0.5 sec.
+    Page 30
+Wireless remote control Wireless remote
+control holderAllergen clear filter
+(Light orange)
+Photocatalytic washable
+deodorizing filter (Orange)Battery
+(R03 (AAA, Micro) ×2)
+Wood screw (Quantity:2)
+(for remote control holder mounting)Accessories1.5 sec.
+ON
+OFF
+0.5 sec.
+RKW012A412D_EN_001-032 4/15/14, 13:55 7
+–8–Remote control handling
+   Replacing the batteries
+The following cases signify exhausted batteries. Replace old batteries with new ones.
+•Receiving beep is not emitted when a signal is transmitted.
+•Display fades away.
+NOTE
+•Do not use old and new batteries together.
+•Remove the batteries when the remote control is not used for a long
+period.
+•The recommended effective period of a battery conforming to JIS or IEC
+should be 6 to 12 months with normal use. If used longer, or when anunspecified battery is used, liquid may leak from the battery, causing theremote control to malfunction.
+•The recommendable effective period is printed on the battery. This may be
+shorter due to manufacturering time to the unit. However, the battery maystill be in working order after expiry of its nominal life.Pull out the cover and take
+out old batteries.
+Insert new batteries. R03(AAA, Micro) x2
+Close the cover.■When the display shows any abnormal condition, Press the ACL switch with
+the tip of a ballpoint pen.1
+2
+3Pay attention to
+the ª and ·
+marks
+Press the ACL switch with
+the tip of a ballpoint pen.4Using the remote control holder
+The remote control can be attached to a wall or pillar
+by using a remote control holder. Before installing theremote control, check that the air-conditioner receives
+the signals properly.
+For installing or removing the remote control, move it
+up or down in the holder.
+•Are the batteries running down? 
+   “Replacing the batteries” above.
+Replace the batteries with new ones and retry
+the operation.Warning note for remote control handling
+Operation failure with the remote control
+•If the operation fails, operate the unit
+with temporary operation function.
+Contact your dealer to have the remote con-
+trol checked.   Below Strictly prohibited
+•Do not drop the remote control.
+Handle with care.•Do not go near high temperature
+places, such as an electric carpetor stove.
+•Do not place heavy objects on the
+remote control, or step on it.•Do not put any obstructing obsta-
+cles between the remote controland the unit.•Do not spill any liquid on the
+remote control.•Do not leave the remote control ex-
+posed to direct sunlight or otherstrong lighting.
+Temporary run operation
+•The unit ON/OFF button on the unit operates ON/OFF temporarily when the remote control is not used.
+Operation program
+•OPERATION MODE : AUTO
+•FAN SPEED : AUTO
+•AIR FLOW : AUTO
+•Operation starts by pressing the unit ON/OFF button; it stops if you press
+the button again.
+•Do not hold the Unit ON/OFF button down for more than 5 seconds.
+(Holding it down longer than 5 seconds sets the automatic cooling used during servicing or when relocating the air-conditioner. )NOTEUnit ON/OFF button   Page 11
+RKW012A412D_EN_001-032 4/15/14, 13:55 8
+–9–Installing two air conditioners in the same room
+■When two air conditioners are installed in the same room, use this setting when the two air conditioners are not operated with one
+remote control. Set the remote control and indoor unit.
+Pull out the cover and take out batter-
+ies.
+Disconnect the switching line next to
+the battery with wire cutters.1
+2
+Disconnect
+Insert batteries.
+Close the cover.3Setting the remote control
+Turn off the power supply, and turn it on after 1 minute.
+Point the remote control that was set according to the
+procedure described on the left side at the indoor unitand send a signal by pressing the ACL switch on theremote control.
+Check that the reception buzzer sound "pip" is emitted
+from the indoor unit.
+At completion of the setting, the indoor unit emits a buzzer sound
+"pip". (If no reception tone is emitted, start the setting from the be-ginning again.)1
+2
+3Setting an indoor unit
+Since the signal is sent in
+about 6 seconds after theACL switch is pressed,point the remote control
+at the indoor unit for
+some time.
+Child Lock
+■This function locks the remote control operation to prevent an operation error.
+1Point the remote control toward the air-conditioner, and
+Press the SET button for 3 seconds or longer.
+ is displayed.  While Child Lock is set, only the ON/OFF button can be
+operated.
+Releasing procedure
+Turn off the light  by pressing the SET button for 3 seconds or longer.
+•While Child Lock is set, the settings of temperature, fan speed and airflow
+direction cannot be changed. To change the settings, reset Child Lock.
+•Child lock will not function during ALLERGEN CLEAR operation.NOTEReception
+pip
+RKW012A412D_EN_001-032 4/15/14, 13:55 9
+–1 0–Transmission procedure
+When each button on the remote control is pressed – with the remote control pointing towards the air-conditioner unit, a signal  is transmitted.
+When the air-conditioner receives the signal correctly, it will beep.OPERATION MODE select button
+Each time the button is pressed, the
+mode changes.
+ Page 11,13
+•The above illustration shows all controls, but in
+practice only the relevant parts are shown.ALLERGEN CLEAR button
+This button selects ALLERGEN CLEAR
+operation.
+ Page 17ON/OFF (luminous) button
+Press to start operation, press again to
+stop.
+TEMPERATURE button
+This button sets the room temperature.
+AIR FLOW (UP/DOWN) button
+This button changes the air flow (up/
+down) direction.
+  Page 14
+TIME SET UP switch
+This switch is for setting the time.
+ Page 11SLEEP button
+This button selects SLEEP operation.
+ Page 15CLEAN switch
+This switch selects the CLEAN
+operation.
+  Page 24ON TIMER button
+This button selects ON TIMER operation.
+ Page 16
+TIMER button
+This buttions is used for setting the cur-
+rent time and timer function.
+ACL switch
+Switch for resetting microcomputer.
+ Page 8PROGRAM button
+This button sets WEEKLY TIMER.
+  Page 18Operation and display section for remote control
+Operation section
+HI/ECO button
+This button changes the HIGH POWER/
+ECONOMY operation.
+ Page 22
+AIR FLOW (LEFT/RIGHT) button
+This button changes the air flow (left/
+right) direction.
+ Page 14
+SILENT button
+This buttion changes the SILENT
+operation.
+ Page 23
+OFF TIMER button
+This button selects OFF TIMERoperation.
+ 
+ Page 15
+WEEKLY button
+This button switches the WEEKLY
+TIMER to ON/OFF.
+  Page 18FAN SPEED button
+Each time the button is pressed, the fan
+speed changes.
+  Page 12
+3D AUTO button
+This button sets 3D AUTO operation.
+  Page 14
+NIGHT SETBACK button
+This button sets NIGHT SETBACK
+operation.
+  Page 23
+SET/Child Lock button
+Use this button to set the timer and
+Child Lock.
+  Page 9
+CANCEL button
+This button cancels the ON timer, OFF
+timer, and SLEEP operation.Transmission section
+RKW012A412D_EN_001-032 4/15/14, 13:55 10
+–1 1–AUTO mode operation
+■Automatically selects the operation mode (COOL, HEAT, DRY) depending on the room temperature when switched on.
+•If you do not want the AUTO mode program, change
+to COOL, HEAT, DRY or FAN instead of AUTO.
+ Page 13
+•Airflow direction adjustment procedure.
+ Page 14AUTO mode can be
+operated by simply
+pressing the ON/
+OFF button.To stop: Press the ON/OFF button.When the unit is not in AUTO mode:
+Press MODE button.
+The mode changes whenever the button is pressed.
+Set to .
+Point the remote control toward the air-conditioner, and
+Press the ON/OFF button.1
+2
+NOTE
+Display in OFF status
+•The current time, day of the week,
+and present OPERATING MODEare displayed while the air condi-tioner is turned off.•In case air is not blowing out
+during the operation.
+ Page 29
+•When the included clean filter is
+installed the air conditioner will
+clean the air during automaticoperation.Current time setting
+■When inserting the batteries, the current time is automatically set to time setting mode. Mon and 13:00 are displayed as the cu rrent
+time. Set a correct day of the week and a time.
+NOTE2Example: Set to Sat 10:30.
+Press the TIME SET UP switch.
+Press with the tip of a ballpoint pen, etc.
+The day of the week display blinks, enabling the setting of a day of the
+week.
+Press the “  or  (TIMER)” button.
+(Set to Sat)
+Press the SET button.
+The day of the week display changes from blinking to steady lighting,
+completing the setting of a day of the week, and the time display blinks.
+Make sure to press the button within 60 seconds from the last operation in
+step 2, otherwise the day of the week is not set.
+Press the “  or  (TIMER)” button.
+(Set to 10:30)
+Press the SET button.
+The time display changes from blinking to steady lighting and the settingis complete.
+Make sure to press the button within 60 seconds from the last operation in
+step 4, otherwise the time is not set.
+•  The timer operation works based on the time clock, so please
+set it correctly.
+•  The remote control data is reset when the present time is set.1
+3
+4
+5
+•  When the battery of the remote control is replaced or the ACL
+switch is pressed, the remote control is set to the initial state.Since the WEEKLY TIMER program is not set in the initialstate, set the program according to the setting procedure.
+RKW012A412D_EN_001-032 4/15/14, 13:55 11
+–1 2–AUTO HI MED LO ULOTemperature adjustment during AUTO
+■Air temperature adjustment is possible even during automatic operation. There are 6 levels of adjustment possible with the  button or
+the  button.During automatic operation, 24°C is preset both for heating and cooling.
+1When a change in temperature is required.
+Press the“  or  (TEMP)” button.
+■Each time the  button is pressed, the switch over occurs in the following order
+–6 → –5 → ............ –1 → ±0 → +1 ............ +6.
+When +6 is indicated, even if the  button is pressed, the indicator does not
+change.
+■Each time the  button is pressed, the switch over occurs in the following order
++6 → +5 → ............ +1 → ±0 → –1 ............ –6.
+When –6 is indicated, even if the  button is pressed, the indicator does not change.When it is a little cold
+Press the  button.
+When it is a little hot
+Press the  button.
+FAN SPEED
+■You can choose the capacity of your air-conditioner when heating mode, cooling mode or fan mode.Remote Control display
+-6 -5 -4 -3 -2  -1 +0+ 1 + 2+ 3 + 4+ 5 + 6
+18 19 20 21 22  23 24 25 26 27 28 29 30Setting
+temp.(° C)
+Point the remote control toward the air-conditioner, and
+Press the FAN SPEED button.
+Each time the button is pressed, the fan speed changes.1
+•When FANSPEED is changed from HI to LO or ULO, the sound of re-
+frigerant flowing may be heard.NOTEOperation capacity by your choice FAN SPEED
+Set automatically by microcomputer AUTO
+Silent operation ULO
+Energy-saving operation LO
+Standard operation MED
+Powerful operation with high capacity HI
+RKW012A412D_EN_001-032 4/15/14, 13:55 12
+–1 3–COOL/HEAT/DRY/FAN mode operation
+Airflow direction adjustment procedure.  Page 14Point the remote control toward the air-conditioner, and
+Press the MODE select button.
+Set to a required mode.
+(Cool), (Heat), (Dry), (Fan)
+Press the ON/OFF button.
+Press the TEMP button.
+Press  or  button for the preferred temperature.
+Recommendation
+43
+To stop: Press the ON/OFF button. •In case air is not blown out, when starting the heating op-
+eration.
+•The operation mode can also be set or changed when the
+air-conditioner is not in operation.NOTE21
+Air-conditioner operable temperature setting
+■Use within the following operational range. Operating outside of this range may result in the protection devices being activate d,
+preventing the unit from working.
+Cooling operation Heating operation
+Outside temperature Approximately -15 to 46 °C Approximately -15 to 24 °C
+Inside temperature Approximately 18 to 32 °C Approximately 10 to 30 °C
+Below approximately 80%
+The long-term use of the unit with a humidity levelInside humidityexceeding 80% may result in condensation forming
+on the surface of the indoor unit, leading to
+water drips.
+Characteristics of HEAT mode operation
+   Mechanism and capacity of HEAT mode operation
+■Mechanism
+•The unit draws heat from the cold outside air, transfers it to indoors and heats the room. As a characteristic of heat pump sys tem, the
+heating capacity reduces when the outside air temperature gets colder.
+•It may take some time to supply hot air after turning on the air-conditioner.
+•If the outside temperature becomes extremely low, it would be better to use an additional source of heating.
+   Defrosting
+If the outside temperature becomes low and humidity is high, the heat exchanger in the outdoor unit may frost over, which preve nts
+efficient heating.
+If this happens, the automatic defrost function is activated and during defrosting the heating operation stops for 5 to 15 minu tes
+during defrosting.
+•Both indoor and outdoor fans stop and the RUN light blinks slowly (1.5 sec. ON, 0.5 sec. OFF) during defrosting.
+•The outdoor unit may give off some steam during defrosting. This is to help the defrosting process and is not a defect.
+•The HEAT operation resumes as soon as defrosting has been completed.Press the FAN SPEED button
+Set the fan speed as preferred.
+A fan speed cannot be set under Dry operation.
+ Page 29
+RKW012A412D_EN_001-032 4/15/14, 13:55 13
+–1 4–Airflow direction adjustment
+Adjusting airflow direction
+■Up/down direction can be adjusted with the AIRFLOW U/D (UP/DOWN) button on the remote control. Every time you press this
+button the mode changes as follows:
+Change on AIRFLOW (UP/DOWN) mode.
+■Left/right direction can be adjusted with the AIRFLOW L/R (LEFT/RIGHT) button on the remote control. Every time you press this
+button the mode changes as follows:
+Change on AIRFLOW (LEFT/RIGHT) mode.
+MEMORY FLAP (FLAP OR LOUVER STOPPED)
+When you press the AIRFLOW (U/D or L/R) button once while the flap or louver is operating,
+it stops swinging at the position. Since this angle is memorized in the microcomputer, the flap
+or louver will automatically be set at this angle when the next operation is started.
+WARNING
+•Do not expose directly to airflow from the air-conditioner for a long time.
+CAUTION
+•When in COOL or DRY operation, do not operate for a long period with the
+airflow blowing straight down. Otherwise, condensation may appear onthe outlet grill and drip down.
+•Do not try to adjust the flaps and louvers by hand, as the control angle may
+change or the flap or louver may not be closed completely.HEAT
+(Horizontal
+blowing)(Slant forward
+blowing)
+COOL, DRY•Recommended angle of the flap when
+stopping•When operation starts, the flap and louver direction is fixed at the horizontal / center position in order to avoid cold draft,  and return
+to the set the position that was set after the warm air supply is starting.
+•The flap and louver direction will be controlled to the horizontal/center position when the room temperature reaches the set te m-
+perature and compressor stops or when defrosting is in operation.
+•The airflow direction cannot be set during the period mentioned above. Change the airflow direction settings after the warm air  is
+supplied and the flap/louver goes to the set position.(Swing) (Flap stopped)
+(Louver stopped)
+(Swing)
+NOTE FOR HEATING OPERATION•The actual position of the flap and louver may differ from the display shown.NOTE
+3D AUTO operation
+■Fan speed and air flow direction are automatically controlled, allowing the entire room to be efficiently conditioned.
+Press the ON/OFF button.
+Press the 3D AUTO button.
+Each time the 3D AUTO button is pressed, the display is switched in the
+order of:1
+2
+(Normal operation) (3D AUTO)No display
+•3D AUTO operation is cancelled when you switch the operation mode.
+•If 3D AUTO operation is cancelled then the air flow direction changes to
+that used before 3D AUTO was set.
+•3D AUTO operation can be set in AUTO, COOL, or HEAT operation
+mode only.NOTEReleasing procedure
+Press the 3D AUTO button to turn off the 3D AUTO display.
+RKW012A412D_EN_001-032 4/15/14, 13:55 14
+–1 5–■If it is pressed while the unit is off
+SLEEP TIMER operation starts with the previous operation settings, and the air
+conditioning is turned off after the set time elapses.
+■If it is pressed while the unit is running
+The air conditioner is turned off after the set time elapses.
+Every time the button is pressed, the display changes as follows:
+Example: You prefer it to stop after 7 hours.
+Set to 
+The timer light (yellow) is on.
+h
+•The unit stops after the set time lapses.SLEEP TIMER operation
+■The unit stops automatically after the set time lapses.
+The set temperature is automatically adjusted according to the elapsed time in order to avoid too much cooling or heating.     Page 17
+Press the SLEEP button.1
+How to cancel
+Press the CANCEL button to turn off the SLEEP
+display.Changing of set time
+Set a new time by pressing SLEEP button.
+•SLEEP operation will not function during ALLERGEN CLEAR operation.
+•Cannot be set at the same time with OFF-TIMER.NOTE
+OFF-TIMER operation
+■The unit stops automatically when the set time comes.
+With the air conditioner turned off, start the operation from Step 1. With the air conditioner running, start from Step 2.
+Example: You prefer it to stop 22:30.
+Press the ON/OFF button.
+Press the OFF-TIMER button.
+OFF TIMER display  is blinking.
+Press the “  or  (TIMER)”  button.
+Every time the  button is pressed, the display is switched in the order of:
+0:00 0:10 0:20 ... (Units of ten minutes) 1:00 1:10
+Every time the  button is pressed, the display is switched in the order of:
+0:00 23:50 23:40 ... (Units of ten minutes) 23:00 22:50
+Set at 22:30.31
+4Press the SET button.
+The display changes from blinking to steady lighting and the setting is
+complete.
+The timer light (yellow) is on.2
+How to cancel
+Press the CANCEL button to turn off the timer
+display.•The unit stops at the end of the set period of time.
+•Make sure to press the button within 60 seconds from the last operation
+in step 3, otherwise the setting is not completed.
+•The current time is not displayed during OFF-TIMER operation.
+•OFF-TIMER operation will not function during ALLERGEN CLEAR op-
+eration.
+•Different from SLEEP TIMER operation, automatic set temperature ad-
+justment is not done during OFF-TIMER operation.Changing of set time
+Set a new time by using the OFF-TIMER button.NOTENo display
+(canceled)... (Units of one hour) 
+RKW012A412D_EN_001-032 4/15/14, 13:55 15
+–1 6–1
+2
+How to cancel
+Press the CANCEL button to turn off the timer
+display.Example: In the case the preferred room temperature is required at 8:00.
+Press the ON-TIMER button.
+ON-TIMER display  is blinking.
+3■Operation starts 5 to 60 minutes before the set time so that the room temperature reaches the optimum temperature at the set ti me.  Page 17
+ON-TIMER operation can be set regardless of whether the air-conditioner is running or not.
+SLEEP TIMER + ON-TIMER operation
+■Combined timer operation of SLEEP TIMER and ON-TIMER.
+Example: When it is required to stop after 3 hours and then start operation at 8:00, near the
+set temperature.
+■SLEEP TIMER setting
+Set by the procedures on page 15.
+Set to 
+■ON-TIMER operation setting
+Set by the above procedure mentioned in ON-TIMER.
+Set to 
+The setting of the lighting of the timer light (yellow) of this unit is complete.
+h
+•After the SLEEP TIMER set time has elapsed, the operation stops, and it starts
+from 5 to 60 minutes before the ON-TIMER’s set time.
+•The timer light is turned off when ON-TIMER set time comes.
+Changing of set time
+Set a new time by using the SLEEP or ON-TIMER
+button.How to cancel
+Press the CANCEL button to turn off the timer display.Press the “  or  (TIMER)” button.
+Every time the  button is pressed, the display is switched in the order of:
+0:00 0:10 0:20 ... (Units of ten minutes) 1:00 1:10
+Every time the  button is pressed, the display is switched in the order of:
+0:00 23:50 23:40 ... (Units of ten minutes) 23:00 22:50
+Set at 8:00.
+Press the SET button.
+The display changes from blinking to steady lighting and the setting is
+complete.
+The timer light (yellow) is on.
+The operation stops if it is set during operation.
+Changing of set time
+Set a new time by using the ON-TIMER button.ON-TIMER operation
+•Operation starts 5 to 60 minutes before the set time.
+•The timer light (yellow) goes out at the set time.
+•Make sure to press the button within 60 seconds from the last opera-
+tion in step 2, otherwise the setting is not completed.
+•The current time is not displayed during ON-TIMER operation.
+•ON-TIMER operation will not function during ALLERGEN CLEAR
+operation.NOTE
+RKW012A412D_EN_001-032 4/15/14, 13:55 16
+–1 7–ALLERGEN CLEAR operation
+Aim the remote control at the air-conditioner.
+Press the ALLERGEN CLEAR button.1■The power of enzymes is used to eliminate allergy-causing allergens that accu-
+mulate on the allergen clear filter.
+To stop:Press the ON/OFF or
+ALLERGEN CLEAR button.
+•Since the room temperature may change quite a bit, it is recommended
+that this be used when no one is in the room. (It completes automati-cally in approximately 90 min.)
+•During ALLERGEN CLEAR operation temperature, fan speed, airflow
+direction and timer operations settings cannot be made.
+•In case of SCM multi system, ALLERGEN CLEAR control function is
+invalid.
+•In case of SCM multi system, if ALLERGEN button is pressed by mistake,
+the indoor unit which received such command stops.NOTEON-TIMER + OFF-TIMER operation
+■The timer operations of the combination of ON and OFF-TIMER.
+Example: When it is prefered to stop at 22:30, and then start operation at 8:00, near the set
+temperature.
+■OFF-TIMER operation setting
+Set by the procedures on page 15.           Set to 
+■ON-TIMER operation setting
+Set by the procedures on page 16.          Set to 
+Timer light (yellow) on the unit will light when the setting is completed.
+The set time will be displayed on the remote control. The display will change de-
+pending on the operational status.
+Comfort Start-up
+In ON-TIMER operation, the unit starts the operation a little earlier, so
+that the room can approach optimum temperature at ON time. This is
+so called “Comfort start-up”.
+•Mechanism
+The room temperature ischecked 60 minutes before
+the ON time. Depending on
+the temperature at that time,
+the operation starts 5 to 60
+minutes before the timer is at
+ON.
+•The function is available for
+both COOL and HEAT opera-
+tion mode (including AUTO).
+It does not work for DRY
+mode.SLEEP TIMER
+ In COOL operation
+(Stop) Operation starts▼
+Check the room
+temp. 60 mins.
+before.Set time
+▼When SLEEP TIMER is selected, the set temperature is automatically
+adjusted after a while, ensuring that the room is not too cold during
+cooling or too warm during heating.
+•During cooling : The preset temperature is lowered by 1°C at the
+start of SLEEP operation (when the timer is set). After that, the tem-
+perature goes up by 1°C every an hour to become 1°C higher than
+the present temperature.
+•During heating: The preset temperature is lowered by 1°C at the
+start of SLEEP operation (when the timer is set). After that the tem-
+perature becomes 3°C lower in an hour and 6°C lower in two hours
+than the present temperature.(Operation)
+Set temperatureWith ON-TIMER, the air conditioner starts running. Then,
+with OFF-TIMER, the air conditioner stops running.
+(Example Present time : 5:00 The air conditioner stopping.)
+With OFF-TIMER, the air conditioner stops running. Then,
+with ON-TIMER, the air conditioner starts running.
+(Example Present time : 20:00 The air conditioner running.)
+How to cancel
+Press the CANCEL button to turn off the timer display.Changing of set time
+Set a new time by using the OFF-TIMER or ON-TIMER button.
+RKW012A412D_EN_001-032 4/15/14, 13:55 17
+–1 8–WEEKLY TIMER operation
+■Up to 4 programs with timer operation (ON-TIMER / OFF-TIMER) are available for each day of the week. Max 28 programs per week
+are available. Once this has been set, the timer operation will be repeated at the same programs every week unless the WEEKLYTIMER is canceled.
+Sample (At cooling season)
+WEEKLY TIMER  ON/OFF setting
+■Switch the WEEKLY TIMER to ON/OFF by using the WEEKLY button.
+1Press the WEEKLY  button.
+The WEEKLY TIMER becomes effective.
+Every time the WEEKLY button is pressed, the display is switched in the
+order of:
+No display
+(WEEKLY TIMER on) (WEEKLY TIMER off)
+When the WEEKLY TIMER is set to ON, the timer light (yellow) of the air
+conditioner is on.
+When the battery of the remote control is replaced or the ACL switch is
+pressed, the remote control is set to the initial state. Since the WEEKLY
+TIMER program is not set in the initial state, set the program according to
+the setting procedure.
+•The WEEKLY TIMER is switched to ON/OFF regardless of
+whether the air conditioner is running or not.
+•The ON-TIMER operation of the WEEKLY TIMER is effective
+regardless of whether the air conditioner is running or not.When the ON-TIMER setting time is reached, the remote
+control operates according to the contents that are set. The
+remote control display is also switched to the operation con-tents that are set. The setting can be changed from the re-mote control after ON-TIMER operation of the WEEKLYTIMER.The following contents can be set by the ON-TIMER.Operation mode, fan speed, temperature, airflow direction,ECONOMY, 3D AUTO, NIGHT SETBACK, SILENTComfort start-up is not performed for WEEKLY TIMER ON-
+TIMER operation.NOTE
+•OFF-TIMER operation of the WEEKLY TIMER is effective
+only when the air conditioner is running. When the time setby the OFF-TIMER is reached, the air conditioner stops.
+•When multiple program numbers are set for the current day
+(day of the week), the operation is performed from the earli-
+est time that is set.
+•When various timers (ON-TIMER, OFF-TIMER, and SLEEP
+TIMER) are operating, the WEEKLY TIMER does not oper-ate even if the time set in the ON-TIMER or OFF-TIMER isreached. The WEEKLY TIMER becomes effective after vari-ous timers are terminated.
+•The ON-TIMER or OFF-TIMER of the same time in the same
+day of the week cannot be set.: WEEKLY TIMER setting
+: MANUAL setting
+RKW012A412D_EN_001-032 4/15/14, 13:55 18
+–1 9–Setting mode <Individual setting>
+6Press the ON-TIMER or OFF-TIMER button.
+ON-TIMER or OFF-TIMER is determined and time display blinks.
+  ON-TIMER is selected        OFF-TIMER is selectedPress the SET button.
+When no set contents (ON-TIMER or OFF-TIMER) are
+available, both the  and  timers blink.
+When set contents (ON-TIMER or OFF-TIMER) are
+available, either one of  or  is lit.54Press the “  or  (TIMER)”  button.
+Select a program number.
+Every time the  button is pressed, the display is switched in the
+order of:
+Every time the  button is pressed, the display is switched in the
+order of:3Press the SET button.
+The day of the week is determined and the program number
+blinks.Press the PROGRAM button.
+ and current day of the week blink.
+Press the “  or  (TIMER)”  button.
+Select a day of the week to be reserved.
+Every time the  button is pressed, the display is switched in
+the order of:
+Mon Tue Wed ... Sun Display of all of the days of 
+the week
+Every time the  button is pressed, the display is switched in
+the order of:
+Mon Sun ... Sat Display of all of the days of 
+the weekTue1Set after setting the current day of the week and the time.
+2
+P1 P2 P3 P4
+P1 P4 P3 P2
+RKW012A412D_EN_001-032 4/15/14, 13:55 19
+–2 0–10Press the PROGRAM button or SET button.
+When the PROGRAM button is pressed, the setting is sent to the air conditioner.
+Since it takes 3 seconds for transmission, point the remote control at the remote control
+signal receiver of the indoor unit during the period.
+When the setting is received, a buzzer sound (pip, pip, pip) is emitted.
+When the SET button is pressed, the setting continues from Step 2.9Press the SET button.
+The time is determined and  and  blink.8Set required operation contents.
+When ON-TIMER is selected, operation mode, fan speed, and air flow direction can be
+changed and the ECONO, SILENT or NIGHT SETBACK operation can be set.7Press the “  or  (TIMER)”  button.
+Set a time.
+Every time the  button is pressed, the display is switched in the
+order of:
+0:00 0:10 0:20 ... (Units of ten minutes) 1:00 1:10
+Every time the  button is pressed, the display is switched in the
+order of:
+0:00 23:50 23:40 ... (Units of ten minutes) 23:00 22:50
+When ON-TIMER is selected, go to Step 8.
+When OFF-TIMER is selected, go to Step 9.
+Setting mode <Collective setting>
+■Set the same operation contents to the same program number of all the days of the week. In Step 2 above, select “all of the day s of the
+week”. When the contents that were individually set exist in the same program number, the contents are overwritten.
+•If no operation is performed for 60 seconds in setting mode, the setting changes that have been made until then become invalid
+and the setting mode terminates. Subsequently,  and all the program numbers (P1, P2, P3 and P4) blink for 10 seconds.
+(This  blinking can not be observed if setting mode gets terminated while setting only one program.)
+•At the end of the setting mode, point the remote control at the air conditioner and press the PROGRAM button. In this case, che ck
+that the air conditioner emits a reception buzzer sound three times (pip, pip, pip). If the buzzer sound is not emitted, set th e mode
+to the setting mode again by pressing the PROGRAM button and check that the buzzer sound is emitted.NOTE
+RKW012A412D_EN_001-032 4/15/14, 13:56 20
+–2 1–How to cancel the setting <Individual setting>
+3Press the SET button.
+The day of the week is determined and the program number blinks.2
+5Press the CANCEL button.
+The setting contents of the ON or OFF-TIMER are canceled and 
+is displayed on the time display section.
+6Press the PROGRAM button.
+When the PROGRAM button is pressed, the setting is sent to the air
+conditioner.
+When the setting is received, a buzzer sound (pip, pip, pip) is emitted.
+The setting contents of each program are canceled. Perform the operation
+indicated above for each program to be canceled.Press the PROGRAM button.
+ and current day of the week blink.1
+How to cancel the setting <Collective setting>
+Confirm mode
+Releasing procedure
+The Confirm mode can be terminated by pressing the ON/OFF, CANCEL or
+SET button.Press the PROGRAM button for 3 seconds or more.
+ blinks and the setting content lights.1The WEEKLY TIMER setting contents can be confirmed.
+2
+Mon P1 P2 P3 P4
+P1 P2 P3 P4 Tue
+Sun P1 P2 P3 P4
+P1 P2 P3 P4Display of all of the 
+days of the weekPress the “  or  (TIMER)”  button.
+Select a day of the week and a program number to be confirmed.
+Display starts from the current day of the week. For the program without
+setting,  is displayed. When the PROGRAM button is pressed in
+Confirm mode, a setting mode is set.Press the “  or  (TIMER)”  button.
+Select a day of the week to be canceled.
+4Press the “  or  (TIMER)”  button.
+Select a program number to be canceled.At cancelation operation, do not press the SET button. If the SET button is
+pressed, the mode is shifted to the Set mode.
+■When the same operation contents exist in the same program number of all the days of the week, collective erase is allowed. In Step
+2 above, select “all of the days of the week”. The procedure from Step 3 is the same as that indicated above.
+If the operation contents have been changed or erased by individual setting after the collective setting described in page 20, causing
+setting content discrepancies among the days of the week, collective erase is not allowed.
+•If no operation is performed for 60 seconds in Confirm mode, the
+Confirm mode is terminated.NOTE
+RKW012A412D_EN_001-032 4/15/14, 13:56 21
+–2 2–Press the ON/OFF button.
+Press the HI/ECO button.
+•When the operating mode is AUTO, COOL or HEAT
+Every time the HI/ECO button is pressed, the display is switched in the
+order of:
+No display
+•When the operating mode is DRY or ON-TIMER + OFF-TIMER
+Every time the HI/ECO button is pressed, the display is switched in the
+order of:
+No displayHIGH POWER/ECONOMY operation
+21
+(HIGH POWER )(ECONOMY ) (Normal operation)
+(ECONOMY ) (Normal operation)
+Concerning HIGH POWER operation
+Pressing the HI/ECO button intensifies the operating power and initiates powerful cooling or heating operation for 15 minutes c ontinu-
+ously. The remote control  displays and the FAN SPEED display disappears.
+•During the HIGH POWER operation, the room temperature
+is not controlled. When it causes an excessive cooling orheating,press the HI/ECO button again to cancel the HIGHPOWER operation.
+•HIGH POWER operation is not available during the DRY
+and ON-TIMER + OFF-TIMER operations.
+•When HIGH POWER operation is set after setting ON-
+TIMER operation, HIGH POWER operation will start fromthe set time.
+•Not operable while the air conditioner is OFF.
+•After HIGH POWER operation, the sound of refrigerant
+flowing may be heard.•When the following operations are set, HIGH POWER
+operation will be canceled.
+1When the HI/ECO button is pressed again.
+2When the operation mode is changed.
+3When it has been 15 min. since HIGH POWER
+operation has started.
+4When the 3D AUTO button is pressed.
+5When the SILENT button is pressed.
+6When the NIGHT SETBACK button is pressed.
+Concerning ECONOMY operation
+Pressing the HI/ECO button initiates a soft operation with the power suppressed in order to avoid an excessive cooling or heati ng.
+The  unit operates 1.5°C higher than the setting temperature during cooling or 2.5°C lower than that during heating. The remote
+control  displays and the FAN SPEED display disappears.
+NOTE
+•It will go into ECONOMY operation at the next time the air-
+conditioner runs in the following case.
+1When the air-conditioner is stopped by ON/OFF button
+during ECONOMY operation.
+2When the air-conditioner is stopped in SLEEP or OFF
+TIMER operation during ECONOMY operation.
+3When the operation is retrieved from CLEAN or AL-
+LERGEN CLEAR operation.•When the following operations are set, ECONOMY operation
+will be canceled.
+1When the HI/ECO button is pressed again.
+2When the operation mode is changed from DRY to
+FAN.
+3When the NIGHT SETBACK button is pressed.
+•Not operable while the air conditioner is OFF.NOTEIf the air-conditioner is not operating, point the remote control toward the air conditioner, and
+RKW012A412D_EN_001-032 4/15/14, 13:56 22
+–2 3–NIGHT SETBACK operation
+■During the cold season, the room temperature can be maintained at a comfortable level during the absence, at night, and while t he
+room is unattended. The air conditioner maintains the constant temperature at about 10°C.
+SILENT operation
+■When the SILENT operation is set, the unit operates more silently reducing noise from the outdoor unit.
+1If the air-conditioner is not operating, point the remote control toward the air conditioner, and
+(SILENT on) (SILENT off)1Press the NIGHT SETBACK button.
+Every time the NIGHT SETBACK button is pressed, the display is switched
+in the order of:
+No display
+(NIGHT SETBACK on) (NIGHT SETBACK off)
+•During NIGHT SETBACK operation, the air conditioner maintains the
+set temperature at about 10°C.
+•During NIGHT SETBACK operation, temperature settings cannot be
+made.
+•Since the room temperature may change quite a bit, it is recommended
+that this be used when no one is in the room.
+•During NIGHT SETBACK operation, none of HIGH POWER and
+ECONOMY operations can be set.
+•When NIGHT SETBACK operation is canceled by pressing the NIGHT
+SETBACK button, the operation mode is reset to the mode immediatelyprior to the NIGHT SETBACK operation.NOTE
+Releasing procedure
+Press the SILENT button to turn off the SILENT display.
+•During SILENT operation, the maximum cooling and heating capacities
+deteriorate.
+•SILENT operation will not function during DRY and FAN operation.
+•It will go into SILENT operation at the next time the air-conditioner runs in
+the following case.
+1When the air-conditioner is stopped by ON/OFF button during SILENT
+operation.
+2When the air-conditioner is stopped in SLEEP or OFF-TIMER op-
+eration during SILENT  operation.
+3When the operation is retrieved from CLEAN or ALLERGEN
+CLEAR operation.
+•Not operable while the air conditioner is OFF.
+•The noise level of the outdoor unit may not decrease depending on the
+condition.NOTEReleasing procedure
+Press the NIGHT SETBACK button or MODE button to turn off the NIGHT
+SETBACK display.
+2Press the ON/OFF button.
+Press the SILENT button.
+•When the operating mode is AUTO, COOL, HEAT or NIGHT SETBACK
+Every time the SILENT button is pressed, the display is switched in the
+order of:
+No display
+RKW012A412D_EN_001-032 4/15/14, 13:56 23
+–2 4–SELF CLEAN operation
+1In order to active CLEAN operation, press the CLEAN
+switch with the tip of a ballpoint pen.
+Every time the CLEAN switch is pressed, the display is
+switched in the order of:
+No display■CLEAN operation should be run after AUTO, COOL and DRY operation to remove the moisture from inside the indoor unit and control
+the growth of mold and bacteria.
+(CLEAN on) (CLEAN off)
+NOTE
+•Two hours later, the air conditioner stops running automatically. To stop
+the air conditioner immediately, press the ON/OFF button.
+•CLEAN operation is not operated after HEAT, FAN, OFF-TIMER,
+SLEEP and ALLERGEN CLEAR operations have finished.
+•The indoor unit fan runs for about two hours in CLEAN operation.
+•The RUN light illuminates during CLEAN operation.
+•Pressing the SLEEP button, ALLERGEN CLEAR button or NIGHT
+SETBACK button during CLEAN operation cancels the CLEANoperation and then the unit is set to SLEEP, ALLERGEN CLEAR orNIGHT SETBACK operation.
+•This is not a function for removing mold, germs or grime that have
+already adhered to the unit.
+Auto restart function
+■What is auto restart function?
+•Auto restart function records the operational status of the air-conditioner immediately prior to be switched off by a power cut , and then
+automatically resumes operations after the power has been restored.
+•The following settings will be canceled:
+1Timer settings
+2HIGH POWER operations
+•Auto restart function is set at on when the air-conditioner is shipped from the factory. Consult with your dealer if this funct ion needs
+to be switched off.
+•When power failure occurs, the timer setting is canceled. Once power is resumed, set the timer again.NOTE
+Tips for effective operation
+■Please observe the following for the most economic and comfortable use of your unit.
+Set a suitable room temperature.
+Excessively high or low temperatures
+are not good for your health and waste ofelectricity.Avoid direct sunlight and draught.
+Cut out direct sunlight by drawing the
+curtains or blinds when cooling. Keepwindows and doors shut, except whenventilating.
+Operate the unit only when needed.
+Use the timer properly to operate the unit
+only when needed.Clean the filters frequently.
+Clogged filters may block the airflow and
+cause less efficient operation.
+Adjust the airflow direction properly.
+Adjust the up/down and left/right airflow
+to ensure a steady room temperature.Keep heat source away when cooling.
+Keep heat sources out of the room as
+much as possible.3 sec.
+1 sec.ON
+OFF
+RKW012A412D_EN_001-032 4/15/14, 13:56 24
+–2 5–Installation location setting
+1If the air conditioning unit is running, press the ON/
+OFF button to stop.
+The installation location setting cannot be made while the unit is running.■Take the air conditioning unit’s location into account and adjust the left/right airflow range to maximize air-conditioning.
+(Center Installation)2Press the AIR FLOW U/D (UP/DOWN) button and the
+AIRFLOW L/R (LEFT/RIGHT) button together for 5
+seconds or more.
+The installation location display illuminates.
+3Setting the air-conditioning installation location.
+Press the AIR FLOW L/R (LEFT/RIGHT) button and adjust to the desired
+location.
+Each time the AIR FLOW L/R (LEFT/RIGHT) button is pressed, the displayis switched in the order of:
+ (Right End Installation)  (Left End Installation)
+4Press the ON/OFF button.
+The air-conditioner's installation location is set.
+Press within 60 seconds of setting the installation location (while the instal-
+lation location setting display illuminates).Press within
+60 sec.!
+The diagram below indicates the airflow ranges corresponding to the air-conditioner's installation location. Consider your room 's
+layout and set the airflow range to maximize conditioning effectiveness.Air conditioner installation location and airflow range
+Airflow range Airflow range Airflow range
+ (Left End Installation) (Center Installation)  (Right End Installation)
+•Once the installation location setting is configured, the installation location setting is stored in the air conditioner even i f the power
+supply is turned off. To change the installation location setting, set a location again with the remote control.
+•During the operation, an installation location cannot be set.
+•When the air conditioner is installed at the location within 50 cm from the wall, it is recommended to change the location to “ Right
+End Installation” or “Left End Installation”.NOTE
+RKW012A412D_EN_001-032 4/15/14, 13:56 25
+–2 6–Turn off the power supply.
+Remove the air filterMaintenance
+Cleaning the air filter
+Do not use the following articles:
+•Hot water (40°C or more)
+It may deform or discolour the unit.
+•Petrol, paint thinner, benzine or cleanser, etc.
+They may deform or scratch the unit.•Do not spill any liquid.
+•Do not touch the aluminum fins on
+the heat exchanger.
+•Stand firmly on a stepladder or other
+stable object when removing the inletpanel and filter.Cleaning
+CAUTION
+•Do not clean the filters with boiling water.
+•Do not dry them over an open flame.
+•Pull them out gently.
+Cleaning the unit
+•Wipe the unit with a soft, dry cloth, or use a vacuum cleaner.
+•If the unit is very dirty, wipe it with a cloth soaked in warm water.1
+2
+3Before maintenance
+Reinstall the air filter
+•Hold firmly the filter at both sides as shown at
+right and insert securely.
+•Operating without putting back the air filters will
+make the unit dusty, and may cause damage.
+Cleaning the air inlet panel
+•Removal, installation of air inlet panel.
+•The panel can be washed with water. After
+washing with water, wipe any moisture off thepanel and dry out of direct sunlight.Wipe the unit with a
+soft, dry cloth.During the operational season
+•Pull up the air inlet panel forward.
+•Lightly hold the knobs both sides and lifta little to remove the panel forward.
+If the filter is very dirty, clean it with warm water(approx. 30°C), and dry it thoroughly.
+There's a dan-
+ger of electric
+shock.Standard interval is once
+every two week
+Open
+Place fingers at the recesses on both sides of the panel and pull
+up the panel forward so that it will be open by about 60 degrees.How to open, close the air inlet panel
+Close
+Push both ends evenly and press further lightly at the center.
+Removal
+When removing the air inlet panel for internal cleaning or others,open the panel by 80 degrees and then pull it forward.Removal, installation of air inlet panel
+Installation
+Secure the upper edge of the air inlet panel by lightly pushing itin, and then close the panel.
+RKW012A412D_EN_001-032 4/15/14, 13:56 26
+–2 7–Stop the unit and turn off the power supply.
+The unit consumes approx. 4W even when the unit is not operat-
+ing. Turning off the power supply will help saving energy consumption
+and cost.At the beginning of the season
+Ensure that the earth wiring is not snapped
+nor disconnected.
+Make sure that there are no obstacles block-
+ing the airflow around the air intake and outletopenings of the indoor and outdoor units.NOTECooling/heating is affected by an air filter clogged up with dust etc., and the operation noise becomes louder. It
+may also use extra electricity. Please clean the air filter at appropriate intervals.
+1
+2
+Remove batteries from the remote control.Clean both the indoor and outdoor units.Clean and reinstall the air filters.Perform the fan operation for 2 to 3 hours.
+Dry the inside of the unit.
+3
+45Check if there is no corrosion or rust on the
+base frame of the outdoor unit.
+Insert batteries in the remote control.Turn on the power supply.Ensure that the air filters are clean.321
+4
+56
+   Installing, inspecting and replacing the air-cleaning filter
+1. Open the air inlet panel and remove the air filters.  Page 26
+2. Remove the filter holders, with the air-cleaning filter installed in the folders, from the
+air-conditioner.
+3. Remove the allergen clear filter (Light orange) from filter holder and inspect the
+filter. Use a vacuum cleaner to remove any dust or dirt from the allergen clear filter.Replace the allergen clear filter if it cannot be cleaned or if it has been for about 1year.(The allergen clear filter should be replaced after about 1 year of use. However, theactual replacement period may vary depending on the conditions in which the filteris used.)
+Remove the photocatalytic washable deodorizing filter (orange) from the filter
+holder and inspect the filter. Periodically, remove any dust or dirt from the photo-catalytic washable deodorizing filter. If the photocatalytic washable deodorizing fil-
+ter is particularly dirty, it may be washed with water. However, the filter is fragile so
+be sure to wash it installed in the filter holder to avoid damaging it. After washing
+the filter, place it in sunlight to dry. Placing the filter in sunlight revitalizes the deo-dorizing effect.
+(Do not dispose of the filter holders. They are reusable. )
+4. Install the air-cleaning filter in the filter holders, and then install the filter
+holders in the air-conditioner.
+5. Install the air filters and close the air inlet panel. 
+ Page 26NOTE
+•The allergen clear filter and the photocatalytic washable deodorizing filter
+may be installed on either the right or left side of the air-conditioner.
+•Install the allergen clear filter with the light orange side front.At the end of the season
+CAUTION
+•The heat exchanger may injure your fingers.
+Item Feature ColorFor replacement the air-cleaning filter, contact your dealer.
+The power of enzyme is used to eliminate allergy-caus-
+ing allergens that accumulate on the filter.
+Sources of odors on the filter are broken up, resulting in
+a deodorizing effect.Photocatalytic washabledeodorizing filterOrangeAllergen clear filter Light orangeFilterFilter holder
+RKW012A412D_EN_001-032 4/15/14, 13:56 27
+–2 8–Proper installation
+   Pay attention to operating noises!
+•When you install the unit, take care to choose a place that can comfortably stand the weight of the unit and does not increase  the
+operating noise or vibration. If vibration is transmitted through the house, fix the unit with the aid of vibration-proof pads between
+the unit and the fittings.
+•Select a place where cold or hot air, operation noises from the indoor and outdoor units do not cause any inconvenience to you r
+neighbours.
+•Do not leave any obstacles near the outlet and inlet of the outdoor unit. This may cause malfunctioning and increased operatin g
+noise.
+•If you hear an irregular noise during operation, contact your dealer.
+Inspection and maintenance
+Depending on operating environment, the inside of the air-conditioner may become dirty after a few year operations. This will r educe
+performance. In addition to normal cleaning, we would recommend inspection and maintenance. (This may lead the air-conditioner to
+having a longer life without any trouble.)•Contact your dealer, or any distributor, for inspection and maintenance. (There will be a charge for this service).
+•We would recommend inspection and maintenance to be carried out during the off-season.
+•If the supply cord of this appliance is damaged, it must only be replaced by a repair shop appointed by the manufacturer, beca use
+special purpose tools are required.   Suitable installation position
+•Do not put any obstruction in front of the indoor unit, preventing proper ventilation and functioning.
+•Do not install the unit in any of the following places:
+•Where there is a danger of leaking flammable gases.
+•Where there is substantial splashing of oil.
+•Malfunctioning due to corrosion may occur if the unit is installed in a spa where sulfide gases are generated, or in a seaside resort
+exposed to sea breezes. Contact your dealer.
+•The air-conditioner and remote control must be at least 1 metre away from a TV set or radio.
+•Drain the dehumidified liquid from the indoor unit into a spot that drains well.
+The air-conditioner does not work at all.
+Has the timer been set in the
+“ON” position?Has the power switch been
+turned off?Is there a power failure or a
+blown fuse?Troubleshooting
+Please carry out the following checks before making a service call.
+Poor coolingPoor cooling or heating
+Did you leave any doors or
+windows open?Have you set the thermostat
+at a suitable temperature?
+Is there a heat source in the
+room?Are there too many people
+in the room?Is the air filter clean? (Not
+clogged?)
+suitable
+tempera-
+ture
+Is there any direct sunlight
+entering the room?If the air-conditioner does not op-
+erate properly after you havechecked the left points, or if anydoubt still exists after you have
+consulted page 29, or if things
+happen as shown on page 30,
+switch off the power and contact
+your dealer.
+An alternative refrigerant (R410A) is used in this air-conditioner. When asking your
+dealer for service or inspection and maintenance, explain the dealer about it.
+RKW012A412D_EN_001-032 4/15/14, 13:56 28
+–2 9–Airflow is not blown out for 5 to 15 min. or blown out not
+warm wind for a moment at HEATING operation.
+RUN light blinks slowly
+(1.5 sec ON, 0.5 sec OFF)Notice
+The unit does not restart immediately after you havestopped it.
+(RUN light is on)
+Not
+operating?
+Airflow is not blown out when starting the HEATING opera-
+tion.
+RUN light blinks slowly
+(1.5 sec ON, 0.5 sec OFF)Airflow has stopped to prevent blowing out of cold air until theindoor heat exchanger has warmed up. (2 to 5 min.) (HOTKEEP program)
+When outdoor temperature is low and humidity is high, the unit
+sometimes performs defrosting automatically. Please wait. Dur-
+ing defrosting, water or steam may escape from the outdoorunit.
+Airflow is not blown out when starting the DRY operation.
+(RUN light is on)The indoor fan may stop to prevent re-evaporation of
+dehumified moisture and to save energy.
+Some steam escapes during COOL operation. This may occur if the room's temperature and humidity are very
+high. It disappears as soon as the temperature and humiditydecrease.Restart is blocked for 3 minutes after you have stopped the op-
+eration to protect the unit.
+The three-minute protection timer in the microcomputer auto-
+matically starts it up again.Please wait for
+three minutes.
+If the unit is operated for a long time in high humidity, moisture
+may form on the air outlet grills and start dripping.You hear a slight gurgling sound. This is caused by refrigerating liquid moving within the unit.
+You hear a slight cracking sound. This is caused by heat expansion or contraction.
+Remote control signals may not be received if the signal
+receiver on the air-conditioner is exposed to direct sunlight orother bright light.If so, cut out the sunlight or reduce the other light.After a power cut, the unit does not restart even if power
+has been restored.If the auto restart function is not set, the unit will not restart
+automatically. Use the remote control to start the operation
+again.
+Remote control signals are not received.
+Moisture may form on the air outlet grills.There is a slight smell. Air blown out during operation may smell. This is caused by
+tobacco or cosmetics adhering to the unit.
+You hear a hissing or clicking sound.This is caused by the operation of the refrigerant control valves
+or electric components.
+The noise means that the revolution speed of the compressor isincreasing or decreasing.Whistling noise is heard from the outdoor unit.
+Indoor fan : Fan will not stop after 2 hours if set to CLEAN
+operation.
+Outdoor fan : Fan will not stop about a 1 minute period in
+order to protect the unit.Fan will not stop immediately after unit operation was
+stopped.
+The RUN light illuminates during CLEAN operation.
+Run light turns off when CLEAN operation ends.RUN light stays on even though operation was stopped.
+This is the sound when operation of another indoor unit is
+stopped.Sometimes a “Shooooo” sound might come for a short time
+from the unit that is turned off.
+RKW012A412D_EN_001-032 4/15/14, 13:56 29
+–3 0–Contact your dealer
+■Turn off the power switch immediately and inform your dealer in any of the following situations:
+The fuse or switch blows continu-
+ously.The cable becomes extremely hot.The covering of the cable is cracked.
+The TV, radio or other equipmentstarts to malfunction.
+When abnormalities occur, turn off the power supplyimmediately and turn it on after 3 minutes. Restart theoperation with ON/OFF button of the remote control and theabnormalities still continue.A switch does not activate properly. You hear a strange noise during
+operation.Fuse often blows.
+The RUN and TIMER lights on the unit display section blinkquickly (0.5 sec. ON; 0.5 sec. OFF) and do not work.CAUTION
+If the power cord becomes damaged, ask your dealer or a qualified engineer to
+install the replacement to avoid accidents.
+About the Multiple Air-conditioner
+   Automatic Operation
+   Refrigerant (oil) recovery operation•The air-conditioners cannot be in different operating modes at the same time, such as one unit being in the “Cool” mode and on e
+unit being in the “Heat” mode.
+•When conducting different operations, the air-conditioner that was operated first will be given priority, so the air-condition er that is
+operated after that will conduct air blowing operation.
+•When you want to give priority to the air-conditioner that was started later, either stop the air-conditioner that has priorit y or cause
+the operation type of the unit operated first to match that of the unit operated second.
+•When other indoor units are operating in different modes, the RUN light illuminates.
+•When the remote control operation switch is in the “Auto” mode the air-conditioner automatically selects either “Cool,” “Dry,”  or
+“Heat” when operation is started depending on the room temperature.
+•During simultaneous operation of air-conditioner units, operation modes may be automatically changed in response to the tem-
+peratures of the individual rooms; this will result in the operation of the outdoor unit being stopped. In such a case, COOL or  HEAT
+mode should be used instead of AUTO. (This is only relevant when more than one air-conditioner unit is being used.)   Simultaneous Operation
+•If the all of the indoor units are not operated at the same time for an extended period, the cooling or heating performance ma y
+temporarily decrease. This is in order to control the recovery of the refrigerant (oil) in the stopped indoor unit(s). At this time, the
+sound of refrigerant flowing may be heard from the stopped indoor unit(s).ON
+OFF0.5 sec.
+0.5 sec.
+RKW012A412D_EN_001-032 4/15/14, 13:56 30
+–3 1–Self diagnosis function
+■We are constantly trying to do better service to our customers by installing such judges that show abnormality of each function  as follows:
+Outdoor temperature sensor error •Broken outdoor sensor wire, poor connector connectionDescription of trouble
+Room temperature sensor errorCause
+•Broken heat exchanger sensor 1 wire, poor connector
+connection
+connection
+Active filter voltage errorHeat exchanger sensor 1 error
+•Broken heat exchanger sensor 3 wire, poor connectorHeat exchanger sensor 3 error•
+•Defective power supply
+•
+Discharge pipe sensor error •Broken discharge pipe sensor wire, poor connector connection.
+Rotor lock•Defective compressor
+•Open phase on compressor
+•Defective outdoor unit boards••Broken power transistor, broken compressor wire
+•Broken discharge pipe sensor wire, poor connector connection
+•Compressor blockage•
+•Power transistor error •Broken power transistorCurrent cut
+Trouble of outdoor unit
+Over current •Overload operation, overcharge
+Over heat of compressor
+Error of signal transmission
+Outdoor fan motor error •Defective fan motor, poor connector connection
+Cooling high pressure protection •Gas over charge, short circuit of outdoor unitTIMER light ON
+RUN light keeps flashing
+RUN light ON
+RUN light 2-time flash2-time flash
+5-time flash1-time flashRUN light
+2-time flash1-time flashTIMER light
+4-time flash
+2-time flash4-time flash1-time flash
+2-time flash
+3-time flash
+5-time flash
+6-time flash
+Keep flashingSuction pipe sensor error •Broken suction pipe sensor wire, poor connector connection 5-time flash3-time flash
+Refrigerant is insufficient
+Closed service valve
+Heat exchanger sensor 1 error•Defective fan motor, poor connector connection
+•
+•
+•Indoor fan motor error
+7-time flash6-time flash
+Closed service valve •Closed serice valve RUN light 7-time flash 1-time flash7-time flashOutdoor heat exchanger fluid pipe 
+sensor error
+Defective power supply, Broken signal wire, defective 
+in/outdoor unit boardsGas shortage, defective discharge pipe sensor, 
+closed service valveCompressor locking, open phase on compressor 
+output, sho rtcircuit on power transistor, closed service 
+valve Broken heat exchanger fluid pipe sensor wire, poor 
+connector conne ctionBroken room temperature sensor wire, poor connector 
+connection
+Refrigerant is insufficient, leaking
+Closed serice valveBroken heat exchanger sensor 1 wire, poor connector 
+connection
+RKW012A412D_EN_001-032 4/15/14, 13:56 31
+–3 2–
+RKW012A412D_EN_001-032 4/15/14, 13:56 32
+USER’S MANUAL
+AIR-CONDITIONER
+RKW012A412DSRK63ZM-S
+SRK71ZM-SSRK80ZM-S
+AIR-CONDITIONING & REFRIGERATION DIVISION
+3-1, Asahi, Nishibiwajima-cho, Kiyosu, Aichi, 452-8561, Japan
+http://www.mhi.co.jp
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONING EUROPE, LTD.
+7 Roundwood Avenue, Stockley Park, Uxbridge, Middlesex, UB11 1AX, United Kingdom
+Tel: +44-20-7025-2750
+Fax: +44-20-7025-2751
+http://www.mhiae.com
+MITSUBISHI HEAVY INDUSTRIES AIR-CONDITIONERS AUSTRALIA, PTY. LTD.
+9C Commercial Road Kingsgrove NSW 2208     PO BOX 318 Kingsgrove NSW 1480Tel: +61-2-8571-7977
+Fax: +61-2-8571-7992
+http://www.mhiaa.com.auORIGINAL INSTRUCTIONS
+MANUEL DE L ’UTILISATEUR
+CLIMATISEUR
+ANWENDERHANDBUCH
+KLIMAGERA ¨T
+ISTRUZIONI PER L ’USO
+CONDIZIONATORE D’ARIA
+MANUAL DEL PROPIETARIO
+ACONDICIONADOR DE AIRE
+GEBRUIKERSHANDLEIDING
+AIRCONDITIONING
+MANUAL DO UTILIZADOR
+APARELHO DE AR CONDICIONADO
+РУКОВОДСТВО ПО ЭКСПЛУАТАЦИИ
+КОНДИЦИОНЕР ВОЗДУХА
+KULLANIM KILAVUZU
+ENGLISH
+DEUTSCH
+ITALIANO
+ESPAN ˜OL
+NEDERLANDS
+PORTUGUÊS
+РУССКИЙ
+TÜRKÇEFRANÇAIS
+ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ
+ΚΛΙΜΑΤΙΣΤΙΚΟΕΛΛΗΝΙΚΑ
+This air conditioner complies with EMC  Directive 2004/108/EC,
+LV Directive 2006/95/EC.
+Ce climatiseur est conforme à la Directive EMC : 2004/108/EC, LV
+Directive 2006/95/EC.
+Dieses Kimagerät erfüllt die EMC  Direktiven 2004/108/EC, LV
+Direktiven 2006/95/EC.
+Questo condizionatore d’aria è conforme alla Direttiva EMC : 2004/
+108/EC, LV Direttiva 2006/95/EC.Deze airconditioner voldoet aan EMC  Directive 2004/108/EC, LV
+Directive 2006/95/EC.Este acondicionador de aire cumple con la directiva EMC : 2004/
+108/EC, LV Directiva 2006/95/EC.
+Este aparelho de ar condicionado está em conformidade com a
+Directiva EMC  2004/108/EC e a Directiva LV 2006/95/EC.
+∞˘Ùﬁ ÙÔ ÎÏÈÌ·ÙÈÛÙÈÎﬁ Â›Ó·È Û‡ÌÊˆÓÔ ÌÂ ÙÈ˜ ÚÔ‰È·ÁÚ·Ê¤˜ ÙË˜
+√‰ËÁ›·˜ EMC  2004/108/EK  Î·È ÙË˜ √‰ËÁ›·˜ LV 2006/95/EK .
+RKW012A412D_Cover1,4 4/18/14, 11:00 1

@@ -1,0 +1,643 @@
+GO 3SUserManual
+UserManual
+
+GO 3SUserManual
+Content
+ProductIntroduction 1
+Introduction 1
+StandardAccessories 2
+FirstUse 5
+Charging 5
+FindYourSerialNumber 6
+Activation 8
+BasicUse 9
+ActionPodButtonInstructions 9
+GO 3SButtonInstructions 12
+UsingGO 3andActionPod 14
+UsingtheTouchscreen 15
+ShootingMode 17
+ShortcutMenu 18
+ShootingSpecificationSettings 20
+ShootingParameterSettings 21
+Album Page 23
+AppleFindMy 24
+IndicatorLights 25
+Storage 26
+GO 3SUserManual
+GO 3SAndGO 3ActionPod 26
+Insta360App 27
+ConnecttotheInsta360App 27
+Editing 28
+Insta360App 28
+Insta360Studio 28
+FileTransfer 29
+Maintenance 32
+FirmwareUpdate 32
+Waterproofing 33
+Cleaning 34
+GO 3SUserManual
+1ProductIntroduction
+Introduction
+1. FlipTouchscreen
+2. IndicatorLight
+3. ShutterButton
+4. PowerButton
+5. ChargingPoint
+6. QuickButton
+7. MountingLatch
+8. ReleaseSwitch
+9. Type-CChargingPort
+1. Microphone
+2. Lens
+3. GO3SButton
+4. IndicatorLight
+5. ChargingPoint
+6. Speaker
+
+GO 3SUserManual
+2StandardAccessories
+GO3SandtheActionPodcanbemountedondifferentaccessoriesforflexibleshootingwherever
+yougo.
+Accessories Description Figure
+Magnet
+PendantHow toUse:
+1.WeartheMagnetPendant
+underyourclothing,withthe
+cameraiconfacingoutwards.
+2.MountGO3Shorizontallyor
+verticallyontotheMagnet
+Pendantoveryourclothing.
+Horizontalmountinggivesyoua
+16:9aspectratio,whilevertical
+mountingswitchesitto9:16.
+Notes:
+Ifyouhaveapacemaker,donot
+usethisaccessoryduetoits
+magnetism.
+
+GO 3SUserManual
+3PivotStand How toUse:
+1.Screw thePivotStandtothe
+stickybase.
+2.Pressthetwobucklesonthe
+sidesofthePivotStand,and
+mountGO 3S(withorwithoutthe
+ActionPod).Makesurethe
+camerafacesinthesame
+directionastheicononthePivot
+Stand.
+3.Stickitontoacleananddry
+surface(flatorcurved).Press
+andholdfor10secondsto
+installsecurely.
+4.ThePivotStandbasecanbe
+removedtoconnectother
+accessoriesviathe1/4"
+mountingpoint,suchasaselfie
+stick.
+Notes:
+1.Thestickybaseshouldonlybe
+usedin0°C-40°C(32°F-104°F)
+conditions.Itreachesmax.
+strength30minutesafter
+application.
+2.Thestickybaseisreusable.
+Cleanitwithwaterandair-dryto
+reuse.
+
+GO 3SUserManual
+4EasyClip How toUse:
+1.MountGO3SontotheEasy
+Clipinthesamedirectionasthe
+iconontheEasyClip.Makesure
+it'ssecure.
+2.AttachtheEasyCliptothe
+edgeofahatorotherobjectand
+adjustittothedesiredangle.For
+flexibleangleadjustment,itcan
+alsobeattachedtotheMagnet
+Pendantoveryourclothes.
+
+GO 3SUserManual
+5Charging
+PlaceGO 3SinsidetheActionPodandconnecttheofficialType-CcableintheboxtotheActionPod.
+While charging,both the camera and the Action Pod's indicator light will be solid red. The
+correspondingindicatorlightwillturnoffwhenthedeviceisfullycharged.Oncebothindicatorlights
+turnoff,bothdevicesarefullycharged.
+Notes:
+1.PleaseremovetheredstickeronthebackofGO3SbeforeputtingitintotheActionPodforthe
+firsttime.
+2.ItisrecommendedthatGO3bechargedusingadedicatedcharger.Ifit'sconnectedtoaUSB
+portonacomputerorotherportablepowersource,thepowersupplymaynotbesufficientto
+chargethecameraandActionPodsimultaneously.
+GO3SChargingTime
+23minutes-80%
+35minutes-100%
+ActionPodChargingTime
+47minutes-80%
+65minutes-100%FirstUse
+GO 3SUserManual
+6
+FindYourSerialNumber
+Theserialnumberisauniquecodethatcanbeusedtoquicklyidentifyyourcamera.Youcanfind
+theserialnumberinthefollowingways:
+● ProductBox
+TheGO 3SandActionPod'sserialnumberisonthebackoftheoriginalproductbox.
+● Camerasettings
+1. Poweronyourcamera.
+2. SwipedownonthetouchscreentoaccesstheShortcutMenu,thengoto[Settings]>[Camera
+Info]toview theserialnumber.
+GO 3SUserManual
+7● Insta360App
+1. ConnectyourcameratotheInsta360app.
+2. EnterappSettings>[DeviceInformation]toview theserialnumber.
+● Insta360Studio
+1. LaunchInsta360Studioonyourcomputerandimportanyfootagerecordedbythecamera.
+2. SelectthefootageandclicktheinfoiconontherightsideofyourscreentoaccessFile
+Propertiesandview theserialnumber.
+
+GO 3SUserManual
+8Activation
+YouneedtoactivatethecameraintheInsta360appbeforeusingitforthefirsttime.
+Steps:
+1. DownloadtheInsta360app.Alternatively,search"Insta360"inanymajorappstoreorscanthe
+QRcodeonthebox.
+2. PressthePowerButtontoturnonthecamera.
+3. EnableWi-FiandBluetoothonyourphone.
+4. OpentheInsta360appandtapthecameraatthebottom ofthepage.Selectthedeviceyou
+wanttoconnecttointhepop-upwindow,thenfollow theon-screeninstructionstocomplete
+theconnection.Thenameofyourcamerais"GO3S******"bydefault,where******isthelast
+sixdigitsofyourcamera'sserialnumber.Thefirsttimeyouconnect,youwillneedtoconfirm
+theconnectiononthetouchscreen.
+5. Aftersuccessfullyconnectingthecamera,follow theon-screeninstructionstoactivateit.Ifa
+new versionisavailable,theappwillpromptyoutoupdatethefirmware.Pleasefollow theon-
+screenpromptstoupdatethecamera'sfirmware.
+GO 3SUserManual
+9BasicUse
+ActionPodButtonInstructions
+PowerButton
+CameraStatus Operation Description
+Poweredoff Pressonce● Poweroncamera.
+PoweredonPressonce● Turnthetouchscreenon/off.
+● IfGO 3SisnotintheActionPod:Wakeupcamera.
+Longpress● 3seconds:Poweroff.
+● 7seconds:Forceshutdown.
+GO 3SUserManual
+10QuickButton
+CameraStatus Operation Description
+Poweredon Pressonce● Quicklyaccesspresetshootingmodesand
+parameters.Pressagaintoswitchbetweendifferent
+presets.
+● Thefirsttimeyoupressit,itwilldefaulttothe
+ShootingModepage.Taptheswitchiconintheupper
+leftcornertochangetothePresetspageorcustomize
+theQuickButtoninSettings.
+GO 3SUserManual
+11ShutterButton
+CameraStatus Operation Description
+Poweredoff Pressonce● StartshootingwithQuickCapture.
+*Mustbeenabledonthecamerafirst.
+PoweredonPressonce● Onpreview page:
+￮ Takeaphotoorstartrecordingavideo.
+￮ Stoprecording.
+● Onotherpage:
+￮ Returntothepreview page.
+￮ Confirm connectionontheapp(whenconnectingfor
+thefirsttime).
+Longpress● Quicklycancelanddeleterecording.
+*Mustenable"LongpressShutterButtontocancel
+recording"first.
+GO 3SUserManual
+12GO3SButtonInstructions
+ControlGO3SwhenyoutakeitoutoftheActionPod.
+CameraStatus Operation Description
+Poweredoff Longpress ● 3seconds:Poweron.
+PoweredoffPress
+once/Double
+press● StartshootingwithQuickCapture.
+￮ Pressonce:Quicklypoweronthecameraandstart
+videorecording(bydefault).
+￮ Doublepress:Quicklypoweronthecameraand
+startrecordinginFreeFrameVideoMode(bydefault).
+*Mustbeenabledonthecamerafirst.Youcan
+customizethedefaultbuttonfunctions.
+PoweredonPressonce● StartshootingwithQuickCapture.Pressagaintostop
+recording.
+● Confirm connectionontheapp(whenconnectingfor
+thefirsttime).
+Longpress● 3seconds:Poweroff.
+● 7seconds:Forceshutdown.
+GO 3SUserManual
+13GO 3SCameraButtonCustomization
+YoucancustomizetheGO 3SbuttonsaccordingtoyourpreferencesthroughtheActionPodorthe
+appsettingspage.
+● ActionPod
+1. SwipedownonthetouchscreenandgotoSettings.
+2. Tap"GO 3SButtonSettings"tocustomize.
+● Insta360App
+1. ConnectthecameratotheInsta630app.
+2. GotoSettings>ButtonSettingstocustomize.
+GO 3SUserManual
+14UsingGO 3andActionPod
+● UsingGO 3SandActionPodtogether：
+WhenGO 3SisintheActionPod,itfunctionsasoneactioncamera,andtheGO 3Sbuttons
+aredisabled.Instead,youcancontrolthecamerawiththebuttonsontheActionPodorvia
+theapp.
+● Usingthem separately：
+WhenGO 3S isremoved from theActionPod,itcanbeused forremotecontroland live
+preview upto16ft(5m)away.TheGO3Sbuttonsareenabled.
+Note:WhenusingtheActionPodforremotepreview,thedataistransmittedviaBluetooth
+and the quality ofpreview footage is reduced.Remote use willnotaffectthe actual
+footage.
+GO 3SUserManual
+15UsingtheTouchscreen
+Thetouchscreen'smaindisplayshowsthecurrentshootingmode.Themenubarshowsthe
+batterylevel,storagecapacity,andcurrentshootingparameters.Byswipingortappingthescreen,
+youcanachievethefollowing:
+Tapthescreen
+Hide/showinformation
+onthetouchscreen.
+Swipedownfromthetop
+ViewShortcutMenu.
+Swipeleftandrightinthe
+center
+Switchshootingmode.
+Swipefromtheleft
+Enterthealbumpage.
+Swipefromtheright
+Entershootingparametersettings.
+Swipeupfromthebottom
+Moreshootingparameter
+settings.
+GO 3SUserManual
+16ShootingInterface
+1. Storage:Showstheremaining numberofphotosorthelength ofvideo footagethatcan be
+storedonthemicroSDcard.
+2. GO 3SBatteryStatus:CurrentbatterylevelofGO 3S.
+3. ActionPodBatteryStatus:CurrentbatterylevelofActionPod.
+4. TiltFix:Turnon/off.
+5. ShootingMode:Taptheiconandswipetoselectadifferentshootingmode.
+6. ShootingSpecifications:Currentshootingmodesettings.
+7. FieldofView:ChangetheFieldofView.
+8. ClarityZoom:Togglebetween1-2xfocus,longpresstoslidezoom.
+9. JitterBlurReduction:Automaticallyturnsoninlow lightenvironmentstoimprovemotionblur
+and enhanceimagestabilization.Ifthelighting istoo dark,thebrightnessoftheimagewill
+decrease,andantiflickeringwillbeineffective.
+GO 3SUserManual
+17ShootingMode
+Taptheshootingmodeiconandswipeorswipeleftandrightfrom thecenterofthescreento
+selectadifferentshootingmode.
+ShootingMode Description
+Photo Takeasinglephoto.Suitableformostscenes.
+Video RecordregularHDvideoupto4K.Suitableformostscenes.
+FreeFrameVideo Shootavideowiththeoptiontochooseyouraspectratioafterrecording.
+FlowStateStabilizationandHorizonLockappliedinpostviaapporStudio.
+Timelapse Suitableforshootingstatictimelapsevideos.
+TimeShift Takeahyperlapse(sped-up)videowhilemoving.
+Slow Motion Shootaslow-motionvideoupto200fps.
+LoopRecording Recordcontinuouslyandsaveonlythelastfixed-lengthsegment.
+Starlapse ShootandstoremultiplephotosandautomaticallycombineStarlapseeffects.
+Interval Thecameraautomaticallytakesaphotoataspecifictimeinterval.
+HDRPhoto Takeaphotowithahigh-dynamicrange.
+GO 3SUserManual
+18ShortcutMenu
+Swipedownonthetouchscreentoview theShortcutMenu.
+1. RotationLock:Turnon/off.
+2. LockScreen:Taptolocktouchscreen.Swipeuponthetouchscreentounlockorpressthe
+PowerButtonwhilethescreenisofftounlockit.
+3. IndicatorLightBrightness:SettheGO3SIndicatorLightbrightnesslevelsetting.
+4. PromptSound:Setthecameraspeakervolume.Therearefouroptions:High,Medium,Low
+andMute.
+5. AdjustBrightness:Slidethebartoadjustthescreenbrightness.
+6. Pre-recording:Turnon/off.Onceenabled,itsaves10-30secondsofvideobeforeyoupress
+theShutterButton.OnlysupportedinVideoandFreeFrameVideo.
+7. IntervalVideo:Turnon/off.Onceenabled,thecamerawillautomaticallypoweron,start
+recordingandpoweroffatsetintervalswhenthecameraispoweredoff.Thedefaultsetting
+willpauseIntervalVideoafterputtingGO 3SintotheActionPod.Youcanmodifythisin
+camerasettings.
+8. KidsMode:Turnon/off.SuitablewhenGO3Sisbeingwornorusedbyachild.Onceenabled,it
+stopsbuttonsfrom workingtopreventaccidentalpresses,silencespromptsoundsanddims
+theindicatorlights.
+9. Grid:Turnon/off.
+10.LevelIndicator:Turnon/off.Onceenabled,ahorizontalreferencelineappearsonthedisplay
+soyoucaneasilytellifyourshotislevel.
+GO 3SUserManual
+1911.VoiceControl:Turnon/off.
+12.GestureControl:Turnon/off.
+13.QuickCapture:Turnon/off.Onceenabled,presstheShutterButtonwhenthecamerais
+poweredofftoturnitonandstartrecording.
+14.TimedCapture:UsetheTimedCapturefunctioninthecurrentshootingmode.Onlysupported
+inVideo,FreeFrameVideo,Photo,IntervalPhoto,andTimelapsemode.
+15.AudioSettings:Switchaudiomode.ChoosebetweenWindReduction,StereoorDirection
+Focus.
+16.Settings:Seecamerasettings.
+GO 3SUserManual
+20ShootingSpecificationSettings
+Swipeupfrom thebottom ofthetouchscreentoview shootingspecificationsettings.
+ShootingMode Parameters
+Photo Ratio,Format,Timer
+Video Ratio,Resolution,FrameRate,Stabilization,Duration
+FreeFrameVideo Ratio,Resolution,FrameRate,Duration
+Timelapse Ratio,Interval,Duration
+TimeShift Ratio,Resolution,FrameRate,Duration
+Slow Motion Ratio,Resolution,FrameRate,Duration
+LoopRecording Ratio,LoopDuration,Resolution,FrameRate,Stabilization
+Starlapse Ratio,Format,Timer,Duration
+Interval Ratio,Format,Interval,Duration
+HDRPhoto Ratio,Format,Timer
+GO 3SUserManual
+21ShootingParameterSettings
+Swipeleftfrom therightedgeofthetouchscreentoseetheshootingparametersettings.
+Parameters Descriptions
+ShutterSpeed Controlsthetimeittakesforlighttoenterthecamera.Thefasterthe
+shutterspeed,theclearertheimage.Makethishigherfordynamic
+shotsandlowerforlow lightconditions.
+Sensitivity
+(ISO)Reflectshow sensitivethesensoristolight.Ahighersensitivitymeans
+thecameracancapturemorelightforabrighterimage.
+Exposure
+Compensation
+Value(EV)InAutoMode,youcanadjusttheEVtohelpwithoverexposureor
+underexposure.
+WhiteBalance
+(WB)Removesunrealisticcolorsandtonessocolorsareaccuratelycaptured
+intheimage.Ahigherwhitebalanceproduceswarmertonesandlower
+resultsincoolertones.
+JitterBlur
+ReductionImprovesmotionblurandstabilizationinlow lightenvironments.In
+extremeenvironments,theimagewillbedarkerandmayhavesome
+flickering.
+GO 3SUserManual
+22Filters Adddifferentcolortonesandeffects.
+Metering
+ModeFacePriorityprioritizesthefaceforbrightness.Matrixensuresaccurate
+exposureofthewholeimage.
+Sharpness Adjuststhevideoscreen'sclarityandtheimageedges'sharpness.
+ShootingMode Parameters
+Auto Manual
+Photo EV,MeteringMode,WB Shutter,ISO,WB
+Video Filters,EV,MeteringMode,Low Light
+Stabilization,WB,SharpnessFilters,Shutter,ISO,WB,Sharpness
+FreeFrame
+VideoFilters,EV,MeteringMode,Low Light
+Stabilization,WB,SharpnessFilters,Shutter,ISO,WB,
+Sharpness
+Timelapse Filters,EV,WB,Sharpness Filters,Shutter,ISO,WB,
+Sharpness
+TimeShift Filters,EV,WB,Sharpness Filters,Shutter,ISO,WB,
+Sharpness
+Slow Motion EV,WB,Sharpness Shutter,ISO,WB,
+Sharpness
+Loop
+RecordingFilters,EV,MeteringMode,Low Light
+Stabilization,WB,SharpnessFilters,Shutter,ISO,WB,
+Sharpness
+Starlapse EV,WB Shutter,ISO,WB
+Interval EV,WB Shutter,ISO,WB
+HDRPhoto WB
+GO 3SUserManual
+23Album Page
+Swiperightfrom theleftofthetouchscreentoentertheAlbum page.
+
+GO 3SUserManual
+24AppleFindMy
+GO 3S iscompatiblewith AppleFind My,which allowsyou to quicklyrelocateyourGO 3S from
+yourAppledevice,aslongasGO3Shasbattery.Youneedtoconnectthecamerafirst.
+1. Turnonthecamera.
+2. Select"AppleFindMy"incamerasettingsandtap"StartPairing".
+3. OpentheFindMyapponyourAppledevice,connectandaddInsta360GO 3StoyourItems.
+4. Aftersuccessfullyconnecting,youcanlocateyourGO3SwiththeFindMyapp.
+Note:
+1. OnlysupportswhenGO3Shasbatteryremaining,evenifit'spoweredoff.
+2. OnlysupportsfindingtheGO3Sstandalonecamera,nottheActionPod.
+3. OnlyavailableforAppledeviceswiththeFindMyapp.
+GO 3SUserManual
+25IndicatorLights
+ThecamerahastwoLEDIndicatorLights,oneontheGO3SbodyandoneontheActionPod.Both
+displaythesameinformation.Youcanturntheindicatorlightson/offinSettings>General.
+CameraStatusGO3SIndicatorLightStatus ActionPodIndicatorLightStatus
+Poweron
+SolidcyanSolidblueduringstartup,then
+solidcyan
+Standby
+Standby(charging)
+Standby(fullycharged)
+Pre-recording
+U-DiskModeSolidcyan Solidcyan
+Poweroff Flashingcyanfivetimes Flashingcyanfivetimes
+Charging(poweredoff) Solidred
+(turnsoffwhenfully
+charged)Solidred
+(turnsoffwhenfullycharged)
+Recordingavideo
+TimelapseFlashingred Flashingred
+Intervalphoto Flashingcyan,lightsturnoff
+whentakingphotoFlashingcyan,lightsturnoff
+whentakingphoto
+Countdown / >1s:Flashingcyan
+<1s:Flashingcyanfivetimes
+Updatingfirmware Slowlyflashingblue Slowlyflashingblue
+Insufficientstorage Solidyellow Solidyellow
+Low battery Flashingyellow threetimes
+every5secondsFlashingyellow threetimesevery
+5seconds
+Temperaturetoohigh Flashingyellow threetimes Flashingyellow threetimes
+GO 3SUserManual
+26Downloadingtoapp Flashinggreen Flashinggreen
+Successfullyconnectedto
+QuickReaderSolidgreen Solidgreen
+Backingup/FormattingQuick
+ReaderFlashinggreen Flashinggreen
+IssuewithQuickReaderi.e.,
+insufficient
+memory/abnormal
+backup/formattingfailureFlashingyellow threetimes Flashingyellow threetimes
+Storage
+Twooptionsareavailableforthecamera'sinternalstoragecapacity:64GBand128GB.Theactual
+usablespaceforfilestoragewillbeslightlylessthanthetotalcapacityduetothesystem
+occupyingsomespace.
+GO 3SAndGO 3ActionPod
+TheGO 3SstandalonecameraiscompatiblewiththeGO 3ActionPod(updatedtothelatest
+firmware):
+1. PlaceGO 3SintotheGO3ActionPod.
+2. DownloadorconnecttotheInsta360appontheofficialwebsitetoupgradetheGO 3Action
+Podtothelatestfirmwareversion.
+3. Aftertheupgradeiscompleted,pressandholdtheGO 3Sbuttontoturnonthedevice,and
+waitforGO 3StoconnecttotheGO 3ActionPod.
+4. Aftertheconnectioniscompleted,thecameracanbeusedasnormal.
+GO 3SUserManual
+27Insta360App
+ConnecttotheInsta360App
+1. DownloadtheInsta360app.Alternatively,search"Insta360"intheAppStoreorGooglePlay
+StoretodownloadtheInsta360app.
+2. PressthePowerButtontoturnonthecamera.
+3. EnableWi-FiandBluetoothonyoursmartphone.
+4. OpentheInsta360appandtapthecameraiconatthebottom ofthepage.Follow theon-
+screeninstructionstoactivateyourcamera.
+5. IfyouconnecttotheInsta360appforthefirsttime,youneedtoauthorizetheconnectionon
+thetouchscreenorpresstheShutterButton.
+Ifyouareunabletoconnecttotheapp,gotoyoursmartphone'sWi-Fisettings,findyourcamera
+,enterthepasswordandreturntotheapp.
+Note:Youcanchangethecamera'sWi-Fipasswordontheappsettingspage.
+Stillcan'tconnecttotheInsta360App?
+1. CheckiftheInsta360apphaspermissionforthefollowing:networkpermission,Bluetooth
+permission,orlocalnetworkpermission.
+2. CheckifWi-Fiisenabledonyourcamera.
+3. Makesurethecameraiscloseenoughtothephone.
+GO 3SUserManual
+28Editing
+Youcanview andedityourfootageintheInsta360apporInsta360Studio.
+Insta360App
+● EditPage
+1. ConnectyourcameratotheInsta360app.
+2. HeadtotheEditpage.Youcanopenandedityourmaterialin"CreateaVideo",oruseAIto
+automaticallyedityourclipswith"AutoEdit".TryouttheAItemplates,themesandeffectswith
+FlashCutandShotLabforviralvideosinseconds.
+ Album Page
+1. ConnectthecameratotheInsta360app.
+2. EntertheAlbum pagetoview allyourclips.
+3. Openfootageandedititintheplayer.
+Insta360Studio
+1. DownloadandopenInsta360Studiofrom theInsta360websiteonyourcomputer.
+2. Connectyourcameratoyourcomputerandimportyourfootage.
+3. EditwithStudio'sextensivetoolsandlibrary,oruseitsAbobePremierepluginforevenmore
+options.
+GO 3SUserManual
+29FileTransfer
+Youcandownloadcamerafilestoyourphoneorcomputer,theneditandexportthem usingthe
+Insta360apporInsta360Studio.
+Filetransferfrom cameratophone
+WirelessConnection(iOS/Android)
+1. ConnectthecameratotheInsta360app.
+2. Opentheapp'salbum page.
+3. Tapthetoprighticontoselectthefilesyouwanttotransfer.
+4. Taptheexporticontosaveittoyourphone'salbum.
+5. Donotexittheapporlockyourphonewhileexporting.Tapthedownloadicontodownloadthe
+filestotheapp'sgallery.
+Ifyourcameracan'tconnecttotheInsta360app,trythefollowing:
+1. Updatethecameraandapptothelatestversion.
+2. Checkyourphone'sWi-Fisettingstoseeifit'sconnected.Ifnot,entertheWi-Fipasswordand
+restartyourcameraandphonebeforetryingagain.Ifit'sstillnotconnecting,forgetthe
+camera'sWi-Finetworkinyourphonesettingsandattempttoreconnect.
+3. MakesuretheInsta360apphasGPSandBluetoothpermissionsenabled.OnAndroiddevices,
+disableWLAN+orauto-switchWi-Fi(ifavailable).OniOSdevices,gotosystem settings,
+selectInsta360,andturnon"LocalNetwork."
+GO 3SUserManual
+30Filetransferfrom cameratocomputer
+(Mac/Windows)
+1. UsetheofficialType-Ccabletoconnectthecameratoyourcomputer.
+2. Poweronthecameraandselect'USBDriveMode'.Waitforthecomputertorecognizethe
+cameradrive.
+3. OpenDCIM >Camera01folderandcopyphotos/videosfrom thisfoldertoyourcomputer.
+Ifyourcameracan'tconnecttothecamera,trythefollowing:
+1. Ensurethecamera'sfirmwareisuptodate.
+2. Usetheofficialdatacablefortransfer,asnon-officialcablesmayhavecompatibilityissues.
+3. Makesurethecameraispoweredon.
+TransferfilesbetweentheInsta360appandyourMac
+iPhone
+1. ConnectyouriPhonetoyourMac.
+2. IntheFinderwindow onyourMac,selectyouriPhone.
+3. AtthetopoftheFinderwindow,clickFiles,thendooneofthefollowing:
+○ Transferfrom MactoiPhone:Createanew folderandnameitIMPORTonyourdesktop.
+DragyourfilestotheIMPORTfolderandthenintotheInsta360appfolderonyourdevice.
+○ Transferfrom iPhonetoMac:ClickthesmalltrianglebesidetheInsta360apptoseethe
+DCIM folder,thendragthedesiredfilestoafolderonyourMac.
+Notes:
+● ThefoldermustbenamedIMPORTwithcapitalletters.
+● Youmaynotbeabletoseethetransferprogress.Pleasewaitpatientlyforittofinish.
+● Aftertransferring,restarttheInsta360apponyourphonetoseethefiles.
+GO 3SUserManual
+31Android
+1. InstallAndroidFileTransferonyourMac.
+2. ConnectyourphonetotheMacandopenAndroidFileTransfer.
+3. Find"data>com.arashivision.insta360akiko>files>Insta360OneR>galleryOriginal".
+4. BrowsethefilesandfoldersonyourAndroiddevice,thencopyandpasteordragthem toa
+folderonyourMac.
+TransferfilesbetweentheInsta360appandyourWindowsPC
+iPhone
+1. InstalliTunesonyourWindowsPC.ConnectyouriPhonetoyourPC,openiTunes,then
+completetheauthorizationprocessaccordingtotheinstructions.
+2. Aftersuccessfulauthorization,clicktheiPhoneiconinthetopleftcorner,andtheiPhone's
+fileswillappear.
+3. Click"FileSharing"andchoose"Insta360"from thelist.Thendooneofthefollowing:
+○ Transferfrom iPhonetoWindowsPC:FindtheDCIM folder,thenclickSave.Chooseyour
+desiredpathandclickSave.
+○ Transferfrom WindowsPCtoiPhone:Createanew folderandnameitIMPORT,then
+copythephotos/videostotheIMPORTfolder.ReplacetheIMPORTfolderintheInsta360app.
+Notes:
+● ThefoldermustbenamedIMPORTwithcapitalletters.
+● Aftertransferring,restarttheInsta360apponyourphonetoseethefiles.
+Android
+1. ConnectyourAndroidphonetoyourPC.Choose"ManageFiles"under"USBConnected"onthe
+phoneifrequired.
+2. Click"MyComputer/ThisComputer",findyourphonemodel,andclick"InternalStorage".
+3. Find"data>com.arashivision.insta360akiko>files>Insta360OneR>galleryOriginal",thendo
+oneofthefollowing:
+○ Transferfrom AndroidtoWindowsPC:CopythefolderorfilestoyourPC.
+○ Transferfrom WindowsPCtoAndroid:Copyfilestothisfolderfrom yourPC.
+GO 3SUserManual
+32Maintenance
+FirmwareUpdate
+Firmwareupdateswillberegularlyavailableforthecameratoensureitrunsefficiently.Please
+updatetothelatestversionforoptimalresults.
+Beforeupdating,ensurethecamerahasatleast20% batteryremaining.
+UpdateviaInsta360App:
+ConnectthecameratotheInsta360app.Theappwillnotifyyouifanew firmwareupdateis
+available.Follow theon-screeninstructionstoupdatethefirmware.
+Ifthecamerafirmwareupdatefails,checkthefollowingandtrytheupdateagain:
+1. Ensurethecameraisclosetoyourphone.
+2. KeeptheInsta360apprunninganddonotexitorminimizeit.
+3. Ensureyourphonehasastrongandstablenetworkconnection.
+UpdateviaComputer
+1. Makesurethecameraispoweredon.
+2. ConnectthecameratothecomputerusingtheUSBType-CcableandselectUSBMode.
+3. Downloadthelatestfirmwareversionfrom theofficialInsta360websiteonyourcomputer.
+4. Oncethecomputerhasrecognizedthecamera,copythe"Insta360GO3SFW.pkg"filetothe
+camera'srootdirectory.
+Note:
+1. Donotchangethefilename.
+2. Disconnectthecamerafrom thecomputer.Thecamerawillautomaticallypoweroff.
+3. Poweronthecameraandwaitafew momentsforthefirmwareupdatetostart.Theindicator
+lightswillslowlyflashblue.
+GO 3SUserManual
+33Waterproofing
+1. GO3S(whentakenoutoftheActionPod)iswaterproofupto33ft(10m).TheincludedLens
+Guardmustbeinstalledonthecameraforunderwateruse.Otherwise,thecamerawillnotbe
+waterproof,andtheshootingeffectwillbeaffected.TheLensGuardisinstalledbydefault.
+2. TheActionPodisIPX4waterresistantonlywhenGO 3isinstalled.Itprotectsagainstlight
+rainandsnow butshouldnotbesubmergedinwaterorusedforhigh-velocitywateractivities,
+suchasactionsportsduringrainyweather,surfing,andwaterskiing.
+3. Forextendedunderwateruse,usetheGO3SDiveCase.WiththeDiveCase,GO3Sandthe
+ActionPodarewaterproofto197ft(60m).
+4. Beforeusingitunderwater,ensurethechargingpointsonthebackofGO3SandtheAction
+Podarenotdamagedoroxidized.
+5. AfterusingtheGO 3S(withouttheActionPod)inseawater:
+￮ Rinsethecamerawithfreshwater.
+￮ Soakitinfreshwaterfor10minutes.
+￮ Dryitwithasoftclothandplaceitinaventilatedareatodrynaturally.Waituntilthe
+cameraiscompletelydrybeforeusingitagain.
+TomaintainthewaterproofingofGO3S:
+● Do notuse a hairdryerto dry the camera;itmay affectthe microphone and speakerand
+damagetheinternalwaterproofingability.
+● AvoidoperatingGO 3S forextendedperiods(>1hour)outsidetherecommendedtemperature
+range(-4°Fto104°F/-20℃ to40℃ )orinhumidenvironments.
+● Donotstorethecamerainhigh-temperatureorhigh-humidityenvironments,andavoidstoring
+itwithitemssuchasperfumeandcosmeticstoavoidcontactcorrosion.
+● Avoidenteringwaterathighspeeds,asexcessivewaterimpactandpressuremaydamagethe
+device.
+● Trytoavoidseriousdropsandimpacts.
+● Donotdisassemblethecamera.
+GO 3SUserManual
+34Cleaning
+● Ifforeignobjects,suchasdirtorhair,areontheLensGuard,cleanitwithcleanwaterorusea
+lenspen,airblowerorcloth.
+● Ifthelenscontainsforeignobjects,suchasdirtorhair,cleanitwithalenspen,airbloweror
+cloth.
+GO 3SUserManual
+35ArashiVisionInc.
+ADD:11thFloor,Building2,JinlitongFinancialCenter,Bao'anDistrict,Shenzhen,Guangdong,
+China
+WEB:www.insta360.com
+TEL:400-833-4360+18006920360
+EMAIL:service@insta360.com
+V1.0

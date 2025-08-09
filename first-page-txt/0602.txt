@@ -1,0 +1,10 @@
+Sliding Gate Opener
+EN - Instructions and warnings for installation and use
+IT - Istruzioni ed avvertenze per l’installazione e l’uso
+FR - Instructions et avertissements pour l’installation et l’utilisation
+ES - Instrucciones y advertencias para la instalación y el uso
+DE - Installierungs-und Gebrauchsanleitungen und Hinweise
+PL -	Instrukcje	i	ostrzeżenia	do	instalacji	i	użytkowania
+NL - Aanwijzingen en aanbevelingen voor installatie en gebruikNice
+RUN400HS
+RUN400HS / V1RUN1200HSRUN1200HS / V1

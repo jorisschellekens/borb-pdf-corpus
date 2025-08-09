@@ -1,0 +1,660 @@
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 1/23
+BO M B DEF U SA L
+M A N U A L
+www.keeptalkinggame.com
+V ersion 1  
+V erification Code: 241
+Video game companion manual. Find out more at www.keeptalkinggame.com
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 2/23
+Welcome to the dangerous and challenging wor ld of bomb defusing.
+Study this manual carefull y; you are the expert . In these pages you will find
+everything you need to know to defuse even the most insidious of bombs.  
+And remember — One small oversight and i t could all be over!K eep Talking and Nobody Explodes v . 1 Introduction
+Page 2 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 3/23
+Strike
+IndicatorDefusing Bombs
+A bomb will explode when i ts countdown timer reaches 0:00 or when too many
+strikes have been recorded. The onl y way to defuse a bomb is to disarm all of i ts
+modules before i ts countdown timer expires.
+Example Bomb  
+ 
+Front 
+Side
+M o d u les
+Each bomb will incl ude up to 11 modules that must be disarmed. Each module is
+discrete and can be disarmed in any order .
+Instructions for disarming modules can be found in Section 1. "Needy" modules
+present a special case and are described in Section 2.
+S t r i k e s
+When the Defuser makes a mistake, the bomb will record a strike
+which will be displayed on the indicator above the countdown
+timer . Bombs wi th a strike indicator will explode upon the third
+strike. The timer will begin to count down faster after a strike
+has been recorded.
+If no strike indicator is present above the countdown timer , the
+bomb will explode upon the first strike, leaving no room for error .
+G a t h e r i n g  I n f o r m a t i o n
+Some disarming instructions will require specific information about the bomb,
+such as the serial number . This type of information can typicall y be found on
+the top, bottom, or sides of the bomb casing. See Appendix A, B, and C for
+identification instructions that will be useful in disarming certain modules.K eep Talking and Nobody Explodes v . 1 Defusing Bombs
+Page 3 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 4/23
+Section 1: Modules
+Modules can be identified by an LED in the top right corner .
+When this LED is li t green, the module has been disarmed.
+All modules must be disarmed to defuse the bomb.K eep Talking and Nobody Explodes v . 1 Section 1: Modules
+Page 4 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 5/23
+On the Sub ject of Wires
+Wires are the lifeblood of electronics! Wai t, no, electrici ty is the lifeblood.
+Wires are more like the arteries. The veins? No matter …
+A wire module can have 3-6 wires on i t.
+Onl y the one  correct wire needs to be cut to disarm the
+module.
+Wire ordering begins wi th the first on the top.
+3 wires:   
+If there are no red wires, cut the second wire.   
+Otherwise, if the last wire is whi te, cut the last wire.   
+Otherwise, if there is more than one bl ue wire, cut the last bl ue wire.   
+Otherwise, cut the last wire.
+4 wires:   
+If there is more than one red wire and the last digi t of the serial number is
+odd, cut the last red wire.   
+Otherwise, if the last wire is yellow and there are no red wires, cut the first
+wire.   
+Otherwise, if there is exactl y one bl ue wire, cut the first wire.   
+Otherwise, if there is more than one yellow wire, cut the last wire.   
+Otherwise, cut the second wire.
+5 wires:   
+If the last wire is black and the last digi t of the serial number is odd, cut
+the fourth wire.   
+Otherwise, if there is exactl y one red wire and there is more than one yellow
+wire, cut the first wire.   
+Otherwise, if there are no black wires, cut the second wire.   
+Otherwise, cut the first wire.
+6 wires:   
+If there are no yellow wires and the last digi t of the serial number is odd,
+cut the third wire.   
+Otherwise, if there is exactl y one yellow wire and there is more than one
+whi te wire, cut the fourth wire.   
+Otherwise, if there are no red wires, cut the last wire.   
+Otherwise, cut the fourth wire.K eep Talking and Nobody Explodes v . 1 Wires
+Page 5 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 6/23
+On the Sub ject of The Button
+Y ou might think that a button telling you to press i t is pretty straightforward.
+That’s the kind of thinking that gets people exploded.
+See Appendix A for indicator identification reference.  
+See Appendix B for battery identification reference.
+F ollow these rules in the order they are listed. Perform the
+first action that applies:
+1 . If the button is bl ue and the button says " Abort" , hold the button and refer
+to "Releasing a Held Button" .
+2 . If there is more than 1 battery on the bomb and the button says "Detonate" ,
+press and immediatel y release the button.
+3 . If the button is whi te and there is a li t indicator wi th label CAR, hold the
+button and refer to "Releasing a Held Button" .
+4 . If there are more than 2 batteries on the bomb and there is a li t indicator
+wi th label FRK, press and immediatel y release the button.
+5 . If the button is yellow, hold the button and refer to "Releasing a Held
+Button" .
+6 . If the button is red and the button says "Hold" , press and immediatel y
+release the button.
+7 . If none of the above appl y , hold the button and refer to "Releasing a Held
+Button" .
+R e lea s i n g  a  H e ld  B u t t o n
+If you start holding the button down, a colored strip will light up on the right
+side of the module. Based on i ts color , you must release the button at a specific
+point in time:
+Bl ue strip:  release when the countdown timer has a 4 in any posi tion.
+Whi te strip:  release when the countdown timer has a 1 in any posi tion.
+Y ellow strip:  release when the countdown timer has a 5 in any posi tion.
+Any other color strip:  release when the countdown timer has a 1 in any
+posi tion.K eep Talking and Nobody Explodes v . 1 The Button
+Page 6 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 7/23
+On the Sub ject of K eypads
+I'm not sure what these symbols are, but I suspect they have something to do wi th
+occul t.
+Onl y one col umn below has all four of the symbols from
+the keypad.
+Press the four buttons in the order their symbols appear
+from top to bottom wi thin that col umn.
+ 
+ 
+K eep Talking and Nobody Explodes v . 1 K eypads
+Page 7 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 8/23
+On the Sub ject of Simon Says
+This is like one of those toys you played wi th as a kid where you have to match the
+pattern that appears, except this one is a knockoff that was probabl y purchased at
+a dollar store.
+1 . One of the four colored buttons will flash.
+2 . Using the correct table below, press the button wi th the
+corresponding color .
+3 . The original button will flash, followed by another . Repeat this sequence
+in order using the color mapping.
+4 . The sequence will lengthen by one each time you correctl y enter a sequence
+until the module is disarmed.
+B l u e
+Y el l o w R ed
+G r een
+If the serial number contains a vowel:
+Red
+FlashBl ue
+FlashGreen
+FlashY ellow
+Flash
+Button to press:No Strikes Bl ue Red Y ellow Green
+1 Strike Y ellow Green Bl ue Red
+2 Strikes Green Red Y ellow Bl ue
+If the serial number does not  contain a vowel:
+Red
+FlashBl ue
+FlashGreen
+FlashY ellow
+Flash
+Button to press:No Strikes Bl ue Y ellow Green Red
+1 Strike Red Bl ue Y ellow Green
+2 Strikes Y ellow Green Bl ue RedK eep Talking and Nobody Explodes v . 1 Simon Says
+Page 8 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 9/23
+On the Sub ject of Who’s on First
+This contraption is like something out of a sketch comedy routine, which might
+be funny if i t wasn't connected to a bomb. I’ll keep this brief, as words onl y
+complicate matters.
+1 . Read the display and use step 1 to determine which
+button label to read .
+2 . Using this button label, use step 2 determine which
+button to push .
+3 . Repeat until the module has been disarmed.
+S t e p  1 :
+Based on the display , read  the label of a particular button and proceed to step 2:
+Y E S
+  
+ 
+  FI R S T
+ 
+  
+  DI S P L A Y
+  
+  
+ 
+O K A Y
+ 
+  
+  S A Y S
+  
+  
+ 
+N O T H I N G
+  
+ 
+  
+  
+  
+ B L A N K
+  
+ 
+  N O
+  
+  
+ 
+L E D
+  
+ 
+  L E A D
+  
+  
+ 
+R E A D
+  
+ 
+  
+R E D
+  
+ 
+  R E E D
+  
+  
+ L E E D
+  
+  
+ H O L D O N
+  
+  
+ 
+Y O U
+  
+ 
+  Y O U  A R E
+  
+  
+ 
+Y O U R
+  
+ 
+  Y O U ' R E
+  
+ 
+  U R
+ 
+  
+  T H E R E
+  
+  
+ 
+T H E Y ' R E
+  
+  
+ T H E I R
+  
+ 
+  
+T H E Y  A R E
+  
+ 
+  S E E
+  
+  
+ 
+C
+ 
+  
+  C E E
+  
+  
+ 
+K eep Talking and Nobody Explodes v . 1 Who's on First
+Page 9 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 10/23
+S t e p  2 :
+Using the label from step 1, push the first button  that appears in i ts
+corresponding list:
+" READ Y " : Y E S ,  O K A Y ,  W H A T ,  M I D D L E ,  L E F T ,  P R E S S ,  R I G H T ,  B L A N K ,  R E A D Y ,  N O ,  F I R S T ,  U H H H ,  N O T H I N G ,  W A I T
+" FIRST " : L E F T ,  O K A Y ,  Y E S ,  M I D D L E ,  N O ,  R I G H T ,  N O T H I N G ,  U H H H ,  W A I T ,  R E A D Y ,  B L A N K ,  W H A T ,  P R E S S ,  F I R S T
+" NO " : B L A N K ,  U H H H ,  W A I T ,  F I R S T ,  W H A T ,  R E A D Y ,  R I G H T ,  Y E S ,  N O T H I N G ,  L E F T ,  P R E S S ,  O K A Y ,  N O ,  M I D D L E
+" BLANK " : W A I T ,  R I G H T ,  O K A Y ,  M I D D L E ,  B L A N K ,  P R E S S ,  R E A D Y ,  N O T H I N G ,  N O ,  W H A T ,  L E F T ,  U H H H ,  Y E S ,  F I R S T
+" NOTHING " : U H H H ,  R I G H T ,  O K A Y ,  M I D D L E ,  Y E S ,  B L A N K ,  N O ,  P R E S S ,  L E F T ,  W H A T ,  W A I T ,  F I R S T ,  N O T H I N G ,  R E A D Y
+" YES " : O K A Y ,  R I G H T ,  U H H H ,  M I D D L E ,  F I R S T ,  W H A T ,  P R E S S ,  R E A D Y ,  N O T H I N G ,  Y E S ,  L E F T ,  B L A N K ,  N O ,  W A I T
+" WHA T " : U H H H ,  W H A T ,  L E F T ,  N O T H I N G ,  R E A D Y ,  B L A N K ,  M I D D L E ,  N O ,  O K A Y ,  F I R S T ,  W A I T ,  Y E S ,  P R E S S ,  R I G H T
+" UHHH " : R E A D Y ,  N O T H I N G ,  L E F T ,  W H A T ,  O K A Y ,  Y E S ,  R I G H T ,  N O ,  P R E S S ,  B L A N K ,  U H H H ,  M I D D L E ,  W A I T ,  F I R S T
+" LEFT " : R I G H T ,  L E F T ,  F I R S T ,  N O ,  M I D D L E ,  Y E S ,  B L A N K ,  W H A T ,  U H H H ,  W A I T ,  P R E S S ,  R E A D Y ,  O K A Y ,  N O T H I N G
+" RIGHT " : Y E S ,  N O T H I N G ,  R E A D Y ,  P R E S S ,  N O ,  W A I T ,  W H A T ,  R I G H T ,  M I D D L E ,  L E F T ,  U H H H ,  B L A N K ,  O K A Y ,  F I R S T
+" MIDDLE " : B L A N K ,  R E A D Y ,  O K A Y ,  W H A T ,  N O T H I N G ,  P R E S S ,  N O ,  W A I T ,  L E F T ,  M I D D L E ,  R I G H T ,  F I R S T ,  U H H H ,  Y E S
+" OKAY " : M I D D L E ,  N O ,  F I R S T ,  Y E S ,  U H H H ,  N O T H I N G ,  W A I T ,  O K A Y ,  L E F T ,  R E A D Y ,  B L A N K ,  P R E S S ,  W H A T ,  R I G H T
+" W AIT " : U H H H ,  N O ,  B L A N K ,  O K A Y ,  Y E S ,  L E F T ,  F I R S T ,  P R E S S ,  W H A T ,  W A I T ,  N O T H I N G ,  R E A D Y ,  R I G H T ,  M I D D L E
+" PRESS " : R I G H T ,  M I D D L E ,  Y E S ,  R E A D Y ,  P R E S S ,  O K A Y ,  N O T H I N G ,  U H H H ,  B L A N K ,  L E F T ,  F I R S T ,  W H A T ,  N O ,  W A I T
+" Y OU " : S U R E ,  Y O U  A R E ,  Y O U R ,  Y O U ' R E ,  N E X T ,  U H  H U H ,  U R ,  H O L D ,  W H A T ? ,  Y O U ,  U H  U H ,  L I K E ,  D O N E ,  U
+" Y OU ARE " : Y O U R ,  N E X T ,  L I K E ,  U H  H U H ,  W H A T ? ,  D O N E ,  U H  U H ,  H O L D ,  Y O U ,  U ,  Y O U ' R E ,  S U R E ,  U R ,  Y O U  A R E
+" Y OUR " : U H  U H ,  Y O U  A R E ,  U H  H U H ,  Y O U R ,  N E X T ,  U R ,  S U R E ,  U ,  Y O U ' R E ,  Y O U ,  W H A T ? ,  H O L D ,  L I K E ,  D O N E
+" Y OU'RE " : Y O U ,  Y O U ' R E ,  U R ,  N E X T ,  U H  U H ,  Y O U  A R E ,  U ,  Y O U R ,  W H A T ? ,  U H  H U H ,  S U R E ,  D O N E ,  L I K E ,  H O L D
+" UR " : D O N E ,  U ,  U R ,  U H  H U H ,  W H A T ? ,  S U R E ,  Y O U R ,  H O L D ,  Y O U ' R E ,  L I K E ,  N E X T ,  U H  U H ,  Y O U  A R E ,  Y O U
+" U " : U H  H U H ,  S U R E ,  N E X T ,  W H A T ? ,  Y O U ' R E ,  U R ,  U H  U H ,  D O N E ,  U ,  Y O U ,  L I K E ,  H O L D ,  Y O U  A R E ,  Y O U R
+" UH HUH " : U H  H U H ,  Y O U R ,  Y O U  A R E ,  Y O U ,  D O N E ,  H O L D ,  U H  U H ,  N E X T ,  S U R E ,  L I K E ,  Y O U ' R E ,  U R ,  U ,  W H A T ?
+" UH UH " : U R ,  U ,  Y O U  A R E ,  Y O U ' R E ,  N E X T ,  U H  U H ,  D O N E ,  Y O U ,  U H  H U H ,  L I K E ,  Y O U R ,  S U R E ,  H O L D ,  W H A T ?
+" WHA T? " : Y O U ,  H O L D ,  Y O U ' R E ,  Y O U R ,  U ,  D O N E ,  U H  U H ,  L I K E ,  Y O U  A R E ,  U H  H U H ,  U R ,  N E X T ,  W H A T ? ,  S U R E
+" DONE " : S U R E ,  U H  H U H ,  N E X T ,  W H A T ? ,  Y O U R ,  U R ,  Y O U ' R E ,  H O L D ,  L I K E ,  Y O U ,  U ,  Y O U  A R E ,  U H  U H ,  D O N E
+" NEXT " : W H A T ? ,  U H  H U H ,  U H  U H ,  Y O U R ,  H O L D ,  S U R E ,  N E X T ,  L I K E ,  D O N E ,  Y O U  A R E ,  U R ,  Y O U ' R E ,  U ,  Y O U
+" HOLD " : Y O U  A R E ,  U ,  D O N E ,  U H  U H ,  Y O U ,  U R ,  S U R E ,  W H A T ? ,  Y O U ' R E ,  N E X T ,  H O L D ,  U H  H U H ,  Y O U R ,  L I K E
+" SURE " : Y O U  A R E ,  D O N E ,  L I K E ,  Y O U ' R E ,  Y O U ,  H O L D ,  U H  H U H ,  U R ,  S U R E ,  U ,  W H A T ? ,  N E X T ,  Y O U R ,  U H  U H
+" LIKE " : Y O U ' R E ,  N E X T ,  U ,  U R ,  H O L D ,  D O N E ,  U H  U H ,  W H A T ? ,  U H  H U H ,  Y O U ,  L I K E ,  S U R E ,  Y O U  A R E ,  Y O U RK eep Talking and Nobody Explodes v . 1 Who's on First
+Page 10 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 11/23
+On the Sub ject of Memory
+Memory is a fragile thing but so is everything else when a bomb goes off, so pay
+attention!
+Press the correct button to progress the module to the
+next stage. Complete all stages to disarm the module.
+Pressing an incorrect button will reset the module back
+to stage 1.
+Button posi tions are ordered from left to right.
+Stage 1:
+I f  th e  di s p l a y  i s  1 ,  p r e s s  th e  b u tton i n th e  s e c ond p os i ti on.  
+I f  th e  di s p l a y  i s  2,  p r e s s  th e  b u tton i n th e  s e c ond p os i ti on.  
+I f  th e  di s p l a y  i s  3 ,  p r e s s  th e  b u tton i n th e  th i r d p os i ti on.  
+I f  th e  di s p l a y  i s  4 ,  p r e s s  th e  b u tt on i n th e  f ou r th  p os i ti on.  
+Stage 2:
+I f  th e  di s p l a y  i s  1 ,  p r e s s  th e  b u tton l a b e l e d " 4 " .  
+I f  th e  di s p l a y  i s  2,  p r e s s  th e  b u tton i n th e  s a m e  p os i ti on a s  y ou  p r e s s e d i n s ta g e  1 .  
+I f  th e  di s p l a y  i s  3 ,  p r e s s  th e  b u tton i n th e  f i r s t p os i ti on.  
+I f  th e  di s p l a y  i s  4 ,  p r e s s  th e  b u tt on i n th e  s a m e  p os i ti on a s  y ou  p r e s s e d i n s ta g e  1 .  
+Stage 3:
+I f  th e  di s p l a y  i s  1 ,  p r e s s  th e  b u tton wi th  th e  s a m e  l a b e l  y ou  p r e s s e d i n s ta g e  2.  
+I f  th e  di s p l a y  i s  2,  p r e s s  th e  b u tton wi th  th e  s a m e  l a b e l  y ou  p r e s s e d i n s ta g e  1 .  
+I f  th e  di s p l a y  i s  3 ,  p r e s s  th e  b u tton i n th e  th i r d p os i ti on.  
+I f  th e  di s p l a y  i s  4 ,  p r e s s  th e  b u tt on l a b e l e d " 4 " .  
+Stage 4:
+I f  th e  di s p l a y  i s  1 ,  p r e s s  th e  b u tton i n th e  s a m e  p os i ti on a s  y ou  p r e s s e d i n s ta g e  1 .  
+I f  th e  di s p l a y  i s  2,  p r e s s  th e  b u tton i n th e  f i r s t p os i ti on.  
+I f  th e  di s p l a y  i s  3 ,  p r e s s  th e  b u tton i n th e  s a m e  p os i ti on a s  y ou  p r e s s e d i n s ta g e  2.  
+I f  th e  di s p l a y  i s  4 ,  p r e s s  th e  b u tt on i n th e  s a m e  p os i ti on a s  y ou  p r e s s e d i n s ta g e  2.  
+Stage 5:
+I f  th e  di s p l a y  i s  1 ,  p r e s s  th e  b u tton wi th  th e  s a m e  l a b e l  y ou  p r e s s e d i n s ta g e  1 .  
+I f  th e  di s p l a y  i s  2,  p r e s s  th e  b u tton wi th  th e  s a m e  l a b e l  y ou  p r e s s e d i n s ta g e  2.  
+I f  th e  di s p l a y  i s  3 ,  p r e s s  th e  b u tton wi th  th e  s a m e  l a b e l  y ou  p r e s s e d i n s ta g e  4 .  
+I f  th e  di s p l a y  i s  4 ,  p r e s s  th e  b u tt on wi th  th e  s a m e  l a b e l  y ou  p r e s s e d i n s ta g e  3 .  K eep Talking and Nobody Explodes v . 1 Memory
+Page 11 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 12/23
+H ow to I n te r p r e t
+1 .  A  s h or t f l a s h  r e p r e s e nts  a  dot.
+2.  A  l ong  f l a s h  r e p r e s e nts  a  da s h .
+3 .  T h e r e  i s  a  l ong  g a p  b e twe e n l e tte r s .
+4 .  T h e r e  i s  a  v e r y  l ong  g a p  b e f or e  th e  wor d r e p e a ts .
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+TU
+V
+W
+X
+Y
+Z
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9On the Sub ject of Morse Code
+An antiquated form of naval communication? What next? At least i t's genuine Morse
+Code, so pay attention and you might just learn something.
+Interpret the signal from the flashing light using the
+Morse Code chart to spell one of the words in the table.
+The signal will loop, wi th a long gap between
+repeti tions.
+Once the word is identified, set the corresponding frequency and press the
+transmi t (TX) button.
+I f  th e
+w or d i s :R e s p ond
+a t
+f r e q u e n c y :
+shell 3.505 MHz
+halls 3.515 MHz
+slick 3.522 MHz
+trick 3.532 MHz
+bo xes 3.535 MHz
+leaks 3.542 MHz
+strobe 3.545 MHz
+bistro 3.552 MHz
+flick 3.555 MHz
+bombs 3.565 MHz
+break 3.572 MHz
+brick 3.575 MHz
+steak 3.582 MHz
+sting 3.592 MHz
+vector 3.595 MHz
+beats 3.600 MHzK eep Talking and Nobody Explodes v . 1 Morse Code
+Page 12 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 13/23
+On the Sub ject of Complicated Wires
+These wires aren't like the others. Some have stripes! That makes them completel y
+different. The good news is that we've found a concise set of instructions on what
+to do about i t! Maybe too concise...
+Look at each wire: there is an LED above the wire and a
+space for a " ★ " symbol below the wire.
+F or each  wire/LED/ symbol combination, use the V enn
+diagram below to decide whether or not to cut the wire.
+Each wire may be striped wi th mul tiple colors.K eep Talking and Nobody Explodes v . 1 Complicated Wires
+Page 13 of 23S S
+C DCSP
+BD BP S
+P BDC
+W i r e  h a s  r e d
+c ol or i ng
+W i r e  h a s  b l u e
+c ol or i ng
+H a s  ★  s y m b ol
+L E D i s  onL e tte r I n s tr u c ti on
+C C u t th e  wi r e
+D Do not c u t th e  wi r e
+SC u t th e  wi r e  i f  th e  l a s t di g i t of  th e
+s e r i a l  nu m b e r  i s  e v e n
+PC u t th e  wi r e  i f  th e  b om b  h a s  a
+p a r a l l e l  p or t
+BC u t th e  wi r e  i f  th e  b om b  h a s  two or
+m or e  b a tte r i e s
+See Appendix B for battery identification reference.  
+See Appendix C for port identification reference.
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 14/23
+On the Sub ject of Wire Sequences
+I t's hard to say how this mechanism works. The engineering is pretty impressi ve,
+but there must have been an easier way to manage nine wires.
+Wi thin this module there are several panels wi th wires
+on them, but onl y one panel is visible at a time. Swi tch
+to the next panel by using the down button and the
+previous panel by using the up button.
+Do not swi tch to the next panel until you are sure that you have cut all
+necessary wires on the current panel.
+Cut the wires as directed by the following table. Wire occurrences are
+cumulati ve over all panels wi thin the module.
+R e d W i r e  O c c u r r e nc e s
+W i r e
+O c c u r r e nc eC u t i f
+c onne c te d
+to:
+Fi r s t r e d
+oc c u r r e nc eC
+S e c ond r e d
+oc c u r r e nc eB
+T h i r d r e d
+oc c u r r e nc eA
+F ou r th  r e d
+oc c u r r e nc eA  or  C
+Fi f th  r e d
+oc c u r r e nc eB
+S i x th  r e d
+oc c u r r e nc eA  or  C
+S e v e nth  r e d
+oc c u r r e nc eA ,  B  or  C
+E i g h th  r e d
+oc c u r r e nc eA  or  B
+N i nth  r e d
+oc c u r r e nc eBB l u e  W i r e  O c c u r r e nc e s
+W i r e
+O c c u r r e nc eC u t i f
+c onne c te d
+to:
+Fi r s t b l u e
+oc c u r r e nc eB
+S e c ond b l u e
+oc c u r r e nc eA  or  C
+T h i r d b l u e
+oc c u r r e nc eB
+F ou r th  b l u e
+oc c u r r e nc eA
+Fi f th  b l u e
+oc c u r r e nc eB
+S i x th  b l u e
+oc c u r r e nc eB  or  C
+S e v e nth  b l u e
+oc c u r r e nc eC
+E i g h th  b l u e
+oc c u r r e nc eA  or  C
+N i nth  b l u e
+oc c u r r e nc eAB l a c k  W i r e  O c c u r r e nc e s
+W i r e
+O c c u r r e nc eC u t i f
+c onne c te d
+to:
+Fi r s t b l a c k
+oc c u r r e nc eA ,  B  or  C
+S e c ond b l a c k
+oc c u r r e nc eA  or  C
+T h i r d b l a c k
+oc c u r r e nc eB
+F ou r th  b l a c k
+oc c u r r e nc eA  or  C
+Fi f th  b l a c k
+oc c u r r e nc eB
+S i x th  b l a c k
+oc c u r r e nc eB  or  C
+S e v e nth  b l a c k
+oc c u r r e nc eA  or  B
+E i g h th  b l a c k
+oc c u r r e nc eC
+N i nth  b l a c k
+oc c u r r e nc eCK eep Talking and Nobody Explodes v . 1 Wire Sequences
+Page 1 4 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 15/23
+On the Sub ject of Mazes
+This seems to be some kind of maze, probabl y stolen off of a restaurant placemat.
+Find the maze wi th matching circular markings.
+The defuser must navigate the whi te light to the red
+triangle using the arrow buttons.
+Warning:  Do not cross the lines shown in the maze. These
+lines are invisible on the bomb.K eep Talking and Nobody Explodes v . 1 Mazes
+Page 15 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 16/23
+On the Sub ject of Passwords
+F ortunatel y this password doesn't seem to meet standard government securi ty
+requirements: 22 characters, mixed case, numbers in random order wi thout any
+palindromes above length 3.
+The buttons above and below each letter will cycle
+through the possibili ties for that posi tion.
+Onl y one combination of the available letters will
+match a password below.
+Press the submi t button once the correct word has been set.
+a b ou t a f te r a g a i n b e l ow c ou l d
+e v e r y f i r s t f ou n d g r e a t h ou s e
+l a r g e l e a r n n e v e r oth e r p l a c e
+p l a n t p oi n t r i g h t s m a l l s ou n d
+s p e l l s ti l l s tu dy th e i r th e r e
+th e s e th i n g th i n k th r e e w a te r
+w h e r e w h i c h w or l d w ou l d w r i teK eep Talking and Nobody Explodes v . 1 Passwords
+Page 16 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 17/23
+Section 2: Needy Modules
+Needy modules cannot be disarmed, but pose a recurrent
+hazard.
+Needy modules can be identified as a module wi th a small
+2 ‑ digi t timer in the top center . Interacting wi th the bomb
+may cause them to become acti vated. Once acti vated, these
+needy modules must be tended to regular l y before their timer
+expires in order to prevent a strike.
+Stay observant: needy modules may reacti vate at any time.K eep Talking and Nobody Explodes v . 1 Section 2: Needy Modules
+Page 1 7 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 18/23
+On the Sub ject of V enting Gas
+Computer hacking is hard work! Well, i t usuall y is. This job could probabl y be
+performed by a simple drinking bird pressing the same key over and over again.
+Respond to the computer prompts by pressing "Y" for "Y es"
+or "N" for "No" .K eep Talking and Nobody Explodes v . 1 V enting Gas
+Page 18 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 19/23
+On the Sub ject of Capaci tor Discharge
+I'm going to guess that this is just meant to occupy your attention, because
+otherwise this is some shoddy electronics work.
+Discharge the capaci tor before i t over loads by holding
+down the lever .K eep Talking and Nobody Explodes v . 1 Capaci tor Discharge
+Page 19 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 20/23
+On the Sub ject of Knobs
+Needlessl y complicated and endlessl y needy . Imagine if such expertise were used
+to make something other than diabolical puzzles.
+The knob can be turned to one of four different
+posi tions.
+The knob must be in the correct posi tion when this
+module's timer hi ts zero.
+The correct posi tion can be determined by the on/ off configuration of the
+twel ve LEDs.
+Knob posi tions are relati ve to the "UP" label, which may have rotated.
+L E D  C o n f i g u r a t i o n s
+Up Posi tion :
+X X X
+X X X X XX X X
+X X X X
+Down Posi tion :
+X X X
+X X X X XX X X
+X X
+Left Posi tion :
+X
+X X X XX
+X X
+Right Posi tion :
+X X X X X
+X X X XX X X
+X X X X 
+ 
+X = Li t LEDK eep Talking and Nobody Explodes v . 1 Knobs
+Page 20 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 21/23
+Appendix A: Indicator Identification Reference
+Labelled indicator lights can be found on the sides of the bomb casing.
+C o m m o n  I n d i c a t o r s
+SND
+CLR
+CAR
+IND
+FRQ
+SIG
+NSA
+MSA
+TRN
+BOB
+FRKK eep Talking and Nobody Explodes v . 1 Appendix A
+Page 21 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 22/23
+Appendix B: Battery Identification Reference
+Common battery types can be found wi thin enclosures on the sides of the bomb
+casing.
+Battery Type
+AA
+DK eep Talking and Nobody Explodes v . 1 Appendix B
+Page 22 of 23
+8/28/2020 KeepT alkingandNobodyExplodes-BombDefusalManual-en-v1
+file:///C:/SteelCrate/KT aNE/git/Manual/build/en/print/source_html/index.html 23/23
+Appendix C: Port Identification Reference
+Digi tal and analog ports can be found on sides of the bomb casing.
+P or t N a m e
+DVI - D
+Parallel
+PS/2
+RJ -45
+Serial
+Stereo RCAK eep Talking and Nobody Explodes v . 1 Appendix C
+Page 23 of 23

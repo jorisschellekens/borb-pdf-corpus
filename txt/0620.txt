@@ -1,0 +1,105 @@
+Brand Manual
+Onderzoekers zijn burgers  
+en veel burgers onderzoekend.  We zijn allemaal op zoek naar waarheid, nieuwsgierig van aard.  Met een onbevangen geest en  de juiste tools kunnen we meer . 
+Samen meer meten, samen 
+meer weten. Scivil wil verenigen, ondersteunen en informeren,  voor meer burgerwetenschap  in Vlaanderen.
+2
+Brand Manual — december 2018Brand Manifesto
+Logo 06
+Typografie	 11
+Kleur	 13
+Lijnenspel	 14
+Grafische	uitwerkingen	 15
+03
+Brand Manual — december 2018
+LOGO LOGO + BASELINE
+04
+Brand Manual — december 2018
+NEGA TIEF LOGO
+In uitzonderlijke gevallen mag het logo ook in 
+een negatieve versie gebruikt worden. Logo
+POSITIEF LOGO
+Het logo wordt zo veel mogelijk in zijn positieve versie gebruikt. Op deze manier zorgen we voor een maximale leesbaarheid.
+Brand Manual — december 2018
+05
+Logo
+GEBRUIK
+De witruimte is de beschermzone rond het logo waarin geen 
+andere visuele elementen geplaatst mogen worden. Het geeft het logo de nodige ruimte om volledig tot zijn recht te komen.
+De breedte van de letter “C” wordt gebruikt als standaard voor 
+het	definiëren	van	de	beschermzone.MINIMUMGROOTTE
+Om leesbaarheid te garanderen, mag in drukwerk de hoogte van het	logo	nooit	kleiner	zijn	dan	10mm.	Voor	schermtoepassingen	mag het logo niet kleiner zijn dan 28px.
+Voor het logo met baseline mag de hoogte nooit kleiner 
+zijn	dan	18mm	in	drukwerk	en	51px	online.10mm
+28px18mm
+51px
+06
+Brand Manual — december 2018
+Logo
+MODULAIR SYSTEEM
+We geven de ruimte om te ‘spelen’ met de baseline. 
+Zo kan deze ook los gebruikt worden van het logo. Voorbeelden hiervan kan je terugvinden onder ‘grafische	uitwerkingen’.
+07
+Brand Manual — december 2018
+Merknaam
+SCHRIJFWIJZE
+De merknaam mag maar op één 
+manier geschreven worden, namelijk: ‘Scivil’ . 
+De baseline is ‘Citizen Science 
+Vlaanderen’ . Andere schrijfwijzen zijn niet toegelaten. Scivil
+Citizen Science 
+Vlaanderen
+08
+Brand Manual — december 2018
+Aa Bb Cc Dd  
+0	1	2	3	4	5	6	7	8	9	
++ ; & # * - =
+Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Oo Pp Qq 
+Rr	Ss	Tt	Uu	Vv	Ww	Xx	Yy	Zz	1	2	3	4	5	6	7	8	9	0	- ! @ # $ € % ^ & * ( ) { } ” | < > ? / . , ’ ; \ ] [ = - +_ T ypografie
+De identiteit van Scivil wordt bepaald door één 
+lettertype: Effra .
+Een correct gebruik van dit lettertype verleent het merk zijn karakteristieke uitstraling, zowel online als in print.
+EFFRA
+Effra	is	onze	branding	typeface.	Het	is	een	strak lettertype met duidelijk humane vormen. Deze geven het letterype een toegankelijk, duidelijk, clean en vriendelijk karakter . Het is een hedendaags lettertype met voldoende eigenheid	en	flexibiliteit	om	een	merk	te	dragen.
+myfonts.com/fonts/daltonmaag/effra 
+fonts.adobe.com/fonts/effra
+09
+Brand Manual — december 2018
+Aa Bb Cc Dd  
+0 1 2 3 4 5 6 7 8 9 
++ ; & # * -  =
+Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Oo Pp Qq Rr 
+Ss Tt Uu Vv Ww Xx Yy Zz 1 2 3 4 5 6 7 8 9 0 - ! @ # $ € % ^ & * ( ) { } ” | < > ? / . , ’ ; \ ] [ = - +_ T ypografie
+AL TERNA TIEF FONT
+We gebruiken Encode Sans (Google fonts) 
+wanneer	Effra	niet	beschikbaar	is.	Voor	de	toepassing van dit lettertype gelden dezelfde opmaakprincipes	als	voor	Effra.
+fonts.google.com/specimen/Encode+Sans
+10
+Brand Manual — december 2018
+RGB  0 0 0
+CMYK 0 0 0 100
+PMS  Black U
+HEX #000000RGB  42 195 236
+CMYK 67 0 4 0
+PMS  298U
+HEX #2ac3ecRGB  242 242 242
+CMYK 0 0 0 7
+PMS  656U
+HEX #f2f2f2Kleur
+We creëren een hedendaagse merkuitstraling 
+aan de hand van een eenvoudig maar herkenbaar kleurenpallet:
+ — Het Scivil lichtblauw beklemtoont het wetenschappelijke karakter van de organisatie. Gezien dit blauw ook een klein percentage geel bevat, verkrijgt de kleur tegelijk een warme, menselijke uitstraling.
+ — Vol zwart zorgt voor het vereiste contrast en verleent de merkbeleving de nodige serieux.
+ — In plaats van zuiver wit gebruiken we steeds lichtgrijs als ondergrond kleur . Deze basis zorgt voor een zachtere uitstraling met tegelijk een wetenschappelijk karakter .
+Dit kleurenpalet wordt gebruikt voor de volledige uitrol van de Scivil communicatie - online en print.
+De kleuren worden steeds zonder transparantie 
+gebruikt. zwart blauw grijs
+11
+Brand Manual — december 2018
+Lijnenspel
+Het logo wordt onderstreept door 
+een lijnenspel dat de strakke branding dynamischer maakt. Deze lijnen kunnen gecombineerd worden met het logo en mogen zowel achter als voor (kleur-)vlakken liggen.
+Om maximale leesbaarheid te 
+garanderen, staan deze lijnen in een percentage	van	33%	zwart	wanneer	deze gecombineerd worden met paragraaftekst.
+12
+Brand Manual — december 2018

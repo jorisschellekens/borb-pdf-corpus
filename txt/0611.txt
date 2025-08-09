@@ -1,0 +1,474 @@
+Discrete Mathematics 27(1979)47-57.
+@North-Holland Publishing Comp~ny
+r.
+II'BOUNDS FORSORTING BYPREFIX REVERSAL
+William H.GATES
+f:!Christos H.PAPADIMITRIOU*t
+Department ofElectricalEngineering, University ofCalifornia, Berkeley,CA94720,U.S.A.Microsoft, Albuquerque, NewMexico
+~
+Received 18danuary 1978
+Revised 28August19(8
+.,
+Forapermutation (J"oftheintegers from1ton,letf((J")bethesmallest numberofprefix
+reversalsthal'will transform (J"totheidentitypermutation, andletf(n)bethelargestsuchf(lr)
+forall(J"in(thesymmetric group)Sn'Weshowthatf(n)"'"(5n+5)/3,andthatf(n)~17n/16for
+namultiple of16.if,furthermore, eachintegerisrequired toparticipate inanevennumberof
+reversed prefixes, thecorresponding function g(n)isshowntoobey3n/2-1""'g(n)""'2n+3.
+1.Introduction
+Weintroduce OUEproblem bythefollowing quotation from[1]
+Thechefinourplaceissloppy,andwhenheprepares astackofpancakes theycome
+outalldifferent sizes.Therefore, whenIqeliverthemtoacustomer, onthewaytothe
+tableIrearrange them(sothatthesmallest windsupontop,andsoon,downtothe
+largest"at thebottom) bygrabbing severalfromthetopandflippingthemover,r~peating
+this(varying thenumberIflip)asmanytimesasnecessary. Iftherearenpancakes, what
+isthe,maximum nUmberofflips(asafunction f(n)ofn)thatIwillever.have touseto
+rearrange them?
+i
+[
+:IInthispaperwederiveupperand~lower boundsforfen).Certainboundswere
+alreadyknown.Forexample, consider anystackofpancakes. Anadjacency in
+thisstackisapairofpancakes thatareadjacent inthestask,andsuchthatno
+otherpancake hassizeintermediate~ between thetwo.Ifthelargestpancake ison
+thebottom, thisalsocountsasoneextraadjacency. Now,fOL;n~4there""'are
+stacksofnpancakes thathavenoadjaceIJcies whatsoever. Ontheotherhand,"a
+sortedstackmusthaveallnadjacencies andeachmove(flip)cancreate'at most
+oneadja~ency. Consequently, forn~4,f(n)~n..Byelaborating onthisargu-
+ment,M.R.Garey,D.S.Johnso-qand S.Lin[2]showedtl1atfen)~n+1dorn"F6.
+Forupperbounds-algorithms, thatis"itwasknqwnthatfen)~2n.Thiscan
+beseenasfollows.Givenanystackwemaystartbybringing thelargestpancake
+.ontopandthenflipthewholestack:thelargestpancakeisnow:;ttthebottom,
+*Research supported byNSFGrantMCS77-01193.
+tCurrentaddress:Laboratory forComputer Science,Massachusets, Institute of?Technology,
+Cambr.idge, Ma02139,USA.I
+I
+-0 ~
+47
+"
+.;
+Ie "'"~
+ill
+III
+;,;1
+~
+1
+'"
+;II
+..
+ii!11
+..11
+;II
+:11
+~
+
+~"~
+48W.R.Gates,c.R.Papadimitriou
+aftertwomoves.Inductively, bringtothetopthelargestpancak~ that.hasnot1
+beensortedyet,andthenflipittothe,bottomoftheunsorted stack.By2nmoves)
+wewillhavethussortedthewholething.Infact,2ncanbeimproved to2n~c,.
+constant c,bysortingthelastfewpancakes byamoreclevermethod.
+Thelistofobviousupperandlowerboundsendshere.WeshowinTable1the
+knownvaluesoff.The.sevenfirstvalueswereknowntoM.R.Garey,D.S.
+Johnson, andS.Linin[2].Thelasttwoaretakenfrom[3].
+Table1
+InSection2,afterintroducing somenotation andterminology, weprovethat
+>ct(n)",;;(5n+5)/3bydesigning asortingalgorithm thatalwayshasatleastasgood
+performance. InSection3weshowthatt(n):;:::.17n/16 infinitely often,bycon-
+structing, foreachk:;:::1,astackof16kpancakes thatrequires 17km°'iesin
+ordertobesorted.Finally,inSection4wederiveboundsforten)underthe
+additional restriction thatthepancakes mustcomeoutnotonlysorted,butalso
+"right-side-up". Inotherwords,eachpancake mustsufferanevennumber of
+flippings. Themotivation is,ofcourse,thatthetwosidesofapancake maynotbe
+thesame,andthepancakes arerequired tocomeoutofthesortingprocedure
+:hightsideup".Ifg(n)denotes thecorresponding function forthismodified
+problem, wecanshowthat(3n/2)-1"';;g(n)"';;2n+3.
+2.Analgorithm
+Wewillrepresent permutations inSnasstringsinI~,whereIn={1,2,...,n}.
+Wewilldefineabinaryrelation ~inSnbywriting 'TT~a whenever 'TT=xy,
+a=x~y,wherex,yEI~andiRisthestringxreversed (readbackwards). If'TTisa
+permutation, t('TT)isthesmallest ksuchthatthereexistsasequence ofpermuta-
+tions'TTk'TT0~'TT1~...~'TTk;;;en,where 'en=123...nistheidentity permvta-
+tion.t(n)isthelargestt('TT)overall'TTESn-
+Let"TTbeapermutation inSn-n(j)isthejthnumber in'TT,where1",;;j",;;n.If
+1'TT(j)~'TT(j+1)1=1,wesaythatth~paii(j,j+1)isanadjacency in'TT.If'TT"=xby,
+~herex,b,yEI~suchthat(j,j+1)isanadjacency forj=Ix!+1,...,[xl+!bl-(
+andbismaximal withrespecttothisproperty (i.e.,(lxi,Ixl+1)and(lx[+[bl,Ix!+"
+Ibl+1)arenotadjacencies), thenbiscalledablock.If'TT(j)isnotinablock;i.e.,
+(j-l,j)and(j,j+1)arenotadjacencies in'TT,then'TT(j)istree.ForthepurPoses
+ofthissectionwewillconsider (j,j+1)tobeanadjacency alsoif{'TT(j),'TT(j+I)}=
+{I,'h}.
+Ouralgorithm willsortthepermutation 'TTsoastocreateatotalofn-l
+adjacencies, thatis,ablockbofsizensuchastheonesshowninFigs.l(a),l(b).
+Thesepermutations canthenbetransformed toenviaatmostfourflippings (Figs.1
+1
+.".1
+,
+
+Bounds forsortingbyprefixreversal 49
+He),l(d),respectively). Inthedescription ofthealgorithm belowweuse0to
+standforoneof{I,-1}.Addition isunderstood modulo n.
+Ik-1...1In...kI
+1(a)
+Ik"'n 11...k-l!
+1
+In"'k 1...k-l!
+1
+Ik-l,,'llk"'n!
+1
+11...k-llk"'n[
+(c)
+Algorithm .s!lIk...n11...k,~11
+1(b)
+In...kll...k-l!
+1
+Ik-l...l!k...nl
+1
+11...k-ll k...nl
+(d)
+Fig.1.
+mpUt:apermutation 11'ESn-
+outpqt:apermutation (1"withn-1adjacencies.
+Set(1"=11'.
+Rypeatthefollowing.
+Lettbethefirstelement of(1";i.e.,(1"=t(1"'.(Atleast)oneofthefollowing
+eightcasesapplies.Ineachcasetakethecorresponding action.
+1.tisfree,andt+0isalsofree.Perform theflippingshowninFig.2(a).
+:::.tisfree,andt+0isthefirstelement ofablock.Perform theflippingshownin
+Fig.2(b).
+3.tisfree,butbotht+1andt-1arethelastelements ofblocks.Perform the
+sequence offlippings showninFig.2(c).
+4,tisinablock,andt+oisfree.Perform theflippingshowninFig.2(d).
+5.tisinablock,andt+0isthefirstelement ofablock.Perform theflipping
+showninFig.2(e).
+6..tisinablockwithlastelement t+k.0(k>0),t-0isthelastelement of
+another blockandt+(k+1).0isfree.Perform thesequence offlippings
+showninFig.2(f)or2(g)(depending ontherelativeposition ofthetwoblocks
+andt+(k+l)' o. .
+-,tisinablockwithlastelement t+k.0(k>O),t-oisthelastelement of
+anotherblockandt+(k+1).0isinablock.Perform thesequence offlippings
+infig.2(h)or2(k)(depending onwhether t+(k+1).0isatthebeginning or
+theendofitsblock).'
+s..Noneoftheabove.(1"hasn-1adjacencies; halt.
+;~'~ji'Ji!c"",'ic~~", c-.-~,.~~~"~-,
+
+50 W.H.Gates,C.H.Papadimitriou
+~
+1
+~
+(a)
+1
+It+o..'!==rTI'" t-o[J
+1
+D...t+o[!I]... t-o[J
+1
+It-o".[]~]t+o".[:=J
+1
+D...t-o~Jt+o" .CJ
+(c)
+It...t+koDt+(k+l)o~
+1
+It+(k+l)oDt+ko... tD... t-o[J
+1
+Ot+(k+l)olt+ko...tl~
+1
+~t... t+kolt+(k+l)oCJ
+1
+~t... t+ko!t+(k+1)°C]
+(f)
+It...t+ko[]t+(k+l)o.. .[J
+1
+It+ko", tDt+(k+l)o.. .0
+1
+elt... t+kolt+(k+l)o.. .[
+(h)~lt+o"'1
+1
+CEJt+o".[
+(b)
+~
+1~
+(d)
+~t+o"'1
+1
+~It+o"{
+(e)
+It...t+ko~t+(k+1)oD
+1
+It+(k+l)o~t+ko'" tD
+.1
+~lt+(k+1)olt+ko...tD
+1
+It...t+ko!t+(k+l)oDt-o" .c=J
+1
+Dt+(k+1)ol t+ko." tlt-o...D
+(g)
+It...t+koD'" t+(k+l)oD
+1
+It+(k+1)o.. 'Ot+ko... tD
+1
+D'" t+(k+l)olt+ko", tD
+(k)
+Fig.2.
+Theorem 1.Algorithm .stlcreatesapermutation withn-1adjacencies byatmost
+(5n-7)/3moves.
+Proof.First,itisclearthatifwehaveapermutation (Twithlessthann-1
+adjacencies, oneofthecases1through7isapplicable. Hence,thealgorithm does
+nothaltunlessn-1adjacencies havebeencreated. Obviously thealgorithm will
+eventua:1ly halt,sinceateachexecution ofthemainl~opatleastonenew
+
+Bounds forsortingbyprefixreversal 51
+adjacenc:;y iscreatedandnonearedestroyed. Itremains, however, toprovethatit
+doessoinnomorethan(5n-7)/3moves.
+Calltheactionofcase1action1,theactionincase2action2,theactionof
+ases3and6action3,theactionofcase4action4,andtheactionofcases5and-action5,andaction7,respectively. LetXidenotethenumberofactionsoftype
+iperformed byanexecution ofthealgorithln. Thetotafnumberofmoves(i.e.,
+iippings) isgivenby
+Z=Xl+x2+4x3 +X4+2xs+X7
+wDereXjismultiplied bythenumberofflippings involved intheactionoftypej
+seefirstrowofTable2).Action3canbedivided intofourspecialcases,
+aa:nrrling towhathappens intheflippingofFig.2(c)(or2(f),or2(g))thatcomes
+~thelast.Thetopofthestackbeforetheflippingandtheelement nextto
+Z-0mayeither .
+1.benon-adjacent,
+::.formanewblock,
+3.mergeablockwithasingleton,
+4-.m~rgetwoblocks. .
+\D:oTdingly, wedistinguish among thesesubcases bywriting X3=
+X'i;+~2Et-X33+X34'Now,sinceeachactionincreases thenumberofadjacencies as
+.-ficated inTable2,thetotalnumber ofadjacencies intheconclusion ofthe
+~is
+n-1=a+Xl+x2+2x3l +3X32+3x33 +3X34+X4+xs+X7' (1)
+FiD2By,ifbisthenumberofblocksin7Twehave
+b+Xl-X3l-X33-2x34 -Xs-X7=1, (2)
+IIrause eachtypeofactionincreases ordecreases thenumber ofblocksas
+illdlic:ated inTable2,westartwithbblocksandweendupwith'1block.Also,
+..mrethatb~a,whereby (1)becomes'
+Xl+x2+2x3l +3X32+3x33+3x3~ +X4+xs+X7+b~n-1. (3)
+~2
+-=...
+~of
+IIip
+~in
+~
+~in
+~of
+!!iiIxI;s1231323334457
+114444121
+112333111
+10-10-1-20-1-1
+
+r-
+1
+l'
+,.
+r52 W.R.Gates,CR.Papadimitriou
+Thusanypossible application ofthealgorithm would,atworst,maximize
+Z=Xl+x2+4x3+X4+2xs+X7
+subjectto(2)and(3)above.Weclaimthatthemaximum isachieved forthe
+values
+Xl=(n+1)/3,X2=0, X3=X3l=(n-2)/3
+X4=Xs=X7=b=0,
+yielding avalueofzequalto(5n-7)/3. Toshowourclaim,recalltheduality
+Theorem ofVonNeuman, KuhnandTucker, Gale,andDantzig [4]stating
+essentially thatthismaximum valueequalstheminimum valueoftheduallinear
+program: .
+minimize (U=~2+(n-1)~3'
+subjecttotheinequalities
+~2+~3;;:1,
+~3;;:1,
+-~2+2~3;;:4,
+3~3;;:4,
+-~2+3~3;;:4,
+-2~2+3~3;;:4,
+~3;;:1,
+-~2+~3;;:1,
+-~2+~3;;:2,
+~2+~3;;:O.
+Thus,inordertoproveourclaim,wejusthavetoexhibitapair(~2'~3)satisfying
+theseinequalities andhaving(U=~2+(n-1)~3=(5n-7)/3. Andsuchapairis
+~2=-2/3,~3=5/3.
+Theboundf(n)~(5n+5)/3 nowfollowsdirectly, sinceittakesfourmore
+movestotransform apermutation withn-1adjacencies toe.Inanyevent,the
+constant termoftheboundcanbeimproved quiteeasilybystopping the
+algorithm whenn-k,forsomek,adjacencies havebeenformed, andthen
+optimally puttingtogether thek+1pieces.
+3.Alowerbound
+.LetT=17536428. Forkapositive integer, Tkdenotes Twitheachofthe
+integers increased by8.(k-1).Inotherwords, Tkisthesequence
+1k7k5k3k6k4k2k8b wheremk=m+(k-1)'8. Consider thepermutation x=
+TlT~T3T~' ..Tm-lT~,wheremisaneveninteger,andn=Ixl=8,m.
+q'
+r
+~ -~- ---
+
+Bounds forsortingbyprefixreversal53
+~em 2.19n/16~f(x)~17n/l6.
+Toshowtheupperbound,wefirstdothefollowing sequences ofmoves
+X---?>727f73' ..---?>7~7f73' ..---?>717273' ..
+3IIIIdsoon,bringing theeven-indexed 7'Sinfrontandthenbackwiththereversal
+~ inthreemoves.Thus,in3n/16movesweobtainX'=717273' ..7m'Then,
+..eachcopyof7inX'werepeatthefollowing sequence ofeightmoves(among a
+81111Lber ofpossibilities)
+X'=x17536428y ---?>571xR36428y ---?>63x175428y
+---?>lxR3675428y ---?>45763x128y ---?>67543x128y
+---?>76543x128y ---?>2lxR345678y ---?>x12345678y.
+'"nissinatotalof19n/16moveswecanproduce estartingfromX,andtheupper
+~isestablished.
+fixthelowerbound, letX=Xo---?> X1---?> X2---?>...---?>Xfex)=enbeanoptimal
+~oce ofmovesforx;eachofXj,j=1,...,f(x)iscalledamove.Letuscalla
+~/o,-.stable ifitcontainsasubstring oftheform1k7k(T2k8k (oritsreverse),
+.'iIere (Tisapermutation of{3b4b5b6d. WesaythatXjisaneventifXj-1is
+i.:-stable, forsomek,butXj,Xj+b...,Xfex)arenot.
+1.Thereareexactlymevents.
+ToproveClaim1,wenoticethatXoisk-stable fork=1,...,m,andXfex)isnot
+I:~le foranyk.Furthermore, nopermutation canceasebeingk1-stable and
+I:;::-slable, k1i=k2,inonlyonemove.
+LeiuscallXjawasteifXjhasnomoreadjacencies thanXj-1.(Here,byan
+~ in(Twemeananypair(i,i+1)suchthateitheri<nand1(T(i)-
+_.-i-HI==1,ori=nand(T(i)=n.)Letwdenotethetotalnumber ofwastes
+.1Y{xj:j=1,...,f(x)}.
+CIIiiR2.f(x)~n+w.
+Tcseewhythisistrue,onejusthastonoticethatXhasnoadjacencies, ehasn
+id[""""ocies, andanymovethatisnotawastecreatesjustoneadjacency.
+B1ourClaim/1weconclude thatintheoptimal sequence thatweare
+~ring therearemeventsasshownbelow(~isthetransitive closureof---?>)
+****
+Xi,---?>Xi2---?>Xi3---?>...---?>Xi",.
+
+,-:-
+54 W.H.Gates,CH.Papadimitriou
+Claim3.Forallj,1~j~m-1,thereexistsawasteXlwithij~1~4+1'
+ToproveClaim3,supposethatitfails.Inotherwords,supposethatthereisan
+eventijotherthanthelastone,suchthatallmovesXbij~1~ij+1construct anew
+adjacency without destroying anexisting adjacency. Suppose thatkisthe
+appropriate indexforwhichX~-listhelastk-stable permutation inthesequence
+considered. Then,X~-l=X1k7ka2k8ky, wherexandYarestringsofintegers and
+aisapermutation of{3b4b5b6k}'Notice thatsinceourbasicstringT=
+17536428 issymmetric (inthati+j=9ifandonlyifT(i)+TV)=9)thisisnota
+lossofgenerality. Forsimplicity inournotation, weshallomitthesubscript kin
+therestofthispartofourargument; weshallalsoassumethata=5364,sincethe
+argument isidentical foranya.Thus
+X~-l=x17536428y.
+Wedistinguish amongtwocases.
+Case1.x=8,theemptystring.SinceX~isneitherawastenork-stable, we
+musthave
+X~=46357128y.
+Now,wemustnot,according toourhypothesis, haveawasteuntilafterthenext
+event.This,however, isimpossible, sincethefirstmoveafterX~whichflipsmore
+thanfourelements isawaste.
+Case2.x1=8.ThatisX~-l=x17536428y. SinceXi;isneitherawastenor
+k-stable,itmustbethecasethatx=9z,andXi;=2463571zR98y. Again,wemust
+nothaveawasteuntilafterthenextevent.Thismeansthattheonlymoves
+permitted arelocalrearrangements oftheintegers{1,3,4,5,6,7};thus
+X~=2463571zR98y ~7654321zR98y.
+Again,thenextmovehastobeawaste.
+Thetheorem nowfollowsdirectlyfromClaims1,2,and3.
+f(x)~n+w~n+ m=17n216'
+4.Boundsforarestricted version
+Letusdefineabinaryrelation =>onSnx2{1n}asfollows: (a,S)=>(a',S')if
+andonlyifa=xy,a'=xRy,andS'=SEBX,~hereXisthesetofintegers
+"I
+=;, ~...-
+
+Boundsforsortingbyprefixreversal 55
+iP.:.1red inx,andEBstandsforsymmetric difference. Letg(a)betheshortest
+in~from(a,0)to(e."0),andletg(n)bethelargestg(a)overallaESn-
+~~ 3.g(n):S;2n+3.
+IIII8IIf.Firstobserve thatg(a)isnotgreaterthanf(a')wherea'ESZnisdefined as
+~ foreachaESn:a'(2i-1)=2a(i)-1 anda'(2i)=2aU) foralli=
+11....n.Thecomplexity ofsortinga'withouttherestriction cannowbebounded
+iIIIIIu:abovebythealgorithm dofSection 2.Theequations governing the
+~:xity ofdwhenappliedtoa'are(1),(2),and(3)ofSection2withn
+~ by2n,b=a=n,andalsonotingthatonlyXscanbenonzero, sinceall
+~actionsarepossible onlyinthepresence offreeelements. Themaximum is
+dill:refore 2n-2.Allowing fivemoremovestosorttheresulting permutation, we
+FdJeclaimedbound.
+"liteshallnowderivealowerboundforg(n).The"hard"permutation inthis
+~ic;e~=n,n-1,...,2,1,apermutation whichisnexttotrivialwithour
+~on removed. Consider anoptimalsequence fore~
+Ao==(e~, 0)~Al ==(Xl,Sl)~... ~Aj==(Xj,Sj)~... Ag(e~)==(e",0).
+.~~(i,i+1),i<n,isanadjacency in(X,S)ifeitherxU+1)=XCi)+1andXCi),
+.'~l)fSorXU+1)=x(i)-1 andxCi),XU+1)ES. Apair(i,i+1)isan
+~-adjacency in(X,S)ifeitherxU+1)=xU)-1andXCi),xU+1)~Sor
+8"'. ~1):;=XCi)+1andxU),xU+1)ES.AmoveAjisawasteiftherearenomore
+at':2iirencies inAjthanthereareinAj-l.Aset{xCi),xU+1),...,xU)},j>i,such
+d!i;l:k,k+1),i:s;k<j,isananti-adjacency in(X,S)iscalledaclan.Noticethat
+~isallnon-adjacencies; inotherwords,ithasonebigclan,namely{I,...,n}.
+~eachmovewemay"break" atmostoneclanCreplacing itbytwonewclans
+Co~withClUCz=C.Thus,theprocess ofsortinge~canbethought ofpartly
+.-'breaking upclans",sinceenhasnoclans.Interestingly enough,itisthisaspect
+IEsortinge~whosecomplexity canbecaptured quiteeasily. ~
+AmoveAjiscalledan(a,b)-cutifaclanCinAj-lisreplaced bytwoclans
+CCzinAjsuchthatC=ClUCzandICll=a,ICzl=b.
+1-1.LetAjbean(a,b)cut.
+..11a,b>1,thenbothAj,Aj+1arewastes,
+,:Iftheonlyoneofa,b>1,theneitherAjorAj+lisawaste.
+Aneasycase-by-case analysis.
+~ 4.g(e~)~~n-1.
+JI!
+
+56 W.H.Gates,c.H.Papadimitriou
+Proof.e:;hasnoadjacencies; sogee:;)~n+w,wherewisthenumberofwastes
+inthesequence considered. Inordertoboundwfrombelow,letXlbethe
+numberofcutsin(1)above,X2(andX3)arethenumbers ofmovesofcase(2)of
+Lemma 1whichare(resp.arenot)wastes,'-andX4(XS)thenumberof(1,I)-cuts
+thatare(resp.arenot)wastes.Finally,letybethetotalnumberofmovesthat.
+resulteachinthecreation ofaclanCfromeitheranother clanC'IC'I=leI-l
+andasingleton, orfromtwosingletons. Itiseasytoseethatsuchamoveisa
+waste,andcannotbeacut.Obviously wehave
+W~XI+X2+X4 +y, (4)
+and
+Xl+X2+X3+X4 +xs~y+n -1, (5)
+because atleasty+n-1cutsmustbeeventually produced.
+Wenextobservethat~
+n+2y-1~X2+x3-1:2x4 +2xs, (6)
+because westartwithnosingletons (elements notinaclan),weendupwithn,
+eachmovecountedbyy(ay-moveforshort)absorbsatmosttwosingletons, each
+x2-move orx3-move createsasingleton, andeachX4orxs-move createstwo
+singletons. Finally,weclaimthatf
+ti
+w-XI~X3-1. (7)j
+J
+I
+f
+i
+F
+IToprovethis,weshallshowhoweachx3-move, exceptforthelast,canbe
+pairedoffwithawastethatisnotanxcmove. ByLemma 1,eachx3-move is
+followed byawaste.Ifthiswasteisanxl-move, itmustbefollowed byanother
+waste,byLemma 1.Thuseveryx3-moveexcept forthelastisfollowed bya
+sequence ofxl-moves (possibly empty)followed byawastethatisnotan
+xcmove.
+Howsmallcanwbe?Tofindout,weminimize wsubjecttoinequalities (4),
+(5),(6),and(7).Theminimum isnI2-1,achieved attIt
+t
+w=nl2-1=x2,x3=n12, Xl=X4=Xs=Y=O.
+Toshowthis,wejustneedtoexhibit,asintheproofofTheorem 1,thedual
+variables ~4=1,~s=~6=~7=1/2,withthesamevalue.Wetherefore conclude
+thatw~nI2-1, andhenceg(e:;)~3nI2-1.I
+I
+~...
+
+Bounds forsortingbyprefixreversal 57
+5.Discussion
+Wepresented analgorithm sortinganypermutation oflengthninaboutSn/3
+prefixreversals; improving themultiplicative constant seemstobequitechalleng-
+ing.Wealsodescribed atechnique forderiving lowerboundsforfen),and
+showedhowitcanbeusedtoestablish thatfen)~17n/16. Improving onthis
+particular lowerbounddoesnotappeartoohard;infact,weconjecture thatfor
+our"hard"permutation X,f(x)=19n/16.Also,slightlybetterlowerboundsmay
+beconceivably provedbyusingdifferent T's-oflength7,say.However, wedo
+notknowhowtheupperandlowerbounds canbenarrowed significantly.
+Naturally, itisnotclearatallthatf(n)/nconverge~, andhenceitmaybethatno
+betterboundsareattainable.
+Acknowledgment
+WewishtothankMikeGareyandHarryLewisforsuggesting thisproblem to
+us.Weacknowledge thecomments andcorrections ofJacobE.Goodman (the
+"HarryDweighter" of[lJ)andofananonymous referee.
+References
+[1]Amer.Math.MontWy 82(1)(1975)1010.
+[2]Amer.Math.MontWy 84(4)(1977)296.
+[3]DavidP.Robbins, privatecommunication, November 1977.
+[4]G.B.Dantzig, LinearProgramming andExtensions (Princeton University Press,Princeton, 1963).
+Noteaddedinproof
+ErvinGyoriof theHungarian Academy ofSciences andGy6rgyTunlnofJ.
+AtillaUniversity haveindependently discovered aproofofTheorem 1.Their
+algorithm andproofareessentially thesameasours.

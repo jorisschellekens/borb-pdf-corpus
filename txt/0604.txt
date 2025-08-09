@@ -1,0 +1,1702 @@
+ 
+   
+ 
+ 
+        1 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LEIDEN OM TE BOEIEN EN 
+BINDEN  MANUAL  
+Een community of practice wa arin frontlinie 
+leidinggevenden  een co -operative inquiry doorlop en om 
+zorgmedewerker retentie positief te beïnvloeden.  
+ 
+Auteurs: S. Cardiff & J. van Schijndel  
+Novemb er 2022  
+ 
+ 
+ 
+ 
+ 
+ 
+SHAUN CARDIFF & JOHA N VAN SCHIJNDEL  
+FONTYS MENS & GEZOND HEID  
+2021 -2022  
+ 
+ 
+   
+ 
+ 
+        2 
+  
+INHOUDSOPGAVE  
+1: Inleiding  ................................ ................................ ................................ ................................ ..........  3 
+Achtergrond  ................................ ................................ ................................ ................................ ..... 3 
+Doelstelling  ................................ ................................ ................................ ................................ ..... 4 
+2: Methode  ................................ ................................ ................................ ................................ ...........  5 
+Planning  ................................ ................................ ................................ ................................ ...........  5 
+Community of Practice structuur ................................ ................................ ................................ ..... 6 
+Co-operative inquiry proces  ................................ ................................ ................................ ............  7 
+Theoretische kader  ................................ ................................ ................................ ..........................  9 
+Faciliteren  ................................ ................................ ................................ ................................ ...... 11 
+Evalueren  ................................ ................................ ................................ ................................ ....... 13 
+3: Inhoud pilotproject 2021 -2 ................................ ................................ ................................ ............  16 
+Opstart dagen  ................................ ................................ ................................ ................................ . 16 
+Vaardigehidstraining  ................................ ................................ ................................ .....................  17 
+Halfdaagse bijeenkomsten  ................................ ................................ ................................ .............  18 
+Afsluiting  ................................ ................................ ................................ ................................ ....... 19 
+4: Besluit  ................................ ................................ ................................ ................................ ...........  21 
+Bibliografie  ................................ ................................ ................................ ................................ ........  22 
+Bijlagen  ................................ ................................ ................................ ................................ .............  25 
+Bijlage 1: Schema voor het intakegesprek  ................................ ................................ ....................  26 
+Bijlage 2: Incheck / ijbreker activiteiten  ................................ ................................ .......................  27 
+Bijlage 3 – Uitchecken / evaluatie activiteiten  ................................ ................................ ..............  28 
+Bijlage 4 - Kritische vrienden: een richtlijn voor peer schaduwen en team interviewen, want, “Ik 
+zie wat jij misschien niet ziet, en hoor wat jij misschien niet hoort!”  ................................ ...........  29 
+Bijlage 5 – Leadership Practice Inventory (NL)  ................................ ................................ ...........  36 
+Bijlage 6 – Leider schapsontwikkeling narratief  ................................ ................................ ............  37 
+ 
+  
+ 
+   
+ 
+ 
+        3 
+ 1: INLEIDING  
+ACHTERGROND  
+Het verloop onder zorgmedewerkers (verpleegkundigen in het bijzonder) is een van de grootste 
+uitdagingen van hedendaagse gezondheidszorg. Onderzoek naar retentie in de zorg heeft allerlei 
+beïnvloedende factoren geïdentificeerd maar geen enkele  interventie.  Dit maakt dat het een 'wicked 
+problem' is: een proble em dat om meerder e gecombineerde interventies vraagt waarbij lokale actoren 
+een belangrijke rol spelen  (Tuckett et al. , 2015).  Er zijn veel factoren die van invloed zijn op retentie en 
+verloop van zorgmedewerker s. Halter et al. (2017)  hebben ze geclusterd in vier voorspellende 
+categorie ën: individu ele factoren;  job-gerelate erde factoren; interperso onlijke factoren en o rganisati e 
+factoren. Averens et al. (2022) vonden dat interventies die de psychosociale werkomgeving en het 
+welzijn van medewerkers versterken, het meest kans rijk lijken te zijn als het om behoud  gaat. De 
+begrippen behoud ('retention' in het Engels) en uitstroom ('turnover' in het Engels) worden vaak gebruikt 
+en gemeten  in orga nisaties . Er is een argument voor het focussen op  / monitoren van 'intentie' om te 
+blijven/vertrekken, want eenmaal vertrokken , is het te laat om invloed op uit te oefenen . Medewerkers 
+doorlopen een proces van 'denken over vertrekken' voordat ze 'beslissen  om te vertrekken' om 
+vervolgens  'daadwerkelijk te vertrekken'  (zie figuur 1) . Fishbein and Ajzen’s (1975) theorie van 
+beredeneerd handelen stelt ook dat  hoe sterker de intentie om te handelen, hoe groter  de kans is dat er 
+gehandeld wordt. Dit is tevens geïllustreerd in studies over verloop en retentie  van zorgmedewerkers  
+(Murrels et al., 2008; Hayes et al., 2006).  
+ 
+Figuur 1:  Het proces van retentie en verloop  
+Leidinggevenden zoals afdelingshoofden en teamleiders die direct contact hebben met 
+zorgmedewe rkers zijn in een ideale positie om invloed uit te oefenen op het retentie - en verloopproces. 
+Cowden et al. (2011) hebben laten zien dat relatie -/persoonsgerichte leiders een positieve invloed 
+kunnen hebben o p de intentie van verpleegkundige n om te blijven (IoB). Ilies et al. (2007) stellen dat 
+verpleegkundig leiders zouden moeten focussen op het bouwen en onderhouden van positieve 
+
+ 
+   
+ 
+ 
+        4 
+ leiderschapsrelaties. Relatiegerichte leiderschap sstijlen  en -modellen gebruikt in verpleegkundig 
+onderzoek zijn: Resonerend lei derschap (Boyatzis & McKee, 2006; Bawafaa et al, 2015); 
+Transformationeel leiderschap zoals beschreven door Bass & Riggio  (2006 ) en Kouzes & Posner  
+(2007) ; en Persoonsgericht leiderschap zoals beschreven door Cardiff et al . (2018 ) en Lynch  et al. 
+(2017).  
+Naast relationel e verbond enheid met hun leidinggevende, een gevoel van professionel e autonomie en 
+controle over hun werk werkt bevorderend voor verpleegkundig IoB. Naast leider  erkenning , 
+complimenten, raadpleging en kritische conversaties, heeft gedeelde besluitvorming en het formuleren 
+van een gezamenlijke bedoeling positieve invloed op verpleegkundig empowerment en IoB (Cowden et 
+al; 2011; Cummings et al, 2018; Gaudenz e t al., 2019; Halter e t al., 2017; Sveinsdottir et al; 2016). 
+Leidinggevenden die verz uimen om gebruik te maken van talenten en expertise of professionele groei 
+en ontwikkeling tegenhouden  dragen bij aan verpleegkundige intentie om te vertrekken (IoV) (Halter et 
+al; 2017).  
+De werkomgeving heeft een sterke invloed op zowel patiënten /cliënten /bewoner s ervaringen  als 
+medewerker ervaringen . Leidinggevenden  kunnen via hun leiderschap bijd ragen aan het cultiveren van 
+een heilzame cultu ur en medewerker IoB (Al Zamel et al., 2020; Duffield et al., 2010; Lynch et al., 2017; 
+Dickson et al., 20 22). Heilzame werkplekculturen zijn gekenmerkt door persoonsgerichte relaties 
+evena ls structuren en processen die helpen mensen tot hun recht komen binnen de omgeving  (Manley 
+et al., 2011; McCormack et al., 2021; Cardiff et al., 2020). Mensen voelen zich e rkend en gerespecteerd, 
+ervaren ondersteuning en beleefdheid en de gezondheidszorg is niet ingekleed als  een bedrijf dat zorg 
+reduceer t tot ee n koopwaar  en medewerkers tot  productiemachines  (Tuckett et al., 2015; Halter et al., 
+2017). Werkplekculturen met collecti ef leiderschap  en met een veilig e kritisch e en creatieve 
+leeromgeving  waar gedeelde waarden bewust worden nageleefd  alsook  waar veranderingen gericht zijn 
+op  ‘het goede’, zijn tevens werkplekken waar zorgmedewerkers graag willen werken (Cardiff et  al., 
+2020).    
+In een literatuurstudie heeft Cardiff et al. (ingediend) aangetoond dat directe leidinggevenden van 
+zorgmedewerkers, zoals a fdelingshoofden en teamleiders, een positieve invloed kunnen hebben op 
+medewerker IoB . in het team, organisatie of in  de zorg wanneer ze focussen op relationel e 
+verbondenheid, het ondersteunen van professioneel autonomie, groei en ontwikkeling, en het cultiveren 
+van een heilzame werkplekcultuur.  Dit gebeurt niet spontaan, maar vraagt leiderschapsontwikkeling.  
+ 
+DOELSTELLING  
+Het doelstelling van het ontwikkeltraject zoals gepresenteerd in deze manual is het transformeren 
+(authentiek en duurzaam veranderen) van het leiderschap van de deelnemer  zoals beoefend  binnen de 
+eigen  werkomgeving. De verwachting is dat de t ransformatie positief bijdraagt aan het welzijn en de 
+werktevredenheid van zorgmedewerkers waardoor de IoB wordt  versterkt. In deze manual w ordt het 
+doorlopen traject uiteengezet zoals vormgegeven  in een pilootproject in Vlaanderen en Nederland . 
+  
+ 
+   
+ 
+ 
+        5 
+ 2: METHO DE 
+De Leiden om te Boeien en Bin den (LBB) methodiek is gekaderd  binnen het proje ct 'Blijf aan Z' dat i n 
+april 2021 van start  ging. Docent o nderzoekers van Fontys Hogeschool Mens & Gezondheid  ontwierpen 
+de interventie  en hebben deze geleid . Praktische  ondersteuning werd geboden vanuit de Provincie 
+Antwerpen op het vlak van coördinatie, communicatie, rekrutering en logistieke ondersteuning.  Tussen 
+april en oktober 2021  werd op basis van de literatuur deze pilot interventie inhoudelijk uitgewerkt , 
+hierbi j werd  een ontwikkelingstraject voor leidinggevenden ontwikkeld. Afdelingshoofden en 
+teamleiders werden gerekruteerd via de website van 'Blijf aan Z', LinkedIn en  door het  aanspreken van 
+zorgorganisaties.  Inclusievoorwaarden voor deelname was het  direct hi ërarchische leiding geven aan 
+een team zorgverleners binnen een zorgorganisatie.  
+PLANNING  
+Het ontwikkeltraject LBB voor leidinggevenden van zorgteams omvat  een periode van 11 maanden van 
+intake tot afsluiting (zie tabel 1).  
+Geïnteresseerde deelnemers zoud en een intake gesprek hebben met één van de interventie facilitators  
+(Shaun Cardiff of Johan n van Schijndel)  vóór de opstart van de tweedaagse  bijeenkomst  van oktober 
+2022. Vanwege een moeizaam wervingsproces en lat e aanmeldingen konden de intakegesprekken pas 
+plaatsvinden in november 2021. Doel van het intake gesprek  was om naast het informeren van 
+deelnemers over de geplande methodiek, ze ook te leren kennen als persoon en professioneel ingebed 
+in werk  en privé cont exten alsook  hun commitment  voor het project polsen . Het gesprekschema is te 
+vinden in bijlage 1.  
+Van de 20 beschikbare plaatsen hebben 14 leidinggevenden van 5  Vlaamse  en 2 Nederlandse 
+zorgorganisaties zich ingeschreven voor deze methodiek. Dertien van de  leidinggevenden werkte n in 
+ziekenhui zen en op verschillende afdelingen,  één deelnemer werkte  in residentiele zorg voor mensen 
+met een beperking. In oktober 2021 hebben de deelnemers kennis gemaakt met elkaar en de met hodiek  
+tijdens een opstart tweedaagse . Deze tweedaagse bijeenkomst vormde de start van een 'community of 
+practice' : de structuur voor de LBB methodiek. Hierna zou een ééndaagse bijeenkomst plaatsvinden 
+waar  een vaardigheidstraining zou gegeven worde n voor intercollegia al schaduwen en het co -operative 
+inquiry proces opgestart worden.  Vanwege een toename in COVID besmettingen en daaruit 
+voortkomende maatregelen, was een fysieke bijeenkomst onmogelijk en is deze bijeenkomst verschoven 
+naar een later tijdstip .  
+Na de initiële  drie volle dagen, waren zeven half daagse bijeenkomsten gepland waarin fasen 4 en 1 van 
+het co -operative inquiry  (zie hieronder voor toelichting)  centraal zouden  staan . In lijn met onze  
+uitgangsprincipes van persoonsgerichtheid, inclusie, samenwerking en participatie, werden de zeven 
+bijeenkomsten gepland en vormgegeven in samenspraak met de deelnemers. Waar de oorspronkelijke 
+planning was zeven bijeenkomsten van 4 uren en fysieke aanwezigheid, werd de vol gende formule 
+ontworpen: 2*(2 bijeenkomsten van 3uren + 1 bijeenkomst van 6uren) waarbij de bijeenkomsten van 3 
+uren een hybride leeromgevingen  optie hadden  (men kon kiezen tussen online of op locatie deelnemen) . 
+De bijeenkomsten van 6 uren zouden fysiek p laatsvinden op locatie.  
+In september 2022 heeft de afsluitende bijeenkomst op locatie plaatsgevonden.  Intussen was de 
+groep sgrootte  gekrompen van 14 naar 10 deelnemers , veroorzaakt door functieverandering en 
+toegenomen werkdruk t.g.v. de COVID pandemie.  
+ 
+ 
+ 
+   
+ 
+ 
+        6 
+ Tabel 1: Gantchartt planning van LBB  (zonder rekening te houden met vakantieperioden)  
+Maand  0 1 2 3 4 5 6 7 8 9 10 
+Intakegesprek             
+Opstart 2 daagse                     
+Vaardigheids training  
+1 daagse   
+                    
+Half daagse (3uren)                       
+Half daagse (6uren)             
+Afsluiting 1 daagse                       
+   
+COMMUNITY OF PRACTIC E STRUCTUUR  
+Een community of practice (vaak leergemeenschap genoemd in het Nederlands) bestaat uit een groep 
+mensen met een gemeenschappelijk e interesse en behoefte om kennis te genereren. Voor de LBB 
+methodiek waren dit leidinggevenden met interesse in het exploreren hoe zij, via het leiderschap dat ze 
+op de werkplek beoefenen, de intentie van medewerkers om te blijven/vertrek ken positief kunnen 
+beïnvloeden. Een community of practice (CoP)  komt fysiek of online regelmatig samen om vragen, 
+kennis, ervaringen en best practices te exploreren. De focus van interesse heeft relatie met de eigen 
+praktijk m.a.w. ze weten 'hoe' te leide n, maar willen het 'beter' doen (Wenger et al. 2002; Cambridge et 
+al, 2005)  
+Elke CoP krijgt een eigen leven en identiteit als de individuen en de groep evolueren (Corso & Giacobbe, 
+2009). Het vrij delen en analyseren van routines, begrippen, tools, handel ingen, verhalen, gebaren en 
+symbolen bevordert de psychologische veiligheid t.g.v. wederzijdse erkenning, waardering en begrip - 
+ook kenmerkend voor persoonsgerichte manieren van leiden en zorgen. Er wordt een klimaat gecre ëerd 
+voor actief en doelgericht l eren doordat de focus van individueel en gezamenlijk leren helder is, en men 
+engageert zich in actief leren door de dialoog met zichzelf en met anderen aan te gaan door te observeren 
+(kijken/lezen) en door acties uit te proberen (doen).  
+CoP's zijn te vinden in allerlei vormen en gezondheidszorg settings, zoals monodisciplinaire journal 
+clubs, regionale netwerkbijeenkomsten of studentenintervisiegroepen tijdens stage (Li et al, 2009). Het 
+werven van deelnemers, plannen van bijeenkomsten, f ocus bepalen en de groep een 'CoP' noemen, is 
+geen garantie voor succes (Ranmuthugala et al, 2011). Experts adviseren bij het opstarten van CoP's om 
+voldoende ruimte te nemen voor het leggen van een heldere strategie en relationele verbondenheid 
+(Bindels e t al, 2014). Vandaar dat gekozen is voor twee opstartdagen bij LBB . Een latere verhuizing 
+naar virtuele bijeenkomsten is mogelijk, maar moet IT ondersteund zijn en niet IT bepaald (Urquhart et 
+al, 2009). Het co -creëren van een basisstructuur en werkwijze i s eerst noodzakelijk, en er moet altijd 
+voldoende ruimte zijn voor (creatie ve) uitwisseling, exploratie en afstemming (conclusies trekken) 
+(Urquhart et al, 2009) , iets  wat niet altijd evident is in een virtuele bijeenkomst.  
+Terwijl deelnemers altijd indiv iduele redenen hebben om lid te worden van een CoP, is het belangrijk 
+dat ze bewust instappen en dat de vraag - en doelstellingen van de CoP samen wordt bepaald. Tijdens de 
+opstartdagen k an gebouwd worden aan het verhelderen waar men zich aan toe committeer t, wat de rollen 
+en verantwoordelijkheden zijn  van facilitators en deelnemers,  en hoe er met elkaar wordt omgegaan: 
+grond regels. Gelijke aanwezigheid en actieve betrokkenheid door alle leden te allen tijde is 
+onrealistisch. Maar, door de waarde van persoo nsgerichtheid te exploreren in de opstartdagen en dit 
+ 
+   
+ 
+ 
+        7 
+ naleven gedurende de CoP -bijeenkomsten k unnen  leden zich onverhinderd bewegen tussen de 
+verschillende niveaus/lagen van CoP participatie : 
+ De kern is gevormd door de facilitators die een leidende en faci literende rol nemen v oor het 
+organiseren en faciliteren van de CoP bijeenkomsten. Terwijl deze mensen meestal kennis en 
+expertise hebben van de inhoudelijk/focus van de CoP, en het faciliteren van 
+groepsbijeenkomst en, is hun taak niet 'doceren' maar  'facil iteren van leren'. Het is dan ook een 
+mythe om te verwachten dat de kernleden iedere keer de inhoud bepalen en het programma 
+begeleiden. De inhoud zou sowieso gezamenlijk moeten bepaald worden, en iedereen kan de 
+begeleidende rollen vervullen.  
+ Actieve deel nemers zijn de deelnemende leidinggevenden die regelmatig aanwezig zijn, geven 
+input en zijn actief in de activiteiten. Idealiter groeien deze mensen uit tot leden van het kern 
+waardoor  de duurzaamheid van de CoP versterk t wordt . 
+ Periferie/'lurkers' zijn er vaker niet dan wel, zijn minder actief maar kunnen alsnog veel leren 
+en dus moeten ze niet als 'een probleem' gezien worden. Ook zij kunnen het geleerde toepassen 
+in hun eigen werkomgeving, en kunnen altijd (weer ) actief deelnem er worden.  
+ Omgeving bestaat uit de mensen en omgevingen die be ïnvloed worden door de CoP leden. Dus, 
+(mensen binnen) de teams en organisaties waar de leidinggevenden werken.  (Wenger et al., 
+2002)  
+ 
+CO-OPERATIVE INQUIRY  PROCES  
+Co-operative inquiry is een ond erzoeksmethodologie en manier voor mensen met een 
+gemeenschappelijke interessegebied om gezamenlijk te leren , te begrijpen , beter te handelen en dingen 
+te veranderen. In LBB gaat het om begrijpen welke rol leiderschap speelt in medewerker intentie om te 
+blijven/vertrekken, om te leren hoe beter te leiden en omgevingsfactoren veranderen zodat de intentie 
+om te blijven wordt versterkt . Het participatief karakter van deze methodologie betekent dat deelnemers 
+(in gezamenlijkheid, als gemeenschap) regie kunnen n emen over hun ontwikkeling. In plaats getraind 
+of op geleid worden v ia een voorbedacht  programma  wordt het ontwikkeltraject qua inhoud en structuur 
+samen bepaald . Zodoende worden participanten 'actieve agenten' in h un ontwikkel ing in plaats van 
+'passieve su bjecten' (Heron & Reason, 2006).  Dit past bij een constructi vistische  visie op leren: we 
+bouwen eigen betekenissen en verklaringen voor wat er gebeurt, gebaseerd op de eigen bevindingen en 
+samen met anderen.  
+Deze benadering vraagt een andere mindset en ins telling bij zowel opleiders  als deelnemers . De 
+traditionele rollen veranderen van ‘opleider bepaalt en student/cursist volgt’ naar ‘samen onderhandelen 
+en bepalen ‘ wat’, ‘wanneer’, ‘waar’ en ‘hoe’ er geleerd en ontw ikkeld wordt . Hiermee ontstaat een 
+samenw erkingsrelatie waarin men gelegenheid krijgt om te participeren in besluitvormingen en 
+activiteiten voor het ontwerpen, uitvoeren en evalueren van het ontwikkeltraject. De overkoepelende 
+focus is wel vooraf bepaald: deelnemer leiderschap ontwikkelen en pos itief beïnvloeden van 
+zorgmedewerker intentie om te blijven  werken binnen het team, de organisatie of de zorgsector.  Een 
+verdere afbakening is ontstaan na een realist review van de literatuur over leidinggevende invloed op 
+medewerker intentie om te blijven  (IoB)/vertrekken (IoV). De resulterende vier ‘lantaarns’ worden 
+hieronder gepresenteerd bij de theoretische kader.   
+Een co -operative inquiry heeft een basisstructuur van vier fases welk steeds doorlopen worden als een 
+actiespiraal (zie figuur 2).  
+ 
+   
+ 
+ 
+        8 
+ 1. Tijden s de CoP bijeenkomsten wordt verkend welke veronderstellingen en vragen deelnemers 
+hebben  rondom het beïnvloeden van medewerker IoB/V . Vervolgens worden voorstellen 
+gedaan over wat men wilt gaan uitproberen en onderzoeken in de praktijk. Dit kan zowel op 
+individueel als op groepsniveau gebeuren. Er wordt tevens a andacht besteed aan hoe de reacties 
+op de acties vast te leggen, bijvoorbeeld, het opnemen/notuleren van gesprekken, foto's of 
+creatieve uitbeeldingen, vragenlijsten enz. Idealiter worden de acties gekoppeld aan de 
+leiderschapsstijlen en vier lantaarns die het theoretische kaders vormen van deze thema .  
+2. In fase twee worden de voorgestelde acties ten uitvoer  gebracht  tijdens het dagelijkse werk / op 
+de wer kplek.  
+3. In deze fase worden  de reacties bij zichzelf, bij anderen en in de omgeving vastgelegd.  
+4. Terugkerend naar de volgende CoP bijeenkomsten presenteren de deelnemers hun ervaringen 
+en bevindingen aan elkaar , gevolgd door een kritische dialoog hierover aan te gaan zodat er  
+betekenis kan gegeven  worden aan de bevindingen . Naast individuele groei, is de focus op het 
+ontwikkelen van gezamenlijke kennis rondom LBB  en de mechanismen van het vier lantaarn 
+model aanvul len of verfijn en.  
+                    
+Figuur 2: Het co -operative inquiry spiraal  
+ 
+Het is ook niet ongebruikelijk dat deelnemers op idee ën komen (fase één) na de CoP bijeenkomsten. Dit 
+hoeft geen belemmering te zijn voor het verder doorlopen van fases twee en drie. De resultaten kunnen 
+alsnog gepr esenteerd worden tijdens de volgende bijeenkomst.  Bovendien kunnen  de vragen en 
+veronderstellingen, evenals de an alyses van opgedane ervaringen onderwerpen oproepen waar 
+deelnemers meer (theoretische) kennis over willen  vergaren . Het is daarom belangrijk dat er ook 
+voldoende ruimte wordt gereserveerd tijdens half daagse bijeenkomsten voor lezingen en workshops. 
+Deze kunnen georganiseerd en/of gegeven worden door de deelnemers zelf, de facilitators  of door 
+gasten . Van belang is wel dat  de focus op leiderschap sontwikkel ing m.b.t.  medewerker  IoB in de zorg  
+het uitgangspunt  blijft . 
+ 
+
+ 
+   
+ 
+ 
+        9 
+ THEORETISCHE KA DER  
+Zoals hierb oven benoemd bij de achtergrond is  zorgmedewerker retentie een ‘wicked problem’ en het 
+leiderschap zoals beoefent door frontlinie leidinggeve nden is maar één van de vele mogelijke 
+oplossing en. Er zijn verschillende leiderschapstheorieën verschenen in de tijd, en terwijl ze allemaal een 
+bepaalde waarde en relevantie hebben is er geen universele definitie verschenen. Toch is het van belang 
+dat bi j het aa ngaan van een ontwikkeltraject dat assumpties over leiderschap onder facilitators en 
+deelnemers worden gedeeld zodat wederzijds begrip en respect kan plaatsvinden.  Daarnaast is het 
+belangrijk dat er rekening wordt gehouden met bestaande kennis over  de invloed van leiderschap op 
+medewerker IoB/V.  
+Het ontwikkelen van leiderschap  
+Voor deze interventie wordt leiderschap als een praktijkvoering gezien, iets dat (onder andere) 
+leidinggevenden beoefenen en zich manifesteert in de relatie tussen leider en anderen binnen een 
+werkomgeving. Het is een relationeel fenomeen met een kernproces van 'beïnvloeden' waarbij de leider 
+tracht mensen te verenigen en samenwerken aan een gemeenschappelijke doel. Als de leider pro beert 
+anderen te beïnvloeden, en samen met hen de context te beïnvloeden, komt snel de realisatie dat 
+beïnvloeden wederkerig is (zie figuur 3).  
+ 
+Figuur 3: Wederzijds beïnvloeding tussen leider, collega en omgeving.  
+Leiderschap beoefenen in dynamische rela ties en contexten is complex en niet te reduceren tot een lijst 
+van taken en handelingen. Mensen kunnen 'getraind'  worden in specifieke taken en handelingen die een 
+leider kan benutten in zijn/haar leiderschap, echter zijn er geen twee leiders identiek in  hoe ze invulling 
+geven aan hun praktijkvoering. Leiderschap moet ook gericht zijn op zowel korte en langeretermijn 
+output, is zelden job -specifiek maar wordt wel vaak bepaald en aangeleerd door (experts in/in opdracht 
+van) een organisatie. Gezien de heden daagse uitdagingen in onze gezondheidszorg, en de vraag naar 
+flexibele en veerkrachtige zorgprofessionals, zijn flexibele en veerkrachtige leidinggevenden nodig om 
+richting te geven aan, en het ondersteunen van medewerkers in het gezond en gelukkig werken aan de 
+bedoeling van de dienst en organisatie. Het is daarom wijzer om de groei van leidinggevenden te 
+benaderen vanuit een 'ontwikkel' perspectief waardoor er ruimte is voor individualisering en 
+contextualisering: passend bij wat zij als persoon nodig heb ben in hun specifieke context. Zo'n 
+ontwikkelingstraject is dan ook gestoeld op een volwassen, zelfsturende en transformatieve leertheorie.  
+Authentiek, persoonsgericht en transformationeel leiderschap  
+Wanneer een leidinggevende het behoud van medewerkers p ositief wilt be ïnvloeden, is het noodzakelijk 
+dat hij niet alleen kennis heeft van de be ïnvloedende factoren, maar ook van welke rol hij/zij zelf kan 
+spelen in het uitoefen van positieve invloed. De leidinggevende zou van positieve invloed kunnen zijn 
+wanneer hij/zij mensen leidt op een manier waar ze tot hun recht kunnen komen binnen een 
+werkomgeving waarin individuele en col lectieve doelen op elkaar afgestemd zijn. Twee stijlen en 
+
+ 
+   
+ 
+ 
+        10 
+ bijbehorende raamwerken kunnen deze leiderschapsontwikkeling ondersteunen (zie figuur 4): 
+persoonsgericht (Cardiff et al., 2018) en transformationeel leiderschap (Bass & Riggio, 2006; Kouzes 
+& Posne r, 2006). Het raamwerk voor persoonsgericht leiderschap is ontwikkeld met en voor 
+verpleegkundig leiders en is gericht op het bevorderen van individuele medewerker zelfactualisatie, 
+empowerment en welzijn  waardoor zowel de medewerker als leider beiden tot hun recht komen . De 
+transformationel e leidershap modellen zijn het meest populair en richten zich op het afstemming tussen 
+medewerker groei en prestatie met organisatie doelen. Voor beide stijlen is authentiek leiderschap nodig 
+waarbij de leider wordt geac ht om te handelen vanuit zelfkennis. Authentieke leiders willen anderen 
+inspireren, dienen en helpen een verschil te maken in hun werk (George, 2003). Ze doen dit vanuit 
+zelfkennis over hun eigen krachten, doelen, kernwaarden, opvattingen en behoeften (Won g & 
+Cummings, 2009) verworven middels reflectie en het vragen van feedback . Alle drie de stijlen 
+verwerpen het gedachtengoed van een hero ïsche leider, en promoten het bevorderen van eigen regie en 
+moreel handelen.  
+            
+ 
+Figuur 4: Drie raamwerken  ter ondersteuning van leiderschap ontwikkeling: Cardiff e.a. (2018) / 
+Kouzes & Posner (2006) / Bass & Riggio (2006).  
+ 
+Vier foci (lantaarns) voor het leiden om te boeien en binden van medewerkers  
+Alhoewel er voldoende bewijs is dat leiderschap een belangri jke rol speelt bij retentie en verloop, blijft 
+de 'hoe' vraag puzzelen. Na een realist review literatuurstudie  concludeerde Cardiff et al (ingediend)  dat 
+front linie leiderschap (context) gericht op relationele verbondenheid, professionele autonomie, een 
+
+ 
+   
+ 
+ 
+        11 
+ heilzame werkplekcultuur en groei en ontwikkeling (mechanismen) een positieve invloed heeft op 
+medewerker IoB/V  (resultaat). Er werden vier 'lantaarns' ('guiding lights')  ontwikkeld, bedoeld om 
+leidinggevenden te helpen focussen op het probleem en hun bijdr agen aan de oplossing (zie figuur 5). 
+De lantaarns zijn specifiek genoeg geformuleerd om leidinggevenden helpen te sturen maar niet zo 
+prescriptief of gedetailleerd dat er geen ruimte is voor het accommoderen van individuele of contextuele 
+eigenhed en. In figuur 5 is het middelste kolom (‘mechanismen’) leeg. De bedoeling is dat deelnemers 
+‘dat wat werkt’ (gebaseerd op hun bevindingen gedurende het co -operative inquiry) toevoegen aan deze 
+kolom en hiermee hun gezamenlijke kennis opbouwen.  
+Wanneer frontlinie 
+leidinggevenden …  door …  resulteert dit in … 
+1) … relationeel verbondenheid 
+opbouwen …  [leider acties  invullen ]  
+ Sterkere medewerker 
+intenties om te blijven, en 
+zwakker intenties om te 
+vertrekken.  2) … professioneel autonomie 
+stimuleren …  [leider acties  invullen ] 
+3) … een heilzame 
+werkplekcultuur cultiveren …  [leider acties  invullen ] 
+4) … professioneel groei en 
+ontwikkeling ondersteunen …  [leider acties  invullen ] 
+Figuur 5:  De vier lantaarns van leiden om te boeien en binden . 
+ 
+FACILITEREN  
+Richten, mede -inrichten en ondersteunen bij het verrichten van leeractiviteiten  
+De CoP structuur en co -operative inquiry methode z ullen niet effectief zijn zonder enige vorm van 
+richting geven aan waar naartoe er gewerkt wordt, het inrichten van het ontwikkeltrajec t en 
+leeromgeving  en het verrichten van (leer)activiteiten. Voor het LBB interventie wordt een ratio van 1 
+facilitator:10 deelnemers aangeraden.  
+Gebruikmaken van het begrip ‘faciliteren’ is een bewuste keuze geweest. Hiermee wordt de rol van 
+‘facilitator’  onderscheiden van die van docent ,  opleider  en trainer. Facili teren is het makkelijker maken  
+voor anderen in het bewust worden hoe ze hun waarden  naleven , om effectiever te leren en meer 
+persoonsgericht te worden in de relaties ze met anderen  aangaan  (Manley et al ., 2021). Refl exiviteit als 
+zijnde het reflecteren op de impact die wij hebben op anderen en de omgeving waarin we ons begeven, 
+wordt gestimuleerd en ondersteund door facilitators. De facilitator faciliteert leren , maakt het 
+makkelijker, maar  bepa alt niet wat en hoe er geleerd wordt . De facilitator moet dan ook zelf reflexief 
+handelen bij  het creëren van een leeromgeving waarin zelfsturend, veilig, creatief, transformatief en 
+sociaal leren  kan plaatsvinden . Dit vraagt een behoorlijke bagage aa n kennis  (over leiderschap en 
+faciliteren) , vaardigheden en tools  waardoor ze responsief en effectief kunnen reageren op deelnemer 
+vragen en behoeften. Zo kunnen ze b ijvoorbeeld  hun theoretische kennis over leiderschap en 
+zorgmedewerker retentie inzetten o m kritische vragen te stellen aan individuen en de groep waardoor 
+bewustwording, vraagstellingen en acties worden geactiveerd. Ze kunnen allerlei didactische 
+werkvormen aanbieden en/of leiden waarmee de groep actief kunnen leren van en met elkaar. Ze kenne n 
+multipele tools (maken), zoals  een digitaal logboek, een fysiek dagboek of een plakboek , waarmee 
+deelnemers hun (leer)ervaringen kunnen vastleggen.  
+ 
+   
+ 
+ 
+        12 
+ Veel van wat de facilitator doet is deelnemers ondersteunen in het formuleren van leervragen, uitdagen 
+om leeractiviteiten te vinden/maken, en geconstrueerde betekenissen vergelijken en kritisch 
+bevragen/toetsen .  
+Cultiveren van een veilig, kritisch en creatief leeromgeving  
+Volwassenonderwijs is grotendeels gedomineerd door cognitief en rationeel denken en han delen, terwijl 
+in de LBB methodiek facilitator s gevraagd  wordt een beroep te doen op meerdere vormen van 
+intelligentie (zie Gardner,  1999)  bij het activeren van kritisch en creatief denken en handel en onder 
+deelnemers .   
+Waar 'het kritisch zijn' soms opgevat kan worden als 'kritiek uiten' of het negatieve zien, betekent het 
+hier de status quo durven bevragen om bewust te worden van vormen van  versterking en onderdrukking, 
+om vervolgens het positieve te versterken en het negatieve veranderen. Dit is in lijn met de assumpties 
+behorend bij een sociaal -kritische wetenschapsparadigma (Fay, 1987), dat stelt dat macht continu 
+aanwezig is en dat bij bewustwording en bevraging mensen (in relatie) tot actie overgaan en de 'macht 
+over' transformeren in 'macht met' , waardoor zij zelf en anderen ge ëmancipeerd worden van zulke 
+onderdrukkingen. Vertaald naar de focus van LBB  beteken t dit het exploreren van de eigen waarden, 
+opvattingen, veronderstellingen, structuren en culturen die van invloed zijn op de eigen leiders chap. 
+Vanuit die bewustwording kunnen strategie ën en acties bedacht worden om eigen  regie en 
+gelijk/evenwaardigheid te cultiveren in werkplekken waar verschillen blijven bestaan maar doe ook 
+worden benut voor ‘het goede ’. Hiermee krijgt zowel het faciliter en van leren als het leide n van 
+zorgmedewerkers een morele lading . Flyvbjerg's (2004) vier vragen kunnen helpen focus te houden op 
+‘het goede’ : 1) Waar gaan we heen? 2) Wie wint en wie verliest, en door welke machtsmechanismen? 
+3) Is deze ontwikkeling wens elijk? 4) Wat moeten we er eventueel aan doen?  
+In sociaal -kritische methoden van onderzoek en onderwijs word dialoog  veel gebruikt als middel om de 
+ontmoeting ’ tussen betrokkenen te bevorderen. Het is wel belangrijk dat  de 'ruimte' waarin dit dialoog 
+plaat svindt, zij het fysiek of virtueel, ook veilig is. Zodoende kunnen individuel e interpretaties 
+gepresenteerd, beargumenteerd en bekritiseerd worden op een constructieve wijze. Het vraagt 
+wederkerig vertrouwen, eerlijkheid, moraliteit en authenticiteit onder  de deelnemers, iets dat 
+makkelijker gezegd is dan gedaan , maar wat de facilitators bewaken en rolmodellen.  
+Het gesproken woord kan krachtig zijn. Het kan ook machtig zijn in de zin van de bijdragen van anderen 
+overschaduwen of onderdrukken. Veel mensen zi jn visueel ingesteld (denken in beelden) of soms niet 
+bewust van de kennis die ze bezitten en is het dus  niet makkelijk deze te articuleren.  Creatieve expressie 
+helpt de niet-gearticuleerde vormen van kennis aan de oppervlakte krijgen voor nadere analyse en 
+interpretatie (Cardiff & van Lieshout, 2014). Bovendien kunnen cognitieve processen zoals 
+rationaliseren een belemmering vormen voor het uiten van cognitieve kennis - dat stemmetje wat zegt 
+"Dat kan je niet zeggen". Wederom kan creatieve expressie een p oort openen naar het niet 
+geverbaliseerde.  
+Metaforen, symbolische taal en verhalen, evenals toneelstukjes, muziek, beeldcollages, 
+(lego)constructies, schilderijen, geboetseerde figuren of andere creaties helpen het ongearticuleerde 
+tastbaar maken. Het pro ces aan zich stimuleert nieuwsgierigheid en anders denken, evenals het 
+versterken van eigen effectiviteit en groepsverbondenheid (Frost, 2020). Het kan in eerst instantie 
+oncomfortabel voelen voor deelnemers. Zorgzaam en zorgvuldig faciliteren door begelei ders die het 
+meerwaarde van creatieve methoden hebben ervaren en omarmen, is heel belangrijk. Er moet ruimte 
+zijn voor wel/niet/deels participeren, evenals de mogelijkheid om via verschillende methoden uiting te 
+geven aan gedachten en gevoelens. Mensen heb ben vaak een voorkeur, en soms een afkeur voor 
+ 
+   
+ 
+ 
+        13 
+ bepaalde methoden. Bovendien is het zo dat  als het werken met creativiteit niet expliciet of doelbewust 
+gebeurd, het meer verw arring dan verheldering oproept . 
+ 
+EVALUEREN  
+Evalueren  is een essentiee l proces voor  continu leren en verbeteren  en hoort op verschillende niveaus 
+en verschillende momenten plaats te vinden bij de LBB methodiek.  
+In- en uitchecken bij ontmoetingsmomenten  
+Iedere ontmoetingsmoment, zij het de opstartdagen of half daagse bijeenkomsten, zou mo eten beginnen 
+met een ‘in -check’ / ijsbreker activiteit . Hiermee worden  deelnemers gefaciliteerd in de transitie te 
+maken van hun (werkende) leven buiten de bijeenkomst  naar de ‘community of practice’ waar ze  lid 
+van zijn. Er zijn heel veel methoden te gebruiken, en meestal kan de inhoud/focus gekoppeld worden 
+aan leiderschap (in het breedste zin van het woord). Een aantal voorbeelden zijn te vinden in bijlage 2.  
+Op het einde van de ontmoetingsmoment is kan het ‘uitchecken’ gecombineerd worden met het be wust 
+stilstaan bij wat er geleerd/veranderd is door de  deelnemers , evenals hoe ze de bijeenkomst procesmatig 
+hebben ervaren. Op basis van de evaluaties kunnen verbeteracties geformuleerd worden voor de 
+volgende bijeenkomst(en), of thema’s geïdentificeerd w orden voor nader (individueel of collectief) 
+exploratie in de tussenperiode of volgende bijeenkomst. Wanneer de facilitators meedoen aan de 
+evaluatieactiviteit bouwt dit mee aan relationel e verbondenheid en een authentiek gevoel van een 
+gemeenschap gebasee rd op gelijkwaardigheid. Wanneer twee of meer facilitators aanwezig zijn, kunnen 
+ze tevens een onderling e ‘debriefing’ doen, gericht op hun onderling samenwerking en impact op het 
+groepsproces. Voor beide vormen van evalueren (groep v facilitators) zijn er  allerlei methoden te 
+gebruiken (zie bijlage 3 voor een aantal suggesties)  
+Schaduwen  door kritische vrienden         
+Schaduwen (‘shadowing’ or ‘job -shadowing’) is een onderzoeksmethode en leermethode waarbij een 
+onderzoeker of lerende (de schaduwer) een and er persoon (de geschaduwde) van dichtbij volgt en 
+zijn/haar gedrag, handelingen en uitspraken observeert voor een langere periode. Schaduwen als 
+leermethode biedt kansen voor de ontwikkeling van leiderschap competenties,  interprofessioneel leren  
+en oriëntatie en socialisatie op een rol/functie en praktijkvoering (van den Langenberg, 2021). De 
+schaduwer is meestal een buitenstaander zonder insider -kennis (Czarniawska, 200 7) en wilt meer leren 
+over de rol/functie van de geschaduwde, zijn taken en gedragingen bestuderen en/of inzicht verkrijgen 
+in de leefwereld van de geschaduwde (McDonald, 2005). Schaduwen kan daarom gebruikt worden als 
+een evaluatie methodiek waardoor de schaduwer zijn analyse van verzamelde data terugkoppelt aan de 
+geschaduwde. Hierdoor krij gt schaduwen ook een ontwikkeldoelstelling omdat de geschaduwde kan 
+reflecteren en leren van de terugkoppeling.  
+Bij schaduwen loopt d e schaduwer letterlijk in de schaduw van de geschaduwde en maakt notities die 
+vervolgens  bevraagd kunnen worden tijdens kor te informele gesprekken , waardoor verdieping wordt 
+gebracht aan d e waarn emingen  (van den Langenberg & Cardiff, 2021 ). In het LBB worden deelnemers 
+uitgenodigd om duo’s te vormen en elkaar te schaduwen in de eigen werkomgeving voor 1 dag. Er wordt 
+ook aange raden om een focusgroepdiscussie te voeren  bij het team van de geschaduwde leidinggevende. 
+De topic van discussie in de focusgroep is het leiderschap van de geschaduwde leidinggevende   zoals 
+ervaren door het team. Door de resultaten van het schaduwen en interviews aan elkaar terug te koppelen 
+op een ethisch verantwoorde manier (richting team en leidinggevende), worden de deelnemers kritische 
+vrienden van elkaar . 
+ 
+   
+ 
+ 
+        14 
+ Wanneer schaduwen (observeren + team interview) plaatsvinden na de één daagse vaardigheidstrai ning, 
+biedt het input voor de persoonlijke ontwikkelplan van deelnemers en eventueel topics voor groep 
+exploratie in de half daagse ontmoetingen. Herhaling van het schaduwen tegen het einde van het LBB 
+ontwikkeltraject, biedt ook evaluatieve informatie ove r de leiderschap ontwikkeling van de deelnemers.  
+Tijdens het pilotproject  van de LBB methodiek is een richtlijn ontwikkeld voor en met de deelnemende 
+leidinggevenden. Deze is te vinden in bijlage 4.     
+Kouzes & Posner's Leadership Practice Inventory  
+Tran sformationeel leiderschap is één van de leiderschapsstijlen passend bij het bevorderen van 
+medewerker IoB. Er zijn twee instrumenten om transformationeel leiderschap te 'meten'. De Multifactor 
+Leadership Questionnaire  meet transformationeel leiderschap zoa ls gepresent eerd door Bass & Riggio 
+(2006) en h et Leadership Practice Inventory (LPI) 'meet' transformationeel leiderschap zoals beschreven 
+door Kouzes & Posner (2007). De LPI is vertaald in Nederlands (Plas & Crijns, 2010) en kan gebruikt 
+worden als een z elf-beoordelingsinstrument en als een 360graden instrument. Deze is terug te vinden in 
+bijlage 5. 
+Tijdens het pilotproject  van de LBB met hodiek werd de zelfbeoordeling  versie van de LPI gebruikt. 
+Deelnemers werden uitgenodigd om het instrument in te vullen  tijdens de opstart dagen (T0), na 6 
+maanden (T1) en na de afsluitingsbijeenkomst (T2). Berekeningen op sub-schaal  en totale scores werden 
+teruggekoppeld aan individuele deelnemers op alle 3 de meetmomenten waardoor ze de persoonlijke  
+(zelf-beoordeelde) gr oei in transformationeel leiderschap kon volgen.    
+Leiderschapsontwikkeling narratief  
+Sommigen zien de mens als een 'verhalend wezen'. Verhalen vertellen is de mens eigen, we vertellen 
+verhalen aan elkaar de hele dag lang op het moment dat we een beeld schetsen van wat we denken of 
+hebben meegemaakt. In contrast tot het spontaan gedeelde verhaal  is een narratief i s een reflectie 
+op/reflectieve weergave van het verhaal  of een collectie verha altjes  (Holloway & Freshwater, 2007; 
+Riessman, 2008) . Er is over nagedacht, betekenisvol le patronen  zijn gezocht en de boodschappen 
+zorgvuldig achter elkaar geplaatst in een narratief . Bruner (1986) stelt dat het construeren van een 
+narratief helpt betekenis te geven aan datgene wat wij meemaken, en Atkinson (2002) stelt dat een 
+narratief van meerwaarde kan zijn voor zowel de auteur als de lezer. Voor de LBB methodiek stellen 
+wij dat het construeren van een eigen leiderschapsontwikkeling  narratief van (evaluatie ve) meerwaarde 
+is voor zowel de deelnemende leidinggevenden als voor anderen die het impact van het methodiek willen 
+zien en/of beoordelen.  
+In de twee weken voorafgaan d aan de afsluitingsbijeenkomst w orden deelnemers uitgenodigd  om na te 
+denken over hun o ntwikkeltraject en attributen te verzamelen die (onderdelen van) de gemaakte  'reis' 
+voorstellen . Ze w orden gevraagd om de attributen en een foto van zichzelf mee naar de 
+afsluitingsbijeenkomst  te nemen . Tijdens de bijeenkomst staat er een grote tafel vol c reatieve material en. 
+Elke deelnemer k an de meegebrachte attributen gebruiken , samen met de aanwezige creatieve 
+materia len om het ontwikkeltraject uit te beelden op een flip -chart. Men is vrij om te kiezen tussen één 
+groot  beeld of een 'storyboard' structuu r van 3 -9 vakken.  
+De creatief uitgebeeld e narratieven w orden aan elkaar gepresenteerd om er vervolgens een dialoog  over  
+te voeren . De presentaties w orden door de facilitators vastgelegd in een foto en audio -opname. Iedere 
+deelneme r ontvangt de foto en au dio-opname  van zijn/haar narratief . De audio -opnames k unnen 
+gebruikt worden om een overkoepelend  (meta -) narratief te construeren  - het narratief  van een 'fictieve' 
+deelnemer  maar gebaseerd op de actuele deelnemers . Dit kan dienen als  evaluatie onderdeel  van de LBB 
+methodiek.  Voorb eelden gemaakt tijdens de pilotproject zijn terug te vinden in bijlage 6. 
+ 
+   
+ 
+ 
+        15 
+  
+ 
+Dashboard   
+Tijdens het pilotproject Blijf aan Z werd de kwantitatief  evaluatie uitgevoerd  aan de hand van een  
+elektronische bevraging , op twee manieren: 1) 5 korte vragen die regelmatig (per gewerkte dienst) 
+ingevuld werden door individuele zorgmedewerkers  (zie figuur 6) ; 2) een uitgebreide survey instrument 
+die om de 3 maanden werd ingevuld door zorgmedewerkers.   
+De 5 korte vragen monitoren 5  voorspellers voor retentie: individuele factoren, sociaal kapitaal, 
+beslissingsruimte, werkdruk en kwaliteit van zorg. Indien minimaal 5 medewerkers en 30% van 
+hetzelfde team de vragenlijst invult, werd een dashboard met res ultaten gegenereerd op teamniveau. 
+Zodoende konden zowel de leidinggevende als de individuele zorgverlener (inclusief heel het team) op 
+een snelle manier werkelijk feedback verkrijgen over de tevredenheid van het team.  
+ 
+ 
+Figuur 6: Vijf korte vragen om vors pellers van retentie te monitoren  
+ 
+De survey vragenlijst bestond uit bestaande, gevalideerde, Nederlandstalige vragenlijsten gericht op 
+job tevredenheid en intentie om de job te verlaten, namelijk; de Revised Nursing Work Index 
+(NWI_R), de Utrecht Work Eng agement Scal e Index (UWES), de Manager Support Scale (MSS), de 
+Burnout Assessment Tool (BAT).  
+  Vraag 1: In welke mate heb je deze week de ruimte gehad je werk zelf in te richten?  
+Vraag 2: Hoe verliep de samenwerking met je directe co llega's?  
+Vraag 3: Hoe druk was je shift?  
+Vraag 4: Heb je kwalitatief goede zorg verleend deze week?  
+Vraag 5: Hoeveel zin heb je in je volgende werkdag?  
+ 
+   
+ 
+ 
+        16 
+ 3: INHOUD PILOT PROJECT  2021 -2 
+In dit deel volgt een overzicht van de agenda/opbouw van de bijeenkomsten van het pilotproject Blijf 
+aan Z en de methodiek LBB. In  lijn met de uitgangspositie van zelfsturend, veilig, creatief, 
+transformatief en sociaal leren , evenals het faciliteren van leren en niet doceren/opleiden/trainen, raden 
+we ten zeer aan om de volgende als inspiratie en richtinggevend waar te nemen en niet  als prescriptief 
+of blindelings volgen.  
+OPSTART DAGEN  
+Programma opstart  dag 1  
+Duur  Focus  
+09.00 -10.00uur  Welkom en introductie project  
+ Hopen/vrezen/verwachtingen t.o.v. het project  
+ Kennismakingsactiviteit  
+ Voorspellers van uitstroom  
+ CoP & Co -op inquiry  
+10.-11.15uur  Elkaar leren kennen en visies op goed (hiërarchisch) leiderschap  
+ Dialoog zelf: wat betekent LBB  
+ Dialoog met de ander (duo’s/viertal) visies op LBB uitwisselen  
+ Samen één creatie ve uitbeelding maken  
+ Bezichtigen en bevragen van uitbeeldingen  
+11.15 -11.30uur  Pauze 
+11.30 -12.30uur  Terugkoppeling en verbinden subgroep werk  m.b.v. concept analyse raamwerk 
+(beïnvloedende  factoren / leider attributen & leiderschap processen / gevolgen)  
+12.30 -13.15uur  Lunch  
+13.15 -14.00uur  Introductie 4 Lantaarns raamwerk  (inclusief relationeel leiderschapstheorie; 
+resonant/persoonsgericht/transformatief leiderschap)  
+14-15.30uur  Bespreken CMO raamwerk (wat resoneert, wat niet, wat ontbreekt?)  
+ Dialoog met zelf: ervaringen/opvattingen m.b.t. 4 lantaarns  
+ Dialoog met anderen (subgroep van 3 -4): wat werkt, wat niet 
+(processen/mechanismen)  
+ Welke vragen blijven over?  
+15.30 -17uur  Terugkoppeling en verbinden subgroep werk – 1e
+ aanpassing/aanvulling CMO 
+raamwerk  
+Introductie Persoonlijk Ontwikkel Plan  
+Evaluatie van de dag  
+ 
+  
+ 
+   
+ 
+ 
+        17 
+ Programma opstart dag 2  
+Duur  Focus  
+09.00 -09.45uur  Welkom,  
+ Incheck oefening: Utrechtse Bevlogenheid Schaal  laten invullen  
+ Pas op de plaats  
+09.45 -10.00uur  Introductie – oriënteren huidige situatie  
+ Visies op leiderschap (al begonnen)  
+ Tuck man’s  teamvorming & CoP grondregels  
+ Co-operative inquiry proces  
+ Kritische vrienden worden (schaduwen)  
+10.00 -10.30uur  Subgroepen: hopen/vrezen/verwachtingen m.b.t. voorstel  
+10.30 -10.45uur  Pauze  
+10.45 -11.30uur  Plenaire terugkoppelen – CCI's 
+11.30 -12.00uur  LPI vragenlijst  (T0) 
+12.00 -13.00uur  Lunch  
+13.00 -13.45uur  Inrichting half daagse bijeenkomsten ? 
+ Casusbesprekingen?  
+ Terugkoppelingen uitgeprobeerde acties/interventies?  
+ Inhoudelijk workshops?  
+ Frequentie, duur, (hybride)leeromgeving?  
+13.45 -16.00uur  Subgroepen:  
+ Grondregels  per subgroep van 10  
+ Oefenen kritisch & creatief casusbespreking ; 
+15.30 -15.45  Pauze  
+16.00 -17uur  Terugkoppeling en verbinden subgroep werk  
+CMO raamwerk herzien  
+Evaluatie van de dag  
+VAARDIGEHIDSTRAINING  
+Duur  Focus  
+09.30 -10.00uur  Welkom, incheck  oefening , pas op de plaats, programma check  
+10.00 -11.00uur  Persoonsgericht leiderschap exploreren via puzzelen  
+11.00 -11.15uur  Pauze  
+11.15 -12.30uur  Schaduwen  
+ Richtlijn doornemen  
+ Oefenen in gebouw (indien mogelijk)  
+12.30 -13.15uur  Lunch  
+13.15 -14.15uur  Groep interview  
+ Richtlijn doornemen  
+ Oefen en 
+ 
+   
+ 
+ 
+        18 
+ 14.15 -14.45uur  Gastspreker  
+(Annemarie De Vos, 3 vragen methode emotionele ondersteuning tijdens 
+COVID: te vinden hier) 
+14.45 -15.00uur  Pauze  
+15.00 -16.00uur  Transformationeel leiderschap: De 4 i’s of de 5 p’s  
+ Youtube video’s  (video 1 , video 2 , video 3 , video 4 ) 
+ Verbinden aan 4 Lantaarns raamwerk  
+16.00 -16.30uur  PoP - tijd om aan PoP te werken obv inzichten vandaag  
+Welke interventie(s) zetten we  individueel/gezamenlijk in komende maand ? 
+Fase 1 co -operative inquiry  
+Evaluatie van de dag  
+HALFDAAGSE BIJEENKOMS TEN  
+Basis structuur  half daagse (3 uren)  
+Duur  Focus  
+14.00 -14.45uur  Welkom, Pas op de plaats, Programma vandaag  
+Incheck oefening gerelateerd aan thema's van belang/interesse (30mins)  
+14.45 -15.40uur  Reflectie afgelopen maand (fase 4 co -operative inquiry)  
+ Subgroepen 10 personen, kernvraag: " Afgelopen maand …. hoe heb jij een 
+positieve invloed proberen uit te oefenen  aan medewerker werkgeluk & 
+welzijn om ze te boeien en binden?”  
+ Plenaire terugkoppeling  & betekenis geven aan 4 Lantaarns (mechanismen)  
+15.40-15.50uur Pauze  
+15.50-16.50uur Voorstelling en aankomende maand (fase 1 co -operative inquiry)  
+ Subgroep 10 personen, kernvraag: “Hoe kunnen we komende maand/zomer 
+een positieve invloed hebben op medewerker werkgeluk & welzijn, om ze te 
+boeien en binden?”  
+ Plenaire terugkoppeling & individueel/gezamenlijke 
+actie/interventieplanning  
+16.45 -17.00uur  Evaluatie vandaag; bepaal incheckoefening/workshop thema volgende 
+bijeenkomst  
+ 
+Basis structuur volle daagse bijeenkomst (6  klokuren)  
+Duur  Focus  
+10.00 -10.15uur Welkom,  Pas op de plaats, Programma vandaag  
+10.15-11.15uur 
+(inclusief 
+koffie)  Reflectie afgelopen  maand (fase 4 co -operative inquiry)  
+ Subgroepen 10 personen, kernvraag: " Afgelopen maand …. hoe heb jij een 
+positieve invloed proberen uit te oefenen aan medewerker werkgeluk & 
+welzijn om ze te boeien en binden?”  
+ Plenaire terugkoppeling  & betekenis geven aan 4 Lantaarns (mechanismen)   
+11.15-12.15uur Workshop - gerelateerd aan thema's van belang/interesse  
+Bijvoorbeeld:  
+ 
+   
+ 
+ 
+        19 
+ - medewerker profiling/werken met talenten /ontwikkelgesprekken  
+- empowerment theorie en professioneel autonomie  
+- werkplekcultuur en 'de bedoeling' (gedeelde visie en missie creëren)  
+- richten en inrichten structureel, kort communicatieve ruimtes  
+12.15-13.15uur  Lunch pauze  
+13.15 -14.15uur Workshop - gerelateerd aan thema's van belang/interesse  
+Bijvoorbeeld:  
+- medewerker profiling/werken met talenten/ontwikkelgesprekken  
+- empowerment theorie en professioneel autonomie  
+- werkplekcultuur en 'de bedoeling' (gedeelde visie en missie creëren)  
+- richten en inrichten structureel, kort communicatieve ruimtes  
+14.15-14.45uur  
+(inclusief 
+koffie)  Individueel reflectieruimte - werken aan logboek/plakboek/PoP enz.  
+14.45-15.45uur  Voorstellingen aankomende maand (fase 1 co -operative inquiry)  
+ Subgroep 10 personen, kernvraag: “Hoe kunnen we komende maand/zomer 
+een positieve invloed hebben op medewerker werkgeluk & welzijn, om ze te 
+boeien en binden?”  
+ Plenaire terugkoppeling & individueel/gezamenlijke 
+actie/interventieplanning  
+15.45-16.00uur  Evaluatie vandaag;  bepaal  incheckoefening/workshop thema volgende 
+bijeenkomst   
+AFSLUITING SBIJEENKOMST   
+Duur  
+ Focus  
+10.00 -10.15uur  Welkom, Pas op de plaats, Programma vandaag  
+Incheck oefening gerelateerd aan thema's van belang/interesse (30mins)  
+10.15-11.00uur  Reflectie afgelopen maand (fase 4 co -operative inquiry)  
+ Subgroepen 10 personen, kernvraag: " Afgelopen maand …. hoe heb jij een 
+positieve invloed proberen uit te oefenen aan medewerker werkgeluk & 
+welzijn om ze te boeien en binden?”  
+ Plenaire terugkoppeling  & betekenis geven aan 4 Lantaarns (mechanismen)  
+11.00-12.30uur  Creatief cultuur workshop  
+ Creatief uitbeelding huidige werkplekcultuur  
+ Analyse m.b.v. lantaarns voor heilzaam werkplekcultuur + andere 
+theoretische kaders  
+ Creatief transformeren na heilzaam werkplekcultuur  
+ Bepaal acties leidinggevenden  
+12.30-13.15uur Lunch  
+ 
+13.15-13.45uur  Individueel uitbeelden leiderschapsontwikkeling  
+13.45-15.15uur 
+(inclusief 
+koffie)  Narratief interviewen over leiderschapsontwikkeling (m.b.v. creatieve 
+uitbeelding)  
+ 
+   
+ 
+ 
+        20 
+ 15.15-15.50uur  Do’s & Don’t (mechanismen) boodschappen/lijst voor andere  leidinggevende die 
+zorgmedewerker IoB willen positief beinvloeden  
+15.50-16.00uur  Evaluatie (vandaag /gehele traject)   
+ 
+  
+ 
+   
+ 
+ 
+        21 
+ 4: BESLUIT  
+Het behoud van zorgmedewerkers is een werelds  en 'wicked problem' met multipele onderling 
+verbonden oorzaken waarvoor geen eenduidige  oplossing bestaat . Toch worden frontlinie 
+leidinggevenden dagelijks geconfronteerd met de gevolgen van het tekort aan zorgmedewer kers, wordt 
+er naar hen gekeken om 'het probleem' op te lossen en terwijl ze zich daarover hopeloos  voelen  is er 
+hoop te vinden 'met elkaar'.   
+In de 'interventie' aangeboden in deze manual worden frontlinie leidinggevenden uitgenodigd om actief 
+deel te nemen aan het vormen van een community of practice (CoP) waarin ze individueel en 
+gezamenlijk door multipele co-operative inquiry cycli doorlopen . Op basis van hun  voorstellingen over 
+wat (mogelijk) werkt, formuleren ze  acties, voeren deze uit in de eigen praktijkvoering en koppelen de 
+geobserveerde effect en er van terug aan elkaar zodat hun  (gezamenlijke) beeld (en hoop) over wat ze 
+kunnen doen groeit . Het 'ontwikkeltraject' wordt begeleidt door 'facilitators' die 'met' de groep werken 
+(in tegenstelling tot doceren, opleiden of trainen). Door  elkaar te schaduwen , mee te denken en het doen 
+van (creatieve) workshop s, evenals het  kritische dial oog met elkaar aan  te gaan, kunnen ze aan hun 
+competenties bouwen in het boeien van zorgmedewe rkers waardoor de kans hoger is dat de medewerker 
+zich wil (blijven) binden aan het team, de organisatie of de zorg .  
+Terwijl deelnem ers het 'ontwikkel pad'  zelf moeten doorlopen, wordt he t 'belicht' door 4 lantaarns die 
+helpen focussen op het bouwen aan relationeel verbondenheid, bevorderen van professioneel autonomie, 
+cultiveren van een heilzam e werkplekcultuur en ondersteunen van pro fessionele groei en ontwikkeling.  
+Het is aanbevolen om d e voortgang te monitor en en evaluer en met verschillende  (zelf-assessment) 
+instrumenten . 
+  
+ 
+   
+ 
+ 
+        22 
+ BIBLIOGRAFIE  
+Al Zamel, L., Lim Abdullah, K., Chan, C., & Piaw, C. (2020). Factors Influencing Nurses’ Intention to 
+Leave and Intention to Stay: An Integrative Review. Home Health Care Management and Practice , 
+32(4), 218 -228. 
+Atkinson R (2002) The Life Story Interview. In: Gubrium JF, Holstein JA (eds). Handbook of 
+Interview Research: Context and Method.  Sage Publishers . 
+Averens, T. ; Van den Broeck , K.; Franck, E. (2022).   A Scoping review of interventions that increase 
+job satisfaction of healthcare workers . Beschikbaar  op: 
+https://www.provincieantwerpen.be/content/dam/provant/dese/economie/arbeidszorg/Scoping%20revi
+ew%20retention%20interventions -gecomprimeerd.pdf . 
+Bass, B., & Riggio, R. (2006). Transformational Leadership  (Second ed.). Mahwah: Lawrence 
+Erlbaum Associates, Inc.  
+Bawafaa, E., Wong, C. A., & Laschinger, H. (2015). The influence of resonant leadership on the 
+structural empowerment and job satisfaction of registered nurses. Journal of Research in Nursing , 
+20(7),  610–622. 
+Bindels, J., Cox, K., Widdershoven, G., van Schayck, C. P., & Abma, T. A. (2014). Stimulating 
+program implementation via a Community of Practice: a responsive evaluation of care programs for 
+frail older people in the Netherlands. Evaluation and P rogram Planning , 46, 115 -121. 
+Boyatzis, R., & McKee, A. (2006). Inspiring others through resonant leadership . Business Strategy 
+Review, 17(2), 15 -19. 
+Bruner, J. (1986) Actual Minds, Possible Worlds . Harvard University Press . 
+Cambridge, D. and Suter, V. (2005). Community of Practice design guide: A step -by-step guide for 
+designing & cultivating communities of practice in Higher Education . EDUCAUSE Learning 
+Initiative (ELI).  
+Cardiff, S., Gershuni, O., Giesbergen -Brekelmans, A. ( 2022).     Beschikbaar op:  
+ 
+Cardiff, S., & Lieshout van, F. (2014). Het kritisch -creatief hermeneutisch data -analyseraamwerk: 
+Analyseren met in plaats van voor participanten. KWALON Tijdschrift voor Kwalitatief Onderzoek , 
+19(2), 30 -36. 
+ 
+Cardiff, S., McCormack, B., & McCance, T. (2018). Person -centred leadership: A relational approach 
+to leadership derived through action research.  Journal of Clinical Nursing , 27(15 –16), 3056 –3069.  
+Cardiff, S., Sanders, K., Webster, J., & Manley, K. (2020). Guiding ligh ts for effective workplace 
+cultures that are also good places to work. International Practice Development Journal , 10(2), 1 -20. 
+Czarniawska, B. (200 7). Shadowing and Other Techniques for Doing Fieldwork in Modern Societies . 
+Copenhagen Business School Press  
+Corso, M., Giacobbe, A., & Martini, A. (2009). Designing and managing business communities of 
+practice. Journal of knowledge management , 13(3), 73 -89. 
+Cowden, T., Cummings, G., & Profetto -Mcgrath, J. (2011). Leadership practices and staff nurses’ 
+intent t o stay: A systematic review. Journal of Nursing Management , 19(4), 461 –477. 
+ 
+   
+ 
+ 
+        23 
+ Cummings, G., Hewko, S., Wang, M., Wong, C., Laschinger, H., & Estabrooks, C. (2018). Impact of 
+Managers’ Coaching Conversations on Staff Knowledge Use and Performance in Long -Term Care 
+Settings. Worldviews on Evidence -Based Nursing , 15(1), 62 –71. 
+Dickson,  C., Davies, C., McCormack, B., Westcott, L., Merrell, J., Mcilfatrick, S., & Dewing, J. 
+(2022). UK nurses' and midwives' experiences of healthful leadership practices during the COVID -19 
+pandemic: A rapid realist review. Journal of Nursing Management , 1– 16. doi: 
+https://doi.org/10.1111/jonm.13790  
+Duffield, C. M., Roche, M. A., Blay, N., & Stasa, H. (2011). Nursing unit managers, staff retention 
+and the work environment. Journal of Clinical Nursing , 20(1 –2), 23 –33. 
+Fay, B. (1987). Critical Social Science:  Liberation and its Limits. New York: Cornell University Press.  
+Fishbein, M., & Ajzen, I. (1975). Belief, Attitude, Intention, and Behavior: An Introduction to Theory 
+and Research . Addison -Wesley.  
+Flyvbjerg, B. (2004) Phronetic planning research: theoretic al and methodological reflections. Planning 
+Theory & Practice , 5:3, 283 -306. 
+Frost, D. (2020). Understanding and developing professional artistry in nursing practice . (PhD). Queen 
+Margaret University, Edinburgh, Beschikbaar van https://www.publicatie -online.nl/publicaties/donna -
+frost. 
+Gaudenz, C., De Geest, S., Schwendimann, R., & Zúñiga, F. (2019). Factors Associated With Care 
+Workers’ Intention to Leave Employment in Nursing Homes: A Secondary Data Analysis of the Swiss 
+Nursing  Homes Human Resources Project. Journal of Applied Gerontology , 38(11), 1537 –1563.  
+Gardner, Howard (1999) Intelligence Reframed. Multiple intelligences for the 21st century . Basic 
+Books . 
+George, B. (2003). Authentic leadership: Rediscovering the secrets to  creating lasting value . Jossey -
+Bass.  
+Halter, M., Boiko, O., Pelone, F., Beighton, C., Harris, R., Gale, J., … Drennan, V. (2017, December 
+15). The determinants and consequences of adult nursing staff turnover: A systematic review of 
+systematic reviews.  BMC Health Services Research , 17, 824.  
+Hayes, L. J., O’Brien -Pallas, L., Duffield, C., Shamian, J., Buchan, J., Hughes, F., et al. (2006). Nurse 
+turnover: A literature review. International Journal of Nursing Studies , 43(2), 237 -263. 
+Heron, J. & Reason, P. (2006) The Practice of Co -Operative Inquiry: Research “with” rather than “on” 
+people. In: Reason, P. and Bradbury, H., Eds., Handbook of Action Research , Sage Publications, 144 -
+154. 
+Holloway, I., & Freshwater, D. (2007). Narrative Re search in Nursing . Blackwell Publishing.  
+Ilies, R., Nahrgang, J. D., & Morgeson, F. P. (2007). Leader -member exchange and citizenship 
+behaviors: A meta -analysis.  Journal of Applied Psychology , 92(1), 269 –277. 
+Kouzes, J., & Posner, B. (2007). The Leadership  Challenge  (4th ed.). San Francisco: Jossey -Bass.  
+Li, L. C., Grimshaw, J. M., Nielsen, C., Judd, M., Coyte, P. C., & Graham, I. D. (2009). Evolution of 
+Wenger's concept of community of practice. Implementation Science , 4(1), 1 -8. 
+ 
+   
+ 
+ 
+        24 
+ Lynch, B., McCormack, B., McCance, T., & Brown, D. (2017). The development of the Person -
+Centred Situational Leadership Framework: Revealing the being of person -centredness in nursing 
+homes. Journal of Clinical Nursing , 27(1 -2), 427 -440. 
+Manley, K., Sander s, K., Cardiff, S., & Webster, J. (2011). Effective workplace culture: the attributes, 
+enabling factors and consequences of a new concept. International Practice Development Journal , 
+1(2).  
+Manley, K., Wilson, V., & Øye, C. (Eds.). (2021). International pra ctice development in health and 
+social care  (Second). Wiley -Blackwell.  
+McCormack, B., McCance, T., Bulley, C., Brown, D., McMillan, A., & Martin, S. (Eds.). (2021). 
+Fundamentals of person -centred healthcare practice.  John Wiley & Sons.  
+Mcdonald, S. (2005).  Studying actions in context: a qualitative shadowing method for organizational 
+research. Qualitative Inquiry , 5(4), 455 –473 
+Murrells, T., Robinson, S., & Griffiths, P. (2008). Is satisfaction a direct predictor of nursing turnover? 
+Modelling the relationship between satisfaction, expressed intention and behaviour in a longitudinal 
+cohort study. Human Resources for Health , 6, 1 -12. 
+Plas, M., Crijns, M. (2010) Vakinhoudelijk leiderschap en de LPI . Nederlands Tijdschrift voor 
+Evidence Based Practice . 8(3), 20-22 
+Ranmuthugala, G., Plumb, J. J., Cunningham, F. C., Georgiou, A., Westbrook, J. I., & Braithwaite, J. 
+(2011). How and why are communities of practice established in the healthcare sector? A systematic 
+review of the literature.  BMC health services research , 11(1), 1 -16. 
+Riessman, C. (2008).  Narrative Methods for the Human Sciences . Sage Publications.  
+Sveinsdóttir, H., Ragnarsd óttir, E. D., & Blöndal, K. (2016). Praise matters: The influence of nurse 
+unit managers’ praise on nurses’ practice, work environment and job satisfaction: A questionnaire 
+study.  Journal of Advanced Nursing , 72(3), 558 –568. 
+Tuckett, A., Winters -Chang, P., Bogossian, F., & Wood, M. (2015). “Why nurses are leaving the 
+profession ... lack of support from managers”: What nurses from an e -cohort study said. International 
+Journal of Nursing Practice , 21(4), 359 –366.  
+Urquhart, C., Brice, A., Cooper, J., Spink, S., & Thomas, R. (2010). Evaluating the development of 
+virtual communities of practice that support evidence based practice. Evidence Based Library and 
+Information Practice , 5(1), 48 -63. 
+Van de Langenberg, N. (2021)  Schaduwen van een  zorgvrager als  leermethode . Onderwijs en 
+Gezondheidszorg,  45(7), 16 -19. 
+ 
+Van den Langenberg, N., & Cardiff, S. (2021)  Schaduwen van een zorgvrager als leermethode in de 
+gehandicaptenzorg :Het narratief van een student Bachelor verpleegkunde . Verplee gkunde, 36(4), 7 -
+14. 
+Wenger, E., McDermott, R. A., & Snyder, W. (2002). Cultivating communities of practice: A guide to 
+managing knowledge . Harvard Business P ress. 
+Wong, C., & Cummings, G. (2009). Authentic leadership: a new theory for nursing or back to basics? 
+Journal of Health Organization and Management , 23(5), 522 -538. 
+ 
+   
+ 
+ 
+        25 
+ BIJLAGE N 
+ 
+   
+ 
+ 
+        26 
+  BIJLAGE 1: SCHEMA VOOR HET INTAK EGESPREK  
+Doel : Deelnemers leren kennen als persoon en profession al ingebed in werk en privé contexten (denk 
+aan geschiedenis, huidige werksituatie, aspiraties, eigenschappen enz), evenals commitment voor het 
+project polsen en deelnemer vragen beantwoorden.  
+Topic  - Perso on-zijn en mogelijkhed en tot praktijkleren  
+• Vertel iets over jezelf?  
+• Hoe ben je tot deelname aan dit project  gekomen ? 
+• Welke facilitering (ruimte/ondersteuning) heb je vanuit je werk om hier aan deel te nemen?  
+• Vertel eens kort over je loopbaan?  
+• Wat moet ik over jou weten om je goed te kunnen faciliteren/begeleiden/ondersteunen?  
+• Hoe ervaar je je werk op dit moment ? Wat boeit je ? Wat vind je minder leuk/interessant?  
+• Kan je in 1 zin je visie op goed leiderschap vertellen?  
+• Wat ka n je daarvan in je  huidige werk mee doen, wat niet?  
+• Wat zijn  je sterke kanten (kwaliteiten)?  Wat, volgens jou , behoeft  aandacht en waarom?  
+• Wanneer is voor jou persoonlijk dit ontwikkeltraject geslaagd?  
+• In hoeverre kan je in je huidige werk/praktijksituatie ruimte vind en om hiermee bezig te zijn?  
+• Wat zijn je ambities, waar hoop je over 5 jaar te staan?  
+• Zijn er nog dingen d ie je met mij wil  delen?  
+Topic  - Organisatie  
+• Wat is de turnover bij jou team en organisatie?  
+• Wat zijn de medewerker tevredenheid scores bij jo uw team en organisatie?  
+• Wat zijn de patiënt/cliënt/bewoner tevredenheid scores bij jou eenheid en organisatie?  
+• Wat is het FTE en aantal medewerkers (teamgrootte) aan wie jij leiding geef?  
+  
+ 
+   
+ 
+ 
+        27 
+ BIJLAGE 2: INCHECK / IJBREKER ACTIVITEITE N 
+ 
+1. Hoe voel jij je op  dit moment? Met behulp van kaarten worden deelnemers gestimuleerd om hoe zij 
+er bij zi tten te delen. De kaarten kunnen beelden of waarden be vatten  en kunnen blindelings of 
+bewust gekozen worden.  
+a. Blindelings een kaartje trekken – de beelden/waarden zijn ni et zichtbaar. Deelnemers 
+worden uitgenodigd om een willekeurige kaartje te trekken en delen wat het kaartje voor ze 
+op dit moment ‘ betekent’ . “Wat doet het je aan denken?”  
+b. Een kaartje van betekenis trekken en delen waarom het betekenisvol is.  
+ 
+    
+ 
+2. Wat heb je te vieren? Iedere deelnemer wordt uitgenodigd om iets positiefs te delen van de afgelopen 
+periode. Dit kan gerelateerd zijn aan leiderschap, het werk of iets totaal anders (iets privé).  
+  
+3. Als je dit begrip ziet, waar denk je aan? De begripp en kunnen inhoudelijk zijn en gerelateerd aan de 
+4 lantaarn model of aan leiderschap modellen.  
+ 
+     
+ 
+4. En er zijn veel meer te vinden op …… Google!  
+  
+
+ 
+   
+ 
+ 
+        28 
+ BIJLAGE 3 – UITCHECKEN / EVALUATI E ACTIVITEITEN  
+ 
+1. Wat zijn de claims, concerns & issues van vandaag? De ze methode wordt gebruik bij 4de generatie 
+onderzoek/responsief evalueren. Er wordt eerst een inventarisatie gemaakt van ‘claims’ en 
+‘concerns’ over de bijeenkomst. Vervolgens wordt het gemeenschappelijke claims en concerns 
+geïdentificeerd. Op basis hierva n kunnen ‘issue’ vragen geformuleerd, en antwoorden op de vragen 
+zijn vervolg -/verbeteracties.  
+a. Claims = positieve uitspraken over de bijeenkomst – wat goed ging  
+b. Concerns = minder positieve uitspraken of zorgen over hoe de bijeenkomst is verlopen – 
+wat minder goed ging.  
+c. Issues = logische vragen (in het licht van de claims en concerns): “Hoe kunnen we ervoor 
+zorgen dat ….”  
+d.  
+2. Mr. Blob – er zijn verschillende afbeeldingen/scenario’s beschikbaar van  het Mr.Blob figuur. Bij 
+iedere scenario kunnen deelnemers 1  figuur uitkiezen die hun beleving vertegenwoordigd. Dit kan 
+ook in combinatie met een incheck activiteit: kiezen/inkleuren bij aanvang van de bijeenkomst en 
+weer bij afsluiting. Zoals bij alle activiteiten is de oefening een middel om mensen helpen  te 
+articuleren hoe zij er in/bij staan.  
+ 
+  
+ 
+3. Evalueren o.b.v. eigen criteria. Bij aanvang van het CoP is het sowieso raadzaam om ‘grondregels’ 
+in gezamenlijkheid op te stellen. De kernvraag hierbij is: “Wat moet er wel/niet aanwezig zijn wil 
+er sprake zijn van een succesvol le bijeenkomst? ” De geïnventariseerde punten/eisen kunnen 
+vervolgens geclusterd en gereduceerd worden tot een aantal kernwaarden/criteria. Bijvoorbeeld, ‘De 
+bijeenkomsten zijn succesvol wanneer er sprake is van: Respectvol met elkaar  omgaa n; 
+Aandachtigheid hebben voor elkaar; Actieve bijdrage door iedereen; Gezelligheid en Veiligheid  
+ervaren . Deze criteria kunnen vervolgens gebruikt worden om iedere bijeenkomst te evalueren met 
+een 5 punts Likertschaal.  
+ 
+5. En zo zijn er veel meer te bedenke n en vinden op …… google!  
+
+ 
+   
+ 
+ 
+        29 
+  
+BIJLAGE 4 - KRITISCHE VRIENDEN: E EN RICHTLIJN VOOR PE ER 
+SCHADUWEN EN TEAM IN TERVIEWEN, WANT, “IK  ZIE WAT JIJ 
+MISSCHIEN NIET ZIET,  EN HOOR WAT JIJ MIS SCHIEN NIET HOORT!”  
+AUTEURS: S. CARDIFF  & J. VAN SCHIJNDEL (FONTYS HOGESCHOLEN;  
+EINDHOV EN, NOVEMBER 2021)  
+Introductie  
+In het project Blijf aan Z wordt er van uitgegaan dat leiderschap een relationeel fenomeen is dat ontstaat 
+in relaties en door iedereen beoefend kan worden. In dit project zijn we geïnteresseerd in het leiderschap 
+beoe fend door directe leidinggevenden van zorgmedewerkers. De kernvraag luidt 'Welke positieve 
+invloed kunnen leidinggevenden hebben op de zorgmedewerker m.b.t. intentie om te 
+blijven/vertrekken?' Bij de opstartdagen werd stilgestaan bij de huidige, individuel e kijk op (eigen) 
+leiderschap. Een vervolgstap in de leiderschapsontwikkeling zal het verder verkennen van het huidige 
+leiderschap zijn, maar dan vanuit meerdere perspectieven dan het eigen perspectief. Gebaseerd op 
+Sandford's 'challenge/support theory' (1 967) is de veronderstelling dat optimale 
+leiderschapsontwikkeling plaatsvindt wanneer de leider een balans ervaart tussen uitdaging en 
+ondersteuning. Deelnemers aan het Blijf aan Z project vormen een Community of Practice 
+(leergemeenschap) en kunnen de rol  van kritische vriend naar elkaar toe vervullen. Een kritische vriend 
+is iemand die je vertrouwt, heeft vaak kennis/expertise/ervaring in dat wat jij zelf wil  ontwikkelen, durft 
+uitdagende vragen te stellen en informatie voorleggen te leggen en terug te k oppelen, alsook 
+(h)erkenning en compassie tonen om te ondersteunen bij moeilijke momenten (uitdagingen).  
+Als een relationeel fenomeen wordt leiderschap 'ervaren' door diegene die geleid worden 
+(zorgmedewerkers), en als een praktijkvoering kan het geobserve erd worden door derden (kritische 
+vrienden). Het verzamelen en terugkoppelen van leiderschap ervaringen en observaties kan constructief 
+bijdragen aan het verkleinen van de blinde vlek van deelnemende leiders, maar vaagt zowel een 
+uitdagende als ondersteune nde benadering. Hiervoor gaan kritische vrienden in duo's twee leermethoden 
+inzetten: peer schaduwen en team interviewen. Tijdens een ééndaags bezoek bij een collega 
+leidinggevende, gaat iedere deelnemer als kritische vriend leiderschap observeren en teame rvaringen  
+aanhoren en inventariseren.. De verzamelde observaties en informatie worden gebundeld en op een 
+respectvolle (uitdagend en ondersteunend) manier teruggekoppeld aan de desbetreffende 
+leidinggevende. Iedere leidinggevende kan deze bevindingen/feed back vervolgens naast de eigen 
+evaluaties leggen en het persoonlijke ontwikkelplan verder verfijnen/aanvullen. Een vervolgbezoek aan 
+het einde van het project, en herhaling van schaduwen en team interviewen, biedt de mogelijkheid om 
+leiderschapsgroei en -ontwikkeling te meten en te evalueren.  
+Deze richtlijn is primaire bedoeld als ondersteuning voor kritische vrienden die een collega 
+leidinggevende bezoeken, observeren en een teaminterview afnemen. De opbouw bestaat uit vijf 
+onderdelen: voorbereiding, scha duwen, team interviewen, bevindingen terugkoppelen en eventueel 
+persoonlijk ontwikkelplan bijwerken.         
+ 
+ 
+ 
+Voorbereiding:  Bezint eer ge begint  
+ 
+   
+ 
+ 
+        30 
+ Je neemt tijd weg van je eigen werk, en/of je levert vrije tijd in. Het zou jammer zijn als die tijd en wat 
+je daar in doet niet optimaal gebruikt wordt. Daarom is het van belang dat je goed voorbereidt  als je op 
+bezoek gaat bij je collega leidinggevende. Hieronder is een lijst van tips die behulpzaam kunnen zijn:  
+ Weten wanneer en waar: Uiteraard zal het bezoek  onderlinge afstemming vragen met betrekking tot 
+wanneer, maar vergeet niet af te stemmen hoe laat en waar jij je je precies moet melden. Een korte 
+(herinnering s)email een paar dagen voor vertrek is aan te raden, er kunnen in de tussentijd allerlei 
+dingen gebeurd zijn die van invloed zijn op je bezoek.  
+ Weten hoe: Om data/informatie te verzamelen heb je een methode en materiaal nodig. Zorg ervoor 
+dat je die bij je hebt en dat het werkt. Wat je minimaal nodig heb is: een observatie formulier en/of 
+notitie boe kje en pen alsook audio -opname apparatuur ( bv je telefoon).  
+ Weten onder welke omstandigheden: Je bezoekt een collega leidinggevende in zijn/haar natuurlijke 
+werkomgeving, hetgeen betekent dat je zijn/haar interactie met andere mensen gaat observeren. 
+Ethisch gezien is het belangrijk dat anderen weten van jou komst, wat je gaat doen en wat het voor 
+hen betekent. Idealiter heeft je collega de omgeving al voorbereid op jouw komt, maar check dit 
+voordat je begint en spreek af wie mensen informeert die daar nog  niet bekend mee zijn. Op het 
+einde van de dag ga je ook een groepsinterview afnemen bij de teamleden. Zorg ervoor dat je collega 
+teamleden heeft uitgenodigd en een geschikte ruimte heeft geregeld. Ongeacht of het gaat om 
+observaties omschrijven of een int erview afnemen, zorg ervoor dat mensen op de hoogte zijn, vragen 
+mogen stellen en (mondeling) toestemming geven.  
+ Weten waar je naar op zoek bent: Je gaat op bezoek bij een collega leidinggevende voor een reden. 
+Wat is de bedoeling? Heb je het goed voor oge n? Wat is de kernvraag waar je een antwoord op 
+zoekt middels schaduwen en groepsinterview?    
+De leider Schaduwen  
+Schaduwen is een onderzoek - en leermethode waarbij je letterlijk in de schaduw van iemand loopt en 
+observeert. Door te observeren kan je meer te weten komen over dagelijkse gebeurtenissen waarover 
+te veel of juist te weinig wordt gezegd omdat je activiteiten in een omgeving waarneemt gedurende 
+een periode van tijd (in het geval van dit project: 1 dag). Door handelingen waar te nemen, 
+beschrijven , terugkoppelen en vragen over stellen, kun je abstracte zaken concreet maken, 
+verduidelijken en de praktische relevantie bloot leggen. Het is een waardevolle gelegenheid voor peer 
+feedback waarna leer - en actiepunten kunnen worden geformuleerd. In het bij zonder helpt het:  
+ niet beperkt te blijven tot gemeenplaatsen en 'kreten', of veel woorden horen zonder veel 
+inhoud. Daartegenover vinden mensen het soms moeilijk om (de juiste) woorden te koppelen 
+aan wat je 'gewoon/vanzelfsprekend doet'.  
+ bewust te worden  van hoe leiderschap beoefent wordt en wat iemand als vanzelfsprekend 
+beschouwt.  
+ bewust te worden van hoe de context/het systeem van invloed is op hoe leiderschap beoefent 
+wordt.  
+ tegenstellingen te identificeren tussen wat iemand  gelooft da t hij/zij doet i n het alledaagse 
+praktijk en wat hij/zij  daadwerkelijk d oet. 
+ leiderschap te ontwikkelen waarbij gereflecteerd wordt met als uitgangspunt de vier centraal 
+staande foci : relationele verbondenheid, controle over de eigen praktijkvoering, 
+werkplekcultuur en g roei/ontwikkeling.  
+ 
+Hieronder enkele tips voor het schaduwen:  
+ Bekijken en beschrijven van situaties is de kern van schaduwen . Je kijkt naar wat de leider 
+doet in zijn natuurlijke werkomgeving. Je beschrijft, in detail en op een neutrale wijze, wat je 
+ziet en hoort. Je kunt het sjabloon hiervoor gebruiken (zie bijlage 1) of een notitieboekje. De 
+focus is leiderschap en wat je observeert en beschrijft kan dus beïnvloed zijn door de 
+ 
+   
+ 
+ 
+        31 
+ persoonsgerichte en/of transformationele leiderschapsmodellen, evenals de vier  foci van 
+relationeel verbondenheid, controle over eigen praktijkvoering, werkplekcultuur en 
+groei/ontwikkeling. Naast het opschrijven wat je ziet en hoort, kun je ook opschrijven wat je 
+'voelt' en ook verhelderingsvragen die in je opkomen. Het is niet de bedoeling om je 
+interpretaties op te schrijven. Jou mening telt in deze activiteit NIET.  
+ Het dagelijkse/natuurlijke zo min mogelijk verstoren/verhinderen . Het feit dat je fysiek 
+aanwezig bent en (mensen weten dat je) observeert heeft altijd invloed op mens en en de 
+omgeving. Het enige wat je kan doen is vragen dat je collega leidinggevende 'zo natuurlijk 
+mogelijk' zijn functie vervult. Voor jezelf is het belangrijk dat je probeert zo onopvallend 
+mogelijk aanwezig te zijn. Denk na over hoe je loopt, waar je z it, wanneer je dingen 
+opschrijft, en wanneer je vragen stelt. De invloed van "het weten" op het gedrag zal in de loop 
+van de dag (waarschijnlijk) verminderen.  
+ Verhelderen is soms nodig . Soms observeer je iets maar weet je niet wie de betrokken 
+personen zij n. Soms mis je iets of ben je nieuwsgierig als je de redenering achter een 
+handeling niet weet. Schrijft die momenten en vragen op. Wacht tot een rustige moment en 
+stel dan je (open) vragen aan de leider. Bijvoorbeeld: Wie was de persoon waarmee…..? Ik 
+zag je dit en dat doen, kun je me iets vertellen over je denken op dat moment of wat je 
+beweegreden was het zo aan te pakken?  
+ 
+Op het einde van de dag heb je veel aantekeningen gemaakt op het observatieformulier / in je 
+notitieboekje. Het is dan tijd om patronen en opvallende aspecten van je collega's leiderschap te 
+vinden en beschrijven (data analyseren). De bedoeling is om uitspraken te formuleren die het 
+leiderschap beschrijven van de geschaduwde leidinggevende. De beschrijvingen kunnen eventueel 
+geïllustreerd worden met concrete details en voorbeelden. Je kunt op de volgende manier te werk 
+gaan:  
+1. Lees je notities door van begin tot einde.  
+2. Maak een korte lijst van terugkerende patronen en/of opvallende aspecten van leiderschap. Dit 
+kunnen patronen/opvall ende aspecten (thema's) zijn die jezelf formuleert of elementen uit de 
+modellen van transformationeel of persoonsgericht leiderschap (of andere leiderschapsstijlen). 
+Probeer heel bewust 'werkwoorden' (mechanismen) te kiezen en te gebruiken.  
+3. Lees je notitie s nogmaals door, en koppel stukjes tekst aan de lijst van stap 2.  
+4. Formuleer beschrijvingen voor alle thema's, zinnen die de lading dekken van de clustering 
+observaties. Check dat de thema's 'neutraal' zijn beschreven, vrij van oordeel.   
+5. Verdeel de thema's  over de 4 foci van leiden om te boeien en binden. Een thema kan bij 
+meerdere foci terugkomen, probeer de beschrijving zodanig te formuleren dat het duidelijk is 
+waarom het gekoppeld is aan de betreffende focus. Je kunt de tabel in bijlage 2 hiervoor 
+gebru iken.  
+ 
+Het Team interviewen  
+Interviewen is een onderzoek - en leermethode waarbij je de ervaringen en meningen van mensen over 
+een onderwerp van studie exploreert. Het kan op individueel of groepsniveau plaatsvinden. Middels het 
+interviewen van mensen o ntdek je hoe mensen een bepaald onderwerp zien, in dit geval leiderschap 
+zoals beoefend door hun leidinggevende. Het voordeel van een team interviewen is dat mensen met 
+verschillende perspectieven, gebaseerd op persoonlijke ervaringen en meningen , elkaar kunne n 
+bevestigen, bevragen, tegenspreken en/of aanvullen . Idealiter heb je tussen  4 -12 teamleden voor het 
+interview. Van belang is dat het groepsproces  gefaciliteerd/gemodereerd wordt zodat iedere stem 
+gehoord wordt. Persoonlijkheden en machtsverhoudingen bin nen een groep kunnen sommige 
+deelnemers belemmeren in het vrij delen van hun persoonlijke perspectief. Structuur en creativiteit, 
+naast faciliteren/modereren, kan ervoor zorgen dat alle stemmen gehoord worden, vandaar het voorstel 
+ 
+   
+ 
+ 
+        32 
+ om een 60 minuten, gestru ctureerd team interview uit te voeren met dierenkaarten (zie bijlage 3 voor 
+het interview schema).  
+Soms vinden mensen het moeilijk om de eigenschappen van een leidinggevende onder woorden te 
+brengen en is er een gevaar dat je eindigt met oppervlakkige kret en zoals: "Ja, hij is een goede leider 
+want hij zorgt goed voor ons." Het vergelijken van de leidinggevende met dieren inspireert, 
+vergemakkelijkt het vinden van woorden en maakt het interview ook 'fun'.  
+Als facilitator van het interview is je focus op: vo ldoende positieve als minder positieve details boven 
+water krijgen zodat je iets terug te koppelen hebt; ervoor zorgen dat iedereen ruimte krijgt om zijn/haar 
+perspectief te delen; het zoeken naar leider eigenschappen en leiderschapsprocessen waar het mere ndeel 
+het mee eens zijn; zoeken naar de aspecten waar de meningen over verdeeld zijn.   
+Na het interview kun je een analyse maken van het interview met behulp van het tabel in bijlage 4. Je 
+kunt dit meteen na het interview doen of op een latere tijdstip. V ergeet niet naar de audio -opname te 
+luisteren zodat je analyse accuraat is.  
+Bevindingen Terugkoppelen  
+Zoals eerder vermeld, is je rol dat van een kritische vriend, iemand die zowel de welkom als 
+onwelkom 'waarheden' voor je wil vastleggen en ondersteunen in het verwerken hiervan en het zoeken 
+naar constructieve en realistische vervolgstappen. Bevindingen uit de observaties en team interview 
+terugkoppelen is onderdeel van het 'high challenge/high support' mechanisme waarmee iemand met 
+één voet in zijn/haar kracht komt te staan en de met de andere voet buiten de comfortzone. De 
+resulterende gevoelens van voldoening en onrust triggeren (de wens om) groei en ontwikkeling. Het 
+proces van terugkoppeling wordt met aandacht en zorgzaamheid aangepakt zodat er balans  is tussen 
+uitdaging/onwelkom waardheden/het minder positieve en steun/welkom waarheden/het positieve. 
+Hieronder een aantal tips voor het terugkoppelen:  
+1. Plan vooraf hoe en wanneer je de terugkoppeling gaat geven.  Plan 30 -60 minuten aan  het 
+einde van de  bezoekdag  voor de eerste indrukken. Een zorgvuldige/meer overwogen 
+terugkoppeling kan plaatsvinden face -2-face / via beeldbellen op  een ander moment . Als je 
+weinig ervaring hebt of onzeker voel, beperk de terugkoppeling op het einde van de dag en 
+houd het meer evaluerend van aard. Dit biedt je ruimte om de terugkoppeling zorgvuldig voor 
+te bereiden en eventueel oefenen.  
+2. Zorg ervoor dat je voldoende tij d en een rustige/privé omgeving heb t: een afgesloten kantoor 
+of MSTeams vergadering zodat je ook de non -verbale reacties van de leidinggevende kan 
+zien.  
+3. Zorg ervoor dat de voorbeelden die je wil gebruiken kloppen en zodanig geformuleerd zijn dat 
+ze weerge ven wat je daadwerkelijk hebt gezien en/of gehoord. Dus geen interpretaties of eigen 
+meningen .  
+4. Als het goed is zijn de thema's niet -oordelend geformuleerd maar kunnen ze alsnog als 
+oncomfortabel ervaren worden. Geef bij heftige reacties de leidinggevende  de ruimte om te 
+ventileren, wees present (laat zien/merken dat je de leidinggevende ziet, hoort en begrijpt), 
+bagatelliseer niet en voorkom dat er meteen acties/oplossingen bedacht worden. Als de emotie 
+weer gezakt is, check dan of het OK is om verder te gaan, met de mededeling dat de ruimte 
+voor vervolgacties er op het einde is.  
+5. Bied de leidinggevende regelmatig ruimte om te reageren, bijvoorbeeld naar een aantal stukjes 
+feedback . Als de non -verbale communicatie dat indiceert, geef eerder ruimte om te reageren. 
+Als er geen reactie is, vraag naar de betekenis van de feedback voor de leidinggevende, 
+bijvoorbeeld: "Wat zegt dit jouw?"  
+6. Geef gelegenheid voor feedback op hoe jij de terug koppeling hebt gedaan en hoe je het anders 
+had kunnen doen.  
+ 
+   
+ 
+ 
+        33 
+ 7. Vraag naar en denk eventueel mee in het formuleren van vervolg/leeracties op basis van deze 
+terugkoppeling, en vooral ook hoe het terug te koppelen aan het team.  
+ 
+Het observatie tool  
+Naam:   Datum:   
+Bijzonderheden   
+Tijd Observaties: "Ik zie ….; ik 
+hoor ….; ik ruik …."  Verhelderingsvragen naar aanleiding 
+van observaties  
+ 
+ 
+ 
+ 
+ 
+   
+Thematisering van observaties  
+"Met betrekking tot…"  "ik observeerde ………"  
+ 
+Relationeel verbonden 
+zijn met medewerkers 
+…..  
+ 
+Het bevorderen van 
+medewerker controle 
+over hun werk……   
+ 
+Creëren van een 
+positieve en heilzame 
+werkplekcultuur …   
+ 
+Medewerker groei en 
+ontwikkeling 
+ondersteunen ….   
+ 
+Team interview schema  
+Tijd Focus  Werkwijze  
+5mins  Introductie  Verwelkom iedereen, introduceer jezelf (kort) en wat je met hen komt doen. 
+Vraag toestemming om de sessie op te nemen. Zet de audio -opname 
+apparatuur aan . 
+ 
+   
+ 
+ 
+        34 
+ 5mins  Creatieve 
+uitbeelden  - De dierenkaarten zouden al verspreid moeten liggen  op een aparte tafel / in 
+het midden van de grote tafel.  
+- Nodig deelnemers uit om dierenkaarten te kiezen die ze direct aanspreken 
+als ze denken aan hun leidinggevende. Gewoon nemen en niet twijfelen.  
+- Dit loopt het beste wanneer mensen individueel  en in stilte  dierenkaarten 
+kiezen.  
+- Als iemand het moeilijk lijkt te vinden, kan je faciliteren door te zeggen: 
+"Als je kijkt naar hoe je leidinggevende te werk gaat, op welke dier lijkt hij? 
+Is hij zo snel als een cheeta, of sluw als een vos?"  
+5mins  Labele n - Nodig deelnemers uit om woorden/zinnen te koppelen aan de gekozen 
+dierenkaarten m.b.v. post -it's (1 eigenschap/proces/gedragskenmerk per post -
+it). Hulpzinnen hierbij kunnen zijn: "Hij is zo …. als een ….." of "Zij lijkt op 
+een …., want ze is ….." of "Z e ….. net als een …."  
+40mins  Delen  - Nodig deelnemers één voor één uit om een dierenkaart te delen.  
+- Luister aandachtig, moedig aan met non -verbale communicatie en 
+onderbreek de persoon niet tot hij/zij klaar is of begint zich te herhalen.  
+- Nodig and eren uit om te reageren op dat wat gedeeld is: bevestigen, 
+bevragen, tegenspreken of aanvullen.  
+- Daag de groep  zo nodig uit om zowel positieve als negatieve uitspraken te 
+delen.  
+- Corrigeer deelnemers / spreek ze aan wanneer er niet op een respectvolle  
+manier met elkaar wordt omgegaan, of over de leidinggevende gesproken. 
+Negatieve uitspraken kunnen ook op een respectvolle manier gedeeld worden.  
+- Zorg ervoor dat iedereen aan bod komt, zowel in het delen van de eigen 
+dierenkaarten als het reageren op wa t er gezegd is.  
+- Vraag naar wat het team meer van de leider zouden willen zien, vraag ook 
+wat behouden moet blijven en wat er zou moten veranderen.  
+5mins  Afronden  Evalueer wat mensen positief/minder positief aan de sessie ervaren hebben. 
+Vraag of er beho efte is aan member -check voordat je de samenvatting van het 
+interview deel met de leidinggevende.  
+ 
+Categorisering r esultaten team interview  
+"Je lijkt op een 
+……"  "want ze ervaren ……. (en ze zouden meer ……. willen zien)"  
+ 
+Dier 1 
+  
+Beschrijvingen door het team (positief + minder positief)  
+ 
+Dier 2 
+  
+ 
+   
+ 
+ 
+        35 
+  
+Dier 3 
+  
+ 
+Dier 4 
+  
+ 
+  
+ 
+   
+ 
+ 
+        36 
+ BIJLAGE 5 – LEADERSHI P PRACTICE INVENTORY  (NL)  
+Invul instructie  
+De vragenlijst meet de frequentie van 30 specifieke leiderschapskarakteristieken op een 10 -punts schaal. 
+Leidinggevende n beoordelen  hoe frequent zij zichzelf associë ren met deze gedragingen. De 
+antwoordmogelijkheden zijn: 1= Nooit, 2= Bijna nooit, 3= Zelden, 4= Incidenteel, 5= Soms, 6= 
+Regelmatig, 7= Frequent, 8= Zeer frequent, 9= Bijna altijd, 10 = Altijd.  
+ Lees elke vraag aandachtig en  geef meteen een cijfer (1 -10). 
+ Beoordeel jezelf op je huidige leidinggevende rol.  
+Vragen  
+1 Ik neem mezelf als voorbeeld bij wat ik van anderen verwacht.  
+2. Ik praat over toekomstige ontwikkelingen die van invloed zullen zijn op de wijze waaro p we ons werk uitvoeren.   
+3. Ik ga op zoek naar uitdagingen om mijn eigen vaardigh eden en bekwaamheden te testen.  
+4. Ik bevorder samenwerkingsverbanden tussen de mensen met wie ik werk.  
+5. Ik geef mensen een compliment als ze hun werk goed gedaan hebben.    
+6. Ik besteed er tijd en energie aan me ervan te verzekeren dat de mensen waarmee ik werk zich houden aan de 
+principes en normen, die we samen hebben afgesp roken.  
+7. Ik beschrijf een aantrekkelijk beeld over hoe de toekomst (van de zorgverlening) er zou  kunnen uitzien.  
+8. Ik daag mensen uit nieuwe en innovatiev e werkwijzen uit te proberen.  
+9. Ik sta open voor uiteenlopende standpunte n, meningen en perspectieven.  
+10. Ik vind het belangrijk mensen te laten weten dat ik vertrouwen heb in hun mogelijkheden.   
+11. Ik kom mijn beloften en  afspraken die ik maak na.  
+12. Ik nodig anderen uit om een fascinerende toekomstdroom  (over de zorgverlening) met mij te delen.  13. Ik zoek 
+buiten de grenzen van mijn organisatie naar innovatieve manieren om te v erbeteren wat we doen.   
+14. Ik behandel anderen m et waardigheid en respect.  
+15. Ik let erop dat mensen op creatieve wijze worden beloond voor hun bijdrage aan het succes van on ze 
+projecten/ons team.  
+16. Ik vraag feedback over hoe mijn handelen de pres taties van anderen beïnvloedt.  
+17. Ik laat anderen zien dat zij hun doelen voor de lange termijn kunnen realiseren door een gezamenlijke visie te 
+onderschrijven.   
+18. Ik stel de vraag ‘wat kunnen we leren?’ als  het niet loopt als verwacht.  
+19. Ik steun de beslissingen di e mensen zelf nemen.  
+20. Ik geef in het openbaar erkenning aan mensen die zich loyaal tonen aan wat wij belangrijk vinden.  21. Ik werk 
+aan consensus met betrekking tot de gezamenlijke waarden op basis waarvan onze organisatie wordt geleid .  
+22. Ik schets de grote lijnen va n wat we hopen te bereiken.  
+23. Ik overtuig me ervan dat we haalbare doelstellingen formuleren, concrete plannen maken en meetbare 
+resultaten vaststellen voor de projecten en programma’s waar we aan werke n. 
+24. Ik geef men sen veel vrijheid en keuzemogelijkheden om zelf te beslissen hoe ze hun werk uitvoeren.  
+25. Als we iets hebben bereikt vind i k manieren om het te vieren .  
+26. Ik ben duidelijk over mijn opvatting over (vakinhoude lijk) leiderschap.  
+27. Ik spreek met oprecht e overtuiging over de (hogere) bete kenis en het doel van ons werk.  
+28. Ik experimenteer en neem risico’s, zelfs al s er kans is dat het misgaat.  
+29. Ik zie erop toe dat mensen groeien in hun werk door zich nieuwe vaardigheden eigen te maken e n zich te 
+ontwikkelen.  
+30. Ik geef de leden van het team veel waardering en steun voor hun bijdragen.      
+  
+ 
+   
+ 
+ 
+        37 
+ BIJLAGE 6 – LEIDERSCHAPSONTWIKKEL ING NARRATIEF  
+                                                                                 
+ 
+  
+    
+
+ 
+   
+ 
+   
+        38 
+ WOORD VAN DE AUTEURS  
+Dit narratief  is fictief en weerspiegelt niet de ervaring van slechts één deelnemer. Het is 
+geconstrueerd vanuit de inhoud van zes narratieven die gedeeld werden door alle 
+deelnemers ti jdens een verhalen workshop. Dit gebeurde met hun toestemming.  
+ 
+INTRODUCTIE  
+Ik zit al jaren in de verplegi ng en na een periode er tussen uit  ben ik een aantal jaren geleden 
+leidinggevende geworden. Ik heb al heel wat gezien en meegemaakt qua leiding ontvange n 
+en leiding geven. Mijn huidig  team is een leuk  team . Het  verloop is niet hoog , maar er is wel 
+wat onrust en  het ziekteverzuim is behoorlijk  , zeker sinds de COVID pandemie. Dat was geen 
+fijne tijd . Mensen z ijn nog moe terwijl de organisatie allerlei veranderingen weer op gang gaat 
+brengen . 
+Ik kreeg ee n e-mail van mijn leidinggevende  met een uitnodiging voor een opleiding 'Leiden 
+om te boeien en binden' . Wat het precies inh ield wist niemand, maar het zou iets te maken 
+hebben met het tekort aan verpleegkundigen.  Zij had het van HR ontvangen en ik  weet 
+eigenlijk niet waarom ik uitgenodigd werd, maar  ik was direct getriggerd . Ik had al enige tijd  
+zoiets van: “Wat gebeurt er toch met de verpleging? Waar gaat iedereen naar toe? Waarom 
+kiezen mensen voor iets anders?”  
+ 
+KERN  
+Het eerste moment dat we sam en zaten, dacht ik: “Oei, ik hoop dat ik hier wel op mijn plaats 
+zit.” Ik hou enorm van structuur, orde en efficiëntie. Ik ben ook een kleurrijk iemand en levendig 
+aanwezig, volgens de DISC persoonlijkheidstest. Maar, hoe aanwezig ik ook kan zijn in eigen 
+vertrouwde omgeving, ben ik toch wel onzeker over mezelf. Terwijl ik  een paar collega ’s 
+herkende,  heb ik de eerste twee dagen toch meer de kat uit de boom gekeken . Ik weet nog 
+dat een van de eerste vragen  was: “Wat verwacht je van de  bijeenkomsten en het t raject?” Ik 
+schreef op een post -it: "Ik hoop dat dit niet zo’n standaard opleiding is, zoals er 12 in een 
+dozijn zijn ". 
+Ik was na die eerste dagen helemaal verkocht. Als ik mijn notities  terugkijk, schreef ik veel op, 
+net zoals eerder op school. Maar na ve rloop van tijd werden ze beknopt er en minder  terwijl 
+ik juist steeds meer oppikt e. Je  krijgt heel veel stof maar je maakt  het op een ander manier 
+eigen gedurende het traject . Wat je niet  direct kan toepassen , komt vaak  later van pas . Die 
+handva ten zijn misschien geen concrete notities, maar je stopt ze in je doosje en ze zweven 
+meer in je daden  rond en worden onderdeel van wat je doet. Al kun je niet  direct zeggen: “ Ah, 
+voor di t probleem moet ik  die sleutel , tool of  dat recept pakken en dan breng ik deze opdracht 
+tot een goede einde” .  Wat ik tot heden heb geprobeerd , heeft me  ook wel succes jes 
+ 
+   
+ 
+   
+        39 
+ opgebracht . Uiteraard kom je ook in situaties waar je zo uitgedaagd wordt dat het moeilijker 
+is om er effectief mee aan de slag te gaan . Recentelijk, na zo'n situatie, ben ik ook heel hard 
+aan mezelf gaan twijfel en als leidinggevende en ook als persoon . Maar ik ben vervolgens in 
+mijn doosje en mijn notities  gaan kijken waarna  mijn ogen w eer open zijn gegaan en ik de 
+situatie meer van een afstand heb kunnen bekijken. G oed leiderschap is ook zelfleiderschap 
+en ik ben er van overt uigd dat als je niet goed voor je zelf zorgt , het heel moeilijk is om voor 
+anderen te zorgen. Waar ik meestal meer gesloten was, laat ik nu ook gewoon zien wie ik 
+ben en hoe ik er in st a. Ik kan nu beter dan vroeger kijken tot waar mijn invloed  rijkt. Daarnaast  
+ben ik ook een mens en di ngen raken mij ook, zowel de positieve, leuke dingen als d e minder 
+fijne dingen.   
+Tijdens onze eerste sessie heb ik als een kuiken met grote ogen naar all es zitten kijken  en 
+luisteren . Ik kon niet goed begrijpen wat er nu eigenlijk gezegd werd . Ik had toegezegd om 
+mee te doen aan iets d at een ‘Community of Practice’  heet , maar ik kon  er geen invulling aan 
+geven. Ik had het misschien op kunnen zoeken, maar  eerlijk gezegd , ik heb het tot de dag van 
+vandaag nog niet opgezocht. Ik voelde mij dom , maar ik liet me gaan in het verhaal  en intussen 
+ben ik gaan  begrijpen dat we van en met elkaar leren in een 'community of practice', en dat 
+de facilitators geen les  geven. Waar ik in het begin vreesde dat ik niet zou kunnen aanhaken , 
+bleek  dat niet het geval te zijn . We zijn vanuit 4 lantaarns, of foci ,  gaan kijk en naar de invloed 
+die wij kunnen hebben  op retentie . Het ging snel over 'boeien en binden ' van medewerkers 
+en dat is eigenlijk een beetje mijn motto geworden. Ik denk dat ik het wekelijks één keer 
+benoem en probeer er continu iets aan te doen . Zowel privé als op mijn werk. Ik kan zelf 
+boeiend zijn en daardoor mensen aan me binden, en ik kan pro beren de verbinding aan te 
+gaan met anderen . Ik sta nu bewuster in relaties met mensen en waar ik v roeger meer  kortaf  
+was, ben ik niet meer zo "bot"  in mijn uitspraken. Hierdoor heb ik  veel meer vat op mensen en 
+ben ik toegankelijker voor anderen. Ik ga ge en confrontatie uit de weg, maar ik doe dat wel 
+meer met ook oog voor de ander.   
+ 
+
+ 
+   
+ 
+   
+        40 
+ Wat mij snel geruststelde, was dat deze opleiding anders was, de creatieve werkvormen 
+zorgden ervoor dat ik makkelijker kon aanhaken, . Bijvoorbeeld, een tableau vivant , oftewel 
+een levend schilderij m aken. Eerst dacht ik: “Oh nee!”, maar uit onze comfortzone  stappen  
+voelde tamelijk snel goed en  iedereen deed  heel actief me e, en er is heel veel uit gekomen . Ik 
+heb er zelf nog niets mee gedaan binnen  mijn team,  maar i k weet dat anderen die technieken 
+toegepast hebben bij hun team en hoe goed dat uitpakte.  Wat ik zeker meeneem , is om 
+creativiteit te gebruiken als er iets op tafel moet komen  om te bespreken .  
+Corona heeft natuurlijk roe t in het eten gegooid  na de eerste tw ee dagen. De techniek van 
+MS-Teams was voor mij problematisch in het begin , maar er gebeurden ook leuke dingen. 
+Het was rond de feestdagen en een deelnemer vertelde hoe zij een slinger ophangt zodat 
+mensen wensen kaartjes kunnen ophangen voor het nieuwe jaa r. Zij haalde  daar veel uit  en 
+ook bij twee andere leidinggevenden heeft  het ook goed gewerkt. Maar ja, je moet er 
+vervolgens wel iets mee gaan doen, een actieplan opstellen en uitvoeren.  
+Je moet het dus aangaan, in beweging komen!  
+Ik heb toen de klik gemaakt rondom actie ondernemen : “Ik ga mij ook op wat kleinere 
+projectjes storten, passend binnen werving en retentie , in de hoop er vruchtbar e resultat en 
+uit te halen ”. Ik heb me over een vacaturetekst van onze afdeling gebogen , citaten van 
+medew erkers erin verwerkt en dus ‘buiten de lijnen gaan k leuren ' maar blijkbaar niet zo ver 
+dat HR er opmerkingen over maakte, want ik heb het zonder overleg of toestemming bij hen 
+ingediend en he t is online  verschenen.   
+De andere grotere actie was schaduwen, w ant waar Corona de schaduwopdracht voor de 
+meeste mensen heeft overschaduwd, heb ik het wel kunnen doen. We vonden het allemaal 
+een goed idee en duo's werden gevormd. Uiteindelijk heb mijn maatje en ik elkaar kunnen 
+schaduwen en heb ik da t als een hele waa rdevolle opdracht ervaren. Het zette mij aan tot 
+zelfreflectie en heeft me het inzicht gegeven dat ik meer moet inzetten op het relationele stuk 
+en me meer tussen mijn team moet begeven. Recentelijk keek ik naar de verpleegpost en 
+dacht: “Hier staan twee c omputers, als ik daar ga zitten , dan begeef ik me tussen h et team" . 
+Hier kan ik ook een vinger aan de pols houden: “Hoe zit het hier? Zijn mensen hier gelukkig?" .  
+Op een gegeven moment hadden wij het ook over ' de rots in de branding ' zijn als 
+leidinggevende. Voor mij was 'de rots in de branding'  een imago en meer het gevoel mijn 
+talenten niet te kunnen benutten. Dat ik talenten had, was bevestigd door mijn warme team 
+en de succeservaringen die we samen en met ondersteuning van mijn  eigen  leidinggevende 
+hebben gecreëerd. Maar ik had ook het gevoel dat er nog heel veel dingen waren die ik anders 
+zou kunnen aanpakken, alleen wist ik eigenlijk niet hoe. Mijn talentjes zaten een beetje onder 
+die rots in de branding en ik bleef er staan en de be uken opvangen. Mijn collega’s kwamen 
+tegen mij aanleunen, maar tijdens mijn deelname aan de community of practice  zag ik dat er 
+nog heel veel tools en sleutels zijn waarbij die talenten van mij, en anderen, tot hun recht 
+ 
+   
+ 
+   
+        41 
+ zouden kunnen komen.  Intussen is d ie rots wat afgebrokkeld , zijn mijn talenten meer naar 
+voren gekomen . Alhoewel er  nog altijd mensen zijn die soms tegen me aan komen leunen, is 
+het minder en het water beukt niet meer tegen 1 rots, maar is  meer verspreid en stroomt 
+rustiger door . 
+ 
+ 
+Ik vin d respect voor elkaar hebben heel belangrijk in leiderschap, want iedereen is even 
+belangrijk. Ik probeer kleine conflicten onmiddellijk aan te pakken en de ene keer lukt dat 
+beter dan de andere. Je hebt dwarsliggers nodig om de sporen recht te houden, en ik moet 
+soms afstappen van de structuur en orde die ik altijd wil. Ik ben beginnen inzien dat je vrijheid 
+moet geven. N iet in theorie, maar daadwerkelijk in de praktijk. Ik gaf het voorbeeld van een 
+teambuilding die een beetje uit de hand was gelopen toen ik dat uit handen gaf. Intussen is 
+het opgelost, maar gisteren kwam ik op bureau en zaten er een paar bij die zeiden: “Ah, we 
+hebben goed nieuws. We hebben de teambuilding voor volgend jaar al georganiseerd.” 
+Zonder reden of overleggen! Ik dacht: “Oh?” Ze vertelden door: “Het is helemaal in orde. V ind 
+je het goed?” Op het moment dat ik hoorde wat we gingen doen, voelde ik terughoudendheid 
+bij mezelf. A ls er iets is wat ik verschrikkelijk vin d, dan is het opgesloten zitten, dus toen ze 
+enthousiast zeiden dat  het een escape room was, heb ik me moeten voornemen om er niets 
+over te zeggen en gewoon mee te gaan. Want eigenlijk is het nu makkelijk. Ik hoef er geen 
+tijd in te steken en alleen vooraf iets in te nemen als ik denk dat het me te veel wordt. Op 
+deze man ier zijn de mensen positief getriggerd om dingen te doen, en soms moet ik de bluts 
+met de buil nemen.  
+De verhalen die we met elkaar deelden , brachten ons terug naar het belang van ons eigen 
+welzijn. Er is een gezegde  “de meester komt als de leerling er a an toe is”, en ik kwam ook tot 
+het besef dat de community of practice was wat ik nodig had. Alhoewel  het vooral ging over 
+medewerkers boeien en binden, hebben we ook gekeken  naar zelfzorg  - ons zelf boeien en 
+binden . Ik was begonnen als leidinggevende bij een groep waar veel ruzie en roddel was en 
+waar ik dacht: “Allez, we hebben een goed team, bekwame krachten, een mooi nieuwe locatie 
+en nieuwe toestellen om mee te werken. Wat is er mis?” . Mijn hoofddoel was een goed 
+evenwicht tussen werk/privé te geven aa n mensen omdat het één van de weinige dingen is 
+wat je te bieden hebt als hoofd. We hebben geen grote cadeaus om uit te delen. Maar ik 
+
+ 
+   
+ 
+   
+        42 
+ verdronk me al er snel in. Op een gegeven moment kreeg ik 's nachts om 3 uur een app met 
+de melding dat iemand hoofdpijn had en de dag erna niet zou komen werken. Op een gegeven 
+moment was het voor iedereen goed behalve voor mezelf, want ik nam steeds meer werk 
+mee naar huis en was 's avonds allerlei dingen aan het afwerken op de laptop. Ik moest ook 
+aan mijn eigen werk/priv é balans werken en leren loslaten, grenzen stellen en niet van alle 
+problemen mijn probleem te maken. Ik hoef n iet altijd voor de anderen klaar te staan , en mag 
+af en toe tijd voor mezelf nemen, zowel op werk - als op privévlak.  
+Dit traject heeft mij ook w el geleerd dat je niet alleen staat in dat boeien om te binden verhaal . 
+Je kunt heel veel van je zelf geven, en je kunt mensen uitdagen om veel van zichzelf te geven, 
+maar nu zie ik: “Oké, tot daar kan ik gaan, en mijn energie insteken, maar ergens stopt he t ook.  
+En dat is  ook oké." Normaal vind ik het heel moeilijk om te zeggen van mezelf dat ik het goed 
+doe. Ik kan heel moeilijk complimenten ontvangen, maar ik heb weer wat pluimen in mijn 
+hoed kunnen steken, pluimen die verdwenen waren toen ik aan mezelf b egon te twijfelen. In 
+de situatie waar ik momenteel mee zit, ga ik harder op mijn grenzen en mijn strepen staan, 
+naar de collega's toe, zowel onder, boven als naast mij. Ik maak nu bewuster e keuzes.  
+Ik ben ook meer aandacht gaan besteden aan de jaargesprekken. Ik wilde ze aanpakken vanuit 
+de waarderende benadering  en h eb medewerkers niet alleen uitgenodigd om zich op een 
+creatieve wijze voor te bereiden op het gesprekken, waarmee ze hun  talenten en behoeft en 
+aantonen , maar ook hoe het gesprek zelf wordt gevoerd . Ik heb gezien hoe de medewerke rs 
+er echt vol voor zijn gegaan en er zijn heel mooie zaken uit gekomen . Het werkgroepje dat is 
+gaan nadenken over een andere manier van het gesprek voeren , had daar heel veel goesting  
+(zin) in en het was heel energie gevend. Binnenkort finaliseren we wat we willen doen en 
+gaan we aan de slag gaan met naaste collega ’s te betrekken in het gesprek.  
+De talenten leren kennen en benutten , is ook iets wat uit de jaargespr ekken is gegroeid. 
+Elkaar tegen  komen, worstelen en samen tot een idee  komen is onderdeel van de talenten 
+benutten. D e weg om tot iets (nieuws) te komen vond ik zelf een van de moeilijkste dingen in 
+het begin bij leidinggeven . Sommigen mensen moet je dan 100% ondersteunen, maar naar 
+gelang wat je ze geeft of hoe je het geeft, kan je ze tot 100% loslaten. Dat geeft weer tijd 
+voor jezelf, en de rust om echt te luisteren.  Voor hen is het ook dat stuk serieuzer worden en 
+leren om zich aan bepaalde regels te houden  evenals het goede voorbeeld te geven. Dat is 
+anders dan : “Het komt allemaal niet zo na uw”. Maar, met al die kleine sterretjes kan je een 
+doos vol verrassingen krijgen met  mooi e lichtjes en ideeën.  Het betekent ook openstaan voor 
+mensen die iets moeten leren, want het is niet altijd vanzelfsprekend dat iedereen alles weet 
+en je moet daar tijd en ruimte voor maken. Ook ontwikkelruimte creëren om dingen uit te 
+pluizen, want niet alles wat je hoort , klopt, en je moet zelf iets bedenken én het nagaan. De 
+wind kan je niet naar je hand zetten, wel je zeilen. Ik ben ook bewuster geworden dat er veel 
+zaken zijn waar ik geen impact op heb. Ik begrijp nu ook beter hoe ik het met, of via anderen 
+ 
+   
+ 
+   
+        43 
+ wel kan oplosse n. Nadenken over waar je invloed op hebt, en loslaten wat je niet in je handen 
+hebt, ook uit het verleden, maar er wel van leren. Dat is belangrijk.  
+Op een gegeven moment hadden we het ook over het inrichten van formele en informele 
+communicatieve ruimtes en ik zei: "Ik drink wel eens k offie met mijn collega's, maar dan wordt 
+vooral gekletst en ik vind het moeilijk om werk gerelateerde zaken te bespreken tijdens die 
+informele momenten ". Je gaat mensen er toch niet mee la stig vallen  tijdens hun pauze. Maar, 
+ik ben anders gaan ki jken naar die informele contact momenten. Ik kan nu zowel werk als niet 
+werk gerelateerde zaken aan bod laten komen door open en vrijblijvende vragen te stellen. 
+Ik laat even mijn gezicht zien en zeg zoiets als: "Ah, ik heb de aanvraag voorbij zien komen 
+voor die opleiding. Wat is dat voor een opleiding?" . Mensen vertellen heel veel op die manier 
+en het hoeft niet lang te duren, alleen met veel mensen voelt het soms moeilijk om je tijd 
+evenredig te verdelen. Je hebt altijd diegenen die e lke dag komen, of waar je denkt: “Oh nee! 
+Daar is ze weer.” Velen lopen ook aan je deur voorbij en het zijn juist die mensen die je een 
+keer extra aandacht moet  geven. Ik heb hier ook veel geleerd over dingen uitleggen, empathie 
+tonen en vragenstellen. Ik  ben pas laat in deze job gestapt en ik merkte dat we daar weinig 
+tot geen aandacht aan hebben besteed in mijn vorige opleidingen, de juiste vraag stellen of 
+gepaste empathie tonen.  
+Ik was een van de weinigen die zich en zijn team had ingetekend op het das hboard maar dat 
+is wat fout gelopen. Het duurde lang eer het lukte om het te organiseren , en toen had ik verlof. 
+Het marcheerde dan ook niet, dat is jammer en ik denk dat we ondertussen de motivatie zijn 
+kwijtgespeeld om elke week die korte vragen te beant woorden en elke 3 maanden de 
+uitgebreide vragenlijst door  te ploegen . Al had ik geen informatie , via het dashboard ben ik 
+wel anders naar mijn leiderschap  gaan kijken. Ik stel 'het persoon zijn' nu centraler en probeer  
+veel verschillende mensen te onderste unen, allemaal met hun specifieke karakter en 
+eigenschappen, en merk dat je dan best wel een heel eind  komt . Wat ik bij de een doe , heeft 
+helemaal geen effect bij de ander . Ik zie leiderschap nu meer als gaan wandelen met een 
+roedel honden. Dat is ook mijn  hobby, je kan samen gaan wandelen  en vaak loopt het niet 
+zoals je gedacht had. Als de lijnen zich in elkaar verstrengelen , lukt het wel om er iets moois 
+van te maken  als je de honden maar kent . 
+  
+ 
+   
+ 
+   
+        44 
+  
+Waar ik vroeger de opvatting had dat ik moest zorgen voor  mijn team , is dit nu anders. Ik kan 
+alles in  goede banen li jden, maar hoef niet alles onder controle  te hebben. Ik kan bewust er 
+zaken op een  meer persoonsgericht e manier delegeren, en kan dat beter on der woorden 
+brengen. Het was nooit zo duidelijk waarom ik dingen deed  of waarom het werkte , en ik 
+voelde dat  ik er iets mee moest doen. Doordat ik er bewuster  in sta en dit kan verwoorden, 
+zijn de scherpe kant jes er af en kan ik m eer zaken loslaten  en gerichter delegeren  terwijl ik 
+toch blijf staan als leiding gevend e. Het was misschien heel gemakkelijk v oor mijn team dat 
+ik het allemaal zelf deed , maar ik denk dat het voor de mensen een meerwaarde is dat er nu 
+een leidinggevende is die niet alles voor ze doet  en meer ruimte creëert voor hen om te  
+groeien en  in hun kracht  te staan .  
+ 
+CONCLUSIE  
+Dit ontwikkeltraject was een rollercoaster . We kwamen van alles tegen onderweg, met zo 
+veel verschillende mensen, achtergronden en uitdagingen. Toch was er altijd iets 
+gemeenschappelijk te vinden. Er was ruimte voor iederee n, en van iedereen en over alles viel 
+er veel te leren. Het  pad dat we hebben afgelegd , is niet perfect. Er waren golfjes. Soms was 
+het moeilijk, maar het bleef een kleurrijk, fleurig, zacht, luchtig en leuk pad. We zijn op e en 
+aangename manier tot inzicht en gekomen, soms een harde bewustwording maar niet 
+belerend . Mijn kleine oogjes zijn nu grote ogen geworden. Dit was een sleutel. Niet om een 
+slot op een ketting te doen, eerder om te openen en te bevrijden, want we moeten eerst 
+boeien en dan vormt zich va nzelf een binding zonder ketting.  
+Misschien is de belangrijkste les dat ik geen slechte leidinggevende ben, of slecht persoon. Ik 
+mag mezelf meer schouderkloppen geven, maar me er ook bewust van zijn dat het behouden 
+van mensen niet alleen aan mij ligt , we moeten dat samen doen.  

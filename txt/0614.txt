@@ -1,0 +1,2380 @@
+GEBRUIKSAANWIJZING 
+USER MANUAL 
+GEBRAUCHSANWEISUNG SPL 2TSSPL 2
+SPL 3SPL 3TSTS 
+TS 
+ 
+2 Veiligheidsinstructies  SPL2(TS) en SPL3(TS) gebruiksaanwijzing  NL  
+ 
+ Veiligheidsinstructies 
+1 Alle veiligheidsinstructies, waarschuwingen en gebruiksaanwijzingen moeten als eerste 
+gelezen worden. 
+ 
+2 Alle op het apparaat aanwezige waarschuwingen dienen opgevolgd te worden. 
+ 
+3 De gebruiksaanwijzing dient opgevolgd te worden. 
+ 
+4 Bewaar de gebruiksaanwijzing voor toekomstig gebruik. 
+ 
+5 Het apparaat mag nooit in de onmiddellijke nabijheid van water worden gebruikt; voorkom  de 
+mogelijkheid van binnentreden van water en vocht. 
+ 
+6 Het apparaat mag alleen geplaatst of gemonteerd worden op de door de fabrikant 
+aanbevolen wijze. 
+ 
+7 Het apparaat moet zo geplaatst of gemonteerd worden, dat niets een goede ventilatie in de 
+weg staat. 
+ 
+8 Het apparaat mag nooit in de onmiddellijke nabijheid van warmtebronnen zoals verwarming 
+installatie delen, kachels, en andere warmte producerende apparatuur (onder andere 
+versterkers) worden geplaatst. 
+ 
+9 Sluit het apparaat alleen aan op de juiste netspanning door middel van de door de fabrikant 
+aanbevolen kabels, zoals beschreven in de gebruiksaanwijzing en/of vermeld op de 
+aansluitzijde van het apparaat. 
+ 
+10  Het apparaat mag alleen worden aangesloten op een wettelijk goedgekeurde (rand)geaarde 
+netspanningaansluiting. 
+ 
+11  De netspanningkabel of het netspanningsnoer dient zo gelegd, dat er redelijker wijs niet 
+overheen gelopen kan worden of geen voorwerpen op of tegenaan geplaatst kunnen worden 
+welke de kabel kunnen beschadigen. Speciaal moet rekening gehouden worden met het 
+punt waar de kabel vast zit aan het apparaat en waar de kabel vastzit aan de 
+netspanningaansluiting. 
+ 
+12  Voorkom dat vreemde voorwerpen en vloeistoffen in het apparaat kunnen binnendringen. 
+ 
+13  Het apparaat dient op de door de fabrikant aanbevolen wijze gereinigd te worden. 
+ 
+14  De netspanningkabel of het netspanningsnoer dient, indien voor langere tijd het apparaat 
+niet gebruikt wordt uit de netspanningaansluiting gehaald te worden. 
+ 
+15  In alle gevallen, wanneer er na een gebeurtenis gevaar ontstaat voor onveilige werking van 
+het apparaat, zoals: 
+• na het beschadigd raken van de netspanningkabel of het netspanningsnoer 
+• na het binnendringen in het apparaat van vreemde voorwerpen of vloeistoffen (onder 
+andere water) 
+• na een val van het apparaat of een beschadiging van de behuizing 
+• na het opmerken van een verandering in de werking van het apparaat  
+moet het gecontroleerd worden door daarvoor bevoegd technisch personeel. 
+ 
+16  De gebruiker moet geen werkzaamheden aan het apparaat uitvoeren anders dan die in de 
+gebruiksaanwijzing staan omschreven. 
+NL  SPL2(TS) en SPL3(TS) gebruiksaanwijzing Installatie 3 
+ 
+ Inleiding 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+De steeds strenger wordende milieuwetgeving schrijft in veel gevallen vo or dat geluidsinstallaties 
+in ondermeer horecagelegenheden moeten worden voorzien van een geluidsbegrenzer. Deze 
+begrenzer, of limiter, zorgt ervoor dat de gemiddelde geluidsdruk nooit bov en een bepaald niveau 
+kan komen. De SPL2, SPL2TS, SPL3 en SPL3TS zijn zulke limiters. Het m aximum niveau is in te 
+stellen met instelpunten op het front van de limiters, waarna deze instelpunten verzegeld k unnen 
+worden met behulp van afdekplaatjes. 
+ 
+De vier verschillende Dateq SPL limiters vormen één familie. De SPL2 en  SPL2TS werken zonder 
+meetmicrofoon, terwijl de SPL3 en SPL3TS zijn voorzien van (meegeleverde) mee tmicrofoon. De 
+SPL2TS en SPL3TS zijn voorzien van een tijdklok waarmee het maximum geluidsniveau per  tijd 
+en dag verstelbaar is (zie tabel 1). Omdat de limiters in principe vrijwel gelijk aan elkaar zijn geldt 
+deze handleiding voor alle limiters. Aanwijzingen die specifiek voor bepaalde types gelden, worden 
+in de kantlijn voorzien van een logo met typeaanduiding. 
+ 
+ SPL 2 SPL 2 TS SPL 3 SPL 3 TS 
+meetmicrofoon   /c33 /c33 
+timer  /c33  /c33 
+ 
+Tabel 1 : functies per limitertype  
+ 
+ 
+Meetmicrofoon (voor- en nadelen) 
+In sommige gevallen (in Nederland per gemeente verschillend) zal het gebruik van een  
+meetmicrofoon verplicht worden gesteld. Ook in het geval van "live"-muziek is  het gebruik van een 
+meetmicrofoon onontbeerlijk. Het gebruik van een meetmicrofoon kan echter zowel v oor- als 
+nadelen hebben. 
+ 
+• Het instellen van het maximum niveau gebeurt meestal overdag, in een lege zaal. Als  
+vervolgens 's avonds de zaal gevuld is met publiek, zal er veel meer akoestis che demping zijn. 
+Zonder meetmicrofoon zal het maximum geluidsniveau dus bij een volle zaal beduidend lager  
+liggen dan het niveau, zoals dit was ingesteld door de keurende instantie, met een lege zaal . In  
+ 
+ 
+ 
+ 
+4 Installatie  SPL2(TS) en SPL3(TS) gebruiksaanwijzing  NL  
+ 
+ 
+het geval er wel een meetmicrofoon wordt gebruikt, zal deze dit verschil onder kennen, en dus 
+toestaan dat de geluidsinstallatie iets meer vermogen mag leveren bij een vol le zaal. 
+ 
+• Het gebruik van een meetmicrofoon kan ook juist nadelig werken. Vooral in klei nere ruimtes, 
+waar het maximaal toegestane niveau aan de lage kant ligt (minder dan 100 dBA), zal het 
+publiek in staat zijn boven de muziek uit te komen, bijvoorbeeld bij meezingen met de muziek. 
+In dit geval zal de meetmicrofoon dit detecteren, waarna de limiter maar één di ng kan doen, 
+namelijk terugregelen van de muziek. Juist op die momenten zal dit een uiterst on gewenst 
+effect geven. 
+ 
+De meetmicrofoon van de SPL3 en SPL3TS kan met behulp van een schakelaartje worden 
+uitgeschakeld zodat eventueel geëxperimenteerd kan worden met en zonder meetmicrofoon. I n de 
+verderop besproken "live"-mode kan de limiter niet zonder meetmicrofoon werken. 
+ 
+ 
+Tijdklok 
+Een tijdklok aan boord van de limiter kan voordelen hebben indien het maximaal 
+toegestane geluidsniveau bijvoorbeeld aan het begin van de avond hoger is dan 
+aan het eind van de avond of begin van de morgen. Deze tijdklok schakelt de 
+limiter dan automatisch over naar het op dat moment maximaal toegestane 
+geluidsniveau. De tijdklok aan boord van de SPL2TS en SPL3TS wordt 
+eenmalig op de juiste tijd ingesteld met de PC software van de installateur of 
+meetdienst. De klok schakelt automatisch over tussen zomer- en wintertijd.  De tijdklok deelt de 
+dagen in 3 "TimeSlots". Voor ieder timeslot kan een bepaald maximaal niveau worden ingesteld . 
+Ook het tijdstip van overgang tussen de timeslots kan uiteraard worden i ngesteld.  
+ 
+ 
+Gebruik 
+De SPL-limiters zijn tijdens gebruik nagenoeg onmerkbaar aanwezig. Het i s uiteraard aan te raden 
+de limiter-drempel niet te ver te overschrijden. Zodra de drempel met meer  dan 14dB wordt 
+overschreden zal de OVERLOAD LED gaan knipperen. Tijdens normaal bedrijf zal deze sit uatie 
+zich nooit voordoen. 
+ 
+ 
+Music-mode / Live mode 
+De SPL3/3TS-limiters kennen twee bedrijfsmodes: één speciaal voor muziek via een 
+muziekinstallatie (Music mode), en één speciaal voor live bands (live mode). 
+ 
+• Op het moment dat signaal wordt aangeboden op de audioingang van de limiter staat de lim iter 
+in "Music mode". De DETECT-, REDUCTION- en OVERLOAD LED's geven dan de status van 
+de limiter aan. Aangeboden signaal wordt teruggeregeld indien het audioniveau de maximum 
+toelaatbare geluidsdruk overschrijdt. 
+ 
+• Als er geen signaal op de audioingangen van de limiter wordt aangeboden, terwijl  de 
+meetmicrofoon toch een overschrijding van het maximum geluidsniveau detecteert, s chakelt de 
+limiter in "live mode". De WARNING- en -SANCTION LED's geven dan de status  van de SPL 
+aan. In de "live mode" is de SPL3/3TS een echte "bewaker", omdat de limiter uiteraard ni et in 
+staat is op een actieve manier het geluid terug te regelen. Twee schakeluitgangen moeten 
+zorgen dat gemeten geluidsniveau de maximaal toegestane geluidsdrempel niet overschrijden . 
+De eerste uitgang (WARNING) kan een LED of een lamp (via een solidstate relais)  bedienen, 
+die de muzikant(en) kan waarschuwen wanneer het maximaal toegestane niveau wordt 
+overschreden. De tweede uitgang kan een (solidstate relais) schakelaar bedienen die op zij n 
+beurt de spanning van de versterker(s) van de livemuzikant(en) kan uitschakelen. Op he t 
+moment dat de muzikant(en) de waarschuwingen van de eerste uitgang blijft neger en, kan deze 
+tweede uitgang sanctioneren door de spanning af te schakelen. 
+ 
+  
+ 
+NL  SPL2(TS) en SPL3(TS) gebruiksaanwijzing Installatie 5 
+ 
+ Tip 
+Probeer nooit de SPL3/3TS tegelijkertijd in music mode en live mode te ge bruiken, door 
+bijvoorbeeld een gedeelte van de instrumenten van een live band via de limiter te laten lopen, 
+terwijl andere instrumenten ongeregeld blijven werken (drumstel!). De limi ter zal dan ten onrechte 
+proberen de instrumenten die hij wel kan terugregelen te verzwakken, zodat de onder linge 
+verhoudingen van instrumenten (en zang) volledig wordt verstoord. De limiter g eeft overigens geen 
+livewaarschuwing als ook audio op de ingang wordt aangeboden, dit omdat anders tij dens de 
+Music mode deze waarschuwingslamp continu zou knipperen, de limiter regelt immers  altijd 
+precies tot het maximaal toegelaten niveau! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+6 Installatie  SPL2(TS) en SPL3(TS) gebruiksaanwijzing  NL  
+ 
+  
+ 
+Aansluitingen 
+Om te voorkomen dat de aansluitingen gewijzigd kunnen worden nadat de limiter is inge regeld en 
+verzegeld, zijn de aansluitingen van de limiter na verzegeling niet meer toegankel ijk. Verwijder om 
+bij de aansluitingen van de limiter te komen het rechter (verzegelbare) afdek plaatje. 
+ 
+ 
+ 
+ 
+ 
+Draai nu bout (A) los met een torxschroevendraaier (zie tekening). Verwijder nu de 4 torx-
+schroefjes (B) van het bovendeksel. Nu kan het deksel verwijderd worden. Til eerst  de voorkant 
+iets op, en schuif het deksel dan naar achteren. De aansluitplaat van de limiter w ordt nu zichtbaar. 
+ 
+ 
+CHECK USER MANUAL OR   WWW.DATEQ.NL   FOR OPERATION AND MAINTENANCE DETAILS 
+SERIAL INTERFACE AUDIO OUTPUTS AUDIO INPUTS MIC INPUT 1 13 
+14 25 
+SPL3(TS) only L     -     R L     -     R IN 
+OUT 
+100-240VAC 
+POWER 2011 RoHS
+COMPLI ANT
+2 8 00 / /5 9 ECMADE IN THE NETHERLANDS LIMITER 
+Stereo Program Audio Limiter AUDIO XLR 
+    1  Ground 
+    2  Audio + 
+    3  Audio -SERIAL INTERFACE 
+    1  Ext Attenuation In 
+    2  Reduction 
+    3  Overload 
+    4 *Warning 
+    5 *Live Mode OK 
+  6-8 Ground     9 *Mic In + 
+  10  Left In + 
+  11  Right In + 
+  12  Left Out + 
+  13  Right Out+ 
+  18  I/O TXD 
+  19  I/O RXD 
+  14-17, 20 Ground   21 *Mic In -
+  22  Left In -
+  23  Right In -
+  24  Left Out -
+  25  Right Out -
+  *SPL3(TS) only SERIAL NUMBER 
+CAUTION 
+DISCONNECT POWER CABLE 
+BEFORE OPENING.RISK OF ELECTRIC SHOCK.
+ 
+ 
+Mic Input (gebruik alleen originele DATEQ microfoon) (X LR 3-pins female) 
+ 
+Pen Functie Type 
+1 Massa A-GND 
+2 Audio + In 
+3 Audio - In 
+ 
+Balanced Stereo Left / Right Inputs (XLR 3-pins female) 
+ 
+Pen Functie Type 
+1 Massa A-GND 
+2 Audio + In 
+3 Audio - In 
+ 
+Balanced Stereo Left / Right Outputs (XLR 3-pins male) 
+ 
+Pen Functie Type 
+1 Massa A-GND 
+2 Audio + Uit 
+3 Audio - Uit  
+ 
+NL  SPL2(TS) en SPL3(TS) gebruiksaanwijzing Installatie 7 
+ 
+ Signalling Connector (25-SUBD female) 
+ 
+Pen Functie Type 
+1 externe verzwakking ingang (potmeter 10 k Ω lineair) In 
+2 reduction Uit 
+3 overload Uit 
+4 warning (alleen SPL 3 en SPL 3TS) Uit 
+5 live mode OK (alleen SPL 3 en SPL 3TS) Uit 
+6 Sanctie actief In 
+9 mic in + (alleen SPL 3 en SPL 3TS) In 
+21 mic in - (alleen SPL 3 en SPL 3TS) In 
+10 audio in links + In 
+22 audio in links - In 
+11 audio in rechts + In 
+23 audio in rechts - In 
+12 audio uit links + Uit 
+24 audio uit links - Uit 
+13 audio uit rechts + Uit 
+25 audio uit rechts - Uit 
+18 TXD  
+19 RXD  
+7 en 8 gnd  
+14-17, 20  gnd  
+ 
+ 
+Aansluitingen 
+MIC IN Achterop de SPL 3 en SPL 3TS is een symmetrische XLR-connector voor 
+de standaard bijgeleverde meetmicrofoon. Zonder aangesloten microfoon 
+zal de limiter niet werken, behalve als de microfoon is uitgeschakeld. De 
+meegeleverde microfoonkabel kan zonder problemen verlengd worden (tot 
+ongeveer 100 meter), maar let dan wel op de goede polariteit van de 
+aansluiting. Monteer de meetmicrofoon aan de wand of plafond, op een 
+dusdanige plaats dat de microfoon goed in het geluidsveld is geplaatst. 
+Voorkom dat de microfoon een sterk gekleurd geluid ontvangt. Monteren in 
+een nis is niet aan te raden. Ook bevestiging aan een wand of balk die bij 
+bepaalde audiofrequenties resoneert kan problemen opleveren. Ervaring 
+leert dat het zin heeft de microfoon zo ver mogelijk van publiek te 
+monteren, zodat de verhouding "menselijk lawaai"/"elektronisch lawaai", 
+zoveel mogelijk richting "elektronisch lawaai" neigt. Soms schrijft een 
+overheid- of keurende instantie voor waar de microfoon moet worden 
+bevestigd (bijvoorbeeld op de plaats met de meeste geluidslek naar 
+buiten). 
+ 
+AUDIO IN L/R  Gebalanceerde ingangen voor links en rechts. 
+ 
+AUDIO OUT L/R  Gebalanceerde uitgangen voor links en rechts.  
+8 Installatie  SPL2(TS) en SPL3(TS) gebruiksaanwijzing  NL  
+ 
+  
+EXTERNAL 
+ATTENUATION 
+INPUT Externe volumeregeling is mogelijk via de "external attenuation" ingang op 
+de DB25 connector. Op deze manier is het mogelijk om bijvoorbeeld op een 
+andere plaats dan bij de apparatuur het volume te kunnen verminderen. Dit 
+kan met een lineaire potmeter van 10 k Ω. 
+ 
+ 
+REDUCTION  Aansluiting voor LED of solidstate relais, ten behoeve van externe indicatie 
+van REDUCTION (+20 V / 10 mA DC) 
+ 
+OVERLOAD  Aansluiting voor LED of solidstate relais, ten behoeve van externe indicatie 
+van OVERLOAD (+20 V / 10 mA DC) 
+ 
+WARNING  Aansluiting voor LED of solidstate relais, ten behoeve van externe indicatie 
+van WARNING (+20V/10mA DC) 
+ 
+LIVE MODE OK  Aansturing afschakelmechanisme "live" versterkers (normaal is de uitgang 
+stroomvoerend (+20 V / 10 mA DC), in geval van sanctie niet. 
+ 
+SANCTIE ACTIEF Als de limiter in SPL2 mode werkt kan een extra sanctie worden geven bij 
+ oversturing. Als de limiter meer dan 14 dB wordt overstuurd kan het geluid 
+extra worden verzwakt. Als deze functie gewenst is moet pen 6 met aarde 
+(bijvoorbeeld pen 7) worden verbonden. 
+ 
+MAINS  Netsnoer. De SPL-limiters werken op een netspanning van 220 .. 240 V 
+AC. 
+ 
+ 
+  
+ 
+NL  SPL2(TS) en SPL3(TS) gebruiksaanwijzing Bediening 9 
+ 
+ 3TS 2TS Bediening 
+ 
+ 
+        14   13    1                10, 9, 8      1 2, 11                  4  5   6                 3     2             7 
+ 
+ 
+Klok display. Het display 
+geeft tijdens normaal bedrijf 
+de huidige tijd aan, in 24- 
+uursformaat. Op het moment 
+dat de netspanning op de 
+limiter wordt ingeschakeld, 
+loopt even de datum op het display voorbij. Op deze manier is eenvoudig te controleren of  de klok 
+wel goed is ingesteld. 
+ 
+De 3 LED's links geven aan in welk tijdslot de limiter zich bevindt. Zorg dat de installateur een lijst 
+met indeling van de tijdsloten achterlaat, zodat achteraf altijd na te gaan is hoe de limiter staat 
+geprogrammeerd. Naast de tijd kunnen op het display diverse andere meldingen verschij nen, 
+waarvan hier een overzicht volgt:  
+ 
+ 
+ Het display geeft normaal de tijd aan. 
+ 
+ De limiter bevindt zich in een bypassperiode. Het nummer geeft de bypassperiode 
+aan. In dit geval is dat periode twee. Deze melding wisselt af met de tijd . 
+ 
+ 
+ De programmering van de timer in de limiter is verloren gegaan. De timer  moet dan 
+opnieuw worden geprogrammeerd om het probleem te verhelpen. Zolang het 
+probleem niet is verholpen blijft de limiter in foutstand: het geluid wordt ster k 
+gereduceerd. 
+ 
+ Er is tijdens het programmeren van de limiter iets misgegaan. Probeer h et nog een 
+keer. Zolang het probleem niet is verholpen blijft de limiter in foutstand: het  geluid 
+wordt sterk gereduceerd. 
+ 
+ Er is een interne fout geconstateerd in de limiter, waardoor de klok en het g eheugen 
+niet goed kunnen werken. Laat de limiter nakijken door een erkende reparateur. 
+ 
+ 
+ 
+ 
+ 
+  
+  
+10  Bediening  SPL2(TS) en SPL3(TS) gebruiksaanwijzing  NL  
+ 
+  USB-connector. Via deze USB-connector is de leverancier, gemeente of een andere keurende 
+instantie in staat de limiter te programmeren. Zij beschikken over een comput erprogramma 
+waarmee het één en ander is in te stellen. Per weekdag zijn 3 "Time Slots" in te s tellen, per 
+timeslot is een bepaald maximum niveau in te stellen. Ook is het mogelijk voora f zogenaamde 
+"bypassperiodes" in te stellen: data waarop de limiter mag worden afgeschakeld (bij spec iale 
+evenementen). Er kunnen 10 bypassperiodes worden voorgeprogrammeerd.  
+Indien keuringsinstanties of installateurs (nog) niet over de software besc hikken, kunnen zij zich 
+wenden tot DATEQ. Deze software is voor hen gratis beschikbaar. Deze software staat overigens 
+wel op naam, deze naam wordt meegeprogrammeerd in de limiter zodat altijd acht eraf te 
+controleren is wie de limiter als laatste  heeft geprogrammeerd. 
+ 
+In de doos bevindt zich een USB stick met de nieuwste software. De limi ter kan via de USB 
+aansluiting op iedere Windows computer worden aangesloten. Een driver programma is  niet 
+benodigd. Nadat de USB kabel is aangesloten en het programma is gestart versc hijnt het 
+inlogscherm. 
+ 
+ 
+ 
+Hiermee kunt u contact met de SPL maken en zo nodig de tijd aanpassen aan de tijd van u w 
+computer. Vervolgens kunt u de instellingen van de limiter aanpassen. 
+ 
+ 
+Standaard zijn de volgende instellingen: Na 19:00 uur 5 dB extra verzwakking, na 23:00 nogmaals 
+5 dB verzwakking. 
+   
+NL  SPL2(TS) en SPL3(TS) gebruiksaanwijzing Bediening 11  
+ 
+ 
+ 
+ 
+In veel gemeenten zijn er bepaalde dagen waarop de limiter niet ingeschakeld hoeft te zijn. Deze 
+uitzonderingen kunnen in een tabel worden opgenomen . 
+  
+ 
+ 
+ 
+ Bypass schakelaar. Door indrukken van deze schakelaar is de limiter niet meer actief. Op 
+deze manier kan tijdens speciale evenementen eenvoudig de limiter worden uitgeschakeld, 
+zonder dat deze opnieuw hoeft te worden afgeregeld. Doordat de bypass schakelaar achter een 
+apart afdekplaatje is gesitueerd hoeft de verzegeling van de instelpotmeters hoeft dus  ook niet te 
+worden verbroken. 
+ 
+ Mic-schakelaar. Met ingedrukte schakelaar werkt de limiter met meetmicrofoon. Met niet 
+ingedrukte schakelaar wordt de meetmicrofoon niet gebruikt. Dit betekent automatisch dat de 
+LIVE mode van de limiter niet meer werkt. Let op: als besloten wordt de limiter om te schakelen in 
+een andere stand moet de limiter uiteraard opnieuw worden afgesteld!  
+  
+12  Bediening  SPL2(TS) en SPL3(TS) gebruiksaanwijzing  NL  
+ 
+  
+ Output Level instelling. Met dit instelpunt kan met maximaal toelaatbaar geluidsniveau 
+worden ingesteld. Bied signaal op de ingang van de limiter aan (bij voorkeur witt e ruis), 
+dusdanig dat de threshold overschreden wordt (detect- en reduction LED gaan aan). Regel nu het 
+OUTPUT LEVEL zo dat in de ruimte exact het maximaal toelaatbare geluidsniveau wor dt bereikt. 
+Letop dat eerst de threshold en daarna het output level wordt ingesteld. 
+ 
+Threshold instelling.  Vanuit de fabriek staat de limiterdrempel (de threshold) ingesteld op 0 
+dBu. Zodra het aansturende apparaat deze drempel overschrijdt zal de limiter gaan 
+terugregelen. Als bijvoorbeeld het aansturende apparaat een mengpaneel is, is het prakt isch om 
+de threshold zo in te stellen dat de threshold precies wordt overschreden op het moment  dat de 
+niveaumeters van het mengpaneel "in het rood" gaan. Stel de Treshold instelling zodanig in dat het 
+“detect” ledje deze pieken ook aangeeft. Letop dat eerst de threshold en daarna het output niveau 
+wordt ingesteld.  
+ 
+ Sound Level instelling. Met dit instelpunt wordt het maximaal toelaatbaar geluidsniveau voor 
+de SPL3- en SPL3TS limiters ingesteld. Bied signaal op de ingang van de l imiter aan (bij 
+voorkeur witte ruis) dusdanig dat de limiter gaat terugregelen (detect- en reduction LED gaan aan). 
+Regel nu het SOUND LEVEL zo dat in de ruimte exact het maximaal toelaatbare geluidsniveau 
+wordt bereikt. Het uiteindelijk ingestelde niveau geldt dan ook in de LIVE-mode, wat betekent dat 
+de limiter ook nog op een andere manier in te stellen is. Buiten de limiter  om het maximaal 
+toelaatbare geluid produceren (via versterkers en speakers buiten de limiter om ), en nu het 
+SOUND LEVEL zo afregelen dat de LIVE WARNING LED net gaat knipperen. Als er nu ook maar 
+1 dB minder signaal wordt geproduceerd moet de duty-cycle van de knipperende LED 
+ogenblikkelijk weer afnemen anders is het niveau nog niet goed ingesteld.  
+ 
+Threshold instelpunt.  Vanuit de fabriek staat de limiter drempel (de threshold) ingesteld op 0 
+dBu. Zodra het aansturende apparaat deze drempel overschrijdt zal de limiter gaan ter ugregelen. 
+Als bijvoorbeeld het aansturende apparaat een mengpaneel is, is het praktisch om de  threshold zo 
+in te stellen dat de threshold precies wordt overschreden op het moment dat de niveaumeter s van 
+het mengpaneel "in het rood" gaan. Stel de Treshold instelling zodanig in dat het “ detect” ledje 
+deze pieken ook aangeeft. 
+ 
+De limiter heeft enige tijd nodig om zich in te stellen na het verdraaien van de SOUND-
+LEVEL of de THRESHOLD-instelling. Houd hier rekening mee t ijdens het afregelen. 
+ 
+ Bypass indicatie. Deze LED knippert indien de limiter in "bypass" mode staat. Dit kan zijn als 
+gevolg van een ingeprogrammeerde bypassperiode bij de limiter, maar ook als gevolg van een 
+ingedrukt bypassschakelaartje achter het linker afdekplaatje. 
+ 
+ Detect indicatie.  Zodra het op de limiter aangeboden audiosignaal de drempelwaarde 
+(threshold) overschrijdt gaat deze LED branden. 
+ 
+ Reduction indicatie. Op het moment dat de limiter moet terugregelen om het signaal beneden 
+het maximaal toelaatbare niveau te houden, licht deze LED op. 
+ 
+ Overload indicatie. Zodra de threshold met meer dan 14dB is overschreden, kan de SPL-
+limiter niet meer instaan voor behoud van goede geluidskwaliteit. Op het moment dat  de 
+gebruiker meer dan 14dB over de drempel stuurt gaat de OVERLOAD-LED knipperen.  
+ 
+ WARNING-indicatie . De DETECT/REDUCTION/OVERLOAD LED's werken bij de SPL3 en 
+SPL3TS in de "music" mode, de WARNING/SANCTION-LED's werken in de "live" m ode. Op 
+het moment dat de meetmicrofoon een hoger geluidsniveau dan het toegelaten niveau meet gaat  
+de WARNING-LED knipperen. Als de situatie aanhoudt, gaat de LED steeds intenser knipper en 
+(oplopende "duty-cycle"). Zie onderstaande afbeelding. Via een solidstate relais is ook een externe 
+lamp aan te sluiten op de limiter, die dezelfde functie kan vervullen.   
+  
+ 
+ 
+ 
+ 
+  
+NL  SPL2(TS) en SPL3(TS) gebruiksaanwijzing Bediening 13  
+ 
+  
+ SANCTION indicatie (live mode) . Als de WARNING LED continu brandt, en er nog steeds 
+geen erandering in de situatie is gekomen, treedt de sanctie in werking. De SANCTION LED zal 
+dan gaan branden en de stuurstroom op de "Live-music-control" pin zal afschakelen. Hierdoor 
+kunnen de versterkers van live-installaties stroomloos worden gemaakt. Na ongeveer  30 seconden 
+zal de situatie zich herstellen. 
+ 
+WARNING- en LIVE MODE OK- uitgangen 
+ POWER ON-indicatie . Deze LED brandt indien de limiter is voorzien van netspanning en is 
+ingeschakeld. 
+ 
+ POWER schakelaar. De netspanningschakelaar schakelt de limiter in en uit. Bij 
+uitgeschakelde limiter wordt geen audio doorgegeven via de limiter en zijn alle s troom-uitgangen 
+(live gebruik) afgeschakeld. Zodra de limiter wordt ingeschakeld wordt de elektronica gedurende 
+korte tijd geïnitialiseerd (knipperende DETECT LED (8)). Daarna is de li miter klaar voor gebruik. 
+ 
+   
+ 
+14  Bediening  SPL2(TS) en SPL3(TS) gebruiksaanwijzing  NL  
+ 
+ 
+Foutmeldingen 
+De limiters kennen een aantal situaties waarin de uitgang wordt afgeschakeld ter wijl één van de 
+LED's op het front knipperen ter indicatie dat er iets mis is 
+ 
+ 
+DETECT-LED (8) knippert: de eerste seconden nadat de limiter is aangezet 
+krijgt de elektronica in de limiter even de gelegenheid te stabiliseren. 
+Gedurende deze tijd knippert de DETECT LED, als teken dat de limiter zonder 
+meetmicrofoon wordt gebruikt. 
+ 
+ 
+DETECT- & WARNING LED (8) (11) knipperend: ook dit is een opstart-indic atie. 
+Alleen is in dit geval de meetmicrofoon wel ingeschakeld. 
+ 
+ 
+ 
+ 
+WARNING- & SANCTION LED (11) (12) knipperend: de standaard bijgeleverde 
+microfoon is niet correct aangesloten. Controleer de aansluitingen. 
+ 
+ 
+ 
+ 
+BYPASS LED (7) knipperend: de limiter staat in BYPASS-mode, en grijpt dus  
+niet in indien het maximum niveau wordt overschreden. 
+ 
+ 
+ 
+ 
+  
+ 
+NL  SPL2(TS) en SPL3(TS) gebruiksaanwijzing Bediening 15  
+ 
+ Vaak gestelde vragen 
+Bij het op goede wijze installeren van een limiter op basis van een meetmicrofoon komen altijd een 
+paar extra aspecten om de hoek kijken. Om een beter inzicht te geven hebben wij hieronder de 
+meest gestelde vragen op een rijtje gezet: 
+ 
+Als het publiek in de zaal veel lawaai maakt (meezingen), dan regelt de SPL3/3TS het geluid 
+terug. Hoe voorkom ik dit? 
+ 
+Vooral in relatief kleine ruimtes, waar het maximaal toegestane geluidsniveau rel atief laag ligt, is 
+het publiek inderdaad vaak in staat om (meezingend) behoorlijk boven de muziek uit te k omen. 
+Dit wordt uiteraard door de meetmicrofoon gedetecteerd en dus zal de limiter de muz iek 
+terugregelen wat natuurlijk volledig legitiem is! Dit probleem kan voorkomen w orden door de 
+meetmicrofoon op een plaats te bevestigen waar de verhouding publiek/muziek wat meer ri chting 
+muziek doorslaat. Plaats de meetmicrofoon zo ver mogelijk van het publiek, rela tief dicht bij de 
+luidsprekers. Na verplaatsing van de microfoon moet de limiter uiteraard wel opnieuw worden 
+afgeregeld. Ook kan worden overwogen de limiter zonder meetmicrofoon te gaan geb ruiken. 
+ 
+Ik gebruik de limiter alleen voor "LIVE"-muziek. Wat moet ik n u doen met de "threshold"-
+trimmer? 
+ 
+De "threshold" heeft geen invloed op de de werking van de limiter als de meetmicrofoon is 
+ingeschakeld. Alleen met uitgeschakelde microfoon is het "threshold" instelpunt belangrijk. Zonder 
+meetmicrofoon begrenst de limiter op basis van wat op de ingang aangeboden wordt. M et 
+meetmicrofoon wordt slechts naar het door de microfoon gemeten niveau gekek en. 
+ 
+Zelfs met de instelpotmeter helemaal rechtsom is het geluidsni veau te laag. Wat nu? 
+ 
+Waarschijnlijk zal het maximum geluidsniveau in dat geval ruim boven het van ov erheidswege 
+goedgekeurde niveau liggen. De SPL3/3TS is zo ontworpen dat het regelbereik loopt van "voor 
+iedere horeca exploitant eigenlijk te zacht" tot "voor iedere buurman veel te hard". Mocht om  één of 
+andere reden een hogere geluidsdruk gewenst zijn plaats dan de meetmicrofoon verder van de 
+luidsprekers. Hierdoor zal de limiter minder geluid meten en dus minder ver ter ugregelen. Pas dan 
+uiteraard wel op dat het geluidsaandeel van het publiek niet te groot wordt. 
+ 
+Bij livemuziek loopt een deel van de instrumenten en de zang via de zaal versterking dus via 
+de SPL3/3TS. De andere instrumenten worden bewaakt via de "LIVE" mod e van de limiter. 
+Zodra het nu te hard gaat regelt de limiter de instrumenten d ie via de zaalversterking lopen 
+terug waardoor alle verhoudingen scheef worden getrokken. 
+ 
+Dit klopt. Zie ook pagina 5. De SPL3 en SPL3TS zijn niet geschikt om t egelijk in "MUSIC" en 
+"LIVE" mode te worden gebruikt. Immers: als de limiter meet dat het maximum niveau wordt 
+overtreden is er maar één zinnige maatregel mogelijk: terugregelen! Hierdoor t rekken de 
+verhoudingen natuurlijk scheef als een aantal instrumenten (drums!) onverzwakt  door kunnen 
+blijven spelen. Het is aan te raden om in dergelijke gevallen alle instrumenten buit en de limiter om 
+te laten lopen en alleen de "LIVE"-schakeluitgangen van de limiter te gebruiken .  
+
+ 
+Technische specificaties 
+INGANGEN 
+MIC (meetmicrofoon) ..................................... . XLR-3 female, elektronisch gebalanceerd, alleen 
+meegeleverde microfoon gebruiken 
+LINE (left & right) .................................. .......... XLR-3 female, elektronisch gebalanceerd 
+ Signaalniveau ........................................ -14 . . +6 dBu 
+ Ingangsimpedantie ................................ 10 kOhm 
+ 
+ 
+UITGANGEN 
+LINE (left & right) .................................. .......... XLR-3 male, elektronisch gebalanceerd 
+ Uitgangsimpedantie............................... 600 Ohm 
+ 
+ 
+ALGEMEEN 
+AUDIO 
+ Frequentiebereik.................................... 20 Hz . . 20 kHz 
+ Signaal/ruis verhouding ......................... > 80 dB 
+ THD+N ............................................. ..... < 0.05 % (CCIR-RMS) 
+BEGRENZING 
+ Limiterdrempel (instelbaar) .................... -14 .. +6 dBu (z onder meetmicrofoon) 
+ Limiterdrempel (instelbaar) .................... 80 .. 120 dBA (me t meetmicrofoon) 
+ Uitgangsverzwakking (instelbaar) .......... 0 .. -40 dB (zonder meetmi crofoon) 
+EXTERNE SIGNALERING 
+ Externe verzwakker ............................... 0 .. -20 dB  (10 kOhm potmeter) 
+ Signalerings- en schakeluitgangen ........ 20 V / 10 mA DC 
+POWER SUPPLY 
+ Spanningsbereik.................................... 220...240 VAC  / 50 Hz 
+ Vermogen............................................ .. 10 W (SPL2 / SPL3), 20 W (SPL2TS / SPL3TS) 
+AFMETINGEN EN GEWICHT 
+ Front............................................... ....... 483 x 45 mm (B x H) = 19”, 1HE 
+ Kastdiepte............................................ .. 175 mm 
+ Gewicht (netto) ...................................... 3.2 kg (SPL2 / SPL3), 3.5 kg (SPL2TS / SPL3TS) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Productondersteuning 
+ 
+Voor vragen over de SPL limiter serie, accessoires en andere producten kunt u contact opnemen 
+met: 
+ 
+Dateq Audio Technologies B.V. 
+De Paal 37 
+1351 JG  Almere 
+Nederland 
+ 
+Telefoon: (036) 54 72 222 
+E-mail:  info@dateq.nl 
+Internet: www.dateq.nl  
+2 Safety instructions  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+ Safety instructions 
+1 All safety instructions, warnings and operating ins tructions must be read first. 
+ 
+2 All warnings on the equipment must be heeded. 
+ 
+3 The operating instructions must be followed. 
+ 
+4 Keep the operating instructions for future referen ce. 
+ 
+5 The equipment may never be used in the immediate vic inity of water; make sure that water and 
+damp cannot get into the equipment. 
+ 
+6 The equipment may only be installed or fitted in acc ordance with the manufacturer's 
+recommendations. 
+ 
+7 The equipment must be installed or fitted such tha t good ventilation is not obstructed in any 
+way. 
+ 
+8 The equipment may never be installed in the immedi ate vicinity of sources of heat, such as 
+parts of heating units, boilers, and other equipmen t which generates heat (including amplifiers). 
+ 
+9 Connect the equipment to a power supply of the corre ct voltage, using only the cables 
+recommended by the manufacturer, as specified in the  operating instructions and/or shown on 
+the connection side of the equipment. 
+ 
+10  The equipment may only be connected to a legally a pproved earthed mains power supply. 
+ 
+11  The power cable or power cord must be positioned such that it cannot be walked on in normal 
+use, and objects which might damage the cable or cord  cannot be placed on it or against it. 
+Special attention must be paid to the point at which  the cable is attached to the equipment and 
+where the cable is connected to the power supply. 
+ 
+12  Ensure that foreign objects and liquids cannot get  into the equipment. 
+ 
+13  The equipment must be cleaned using the method rec ommended by the manufacturer. 
+ 
+14  If the equipment is not being used for a prolonged  period, the power cable or power cord 
+should be disconnected from the power supply. 
+ 
+15  In all cases where there is a risk, following an inc ident that the equipment could be unsafe, 
+such as: 
+• if the power cable or power cord has been damaged 
+• if foreign objects or liquids (including water) ha ve entered the equipment 
+• if the equipment has suffered a fall or the casing  has been damaged 
+• if a change in the performance of the equipment is  noticed  
+it must be checked by appropriately qualified techn ical staff. 
+ 
+16  The user may not carry out any work on the equipme nt other than that specified in the 
+operating instructions. 
+ 
+EN  SPL2(TS) and SPL3(TS) user manual Installation 3 
+ 
+ Introduction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The SPL2, SPL2 TS , SPL3 and SPL3 TS  are sound pressure limiters (SPL), especially desig ned for 
+use in public houses, discotheques, etc. The SPL-limi ters are no peak-limiters, they only limit the 
+average sound pressure. Trimmers for on-site calibr ation are positioned behind removable cover 
+(plates) which can be put under seal. 
+ 
+The four different Dateq SPL-limiters form one fami ly. The SPL2 and SPL2 TS  function without a 
+microphone, the SPL3 and SPL3 TS  use a special measuring microphone. The SPL2 TS  and 
+SPL3 TS  are supplied with a timer, able of setting the maxi mum sound level for certain periods of the 
+day (see table 1). Basically, all four types are iden tical. This manual covers all different types. 
+Directions for one specific type are indicated with  a logo in the left margin. 
+ 
+ SPL 2 SPL 2 TS SPL 3 SPL 3 TS 
+measuring microphone   /c33 /c33 
+timer  /c33  /c33 
+ 
+Table 1: individual functions limiter types  
+ 
+ 
+Measuring microphone (advantages and disadvantages) 
+In some cases, authorities dictate the use of a mea suring microphone. Also when using the limiter 
+with live-music, a measuring microphone will be essen tial. Using a measuring microphone can have 
+advantages and disadvantages. 
+ 
+• Calibrating the limiter usually takes place during  the day, in an empty room. When this room fills 
+with a crowd during the night, acoustical damping wi ll occur, so the maximum sound level will be 
+lower than the level set earlier. When making use of a  microphone, the limiter will compensate for 
+this difference. 
+ 
+• Using a measuring microphone can be a disadvantage i n smaller rooms, with relatively low 
+maximum sound levels (less than 100 dBA). In these si tuations, the crowd can easily drown the 
+music, when singing along. This will be detected by th e microphone, and the limiter can only react  
+ 
+ 
+ 
+ 
+4 Installation  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+ 
+in one way: by reducing the music level. Especially at these moments, this is a totally unwanted 
+effect. 
+ 
+The measuring microphone of the SPL3 and SPL3 TS  can be bypassed, by means of the bypass-
+switch behind the left cover, so experimenting with or without a microphone is possible. However in 
+bypass-mode, the SPL3 and SPL3 TS  cannot handle live-music. 
+ 
+ 
+Timer 
+A built-in timer can be very useful when the maximum allow ed sound level varies 
+per day or time-of-day. For example during the earlie r hours of the evening, a 
+higher level can be allowed than later in the evening or  at night. The timer will 
+switch automatically to the preset maximum level. The  SPL2TS and SPL3TS-
+clock automatically switches between normal time an d daylight savings time. The 
+timer divides each day in 3 Timeslots. The beginning  and ending as well as the 
+maximum sound level of each timeslot can be set by so ftware. 
+ 
+ 
+Using the SPL limiter 
+The limiting-algorithm is designed in such a way tha t the presence of the limiter action is difficult t o 
+notice. Of course it is not recommended to cross th e limiter threshold too often. 
+As soon as the threshold has been crossed more than  14 dB the OVERLOAD-LED will start to blink. 
+If normally operated, this situation will never occ ur. 
+ 
+ 
+Music-mode / Live mode 
+The SPL3/3 TS -limiters can be operated in two modes: a music-mode,  during which the limiter will be 
+a part of the audio-chain, and a live-mode especially  for use with live-music, when musicians use 
+their own amplifiers, percussion, etc. 
+ 
+• When signal is applied to the audio-input, the limi ter will switch over into music-mode. The 
+DETECT-, REDUCTION- and OVERLOAD-LED's indicate the s tatus of the limiter. When the 
+maximum level is exceeded, the audio-output will be re duced. 
+ 
+• In case no signal is applied to the audio-input, and  the measuring microphone measures a sound 
+level above the maximum allowed level, the limiter will switch over to live-mode. The WARNING- 
+and SANCTION-LED's indicate the status of the limiter . In live-mode, the SPL3/3 TS  becomes a 
+real "guard": because the limiter is not able to re duce the sound level in an active way, guarding 
+the sound level will be done with the aid of two logical ou tputs. The first output (WARNING) can 
+drive a LED or a lamp (via a solid-state-relay) to warn t he musicians that the maximum level is 
+exceeded. The second output is meant for switching t he mains supply of the amplifiers of the live-
+band (via a solid-state-relay). If the WARNING-lamp will be ignored, the SPL3/3TS will sanction 
+by switching off the mains supply of the bands' amp lifiers.  
+ 
+EN  SPL2(TS) and SPL3(TS) user manual Installation 5 
+ 
+  
+Tip 
+Never try to use the SPL3/3 TS  in music-mode and live-mode at the same time, for example by 
+feeding some of the bands' instruments through the limiter, while other instruments remain 
+uncontrolled (percussion!). The limiter will unjust ly try to reduce the level of only the instruments it is 
+able to reduce, so the whole balance of the mix will  be disturbed. Another problem of using both 
+modes at the same time is that the WARNING-output w ill be disabled when signal is applied to the 
+limiter. This is done because otherwise the WARNING -lamp will blink continuously in music-mode, 
+since the limiter will always try to reach maximum so und pressure level when the input-threshold has 
+been reached. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+6 Installation  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+  
+Connectors 
+To prevent modification of the connections after calibration and sealing, the connectors of the 
+limiter are inaccessible after sealing of the cover plates at the front . To access the connector 
+board, remove the right cover plate at the front panel. 
+ 
+ 
+ 
+ 
+Unfasten screw (A) with a torx-screwdriver (see illustration). Now remove the 4 torx-screws (B) 
+from the top lid. The top cover can be removed now. Gently lift the front s ide a little, and slowly 
+shift the lop lid to the rear. The connector board will become visible. 
+ 
+CHECK USER MANUAL OR   WWW.DATEQ.NL   FOR OPERATION AND MAINTENANCE DETAILS 
+SERIAL INTERFACE AUDIO OUTPUTS AUDIO INPUTS MIC INPUT 1 13 
+14 25 
+SPL3(TS) only L     -     R L     -     R IN 
+OUT 
+100-240VAC 
+POWER 2011 RoHS
+COMPLI ANT
+2 8 00 / /5 9 ECMADE IN THE NETHERLANDS LIMITER 
+Stereo Program Audio Limiter AUDIO XLR 
+    1  Ground 
+    2  Audio + 
+    3  Audio -SERIAL INTERFACE 
+    1  Ext Attenuation In 
+    2  Reduction 
+    3  Overload 
+    4 *Warning 
+    5 *Live Mode OK 
+  6-8 Ground     9 *Mic In + 
+  10  Left In + 
+  11  Right In + 
+  12  Left Out + 
+  13  Right Out+ 
+  18  I/O TXD 
+  19  I/O RXD 
+  14-17, 20 Ground   21 *Mic In -
+  22  Left In -
+  23  Right In -
+  24  Left Out -
+  25  Right Out -
+  *SPL3(TS) only SERIAL NUMBER 
+CAUTION 
+DISCONNECT POWER CABLE 
+BEFORE OPENING.RISK OF ELECTRIC SHOCK.
+ 
+ 
+Mike Input (only use the original DATEQ-microphone) (XLR 3 -pins female) 
+ 
+Pin Function Type 
+1 Ground A-GND 
+2 Audio + In 
+3 Audio - In 
+ 
+Audio in Left / Right (balanced XLR 3-pins female) 
+ 
+Pin Function Type 
+1 Ground A-GND 
+2 Audio + In 
+3 Audio - In 
+ 
+Audio out Left / Right (balanced XLR 3-pins male) 
+ 
+Pin Function Type 
+1 Ground A-GND 
+2 Audio + Out 
+3 Audio - Out  
+ 
+EN  SPL2(TS) and SPL3(TS) user manual Installation 7 
+ 
+ Signalling Connector (25-SUBD female) 
+ 
+Pin Function Type 
+1 external attenuation input (variable resistor 10 k Ω linear) In 
+2 reduction Out 
+3 overload Out 
+4 warning (SPL3 and SPL3TS only) Out 
+5 live mode OK (SPL3 and SPL3TS only) Out 
+6 Sanction active In 
+9 mike in + (SPL3 and SPL3TS only) In 
+21 mike in - (SPL3 and SPL3TS only) In 
+10 audio in left + In 
+22 audio in left - In 
+11 audio in right + In 
+23 audio in right - In 
+12 audio out left + Out 
+24 audio out left - Out 
+13 audio out right + Out 
+25 audio out right - Out 
+18 TXD  
+19 RXD  
+6-8 gnd  
+14-17, 20  gnd  
+ 
+Connectors 
+MIC IN Jack connector for the measuring microphone, suppli ed with the SPL3 and 
+SPL3 TS . The limiter does not function without a connected m icrophone, 
+except when the microphone is bypassed. The microphone cable can be 
+extended, maximum is 100 meters (300 feet), but be awa re of the polarity of 
+the symmetrical cable. Mount the microphone to the wall or ceiling. Try to 
+choose the position of the microphone in such a way, t hat the microphone 
+picks up a good quality audio-signal. Try to preven t resonance for certain 
+frequencies, or feeding the microphone with a filte red sound. Experience 
+learns that it is advisable to try to position the mi crophone not too close to the 
+crowd, so the balance between "human noise" and "electroni c noise" tends 
+to tip the scale in favour of "electronic noise". Some times authorities dictate 
+the location where the measuring microphone should be mounted. 
+ 
+AUDIO IN L/R  Balanced audio inputs left and right. 
+ 
+AUDIO OUT L/R  Balanced audio outputs left and right. 
+ 
+EXTERNAL 
+ATTENUATION 
+INPUT External volume control is possible by connecting a 10k Ω variable resistor. 
+This way it is possible to control the volume from ano ther place than where all 
+the equipment is situated, for instance behind the bar. 
+ 
+ 
+REDUCTION  Connection for LED's or solid-state-relays, for ex ternal signalling of the 
+REDUCTION situation (20 V DC / 10 mA).  
+8 Installation  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+  
+OVERLOAD  Connection for LED's or solid-state-relays, for ex ternal signalling of the 
+OVERLOAD situation (20 V / 10 mA). 
+ 
+WARNING  Connection for LED's or solid-state-relays, for ex ternal signalling of the 
+WARNING situation (20 V / 10 mA). 
+ 
+LIVE MODE OK  Output for driving the switched power for the "live"-amplifiers (norm ally this 
+output is “on” (+20 V / 10 mA DC), in the case of sanction, curren t is 
+switched off. 
+ 
+SANCTION ACTIVE  In SPL2 mode it is possible to apply an additional sanction when the 
+threshold is exceeded by more than 14dB. If this function is required pins 6 
+and 7 must be shorted. 
+  
+MAINS  Mains connection cable. The SPL limiters operate at 220 .. 240 V AC. The 
+limiter has a built-in self recovering fuse which does not need to be 
+replaced. 
+ 
+ 
+  
+ 
+EN  SPL2(TS) and SPL3(TS) user manual Operation 9 
+ 
+ Operation 
+ 
+ 
+        14   13    1                10, 9, 8      1 2, 11                  4  5   6                 3     2             7 
+ 
+ 
+TIME display. In normal mode 
+the LED-display shows the 
+time-of-day, in military format 
+(24h-format). When switching 
+on the limiter, the date and 
+time will scroll through the 
+display. This is the easiest way to check if the time and date are set correctly. The 3 LED's on the left 
+side of the display indicate which TimeSlot is active . Be sure the installation engineer or authority 
+who programs the limiter leaves a programmed settings  list, so the settings can always be checked 
+afterwards. Other messages than time-of-day can app ear on the display: 
+ 
+ 
+ This is the normal mode of the display. The display indicates the time-of-day. 
+ 
+ The timer switched the limiter in bypass-mode. The nu mber indicates the active 
+bypass-period: in this case bypass-period 2. This m essage alternates with the time. 
+ 
+ 
+ 
+ 
+ The timeslot-data in the memory of the timer is cor rupted. The limiter has to be 
+programmed again to solve the problem. As long as t he problem persists, the limiter 
+will remain in error-mode: the maximum output of the limiter will be reduced 
+considerable. 
+ 
+  
+Something went wrong when programming the timer. The  timer needs to be 
+reprogrammed, otherwise the limiter will remain in e rror-mode. 
+ 
+ 
+ 
+  
+The internal check of the limiter failed. Have the limiter repaired by authorised service 
+personnel.  
+  
+10  Operation  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+  
+ USB-connector. The installation engineer or authority that calibrate s the limiter is able to 
+program the limiter, with the aid of a special comp uter program. Each day of the week is divided 
+into 3 TimeSlots. The attenuation of each timeslot and the timeslot boundaries can be programmed 
+with this program. Also special bypass-periods can be set: periods during which the limiter-functions 
+are not active, for example during special events. 2 0 Different bypass periods can be programmed. 
+The computer program is able to make a hardcopy of t he data programmed in your limiter. It is useful 
+to keep a hardcopy with the limiter, so the program med data can always be checked. If your 
+installation engineer or the calibrating authority do esn't have this program at his disposal, please 
+contact your DATEQ-representative. With some restri ctions, software is available freely. 
+ 
+In the carton you will find a USB stick with the new interface software.  Connect the limiter to the 
+computer,  start the software and the following screen  will be loaded. 
+ 
+ 
+ 
+Click on “connect” 
+ 
+The clock in the timer can be synchronized with the clock of your computer.  If a DSR  (license file)  
+is present on your system you can make adjustments to the time slots  of your limiter. 
+ 
+ 
+ 
+ 
+   
+EN  SPL2(TS) and SPL3(TS) user manual Operation 11  
+ 
+ 
+ 
+ 
+The next screen allows the programming of  “bypass periods” 
+ 
+ 
+ 
+ 
+ 
+ Bypass-switch. The mentioned bypass periods can also be set manually  with the aid of the 
+bypass switch behind the left cover. Leave the right  cover under seal when setting the limiter in 
+bypass-mode. This way the limiter doesn't have to be  recalibrated after each special event. 
+ 
+ Mic-switch. Mic-switch pressed: limiter with the aid of the meas uring microphone. Mic-switch 
+released: the measuring microphone is unused. This m eans that the live-mode can not be used. 
+N.B.: after switching mode, the limiter needs to be  recalibrated! 
+ 
+ Output Level adjustment. With this trimmer the maximum allowed sound pressure lev el can be 
+set. Apply signal to the input of the limiter (pref erably white noise), so that the threshold will be 
+crossed (DETECT and REDUCTION-LED are on). Adjust t he OUTPUT LEVEL so that sound level 
+will be the maximum allowed level. Note that the thres hold should be set prior to the output level. 
+  
+  
+  
+12  Operation  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+  
+ Threshold adjustment.  The threshold-level is factory-set to 0dBm. As soon  as the audio input  
+level exceeds 0dBm, the limiter will reduce output lev el. In the case a mixing console is connected 
+to the limiter, it is desired that the level meters o n the console will indicate "0 dB" at the point the 
+threshold is crossed. If the output level of the mix ing console is different from 0dBm (775mV), the 
+threshold level can be re-adjusted. Adjust the thresho ld to the level that the detect LED is blinking on 
+the beat of the sound. 
+ 
+ Sound Level adjustment. With this trimmer the maximum allowed sound pressure l evel for the 
+SPL3 and SPL3 TS  can be set. Apply signal to the input (preferably wh ite noise), so that the 
+threshold will be crossed (DETECT and REDUCTION-LED are on). Adjust the SOUND LEVEL so 
+that sound level will be the maximum allowed level. Th e adjusted sound level is automatically also 
+the valid maximum sound level in live-mode. This means that the limiter can also be adjusted in 
+another way: apply signal (preferably white noise) to th e microphone by means of an external audio 
+amplifier and speakers. Be sure that the maximum soun d level is reached. Now adjust the SOUND 
+LEVEL trimmer so that the LIVE-WARNING-LED just sta rts blinking. Decreasing the noise level only 
+1 dB should quiet the blinking LIVE-WARNING-LED even tually.   
+ 
+ Threshold adjustment.  The threshold-level is factory-set to 0dBm. As soon  as the audio input  
+level exceeds 0dBm, the limiter will reduce output lev el. In the case a mixing console is connected 
+to the limiter, it is desired that the level meters o n the console will indicate "0 dB" at the point the 
+threshold is crossed. If the output level of the mix ing console is different from 0dBm (775mV), the 
+threshold level can be re-adjusted. 
+ 
+It takes some time before the limiter settles itsel f after adjusting the SOUND-LEVEL or the 
+THRESHOLD-trimmer. Take this into account, when calib rating the limiter. 
+ 
+ Bypass indication. This LED blinks if the limiter is switched in bypass-mo de. This can be the 
+result of a pre-programmed bypass period in the SPL 2TS/3TS, or a pressed bypass-switch 
+(behind the left front cover) in all limiters. 
+ 
+ Detect indication.  As soon as the input level exceeds the threshold level, the DETECT-LED 
+lights up. 
+ 
+ Reduction indication. When the limiter needs to reduce its output level, th e REDUCTION-LED 
+lights up. 
+ 
+ Overload indication. As soon as the threshold is crossed more than 14dB, th e SPL-limiter can 
+not guarantee the audio quality of its output. If t he threshold is crossed more than 14dB, the 
+OVERLOAD-LED starts blinking.  
+ 
+ WARNING-indication . In music mode, the DETECT/REDUCTION/OVERLOAD-LED' s are 
+active, while in live mode, the WARNING/SANCTION-LED 's are active. When the measuring 
+microphone detects a sound pressure level higher than the allowed maximum, the WARNING-LED 
+will blink. If this situation persists, the blinkin g will become more intense (increasing duty-cycle).  See 
+figure below. An external lamp can be connected with  the same indication (via a solid-state-relay). 
+ 
+ SANCTION-indication (live-mode) . If the sound level remains exceeded, the blinking 
+WARNING-LED will light continuously. A few seconds after this, the SANCTION-LED will light, 
+and the current of the “Live mode OK”-pin will be swi tched off. This should be used to switch of the 
+mains from the live-bands amplifiers. After 30 secon ds the limiter will reset, and power will be 
+reapplied. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+EN  SPL2(TS) and SPL3(TS) user manual Operation 13  
+ 
+ WARNING- and LIVE MODE OK- outputs 
+ 
+ POWER ON-indication . This LED is on when the limiter is switched on.  
+ 
+POWER-switch. This is the mains switch of the limiter. When switc hed off, no audio will be fed 
+throuh the limiter, and all outputs will be shut off. When switched on, the limiter needs some  
+settling-time (blinking DETECT-LED (8)). After this , the limiter is ready for use.  
+ 
+14  Operation  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+ 
+ 
+Error messages 
+There are a few error situations in which the limiter  will switch off its output, while one of the LED's at 
+the front will blink to indicate that there is somet hing wrong. 
+ 
+ 
+ 
+DETECT-LED (8) blinking: limiter is initialising aft er switching the power on. This 
+situation will not last langer than a 2 seconds. 
+ 
+ 
+ 
+ 
+ 
+DETECT- & WARNING-LED (8) (11) blinking: limiter is initi alising after switching 
+the power on. In this case, the measuring microphon e is switched on. 
+ 
+ 
+ 
+ 
+ 
+WARNING- & SANCTION-LED (11)(12) blinking: the supp lied microphone is not 
+connected correctly. Check the connection. 
+ 
+ 
+ 
+ 
+ 
+BYPASS-LED (7) blinking: the limiter is in BYPASS-mo de, and will simply pass 
+all audio on the input directly to the output. 
+ 
+ 
+ 
+  
+ 
+EN  SPL2(TS) and SPL3(TS) user manual Operation 15  
+ 
+ Frequently asked questions 
+When installing a limiter based on a measuring micr ophone, a few problems can rise, which not 
+everyone will realise in advance. To give a better in sight in the operation of the limiter, the most 
+frequently asked questions and their answers are me ntioned below: 
+ 
+If the crowd makes too much noise (singing along wi th the music), the SPL3/3TS reduces the 
+output level. How do I prevent this problem?  
+ 
+Especially in relatively small rooms, where the maximu m allowed sound level is relatively low, the 
+crowd is often capable of drowning the music. Of co urse this will be detected by the measuring 
+microphone, and the limiter can only do one thing: re ducing the music level, which is totally 
+comprehensable, but rather undesired. This problem can be prevented by mounting the 
+microphone at a location where the balance between crowd and music tends to tip the scale 
+in favour of music (closer to the speakers).  Another possibility is not using the measuring 
+microphone. Realise that after relocating or switchi ng off the measuring microphone, the limiter 
+needs to be recalibrated. 
+ 
+I only use the SPL3/3TS for live music. What to do with the threshold trimmer?  
+ 
+The threshold trimmer has no function in live-mode.  The setting of the threshold is only important 
+in the case the microphone is not used. In that cas e the limiter is monitoring the input signal in orde r 
+to calculate the nessecary attenuation. When using the microphone, only the measured microphone-
+sound-level is important. 
+ 
+Even with the SOUND LEVEL trimmer turned fully cloc kwise, the maximum sound level is too 
+low. What to do now?  
+ 
+It is likely that the maximum sound level is far high er than what will be allowed by the authorities. The 
+SPL3/3TS is designed to handle sound levels from as low as 80 dBA to nearly 120 dBA. If for one 
+reason or another, more sound level is desired, increase the distance between microphone and 
+speakers.  This way the limiter will detect a lower sound level, so the limiter will apply less reduction. 
+ 
+With a live band, some instruments and the vocals a re going via the main PA-system, through 
+the SPL3/3TS. The other instruments are protected w ith the switched sanction output of the 
+limiter. When the maximum level is exceeded, all sou rces via the main PA-system will be 
+attenuated, while all "self support" instruments re main at the original level, so the whole 
+balance of the mix is gone.  
+ 
+This is right. The SPL3 and SPL3 TS  are not suitable to be used in music mode and live mo de at the 
+same time. When the maximum level is exceeded, there is  only one sensible thing to do for the 
+limiter: reducing the output level, which will distu rb the balance of the mix if some instruments are no t 
+controlled by the VCA's of the limiter. Use the limiter only in live mode in such cases.  
+  
+16  Introduction  SPL2(TS) and SPL3(TS) user manual  EN  
+ 
+ Technical specifications 
+INPUTS 
+MIC (measuring microphone).......................... XLR-3 fem ale, electronically balanced, use only the 
+supplied microphone 
+LINE (left & right) .................................. .......... XLR-3 female, electronically balanced 
+ Signal level .......................................... .. -14 .. +6 dBu 
+ Input impedance .................................... 10 kOhm 
+ 
+ 
+OUTPUTS 
+LINE (left & right) .................................. .......... XLR-3 male, electronically balanced 
+ Output impedance ................................. 600 Ohm 
+ 
+ 
+GENERAL 
+AUDIO 
+ Frequency response.............................. 20 Hz .. 20 k Hz 
+ Signal/noise ratio ................................... > 80  dB 
+ THD+N ............................................. ..... < 0.05 % (CCIR-RMS) 
+LIMITING 
+ Limiter threshold (adjustable)................. -14 .. +6 dBu (wit hout measuring microphone) 
+ Limiter threshold (adjustable)................. 80 .. 120 dBA (with measuring microphone) 
+ Output reduction (adjustable)................. 0 .. -40 dB (without meas uring microphone) 
+EXTERNAL SIGNALLING 
+ External attenuation............................... 0 .. -20 dB  (10 kOhm variable resistor) 
+ Signalling- and switch outputs................ 20 V / 10 mA DC 
+POWER SUPPLY 
+ Supply voltage ....................................... 220.. .240 VAC / 50 Hz 
+ Power consumption ............................... 10 W (SPL2 / SPL3), 20 W (SPL2TS / SPL3TS) 
+SIZE AND WEIGHT 
+ Front............................................... ....... 483 x 45 mm (B x H) = 19”, 1HE 
+ Depth............................................... ...... 175 mm 
+ Weight (net.)....................................... ... 3.2 kg (SPL2 / SPL3), 3.5 kg (SPL2TS / SPL3TS) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Product support 
+For questions about the SPL limiter series, accessories and other products, please contact: 
+ 
+Dateq Audio Technologies B.V. 
+De Paal 37 
+1351 JG  ALMERE 
+The Netherlands 
+ 
+Telephone: +31 36 54 72 222 
+Fax: +31 36 53 17 776 
+E-mail:  info@dateq.nl 
+Internet:  www.dateq.nl  
+ 
+Sicherheitsvorschriften 
+1 Alle Sicherheitsvorschriften, Warnungen und die Ge brauchsanweisungen müssen erst gelesen 
+werden. 
+ 
+2 Beachten Sie die Warnschilder auf den Geräten. 
+ 
+3 Die Gebrauchsanweisung muß befolgt werden. 
+ 
+4 Bewahren Sie die Gebrauchsanweisung für zukünftige Fragen sorgfältig auf . 
+ 
+5 Das Gerät darf keinesfalls in der Nähe von Wasser verwendet werden; treffen S ie 
+Vorkehrungen gegen eindringendes Wasser und Feuchtigkeit. (keine Keller oder Gar agen). 
+ 
+6 Das Gerät darf nur auf die vom Hersteller vorgeschriebene Art und Weise ins talliert und 
+aufgestellt werden. 
+ 
+7 Das Gerät muß so aufgestellt und installiert werden, daß eine gute Ventilati on durch nichts 
+beeinträchtigt werden kann. 
+ 
+8 Das Gerät darf nie in unmittelbarer Nähe von Wärmequellen wie Heizungsrohre,  Heizkörper 
+oder andere Wärme erzeugenden Apparate (wie u.a. Verstärkern) aufgestellt werden.  
+ 
+9  Schließen Sie das Gerät an die Netzspannnung mit den vom Hersteller empfohlenen Kabel 
+an. 
+ 
+10  Das Gerät darf nur an einen gesetzlich genehmigten, geerdeten Netzanschluß 
+angeschlossen  werden. 
+ 
+11  Das Netzkabel muß so verlegt sein, daß keine Gegenstände darauf gestellt wer den können.  
+Außerdem muß darauf geachtet werden, daß Netzkabel nicht im Fußbereich oder 
+animierend für Kinder verlegt sind.  
+ 
+12  Treffen Sie Vorkehrungen, daß keine unzulässigen Objekte und Flüssigkeiten in das Gerät      
+eindringen können. 
+ 
+13  Das Gerät muß auf die vom Hersteller vorgeschriebene Art und Weise ger einigt werden. 
+ 
+14  Das Netzkabel muß bei längerer Außerbetriebnahme des Gerätes aus der Steckdose  
+gezogen werden. 
+ 
+15  In allen Fällen, in denen nach einem Zwischenfall die Sicherheit des Gerätes nicht mehr 
+garantiert ist, wie: 
+• bei Beschädigung des Netzkabels  
+• nach Eindringen unzulässiger Objekte oder Flüssigkeiten (u.a. Wasser) 
+• nach Beschädigung des Gehäuses 
+• wenn eine Veränderung in der Funktion des Gerätes konstatiert wurde, 
+muß dann von qualifizierten, technischen Fachkräften überprüft werden. 
+ 
+16  Der Benutzer darf keine anderen Handlungen am Gerät ausführen, als ausschließlich die in 
+der Gebrauchsanweisung genannten. 
+2 Anschließen  SPL2(TS) und SPL3(TS) Gebrauchsanweisung  D 
+ 
+ Einführung 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Die immer strengeren Umweltgesetze stellen die Pflic ht daß viele Musikanlagen in z.B. Gastronomie 
+betrieben mit LautstärkeLimiter, oder Limiter, vers ehen werden. Ein LautstärkeLimiter oder Limiter 
+sorgt dafür, dass ein bestimmter Schalldruckpegel ni cht überschritten wird. Die SPL2, SPL2 TS , 
+SPL3 und SPL3 TS  sind solche Limiter. Daher eignen sich diese Geräte b esonders gut als Limiter in 
+Gastronomie betrieben. Die Maximalpegel sind mittels  Einstellregler an der Frontseite der Limiter 
+einzustellen. Die Regler können nach gesetzmäßiger E inpegelung abgedeckt werden mit einer 
+Abdeckplatte und anschließend verplombt werden. 
+ 
+Die vier unterschiedlichen DATEQ SPL-Limiter stellen ein e Produktfamilie dar. Der SPL2 und 
+SPL2 TS  funktioniert ohne MeßMikrofon, dafür wird bei SPL3  und SPL3 TS  ein Meßmikrofon 
+mitgeliefert. Die SPL2 TS  und SPL3 TS  Geräte sind außerdem mit einer Zeituhr versehen, w omit 
+diese Geräte über einstellbare Maximalschalldruck Para meter verfügen, die für jeden Tag und Zeit 
+programmiert werden können. (Sehen Sie bitte Tabelle 1 ). Weil diese Limiter in Prinzip nahezu 
+Gleichermaßen funktionieren, gilt dieser Betriebsan leitung für alle Limiter. Anweisungen die nur für 
+spezifische Geräte bestimmt sind, werden in der lin ken Randlinie signalisiert mit einem Logo daß das 
+entsprechende Gerätemodell andeutet. 
+ 
+ SPL 2 SPL 2 TS SPL 3 SPL 3 TS 
+Meßmikrophon   /c33 /c33 
+Zeituhr  /c33  /c33 
+ 
+Tabelle 1 : die SPL-Familie  
+ 
+ 
+Meßmikrophon (Vor- und Nachteile) 
+In einigen Fällen ist ein Meßmikrofon vorgeschrieben . Die Anwendung hat Vor- und Nachteile. 
+ 
+• Die Einstellungen am Limiter erfolgen meistens am Tag, wenn die Räumlichkeiten leer sind. 
+Wenn abends der Saal mit Publikum gefüllt ist, ents teht eine größere akustische Dämpfung. Ohne 
+Meßmikrofon wird der Maximalschalldruck bedeutend ni edriger sein als der Pegel. Wird jedoch  
+ 
+ 
+ 
+ 
+D SPL2(TS) und SPL3(TS) Gebrauchsanweisung Anschließen 3 
+ 
+ 
+ein Meßmikrofon verwendet, unterscheidet der Limiter  damit den Schalldruck und gleicht diesen 
+aus. 
+ 
+• Der Einsatz von Meßmikrofonen kann aber auch einen  Nachteil, besonders in kleinen Räumen 
+(Maximalpegel weniger als 100 dBA), haben. Das Publikum  übertönt die Anlage z.B. durch 
+Mitsingen. In diesem Fall wird das Meßmikrofon diese extra Lautstärke detektieren. Der Limiter 
+kann in diesem Fall nur eine Maßnahme durchführen: Da s Zurückregeln der Musik. Genau in 
+diesem Moment wird das Mikrofon ein sehr unerwünsch ter Effekt sein. 
+ 
+Das Meßmikrofon der SPL3 und SPL3 TS  kann mittels Schalter abgeschaltet werden, so daß evtl. 
+experimentiert werden kann mit und ohne Meßmikrofon.  In der hier besprochenen "live"-Betriebsart 
+kann der Limiter jedoch nicht ohne Meßmikrofon funk tionieren. 
+ 
+ 
+Zeituhr 
+Eine Zeituhr, eingebaut im Limiter, kann Vorteile haben, indem der maximal 
+zugelassene Schalldruckpegel z.B. am Anfang des Abends höher ist als am 
+Ende des Abends oder am Morgen. Diese Zeituhr schaltet den Limiter 
+automatisch um, zu dem zu dieser Zeit zugelassenen Maximalpegel. Es wird 
+automatisch umgeschaltet zwischen normaler und Sommerzeit. Die Uhr ist 
+eingeteilt in 3 "timeslots" oder Zeitbereiche. Für jeden “timeslot” kann ein 
+Maximalpegel eingeriegelt werden. Auch die Übergangszeit  zwischen den ”ti meslots” können 
+selbstverständlich programmiert werden. 
+ 
+ 
+Gebrauch 
+Die SPL-limiter sind nahezu "unhörbar" anwesend. Selbstv erständlich wird davon abgeraten, die 
+Limit-Schwelle allzuweit oder andauernd zu überschreiten . 
+Sobald die Schwelle um mehr als 14 dB überschritten w ird blinkt die OVERLOAD-Led.  Im 
+Normalbetrieb ist diese Schaltung jedoch nicht wirk sam. 
+ 
+ 
+Music-Mode / Live Mode 
+Die SPL3/3 TS -Limiter unterscheiden sich in zwei Betriebsarten: E ine Betriebsart speziell für Musik 
+mittels einer Musikanlage (music-mode), und eine sp ezielle Betriebsart für live-Bands (live Mode). 
+ 
+• Im Moment des anliegenden Signales an den Eingängen der Limiter, gehen die Limiter in “music-
+mode” oder DETECT-, REDUCTION- oder OVERLOAD, die m it LED`s angezeigt werden. Die 
+anliegenden Signale werden erst zurückgereglt, wenn  die eingestellte Schwelle überschritten ist. 
+Im Moment des Zurückregelns des Signales, auch TREHS HOLD genannt, wird der Signalpegel 
+(vorher eingestellt mit Meßmikrofon) eingestellt und  gehalten. 
+ 
+• Wenn kein Signal anliegt am Audio-Eingang des Limi ters, und das Meßmikrofon doch eine 
+Überschreitung der Schwelle detektiert, schaltet de r Limiter in "live-mode" oder Live Musik 
+Betriebsart um. Die WARNING und SANCTION-LED`s zeige n die Betriebsart der Limiter an. Im 
+"live-mode" sind die SPL3/3 TS  eine echte Überwachung, weil die Limiter in dieser B etriebsart 
+nicht in die Lage sind die Musik aktiv zurückzurege ln. Zwei Schaltausgänge müssen dafür sorgen, 
+daß der gemessene Schalldruck die maximal zugelasse nen Grenzwerte nicht überschreitet. Der 
+erste Ausgang (WARNING) kann mittels eine LED oder Lampe (mit Solidestate-Relais) die 
+Musiker warnen wenn der Maximalpegel überschritten wo rden ist. Am zweiten Ausgang kann ein 
+Solidestate-Relais angeschlossen werden, das z.B. di e Verstärker der Musiker abschaltet. Wenn 
+also die Musiker die Warnungen des ersten Ausgangs (WARNING) bleibend ignorieren, kann 
+mittels dieses zweiten Ausgangs die Sanktion wirksam  werden, indem die Verstärker abschalten. 
+  
+ 
+4 Anschließen  SPL2(TS) und SPL3(TS) Gebrauchsanweisung  D 
+ 
+  
+Tip 
+Versuchen Sie nie den SPL3/3 TS  zugleich in music-mode und live-mode arbeiten zu l assen, z.B. 
+zum einen ein Teil der Instrumente einer Live-Band du rch den Limiter zu führen, und zum anderen 
+gleichzeitig Instrumente ungeregelt spielen zu lasse n, wie z.B. die Drums. 
+ 
+Der Limiter wird dann fälschlich versuchen die Instr umente, die vom Limiter überwacht werden 
+zurückzuregeln. Aber die Instrumente, die nicht ger egelt werden, bewirken daß die 
+Ansprechschwelle des Limiters immer angeregt bleibt h ochzuregeln. Das ist ein unbeherrschbares 
+Chaos für Musiker und Techniker 
+Der Limiter zeigt keine Warnungen im “live-mode” an , selbst wenn das Signal überhöht anliegt. Der 
+Limiter regelt exakt den maximal zugelassenen Pegel aus. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+D SPL2(TS) und SPL3(TS) Gebrauchsanweisung Anschließen 5 
+ 
+  
+Anschließen 
+Um zu verhindern, daß die Anschlüsse des 
+Limiters nach Einstellung und Verplombung 
+modifiziert werden können, sind die 
+Anschlüsse nicht mehr erreichbar.  Erst nach 
+Entfernung der rechten Abdeckplatte an der 
+Vorderseite des Limiters, sind diese 
+Anschlüsse zu erreichen. 
+ 
+ 
+ 
+ 
+Drehe Schraube (A) mit einem Torx Schraubenzieher nach links(siehe Illustration). Entferne jetzt 
+die 4 Torx-Schrauben (B) des oberen Deckels. Jetzt kann der Deckel abgenommen werden. Hebe 
+die Vorderseite ein wenig auf und schiebe den Deckel nach hinten. Die Anschlüsse wer den jetzt 
+sichtbar. 
+ 
+CHECK USER MANUAL OR   WWW.DATEQ.NL   FOR OPERATION AND MAINTENANCE DETAILS 
+SERIAL INTERFACE AUDIO OUTPUTS AUDIO INPUTS MIC INPUT 1 13 
+14 25 
+SPL3(TS) only L     -     R L     -     R IN 
+OUT 
+100-240VAC 
+POWER 2011 RoHS
+COMPLI ANT
+2 8 00 / /5 9 ECMADE IN THE NETHERLANDS LIMITER 
+Stereo Program Audio Limiter AUDIO XLR 
+    1  Ground 
+    2  Audio + 
+    3  Audio -SERIAL INTERFACE 
+    1  Ext Attenuation In 
+    2  Reduction 
+    3  Overload 
+    4 *Warning 
+    5 *Live Mode OK 
+  6-8 Ground     9 *Mic In + 
+  10  Left In + 
+  11  Right In + 
+  12  Left Out + 
+  13  Right Out+ 
+  18  I/O TXD 
+  19  I/O RXD 
+  14-17, 20 Ground   21 *Mic In -
+  22  Left In -
+  23  Right In -
+  24  Left Out -
+  25  Right Out -
+  *SPL3(TS) only SERIAL NUMBER 
+CAUTION 
+DISCONNECT POWER CABLE 
+BEFORE OPENING.RISK OF ELECTRIC SHOCK.
+ 
+ 
+Mic Input (nur das originale DATEQ-Mikrophon benutzen) (XLR  3-pins female) 
+ 
+Pin Funktion Typ 
+1 Gnd A-GND 
+2 Audio + Eingang 
+3 Audio - Eingang 
+ 
+Audio In Left / Right (XLR 3-pins female) 
+ 
+Pin Funktion Typ 
+1 Gnd A-GND 
+2 Audio + Eingang 
+3 Audio - Eingang 
+ 
+Audio Out Left / Right (XLR 3-pins male) 
+ 
+Pin Funktion Typ 
+1 Gnd A-GND 
+2 Audio + Ausgang 
+3 Audio - Ausgang  
+ 
+6 Anschließen  SPL2(TS) und SPL3(TS) Gebrauchsanweisung  D 
+ 
+ Signal Stecker (25-SUB D female) 
+ 
+Pin Funktion Typ 
+1 externe Lautstärkereglung (Potentiometer  10 k Ω linear) Eingang 
+2 Reduction (Reduzieren) Ausgang 
+3 Overload (Übersteuerung) Ausgang 
+4 Warning (nur SPL 3 und SPL 3TS) (WARNUNG) Ausgang 
+5 live Mode OK (nur SPL 3 und SPL 3TS) Ausgang 
+6 Sanktion aktiv Eingang 
+9 Mikro Eingang + (nur SPL 3 und SPL 3TS) Eingang 
+21 Mikro Eingang - (nur SPL 3 und SPL 3TS) Eingang 
+10 Audio Eingang links + Eingang 
+22 Audio Eingang links - Eingang 
+11 Audio Eingang rechts + Eingang 
+23 Audio Eingang rechts - Eingang 
+12 Audio Ausgang links + Ausgang 
+24 Audio Ausgang links - Ausgang 
+13 Audio Ausgang rechts + Ausgang 
+25 Audio Ausgang rechts - Ausgang 
+18 TXD  
+19 RXD  
+6-8 gnd  
+14-17, 20  gnd  
+ 
+ 
+Anschluße 
+MIC IN An der Rückseite der SPL3 und SPL3 TS  ist je eine symmetrische XLR 
+Buchse für das Meßmikrofon eingebaut. Ohne dieses M ikrofon funktioniert 
+der Limiter nicht, mit Ausnahme, daß die Mikrofonfu nktion abgeschaltet 
+worden ist. Das mitgelieferte Mikrofon Kabel kann o hne weiteres verlängert 
+werden, bis ca. 100 m. Achten Sie bitte auf die ric htige Polarität. Befestigen 
+Sie das Mikrofon an der Wand, Decke, oder ähnlichen  Platz, so daß das 
+Mikrofon ein gutes Schallbild erreicht. Dem Mikrofo n darf keine 
+Fehlinformation zugeführt werden, wie z.B. durch De placierung der 
+Resonanzquellen oder Dämpfung. Von einer Montage in e iner Nische o.ä. ist  
+ abzuraten.  Am besten einen Platz finden, wo das Pu blikumsgeräusch 
+schwächer ist als das Musiksignal (ist also optimal i mmer vor Ort 
+abzuklären).  Zuweilen fordern die Zulassungsinstanze n, wo das Mikrofon 
+befestigt werden muß (meist Plätze, wo der Schalldr uck am niedrigsten ist). 
+ 
+AUDIO IN L/R  Symmetrische Eingänge für links und rechts. 
+ 
+AUDIO OUT L/R  Symmetrische Ausgänge für links und rechts.  
+D SPL2(TS) und SPL3(TS) Gebrauchsanweisung Anschließen 7 
+ 
+  
+EXTERNAL 
+ATTENUATION 
+INPUT Externe Lautstärkeregelung ist möglich mittels diesem  "Remote- Anschlusses” 
+für ein externes Potentiometer. Mit diesem Regler kan n der Ausgangspegel 
+nochmals mit 20 dB gedämpft werden. (10 k Ω-Potentiometer). 
+ 
+ 
+REDUCTION  Anschluß für LED's oder Solidestate-Relais (Halbleit errelais) für Fernanzeige 
+von REDUCTION (20 V / 10 mA) 
+ 
+OVERLOAD  Anschluß für LED's oder Solidestate-Relais (Halbleit errelais) für Fernanzeige 
+von OVERLOAD (20 V / 10 mA) 
+ 
+WARNING  Anschluß für LED's oder Solidestate-Relais (Halbleit errelais) für Fernanzeige 
+von WARNING (“live” Betriebsart) (20 V / 10 mA) 
+ 
+LIVE MODE OK  Anschluß für Solidestate-Relais (Halbleiterrelais), für Abschaltung externe 
+"live"-Verstärker. Im Normalbetrieb ist der Anschluß stromversorgt, bei eine 
+Sanktion in Funktion strom abgeschaltet. 
+ 
+SANKTION AKTIV In der SPL2 Betriebsart ist es möglich eine zusätzliche Bedingung für die 
+"sanction"-Funktion zuzufügen. Diese wird dann bei Überschreitung des 
+Schwellwertes (Threshold) um mehr als 14dB aktiviert. Um diese Funkti on 
+zu nutzen müssen Kontakt 6 und 7 kurzgeschlossen werden. 
+ 
+MAINS  Netzkabel (220 .. 240 V AC).  
+ 
+ 
+  
+ 
+8 Bedienung  SPL2(TS) und SPL3(TS) Gebrauchsanweisung  D 
+ 
+ Bedienung 
+ 
+ 
+        14   13    1                10, 9, 8      1 2, 11                  4  5   6                 3     2             7 
+ 
+ 
+ TIME Display. Das Display 
+gibt bei Normalzustand die 
+jetzige Zeit im 24-Stunden-
+format an. Im Moment indem 
+das Gerät eingeschaltet wird, 
+läuft kurzfristig die Zeit auf der 
+Anzeige vorbei. Auf dieser Weise ist einfach kontrol lierbar ob die Uhrzeit präzise eingegeben wurde. 
+ 
+Die drei LED’s an der linken Frontseite, zeigen an in welchem Zeitbereich der Limiter momentan 
+arbeitet. Achten Sie darauf, daß Ihr Installationst echniker eine Programmierliste erstellt, womit Sie 
+hinterher kontrollieren können. Neben der Zeitwieder gabe können auf der Anzeige verschiedene 
+andere Berichte, wie folgt angezeigt sein. 
+ 
+ 
+ Das Display zeigt die normale Uhrzeit an. 
+ 
+ Der Limiter ist in bypass mode geschaltet. Dieser B ericht wechselt mit da Zeitanzeige. 
+ 
+ 
+ 
+ Die Programmierung der Timer ist verschwunden. Der T imer muß erneut 
+programmiert werden um das Problem zu beheben. Solang e das Problem nicht 
+behoben ist, bleiben der Limiter in diesem Zustand u nd die Lautstärke stark reduziert. 
+ 
+ Etwas ist falsch programmiert worden. Der Limiter mu ß erneut programmiert worden 
+um das Problem zu beheben. Solange das Problem nicht be hoben ist bleibt der 
+Limiter in diesem Zustand und der Wiedergabepegel st ark reduziert. 
+ 
+  
+Es ist ein interner Fehler festgestellt worden, wodu rch die Zeituhr und der Speicher 
+nicht mehr funktionieren kann. Das Gerät muß techni sch überprüft werden.  
+ 
+ 
+D SPL2(TS) und SPL3(TS) Gebrauchsanweisung Bedienung 9 
+ 
+  
+ USB-Buchse. Mittels dieser USB-Eingang ist der Installations-Te chnikerder oder die  
+Prüfungsinstanz in der Lage den Limiter zu programm ieren. Diese Instanzen verfügen über ein 
+Computerprogramm womit die verschiedenen Daten einger egelt und festgelegt werden können. Pro 
+Wochentag sind 3 "timeslots" (Zeitbereiche) einzuge ben, pro ”timeslot” muß ein Maximalpegel 
+programmiert werden. Es besteht auch die Möglichkeit  o.g. "bypass-perioden" einzugeben: Tage und 
+Stunden an denen der Limiter abgeschaltet sein kann  (z.B. bei spezielle Veranstaltungen). Dank 
+dieses Programmes besteht außerdem die Möglichkeit die Einstellungen der Limiter auszudrucken. 
+Damit verfügen Sie dann über eine Liste wie der Limit er programmiert worden ist.  Fordern Sie diese 
+Liste von Ihrem Techniker oder derjenigen Person di e die Installation und Programmierung 
+ausgeführt hat. Falls noch nicht über solch ein Program m verfügt wird, fordern Sie dies kostenlos bei 
+DATEQ ab. Das Programm funktioniert übrigens mit Na men, somit kann hinterher immer überprüft 
+werden welche Person den Limiter zuletzt programmier t hat. 
+ 
+ 
+ 
+ Bypass-Knopf. Sobald dieser gedrückt ist, ist der Limiter nicht m ehr aktiv. Auf diese Weise kann 
+einfach während Veranstaltungen der Limiter ausgesc haltet werden, ohne daß das Gerät erneut 
+programmiert oder eingeregelt werden muß. Weil der BYPASS-Knopf seine eigene Abdeckplatte 
+hat, brauchen Sie der verplombte Einstellregler auc h nicht zu verdrehen. 
+ 
+ Mic-Knopf. Bei eingeschaltetem (bzw. gedrücktem) Knopf arbeite t der Limiter mit Meßmikrofon, 
+sonst ohne. D.h. das automatisch die LIVE-Betriebsa rt nicht mehr funktioniert. ACHTUNG: 
+Jedesmal wenn Sie sich entschließen, daß der Limiter  in einer anderen Betriebsart funktionieren soll, 
+muß das Gerät erneut eingeregelt werden! 
+ 
+     Output Level Einstellregler. Mit diesem Einstellregler kann der Ausgangspegel ein gestellt 
+werden. Bieten Sie dazu ein Signal an auf die Eingänge der Limiter (am besten Rausch), und 
+stellen Sie die Lautstärke so ein daß der THRESHOLD über schritten worden ist. Die DETECT und 
+REDUCTION-LEDs leuchten jetzt auf. Regeln Sie jetzt  den OUTPUT LEVEL so, daß im Saal der 
+maximal zugelassene Schalldruckpegel erreicht wird. 
+ 
+ 
+     Threshold Einstellregler.  Ab Werk ist die Schwelle (THRESHOLD) auf 0 dBm eing estellt. 
+Sobald der Eingangspegel diesen Wert überschreitet,  tritt der Limiter in Funktion, und regelt 
+zurück. Wenn die Signalquelle z.B. ein Mischpult ist, w äre es praktisch, das TRESHOLD so 
+einzuregeln, das die Grenze überschritten wird sobal d die VU-Anzeige "rot" zeigt.  
+ 
+  
+ 
+ 
+  
+  
+ 
+10  Bedienung  SPL2(TS) und SPL3(TS) Gebrauchsanweisung  D 
+ 
+  
+     Sound Level Einstellregler. Mit diesem Einstellregler wird der maximal zugelass ene 
+Schalldruckpegel für die SPL3- und SPL3 TS -Limitern eingeregelt. Schließen Sie ein Signal an d ie 
+Eingänge der Limiter (am besten Rauschen), und stelle n Sie die Lautstärke so ein, daß der 
+THRESHOLD überschritten wird. Die DETECT und REDUCT ION-LEDs leuchten jetzt auf. Regeln 
+Sie jetzt den SOUND LEVEL so ein, daß im Saal der ma ximal zugelassene Schalldruckpegel anliegt. 
+Die resultierende Einpegelung gilt dann auch für di e LIVE-Betriebsart, was also bedeutet das der 
+Limiter auch noch auf eine andere Weise eingepegelt w erden kann: Ohne Limiter den maximal 
+zugelassenen Schalldruckpegel produzieren (mit Verstä rker und Lautsprecher ohne Limiter), und 
+jetzt den SOUND LEVEL so einregelen der LIVE-WARNING- LED gerade blinkt. Wenn jetzt nur 1dB 
+weniger Signalpegel produziert wird muß die "duty-cy cle" (Blinkgeschwindigkeit) der blinkende LED 
+sofort wieder abnehmen, sonst ist der Pegel noch ni cht genau eingeregelt. 
+ 
+     Threshold Einstellregler.  Ab Werk ist die Schwelle (THRESHOLD) auf 0 dBm eing estellt. 
+Sobald der Eingangspegel diesen Wert überschreitet,  tritt der Limiter in Funktion, und regelt 
+zurück. Wenn die Signalquelle z.B. ein Mischpult ist, w äre es praktisch, das TRESHOLD so 
+einzuregeln, das die Grenze überschritten wird sobal d die VU-Anzeige "rot" zeigt.  
+Dort wo der SPL3 mit Meßmikrofon eingesetzt wird, kann man den TRESHOLD A bgleich nicht 
+vornehmen!  
+ 
+Der Limiter braucht einige Zeit um die  SOUND LEVEL - Einstellung selbst zu kalibrieren.  
+Bitte beachten Sie diese Tatsache bei der Einpegelu ng ! 
+ 
+ Bypass Indikation. Diese LED blinkt sobald der Limiter in der BYPASS-Be triebsart aktiv ist. 
+Dies kann eine programmierte SPL2 TS /3 TS BYPASS-Zeit sein, aber auch ein gedrückter 
+BYPASS-Schalter (hinter der linken Abdeckplatte). 
+ 
+ Detect Indikation.  Sobald das Audio-Eingangssignal die eingestellten Gre nzwerte überschreitet 
+leuchtet diese LED. 
+ 
+ Reduction Indikation. Diese LED leuchtet in dem Moment, wo der Limiter zurü ckregeln muß, 
+um den Signalpegel auf die eingeregelte Maximalwerte  zu erhalten. 
+ 
+      Overload Indikation. Sobald der THRESHOLD mit mehr als 14dB überschritte n wird, kann 
+der SPL-Limiter nicht mehr die optimale Signalqualitä t abgeben. Sobald der Benutzer mehr als 
+14dB übersteuert (also die Grenze mit mehr als 14dB  überschreitet) wird der OVERLOAD-LED 
+blinken.  
+ 
+      WARNING-indikation ("live"-Betriebsart) . Die DETECT/REDUCTION/OVERLOAD-LED's 
+funktionieren beim SPL3 und SPL3 TS  in der “music"-Betriebsart, und die WARNING/SANCTI ON-
+LED's funktionieren in der "live"-Betriebsart. Im M oment, indem das Meßmikrofon ein höhen Pegel 
+mißt als zugelassen, leuchtet die WARNING-LED auf. Bei andauernder WARNING-Situation blinkt 
+die LED stets schneller (höhere "duty-cycle"). Siehe  Abbildung. Mittels eines Soliden Stäte-Relais ist 
+es möglich eine externe Lampe für den gleichen Zwec k anzuschließen. 
+ 
+      SANCTION-indicatie ("live"-Betriebsart) . Wenn die WARNING-LED stetig aufleuchtet, und 
+noch immer keine Änderung der Situation eingetreten i st, tritt die Sanktion in Funktion. Die 
+SANCTION-LED leuchtet auf und die Speisung an den "Li ve-mode-OK" Pin wird abgeschaltet. Somit 
+sollen die Verstärker von Live-Anlagen stromlos gemac ht werden. Nach ungefähr 30 Sekunden wird 
+die Situation sich ändern und die Sanktion ist nich t mehr aktiv.   
+ 
+ 
+ 
+ 
+ 
+  
+  
+D SPL2(TS) und SPL3(TS) Gebrauchsanweisung Bedienung 11  
+ 
+  
+WARNING- und LIVE MODE OK- Ausgänge 
+ 
+      POWER ON-Indikation . Diese LED leuchtet indem der Limiter eingeschalte t ist.  
+ 
+     POWER-Schalter. Der Netzschalter schaltet das Gerät ein- und ab. Be i ausgeschaltetem 
+Gerät wird kein Audio-Signal durch geleitet, und sind alle Speisung-Ausgänge abgeschaltet und 
+somit stromlos. Sobald der Begrenzer eingeschaltet ist, wird die Elektronik kurzfristig initialisiert 
+(sichtbar durch blinkende DETECT-Led (8)). Hiernach  ist der Limiter zum Einsatz bereit. 
+ 
+  
+ 
+12  Bedienung  SPL2(TS) und SPL3(TS) Gebrauchsanweisung  D 
+ 
+ 
+Fehlermeldungen 
+Die Limiter erkennen eine Anzahl von Situationen wo der  Ausgang abgeschaltet wird, weil eine 
+bestimmte LED an der Frontseite blinkt, als Indikat ion dafür das etwas nicht stimmt. 
+ 
+ 
+DETECT-LED (8) Blinkt: Die ersten Sekunden nachdem der Limiter eingeschaltet 
+ist stabilisiert und initialisiert sich die Elektro nik im Limiter. In den ersten Sekunden 
+blinkt die DETECT-LED 
+ 
+ 
+ 
+ 
+DETECT- & WARNING-LED (8) (11) blinken: Auch hier geht es um das  
+Initialisieren des Limiters. Jetzt ist aber das Mikrofon eingeschaltet. 
+ 
+ 
+ 
+ 
+ 
+WARNING- & SANCTION-LED (11) (12) Blinkend: Das mit gelieferte Mikrofon ist 
+nicht korrekt angeschlossen. Kontrollieren Sie die Anschlüße. 
+ 
+ 
+ 
+ 
+ 
+BYPASS-LED (7) Blinkend: Der Limiter ist in der BYPA SS-Betriebsart, und 
+sanktioniert nicht und regelt auch nicht zurück wen n der Maximalpegel 
+überschritten wurde. 
+  
+ 
+D SPL2(TS) und SPL3(TS) Gebrauchsanweisung Bedienung 13  
+ 
+ Oft gehörte Fragen  
+Bei  der Installation eines Limiters mit Hilfe eine s Meßmikrofons, tauchen immer einige Aspekte auf, 
+die nicht Jedermann gleichermaßen in Anspruch nimmt. Um hier einen besseren Überblick zu 
+bekommen, haben wir die häufigsten Fragen zusammenge stellt. 
+ 
+Das Publikum im Saal singt sehr laut mit und der SP L3/3TS regelt die Lautstärke zurück. Wie 
+kann man das ändern? 
+ 
+Besonders in kleineren Räumen, wo der maximal zugelas sene Schalldruckpegel relativ niedrig ist, ist 
+das Publikum in der Lage mitsingend die Musik zu überst immen. Diese Tatsache wird natürlich auch 
+durch das Meßmikrofon detektiert, und der Limiter r egelt die Musik zurück, was übrigens völlig 
+korrekt ist! Dieses Problem kann vorkommen wenn das Mikrofon an einer Stelle plaziert wird, wo 
+sich Musik und Publikum mischen. Plazieren Sie das Mikrofon so weit wie möglich vom 
+Publikum entfernt, und relativ dicht bei den Lautsp rechern.  Nach korrekter Plazierung des 
+Mikrofons muß der Limiter erneut eingepegelt werden.   Sie können den Limiter vielleicht auch ohne 
+Meßmikrofon verwenden. 
+ 
+Ich benutze der Limiter nur für "LIVE"-Musik. Waß s oll Ich tun mit der "TRESHOLD"-Regler?  
+ 
+Der "TRESHOLD"-Regler hat keine Funktion bei der “L IVE”-Betriebsart.   In der "live"-Betriebsart 
+ist selbstverständlich nicht die Rede von Eingangs-"TRE SHOLD". 
+ 
+Selbst mit dem Einstellpotentiometer in Rechtsansch lag ist die Lautstärke viel zu niedrig. 
+Was nun?  
+ 
+Vermutlich wird der maximale Schalldruckpegel an der  oberen Grenze der gesetzlich 
+vorgeschriebenen Maximalwerte liegen. Die SPL3/3TS s ind so konzipiert worden, daß der 
+Regelbereich "für jeden Diskoinhaber viel zu sanft" bi s "für jeden Nachbar viel zu laut". Wünschen 
+Sie mehr Schalldruck, dann gibt es zwei Lösungen: 
+1.  Plazieren Sie das Meßmikrofon weiter entfernt von den Lautsprechern.  Dadurch wird der 
+Limiter weniger Schalldruck messen und somit weniger  zurückregeln. 
+2. Mittels erhöhen der "TRESHOLD"-Regler ist es nat ürlich auch möglich noch etwas mehr 
+Schalldruck zu bekommen, weil die Schwelle der Limiter  dann etwas höher liegt. 
+ 
+Bei "live"-Musik läuft ein Teil der Instrumente und  die Stimme (Gesang) über die Saalanlage, 
+und somit durch die SPL3/3TS. Die übrigen Instrumen te laufen über den "live"-Eingang der 
+Limiter. Sobald die Musik zu laut wird, regelt der Limiter diejenigen Instrumente, die über die 
+Saalanlage laufen, zurück; Ergebnis sehr unbefriedi gend... 
+ 
+Das stimmt. Der SPL3 und SPL3TS sind nicht entworfen  worden um zugleich in der  "live"- und 
+"Music"-Betriebsart verwendet zu werden. Denn, wenn  der Limiter detektiert, das die Maximalpegel 
+überschritten worden, gibt es nur eine logische Lösung:  zurückregeln!  Damit kommt der Ausgleich 
+zwischen den Instrumenten natürlich ins Schwanken, be sonders wenn eine Anzahl der Instrumente 
+ungeschwächt durchspielen können (Drums!). In solchen  Fällen ist es besser alle Instrumente ohne 
+Limiter laufen zu lassen, und nur die "live"-Schalta usgänge der Limiter zu nutzen.  
+14  Bedienung  SPL2(TS) und SPL3(TS) Gebrauchsanweisung  D 
+ 
+  
+Technische Daten 
+EINGÄNGE 
+MIC (Meßmikrophon) ................................. ..... XLR-3 female, symmetriert, nur mitgelieferte 
+Mikrophon benützen 
+LINE (links & rechts) ................................ ....... XLR-3 female, symmetriert 
+ Pegel ............................................... ...... -14 .. +6 dBu 
+ Impedanz............................................... 10 kOhm 
+ 
+ 
+AUSGÄNGE 
+LINE (links & rechts) ................................ ....... XLR-3 male, symmetriert 
+ Impedanz............................................... 600 Ohm 
+ 
+ 
+ALGEMEIN 
+AUDIO 
+ Frequenzgang........................................ 20 H z .. 20 kHz 
+ S/N ............................................... ......... > 80 dB 
+ THD + N ........................................... ..... < 0.05 % (CCIR-RMS) 
+BEGRENZUNG 
+ Limiter Threshold (einstellbar)................ -14 .. +6 dBu (ohne M eßmikrophon) 
+ Limiterdrempel (einstellbar).................... 80 .. 120 dBA (mi t Meßmikrophon) 
+ Ausgangsschwächung(einstellbar)......... 0 .. -40 dB (ohne Meßmikrophon) 
+FERNANZEIGE 
+ Externe Lautstärkeregelung................... 0 .. -20 dB (10 kOhm Potentiometer) 
+ Fernanzeige und Schaltausgänge.......... 20 V / 10 mA DC 
+STROMVERSORGUNG 
+ Spannungsbereich................................. 220...240 VAC /  50 Hz 
+ Leistung.............................................. ... 10 W (SPL2 / SPL3), 20 W (SPL2TS / SPL3TS) 
+ABMESSUNGEN UND GEWICHT 
+ Vorderseite ........................................... . 483 x 45 mm (B x H) = 19”, 1HE 
+ Tiefe des Gerätes .................................. 175 mm  
+ Gewicht (netto) ...................................... 3.2 kg (SPL2 / SPL3), 3.5 kg (SPL2TS / SPL3TS) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Produkt Unterstützung 
+Für weitere Fragen betreffs der SPL-Limiter-Familie, Zubehör und weiterer Produkte stehen wir 
+Ihnen jederzeit gern zur Verfügung: 
+ 
+Dateq Audio Technologies B.V. 
+De Paal 37 
+1351 JG  ALMERE 
+Niederlande 
+ 
+Telefoon: +31 36 54 72 222 
+Email:  info@dateq.nl 
+Internet: www.dateq.nl  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ VERKLARING VAN OVEREENSTEMMING   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+ 
+  
+ 
+Wij,  DATEQ Audio Technologies b.v.  
+ de Paal 37, 
+ 1351 JG  ALMERE, 
+ Nederland 
+ 
+ 
+ 
+verklaren, uitsluitend op onze verantwoordelijkheid,  dat dit produkt 
+ 
+ 
+Type: SPL 2 MkII  Serienummers: 18-XXXX  
+ 
+ 
+waarop deze verklaring betrekking heeft, in overeenste mming is met de volgende 
+geharmoniseerde Europese normen 
+ 
+EN 50081-1 en EN 50082-1 
+ 
+Volgens de bepalingen van de EMC-richtlijn 89/336/EEG, ge wijzigd door de richtlijn 
+91/263/EEG, 92/31/EEG en 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+Volgens de bepalingen van IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratificatie: 1993-07-06 
+ 
+ 
+ 
+Almere, 12 februari 2013  J.H. Kloppenburg, Directeur 
+ 
+stempel:    handtekening: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ DECLARATION OF CONFORMITY   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+  
+ 
+We,  DATEQ Audio Technologies B.V.  
+ de Paal 37 
+ 1351 JG  ALMERE 
+ THE NETHERLANDS 
+ 
+ 
+ 
+hereby declare, exclusively to our responsibility, that this product 
+ 
+ 
+Type: SPL 2 MkII  Serialnrs.: 18-XXXX  
+ 
+ 
+to which this declaration applies, is in accordance with the following harmonized European 
+norms 
+ 
+EN 50081-1 and EN 50082-1 
+ 
+According to the regulations of the EMC-directive 89/33 6/EEG, amended by directive 
+91/263/EEG, 92/31/EEG and 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+According to the regulations of IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratification: 1993-07-06 
+ 
+ 
+ 
+Almere, February 12th 2013 J.H. Kloppenburg, managing dir ector 
+ 
+stamp:  signature: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ VERKLARING VAN OVEREENSTEMMING   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+  
+ 
+Wij,  DATEQ Audio Technologies b.v.  
+ de Paal 37, 
+ 1351 JG  ALMERE, 
+ Nederland 
+ 
+ 
+ 
+verklaren, uitsluitend op onze verantwoordelijkheid,  dat dit produkt 
+ 
+ 
+Type: SPL 3 MkII  Serienummers: 23-XXXX  
+ 
+ 
+waarop deze verklaring betrekking heeft, in overeenste mming is met de volgende 
+geharmoniseerde Europese normen 
+ 
+EN 50081-1 en EN 50082-1 
+ 
+Volgens de bepalingen van de EMC-richtlijn 89/336/EEG, ge wijzigd door de richtlijn 
+91/263/EEG, 92/31/EEG en 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+Volgens de bepalingen van IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratificatie: 1992-07-06 
+ 
+ 
+ 
+Almere, 12 februari 2013  J.H. Kloppenburg, Directeur 
+ 
+stempel:    handtekening: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ DECLARATION OF CONFORMITY   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+  
+ 
+We,  DATEQ Audio Technologies B.V.  
+ de Paal 37 
+ 1351 JG  ALMERE 
+ THE NETHERLANDS 
+ 
+ 
+ 
+hereby declare, exclusively to our responsibility, that this product 
+ 
+ 
+Type: SPL 3 MkII  Serialnrs.: 23-XXXX  
+ 
+ 
+to which this declaration applies, is in accordance with the following harmonized European 
+norms 
+ 
+EN 50081-1 and EN 50082-1 
+ 
+According to the regulations of the EMC-directive 89/33 6/EEG, amended by directive 
+91/263/EEG, 92/31/EEG and 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+According to the regulations of IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratification: 1993-07-06 
+ 
+ 
+Almere, February 12th 2013 J.H. Kloppenburg, managing dir ector 
+ 
+stamp:  signature: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ VERKLARING VAN OVEREENSTEMMING   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+  
+ 
+Wij,  DATEQ Audio Technologies b.v.  
+ de Paal 37, 
+ 1351 JG  ALMERE, 
+ Nederland 
+ 
+ 
+ 
+verklaren, uitsluitend op onze verantwoordelijkheid,  dat dit produkt 
+ 
+ 
+Type: SPL 2 TS MkII  Serienummers: 19-XXXX  
+ 
+ 
+waarop deze verklaring betrekking heeft, in overeenste mming is met de volgende 
+geharmoniseerde Europese normen 
+ 
+EN 50081-1 en EN 50082-1 
+ 
+Volgens de bepalingen van de EMC-richtlijn 89/336/EEG, ge wijzigd door de richtlijn 
+91/263/EEG, 92/31/EEG en 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+Volgens de bepalingen van IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratificatie: 1993-07-06 
+ 
+ 
+Almere, 12 februari 2013  J.H. Kloppenburg, Directeur 
+ 
+stempel:    handtekening: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ DECLARATION OF CONFORMITY   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+  
+ 
+We,  DATEQ Audio Technologies B.V.  
+ de Paal 37 
+ 1351 JG  ALMERE 
+ THE NETHERLANDS 
+ 
+ 
+ 
+hereby declare, exclusively to our responsibility, that this product 
+ 
+ 
+Type: SPL 2 TS MkII  Serialnrs.: 19-XXXX  
+ 
+ 
+to which this declaration applies, is in accordance with the following harmonized European 
+norms 
+ 
+EN 50081-1 and EN 50082-1 
+ 
+According to the regulations of the EMC-directive 89/33 6/EEG, amended by directive 
+91/263/EEG, 92/31/EEG and 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+According to the regulations of IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratification: 1993-07-06 
+ 
+ 
+ 
+Almere, February 12th 2013 J.H. Kloppenburg, managing dir ector 
+ 
+stamp:  signature: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ VERKLARING VAN OVEREENSTEMMING   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+  
+ 
+Wij,  DATEQ Audio Technologies b.v.  
+ de Paal 37, 
+ 1351 JG  ALMERE, 
+ Nederland 
+ 
+ 
+ 
+verklaren, uitsluitend op onze verantwoordelijkheid,  dat dit produkt 
+ 
+ 
+Type: SPL 3 TS MkII  Serienummers: 24-XXXX  
+ 
+ 
+waarop deze verklaring betrekking heeft, in overeenste mming is met de volgende 
+geharmoniseerde Europese normen 
+ 
+EN 50081-1 en EN 50082-1 
+ 
+Volgens de bepalingen van de EMC-richtlijn 89/336/EEG, ge wijzigd door de richtlijn 
+91/263/EEG, 92/31/EEG en 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+Volgens de bepalingen van IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratificatie: 1993-07-06 
+ 
+ 
+ 
+ 
+ 
+Almere, 12 februari 2013  J.H. Kloppenburg, Directeur 
+ 
+stempel:    handtekening: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ DECLARATION OF CONFORMITY   
+  acc.to art.10.1 EMC directive 89/336/EEC 
+  
+ 
+We,  DATEQ Audio Technologies B.V.  
+ de Paal 37 
+ 1351 JG  ALMERE 
+ THE NETHERLANDS 
+ 
+ 
+ 
+hereby declare, exclusively to our responsibility, that this product 
+ 
+ 
+Type: SPL 3 TS MkII  Serialnrs.: 24-XXXX  
+ 
+ 
+to which this declaration applies, is in accordance with the following harmonized European 
+norms 
+ 
+EN 50081-1 and EN 50082-1 
+ 
+According to the regulations of the EMC-directive 89/33 6/EEG, amended by directive 
+91/263/EEG, 92/31/EEG and 93/68/EEG. 
+ 
+ 
+EN 60065 
+ 
+According to the regulations of IEC 65: 1985 + A1: 1987 + A2: 1989 + A3: 1992, mod. 
+Ratification: 1993-07-06 
+ 
+ 
+ 
+Almere, February 12th 2013 J.H. Kloppenburg, managing dir ector 
+ 
+stamp:  signature: 
+ 
+ 

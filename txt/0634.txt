@@ -1,0 +1,423 @@
+	  
+ Website User Manual 
+
+“Bridgeman Education is breath-taking: 
+a beautifully rendered product at a sensible price. Obviously a labour of love and enormous creativity. The high-quality and extensive content is made easily 
+accessible through quick search and browsing in a 
+wealth of categories and subcategories. 
+Unreservedly recommended for all libraries serving 
+anyone needing art and historic images.” 
+Library Journal 
+Introduction to the new website 
+Searching:
+Quick Search 
+Advanced Search
+Subject Categories 
+Search Tips 
+Viewing Images: 
+Results View Detailed image view 
+Zooming 
+Saving and Retrieving Image
+ 
+The Slideshow: 
+Creating a slideshow 
+Viewing a slideshow Saving and editing a slideshow
+Retrieving a slideshow
+Downloading a slideshow 
+Other Bridgeman Services 
+	  
+Introduction to the new website 
+
+Bridgeman Education is a complete visual resource for students, educators and academic 
+professionals both in and out of the classroom.  It has been developed on the basis of research carried out by our postdoctoral researcher for the beneﬁt of the educational e-learning sector.  
+Building on the experience and feedback gathered over the years, the new site provides all the 
+functionality of the previous version as well as enhanced and additional features such as: 
+• Detailed usage statistics – available on request or via Counter 
+• Shibboleth access • Compliance to standards such as COUNTER, Z3950 and Open URL 
+• Compliance to W3C standards for accessibility and disability 
+• Touch-screen friendly – ideal whiteboard tool 
+• Zoom feature and ability to capture details and store in the slideshows 
+• Many more images added from museums, private galleries and historical societies around the world 
+This manual explains the many ways in which to use the site in order to get the most out of our vast 
+resource.  For all further questions, please get in touch with the Bridgeman Education team – the 
+contact details can be found at the foot of each page. 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  
+Searching
+Bridgeman Education offers two search 
+functions, the Quick and the Advanced search, 
+as well as a range of indexes and Subject categories available to all subscribed 
+members.
+Quick Search
+This is a 'Google' type search using keywords that will retrieve results 
+containing one or more of the keywords you enter into the Search ﬁeld. 
+The results will be sorted by relevance, i.e. results corresponding to all 
+search terms ﬁrst then in decreasing relevance.  For example, a search 
+using the keywords “Hopper, woman and street” ﬁrst will retrieve results containing all three words, then will retrieve results containing two of 
+them, and ﬁnally will retrieve results containing all results with just one 
+of the keywords.
+You can change this option and organize your search results by ‘most 
+recent’. 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+Advanced Search
+The Advanced Search allows you to narrow the focus of the search by 
+including details such as:
+Search all ﬁelds (using keywords)
+Image title 
+Artist's name
+Medium (photograph, oil on canvas, stone, watercolor, etc.) 
+Location (as in where the original is kept e.g. ‘Louvre’)**
+YearCentury
+**Location refers to the current location of the work country or institution.  
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+The Advanced search function is particularly useful when looking for artists with a generic name such as Black, 
+Jones, etc., or for images at a speciﬁc location such as the Prado, Washington D.C., Guggenheim, Louvre and so on.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+Once you hit Search you can:
+Search within results 
+Select the orientation of the image 
+Filter the results by color
+Order the search results by 
+Best Relevance
+Most recent image
+Image numberArtist name
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+
+	  
+Subject categories
+Image selections pre-created by
+Bridgeman Education picture researchers
+We currently have 13 subject categories live on the site organizing our collection by Movement, Period, School, 
+Subject, Medium, etc.  The subject categories are also organized according to areas of study such as Graphic 
+Design, Geography, Medicine and many more.  Additionally, we have created conceptual selections based on 
+emotions.
+We add to our subject categories regularly and are happy to hear of any gaps that you might want ﬁlled or categories 
+that are in need of more content.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+
+Each category is divided into several sub-categories, which provide more detail and speciﬁc content on each subject. 
+Once you have opened a subject category, you will ﬁnd a series of topics listed within it that in turn can be clicked on.  These 
+sub-categories will lead you to speciﬁc image selections. 
+We recommend you take your time in exploring all of the subjects because many of these categories are several “levels” deep.  
+Here is our Movement, Period, School category as an example.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  
+Search Tips
+Special keywords, Boolean search and other
+useful tips to perform searches
+You can try the following to narrow down your search results.
+Use a negative search to exclude certain result: enter a minus sign without a space in front of your search term
+Another example would be to type in "Jean-Francois Millet NOT landscape "; the search will remove all of Millet’s 
+landscapes and narrow the results down to mainly portraits.
+Use OR: add OR to your keyword searches to ensure that you retrieve all possible results around one topic
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+Spelling
+In order to increase your chances of ﬁnding the correct results, try using different spellings. 
+For example, when looking for St Mark’s Venice, also try searching SAN MARCO.
+Similar examples are:
+Mohammad II - try Mohammed Ii
+ALIXI, ALEXEI, ALEXY, etc.
+Similarly, when looking for images associated with a particular movement, style or period, try the following:
+• Impressionist  not – ism
+• Expressionist  not – ism
+• Realist  not – ism
+You can also refer to our Subjects page menu as you will ﬁnd a lot of these subjects have been pre-selected for you.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+Keywords
+Once you find an image, be sure to look at the keywords listed on the right hand side.  Clicking on these words will 
+lead you to other related results.
+Try using fewer keywords in your searches; the fewer keywords used , the broader the selection of resul ts.  Think 
+laterally when searc hing.  For e xample, if you are looking for images of an event that occu rred in a certain place 
+at a specific time, try using all related keywords in order to broaden y our search, e.g. Berlin wall, 1989 , Germany, 
+photograp h, reuni on, celebration, cold war, etc.
+You can also try searching moods , colors and forms, e.g. blue, g reen, colorful, concep tual, geometric, shape, 
+jealousy, happi ness, contemplation, s adness , atmosph eric, spiritual, merriment, melancho ly, etc.  The Subjects 
+category also contains a pre-sel ected concep tual index .
+NB. When searching for men or women be sure to ent er male/female as search term key words as well.
+Boolean Search
+Using a star (*) or ‘wildcard’ word prefix will hel p you find words with the same b eginning and multiple endi ngs. For 
+instance, Kand* will bring up i mages of Kandi nsky whether they are written with a y or an i.
+This feature is great for plurals, for  languages like Russian, or for mo vement s such as Romant ici –st or –ism.
+Bound search
+Using quotations around speciﬁc phrasing, i.e. “Tiger, Tiger Burning B right” or “dejeuner sur l’herbe” or “word play,” 
+will nar row down your resul ts to that specific wording.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  
+Viewing Images
+Search results order, image size and 
+information options
+Results view:
+Search results will ﬁrst be displayed at thumbnail size across one or more pages.  The total number of results will 
+be shown at the top of the page as well as the manner in which the results have been sorted, i.e. by best 
+relevance, most recent, asset number, or artist name.  You can change this order by using the drop down box 
+below:
+ 
+The number of page results is at the bottom of each page.  You can use the arrows to move between the pages 
+or to go straight to the last or ﬁrst page of results.
+In the thumbnail format, you will see partial captions:
+The partial captions include the title of  the work, name of the 
+artist, and dates where known as well as the Bridgeman 
+reference number.
+The icons below the image allow you to:
+Add the image to a slideshow
+Open the zoom window
+Download the image
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+
+	  	  
+Detailed image view:
+If you want to view the larger version of the image, simply click on the image itself.  This will open a new window in 
+which you can view the complete image details and keywords that can be clicked on to take you to related results.
+ 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Zooming:
+From the search results page, you can zoom into the image and view it in detail.  Simply click on the eye icon:
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Zooming:
+This will open a new window in which you can use the magnifying glass to zoom into the image.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Zooming:
+To exit this view, simply click on the cross
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Not all our images have been scanned to a high enoug h resol ution to allow for zoomi ng.  I f this is the case, you will 
+get the following message: 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+
+	  
+Saving Images
+Saving and r etrieving images on 
+your computer  or in an online slidesho w
+	  	  
+Saving images
+From the search results :
+Simply click on the Download button;
+the image will be saved in your downloads folder.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  
+The Slideshow
+Saving, editing, adding notes, and 
+downloading
+	  	  
+Creating a Slideshow
+The Slidesho w function allows you to create y our own collections of images, i.e. slideshows, w hich you can then annot ate, 
+view and download.  This is a handy w ay of keeping selections of images available onlin e so that you can retrieve them 
+from different locations and comput ers.  You can also review your selection and s ave or d iscard it a t your leisure.
+To create a slidesho w, simp ly click on the ’”Select” button found undernea th every ima ge in search resul ts.  Then click on 
+“Create slideshow”
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Creating a Slideshow
+Select an existing option or name a new slideshow and press “Save. ”
+Once your slideshow is created, you will see this message in the top right corner of the screen.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Adding images
+To add i mages to a slidesho w, click on the ‘”Ad d to slide show‘” but ton found undernea th every ima ge in the search resul ts.
+You can also drag and drop an image to the box on the right.
+You have the option to add 
+duplicate images to your 
+slideshow.  This can be 
+particularly useful if you are 
+planning to save cropped details 
+of your images.
+When you add a duplicate, a pop-
+up window will alert you that you 
+are adding a duplicate. 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+
+	  	  
+Viewing a Slideshow
+To open a slidesho w, click on the “View  slidesho w” bar found in the slideshow panel to the right of the s earch resul ts. 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Assets and Slideshow options
+Now that you have opened the slideshow, you can: 
+ 
+• Select or Deselect all assets and remove them           
+from the slideshow 
+ 
+• Play the slideshow 
+ • Share the slideshow with another Bridgeman 
+Education user 
+ • Download the slideshow and the notes** you made 
+Under the assets 
+ in a PDF document. 
+ 
+** The Notes you save in the slideshow box will not be 
+visualized when downloading the PDF. 
+ 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+
+	  	  
+Editing a Slideshow
+To access the editing capabilities of the slideshow, click on the “ Play slideshow” bar:
+A viewer window will open, and images are shown in full screen by default. 
+Click on the wheel symbol.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Display option of a Slideshow
+The following viewing options will be available:
+• Full screen view 
+• 1 image view
+• 2 images view 
+• 4 images view
+By selecting or de-selecting Title, Artist and/or 
+Caption , the corresponding information will be 
+displayed or hidden from your slideshow.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Editing images in a Slideshow
+Below each image you have 3 icons:
+• Edit Asset
+• Download Image
+• Remove Image from Slideshow
+“Download Image” and “Remove Image from 
+Slideshow” are self-explanatory.  We will 
+concentrate on the “Edit Asset” function.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Editing images in a Slideshow
+Clicking on the “Edit Asset” button will open the below window in which you can edit the Asset’s ﬁelds (Title, Artist and 
+Caption) and crop the image. 
+To edit the text ﬁelds, simply add or remove text in the boxes beneath the headers.  To Edit the image, click on “ Edit Crop.”
+ 
+ 
+ 
+ 
+  
+ 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Clicking on “Edit Crop” will open the window below in which you select the portion of image you want to save.
+Once you are satisﬁed with the cropped image, click on the green button and you will return to the edit Asset Window.  
+ 
+ 
+  
+ 
+ 
+ 
+You now can preview your edits.
+To save, press “Save,” and the slideshow will update 
+(see next slide).
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+NB: Editing an asset will override the original one.
+If you wish to have the original version of the image (in this case image XIR16611), simply search for the asset again 
+and add it to the slideshow.  You may also add two copies of the same image before creating a crop.  
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Deleting a Slideshow
+You can access a list of your Slideshows by clicking on either
+Slideshows or My Account
+Either option will open the following window.  To delete the slideshow, click on the corresponding button.
+ 
+ 
+ 
+  
+ 
+ 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Creating a Slideshow – Private versus Public
+When you create a slideshow, it will automatically be made public.  If you are using Bridgeman Education through a 
+school  or university, the slideshows you create are public to all other users in your school or university. 
+In order to make a slideshow private, you need to deselect the  Make Public box and add your email address. 
+Once a slideshow is made private or public, its status cannot be changed.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+NB: you will receive an email with the unique, private URL 
+of your slideshow shortly after creating it.
+Currently, there is no functionality to retrieve private 
+slideshows from your account, so please keep this URL 
+safe.
+	  	  
+Reordering Images in a Slideshow
+Simply drag and drop the images in the order you prefer:
+ 
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+
+	  	  
+Downloading a Slideshow
+The slideshow i s best used on line through the 
+Bridgeman Educa tion websit e.
+It can be retrieved through any browser on any 
+computer with your usern ame and pass word if you 
+are out of IP range.  
+However, if you wish to download a copy of the 
+slideshow simply use the “ Download”  button to 
+save a PDF ﬁle.
+NB:  Any cropping edits and/or edits to the title, 
+artist, and/or caption will be visible in the PDF.  
+However, any notes you save in the slideshow 
+notes box will not be visible in the downloaded 
+PDF.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  	  
+Sharing a Slideshow
+To share the slideshow, click on the “Share” button 
+and add the email address of the person to whom 
+you wish to send it.
+NB:  The slideshow can be shared only with 
+Bridgeman Education Registered Users.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+	  
+Bridgeman Family &
+Bridgeman Services
+
+40 years experience as the 
+world’s leader in providing 
+Rights Managed images & 
+Footage.Bridgeman Contemporary artists' portal to show their 
+work and have their work 
+commissioned.  A leading footage service that provides ﬁlm clips to TV, 
+Documentary and Movie 
+clients around the world.The leading provider of educational content to teachers, 
+colleges and universities.Partnered with Art.com to 
+create products with 
+the world's leading art, 
+photography and sculpture.
+A leading footage service that 
+provides ﬁlm clips to TV, 
+Documentary and Movie 
+clients around the world.A leading footage service that provides ﬁlm clips to TV, 
+Documentary and Movie 
+clients around the world.
+
+	  	  
+Our skilled researchers are 
+here to help you source 
+images, clear copyright, 
+search our extensive ofﬂine 
+archive and much more.Don't	  be	  dictated	  by	  exis0ng	  
+images:	  commission	  your	  own	  
+from	  a	  Bridgeman	  Studio	  ar0st	  
+and	  license	  it	  exclusively.	  Bridgeman will help clear 
+copyright on behalf of prestigious 
+Artists and Artists’ Estates  or will 
+guide you to the right copyright-
+holders. Bridgeman	  Images	  –	  Corporate	  Presenta,on	  
+Don't be limited by existing 
+images; commission your own 
+image from a Bridgeman 
+Studio artist and license it 
+exclusively.
+
+Image Licensing 
+Your Bridgeman Education license covers you for all educational, non-commercial use of our 
+images.  If you would like to use one of our images in a published paper, book or paid lecture, you 
+will need to request a new license for that one use. 
+This is quick and easy; simply call +1 212 828 1238, or email  nysales@bridgemanimages.com .  
+We will ask for relevant details, inform you of any applicable additional rights or restrictions, and 
+provide a price quote.
+©Bridgeman Education - Tel: +1 212 828 1238 bridgemaneducation@bridgemaneducation.com  
+Leslie Wong
+Leslie.wong@bridgemanimages.com
+Tel: +1 212 828 1238
+Wendy Zieger
+Wendy.zieger@bridgemanimages.com 
+Tel: +1 212 828 1238 
